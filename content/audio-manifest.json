@@ -1,0 +1,3653 @@
+{
+  "voice": "ko-KR-SunHiNeural",
+  "rate": "+0%",
+  "pitch": "+0Hz",
+  "entries": {
+    "가": {
+      "path": "/audio/64ee5293d31bc58b72d7.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "가깝다": {
+      "path": "/audio/9ff63e71387c2c60a305.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "가다": {
+      "path": "/audio/233cb510410b09d69cdc.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11520
+    },
+    "가방": {
+      "path": "/audio/6852b2954fc8556674f1.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "가정": {
+      "path": "/audio/4b987d4b6a865acd1c42.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "가정 환경과 지역의 자원도 영향을 미쳐요.": {
+      "path": "/audio/1497edffd46af52a5ee4.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 23472
+    },
+    "가져오다": {
+      "path": "/audio/13f6f1041daf74b52d00.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 12672
+    },
+    "가족": {
+      "path": "/audio/7659575fd72a872b8d05.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "가족에게만 책임을 맡기기에는 한계가 있어요.": {
+      "path": "/audio/50eaa576073604d65ea5.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 23328
+    },
+    "가지다": {
+      "path": "/audio/f3b684d86e5485ededb3.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11952
+    },
+    "간결하다": {
+      "path": "/audio/e8990dc1e1bc3dfa40e7.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 13104
+    },
+    "감사하다": {
+      "path": "/audio/552d49e405b9383e0803.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 13104
+    },
+    "감사합니다. 얼마나 걸릴까요?": {
+      "path": "/audio/6e67801c7768b1779352.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 25632
+    },
+    "강도": {
+      "path": "/audio/7866fc07b935f9a4a66b.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "강조하다": {
+      "path": "/audio/9da0c101918bdb5bca82.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 12672
+    },
+    "같은 기회를 주는 것과 같은 결과를 보장하는 건 다르군요.": {
+      "path": "/audio/c3537049e865c4122545.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 28800
+    },
+    "같은 사회 안에서도 세대와 상황에 따라 다르겠네요.": {
+      "path": "/audio/6fde7edd80e9ac986264.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 26352
+    },
+    "같이": {
+      "path": "/audio/d44da011993f2a6e9ba5.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "개선": {
+      "path": "/audio/99c38307c1418bc212f9.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "개인": {
+      "path": "/audio/9b679df05d68aaba608e.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "개인 정보나 공개되지 않은 자료를 입력할 때도 주의해야겠네요.": {
+      "path": "/audio/3518d1074ff8e538495b.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 29808
+    },
+    "개인의 노력도 필요하지만 제도적 뒷받침이 중요해요.": {
+      "path": "/audio/95a911841324ec803f5a.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 27936
+    },
+    "개인의 행동을 집단 전체의 특성으로 일반화하면 안 돼요.": {
+      "path": "/audio/c71ca3e88a7576ddfdfd.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 28224
+    },
+    "거": {
+      "path": "/audio/ffcedfda7558e5dc31fe.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "건물": {
+      "path": "/audio/51a9489f74ea88e7bf4d.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "걷다": {
+      "path": "/audio/82e3bb1b27351e4d45ed.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "걸리다": {
+      "path": "/audio/d94590a358564fb83462.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 12240
+    },
+    "검증하다": {
+      "path": "/audio/82db74cccd0a760aaef5.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 13104
+    },
+    "검토하다": {
+      "path": "/audio/3b822ac1f688f702b830.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 12816
+    },
+    "격차": {
+      "path": "/audio/00215bdb907dd123ba7d.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "결과": {
+      "path": "/audio/109383e344db8ae54a47.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "결론": {
+      "path": "/audio/ce5da34183dc53ab86fe.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "결론에서는 새로운 논점보다 핵심 내용을 종합하는 게 좋아요.": {
+      "path": "/audio/0c04d2d00a4d97d62bbd.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 29808
+    },
+    "경우": {
+      "path": "/audio/0925aa90ecffa7d68ff7.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "경험": {
+      "path": "/audio/340b9a0fcd5fc1d6bfa3.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "경험을 나누고 사회에 참여할 기회도 중요하니까요.": {
+      "path": "/audio/55c72d043a78f998e70b.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 26208
+    },
+    "계산하다": {
+      "path": "/audio/789e5000e94e13298d23.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 12240
+    },
+    "계약하기 전에 내용을 꼼꼼히 확인하고 싶어요.": {
+      "path": "/audio/f57219f03347a54056ab.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 23472
+    },
+    "계약하다": {
+      "path": "/audio/0451a0e51eefae3bca36.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11808
+    },
+    "고려하다": {
+      "path": "/audio/e851dff4a22bdcbc1c8d.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 12528
+    },
+    "고령화": {
+      "path": "/audio/9c6e426617f9901d273a.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "고령화가 진행되면 돌봄 수요도 늘어나겠죠?": {
+      "path": "/audio/99c52866136706458bfd.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 25056
+    },
+    "고마워요. 내일도 비가 올까요?": {
+      "path": "/audio/9c09984fd9a259972553.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 24624
+    },
+    "고맙다": {
+      "path": "/audio/ded2b4943e89f57dd33d.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "공간": {
+      "path": "/audio/a664be21489449336498.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "공개되다": {
+      "path": "/audio/9ebfdaabd37011ee23a5.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 12240
+    },
+    "공부 시간이 긴 학생일수록 점수가 높았어요.": {
+      "path": "/audio/46dce3f51ce9c73712e2.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 26208
+    },
+    "공부하다": {
+      "path": "/audio/002a60f979d8c3de292f.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 12528
+    },
+    "공용": {
+      "path": "/audio/ebda040910673e845e27.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "공용 공간을 어떻게 운영하면 좋을까요?": {
+      "path": "/audio/50c638397e43fabba33a.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 21888
+    },
+    "공유하다": {
+      "path": "/audio/c2d7d5f37d09f37662ac.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 12672
+    },
+    "공정하다": {
+      "path": "/audio/a2293b5ce97ee0fff6ce.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 12672
+    },
+    "과장되다": {
+      "path": "/audio/77a32bb22d5598e11702.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 12816
+    },
+    "과제": {
+      "path": "/audio/2c81182794f85e9873c5.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "관련성": {
+      "path": "/audio/5b35bfb2417cd6339a1c.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11376
+    },
+    "관리비": {
+      "path": "/audio/898778f1314f2275f180.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "관리비에는 어떤 항목이 포함돼요?": {
+      "path": "/audio/57885c1f984cc038204a.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 19584
+    },
+    "관찰되다": {
+      "path": "/audio/4c71749b7e5ba7b4a925.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 13680
+    },
+    "교실": {
+      "path": "/audio/ed3c8c7f5e586d363644.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "교육": {
+      "path": "/audio/4da9a75910ede3adef01.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "교육 격차를 개인의 노력만으로 설명할 수 있을까요?": {
+      "path": "/audio/3051c89200207db1b9b3.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 25488
+    },
+    "교환하다": {
+      "path": "/audio/41a806c0ef662aae8dc0.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11952
+    },
+    "구분하다": {
+      "path": "/audio/f279469d90b7f150964c.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 12384
+    },
+    "구조": {
+      "path": "/audio/74132db92c50ae3a0a25.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "구체적": {
+      "path": "/audio/b3bef5fa2aa9a1953855.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "구하다": {
+      "path": "/audio/288eb4bbfc0c27cc5bf6.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11664
+    },
+    "국": {
+      "path": "/audio/8178f6b3db96ee306d49.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "권리": {
+      "path": "/audio/357a3b70edbb6e831aa7.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "균형": {
+      "path": "/audio/634269a095ddb1b1dd57.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "그 결과만으로 인과 관계를 단정할 수 있을까요?": {
+      "path": "/audio/3ff8abb9a216a3dfb9fc.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 25056
+    },
+    "그 점까지 고려한 균형 잡힌 정책이 필요해요.": {
+      "path": "/audio/48d007f0eceef7a5c595.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 24768
+    },
+    "그래서 원문을 직접 확인하고 인용의 맥락을 살펴봐야 해요.": {
+      "path": "/audio/7ab814346354caad6a5a.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 29376
+    },
+    "그러려면 꾸준히 공부해야겠네요.": {
+      "path": "/audio/bc6b65db979e7f6cd3d2.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 19152
+    },
+    "그런 방식이 단순한 주장 반복보다 효과적이에요.": {
+      "path": "/audio/04e5077a28d7ad91293e.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 25488
+    },
+    "그런 변수를 통제하지 않으면 결론이 과장될 수 있겠네요.": {
+      "path": "/audio/7e8e080b780dfa109f46.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 28800
+    },
+    "그럼": {
+      "path": "/audio/86f87d3fb9919f145d21.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "그럼 같이 갈까요?": {
+      "path": "/audio/731d47d4996705833cf9.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 13680
+    },
+    "그럼 내일 산책해요.": {
+      "path": "/audio/658a9786d2663da7939a.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 15408
+    },
+    "그럼 다음 주는 어때요?": {
+      "path": "/audio/434130c6274493ef5696.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 15408
+    },
+    "그럼 두 시에 만날까요?": {
+      "path": "/audio/b383c6e00ca6d810cb28.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 15408
+    },
+    "그럼 상대의 주장을 공정하게 정리하는 게 먼저겠네요.": {
+      "path": "/audio/a34d09c81d33f283d17a.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 27936
+    },
+    "그럼 오 퍼센트 오른 건가요?": {
+      "path": "/audio/f9e9023733020a574a6a.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 17424
+    },
+    "그럼 저는 자료를 정리할게요.": {
+      "path": "/audio/2a01f4ee86ff67750021.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 19152
+    },
+    "그럼 토요일로 정해요.": {
+      "path": "/audio/38461ab4d3608cc3cf77.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 15120
+    },
+    "그럼 평일과 주말의 기준을 다르게 정해요.": {
+      "path": "/audio/d04d32f2011aeb91c4fb.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 21888
+    },
+    "그렇죠. 혜택과 비용이 누구에게 돌아가는지도 중요해요.": {
+      "path": "/audio/5ed6da59afecd9be20c2.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 33552
+    },
+    "그렇지만 생성된 내용을 검증할 책임은 연구자에게 있어요.": {
+      "path": "/audio/4104158dd64138c812fd.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 29664
+    },
+    "근거": {
+      "path": "/audio/d7794cf130b736a79160.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "근무": {
+      "path": "/audio/e0166281024853dc55a5.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "근무 시간을 줄이면 생산성이 떨어질까요?": {
+      "path": "/audio/b96894b5aee1f389ff7a.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 22176
+    },
+    "글": {
+      "path": "/audio/f77a9ef73a92993883d4.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "금요일": {
+      "path": "/audio/a594e9b583050ec46ff9.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "금요일까지 끝낼 수 있을 것 같아요.": {
+      "path": "/audio/f451f2c88dbfb04fe2bf.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 20160
+    },
+    "기기": {
+      "path": "/audio/e3299f2d5feda0f12b15.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "기다리다": {
+      "path": "/audio/1f9765247406d52d5aaa.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 12528
+    },
+    "기사": {
+      "path": "/audio/1f896d183072b81262d9.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "기업": {
+      "path": "/audio/120a4a40716cc36a6a5d.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "기업의 생산 방식도 달라져야 하겠네요.": {
+      "path": "/audio/80a6cef9c2653977047e.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 22032
+    },
+    "기존": {
+      "path": "/audio/34986eb88c500691d659.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "기존 실력이나 학습 환경이 영향을 주었을 수도 있어요.": {
+      "path": "/audio/45fa23b1e2a97b99aba3.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 27072
+    },
+    "기준": {
+      "path": "/audio/eaea55bff60093748aab.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "기침": {
+      "path": "/audio/aa2351b107c957346a08.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "기회": {
+      "path": "/audio/1815f64fee30a098d49f.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "까": {
+      "path": "/audio/04889035dadadfda6292.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "꼼꼼히": {
+      "path": "/audio/43b5003ec49e6c650a6b.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "꾸준히": {
+      "path": "/audio/9af169ff99300cbbbdbd.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "끝내다": {
+      "path": "/audio/686f8e089bf22cd01d10.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 12240
+    },
+    "나": {
+      "path": "/audio/1098bbe54520ab2a367c.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "나누다": {
+      "path": "/audio/8a88d2ae9895b06ef350.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 12384
+    },
+    "나라": {
+      "path": "/audio/02faec8ed1c75703dcd3.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "나머지": {
+      "path": "/audio/b670444e5c04d73617d3.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "날": {
+      "path": "/audio/818c8a303c20bac05fae.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "낮다": {
+      "path": "/audio/066edc9ea6d8d3424666.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "낯설다": {
+      "path": "/audio/f8ed723eebf05294a03f.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 13104
+    },
+    "낯설다고 해서 틀렸다고 판단해서는 안 되겠어요.": {
+      "path": "/audio/4842acc6d4610315bb23.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 25632
+    },
+    "내리다": {
+      "path": "/audio/01d776172b3f93c3c9d5.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11808
+    },
+    "내릴 때 이 버튼을 누르나요?": {
+      "path": "/audio/bda41c9169217493c170.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 17568
+    },
+    "내용": {
+      "path": "/audio/cb0f24046b508710d631.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "내일": {
+      "path": "/audio/1e07b94ba5182a41e7de.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "넘어서다": {
+      "path": "/audio/b9c4cc2e28e61ecf2cb5.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11808
+    },
+    "네": {
+      "path": "/audio/1c0ddfd0050938404c35.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "네, 가방 안에 있어요.": {
+      "path": "/audio/478ee47f883ee30be5bf.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 16992
+    },
+    "네, 나머지는 회의 후에 보완해 주세요.": {
+      "path": "/audio/70013b67625e655257d2.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 23616
+    },
+    "네, 다음에 보여 드릴게요.": {
+      "path": "/audio/bf32bf20dd05bc028a3f.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 18432
+    },
+    "네, 미리 눌러 주세요.": {
+      "path": "/audio/c5ccf2e084421035a2e1.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 17136
+    },
+    "네, 시청 앞에 서요.": {
+      "path": "/audio/eafd992d58535c032f05.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 16128
+    },
+    "네, 여기 있어요. 교환할 수 있나요?": {
+      "path": "/audio/f72e96fe2153c09e9183.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 28224
+    },
+    "네, 있어요. 입어 보세요.": {
+      "path": "/audio/773e52cd8fa9fd1d9815.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 24048
+    },
+    "네, 작은 목표부터 실천할게요.": {
+      "path": "/audio/b2e3957df2bebf99a415.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 21744
+    },
+    "네, 조금 있다가 봐요.": {
+      "path": "/audio/b999e86d4fa184478d36.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 16848
+    },
+    "네, 체온을 재 보니 조금 높았어요.": {
+      "path": "/audio/2369e5e27f69bd275935.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 23040
+    },
+    "네, 출발점의 차이를 줄이는 방향으로 접근해야 해요.": {
+      "path": "/audio/8f4a0158f01fd7c363c1.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 28512
+    },
+    "네, 한국어를 배워요.": {
+      "path": "/audio/5f24e547321fe59ca49d.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 16848
+    },
+    "넷": {
+      "path": "/audio/2752a0238ad7b1eeb299.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "노력": {
+      "path": "/audio/1119b060db74766fb336.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "노인": {
+      "path": "/audio/3b01f8c362012e852a8b.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "노인을 지원의 대상으로만 보는 시각도 바꿔야 해요.": {
+      "path": "/audio/f123771a30d03d92f6c1.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 26352
+    },
+    "논의": {
+      "path": "/audio/bd99218b7737dbf86b48.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "논의하다": {
+      "path": "/audio/2946c2b99af49e7fbf67.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 12672
+    },
+    "논점": {
+      "path": "/audio/9fb6f889eedbd52dd047.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "높다": {
+      "path": "/audio/5601621a4a648d5bc309.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "누구": {
+      "path": "/audio/e9e6266b8035d7c474ee.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "누르다": {
+      "path": "/audio/aaaee287bf5aed197d56.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 12240
+    },
+    "늘다": {
+      "path": "/audio/0a9915cd5915474e927c.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "늘리다": {
+      "path": "/audio/3c64c7ba9cabe0c07c58.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11664
+    },
+    "늦다": {
+      "path": "/audio/8678e3dcf30b4fad0aa5.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "다": {
+      "path": "/audio/822b7db6f6886f572413.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "다녀오다": {
+      "path": "/audio/09b8a3cf21a41c7a72ed.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 12528
+    },
+    "다르다": {
+      "path": "/audio/1db38b4e543bc73e4860.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 12528
+    },
+    "다른 언론의 보도와 비교해 보는 게 좋아요.": {
+      "path": "/audio/70c8141a46c5b132d594.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 22176
+    },
+    "다만": {
+      "path": "/audio/44c697068ca8674fa85e.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "다만 소음 문제도 고려해야 하지 않을까요?": {
+      "path": "/audio/46f0cf78bb3e68023fc8.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 22464
+    },
+    "다만 업무의 성격에 따라 효과가 달라질 거예요.": {
+      "path": "/audio/23e6da8c20e924f37bb6.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 25056
+    },
+    "다음": {
+      "path": "/audio/aef613c6612d424ab454.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "다음 주": {
+      "path": "/audio/78c8f11d2749bd70d010.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "단기": {
+      "path": "/audio/733910d9f62691886c21.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "단기 성과와 장기 효과를 구분할 필요도 있겠네요.": {
+      "path": "/audio/0234cdbf292abf2ea9e0.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 25056
+    },
+    "단순하다": {
+      "path": "/audio/c726c85752cf20a04d17.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 12672
+    },
+    "단정하다": {
+      "path": "/audio/b5416a63b867d95b7312.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 12816
+    },
+    "달라지다": {
+      "path": "/audio/3aa18124b2a7d459478f.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 12384
+    },
+    "대상": {
+      "path": "/audio/8c609debc12c2cd08ebd.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "대신": {
+      "path": "/audio/6180ea39756ca4f7c7ef.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "대신 월세가 조금 높을 수 있어요.": {
+      "path": "/audio/990d923c2979a7b44389.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 20736
+    },
+    "대신하다": {
+      "path": "/audio/dfde2d39b11d27d00a57.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11808
+    },
+    "대안": {
+      "path": "/audio/10f0209f371a19c52da2.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "대학원": {
+      "path": "/audio/9986b156ac970834ed38.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "더": {
+      "path": "/audio/1e2cb79b6970d0213fd9.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "덜": {
+      "path": "/audio/f065d425b7fad87eff3e.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "도": {
+      "path": "/audio/a3ec07cdd87ae1fabd09.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "도구": {
+      "path": "/audio/36c416ead2ce5d03a1d9.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "도구의 편리함이 판단과 책임을 대신해 주지는 못해요.": {
+      "path": "/audio/bdf4aba36b8b4632bbb1.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 26928
+    },
+    "도서관": {
+      "path": "/audio/9ee22c8536d3503a4b1c.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "도서관이 어디에 있어요?": {
+      "path": "/audio/2fe9812ebea2fe2d9c1f.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 15552
+    },
+    "도착": {
+      "path": "/audio/103f83573455f3b61eed.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "도착 여부는 어디에서 확인할 수 있나요?": {
+      "path": "/audio/df8f8c4212d1f24ced03.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 21312
+    },
+    "돌봄": {
+      "path": "/audio/f28442d2111f7de305a2.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "돌아가다": {
+      "path": "/audio/1152d7a56fb1600a5774.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 12096
+    },
+    "동시에": {
+      "path": "/audio/5bc925a900afc74c4310.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "동의": {
+      "path": "/audio/051a33c2b3a71197783e.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "동의 버튼을 눌렀다고 해서 충분히 이해한 건 아니에요.": {
+      "path": "/audio/08e1a9d931cd585bfd85.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 27360
+    },
+    "두 시보다 세 시가 더 좋아요.": {
+      "path": "/audio/6907ed0e119e58da1a09.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 17568
+    },
+    "두려워하다": {
+      "path": "/audio/ba25a18c898518c4cdda.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 13248
+    },
+    "둘": {
+      "path": "/audio/ca76b1284fc2088d64d7.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "뒷받침": {
+      "path": "/audio/991055306e5474a8974b.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "드리다": {
+      "path": "/audio/e583f55bf1cfad46331c.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11952
+    },
+    "등기": {
+      "path": "/audio/749d35ad2018ed857c8f.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "따": {
+      "path": "/audio/c64360d8502ace54d4af.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "따뜻하다": {
+      "path": "/audio/e4840ad0903352f1e2e3.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 12816
+    },
+    "따뜻한 걸로 드릴까요?": {
+      "path": "/audio/c9158245e0ce3c2b1989.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 15264
+    },
+    "따라서 관련성이 관찰되었다는 정도로 표현하는 게 적절해요.": {
+      "path": "/audio/1485ef5f5cb14a8accba.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 29664
+    },
+    "떨어지다": {
+      "path": "/audio/5360fef914150d393574.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11664
+    },
+    "라": {
+      "path": "/audio/d2121a871ca59e3b9a3a.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "마": {
+      "path": "/audio/0a8a81fee098641dbae5.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "마지막으로 문장 간의 연결과 문체의 일관성을 점검하겠습니다.": {
+      "path": "/audio/14e8fa527d3cce553475.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 32544
+    },
+    "만나다": {
+      "path": "/audio/b1bced847edb7e2eec5e.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 12240
+    },
+    "만나서 반가워요.": {
+      "path": "/audio/a5fddbc201cb8774cdb7.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 13536
+    },
+    "만들다": {
+      "path": "/audio/3c159cf2a6420ca9bda5.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 12528
+    },
+    "많다": {
+      "path": "/audio/b30b4bf6ab97d6a55225.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "많이": {
+      "path": "/audio/1af2aeb1be04021c7be5.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "말하다": {
+      "path": "/audio/f70cb61c1b19f1388e68.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11808
+    },
+    "맑다": {
+      "path": "/audio/c8398a865a7478831698.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "맞다": {
+      "path": "/audio/6d08580e9b08815338a6.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "맞아요. 일부만 떼어 내서 비판하면 논의가 왜곡돼요.": {
+      "path": "/audio/670967dcfb9ad745be43.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 32400
+    },
+    "맞아요. 재사용이 쉬운 구조를 만들어야 해요.": {
+      "path": "/audio/e05a8139619e6652831e.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 29376
+    },
+    "맞아요. 차이의 배경을 이해하려는 태도가 필요해요.": {
+      "path": "/audio/1548ec455d5a2e3b09c1.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 31824
+    },
+    "맞아요. 확인되지 않은 정보는 공유하지 않으려고 해요.": {
+      "path": "/audio/aa79d2569002371a0d67.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 32544
+    },
+    "맞춤형": {
+      "path": "/audio/ea01c61925aee242a4d3.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "맞춤형 서비스는 편리한 만큼 정보를 많이 요구하죠.": {
+      "path": "/audio/de71621919a028b5f9df.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 27504
+    },
+    "매운 음식 잘 드세요?": {
+      "path": "/audio/d22be39dd3e458ae5d66.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 14976
+    },
+    "매일": {
+      "path": "/audio/d5d6a44c9a8924522b29.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "매일 네 시간씩 공부하려고 해요.": {
+      "path": "/audio/80a4d9659a59721d37db.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 19584
+    },
+    "맥락": {
+      "path": "/audio/528e76d8671d362f2e62.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "맵다": {
+      "path": "/audio/13d9c3d2d64fee08dc08.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "먹다": {
+      "path": "/audio/9639f892bdddb53fc055.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "먼저": {
+      "path": "/audio/c1ddf2fcaeed84cd91ee.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "멀다": {
+      "path": "/audio/e6d01e903c854714b601.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "명확하다": {
+      "path": "/audio/6d1f5ef241bba594d802.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 12384
+    },
+    "몇": {
+      "path": "/audio/37ca98883f5001d4cce6.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "몇 정거장 가야 해요?": {
+      "path": "/audio/146c519e9a38d3f408ef.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 14400
+    },
+    "모으다": {
+      "path": "/audio/5ddf1bf1c10eabe3cc6f.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11808
+    },
+    "모임": {
+      "path": "/audio/2485fc53da01e9d64bb6.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "모임에 참여하면 어떨까요?": {
+      "path": "/audio/86eb996edfd2031de5ab.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 16416
+    },
+    "목": {
+      "path": "/audio/5fbc9add7bd4911bb918.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "목이 아프고 기침이 나요.": {
+      "path": "/audio/3eee71ac92bb8da9c318.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 16416
+    },
+    "목표": {
+      "path": "/audio/3182dd7d3d31e49a00b9.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "못": {
+      "path": "/audio/89058d16546c11076dd1.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "무엇": {
+      "path": "/audio/c95167f3fe21887b7320.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "문장": {
+      "path": "/audio/22f146433241fd2aa3fe.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "문제": {
+      "path": "/audio/bc0fca46ae9a48794dbd.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "문체": {
+      "path": "/audio/b57d0f42b7a12ad54a19.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "문헌": {
+      "path": "/audio/38dfe6c0e247f2964a23.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "문화": {
+      "path": "/audio/580bb8d061b97e66f221.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "문화 차이를 설명할 때 무엇을 조심해야 할까요?": {
+      "path": "/audio/c32b60ed106a149000c5.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 25200
+    },
+    "물": {
+      "path": "/audio/2e7edc957ce601f5ff7c.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "물도 한 잔 주세요.": {
+      "path": "/audio/1c90c521140e0074924a.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 13680
+    },
+    "뭐": {
+      "path": "/audio/95b5c8cf1b249b7a376b.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "뭘 드릴까요?": {
+      "path": "/audio/af278936cfd6522576de.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 12240
+    },
+    "미리": {
+      "path": "/audio/b7c8ef4933c71a834692.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "미안하다": {
+      "path": "/audio/a3bb8e6d52d6985107bb.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 12960
+    },
+    "미안해요. 오늘은 과제가 많아서요.": {
+      "path": "/audio/36b4463199ce0e4c594d.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 27072
+    },
+    "믿다": {
+      "path": "/audio/03fdf42bef953df48966.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "바": {
+      "path": "/audio/f6a780a386d59bfa68ea.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "바꾸다": {
+      "path": "/audio/5cc3393b01c955d1c3fb.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 12528
+    },
+    "바다": {
+      "path": "/audio/1ea5c356f65344cfeb55.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "바다는 어땠어요?": {
+      "path": "/audio/a34270a3babcc60e2443.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 13392
+    },
+    "바쁘다": {
+      "path": "/audio/23457023f6034aaf6759.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 12672
+    },
+    "바지": {
+      "path": "/audio/fb24dd66a8c8c7dd42d1.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "밖": {
+      "path": "/audio/c54dd45d274b6e4660ea.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "밖에 비가 많이 와요.": {
+      "path": "/audio/0ffddab2a262d0a1d698.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 14544
+    },
+    "반": {
+      "path": "/audio/9f12e26e8d4c016af246.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "반갑다": {
+      "path": "/audio/d5cacddd111bc906da5c.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "반대": {
+      "path": "/audio/8b41caa49fef042da7ee.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "반대 의견을 글에 넣으면 주장이 약해지지 않을까요?": {
+      "path": "/audio/b515f87452d21daf9b34.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 25488
+    },
+    "반드시": {
+      "path": "/audio/fcea2b562aa3175866f7.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "반드시 그렇다고 보기는 어려워요.": {
+      "path": "/audio/765de22cba62bdcabfdf.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 19296
+    },
+    "반론": {
+      "path": "/audio/4ab69550623afc4f97d6.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "반론을 검토한 뒤에 제 주장의 범위를 조정하겠습니다.": {
+      "path": "/audio/428cdd03697054c0b83f.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 27936
+    },
+    "반복": {
+      "path": "/audio/58902391b9377fdd405f.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "발표": {
+      "path": "/audio/662fbb8d7bdeae8019f6.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "발표와 보고서 중에 뭐가 더 부담돼요?": {
+      "path": "/audio/a9930063d0ca6876e85b.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 21312
+    },
+    "방": {
+      "path": "/audio/76102fe82462d111be2a.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "방법": {
+      "path": "/audio/a4a801d526fb251193b0.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "방법론": {
+      "path": "/audio/f738003a22b18c10e28a.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11376
+    },
+    "방식": {
+      "path": "/audio/3f5e5497216f63d32822.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "배경": {
+      "path": "/audio/d643b25289201a43324e.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "배우다": {
+      "path": "/audio/2c65351237177855703f.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 12528
+    },
+    "버스": {
+      "path": "/audio/fb84fa7f86eac62eca5f.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "버튼": {
+      "path": "/audio/605632038f49400b72d7.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "범위": {
+      "path": "/audio/2281025b69a422c01adf.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "변수": {
+      "path": "/audio/541034c474b7f960fe6f.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "별도": {
+      "path": "/audio/d5710a6dce9d3a41a657.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "보고서": {
+      "path": "/audio/01a64adf7f1500650cfd.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "보고서를 언제까지 제출할 수 있나요?": {
+      "path": "/audio/a3b8abc6b47a500a2e10.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 20016
+    },
+    "보내다": {
+      "path": "/audio/8af300ffd85ed5a13777.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11952
+    },
+    "보다": {
+      "path": "/audio/6a45cf834264a5ec3611.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "보도": {
+      "path": "/audio/8674bc121e10b64d9281.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "보여 주다": {
+      "path": "/audio/b2601ca6b457de851168.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 12528
+    },
+    "보완하다": {
+      "path": "/audio/be450cd050f63487281e.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 12384
+    },
+    "보장하다": {
+      "path": "/audio/0d89f358c44ea7637127.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11952
+    },
+    "보증금": {
+      "path": "/audio/32be0b30377e623eb515.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "보증금이 낮고 학교에서 가까웠으면 해요.": {
+      "path": "/audio/27fbcbc7beb0c6ab24d2.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 22176
+    },
+    "보통": {
+      "path": "/audio/666599febd987f532ea6.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "본론": {
+      "path": "/audio/33bab4548eeabf4c4be7.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "본론에서는 근거와 구체적인 사례를 연결하세요.": {
+      "path": "/audio/b00bd802fd242f2c3636.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 26352
+    },
+    "부담되다": {
+      "path": "/audio/09e52a36d82ed2a05a23.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 13248
+    },
+    "부산": {
+      "path": "/audio/6c9db53be31faa0c66e0.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "부터": {
+      "path": "/audio/5741caa1bef8b155a2ff.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "분": {
+      "path": "/audio/ca4a187881dbf529d05e.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "분모": {
+      "path": "/audio/cfd068f4f84f182c4ad1.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "분모가 무엇인지에 따라 해석이 달라지는군요.": {
+      "path": "/audio/979402befefc22320bf8.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 24192
+    },
+    "불리하다": {
+      "path": "/audio/84cac6dd6802b695fbf3.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 12672
+    },
+    "불편하다": {
+      "path": "/audio/e3a81c369f5e123fbec0.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 12672
+    },
+    "비": {
+      "path": "/audio/5e0d62698b44a4342d26.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "비교하다": {
+      "path": "/audio/a42ff5cd8ca0b9097ee9.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 12528
+    },
+    "비빔밥": {
+      "path": "/audio/574c26d169130a0860b8.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "비빔밥 하나 주세요.": {
+      "path": "/audio/b7090c9267efdbd41ba2.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 14112
+    },
+    "비용": {
+      "path": "/audio/24423dd67b3a782699d9.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "비판하다": {
+      "path": "/audio/d86bad9e81619459e870.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 12816
+    },
+    "빠": {
+      "path": "/audio/0f3e2fb1a29dcef5c2b8.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "사": {
+      "path": "/audio/98ebd37ce3c1cd6abbe7.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "사다": {
+      "path": "/audio/ee0ee072926e06fcb4a4.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11664
+    },
+    "사람": {
+      "path": "/audio/389e7564ae2551b4f94d.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "사례": {
+      "path": "/audio/a8c28ca1d4ffbd688e29.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "사업": {
+      "path": "/audio/7b3733aab2fd0dcf59d4.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "사용자": {
+      "path": "/audio/1ac6e422b7dc00bbcdc3.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "사용자가 동의를 철회할 권리도 보장돼야겠네요.": {
+      "path": "/audio/8244e58934cf4225fbf6.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 25200
+    },
+    "사이즈": {
+      "path": "/audio/e0511ad24076321c499a.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "사진": {
+      "path": "/audio/1f872b5045690a7e3f16.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "사진도 많이 찍었겠네요.": {
+      "path": "/audio/a9eeb5972a13f52c1124.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 16128
+    },
+    "사진도 맥락에 따라 의미가 달라질 수 있겠네요.": {
+      "path": "/audio/4de2016a5fc6a8a992df.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 26064
+    },
+    "사천": {
+      "path": "/audio/95328a17c97f1bcc50b3.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "사천 원이에요.": {
+      "path": "/audio/00e9b6d46ce7c4705468.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 12240
+    },
+    "사회": {
+      "path": "/audio/550a40b940e2e59e11c9.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "산책하다": {
+      "path": "/audio/c55ed96b19a1f2f29ce7.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 12096
+    },
+    "상대": {
+      "path": "/audio/6a3b6fa71b551942a1be.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "상황": {
+      "path": "/audio/946f8147acaaf499e924.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "생각": {
+      "path": "/audio/6ac12a8f8e4e4c22657b.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "생각보다 아름다웠어요.": {
+      "path": "/audio/b9ea2bef05a9483d943f.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 15552
+    },
+    "생산": {
+      "path": "/audio/b3df362a51cdd23e8944.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "생산성": {
+      "path": "/audio/97e833011434e3421f69.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11808
+    },
+    "생성되다": {
+      "path": "/audio/0dbcd3ab07165f66e39b.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 13392
+    },
+    "서다": {
+      "path": "/audio/4fccaaf883d3c239af91.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11808
+    },
+    "서로": {
+      "path": "/audio/fbeb53408bcf7039778f.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "서로 질문하고 설명할 때 오해를 줄일 수 있어요.": {
+      "path": "/audio/03e0282de21d4fb98a5f.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 25920
+    },
+    "서론": {
+      "path": "/audio/3f3ba3d9e6515fc8d657.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "서론에서는 문제를 제기하고 입장을 밝혀야겠어요.": {
+      "path": "/audio/0360f77fb8c05e34b18b.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 26352
+    },
+    "서류": {
+      "path": "/audio/e90c4f2356666af132b3.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "서울": {
+      "path": "/audio/ca6c419327ce5a9d7e62.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "서울에 있는 연구실로 보내려고 해요.": {
+      "path": "/audio/dd38feb165654252ec16.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 19872
+    },
+    "설득력": {
+      "path": "/audio/428d6766f60154c0fc32.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "설명을 더 명확하고 간결하게 제시해야 해요.": {
+      "path": "/audio/e0d2d12c3f81a26e1056.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 24912
+    },
+    "설명하다": {
+      "path": "/audio/c82e2f4887d4be700a38.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11952
+    },
+    "성격": {
+      "path": "/audio/9b3edda555d03500b72a.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "성공": {
+      "path": "/audio/b4f76a33b89bb9474281.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "성과": {
+      "path": "/audio/2f790fbbcb9de62d947d.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "세 정거장 가면 돼요.": {
+      "path": "/audio/e1d2cbc4ca91b7d486da.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 14976
+    },
+    "세대": {
+      "path": "/audio/f8550bf54c82de933bff.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "셋": {
+      "path": "/audio/28ed1f7d8986d21d30a5.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "소리": {
+      "path": "/audio/d13cec79f66edb6aa0c5.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "소비자": {
+      "path": "/audio/5eaa0c4876c201db316c.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "소비자에게 비용이 전가될 우려는 없을까요?": {
+      "path": "/audio/749a1f04ce57bd4590b8.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 23040
+    },
+    "소설": {
+      "path": "/audio/88c77f43092f91561173.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "소설을 읽거나 음악을 들어요.": {
+      "path": "/audio/fb4b0b6900f76b399110.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 17280
+    },
+    "소음": {
+      "path": "/audio/aa52ae86fa7765b7e1c2.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "속도": {
+      "path": "/audio/c03f7e871a4127c448d9.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "수도": {
+      "path": "/audio/b42d1b5bced00efc95ca.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "수도 요금은 포함되지만 전기 요금은 별도예요.": {
+      "path": "/audio/1d14469dc8a71fa8369f.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 25344
+    },
+    "수업": {
+      "path": "/audio/01c1761e85dc638b63f3.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "수업은 열 시에 시작해요.": {
+      "path": "/audio/098752c17ee1a1789b85.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 17424
+    },
+    "수요": {
+      "path": "/audio/f30d255b0f2d71690a75.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "수용하다": {
+      "path": "/audio/01c1d71f61779131c6d5.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 12240
+    },
+    "수월하다": {
+      "path": "/audio/c8df24319cc6eb896670.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 12816
+    },
+    "수집하다": {
+      "path": "/audio/0fda42955dc1bd416d7e.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 12672
+    },
+    "수치": {
+      "path": "/audio/512970e1f3c66f05879f.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "수치만 강조하지 말고 비교 기준부터 확인해야겠어요.": {
+      "path": "/audio/36837fafd27634818257.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 27504
+    },
+    "쉬는 날에는 보통 뭘 해요?": {
+      "path": "/audio/8e4e4ff94052f133ef18.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 17712
+    },
+    "쉬다": {
+      "path": "/audio/62b3b824836a1f2cb1c5.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11952
+    },
+    "쉽다": {
+      "path": "/audio/a39c0e9196a70295a55f.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "시": {
+      "path": "/audio/bfa42cf6a12e91233038.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "시각": {
+      "path": "/audio/faea4ccff05881ea0287.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "시간": {
+      "path": "/audio/4692cef5ac69eb37bd53.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "시범": {
+      "path": "/audio/d000ad796cd9757a2485.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "시범 사업의 결과를 바탕으로 점진적으로 확대하면 좋겠어요.": {
+      "path": "/audio/cf56600867fb8ac64793.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 30816
+    },
+    "시작하다": {
+      "path": "/audio/93e3308b9dd20149a4c5.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 12384
+    },
+    "시청": {
+      "path": "/audio/d089c9bf766d3808ef00.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "시행": {
+      "path": "/audio/18e5db684e5d88ba8673.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "시행 전에 충분한 논의와 준비가 필요하겠어요.": {
+      "path": "/audio/dd57d92a8d07330b42bd.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 24480
+    },
+    "식당": {
+      "path": "/audio/fe047fb6c566f2771257.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "신청하다": {
+      "path": "/audio/c1315f39378bdc6e1dd4.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 12672
+    },
+    "실력": {
+      "path": "/audio/e709c7a9c091424d582a.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "실수하다": {
+      "path": "/audio/489b22a0d033512abf60.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 13392
+    },
+    "실수하면서 배우는 게 중요하죠.": {
+      "path": "/audio/59153fa6a9911da8f8c1.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 19584
+    },
+    "실제": {
+      "path": "/audio/674150f61887a603ffc5.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "실천하다": {
+      "path": "/audio/a144070ae9f0bfa0ee3e.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 12672
+    },
+    "싶다": {
+      "path": "/audio/b3ad33de22cbca646dc1.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "싸": {
+      "path": "/audio/3e0d74279c237c371475.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "쓰다": {
+      "path": "/audio/e5721a077be2e027ff8c.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11376
+    },
+    "아": {
+      "path": "/audio/d6ce479be9ddc9b7de97.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "아니요": {
+      "path": "/audio/9474acc7539b7e2cedaf.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "아니요, 걸어서 오 분쯤 걸려요.": {
+      "path": "/audio/7282638c6a611f46c2a0.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 21456
+    },
+    "아니요, 차가운 걸로 주세요.": {
+      "path": "/audio/4c0dbbec45c20e9ae32c.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 19008
+    },
+    "아름답다": {
+      "path": "/audio/b39be518859c28e09afb.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "아직": {
+      "path": "/audio/fc3d924ec6725c21b50b.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "아직 없어요. 쉬운 책부터 읽고 싶어요.": {
+      "path": "/audio/3f108c0e411faba17c23.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 27936
+    },
+    "아직은 발표가 더 부담돼요.": {
+      "path": "/audio/69863f69b9213c307f11.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 18432
+    },
+    "아프다": {
+      "path": "/audio/912c6f176a189a346579.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 12240
+    },
+    "아홉": {
+      "path": "/audio/20ed618de39e3d7de102.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "아홉 시 반이에요.": {
+      "path": "/audio/880882dccd2d292946cb.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 13392
+    },
+    "안": {
+      "path": "/audio/bc00bc8172c83d5fab70.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "안녕하세요": {
+      "path": "/audio/2c68318e352971113645.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11376
+    },
+    "안녕하세요.": {
+      "path": "/audio/8b118d6741f7cfa1a7ee.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11376
+    },
+    "알겠습니다. 더 필요한 건 없으세요?": {
+      "path": "/audio/ad7ba0901d0438161f4a.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 26496
+    },
+    "알겠습니다. 우선순위를 조정하겠습니다.": {
+      "path": "/audio/347a8a0cb1f8df54dd20.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 27792
+    },
+    "알다": {
+      "path": "/audio/4646a3463436c8a43feb.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11376
+    },
+    "앞": {
+      "path": "/audio/ec1a6b96ce688b70368d.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "앞당겨지다": {
+      "path": "/audio/5e51d186ed70b800bbf9.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 12672
+    },
+    "애": {
+      "path": "/audio/a9fee06ad11f5bbdb2f7.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "야": {
+      "path": "/audio/08945f015d460ad9b44c.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "약속": {
+      "path": "/audio/a39ee87db456831ef069.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "약속 시간에 늦지 않을게요.": {
+      "path": "/audio/36f331ab1acf1e5d2203.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 17136
+    },
+    "약해지다": {
+      "path": "/audio/5a73fd2e4d09e084fb48.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 12816
+    },
+    "얘": {
+      "path": "/audio/1ad358ceb1fa5d832807.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "어": {
+      "path": "/audio/228794e2524374dc8637.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "어느": {
+      "path": "/audio/76e7139b030308e75b1c.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "어느 나라 사람이에요?": {
+      "path": "/audio/2732c68ab40f1d43e7d1.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 13824
+    },
+    "어디": {
+      "path": "/audio/c1ee1b7e560f9f3ac3bf.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "어디가 불편하세요?": {
+      "path": "/audio/ba62c02e12a10c8842b6.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 13968
+    },
+    "어디로 보내실 건가요?": {
+      "path": "/audio/45669ddaca4c3f9223fe.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 14976
+    },
+    "어떤": {
+      "path": "/audio/a0307911a0fb42568a78.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "어떤 문제로 오셨어요?": {
+      "path": "/audio/6bdfa7b98f9589fd3668.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 15120
+    },
+    "어떤 옷을 찾으세요?": {
+      "path": "/audio/885192710f64bafd9913.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 13968
+    },
+    "어떤 조건의 방을 구하세요?": {
+      "path": "/audio/08e7401d89b3bc2198d9.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 16848
+    },
+    "어떻다": {
+      "path": "/audio/e0a8c114a77e081454d1.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "어려워도 포기하지 마세요.": {
+      "path": "/audio/b8b27a6981da0fb685f0.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 16704
+    },
+    "어렵다": {
+      "path": "/audio/55d0f08434308816bcaf.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "어제": {
+      "path": "/audio/79c5ada11647bce64407.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "어제 산 이어폰에서 소리가 안 나요.": {
+      "path": "/audio/d3e717ec54483a76ad36.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 19152
+    },
+    "어제 저녁부터 그랬어요.": {
+      "path": "/audio/c964e008270e8f1d5e93.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 16704
+    },
+    "언론": {
+      "path": "/audio/1acee34604f080d6dc92.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "언제": {
+      "path": "/audio/25f9ca42793d0a69dee9.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "언제부터 그랬어요?": {
+      "path": "/audio/564e1f337c04569c1308.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 14112
+    },
+    "얼마": {
+      "path": "/audio/8e0a4529e0c9d4ed9058.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "얼마나": {
+      "path": "/audio/7ab030dec3a95b0f3edd.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "업무": {
+      "path": "/audio/1377bb69d5f7d43cea77.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "에": {
+      "path": "/audio/dd7f4bf020e9b76751e7.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "여": {
+      "path": "/audio/945f5f4b0df1d4abe204.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "여기": {
+      "path": "/audio/c13089162f79c61744a9.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "여기에서 멀어요?": {
+      "path": "/audio/691216482fb99cc38b57.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 12960
+    },
+    "여부": {
+      "path": "/audio/c97ad4a215b510923f6a.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "역": {
+      "path": "/audio/0d8513f4ca123f336cd9.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "역할": {
+      "path": "/audio/7258c17132926a4ba78b.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "역할을 나누면 준비하기가 수월할 거예요.": {
+      "path": "/audio/6fffed5dded0249d1706.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 21312
+    },
+    "연구": {
+      "path": "/audio/a0eadd0b05bc2ecac43d.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "연구 방법론을 신청했어요.": {
+      "path": "/audio/7516649201deb3d66d58.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 17424
+    },
+    "연구실": {
+      "path": "/audio/5567549134629161ae86.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "연구자": {
+      "path": "/audio/9bc07d0c7c37690e4690.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "연락처": {
+      "path": "/audio/67c1e932f9bc7bd77503.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "열": {
+      "path": "/audio/6f4112362e973dd65e65.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "열도 나나요?": {
+      "path": "/audio/132c746df9a87456bec3.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 12096
+    },
+    "영수증": {
+      "path": "/audio/967b7244711116274eea.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "영수증을 가지고 계세요?": {
+      "path": "/audio/6c70466f42758b217e53.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 15408
+    },
+    "영화": {
+      "path": "/audio/1f0a9d32bbf42b6d556f.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "옆": {
+      "path": "/audio/c140e1936b454b24fb3a.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "예": {
+      "path": "/audio/2eb73fba696e2fe4ea0a.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "예정": {
+      "path": "/audio/8688e9ff7c84e0e44571.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "오": {
+      "path": "/audio/c0ccf82e09f1e8734531.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "오늘": {
+      "path": "/audio/3bc6235e1d18162fb94c.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "오늘 저녁에 같이 영화 볼래요?": {
+      "path": "/audio/0fe832d1dbc3d48884b4.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 17856
+    },
+    "오다": {
+      "path": "/audio/6fe577b99594f4a7bd8d.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11376
+    },
+    "오르다": {
+      "path": "/audio/8fdeb9822b3fa0617051.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11664
+    },
+    "오전": {
+      "path": "/audio/1087feb238ccd11091f9.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "오전에는 바빠요. 오후는 괜찮아요.": {
+      "path": "/audio/a61ca4655e3f70db75b1.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 26784
+    },
+    "오해": {
+      "path": "/audio/a317fe4511680982e2e2.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "오후": {
+      "path": "/audio/7575a29f7d674595d2a0.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "오히려": {
+      "path": "/audio/b499084b40ea381f8c7f.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "오히려 한계를 인정하고 대응하면 설득력이 높아질 수 있어요.": {
+      "path": "/audio/e9e4e791c80927e721b3.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 30672
+    },
+    "온라인": {
+      "path": "/audio/cf9ef5f1ef01d87a94a1.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "온라인 수업이 대안이 될 수 있지 않을까요?": {
+      "path": "/audio/f2d8b05e7b1367c9fbf0.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 21888
+    },
+    "옷": {
+      "path": "/audio/4bddf9b9203384c7b240.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "와": {
+      "path": "/audio/d536e6255a4151eae226.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "왜": {
+      "path": "/audio/08b35eb63efd4aaae44c.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "왜곡되다": {
+      "path": "/audio/d89b7eacf48be4544a23.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 13104
+    },
+    "외": {
+      "path": "/audio/f44440741871fafd7b0b.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "요": {
+      "path": "/audio/d525e7107305db853261.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "요구하다": {
+      "path": "/audio/1d2e00f218da4a4e42cd.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 12096
+    },
+    "요금": {
+      "path": "/audio/b79f7bdaa9ffe6aedfbf.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "우": {
+      "path": "/audio/637bfe7928f524a3c40d.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "우산": {
+      "path": "/audio/8b6f9142a49be5004b82.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "우산을 안 가져왔어요.": {
+      "path": "/audio/831c517f2e6aa93fa2db.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 15408
+    },
+    "우선순위": {
+      "path": "/audio/32ae423352d3ecfb0bc1.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "운영하다": {
+      "path": "/audio/6b83254bbe5c7b12b000.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 12672
+    },
+    "워": {
+      "path": "/audio/994079d60405bc4afc17.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "원": {
+      "path": "/audio/c19fd6787279897c79a8.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "원문": {
+      "path": "/audio/0201f36241b8014e9f29.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "원하다": {
+      "path": "/audio/2186559acad40e79834f.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11808
+    },
+    "월세": {
+      "path": "/audio/992db2a58deacee911e5.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "웨": {
+      "path": "/audio/de815baa891d41128e94.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "위": {
+      "path": "/audio/e0bebb354d8f7f3b0c82.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "유": {
+      "path": "/audio/0a8fef4b99a88b476a89.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "으": {
+      "path": "/audio/963c2374ff4c553e8117.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "음식": {
+      "path": "/audio/2e144916046c2a6fc7df.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "음악": {
+      "path": "/audio/88caa317d96897c98d10.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "의": {
+      "path": "/audio/39ba020943ebbc5cadbb.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "의견": {
+      "path": "/audio/1eaed37a207480d88b78.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "의미": {
+      "path": "/audio/adfc8cc897bfb433c0d9.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "이": {
+      "path": "/audio/8bafb6b7d17ead4985bf.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "이 바지는 어때요?": {
+      "path": "/audio/92e5dd6b291f54aa2106.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 13680
+    },
+    "이 버스가 시청에 가요?": {
+      "path": "/audio/28f0231a6714c3d8a454.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 14544
+    },
+    "이 조사에서 이용률이 십 퍼센트에서 십오 퍼센트로 올랐어요.": {
+      "path": "/audio/597791e3fbdd333646dc.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 29376
+    },
+    "이 책은 누구 거예요?": {
+      "path": "/audio/642ed35bfa8157929d0a.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 14256
+    },
+    "이것": {
+      "path": "/audio/e414d84c28c86213ae69.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "이게 뭐예요?": {
+      "path": "/audio/07bbf423148c7b229940.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "이다": {
+      "path": "/audio/5f27e86550f797b50252.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11520
+    },
+    "이름": {
+      "path": "/audio/253d1510caf5362045ce.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "이름이 뭐예요?": {
+      "path": "/audio/588d25be7d113ed1f1cf.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11664
+    },
+    "이번": {
+      "path": "/audio/da78d4146f0588e8450a.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "이번 학기에는 어떤 수업을 들을 예정이에요?": {
+      "path": "/audio/db7c558f0b9cbc0c704e.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 22896
+    },
+    "이야기": {
+      "path": "/audio/ffe0179e59e74069bc54.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "이어폰": {
+      "path": "/audio/e9fdbe020b266dd328b0.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "이용": {
+      "path": "/audio/770bdb495b6edba2da47.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "이용 시간을 늘리자는 의견이 많아요.": {
+      "path": "/audio/141cfecd310464c60f77.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 19872
+    },
+    "이용률": {
+      "path": "/audio/2d36c5fa819fe29e29a1.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "이용자": {
+      "path": "/audio/04a2b13fc65824852162.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "이용자 수뿐만 아니라 실제 문제의 개선 정도를 봐야 해요.": {
+      "path": "/audio/368a5371a19ac22e6305.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 28944
+    },
+    "이제 논의한 내용을 짧은 글로 정리해 볼까요?": {
+      "path": "/audio/f1a5b79d2299e998ad9f.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 23472
+    },
+    "이해하다": {
+      "path": "/audio/fc001754fa34535b35d4.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 12240
+    },
+    "이해해 줘서 고마워요.": {
+      "path": "/audio/19dacf4f73f7dbf99041.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 14832
+    },
+    "인공지능": {
+      "path": "/audio/c597b282778e3c885464.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11664
+    },
+    "인공지능을 활용하면 연구 속도를 높일 수 있겠죠?": {
+      "path": "/audio/77daf3cf86632b7488c2.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 26352
+    },
+    "인과 관계": {
+      "path": "/audio/47ff7b4b840755fc487b.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11952
+    },
+    "인용": {
+      "path": "/audio/4a02004ab78c6f5871be.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "인정하다": {
+      "path": "/audio/3226597a4296c34d3b63.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 12240
+    },
+    "인터넷": {
+      "path": "/audio/020698f8f7c78429821f.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "인터넷에서 흥미로운 기사를 봤어요.": {
+      "path": "/audio/fb3e69cc733074e9f2ea.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 20736
+    },
+    "일관성": {
+      "path": "/audio/3ec6c9b52005ff80e471.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11520
+    },
+    "일기 예보": {
+      "path": "/audio/d36ab0a6e2561c8da640.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11952
+    },
+    "일기 예보에서는 맑다고 했어요.": {
+      "path": "/audio/f3ab071ce64a017c81a1.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 19008
+    },
+    "일단": {
+      "path": "/audio/47a337529350ca3ed26b.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "일단 시범 운영한 뒤에 평가해 봅시다.": {
+      "path": "/audio/ae6476d8115a02b576a8.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 22032
+    },
+    "일반 우편": {
+      "path": "/audio/6546357123890e004528.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 12096
+    },
+    "일반 우편과 등기 중 어느 쪽을 원하세요?": {
+      "path": "/audio/3e06fd09a47c26c9d19f.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 22896
+    },
+    "일반화하다": {
+      "path": "/audio/dcf83c876744ab93aa5e.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 13392
+    },
+    "일부": {
+      "path": "/audio/32555f5ba712b1fdaf74.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "일회용품": {
+      "path": "/audio/5b7cac7374ba38621573.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 12096
+    },
+    "일회용품을 줄이는 것만으로 환경 문제가 해결될까요?": {
+      "path": "/audio/85c180c69403eb2cd3e8.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 27072
+    },
+    "읽다": {
+      "path": "/audio/f843025cff483034e05a.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "입다": {
+      "path": "/audio/5e126f454a274733cfa2.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "입력하다": {
+      "path": "/audio/ff986ef4eb0b05d8b8ac.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 12240
+    },
+    "입장": {
+      "path": "/audio/313416dc1509fceb95fd.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "있다": {
+      "path": "/audio/96fe52db2531c9e73e53.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "자": {
+      "path": "/audio/34f404d9d0a79aa558ba.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "자기 결정권": {
+      "path": "/audio/63924a43d3974e96b20b.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 14112
+    },
+    "자료": {
+      "path": "/audio/6416867e472594899d64.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "자원": {
+      "path": "/audio/df4ee15a028f0dc884b2.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "작다": {
+      "path": "/audio/bc42f85bf5be37c92f7c.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "잔": {
+      "path": "/audio/ca06065856b9c29b0c80.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "잘 맞네요. 얼마예요?": {
+      "path": "/audio/69be155e4ce045a1bc84.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 21312
+    },
+    "잘 못 먹어요. 덜 맵게 해 주세요.": {
+      "path": "/audio/b88ecc9fd11a116fd727.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 25920
+    },
+    "장기": {
+      "path": "/audio/994fc13bf34735a1ab00.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "재다": {
+      "path": "/audio/9d678676ecef505985b3.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11808
+    },
+    "재사용": {
+      "path": "/audio/59f83bc301eb1d47afa2.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "재정": {
+      "path": "/audio/e999efbc687396524eec.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "재정 부담과 서비스의 질을 동시에 고려해야 해요.": {
+      "path": "/audio/bd4570628a431ed1137e.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 25920
+    },
+    "쟁점": {
+      "path": "/audio/d160902bdf2c3007070a.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "저": {
+      "path": "/audio/ac0e9ef613fd92c84845.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "저 건물 일 층에 있어요.": {
+      "path": "/audio/dcce493da2256d452442.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 16848
+    },
+    "저녁": {
+      "path": "/audio/8d3c547011f433e6d259.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "저는 리밍이에요.": {
+      "path": "/audio/0e7e1213d845acbd5d2a.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 13392
+    },
+    "저는 민지예요.": {
+      "path": "/audio/335dbb8d1f9840a5ca8e.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 12816
+    },
+    "저는 중국 사람이에요.": {
+      "path": "/audio/2b88a9b6c4bc69d538aa.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 14688
+    },
+    "저도 반가워요.": {
+      "path": "/audio/9a6ab84994d8deea8e8d.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 12528
+    },
+    "적": {
+      "path": "/audio/137f8ca799a5827448b3.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "적다": {
+      "path": "/audio/5f930febe6cd0f79ee06.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "적절하다": {
+      "path": "/audio/1a4d443dca8f926338a7.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 13248
+    },
+    "전가되다": {
+      "path": "/audio/35fbba257fdda5ac8bdd.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 12960
+    },
+    "전체": {
+      "path": "/audio/a4b69faf0c1113faf1f7.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "전체 대신 핵심 내용을 먼저 보내도 될까요?": {
+      "path": "/audio/ef07003df3c4258730fb.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 23184
+    },
+    "점수": {
+      "path": "/audio/276516218c1cd1275262.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "점진적으로": {
+      "path": "/audio/d74313419e02ac78cf91.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11952
+    },
+    "접근성": {
+      "path": "/audio/970823c08f6e9883752b.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11808
+    },
+    "접근성을 높일 수 있지만 기기와 학습 지원이 필요해요.": {
+      "path": "/audio/038e738de2634950c897.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 28944
+    },
+    "접근하다": {
+      "path": "/audio/a719c6606fe27d77797d.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 12528
+    },
+    "정거장": {
+      "path": "/audio/6cc88bd83df3334b2402.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "정리하다": {
+      "path": "/audio/7b53a03fb69e532df421.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 12672
+    },
+    "정보": {
+      "path": "/audio/b8cf07ac906c812405b2.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "정책": {
+      "path": "/audio/ff41d4a47c5fd63e9a96.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "정책의 성공 여부를 어떤 지표로 판단해야 할까요?": {
+      "path": "/audio/1ac4be8a85724812aa65.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 25920
+    },
+    "정하다": {
+      "path": "/audio/2b712f8bfe2006ebd91d.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11664
+    },
+    "제": {
+      "path": "/audio/b94e182b9a95d9dc2329.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "제 우산을 같이 써요.": {
+      "path": "/audio/3db51f438f1bb3f76411.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 15984
+    },
+    "제 책이에요.": {
+      "path": "/audio/a7c69e0821a10dbf4334.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11952
+    },
+    "제기하다": {
+      "path": "/audio/b63f52e485474dcf93e1.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 12384
+    },
+    "제목": {
+      "path": "/audio/08b17e433630742bc700.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "제목만 보고 믿을 뻔했어요.": {
+      "path": "/audio/11ccd1d914030aac13c0.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 18144
+    },
+    "제시하다": {
+      "path": "/audio/75f97af012c861798809.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 12240
+    },
+    "제출하다": {
+      "path": "/audio/f956d4ab4c647cd24e7c.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 12096
+    },
+    "제품": {
+      "path": "/audio/60be380dfd52bdfeffe2.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "조건": {
+      "path": "/audio/291ac97193c19dda0897.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "조금": {
+      "path": "/audio/b4049b7414b62d9bee5d.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "조사": {
+      "path": "/audio/e9e7abfc765737f0ebf8.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "조심하다": {
+      "path": "/audio/0ae97bed98d1be70547e.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 12240
+    },
+    "조정하다": {
+      "path": "/audio/6f3e2151acb95e3a4ead.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11952
+    },
+    "존재하다": {
+      "path": "/audio/85dd9a249ce7d3261b96.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 12672
+    },
+    "존재하지 않는 문헌을 제시하는 경우도 있다고 들었어요.": {
+      "path": "/audio/fce54ec1a4c26d419b42.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 26640
+    },
+    "좀 커요. 작은 사이즈도 있나요?": {
+      "path": "/audio/5096d996f74f879d90b1.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 25056
+    },
+    "종합하다": {
+      "path": "/audio/c65aee978076d2f1e812.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 13104
+    },
+    "좋겠어요. 말할 기회도 늘겠네요.": {
+      "path": "/audio/40a071c6e111e395fc6f.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 26064
+    },
+    "좋다": {
+      "path": "/audio/86d0464f1c6da40233cd.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "좋아요. 교실 앞에서 만나요.": {
+      "path": "/audio/de2c38e3c7e4684a9cf9.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 23616
+    },
+    "좋아요. 역 앞에서 기다릴게요.": {
+      "path": "/audio/f65eb45a0f4187351c38.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 24336
+    },
+    "좋은 책이 있으면 추천해 주세요.": {
+      "path": "/audio/b3725a6165d38a2128fb.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 18864
+    },
+    "주말": {
+      "path": "/audio/dc80d0fe247835379f4f.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "주문하다": {
+      "path": "/audio/dc82df55affb977bd3f4.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 12384
+    },
+    "주문하시겠어요?": {
+      "path": "/audio/fd8271d97aac7391c1fb.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 13104
+    },
+    "주민": {
+      "path": "/audio/fad44df7206bfa767dc2.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "주민들의 의견을 먼저 모아야 해요.": {
+      "path": "/audio/c44630348eaacfa1d2e3.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 19152
+    },
+    "주소": {
+      "path": "/audio/28e058c7cec8846e6c5f.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "주소와 연락처를 적어 주세요.": {
+      "path": "/audio/0bf911cc5c23a335cda5.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 18000
+    },
+    "주의하다": {
+      "path": "/audio/41e5cf3b439236528061.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 12672
+    },
+    "주장": {
+      "path": "/audio/5d52129144d1242334e5.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "주장의 강도가 근거의 강도를 넘지 않도록 해야겠어요.": {
+      "path": "/audio/5b30e023b6a5f67563eb.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 27936
+    },
+    "준비": {
+      "path": "/audio/9ce364fc9c6f2a1ce188.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "줄이다": {
+      "path": "/audio/cd093d6c487c80cfcc0c.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11808
+    },
+    "중국": {
+      "path": "/audio/3b31f8d5a1176ab76f9c.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "중요하다": {
+      "path": "/audio/09f31215bf005060eaf0.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 12672
+    },
+    "중요한 서류라서 등기로 보내고 싶어요.": {
+      "path": "/audio/c2550d5157248a2c75f0.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 21744
+    },
+    "증가율": {
+      "path": "/audio/30749084bc6f186122cc.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "지금": {
+      "path": "/audio/df159f47a890ff655039.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "지금 몇 시예요?": {
+      "path": "/audio/4bb130e6ed6d2c86b63c.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 12528
+    },
+    "지난 주말에 뭐 했어요?": {
+      "path": "/audio/d4ca78d2b157c68184e7.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 15264
+    },
+    "지난주": {
+      "path": "/audio/7d3f1e161caf0a7205ae.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "지난주에 왔어요.": {
+      "path": "/audio/830db5c6d48c8f540cb4.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 13824
+    },
+    "지역": {
+      "path": "/audio/770eb9e292c171999d24.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "지역 사회": {
+      "path": "/audio/85e8ac24b524ed24a940.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11376
+    },
+    "지역 사회가 함께 지원하는 체계가 필요하겠네요.": {
+      "path": "/audio/ce9428f00ae53bf22033.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 23904
+    },
+    "지원": {
+      "path": "/audio/0e7cfc63937a14176353.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "지표": {
+      "path": "/audio/e5bb8a61ad6fac381e62.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "직접": {
+      "path": "/audio/20c483bdda9706e41f07.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "진행": {
+      "path": "/audio/52e94db6f68c7bdf0f11.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "질": {
+      "path": "/audio/f8e3ebf962cde8a810e8.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "질문하다": {
+      "path": "/audio/19842a0db9b37f5252c2.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 12672
+    },
+    "집단": {
+      "path": "/audio/e411d8902ae006b21c7c.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "집중도": {
+      "path": "/audio/98720f7c273cab4f0a26.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11376
+    },
+    "집중도가 높아져서 같은 성과를 낼 수도 있겠네요.": {
+      "path": "/audio/a15f1024df9f639c765f.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 25200
+    },
+    "짜": {
+      "path": "/audio/734e80c5ad72b0028825.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "짧다": {
+      "path": "/audio/6dab7d40289b180d0cb0.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "짧은 이야기를 먼저 읽어 보세요.": {
+      "path": "/audio/65395101b32f42941644.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 18288
+    },
+    "찍다": {
+      "path": "/audio/e1e4a898170582452675.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "차": {
+      "path": "/audio/6ccd3f82b0317e51da2a.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "차갑다": {
+      "path": "/audio/489db26a6bdebee8cbe3.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "차이": {
+      "path": "/audio/b9b47d9dee081fdee3de.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "차이는 오 퍼센트포인트이고, 상대 증가율은 오십 퍼센트예요.": {
+      "path": "/audio/cf362062ce528958621c.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 33552
+    },
+    "참여하다": {
+      "path": "/audio/9e39b706c0f79a35cd7b.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 12240
+    },
+    "찾다": {
+      "path": "/audio/0aa19509314fd87953eb.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "책": {
+      "path": "/audio/ba928dd573a2db9e7579.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "책임": {
+      "path": "/audio/d9e8885b1d9be68bef6c.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "철회하다": {
+      "path": "/audio/d7c6896b8421867a9907.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 12384
+    },
+    "체계": {
+      "path": "/audio/c36633769b100f6af327.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "체온": {
+      "path": "/audio/b2e63fe36c8e88707bcd.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "추천하다": {
+      "path": "/audio/340391047747705f9976.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 12240
+    },
+    "출발점": {
+      "path": "/audio/c66cba09ce04d1f434f1.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "출처": {
+      "path": "/audio/fa543a9d6cf324986fbd.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "출처가 어디인지 확인했어요?": {
+      "path": "/audio/a0ef21c0aa95fa587280.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 18144
+    },
+    "충분히": {
+      "path": "/audio/06bc7ba2a51ddf11ed20.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "층": {
+      "path": "/audio/5987e716eafb9e902330.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "친구": {
+      "path": "/audio/1202aff936337891e079.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "친구하고 부산에 다녀왔어요.": {
+      "path": "/audio/467bc1b29a9cacb5f724.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 19296
+    },
+    "카": {
+      "path": "/audio/473c94998acbc9e17170.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "카드": {
+      "path": "/audio/62b41b5aaec6fef4bd83.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "카드로 계산할게요.": {
+      "path": "/audio/208a1350f702f9cd1e2b.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 13968
+    },
+    "커피": {
+      "path": "/audio/a4215a3126661d523ba2.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "커피 한 잔 주세요.": {
+      "path": "/audio/5bd5f3f50023cdf46088.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 13392
+    },
+    "크기": {
+      "path": "/audio/82232621b82d72beac66.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "크다": {
+      "path": "/audio/d9eb2cf86baea9292578.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "타": {
+      "path": "/audio/7e40449e6f383f05b54a.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "타당하다": {
+      "path": "/audio/e830ef5f5e1b92822bc7.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 12960
+    },
+    "타당한 부분은 수용하되 핵심 쟁점에는 근거로 답해야겠어요.": {
+      "path": "/audio/f106ab52a917aa38e696.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 32544
+    },
+    "태도": {
+      "path": "/audio/62b0d1dfdfa9bb281355.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "토요일": {
+      "path": "/audio/9f4eef79554b65d023ca.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "토요일에 시간 있어요?": {
+      "path": "/audio/f1fbb5172e143752da66.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 14976
+    },
+    "통제하다": {
+      "path": "/audio/38ff3eee242697653f7c.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 12528
+    },
+    "틀리는 걸 두려워하지 마세요.": {
+      "path": "/audio/beccc5d435986f44d118.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 17424
+    },
+    "틀리다": {
+      "path": "/audio/5bbafb331d40a891bb62.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11952
+    },
+    "파": {
+      "path": "/audio/98aede974077c5c77513.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "판단하다": {
+      "path": "/audio/57dca90b18b8d717b2f6.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 12528
+    },
+    "퍼센트": {
+      "path": "/audio/1fbc066cbf8b622e9cc0.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "퍼센트포인트": {
+      "path": "/audio/8f334d736d18c3b5ed95.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 13392
+    },
+    "펜": {
+      "path": "/audio/e414ad855b8d4825e031.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "펜도 있어요?": {
+      "path": "/audio/fac466d26b25f4e2ce13.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11808
+    },
+    "편리하다": {
+      "path": "/audio/06221da4281e2016e193.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11952
+    },
+    "편리함": {
+      "path": "/audio/d5fd97b33b4336324b54.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "편의성": {
+      "path": "/audio/446cc68fb0a55ad157e8.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "편의성과 자기 결정권을 함께 고려해야겠어요.": {
+      "path": "/audio/6a0f413728abd8b82551.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 25920
+    },
+    "편하기는 하지만 질문할 사람이 없어요.": {
+      "path": "/audio/ddd43233362c1b8118f4.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 21600
+    },
+    "편하다": {
+      "path": "/audio/33bf1e37d2739b22abdd.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11808
+    },
+    "편한 바지를 보고 있어요.": {
+      "path": "/audio/afd15c13a9e140c4a63e.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 15984
+    },
+    "평가하다": {
+      "path": "/audio/ebd98616bb5a70ce9cb0.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 12384
+    },
+    "평균값": {
+      "path": "/audio/816a86c8f55f87995cac.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "평균값이 좋아져도 일부 집단은 불리해질 수 있으니까요.": {
+      "path": "/audio/5d6aa0ba1f148dccf4c9.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 28224
+    },
+    "평일": {
+      "path": "/audio/20afffc404891d3e2cfe.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "포기하다": {
+      "path": "/audio/75c136ad3e41b441a8ec.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 12672
+    },
+    "포함되다": {
+      "path": "/audio/b971a6e178ff3d3b95eb.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 12960
+    },
+    "표본": {
+      "path": "/audio/d3a1d7f8b85710eed617.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "표본의 크기와 조사 방법도 함께 제시해야 해요.": {
+      "path": "/audio/a0a07a086cfae0d9a8fd.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 24480
+    },
+    "필요하다": {
+      "path": "/audio/b98947c9698402e3d07e.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11664
+    },
+    "필요한 범위를 넘어서 수집하는 건 아닌지 걱정돼요.": {
+      "path": "/audio/2399684b86bb6ae6f411.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 26064
+    },
+    "하": {
+      "path": "/audio/3c12bb52442aa6e6aaff.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "하나": {
+      "path": "/audio/556dcbf069a950eb94f3.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "하다": {
+      "path": "/audio/505de0a2f6be73fa7758.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "학기": {
+      "path": "/audio/a95c145d8eb8427ea655.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "학생": {
+      "path": "/audio/f24650b42089c29f9027.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "학생 식당 옆에 있어요.": {
+      "path": "/audio/c14ca921492915ab91ca.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 15840
+    },
+    "학습": {
+      "path": "/audio/2b8403841b471743ae34.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "한": {
+      "path": "/audio/89233692031a62c60e6e.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "한계": {
+      "path": "/audio/e2073416fa2604c83c23.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "한국": {
+      "path": "/audio/1eb7da6d56d883ca1dd1.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "한국 대학원에서 공부하고 싶어요.": {
+      "path": "/audio/ef015753fc7ebac7d3d2.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 19440
+    },
+    "한국 소설도 읽어 본 적이 있어요?": {
+      "path": "/audio/5e3bbf7bf4d8a43c53b6.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 19440
+    },
+    "한국어": {
+      "path": "/audio/ea3252281bc3bcec5672.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "한국어 책이에요.": {
+      "path": "/audio/51347a79bed97955fefd.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 13392
+    },
+    "한국어를 공부해요?": {
+      "path": "/audio/8b83a24c3ab15f81c006.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 13968
+    },
+    "한국어를 배워서 뭘 하고 싶어요?": {
+      "path": "/audio/6e863a326be9be4b873f.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 18576
+    },
+    "한국에 언제 왔어요?": {
+      "path": "/audio/d6c631c8e8b48f4e7b56.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 14976
+    },
+    "항목": {
+      "path": "/audio/962f286b1490fd7e9d1b.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "해석": {
+      "path": "/audio/7cebddfbc69e9faf8925.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "핵심": {
+      "path": "/audio/2667257de74764c7444b.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "행동": {
+      "path": "/audio/c0a59131a2a5be2a5183.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "현재": {
+      "path": "/audio/72d2bae2a744d54f0940.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "현재 진행 상황으로는 수요일까지 가능해요.": {
+      "path": "/audio/7885020264f393bfd86b.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 24192
+    },
+    "형평성": {
+      "path": "/audio/1b8961fd4a5c05b922c0.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11520
+    },
+    "혜택": {
+      "path": "/audio/0eab7119e8843522806b.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "혼자": {
+      "path": "/audio/9d309cd460ea409c50fb.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "혼자 공부하는 게 편해요?": {
+      "path": "/audio/e9f0b939a193b973e874.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 15984
+    },
+    "화요일": {
+      "path": "/audio/94e234f76b8eab7e261f.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "화장실": {
+      "path": "/audio/477b8e1cccfde276bae7.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "화장실은 어디예요?": {
+      "path": "/audio/84071573483891ecd30f.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 14400
+    },
+    "확대하다": {
+      "path": "/audio/722a746a9692fce95443.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 12240
+    },
+    "확인하다": {
+      "path": "/audio/895c2bcd51e10cf1d30a.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 12096
+    },
+    "확인한 뒤에 새 제품으로 바꿔 드릴게요.": {
+      "path": "/audio/1467588a4fc2403bbdef.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 22608
+    },
+    "환경": {
+      "path": "/audio/5d36e09c3271e0e77bdf.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "활용하다": {
+      "path": "/audio/f80a1d3b7dd20c8fedd2.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 12096
+    },
+    "회의": {
+      "path": "/audio/8ada2d6d6aa420fc4f0d.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "회의가 앞당겨져서 화요일에 필요해요.": {
+      "path": "/audio/e30bd75f5e1ebb9587b5.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 21600
+    },
+    "효과": {
+      "path": "/audio/377d1a0f2e6c609d9b7b.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "효과적": {
+      "path": "/audio/47f7fe75446433539c1b.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "효율성": {
+      "path": "/audio/3e49e8345ecbf601beb1.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "효율성과 형평성을 함께 검토해야 한다는 뜻이군요.": {
+      "path": "/audio/389f8e5f8614cdaad2cb.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 27216
+    },
+    "후": {
+      "path": "/audio/084a4bd8972f8d494487.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "흥미롭다": {
+      "path": "/audio/52f6e629edb6c5aee8ae.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11664
+    }
+  },
+  "audioListeningReview": "pending"
+}

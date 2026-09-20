@@ -1,0 +1,22 @@
+{
+  "scope": "local built production Worker with local D1; not a live phone/desktop test",
+  "passed": 14,
+  "checks": [
+    "anonymous reads and writes rejected",
+    "cross-origin write rejected",
+    "locked lesson enforced on server",
+    "unread dialogue cannot be skipped",
+    "unread lesson cannot be completed",
+    "invalid requests rejected",
+    "wrong answer does not unlock lesson",
+    "all 36 lessons save, assess, unlock, and resume",
+    "duplicate completion does not inflate review schedule",
+    "two user identities have isolated progress",
+    "fresh sessions restore durable progress",
+    "stale writing revision cannot overwrite another device",
+    "simultaneous due review advances exactly once",
+    "replay from another session preserves all earned progress"
+  ],
+  "browserQA": "unavailable: CUA localhost navigation blocked",
+  "webMCPQA": "unavailable: no supported browser context"
+}

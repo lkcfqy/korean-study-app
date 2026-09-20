@@ -1,0 +1,16 @@
+{
+  "lessons": 36,
+  "dialogueRows": 216,
+  "uniqueSentences": 216,
+  "uniqueCoreEntries": 472,
+  "voice": "ko-KR-SunHiNeural",
+  "audioFiles": 729,
+  "requiredAudioReferences": 727,
+  "audioDurationSeconds": 1743.58,
+  "missingAudio": 0,
+  "structuralValidation": "passed",
+  "semanticReview": "author self-review only; no independent bilingual review",
+  "audioListeningReview": "not performed",
+  "mobileDeviceQA": "pending",
+  "fullSixMonthCurriculum": "not complete"
+}
