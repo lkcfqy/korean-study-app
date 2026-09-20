@@ -49,5 +49,18 @@
     "Not a physical phone test",
     "Not a production two-account cloud roundtrip",
     "Playback start does not constitute human pronunciation review"
-  ]
+  ],
+  "audioStorageFollowup": {
+    "checkedAt": "2026-09-20T17:27:43.703487+00:00",
+    "scope": "local production Worker using persisted R2",
+    "freeNavigationToLastLesson": true,
+    "lastLessonId": "n57383-1-8",
+    "clickedWord": "바람직한",
+    "lemmaMeaning": "바람직하다：妥当，可取",
+    "lemmaAudioPlayStateObserved": true,
+    "sentenceContextAudioControlWorked": true,
+    "secondClickClosesAnnotation": true,
+    "wholeSentenceExpansionRemoved": true,
+    "consoleWarningsOrErrors": []
+  }
 }

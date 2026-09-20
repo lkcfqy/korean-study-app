@@ -8,6 +8,7 @@
 - 180 天，每天 240 分钟，共 720 小时；新课日按实际新增词汇均衡为 34–59 个词条，每五天复习，每月阶段检验。每天列出实际课程 ID，词句总量不计入任何站外材料或重复复习。
 - 44,985 个可点击词块，点词后显示原形、词义参考、助词和语尾，并可听原形或句中读音；不提供整句展开面板。词典词条可直接核对国语院来源。
 - 14,325 段固定 ko-KR-SunHiNeural 音频；句子、词条、拼读示例都有音频。提供保持音高的 0.8 倍速。
+- 原始 MP3 保存在 `content/audio/`，完整音频通过站点 R2 存储提供；基础课程的 729 段同时保留为静态缓存。迁移只复制原文件，不转码或降低音质，页面更新无需重新打包全部音频。
 - 课程按关加载，避免把整个正文词库放进首页脚本。目录按月份、日期显示当天对话。
 
 词条按原形文字去重，包含词典词汇、依存名词以及基础课中的常用表达，并非全部都是单一词汇词元。句子去掉空格和标点后去重。学过的数量是接触记录，不是熟练度证明。
@@ -40,6 +41,8 @@ D1 按账号保存对话位置、已读词句、完成状态、复习时间与�
 - `docs/content-audit.json`：实际内容、释义、音频引用、日程与审校覆盖校验。
 - `docs/audio-signal-tests.json`：全部音频的 PCM 解码、时长、静音和削波结果。
 - `docs/audio-transcription-tests.json`：整句自动语音复核及检查边界。
+- `docs/audio-storage-tests.json`：对象存储读取、分段播放、缓存及导入保护检查。
+- `docs/audio-cloud-import.json`：全部云端音频写入后读回的 SHA-256 核对结果。
 - `docs/progress-tests.json`：本地生产 Worker 与 D1 的账号隔离、续学、并发与版本冲突验证。
 - `docs/browser-qa.json`：当前版浏览器交互和手机尺寸验证，不冒充手机真机验收。
 
@@ -55,7 +58,9 @@ npm run build
 
 完整课程正文按关提交在 `public/course/`，排序和去重索引在 `content/course-index.json`；整库合并文件只作为本地编译缓存，避免单文件过大。
 
-课程生成顺序：`compile-curriculum.py` → `build-course-index.py` → `build-study-plan.py` → `generate-audio.py` → `build-content-notice.py` → `validate-course.py`。前者使用忽略提交的原始词典与翻译缓存，以及已提交的审校修正；站点构建无需这些缓存。`compile-breakdowns.py` 只编译旧基础课程，之后须重新编译完整课程。
+课程生成顺序：`compile-curriculum.py` → `build-course-index.py` → `build-study-plan.py` → `generate-audio.py` → `build-audio-storage-index.py` → `build-content-notice.py` → `validate-course.py`。前者使用忽略提交的原始词典与翻译缓存，以及已提交的审校修正；站点构建无需这些缓存。`compile-breakdowns.py` 只编译旧基础课程，之后须重新编译完整课程。
+
+新增音频先通过 `scripts/import-course-audio.py` 导入站点 R2，再发布引用它的课程。维护接口默认关闭；仅在 Sites 配置短期 `COURSE_AUDIO_IMPORT_KEY` secret 与 `COURSE_AUDIO_IMPORT_EXPIRES` 毫秒时间戳后可用，完成后删除两项并重新发布。脚本从标准输入读取密钥，不保存密钥。服务端只接受已提交清单中的文件和 SHA-256，每条写入后读回验证，重复上传保持幂等。它不修改学习进度，也不代替 Sites 的版本发布接口。
 
 新增词典筛选与拆解需要 Python/kiwipiepy；TTS 需要 edge-tts；语音复核使用 mlx-whisper、numpy、scipy 与 macOS afconvert。依赖、原始数据与模型放在忽略的 `.sites-runtime`。语言审校记录不能由运行测试替代。
 

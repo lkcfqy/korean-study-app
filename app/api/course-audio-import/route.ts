@@ -1,4 +1,4 @@
-// Temporary, secret-protected data migration; removed after the R2 import.
+// Offline provisioning only. Disabled unless a short-lived import secret is set.
 import {env} from 'cloudflare:workers';
 import {timingSafeEqual} from 'node:crypto';
 import inventory from '../../../content/audio-storage-index.json';

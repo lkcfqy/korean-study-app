@@ -19,6 +19,7 @@ def read(name):
 course = load_course(prefer_cache=False)
 index = read('content/course-index.json')
 audio = read('content/audio-manifest.json')
+audio_storage = read('content/audio-storage-index.json')
 hangul = read('content/hangul.json')
 plan = read('content/study-plan.json')
 foundation = read('content/foundation.json')
@@ -91,10 +92,14 @@ for entry in hangul:
     assert entry['audio'] == audio['entries'][entry['syllable']]['path']
     required.add(entry['audio'])
 for text, entry in audio['entries'].items():
-    path = ROOT / 'public' / entry['path'].lstrip('/')
+    path = ROOT / 'content/audio' / pathlib.Path(entry['path']).name
     assert path.is_file() and path.stat().st_size == entry['bytes'] >= 1000
     assert path.stem == hashlib.sha256(text.encode()).hexdigest()[:20]
     assert entry['voice'] == audio['voice']
+    assert audio_storage[path.name] == {'bytes':entry['bytes'],'sha256':hashlib.sha256(path.read_bytes()).hexdigest()}
+assert len(audio_storage) == len(audio['entries'])
+for cached in (ROOT / 'public/audio').glob('*.mp3'):
+    assert cached.read_bytes() == (ROOT / 'content/audio' / cached.name).read_bytes()
 assert required <= {e['path'] for e in audio['entries'].values()}
 
 assert [d['day'] for d in plan['days']] == list(range(1, 181))

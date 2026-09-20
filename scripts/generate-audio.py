@@ -14,7 +14,7 @@ args = parser.parse_args()
 if args.include_selected:
     selected = json.loads((ROOT / '.sites-runtime/corpus/selected-dialogues.json').read_text())
     texts = sorted(set(texts + [s for d in selected for s in d['lines']] + [w for d in selected for w in d['words']]))
-folder = ROOT / 'public/audio'
+folder = ROOT / 'content/audio'
 folder.mkdir(parents=True, exist_ok=True)
 semaphore = asyncio.Semaphore(5)
 done = 0

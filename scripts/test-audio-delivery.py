@@ -11,7 +11,7 @@ entries = json.loads((ROOT / 'content/audio-manifest.json').read_text())['entrie
 
 
 def check(entry):
-    expected = (ROOT / 'public' / entry['path'].lstrip('/')).read_bytes()
+    expected = (ROOT / 'content/audio' / pathlib.Path(entry['path']).name).read_bytes()
     with urllib.request.urlopen(BASE + entry['path'], timeout=30) as response:
         assert response.status == 200, entry['path']
         assert response.headers.get_content_type() == 'audio/mpeg', entry['path']

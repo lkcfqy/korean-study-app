@@ -1,0 +1,13 @@
+{
+  "completedAt": "2026-09-20T17:31:07.747823+00:00",
+  "site": "https://hangeul-dialogue-lkc.lkcfqy.chatgpt.site",
+  "binding": "BUCKET",
+  "prefix": "course-audio/ko-KR-SunHiNeural/",
+  "files": 14325,
+  "totalBytes": 251149536,
+  "voice": "ko-KR-SunHiNeural",
+  "allFilesReadBackFromCloudAndSha256Verified": true,
+  "originalMp3BytesUnchanged": true,
+  "inventorySha256": "9706612d4bbf5ed6d0092d95c472be8bfc6562482388154d7bd6f91107719ee0",
+  "scope": "Complete original audio copied to production Site R2; each object read back and SHA-256 compared by the authenticated import handler. This is storage integrity verification, not human pronunciation certification."
+}

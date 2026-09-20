@@ -7,7 +7,7 @@ manifest=json.loads((ROOT/'content/audio-manifest.json').read_text())
 
 def inspect(entry):
     text, meta=entry
-    source=ROOT/'public'/meta['path'].lstrip('/')
+    source=ROOT/'content/audio'/pathlib.Path(meta['path']).name
     with tempfile.TemporaryDirectory(prefix='hangeul-audio-') as directory:
         out=pathlib.Path(directory)/'decoded.wav'
         subprocess.run(['/usr/bin/afconvert','-f','WAVE','-d','LEI16',str(source),str(out)],check=True,capture_output=True)

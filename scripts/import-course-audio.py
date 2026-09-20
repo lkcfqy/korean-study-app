@@ -22,7 +22,9 @@ parser = argparse.ArgumentParser()
 parser.add_argument('--base', required=True)
 parser.add_argument('--receipt', required=True)
 parser.add_argument('--limit', type=int)
+parser.add_argument('--workers', type=int, default=12)
 args = parser.parse_args()
+assert 1 <= args.workers <= 12
 url = urllib.parse.urlsplit(args.base)
 assert url.scheme == 'https' or (url.scheme == 'http' and url.hostname == '127.0.0.1')
 assert not url.username and not url.password and not url.query and not url.fragment
@@ -70,6 +72,7 @@ def upload(names):
         request = urllib.request.Request(args.base.rstrip('/') + '/api/course-audio-import',
             data=body, method='POST', headers={
                 'Content-Type': 'application/json', 'Authorization': 'Bearer ' + secret,
+                'User-Agent': 'Hangeul-Course-Provisioning/1.0',
             })
         try:
             with urllib.request.build_opener(NoRedirect).open(request, timeout=90) as response:
@@ -96,6 +99,6 @@ def upload(names):
         print(json.dumps({'verifiedFiles':done,'totalFiles':len(inventory)}), flush=True)
 
 print(json.dumps({'alreadyVerified':len(completed),'pendingFiles':len(pending),'batches':len(batches)}),flush=True)
-with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:
+with concurrent.futures.ThreadPoolExecutor(max_workers=args.workers) as pool:
     list(pool.map(upload,batches))
 print(json.dumps({'finished':True,'verifiedFiles':done,'totalFiles':len(inventory)}),flush=True)

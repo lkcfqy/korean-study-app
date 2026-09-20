@@ -22,5 +22,6 @@
   ],
   "passed": 18,
   "voice": "ko-KR-SunHiNeural",
-  "originalBytesPreserved": true
+  "originalBytesPreserved": true,
+  "defaultWithoutImportSecret": "404 disabled"
 }

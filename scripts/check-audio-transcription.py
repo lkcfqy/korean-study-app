@@ -87,7 +87,7 @@ def main():
         while pending:
             group,arrays,ends=[],[],[];duration=0
             for text in pending:
-                path=ROOT/'public/audio'/(hashlib.sha256(text.encode()).hexdigest()[:20]+'.mp3')
+                path=ROOT/'content/audio'/(hashlib.sha256(text.encode()).hexdigest()[:20]+'.mp3')
                 if not path.exists():continue
                 samples=decode(path);seconds=len(samples)/16000
                 if duration+seconds>.1+25 and group:break
