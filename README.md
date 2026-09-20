@@ -37,7 +37,7 @@
 - `docs/content-audit.json` 记录内容检查范围。
 - `docs/progress-tests.json` 记录本地接口验证结果；不代表线上端到端验证。
 
-参考：[NIIED 官方考试说明](https://www.niied.go.kr/web/NIIED/contents/niiedEng/eng_topikOverview)、[国立国语院韩中词典](https://krdict.korean.go.kr/chi/mainAction)、[Microsoft 语音列表](https://learn.microsoft.com/en-us/azure/ai-services/speech-service/language-support?tabs=tts)。
+参考：[NIIED 官方考试说明](https://www.niied.go.kr/web/NIIED/contents/niiedEng/eng_topikOverview)、[国立国语院韩中词典](https://krdict.korean.go.kr/)、[Microsoft 语音列表](https://learn.microsoft.com/en-us/azure/ai-services/speech-service/language-support?tabs=tts)。
 
 ## 开发与部署
 
