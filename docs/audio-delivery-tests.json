@@ -1,0 +1,7 @@
+{
+  "files": 729,
+  "allHttpResponses": "200 audio/mpeg",
+  "byteExact": true,
+  "totalBytes": 10461456,
+  "scope": "local built production Worker, not live deployment"
+}
