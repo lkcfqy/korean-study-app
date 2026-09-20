@@ -7,7 +7,7 @@ ROOT = pathlib.Path(__file__).resolve().parents[1]
 VOICE = 'ko-KR-SunHiNeural'
 COURSE = load_course()
 SYLLABLES = ['아','야','어','여','오','요','우','유','으','이','가','나','다','라','마','바','사','자','차','카','타','파','하','까','따','빠','싸','짜','애','에','얘','예','와','왜','외','워','웨','위','의','한','국','어']
-texts = sorted(set(SYLLABLES + [line['ko'] for lesson in COURSE for line in lesson['lines']] + [w['term'] for lesson in COURSE for line in lesson['lines'] for w in line['words']]))
+texts = sorted(set(SYLLABLES + [line['ko'] for lesson in COURSE for line in lesson['lines']] + [w['term'] for lesson in COURSE for line in lesson['lines'] for w in line['words']] + [r['term'] for lesson in COURSE for line in lesson['lines'] for p in line['parts'] for r in p.get('readings',[])]))
 parser = argparse.ArgumentParser()
 parser.add_argument('--include-selected', action='store_true')
 args = parser.parse_args()
@@ -20,7 +20,10 @@ semaphore = asyncio.Semaphore(5)
 done = 0
 failures = []
 started = time.monotonic()
-manifest_entries = {}
+# Keep existing assets available to older open tabs while adding corrected
+# roots and standalone chunks. Course counts come from lessons, not this cache.
+manifest_path=ROOT/'content/audio-manifest.json'
+manifest_entries = json.loads(manifest_path.read_text())['entries'] if manifest_path.exists() else {}
 
 def checkpoint():
     manifest = {'voice':VOICE, 'rate':'+0%', 'pitch':'+0Hz', 'entries':manifest_entries,

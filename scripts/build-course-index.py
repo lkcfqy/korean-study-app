@@ -10,6 +10,8 @@ ROOT = pathlib.Path(__file__).resolve().parents[1]
 
 def main():
     course = load_course()
+    positions_path=ROOT/'content/question-positions.json'
+    positions=json.loads(positions_path.read_text()) if positions_path.exists() else {}
     words = sorted({w['term'] for l in course for s in l['lines'] for w in s['words']})
     sentences = sorted({key(s['ko']) for l in course for s in l['lines']})
     wi, si = {w: i for i, w in enumerate(words)}, {s: i for i, s in enumerate(sentences)}
@@ -34,7 +36,9 @@ def main():
                                   if s['zh'] != line['zh'])
             options = list(dict.fromkeys(candidates))[:2]
             assert len(options) == 2
-            answer = (n + q) % 3
+            # Reordering the curriculum must not invalidate a quiz already
+            # open on another device. Existing lessons retain their positions.
+            answer = positions.get(lesson['id'],[int(hashlib.sha256((lesson['id']+str(i)).encode()).hexdigest()[:8],16)%3 for i in range(2)])[q]
             options.insert(answer, line['zh'])
             questions.append({'lineIndex': line_index, 'options': options, 'answer': answer})
         published = {**lesson, 'questions': questions}

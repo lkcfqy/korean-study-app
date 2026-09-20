@@ -1,0 +1,52 @@
+{
+  "scope": "Contextual notes and selected sentence repairs for the first three quality criteria. This is AI editorial work, not independent teacher certification.",
+  "sourceDialoguesWithContextChoices": 3970,
+  "lexicalOccurrences": 43562,
+  "authoredFoundationRows": 216,
+  "clickableParts": 44985,
+  "explicitEditedLines": 223,
+  "explicitEditedParts": 236,
+  "morphologyRepairLines": 154,
+  "supplementEntries": 78,
+  "remainingAssemblyIssues": 0,
+  "unresolvedProperNames": 0,
+  "stratifiedManualAIReview": {
+    "dialogues": 18,
+    "sampleIds": [
+      "n62258-2-2",
+      "n66228-1-12",
+      "n75803-1-9",
+      "n71538-1-8",
+      "n49056-1-8",
+      "n66583-1-7",
+      "n14141-1-7",
+      "n30200-3-4",
+      "n27765-1-7",
+      "n71695-1-8",
+      "n83755-1-10",
+      "n15723-1-7",
+      "n85706-2-7",
+      "n60727-1-7",
+      "n69585-1-8",
+      "n39943-1-2",
+      "n23031-2-7",
+      "n47221-1-4"
+    ],
+    "scope": "Detailed contextual-note spot review; does not estimate a statistical whole-corpus accuracy rate.",
+    "finalScheduleMonthCounts": {
+      "1": 3,
+      "2": 3,
+      "3": 3,
+      "4": 3,
+      "5": 3,
+      "6": 3
+    }
+  },
+  "wholeSentenceChangesThisPass": {
+    "korean": 1,
+    "chinese": 5
+  },
+  "independentHumanTeacherReview": false,
+  "audioListeningReviewExpanded": false,
+  "examSystemExpanded": false
+}

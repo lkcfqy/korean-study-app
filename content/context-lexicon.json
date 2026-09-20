@@ -1,0 +1,473 @@
+[
+  {
+    "term": "정학",
+    "pos": "명사",
+    "meaning": "停学",
+    "definition": "学校暂停学生上课资格的处分。"
+  },
+  {
+    "term": "우와",
+    "pos": "감탄사",
+    "meaning": "哇",
+    "definition": "惊讶、赞叹时的感叹。"
+  },
+  {
+    "term": "그럼요",
+    "pos": "감탄사",
+    "meaning": "当然、那是当然",
+    "definition": "礼貌地肯定对方的问题或说法。"
+  },
+  {
+    "term": "웬걸요",
+    "pos": "감탄사",
+    "meaning": "哪有、哪儿的话",
+    "definition": "礼貌地表示实际情况与对方所想的不同。"
+  },
+  {
+    "term": "으이구",
+    "pos": "감탄사",
+    "meaning": "哎呀",
+    "definition": "带着不满、责怪或无奈的感叹。"
+  },
+  {
+    "term": "암산",
+    "pos": "명사",
+    "meaning": "心算",
+    "definition": "不用纸笔或计算器，在心里计算。"
+  },
+  {
+    "term": "그니까",
+    "pos": "부사",
+    "meaning": "所以、也就是说",
+    "definition": "그러니까 的口语缩略，本句用于确认刚才的说明。"
+  },
+  {
+    "term": "연신",
+    "pos": "부사",
+    "meaning": "不断地、一个劲儿地",
+    "definition": "接连重复同一动作。"
+  },
+  {
+    "term": "밀대",
+    "pos": "명사",
+    "meaning": "擀面杖",
+    "definition": "本句指用来将面团擀薄的工具。"
+  },
+  {
+    "term": "전단지",
+    "pos": "명사",
+    "meaning": "传单",
+    "definition": "用于宣传、通知的单张印刷品。"
+  },
+  {
+    "term": "빼입다",
+    "pos": "동사",
+    "meaning": "穿得整齐漂亮",
+    "definition": "特意把衣服穿得讲究、漂亮。"
+  },
+  {
+    "term": "공학과",
+    "pos": "명사",
+    "meaning": "工程系",
+    "definition": "学习和研究工程学的院系。"
+  },
+  {
+    "term": "채식주의자",
+    "pos": "명사",
+    "meaning": "素食主义者",
+    "definition": "以植物性食物为主要饮食、实行素食的人。"
+  },
+  {
+    "term": "연설자",
+    "pos": "명사",
+    "meaning": "演讲者",
+    "definition": "发表演讲的人。"
+  },
+  {
+    "term": "회식비",
+    "pos": "명사",
+    "meaning": "集体聚餐费用",
+    "definition": "同事、团体成员等一起聚餐的费用。"
+  },
+  {
+    "term": "알람",
+    "pos": "명사",
+    "meaning": "闹铃、提醒铃声",
+    "definition": "在指定时间发出的提醒声音。"
+  },
+  {
+    "term": "소식지",
+    "pos": "명사",
+    "meaning": "新闻简报、通讯",
+    "definition": "传达某个团体或地区消息的刊物。"
+  },
+  {
+    "term": "등산길",
+    "pos": "명사",
+    "meaning": "登山路",
+    "definition": "登山时行走的道路。"
+  },
+  {
+    "term": "기획서",
+    "pos": "명사",
+    "meaning": "策划书",
+    "definition": "写明活动、业务等具体计划的文件。"
+  },
+  {
+    "term": "이봐요",
+    "pos": "감탄사",
+    "meaning": "喂、请看这里",
+    "definition": "用于引起对方注意；语气直接，须留意交谈场合。"
+  },
+  {
+    "term": "내비게이션",
+    "pos": "명사",
+    "meaning": "导航系统",
+    "definition": "指示当前位置和路线的系统。"
+  },
+  {
+    "term": "아주버님",
+    "pos": "명사",
+    "meaning": "大伯子（尊称）",
+    "definition": "称呼丈夫哥哥的敬称。"
+  },
+  {
+    "term": "허리케인",
+    "pos": "명사",
+    "meaning": "飓风",
+    "definition": "发生于大西洋等地区的强烈热带气旋。"
+  },
+  {
+    "term": "홍보실",
+    "pos": "명사",
+    "meaning": "宣传部门",
+    "definition": "承担宣传、公共关系工作的部门。"
+  },
+  {
+    "term": "장미꽃",
+    "pos": "명사",
+    "meaning": "玫瑰花",
+    "definition": "玫瑰所开的花。"
+  },
+  {
+    "term": "아이구",
+    "pos": "감탄사",
+    "meaning": "哎呀",
+    "definition": "表示惊讶、感慨等的口语感叹；아이구 是 아이고 的口语变体。"
+  },
+  {
+    "term": "안전사고",
+    "pos": "명사",
+    "meaning": "安全事故",
+    "definition": "因安全隐患等发生的意外事故。"
+  },
+  {
+    "term": "식사비",
+    "pos": "명사",
+    "meaning": "餐费",
+    "definition": "用餐的费用。"
+  },
+  {
+    "term": "어딨다",
+    "pos": "형용사",
+    "meaning": "在哪里、哪有",
+    "definition": "어디 있다 的口语缩略；本句是“哪里还有”的反问。"
+  },
+  {
+    "term": "영업부",
+    "pos": "명사",
+    "meaning": "销售部、营业部",
+    "definition": "负责销售或营业工作的部门。"
+  },
+  {
+    "term": "내음",
+    "pos": "명사",
+    "meaning": "气味",
+    "definition": "鼻子闻到的气息、味道，常用于具有情感色彩的描述。"
+  },
+  {
+    "term": "와아",
+    "pos": "감탄사",
+    "meaning": "哇",
+    "definition": "表示惊讶、赞叹的感叹。"
+  },
+  {
+    "term": "상대자",
+    "pos": "명사",
+    "meaning": "对象、对方",
+    "definition": "与自己构成某种关系的另一方；本句指结婚对象。"
+  },
+  {
+    "term": "사인회",
+    "pos": "명사",
+    "meaning": "签名会",
+    "definition": "艺人、作者等为参加者签名的活动。"
+  },
+  {
+    "term": "옥탑방",
+    "pos": "명사",
+    "meaning": "屋顶房、顶楼小屋",
+    "definition": "建在建筑物屋顶上的房间。"
+  },
+  {
+    "term": "천정",
+    "pos": "명사",
+    "meaning": "天花板",
+    "definition": "천장 的非标准说法；正文保留原对话写法，通常建议使用 천장。",
+    "referenceUrl": "https://korean.go.kr/front/mcfaq/mcfaqView.do?mcfaq_seq=8205&mn_id=62"
+  },
+  {
+    "term": "어라",
+    "pos": "감탄사",
+    "meaning": "咦、哎",
+    "definition": "突然发现出乎意料的情况时的感叹。"
+  },
+  {
+    "term": "기름값",
+    "pos": "명사",
+    "meaning": "油价、燃油费用",
+    "definition": "购买燃油的价格或费用。"
+  },
+  {
+    "term": "프로포즈",
+    "pos": "명사",
+    "meaning": "求婚",
+    "definition": "向对方提出结婚请求；规范外来语写法为 프러포즈。",
+    "referenceUrl": "https://www.korean.go.kr/nkview/foreign/gp_index.html"
+  },
+  {
+    "term": "워낙에",
+    "pos": "부사",
+    "meaning": "本来就、非常",
+    "definition": "워낙 加上强调用的 에；本句强调一向具备的特点。"
+  },
+  {
+    "term": "전지",
+    "pos": "명사",
+    "meaning": "电池",
+    "definition": "把化学能等转成电能的装置。"
+  },
+  {
+    "term": "산책로",
+    "pos": "명사",
+    "meaning": "散步道、步道",
+    "definition": "供人散步的道路。"
+  },
+  {
+    "term": "어혈",
+    "pos": "명사",
+    "meaning": "瘀血",
+    "definition": "韩医学中指体内血液运行不畅或停滞的状态；这里是词义解释。"
+  },
+  {
+    "term": "테러범",
+    "pos": "명사",
+    "meaning": "恐怖分子",
+    "definition": "实施恐怖袭击的人。"
+  },
+  {
+    "term": "양조장",
+    "pos": "명사",
+    "meaning": "酿造厂、酒厂",
+    "definition": "酿制酒类等的场所。"
+  },
+  {
+    "term": "존대말",
+    "pos": "명사",
+    "meaning": "敬语",
+    "definition": "为表示尊重对方或所谈及的人而使用的话语形式。"
+  },
+  {
+    "term": "테이블",
+    "pos": "명사",
+    "meaning": "桌子",
+    "definition": "用于用餐、办公或会议等的桌子。"
+  },
+  {
+    "term": "묏자리",
+    "pos": "명사",
+    "meaning": "墓地、墓穴位置",
+    "definition": "设置坟墓的地方。"
+  },
+  {
+    "term": "승마장",
+    "pos": "명사",
+    "meaning": "马场、骑马场",
+    "definition": "供人骑马的场地。"
+  },
+  {
+    "term": "시어머님",
+    "pos": "명사",
+    "meaning": "婆婆（尊称）",
+    "definition": "对丈夫母亲的尊称。"
+  },
+  {
+    "term": "켜지다",
+    "pos": "동사",
+    "meaning": "亮起、被打开",
+    "definition": "灯、电器等进入工作状态；本句指灯自动亮起。"
+  },
+  {
+    "term": "신생아실",
+    "pos": "명사",
+    "meaning": "新生儿病房",
+    "definition": "照护刚出生婴儿的医院房间。"
+  },
+  {
+    "term": "요전",
+    "pos": "명사",
+    "meaning": "前些时候、前阵子",
+    "definition": "距现在不久之前的某个时候。"
+  },
+  {
+    "term": "탐지기",
+    "pos": "명사",
+    "meaning": "探测器",
+    "definition": "探测目标物是否存在、位置等的仪器。"
+  },
+  {
+    "term": "법대",
+    "pos": "명사",
+    "meaning": "法学院",
+    "definition": "법과 대학 的简称。"
+  },
+  {
+    "term": "설명회",
+    "pos": "명사",
+    "meaning": "说明会",
+    "definition": "向参加者集中说明相关内容的活动。"
+  },
+  {
+    "term": "덩크",
+    "pos": "명사",
+    "meaning": "扣篮",
+    "definition": "篮球运动中将球从篮圈上方直接扣入；常说 덩크 슛。"
+  },
+  {
+    "term": "교육학과",
+    "pos": "명사",
+    "meaning": "教育学系",
+    "definition": "学习和研究教育学的院系。"
+  },
+  {
+    "term": "지난밤",
+    "pos": "명사",
+    "meaning": "昨晚、过去的那一夜",
+    "definition": "已经过去的夜晚，通常指昨夜。"
+  },
+  {
+    "term": "남자애",
+    "pos": "명사",
+    "meaning": "男孩子",
+    "definition": "남자아이 的口语缩略。"
+  },
+  {
+    "term": "됫박",
+    "pos": "명사",
+    "meaning": "量米斗、小斗",
+    "definition": "用于量取谷物等的容器；本句指按小斗计量。"
+  },
+  {
+    "term": "지원책",
+    "pos": "명사",
+    "meaning": "扶持措施、支援办法",
+    "definition": "为帮助某人或某项活动而制定的措施。"
+  },
+  {
+    "term": "붕어빵",
+    "pos": "명사",
+    "meaning": "鲫鱼饼",
+    "definition": "外形像鲫鱼、通常包有红豆馅的烤制点心。"
+  },
+  {
+    "term": "롤러코스터",
+    "pos": "명사",
+    "meaning": "过山车",
+    "definition": "沿高低弯曲轨道快速运行的游乐设施。"
+  },
+  {
+    "term": "음",
+    "pos": "명사",
+    "meaning": "音、曲调",
+    "definition": "本句谈歌曲的旋律，与歌词相对。"
+  },
+  {
+    "term": "수리소",
+    "pos": "명사",
+    "meaning": "修理厂、维修点",
+    "definition": "修理车辆或器械等的场所。"
+  },
+  {
+    "term": "찌뿌둥하다",
+    "pos": "형용사",
+    "meaning": "身体沉重不舒坦",
+    "definition": "本句指全身发沉、疲倦不舒坦。"
+  },
+  {
+    "term": "대체",
+    "pos": "부사",
+    "meaning": "到底、究竟",
+    "definition": "用于疑问句，加强追问或惊讶的语气。"
+  },
+  {
+    "term": "수놓이다",
+    "pos": "동사",
+    "meaning": "被绣上、绣有",
+    "definition": "수놓다（刺绣）的被动形式；本句指手帕上绣着花。"
+  },
+  {
+    "term": "튀밥",
+    "pos": "명사",
+    "meaning": "米花、膨化谷物",
+    "definition": "将大米等谷物加热膨化而成的食品；本句明确指大米米花。"
+  },
+  {
+    "term": "티라노사우루스",
+    "pos": "명사",
+    "meaning": "霸王龙",
+    "definition": "一种体型巨大的食肉恐龙。"
+  },
+  {
+    "term": "가래",
+    "pos": "명사",
+    "meaning": "痰",
+    "definition": "呼吸道内分泌、可经咳嗽排出的黏液；本课按呼吸道症状语境补充。"
+  },
+  {
+    "term": "죄다",
+    "pos": "부사",
+    "meaning": "全都、全部",
+    "definition": "作为副词表示没有遗漏地全部；本课按作品全部不好的语境补充。"
+  },
+  {
+    "term": "으슬으슬하다",
+    "pos": "형용사",
+    "meaning": "浑身发冷",
+    "definition": "身体一阵阵发冷，常形容感冒、受寒等时的感觉。"
+  },
+  {
+    "term": "치사하다",
+    "pos": "형용사",
+    "meaning": "卑鄙、小气、令人不齿",
+    "definition": "言行或处事不光明磊落，让人觉得卑鄙或小气；与“致死、致谢”等同形动词不同。"
+  },
+  {
+    "term": "비포장도로",
+    "pos": "명사",
+    "meaning": "未铺装道路",
+    "definition": "没有铺设沥青、混凝土等路面的道路；비- 表示非、未。"
+  },
+  {
+    "term": "실내복",
+    "pos": "명사",
+    "meaning": "家居服、室内穿的衣服",
+    "definition": "在家或室内活动时穿的衣服；실내 表示室内，-복 表示衣服。"
+  },
+  {
+    "term": "쓰다",
+    "pos": "동사",
+    "meaning": "安葬、筑坟",
+    "definition": "与 묘、무덤 等合用，表示安葬死者、建造坟墓；此处不是“写”或一般的“使用”。",
+    "reference": "https://krdict.korean.go.kr/kor/dicSearch/SearchView?ParaWordNo=15321"
+  }
+]

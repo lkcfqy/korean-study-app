@@ -1,0 +1,2441 @@
+{
+  "n63510-5-8-1": {
+    "parts": {
+      "1": {
+        "meaning": "秋意变浓、时节渐深",
+        "lexicalMeaning": "成熟、浓郁；这里比喻秋意渐浓"
+      },
+      "2": {
+        "meaning": "逐渐……下去",
+        "lexicalMeaning": "逐渐发展、持续变化（-아/어 가다）",
+        "root": {
+          "entryId": "28764",
+          "senseId": "1"
+        }
+      },
+      "3": {
+        "meaning": "正在……啊！",
+        "lexicalMeaning": "表示状态正在持续；-구나 表示发现后的感叹"
+      }
+    }
+  },
+  "n63510-5-8-2": {
+    "parts": {
+      "2": {
+        "meaning": "秋色；秋季变色的树叶",
+        "lexicalMeaning": "秋季变色的树叶；단풍이 들다 指树叶染上秋色"
+      },
+      "4": {
+        "meaning": "染上秋色了",
+        "lexicalMeaning": "染上颜色；本句指树叶染上秋色",
+        "explanation": "들다（染上颜色），与 단풍 合用表示树叶变色；-었- 表示过去或已经出现的变化，-어 为非敬语句末。"
+      }
+    }
+  },
+  "n93441-1-5-1": {
+    "parts": {
+      "1": {
+        "meaning": "是什么事？",
+        "lexicalMeaning": "事情、情况",
+        "explanation": "일（事情）＋이다（是）＋-야；与前面的 무슨 合用，询问发生了什么事。"
+      }
+    }
+  },
+  "n93441-1-5-2": {
+    "parts": {
+      "0": {
+        "meaning": "爸爸和……",
+        "explanation": "아버지（爸爸）＋랑（和）；与后面的 어머니 连用，表示爸爸和妈妈共同参与吵架这一行为。"
+      },
+      "3": {
+        "meaning": "吵架了",
+        "lexicalMeaning": "争吵；本句指父母吵架",
+        "explanation": "싸우다（争吵）＋-시-（尊敬父母）＋-었-（过去）＋-어（非敬语句末）。对父母使用尊敬形式，不等于整句采用礼貌句末。"
+      }
+    }
+  },
+  "n30837-1-8-1": {
+    "parts": {
+      "2": {
+        "meaning": "连过错也……",
+        "explanation": "잘못（过错）＋도（也、连……也）；与后面的 없는 连用，表示“并没有做错什么”。"
+      },
+      "3": {
+        "meaning": "没有过错的",
+        "lexicalMeaning": "没有；本句指并无过错",
+        "explanation": "없다（没有）＋-는（修饰名词）；잘못도 없는 修饰后面的 나（我），表示“没有做错事的我”。这里是状态，不是正在做的动作。"
+      },
+      "5": {
+        "meaning": "不耐烦、脾气（宾语）",
+        "lexicalMeaning": "烦躁、不耐烦；짜증을 내다 表示发脾气"
+      },
+      "6": {
+        "meaning": "发脾气的",
+        "lexicalMeaning": "发、表现出不满（짜증을 내다）"
+      },
+      "7": {
+        "meaning": "……是怎么回事？",
+        "lexicalMeaning": "것 的口语形式，使前面的内容名词化",
+        "explanation": "거 是 것 的口语形式；-는 거야? 将前面的行为作为话题来追问或要求解释。本句带责问语气。"
+      }
+    }
+  },
+  "n30837-1-8-2": {
+    "parts": {
+      "4": {
+        "meaning": "烦躁、不耐烦（主语）",
+        "lexicalMeaning": "容易烦躁、发脾气的状态"
+      },
+      "5": {
+        "meaning": "感到烦躁，……",
+        "lexicalMeaning": "产生某种情绪；신경질이 나다 表示感到烦躁",
+        "root": {
+          "entryId": "62210",
+          "senseId": "12"
+        }
+      },
+      "6": {
+        "meaning": "总是这样呢",
+        "root": {
+          "entryId": "37062",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "那样做、处于前面所说的情况",
+        "explanation": "그러다（那样做）＋-네（发现、感叹）；接在 -고 后概括前面说的烦躁情况，不是 그렇다 的“普通、一般”义。"
+      }
+    }
+  },
+  "n54969-1-7-1": {
+    "zh": "我晕车了，我开一下窗户。",
+    "parts": {
+      "1": {
+        "meaning": "因为晕车了",
+        "lexicalMeaning": "出现身体不适（멀미가 나다：晕车、晕船）"
+      },
+      "4": {
+        "meaning": "我开一下（告知意图）",
+        "explanation": "열다（打开）＋-ㄹ게요，礼貌地告诉对方自己将采取的行动；这里不是直接的疑问句。"
+      }
+    }
+  },
+  "n87787-4-7-2": {
+    "parts": {
+      "3": {
+        "meaning": "在劝说中陷进去、被说动",
+        "lexicalMeaning": "陷入、被卷入；本句指被妻子的持续劝说说动"
+      },
+      "4": {
+        "meaning": "结果还是……了",
+        "lexicalMeaning": "结果还是发生了（-고 말다）"
+      }
+    }
+  },
+  "n58162-3-8-2": {
+    "parts": {
+      "2": {
+        "root": {
+          "entryId": "89917",
+          "senseId": "2"
+        },
+        "lexicalMeaning": "没有（吃东西的意愿）"
+      }
+    }
+  },
+  "n66235-1-6-2": {
+    "parts": {
+      "2": {
+        "root": {
+          "entryId": "66235",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "几个人（数目不定的小数量）"
+      }
+    }
+  },
+  "n71692-1-10-2": {
+    "parts": {
+      "4": {
+        "root": {
+          "entryId": "32750",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "纳木（宠物名；字面意思是“树”）"
+      }
+    }
+  },
+  "n59725-2-7-1": {
+    "parts": {
+      "1": {
+        "root": {
+          "entryId": "73223",
+          "senseId": "2"
+        },
+        "lexicalMeaning": "兄弟姐妹；本句指五个姐妹"
+      }
+    }
+  },
+  "n29724-1-13-2": {
+    "parts": {
+      "5": {
+        "root": {
+          "entryId": "89534",
+          "senseId": "9"
+        },
+        "lexicalMeaning": "放置、摆放"
+      }
+    }
+  },
+  "n17608-4-6-2": {
+    "parts": {
+      "4": {
+        "root": {
+          "entryId": "17608",
+          "senseId": "4"
+        },
+        "lexicalMeaning": "照料、照顾（할머니 손에서 자라다：由奶奶养大）"
+      }
+    }
+  },
+  "n69603-1-2-2": {
+    "parts": {
+      "4": {
+        "root": {
+          "entryId": "62210",
+          "senseId": "21"
+        },
+        "lexicalMeaning": "想起、记起来（기억이 나다）"
+      }
+    }
+  },
+  "n70067-1-22-1": {
+    "parts": {
+      "6": {
+        "root": {
+          "entryId": "62210",
+          "senseId": "21"
+        },
+        "lexicalMeaning": "想起、记起来（기억이 나다）"
+      }
+    }
+  },
+  "n29750-3-6-2": {
+    "parts": {
+      "4": {
+        "root": {
+          "entryId": "73277",
+          "senseId": "10"
+        },
+        "lexicalMeaning": "价格为、要价；얼마 안 하다 表示价格不高"
+      }
+    }
+  },
+  "n63606-1-9-2": {
+    "parts": {
+      "5": {
+        "root": {
+          "entryId": "73277",
+          "senseId": "8"
+        },
+        "lexicalMeaning": "获得；준우승을 하다 指获得亚军"
+      }
+    }
+  },
+  "n71116-4-8-1": {
+    "parts": {
+      "3": {
+        "root": {
+          "entryId": "64509",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "发球（서비스를 넣다 的固定搭配）"
+      }
+    }
+  },
+  "n20468-1-8-2": {
+    "parts": {
+      "5": {
+        "root": {
+          "entryId": "73277",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "做出拒绝（거절을 하다）"
+      }
+    }
+  },
+  "n71121-1-11-2": {
+    "parts": {
+      "2": {
+        "root": {
+          "entryId": "65234",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "拿、带；가져다 드리다 指拿过来给对方"
+      }
+    }
+  },
+  "n62840-1-21-2": {
+    "parts": {
+      "2": {
+        "root": {
+          "entryId": "73277",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "做、进行（운동을 하다：锻炼）"
+      }
+    }
+  },
+  "n26087-1-45-2": {
+    "parts": {
+      "6": {
+        "root": {
+          "entryId": "73277",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "经历、体验（경험을 하다）"
+      }
+    }
+  },
+  "n58297-2-9-2": {
+    "parts": {
+      "2": {
+        "root": {
+          "entryId": "58299",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "寻找、找到（这里指找工作）"
+      }
+    }
+  },
+  "n31953-4-2-2": {
+    "parts": {
+      "6": {
+        "root": {
+          "entryId": "57998",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "浮现在眼前、惦念（눈에 밟히다 的惯用表达）"
+      }
+    }
+  },
+  "n14381-1-8-2": {
+    "parts": {
+      "6": {
+        "root": {
+          "entryId": "73277",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "提出（데이트 신청을 하다：邀请约会）"
+      }
+    }
+  },
+  "n58720-1-13-2": {
+    "parts": {
+      "6": {
+        "root": {
+          "entryId": "62210",
+          "senseId": "20"
+        },
+        "lexicalMeaning": "发生身体不适；배탈이 나다 指闹肚子"
+      }
+    }
+  },
+  "n71290-1-8-2": {
+    "parts": {
+      "5": {
+        "root": {
+          "entryId": "89917",
+          "senseId": "2"
+        },
+        "lexicalMeaning": "없다 原意为“没有”；그림이 따로 없다 指简直就是一幅画"
+      }
+    }
+  },
+  "n71278-3-7-2": {
+    "parts": {
+      "2": {
+        "root": {
+          "entryId": "62835",
+          "senseId": "4"
+        },
+        "lexicalMeaning": "前面的状态或情况；게 是 것이 的缩略"
+      }
+    }
+  },
+  "n45157-5-7-2": {
+    "parts": {
+      "7": {
+        "root": {
+          "entryId": "73277",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "做、进行（운전을 하다：开车）"
+      }
+    }
+  },
+  "n71696-3-7-2": {
+    "parts": {
+      "3": {
+        "root": {
+          "entryId": "57323",
+          "senseId": "22"
+        },
+        "lexicalMeaning": "开玩笑、嬉闹（장난을 치다）"
+      },
+      "6": {
+        "root": {
+          "entryId": "62331",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "所说的事情、情况（것 的口语形式）"
+      }
+    }
+  },
+  "n88349-1-13-2": {
+    "parts": {
+      "5": {
+        "root": {
+          "entryId": "22784",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "个（计数单位）"
+      }
+    }
+  },
+  "n31570-1-2-2": {
+    "parts": {
+      "7": {
+        "root": {
+          "entryId": "73277",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "做；어떻게 하나 表示“这可怎么办”"
+      }
+    }
+  },
+  "n58977-1-7-2": {
+    "parts": {
+      "2": {
+        "meaning": "没能……、没……多久",
+        "explanation": "못（没能）＋하다（做）＋-었-（过去）＋-는데（背景）；与前面的 놀지도 合用，表示还没玩多久。"
+      }
+    }
+  },
+  "n82837-11-7-2": {
+    "parts": {
+      "5": {
+        "root": {
+          "entryId": "82837",
+          "senseId": "11"
+        },
+        "lexicalMeaning": "买粮食吃（本句不是“卖掉”）",
+        "explanation": "팔아먹다 在这里采用词典第 11 义“花钱购买粮食”；쌀을 됫박으로 팔아먹다 指一小斗一小斗地买米吃，强调手头拮据。"
+      }
+    }
+  },
+  "n58939-4-7-2": {
+    "parts": {
+      "2": {
+        "root": {
+          "entryId": "27500",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "去、离开（잘 가게：慢走、一路走好）"
+      }
+    }
+  },
+  "n62239-2-8-2": {
+    "parts": {
+      "4": {
+        "root": {
+          "entryId": "73277",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "做、进行（산책을 하다：散步）"
+      }
+    }
+  },
+  "n14013-1-9-2": {
+    "parts": {
+      "2": {
+        "root": {
+          "entryId": "66636",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "收到（消息）"
+      }
+    }
+  },
+  "n70702-1-9-2": {
+    "parts": {
+      "4": {
+        "root": {
+          "entryId": "73277",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "做；먹기만 하다 指只顾吃"
+      },
+      "7": {
+        "root": {
+          "entryId": "73277",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "做、进行（운동을 하다：锻炼）"
+      }
+    }
+  },
+  "n26888-1-26-2": {
+    "parts": {
+      "8": {
+        "root": {
+          "entryId": "68797",
+          "senseId": "8"
+        },
+        "lexicalMeaning": "在、位于（钥匙的位置）"
+      }
+    }
+  },
+  "n64358-3-5-2": {
+    "parts": {
+      "3": {
+        "root": {
+          "entryId": "62595",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "一直处于某种状态（모르고 있다：一直不知道）"
+      }
+    }
+  },
+  "n49672-2-7-1": {
+    "parts": {
+      "5": {
+        "root": {
+          "entryId": "73277",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "做、进行（얘기를 하다：交谈）"
+      }
+    }
+  },
+  "n56544-2-7-1": {
+    "parts": {
+      "0": {
+        "meaning": "韩文音节 이，与……",
+        "explanation": "这里谈论韩文字形 이，不是李姓；와 连接并列项，表示“和”。"
+      },
+      "1": {
+        "meaning": "叫作 김 的（音节）",
+        "explanation": "这里谈论韩文音节 김；이라는 引用这个名称，修饰后面的 글자（字）。"
+      }
+    }
+  },
+  "n28135-2-7-1": {
+    "parts": {
+      "4": {
+        "root": {
+          "entryId": "73277",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "做；지각을 하다 指迟到"
+      }
+    }
+  },
+  "n36241-4-7-2": {
+    "parts": {
+      "2": {
+        "root": {
+          "entryId": "62379",
+          "senseId": "2"
+        },
+        "lexicalMeaning": "话、说的话"
+      }
+    }
+  },
+  "n75754-2-7-2": {
+    "parts": {
+      "5": {
+        "root": {
+          "entryId": "91870",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "事情、情况（-는 줄 모르다：没意识到……）"
+      }
+    }
+  },
+  "n62492-1-11-2": {
+    "parts": {
+      "8": {
+        "root": {
+          "entryId": "73277",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "做、进行（정리를 하다：整理）"
+      }
+    }
+  },
+  "n63801-1-16-2": {
+    "parts": {
+      "0": {
+        "root": {
+          "entryId": "64390",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "你的（네 是 너의 的缩略）"
+      }
+    }
+  },
+  "n74125-1-10-2": {
+    "parts": {
+      "7": {
+        "root": {
+          "entryId": "73277",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "说话（말을 하다）"
+      }
+    }
+  },
+  "n70565-3-7-2": {
+    "parts": {
+      "2": {
+        "root": {
+          "entryId": "62210",
+          "senseId": "18"
+        },
+        "lexicalMeaning": "流出（눈물이 나다：流泪）"
+      }
+    }
+  },
+  "n43805-1-7-2": {
+    "parts": {
+      "4": {
+        "root": {
+          "entryId": "73277",
+          "senseId": "22"
+        },
+        "lexicalMeaning": "说（转述之前的话）"
+      }
+    }
+  },
+  "n28444-1-21-1": {
+    "parts": {
+      "4": {
+        "root": {
+          "entryId": "62210",
+          "senseId": "12"
+        },
+        "lexicalMeaning": "产生情绪（화가 나다：生气）"
+      }
+    }
+  },
+  "n62095-3-5-2": {
+    "parts": {
+      "4": {
+        "root": {
+          "entryId": "73277",
+          "senseId": "22"
+        },
+        "lexicalMeaning": "说、据说（引述内容）"
+      }
+    }
+  },
+  "n71338-2-3-2": {
+    "parts": {
+      "2": {
+        "root": {
+          "entryId": "73277",
+          "senseId": "22"
+        },
+        "lexicalMeaning": "说；-다고 하더라도 表示“即使说……、即便……也”"
+      }
+    }
+  },
+  "n58163-5-6-2": {
+    "parts": {
+      "3": {
+        "root": {
+          "entryId": "49856",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "刀刃锋利、好切",
+        "explanation": "这里的 들어서 来自 들다（刀刃锋利），不是 듣다（听）；-어서 连接原因，前面的 안 表示否定。"
+      }
+    }
+  },
+  "n67862-2-3-2": {
+    "parts": {
+      "3": {
+        "root": {
+          "entryId": "67862",
+          "senseId": "2"
+        },
+        "lexicalMeaning": "这、这两种（指刚提到的跑步和足球）"
+      }
+    }
+  },
+  "n57957-1-17-1": {
+    "parts": {
+      "4": {
+        "root": {
+          "entryId": "73277",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "做、进行（피아노 연습을 하다：练钢琴）"
+      }
+    }
+  },
+  "n28370-3-7-2": {
+    "parts": {
+      "5": {
+        "root": {
+          "entryId": "58272",
+          "senseId": "5"
+        },
+        "lexicalMeaning": "下定决心（마음을 먹다）"
+      }
+    }
+  },
+  "n62345-3-8-2": {
+    "parts": {
+      "1": {
+        "root": {
+          "entryId": "62345",
+          "senseId": "3"
+        },
+        "lexicalMeaning": "收回、捞回投入的资金"
+      }
+    }
+  },
+  "n41393-1-8-2": {
+    "parts": {
+      "2": {
+        "root": {
+          "entryId": "89917",
+          "senseId": "2"
+        },
+        "lexicalMeaning": "没有（其他计划）"
+      }
+    }
+  },
+  "n66563-2-4-2": {
+    "parts": {
+      "5": {
+        "root": {
+          "entryId": "27500",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "去、带走；떼어 가다 在本句指把税款扣走"
+      }
+    }
+  },
+  "n65171-6-3-2": {
+    "parts": {
+      "0": {
+        "root": {
+          "entryId": "73278",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "一（한 달：一个月；내내：整整、一直）"
+      }
+    }
+  },
+  "n64346-1-7-2": {
+    "parts": {
+      "2": {
+        "root": {
+          "entryId": "64523",
+          "senseId": "3"
+        },
+        "lexicalMeaning": "高（这里指盐水浓度高）"
+      }
+    }
+  },
+  "n14998-1-9-1": {
+    "parts": {
+      "3": {
+        "root": {
+          "entryId": "17254",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "没能、没有（못 보다：没看到）"
+      }
+    }
+  },
+  "n14998-1-9-2": {
+    "parts": {
+      "0": {
+        "root": {
+          "entryId": "17254",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "没能、没有（못 보다：没看到）"
+      }
+    }
+  },
+  "n62322-2-7-2": {
+    "parts": {
+      "1": {
+        "root": {
+          "entryId": "36264",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "尽管如此、不过还是"
+      }
+    }
+  },
+  "n83344-3-5-2": {
+    "parts": {
+      "3": {
+        "root": {
+          "entryId": "47500",
+          "senseId": "1"
+        }
+      }
+    }
+  },
+  "n29040-1-7-1": {
+    "parts": {
+      "1": {
+        "root": {
+          "entryId": "73278",
+          "senseId": "1"
+        }
+      }
+    }
+  },
+  "n15199-1-8-2": {
+    "parts": {
+      "1": {
+        "root": {
+          "entryId": "71583",
+          "senseId": "1"
+        }
+      }
+    }
+  },
+  "n21353-1-12-2": {
+    "parts": {
+      "3": {
+        "root": {
+          "entryId": "73277",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "上课（承接前文的 과학 수업）"
+      }
+    }
+  },
+  "n62824-4-7-1": {
+    "parts": {
+      "5": {
+        "root": {
+          "entryId": "73277",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "做、处理（어떻게 하다：怎么办）"
+      }
+    }
+  },
+  "n74355-3-7-2": {
+    "parts": {
+      "4": {
+        "root": {
+          "entryId": "73277",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "做、进行（표현을 하다：表现、表达）"
+      }
+    }
+  },
+  "n14183-1-7-2": {
+    "parts": {
+      "6": {
+        "root": {
+          "entryId": "73277",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "做出动作（꼼짝 못 하다：动弹不得）"
+      }
+    }
+  },
+  "n83962-1-7-2": {
+    "parts": {
+      "4": {
+        "root": {
+          "entryId": "73277",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "进行某事（하숙을 하다：寄宿）"
+      }
+    }
+  },
+  "n77807-1-10-2": {
+    "parts": {
+      "0": {
+        "root": {
+          "entryId": "37062",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "那样做（指把拉链拉上）"
+      }
+    }
+  },
+  "n14329-2-5-2": {
+    "parts": {
+      "1": {
+        "root": {
+          "entryId": "62899",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "强调前面的状态（-기만 하다：只不过是……）"
+      }
+    }
+  },
+  "n74355-3-7-1": {
+    "parts": {
+      "4": {
+        "root": {
+          "entryId": "91870",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "表示所理解的情况（-ㄴ 줄 알다：以为……）"
+      }
+    }
+  },
+  "n24815-2-7-2": {
+    "parts": {
+      "8": {
+        "root": {
+          "entryId": "27500",
+          "senseId": "24"
+        },
+        "lexicalMeaning": "能够理解（이해가 가다：理解得了）"
+      }
+    }
+  },
+  "n38904-1-10-2": {
+    "parts": {
+      "2": {
+        "root": {
+          "entryId": "65234",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "拿、带（가져다주다：拿来给别人）"
+      }
+    }
+  },
+  "n16735-1-7-2": {
+    "parts": {
+      "4": {
+        "root": {
+          "entryId": "62134",
+          "senseId": "2"
+        },
+        "lexicalMeaning": "前一动作结束（-고 나서：做完……之后）"
+      }
+    }
+  },
+  "n61381-6-7-1": {
+    "parts": {
+      "4": {
+        "root": {
+          "entryId": "62888",
+          "senseId": "4"
+        },
+        "rootItem": 1,
+        "lexicalMeaning": "应该、需要（-아/어야 하다）"
+      }
+    }
+  },
+  "n71206-1-8-1": {
+    "parts": {
+      "0": {
+        "root": {
+          "entryId": "65999",
+          "senseId": "1"
+        },
+        "meaning": "丈夫的哥哥（敬称）",
+        "explanation": "시아주버니：丈夫的哥哥；님：敬称后缀；은：提示话题。",
+        "lexicalMeaning": "丈夫的哥哥"
+      }
+    }
+  },
+  "n15168-1-7-2": {
+    "parts": {
+      "2": {
+        "root": {
+          "entryId": "62171",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "试着做（-아/어 보다）"
+      }
+    }
+  },
+  "n14446-1-7-2": {
+    "parts": {
+      "2": {
+        "meaning": "傍花三洞",
+        "explanation": "방화3동：首尔江西区的地名“傍花三洞”，不是“纵火”或“防火”。"
+      }
+    }
+  },
+  "n58621-1-4-1": {
+    "parts": {
+      "4": {
+        "root": {
+          "entryId": "62331",
+          "senseId": "4"
+        },
+        "lexicalMeaning": "打算做（-ㄹ/을 거다；거 是 것 的口语形式）"
+      }
+    }
+  },
+  "n31570-1-2-1": {
+    "parts": {
+      "3": {
+        "root": {
+          "entryId": "62331",
+          "senseId": "4"
+        },
+        "lexicalMeaning": "打算做（-ㄹ/을 거다；거 是 것 的口语形式）"
+      }
+    }
+  },
+  "n66636-4-8-1": {
+    "parts": {
+      "3": {
+        "root": {
+          "entryId": "62331",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "所说的事情、情况（것 的口语形式）"
+      }
+    }
+  },
+  "n66649-5-4-1": {
+    "parts": {
+      "5": {
+        "root": {
+          "entryId": "62331",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "所说的事情、情况（것 的口语形式）"
+      }
+    }
+  },
+  "n71696-3-7-1": {
+    "parts": {
+      "3": {
+        "root": {
+          "entryId": "62331",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "所说的事情、情况（것 的口语形式）"
+      }
+    }
+  },
+  "n71332-1-3-2": {
+    "parts": {
+      "7": {
+        "root": {
+          "entryId": "62331",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "所说的事情、情况（것 的口语形式）"
+      }
+    }
+  },
+  "n28073-1-7-2": {
+    "parts": {
+      "3": {
+        "root": {
+          "entryId": "62331",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "所说的事情、情况（것 的口语形式）"
+      }
+    }
+  },
+  "n26310-1-7-2": {
+    "parts": {
+      "5": {
+        "root": {
+          "entryId": "62331",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "所说的事情、情况（것 的口语形式）"
+      }
+    }
+  },
+  "n66649-5-4-2": {
+    "parts": {
+      "5": {
+        "root": {
+          "entryId": "62331",
+          "senseId": "5"
+        },
+        "lexicalMeaning": "表示对将来情况的预测（-ㄹ/을 거다）"
+      }
+    }
+  },
+  "n15611-2-7-1": {
+    "parts": {
+      "2": {
+        "root": {
+          "entryId": "91870",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "所理解的情况（与 알다、모르다 等合用）"
+      }
+    }
+  },
+  "n81585-1-8-1": {
+    "parts": {
+      "2": {
+        "root": {
+          "entryId": "91870",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "所理解的情况（与 알다、모르다 等合用）"
+      }
+    }
+  },
+  "n14757-1-7-1": {
+    "parts": {
+      "3": {
+        "root": {
+          "entryId": "course:가래:1",
+          "senseId": "1"
+        }
+      }
+    }
+  },
+  "n62325-1-10-2": {
+    "parts": {
+      "3": {
+        "root": {
+          "entryId": "67862",
+          "senseId": "2"
+        },
+        "lexicalMeaning": "这（요 며칠：最近这几天）"
+      }
+    }
+  },
+  "n32553-6-3-1": {
+    "parts": {
+      "5": {
+        "root": {
+          "entryId": "37062",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "那样做（指压低声音）"
+      }
+    }
+  },
+  "n14331-1-7-2": {
+    "parts": {
+      "1": {
+        "root": {
+          "entryId": "17183",
+          "senseId": "2"
+        }
+      }
+    }
+  },
+  "n24626-1-7-2": {
+    "parts": {
+      "4": {
+        "root": {
+          "entryId": "73277",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "做（세수를 하다：洗脸）"
+      }
+    }
+  },
+  "n54741-1-8-1": {
+    "parts": {
+      "3": {
+        "root": {
+          "entryId": "61178",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "那样（指脸色不好）"
+      }
+    }
+  },
+  "n54741-1-8-2": {
+    "parts": {
+      "6": {
+        "root": {
+          "entryId": "37062",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "是那样、出现那样的情况"
+      }
+    }
+  },
+  "n72460-1-8-1": {
+    "parts": {
+      "2": {
+        "root": {
+          "entryId": "30206",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "地面（땅이 꺼져라 한숨을 쉬다：夸张地说深深叹气）"
+      }
+    }
+  },
+  "n24645-2-6-2": {
+    "parts": {
+      "6": {
+        "root": {
+          "entryId": "69514",
+          "senseId": "1"
+        }
+      }
+    }
+  },
+  "n14585-1-7-1": {
+    "parts": {
+      "3": {
+        "root": {
+          "entryId": "37062",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "那样做"
+      }
+    }
+  },
+  "n74795-1-10-1": {
+    "parts": {
+      "1": {
+        "root": {
+          "entryId": "58176",
+          "senseId": "1"
+        }
+      }
+    }
+  },
+  "n63769-1-8-1": {
+    "parts": {
+      "4": {
+        "root": {
+          "entryId": "61178",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "那样（承接“尿急”这一情况，引出后面的请求）"
+      }
+    }
+  },
+  "n68391-1-11-1": {
+    "parts": {
+      "5": {
+        "root": {
+          "entryId": "71372",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "不（안 되다：不可以）"
+      }
+    }
+  },
+  "n68391-1-11-2": {
+    "parts": {
+      "0": {
+        "root": {
+          "entryId": "71372",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "不（안 되다：不可以）"
+      }
+    }
+  },
+  "n16414-2-8-2": {
+    "parts": {
+      "5": {
+        "root": {
+          "entryId": "73277",
+          "senseId": "28"
+        },
+        "lexicalMeaning": "说（소리를 하다：说出话来）"
+      }
+    }
+  },
+  "n49272-1-8-1": {
+    "parts": {
+      "3": {
+        "root": {
+          "entryId": "17254",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "没能、没有（못 보다：没看到）"
+      }
+    }
+  },
+  "n75236-1-4-2": {
+    "parts": {
+      "2": {
+        "meaning": "一万亿",
+        "explanation": "일：一；조：万亿（10¹²）。일조 원 即一万亿韩元。",
+        "choices": {
+          "0": {
+            "entryId": "31523",
+            "senseId": "1"
+          }
+        }
+      }
+    }
+  },
+  "n14019-1-7-2": {
+    "parts": {
+      "0": {
+        "root": {
+          "entryId": "37062",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "那样做（그러면 안 되다：不能那样）"
+      }
+    }
+  },
+  "n62317-1-11-1": {
+    "parts": {
+      "2": {
+        "root": {
+          "entryId": "65108",
+          "senseId": "1"
+        }
+      }
+    }
+  },
+  "n77846-1-7-2": {
+    "parts": {
+      "0": {
+        "root": {
+          "entryId": "27260",
+          "senseId": "2"
+        },
+        "lexicalMeaning": "话、谈起（말도 마：别提了）"
+      }
+    }
+  },
+  "n15171-1-3-2": {
+    "parts": {
+      "0": {
+        "root": {
+          "entryId": "27260",
+          "senseId": "2"
+        },
+        "lexicalMeaning": "话、谈起（말도 마：别提了）"
+      }
+    }
+  },
+  "n49225-1-8-2": {
+    "parts": {
+      "6": {
+        "root": {
+          "entryId": "15615",
+          "senseId": "1"
+        }
+      }
+    }
+  },
+  "n70755-1-10-2": {
+    "parts": {
+      "2": {
+        "root": {
+          "entryId": "course:죄다:1",
+          "senseId": "1"
+        }
+      }
+    }
+  },
+  "n88438-1-11-1": {
+    "parts": {
+      "5": {
+        "root": {
+          "entryId": "73277",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "做（추천을 하다：推荐）"
+      }
+    }
+  },
+  "n88438-1-11-2": {
+    "parts": {
+      "2": {
+        "root": {
+          "entryId": "62899",
+          "senseId": "2"
+        },
+        "lexicalMeaning": "把前面的情况作为理由（单举红叶变色这一情况）"
+      }
+    }
+  },
+  "n40784-4-9-2": {
+    "parts": {
+      "8": {
+        "meaning": "表示与对方想象不同的情况（礼貌语气）",
+        "explanation": "-는걸요：表示发现、感叹或与对方预期相反的情况。这里是“机器都闲着呢”，不是宾语助词 을。"
+      }
+    }
+  },
+  "n15045-1-6-1": {
+    "parts": {
+      "2": {
+        "root": {
+          "entryId": "68797",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "有、存在"
+      }
+    }
+  },
+  "n71291-1-3-1": {
+    "parts": {
+      "4": {
+        "root": {
+          "entryId": "66637",
+          "senseId": "10"
+        }
+      }
+    }
+  },
+  "n37863-1-9-1": {
+    "parts": {
+      "4": {
+        "root": {
+          "entryId": "68797",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "有、发生（실수가 있다：出差错）"
+      }
+    }
+  },
+  "n16756-2-7-2": {
+    "parts": {
+      "6": {
+        "root": {
+          "entryId": "73443",
+          "senseId": "2"
+        },
+        "lexicalMeaning": "停止关注（관심을 끄다：不再关心、别操心）"
+      }
+    }
+  },
+  "n78175-1-7-1": {
+    "parts": {
+      "2": {
+        "meaning": "人，加上",
+        "explanation": "명：计算人数的单位；에：在这里连接并列数量，어린이 두 명에 어른 한 명 表示“两名儿童加一名成人”。"
+      }
+    }
+  },
+  "n62334-1-9-1": {
+    "parts": {
+      "6": {
+        "root": {
+          "entryId": "68756",
+          "senseId": "4"
+        },
+        "lexicalMeaning": "锋利（날이 서다：刀刃锋利）"
+      }
+    }
+  },
+  "n25692-1-2-1": {
+    "parts": {
+      "4": {
+        "root": {
+          "entryId": "62331",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "所说的事情、情况（것 的口语形式）"
+      }
+    }
+  },
+  "n66415-1-8-2": {
+    "parts": {
+      "1": {
+        "root": {
+          "entryId": "62888",
+          "senseId": "6"
+        },
+        "rootItem": 1,
+        "lexicalMeaning": "表示某种情况将要发生（-려고 하다）"
+      }
+    }
+  },
+  "n55470-1-11-2": {
+    "parts": {
+      "5": {
+        "root": {
+          "entryId": "15615",
+          "senseId": "1"
+        }
+      }
+    }
+  },
+  "n14919-2-6-1": {
+    "parts": {
+      "4": {
+        "root": {
+          "entryId": "62210",
+          "senseId": "12"
+        },
+        "rootItem": 1,
+        "lexicalMeaning": "产生、感到（짜증나다：感到烦躁）"
+      }
+    }
+  },
+  "n16185-3-4-1": {
+    "parts": {
+      "4": {
+        "root": {
+          "entryId": "37062",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "那样做（指训斥孩子）"
+      }
+    }
+  },
+  "n24287-1-4-1": {
+    "parts": {
+      "3": {
+        "root": {
+          "entryId": "62134",
+          "senseId": "2"
+        },
+        "lexicalMeaning": "做完前一动作（-고 나서：做完……之后）"
+      }
+    }
+  },
+  "n23972-1-10-1": {
+    "parts": {
+      "3": {
+        "root": {
+          "entryId": "62331",
+          "senseId": "4"
+        },
+        "lexicalMeaning": "表示打算、决定（-ㄹ/을 거다）"
+      }
+    }
+  },
+  "n63247-1-8-1": {
+    "parts": {
+      "4": {
+        "root": {
+          "entryId": "29607",
+          "senseId": "1"
+        }
+      }
+    }
+  },
+  "n22142-1-8-2": {
+    "parts": {
+      "6": {
+        "root": {
+          "entryId": "62361",
+          "senseId": "1"
+        },
+        "rootItem": 1,
+        "lexicalMeaning": "表示请求（-아/어 다오：请为我做……）"
+      }
+    }
+  },
+  "n71970-1-7-1": {
+    "parts": {
+      "6": {
+        "root": {
+          "entryId": "73277",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "做（이발을 하다：理发）"
+      }
+    }
+  },
+  "n48796-3-7-1": {
+    "parts": {
+      "5": {
+        "root": {
+          "entryId": "73277",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "做（사과를 하다：道歉）"
+      }
+    }
+  },
+  "n91572-1-7-1": {
+    "parts": {
+      "3": {
+        "root": {
+          "entryId": "73277",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "做（청소를 하다：打扫）"
+      }
+    }
+  },
+  "n24743-1-9-2": {
+    "parts": {
+      "2": {
+        "root": {
+          "entryId": "62899",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "肯定前面的性质（-기도 하다：也有……的一面）"
+      }
+    }
+  },
+  "n69552-1-11-1": {
+    "parts": {
+      "5": {
+        "meaning": "不可以吗（委婉请求）",
+        "explanation": "안：不；되다：可以、得到允许。-면 안 될까요? 字面为“不可以吗”，本句委婉请求打折。"
+      }
+    }
+  },
+  "n37063-1-8-2": {
+    "parts": {
+      "4": {
+        "root": {
+          "entryId": "53017",
+          "senseId": "2"
+        },
+        "lexicalMeaning": "能够、还过得去（-ㄹ/을 만하다）"
+      }
+    }
+  },
+  "n37172-1-9-2": {
+    "parts": {
+      "0": {
+        "root": {
+          "entryId": "67862",
+          "senseId": "2"
+        },
+        "lexicalMeaning": "这（요 근래：最近这段时间）"
+      }
+    }
+  },
+  "n62491-1-20-2": {
+    "parts": {
+      "2": {
+        "root": {
+          "entryId": "89917",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "没有、不存在（없어지다：消失、不见了）"
+      }
+    },
+    "zh": "包就在你旁边，你却说不见了，还大惊小怪地闹成那样？"
+  },
+  "n21134-1-8-1": {
+    "parts": {
+      "5": {
+        "meaning": "听说……吗",
+        "explanation": "这里与前面的 한 连起来理解为 한대?，相当于 한다고 해?，询问别人是否这样说。"
+      }
+    },
+    "zh": "医院说一定得做手术吗？"
+  },
+  "n40052-1-9-2": {
+    "parts": {
+      "2": {
+        "root": {
+          "entryId": "73278",
+          "senseId": "1"
+        }
+      }
+    }
+  },
+  "n15192-1-6-1": {
+    "parts": {
+      "1": {
+        "root": {
+          "entryId": "17254",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "没有、未能（못 만나다：没碰到）"
+      }
+    }
+  },
+  "n15192-1-6-2": {
+    "parts": {
+      "0": {
+        "root": {
+          "entryId": "17254",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "没有、未能（못 만나다：没碰到）"
+      }
+    }
+  },
+  "n69411-3-5-1": {
+    "parts": {
+      "2": {
+        "root": {
+          "entryId": "91870",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "所理解、预测的情况（-ㄹ 줄 알다：以为会……）"
+      }
+    }
+  },
+  "n93386-1-7-2": {
+    "parts": {
+      "4": {
+        "root": {
+          "entryId": "62888",
+          "senseId": "5"
+        },
+        "lexicalMeaning": "表示有时也做（-기도 하다）"
+      }
+    }
+  },
+  "n17419-2-8-2": {
+    "parts": {
+      "3": {
+        "root": {
+          "entryId": "73277",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "做（야영을 하다：露营）"
+      }
+    }
+  },
+  "n24848-1-7-1": {
+    "parts": {
+      "6": {
+        "root": {
+          "entryId": "73277",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "做（정리를 하다：整理）"
+      }
+    }
+  },
+  "n65248-8-7-2": {
+    "parts": {
+      "3": {
+        "root": {
+          "entryId": "73277",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "做（这里承接前文，指织围巾）"
+      }
+    }
+  },
+  "n65003-1-6-2": {
+    "parts": {
+      "4": {
+        "root": {
+          "entryId": "73277",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "进行某事（숙식을 하다：吃住、食宿）"
+      }
+    }
+  },
+  "n76327-2-7-2": {
+    "parts": {
+      "6": {
+        "root": {
+          "entryId": "73277",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "做（진정을 하다：镇定下来）"
+      }
+    }
+  },
+  "n18855-1-10-2": {
+    "parts": {
+      "0": {
+        "root": {
+          "entryId": "61178",
+          "senseId": "1"
+        },
+        "meaning": "即使那样，也不过……",
+        "explanation": "그렇다：那样；-아/어 봤자：即使如此也没有多大作用。这里强调虽然便宜，也只便宜几百韩元。",
+        "lexicalMeaning": "那样"
+      }
+    }
+  },
+  "n40404-1-8-2": {
+    "parts": {
+      "0": {
+        "root": {
+          "entryId": "62522",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "现在（지금까지：直到现在）"
+      }
+    }
+  },
+  "n80742-1-7-1": {
+    "parts": {
+      "4": {
+        "root": {
+          "entryId": "62171",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "试着做（먹어 보다：尝一尝）"
+      }
+    }
+  },
+  "n85245-1-8-2": {
+    "parts": {
+      "4": {
+        "root": {
+          "entryId": "15615",
+          "senseId": "1"
+        }
+      }
+    }
+  },
+  "n66228-1-12-2": {
+    "parts": {
+      "1": {
+        "lexicalMeaning": "恰好、到位（指腌得正好）",
+        "root": {
+          "entryId": "70896",
+          "senseId": "3"
+        }
+      }
+    }
+  },
+  "n71538-1-8-1": {
+    "parts": {
+      "2": {
+        "lexicalMeaning": "交往（本句指恋爱交往）"
+      }
+    }
+  },
+  "n71538-1-8-2": {
+    "parts": {
+      "1": {
+        "lexicalMeaning": "只是、不过（本句用来淡化“谣言”这一说法）",
+        "root": {
+          "entryId": "36241",
+          "senseId": "4"
+        }
+      }
+    }
+  },
+  "n49056-1-8-1": {
+    "parts": {
+      "1": {
+        "lexicalMeaning": "分别、分开（这里是在送别）"
+      }
+    }
+  },
+  "n66583-1-7-1": {
+    "parts": {
+      "6": {
+        "lexicalMeaning": "出现、形成（멍이 들다：出现淤青）",
+        "root": {
+          "entryId": "71686",
+          "senseId": "21"
+        }
+      }
+    }
+  },
+  "n14141-1-7-1": {
+    "parts": {
+      "4": {
+        "lexicalMeaning": "看、查看（这里指看天气预报）",
+        "root": {
+          "entryId": "61190",
+          "senseId": "25"
+        }
+      }
+    }
+  },
+  "n15723-1-7-1": {
+    "parts": {
+      "7": {
+        "lexicalMeaning": "低（指男生占比低）"
+      }
+    }
+  },
+  "n31629-2-17-2": {
+    "parts": {
+      "0": {
+        "root": {
+          "entryId": "92032",
+          "senseId": "1"
+        }
+      }
+    }
+  },
+  "n37605-1-16-1": {
+    "parts": {
+      "2": {
+        "root": {
+          "entryId": "92032",
+          "senseId": "1"
+        }
+      }
+    }
+  },
+  "n36872-2-8-1": {
+    "parts": {
+      "2": {
+        "root": {
+          "entryId": "92032",
+          "senseId": "1"
+        }
+      }
+    }
+  },
+  "n63082-1-12-2": {
+    "parts": {
+      "7": {
+        "root": {
+          "entryId": "92032",
+          "senseId": "1"
+        }
+      }
+    }
+  },
+  "n57331-1-7-2": {
+    "parts": {
+      "7": {
+        "meaning": "显出女性气质",
+        "lexicalMeaning": "女性（여성스럽다：显出女性气质）"
+      }
+    }
+  },
+  "n47384-3-5-1": {
+    "parts": {
+      "1": {
+        "root": {
+          "entryId": "course:치사하다:1",
+          "senseId": "1"
+        }
+      }
+    }
+  },
+  "n57600-1-9-2": {
+    "parts": {
+      "1": {
+        "root": {
+          "entryId": "60865",
+          "senseId": "2"
+        },
+        "meaning": "有男子气概",
+        "lexicalMeaning": "男子汉（남자답다：有男子气概）"
+      }
+    }
+  },
+  "n66012-2-7-2": {
+    "parts": {
+      "0": {
+        "root": {
+          "entryId": "60865",
+          "senseId": "2"
+        },
+        "meaning": "有男子气概",
+        "lexicalMeaning": "男子汉（남자답다：有男子气概）"
+      }
+    }
+  },
+  "n56388-1-11-2": {
+    "sourceKo": "바늘질하다가 바늘에 찔렸어.",
+    "ko": "바느질하다가 바늘에 찔렸어."
+  },
+  "n39545-1-9-2": {
+    "parts": {
+      "3": {
+        "lexicalMeaning": "轻轻拍打的样子或声音（这里指轻拍宝宝）"
+      }
+    }
+  },
+  "n53962-4-4-1": {
+    "parts": {
+      "2": {
+        "lexicalMeaning": "特别、额外（这里指额外的零花钱）"
+      }
+    }
+  },
+  "n49639-2-8-2": {
+    "parts": {
+      "5": {
+        "root": {
+          "entryId": "53017",
+          "senseId": "2"
+        }
+      }
+    }
+  },
+  "n77770-2-7-2": {
+    "parts": {
+      "4": {
+        "root": {
+          "entryId": "53017",
+          "senseId": "2"
+        }
+      }
+    }
+  },
+  "n26023-1-7-1": {
+    "parts": {
+      "3": {
+        "root": {
+          "entryId": "53017",
+          "senseId": "2"
+        }
+      }
+    }
+  },
+  "n72649-1-11-2": {
+    "parts": {
+      "7": {
+        "meaning": "被解雇",
+        "explanation": "해고：解雇；-당하다：被动地遭受某事，合起来表示“被解雇”；-게：连接后面的 생겼어，表示眼下看来将会如此。"
+      }
+    }
+  },
+  "n82481-1-8-2": {
+    "parts": {
+      "6": {
+        "lexicalMeaning": "达到（与前面的 안 合用，表示不到某个金额）"
+      }
+    }
+  },
+  "n18527-1-8-1": {
+    "parts": {
+      "3": {
+        "meaning": "改编拍成电影",
+        "explanation": "영화：电影；-화하다：转变成相应形态，영화화하다 表示改编拍成电影；-ㄴ：修饰后面的名词性表达。"
+      }
+    }
+  },
+  "n16305-1-8-2": {
+    "parts": {
+      "2": {
+        "root": {
+          "entryId": "73277",
+          "senseId": "13"
+        },
+        "lexicalMeaning": "办、处理（어떻게 해：怎么办）"
+      }
+    }
+  },
+  "n81341-1-5-2": {
+    "parts": {
+      "3": {
+        "root": {
+          "entryId": "61178",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "那样、如此（그런가 보다：大概是那样的缘故）"
+      }
+    }
+  },
+  "n29038-3-7-1": {
+    "parts": {
+      "3": {
+        "root": {
+          "entryId": "73278",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "一（한 손 指两条鱼组成的一组）"
+      }
+    }
+  },
+  "n48706-1-7-1": {
+    "parts": {
+      "3": {
+        "root": {
+          "entryId": "71581",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "不、没有（-지 않다；这里表示还没发酵好）"
+      }
+    }
+  },
+  "n71879-1-10-1": {
+    "parts": {
+      "5": {
+        "root": {
+          "entryId": "71581",
+          "senseId": "1"
+        }
+      }
+    }
+  },
+  "n32565-1-8-1": {
+    "parts": {
+      "4": {
+        "root": {
+          "entryId": "62210",
+          "senseId": "16"
+        },
+        "lexicalMeaning": "发出、散发（냄새가 나다：散发气味）"
+      }
+    }
+  },
+  "n85148-1-9-2": {
+    "parts": {
+      "6": {
+        "root": {
+          "entryId": "27500",
+          "senseId": "24"
+        },
+        "lexicalMeaning": "理解、领会（이해가 가다：能理解）"
+      }
+    }
+  },
+  "n87740-3-8-1": {
+    "parts": {
+      "5": {
+        "root": {
+          "entryId": "73277",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "做、进行（구경을 하다：参观游览）"
+      }
+    }
+  },
+  "n67694-1-9-1": {
+    "parts": {
+      "4": {
+        "root": {
+          "entryId": "73277",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "做、进行（부정행위를 하다：作弊）"
+      }
+    }
+  },
+  "n60706-1-7-1": {
+    "parts": {
+      "4": {
+        "root": {
+          "entryId": "73277",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "做、发出这一动作（재채기를 하다：打喷嚏）"
+      }
+    }
+  },
+  "n65430-1-7-2": {
+    "parts": {
+      "4": {
+        "root": {
+          "entryId": "73277",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "做、进行（입가심을 하다：清口、去除口中余味）"
+      }
+    }
+  },
+  "n24237-1-5-2": {
+    "parts": {
+      "5": {
+        "root": {
+          "entryId": "14468",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "进入视线、被看见（눈에 띄다）"
+      }
+    }
+  },
+  "n23624-1-7-1": {
+    "parts": {
+      "6": {
+        "root": {
+          "entryId": "62210",
+          "senseId": "21"
+        },
+        "lexicalMeaning": "想起、记起（기억이 나다）"
+      }
+    }
+  },
+  "n38346-1-9-2": {
+    "parts": {
+      "6": {
+        "root": {
+          "entryId": "73277",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "做、进行（기술을 하다：记述、描述）"
+      }
+    }
+  },
+  "n91961-1-8-2": {
+    "parts": {
+      "0": {
+        "root": {
+          "entryId": "58162",
+          "senseId": "6"
+        },
+        "lexicalMeaning": "预想、预期（생각보다：比预想的）"
+      }
+    }
+  },
+  "n60455-1-6-2": {
+    "parts": {
+      "6": {
+        "root": {
+          "entryId": "73277",
+          "senseId": "26"
+        },
+        "lexicalMeaning": "列举或反复前面的行为，相当于“做这些事”"
+      }
+    }
+  },
+  "n89194-1-7-2": {
+    "parts": {
+      "1": {
+        "root": {
+          "entryId": "58156",
+          "senseId": "3"
+        },
+        "lexicalMeaning": "望、朝着看（与后面的 보다 合用）"
+      }
+    }
+  },
+  "n56544-2-7-2": {
+    "parts": {
+      "2": {
+        "meaning": "ㅁ：韩文字母，名称 미음",
+        "explanation": "ㅁ 的名称是 미음；用作收音时发闭唇鼻音 [m]，这里指 김 末尾的收音。"
+      }
+    }
+  },
+  "n18917-1-5-1": {
+    "parts": {
+      "4": {
+        "root": {
+          "entryId": "73277",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "做出、产生（당혹을 하다：感到困惑、不知所措）"
+      }
+    }
+  },
+  "n74236-1-7-2": {
+    "parts": {
+      "2": {
+        "root": {
+          "entryId": "71583",
+          "senseId": "1"
+        }
+      }
+    }
+  },
+  "n80752-1-11-1": {
+    "parts": {
+      "3": {
+        "root": {
+          "entryId": "71583",
+          "senseId": "1"
+        }
+      }
+    }
+  },
+  "n61044-1-8-1": {
+    "parts": {
+      "4": {
+        "root": {
+          "entryId": "62331",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "事情、事实（거 是 것 的口语形式，-ㄴ 거야 用于解释或追问情况）"
+      }
+    }
+  },
+  "n77973-1-13-1": {
+    "parts": {
+      "3": {
+        "root": {
+          "entryId": "89917",
+          "senseId": "7"
+        },
+        "meaning": "不见了、消失了",
+        "lexicalMeaning": "不在、没有了（없어지다：消失）"
+      }
+    }
+  },
+  "n77973-1-13-2": {
+    "parts": {
+      "1": {
+        "root": {
+          "entryId": "73277",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "做、进行（철거를 하다：拆除）"
+      }
+    }
+  },
+  "n72193-1-12-2": {
+    "parts": {
+      "5": {
+        "root": {
+          "entryId": "73277",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "做（아무것도 안 하다：什么也不做）"
+      }
+    }
+  },
+  "n61070-2-7-1": {
+    "parts": {
+      "4": {
+        "root": {
+          "entryId": "73277",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "做（가출을 하다：离家出走）"
+      }
+    }
+  },
+  "n49276-2-8-2": {
+    "parts": {
+      "4": {
+        "root": {
+          "entryId": "73277",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "做（남 탓을 하다：责怪别人、归咎于别人）"
+      }
+    }
+  },
+  "n59703-1-7-2": {
+    "parts": {
+      "7": {
+        "root": {
+          "entryId": "71581",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "不（돈을 아끼지 않다：不吝惜花钱）"
+      }
+    }
+  },
+  "n82663-1-7-2": {
+    "parts": {
+      "4": {
+        "root": {
+          "entryId": "62210",
+          "senseId": "4"
+        },
+        "lexicalMeaning": "显露出来（티가 나다：显露迹象、被看出）"
+      }
+    }
+  },
+  "n63952-1-9-2": {
+    "parts": {
+      "5": {
+        "root": {
+          "entryId": "29702",
+          "senseId": "4"
+        },
+        "lexicalMeaning": "到处走动（쥐고 다니다：拿着到处走、随身拿着）"
+      }
+    }
+  },
+  "n18006-1-7-1": {
+    "parts": {
+      "7": {
+        "choices": {
+          "1": {
+            "entryId": "62601",
+            "senseId": "1"
+          }
+        }
+      }
+    }
+  },
+  "n38474-1-8-2": {
+    "parts": {
+      "1": {
+        "root": {
+          "entryId": "67862",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "这、这个（这里带亲昵的称呼语气）"
+      }
+    }
+  },
+  "n27778-1-7-1": {
+    "parts": {
+      "4": {
+        "root": {
+          "entryId": "47455",
+          "senseId": "3"
+        },
+        "lexicalMeaning": "情况、状况（-는 데다가：在前一情况之外再加上……）",
+        "meaning": "再加上、而且",
+        "explanation": "-는 데다가：在前一情况的基础上再添加后一情况，这里指雨下得很大，再加上风大、浪高。"
+      }
+    }
+  },
+  "n70590-1-9-1": {
+    "parts": {
+      "3": {
+        "root": {
+          "entryId": "course:쓰다:1",
+          "senseId": "1"
+        }
+      }
+    }
+  },
+  "n38813-2-2-1": {
+    "zh": "承奎闹着玩，把这个花瓶打碎了。"
+  },
+  "n38813-2-2-2": {
+    "zh": "那家伙最终还是闯祸了。",
+    "parts": {
+      "1": {
+        "root": {
+          "entryId": "41586",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "家伙（此处带责怪语气）"
+      }
+    }
+  },
+  "n28785-2-7-2": {
+    "parts": {
+      "3": {
+        "root": {
+          "entryId": "62899",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "是倒是（-기는 하다：先承认前面的事实，再保留转折）"
+      }
+    }
+  },
+  "n91843-1-7-2": {
+    "parts": {
+      "5": {
+        "root": {
+          "entryId": "73277",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "做（대꾸를 하다：回应、搭话）"
+      }
+    }
+  },
+  "n82044-2-4-1": {
+    "parts": {
+      "2": {
+        "root": {
+          "entryId": "73278",
+          "senseId": "1"
+        },
+        "lexicalMeaning": "一（한 통화：一通电话）"
+      }
+    }
+  },
+  "n66012-2-7-1": {
+    "parts": {
+      "0": {
+        "root": {
+          "entryId": "73277",
+          "senseId": "1"
+        },
+        "rootItem": 1,
+        "lexicalMeaning": "做（소개팅을 하다：相亲）",
+        "meaning": "相亲过的（修饰后面的 남자）"
+      }
+    }
+  }
+}

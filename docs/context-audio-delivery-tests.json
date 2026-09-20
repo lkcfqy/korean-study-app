@@ -1,0 +1,9 @@
+{
+  "checkedAt": "2026-09-20T20:39:01.841190+00:00",
+  "newAudioFiles": 792,
+  "bytes": 9031680,
+  "allHttpResponses": "200 audio/mpeg",
+  "byteExact": true,
+  "scope": "New word/chunk and one corrected-sentence audio through the local built production Worker; no live or human-listening claim.",
+  "baselineRef": "ba4c81c8d0402bddb3a30f85c744f682081da5ff"
+}

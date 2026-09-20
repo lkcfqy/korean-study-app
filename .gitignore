@@ -40,6 +40,9 @@ next-env.d.ts
 /.wrangler/
 # Checkout-local execution profile and tool state; never publish them.
 /.sites-runtime/
+# Original audio is retained locally and backed by the verified Site R2 store.
+# Only the delivery cache in public/audio belongs in the source build.
+/content/audio/
 /.agents/
 /.codex/
 /outputs/

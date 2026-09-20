@@ -1,66 +1,72 @@
 {
-  "checkedAt": "2026-09-20T16:42:30.536925+00:00",
-  "scope": "Codex in-app browser against local built production Worker at 127.0.0.1:8787, unsigned-in visitor",
-  "inventory": {
-    "lessons": 4006,
-    "uniqueWords": 6150,
-    "uniqueSentences": 8154
-  },
-  "desktop": {
-    "jumpFromFirstToLastLesson": true,
-    "derivedWordAndAttributiveEndingReadable": true,
-    "normalAndSlowSentencePlaybackStarts": true,
-    "wordPlaybackStarts": true,
-    "wholeSentenceExpansionControlRemoved": true,
-    "selectedAnnotationOnly": true,
-    "selectedLemmaPlaybackStarts": true,
-    "clickSelectedWordAgainClosesAnnotation": true,
-    "compoundLemmaDoesNotOfferItsSuffixAsSeparateWord": true
-  },
-  "phoneViewport": {
-    "requestedWidth": 390,
-    "requestedHeight": 844,
-    "usableDocumentWidth": 375,
-    "documentScrollWidth": 375,
-    "dialogClientWidth": 320,
-    "dialogScrollWidth": 320,
-    "dialogueCardClientWidth": 341,
-    "dialogueCardScrollWidth": 341,
-    "firstDayShows47Words28Sentences": true,
-    "firstDayTasksTotal240Minutes": true,
-    "day180Shows180MinuteExamAnd60MinuteReview": true,
-    "nextSentenceResetsSelectedWord": true,
-    "freeJumpToDay179AndLastLesson": true,
-    "viewportOverrideResetAfterCheck": true,
-    "annotationWidth": 295,
-    "annotationScrollWidth": 295
-  },
-  "webMCP": {
-    "tool": "read_korean_learning_progress",
-    "result": {
-      "lessonId": "n57383-1-8",
-      "line": 1,
-      "completed": 0
+  "checkedAt": "2026-09-20T19:55:25.990664+00:00",
+  "scope": "Codex in-app browser against a local production Worker; signed-in flows use isolated test identities and local D1 only.",
+  "viewports": [
+    {
+      "width": 320,
+      "height": 700,
+      "documentScrollWidth": 305,
+      "selectedNoteHasNoHorizontalOverflow": true
     },
-    "readOnly": true
-  },
-  "consoleWarningsOrErrors": [],
-  "limits": [
-    "Not a physical phone test",
-    "Not a production two-account cloud roundtrip",
-    "Playback start does not constitute human pronunciation review"
+    {
+      "width": 390,
+      "height": 844,
+      "documentScrollWidth": 375,
+      "selectedNoteHasNoHorizontalOverflow": true
+    },
+    {
+      "width": 1280,
+      "documentScrollWidth": 1265
+    }
   ],
-  "audioStorageFollowup": {
-    "checkedAt": "2026-09-20T17:27:43.703487+00:00",
-    "scope": "local production Worker using persisted R2",
-    "freeNavigationToLastLesson": true,
-    "lastLessonId": "n57383-1-8",
-    "clickedWord": "바람직한",
-    "lemmaMeaning": "바람직하다：妥当，可取",
-    "lemmaAudioPlayStateObserved": true,
-    "sentenceContextAudioControlWorked": true,
-    "secondClickClosesAnnotation": true,
-    "wholeSentenceExpansionRemoved": true,
-    "consoleWarningsOrErrors": []
+  "interaction": {
+    "selectedNoteOnly": true,
+    "secondClickClosesNote": true,
+    "escapeFromTokenClosesNote": true,
+    "escapeFromWordAudioClosesNoteAndRefocusesToken": true,
+    "nextLineResetsNoteAndAudio": true,
+    "wordAndSentencePlaybackStarts": true,
+    "month6AccessibleFromFirstLesson": true,
+    "day180ReviewCoursesSelectable": true,
+    "day5ReviewCourseOpensDirectly": true,
+    "newLessonReceivesHeadingFocus": true,
+    "dialogEscapeRestoresTriggerFocus": true,
+    "planIsLazyLoaded": true,
+    "failedPlanChunkDoesNotCrashCurrentConversation": true
+  },
+  "persistence": {
+    "failedSavePreservesCursorAndCounts": true,
+    "retrySavesAndAdvances": true,
+    "secondBrowserTabRestoresCloudCursor": true,
+    "secondTabWriteVisibleAfterFirstTabReload": true,
+    "doesNotUseProductionAccounts": true
+  },
+  "viewportOverrideResetAfterCheck": true,
+  "expectedInjectedFailures": [
+    "503 on progress POST to test retry behavior",
+    "503 on study-plan asset to test local error boundary"
+  ],
+  "limits": [
+    "Responsive viewport checks are not physical phone acceptance.",
+    "Local isolated-account D1 checks are not a live cross-device account test.",
+    "Playback start is not human pronunciation certification.",
+    "Final corpus statistics are verified separately in content-audit.json."
+  ],
+  "finalCorpusCheck": {
+    "checkedAt": "2026-09-20T20:41:38.953544+00:00",
+    "lessons": 4006,
+    "uniqueWords": 6351,
+    "uniqueDialogueTexts": 8154,
+    "studyPlanLoadsWithFinalCounts": true,
+    "advancedLessonSelectedFromFirstLesson": true,
+    "lessonId": "n23031-2-7",
+    "selectedContextNote": "打算做（-려고 하다）",
+    "advanceSavedAndOldNoteCleared": true,
+    "mobileAdvancedNote": {
+      "viewport": 390,
+      "documentScrollWidth": 375,
+      "noteWidth": 297
+    },
+    "viewportReset": true
   }
 }

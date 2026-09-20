@@ -1,0 +1,1146 @@
+{
+  "method": "source-level gates plus sentence complexity; exact workload-constrained partition",
+  "sourceLevelIsNotWholeSentenceLevel": true,
+  "preservesLessonAndLineIds": true,
+  "firstWeekNewWordCap": 28,
+  "newWordCap": 60,
+  "dialogueRowCap": 96,
+  "months": [
+    {
+      "month": 1,
+      "lessons": 453,
+      "sourceHeadwordLevels": {
+        "foundation": 6,
+        "초급": 447
+      },
+      "medianWordsPerTurn": 4.0
+    },
+    {
+      "month": 2,
+      "lessons": 645,
+      "sourceHeadwordLevels": {
+        "foundation": 6,
+        "초급": 639
+      },
+      "medianWordsPerTurn": 6.0
+    },
+    {
+      "month": 3,
+      "lessons": 770,
+      "sourceHeadwordLevels": {
+        "foundation": 6,
+        "중급": 764
+      },
+      "medianWordsPerTurn": 5.0
+    },
+    {
+      "month": 4,
+      "lessons": 678,
+      "sourceHeadwordLevels": {
+        "foundation": 6,
+        "중급": 672
+      },
+      "medianWordsPerTurn": 6.0
+    },
+    {
+      "month": 5,
+      "lessons": 822,
+      "sourceHeadwordLevels": {
+        "foundation": 6,
+        "고급": 816
+      },
+      "medianWordsPerTurn": 5.0
+    },
+    {
+      "month": 6,
+      "lessons": 638,
+      "sourceHeadwordLevels": {
+        "foundation": 6,
+        "고급": 632
+      },
+      "medianWordsPerTurn": 6.0
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "lessons": 6,
+      "rows": 16,
+      "newWords": 25
+    },
+    {
+      "day": 2,
+      "lessons": 6,
+      "rows": 12,
+      "newWords": 25
+    },
+    {
+      "day": 3,
+      "lessons": 6,
+      "rows": 12,
+      "newWords": 23
+    },
+    {
+      "day": 4,
+      "lessons": 6,
+      "rows": 12,
+      "newWords": 24
+    },
+    {
+      "day": 5,
+      "lessons": 0,
+      "rows": 0,
+      "newWords": 0
+    },
+    {
+      "day": 6,
+      "lessons": 5,
+      "rows": 14,
+      "newWords": 26
+    },
+    {
+      "day": 7,
+      "lessons": 9,
+      "rows": 18,
+      "newWords": 27
+    },
+    {
+      "day": 8,
+      "lessons": 15,
+      "rows": 30,
+      "newWords": 53
+    },
+    {
+      "day": 9,
+      "lessons": 17,
+      "rows": 34,
+      "newWords": 49
+    },
+    {
+      "day": 10,
+      "lessons": 0,
+      "rows": 0,
+      "newWords": 0
+    },
+    {
+      "day": 11,
+      "lessons": 18,
+      "rows": 40,
+      "newWords": 49
+    },
+    {
+      "day": 12,
+      "lessons": 21,
+      "rows": 42,
+      "newWords": 48
+    },
+    {
+      "day": 13,
+      "lessons": 21,
+      "rows": 42,
+      "newWords": 48
+    },
+    {
+      "day": 14,
+      "lessons": 20,
+      "rows": 40,
+      "newWords": 49
+    },
+    {
+      "day": 15,
+      "lessons": 0,
+      "rows": 0,
+      "newWords": 0
+    },
+    {
+      "day": 16,
+      "lessons": 20,
+      "rows": 44,
+      "newWords": 47
+    },
+    {
+      "day": 17,
+      "lessons": 24,
+      "rows": 48,
+      "newWords": 47
+    },
+    {
+      "day": 18,
+      "lessons": 26,
+      "rows": 52,
+      "newWords": 47
+    },
+    {
+      "day": 19,
+      "lessons": 25,
+      "rows": 50,
+      "newWords": 47
+    },
+    {
+      "day": 20,
+      "lessons": 0,
+      "rows": 0,
+      "newWords": 0
+    },
+    {
+      "day": 21,
+      "lessons": 24,
+      "rows": 52,
+      "newWords": 47
+    },
+    {
+      "day": 22,
+      "lessons": 25,
+      "rows": 50,
+      "newWords": 49
+    },
+    {
+      "day": 23,
+      "lessons": 26,
+      "rows": 52,
+      "newWords": 49
+    },
+    {
+      "day": 24,
+      "lessons": 29,
+      "rows": 58,
+      "newWords": 48
+    },
+    {
+      "day": 25,
+      "lessons": 0,
+      "rows": 0,
+      "newWords": 0
+    },
+    {
+      "day": 26,
+      "lessons": 24,
+      "rows": 52,
+      "newWords": 49
+    },
+    {
+      "day": 27,
+      "lessons": 29,
+      "rows": 58,
+      "newWords": 47
+    },
+    {
+      "day": 28,
+      "lessons": 25,
+      "rows": 50,
+      "newWords": 48
+    },
+    {
+      "day": 29,
+      "lessons": 26,
+      "rows": 52,
+      "newWords": 48
+    },
+    {
+      "day": 30,
+      "lessons": 0,
+      "rows": 0,
+      "newWords": 0
+    },
+    {
+      "day": 31,
+      "lessons": 23,
+      "rows": 50,
+      "newWords": 48
+    },
+    {
+      "day": 32,
+      "lessons": 25,
+      "rows": 50,
+      "newWords": 47
+    },
+    {
+      "day": 33,
+      "lessons": 28,
+      "rows": 56,
+      "newWords": 46
+    },
+    {
+      "day": 34,
+      "lessons": 30,
+      "rows": 60,
+      "newWords": 47
+    },
+    {
+      "day": 35,
+      "lessons": 0,
+      "rows": 0,
+      "newWords": 0
+    },
+    {
+      "day": 36,
+      "lessons": 29,
+      "rows": 62,
+      "newWords": 45
+    },
+    {
+      "day": 37,
+      "lessons": 26,
+      "rows": 52,
+      "newWords": 48
+    },
+    {
+      "day": 38,
+      "lessons": 26,
+      "rows": 52,
+      "newWords": 47
+    },
+    {
+      "day": 39,
+      "lessons": 32,
+      "rows": 64,
+      "newWords": 47
+    },
+    {
+      "day": 40,
+      "lessons": 0,
+      "rows": 0,
+      "newWords": 0
+    },
+    {
+      "day": 41,
+      "lessons": 23,
+      "rows": 50,
+      "newWords": 49
+    },
+    {
+      "day": 42,
+      "lessons": 29,
+      "rows": 58,
+      "newWords": 47
+    },
+    {
+      "day": 43,
+      "lessons": 24,
+      "rows": 48,
+      "newWords": 48
+    },
+    {
+      "day": 44,
+      "lessons": 27,
+      "rows": 54,
+      "newWords": 47
+    },
+    {
+      "day": 45,
+      "lessons": 0,
+      "rows": 0,
+      "newWords": 0
+    },
+    {
+      "day": 46,
+      "lessons": 31,
+      "rows": 66,
+      "newWords": 45
+    },
+    {
+      "day": 47,
+      "lessons": 29,
+      "rows": 58,
+      "newWords": 50
+    },
+    {
+      "day": 48,
+      "lessons": 28,
+      "rows": 56,
+      "newWords": 49
+    },
+    {
+      "day": 49,
+      "lessons": 28,
+      "rows": 56,
+      "newWords": 48
+    },
+    {
+      "day": 50,
+      "lessons": 0,
+      "rows": 0,
+      "newWords": 0
+    },
+    {
+      "day": 51,
+      "lessons": 28,
+      "rows": 60,
+      "newWords": 47
+    },
+    {
+      "day": 52,
+      "lessons": 27,
+      "rows": 54,
+      "newWords": 47
+    },
+    {
+      "day": 53,
+      "lessons": 30,
+      "rows": 60,
+      "newWords": 47
+    },
+    {
+      "day": 54,
+      "lessons": 26,
+      "rows": 52,
+      "newWords": 49
+    },
+    {
+      "day": 55,
+      "lessons": 0,
+      "rows": 0,
+      "newWords": 0
+    },
+    {
+      "day": 56,
+      "lessons": 26,
+      "rows": 56,
+      "newWords": 47
+    },
+    {
+      "day": 57,
+      "lessons": 27,
+      "rows": 54,
+      "newWords": 48
+    },
+    {
+      "day": 58,
+      "lessons": 23,
+      "rows": 46,
+      "newWords": 48
+    },
+    {
+      "day": 59,
+      "lessons": 20,
+      "rows": 40,
+      "newWords": 50
+    },
+    {
+      "day": 60,
+      "lessons": 0,
+      "rows": 0,
+      "newWords": 0
+    },
+    {
+      "day": 61,
+      "lessons": 41,
+      "rows": 86,
+      "newWords": 31
+    },
+    {
+      "day": 62,
+      "lessons": 38,
+      "rows": 76,
+      "newWords": 34
+    },
+    {
+      "day": 63,
+      "lessons": 36,
+      "rows": 72,
+      "newWords": 36
+    },
+    {
+      "day": 64,
+      "lessons": 35,
+      "rows": 70,
+      "newWords": 38
+    },
+    {
+      "day": 65,
+      "lessons": 0,
+      "rows": 0,
+      "newWords": 0
+    },
+    {
+      "day": 66,
+      "lessons": 31,
+      "rows": 66,
+      "newWords": 40
+    },
+    {
+      "day": 67,
+      "lessons": 34,
+      "rows": 68,
+      "newWords": 40
+    },
+    {
+      "day": 68,
+      "lessons": 36,
+      "rows": 72,
+      "newWords": 39
+    },
+    {
+      "day": 69,
+      "lessons": 32,
+      "rows": 64,
+      "newWords": 40
+    },
+    {
+      "day": 70,
+      "lessons": 0,
+      "rows": 0,
+      "newWords": 0
+    },
+    {
+      "day": 71,
+      "lessons": 31,
+      "rows": 66,
+      "newWords": 40
+    },
+    {
+      "day": 72,
+      "lessons": 30,
+      "rows": 60,
+      "newWords": 43
+    },
+    {
+      "day": 73,
+      "lessons": 30,
+      "rows": 60,
+      "newWords": 43
+    },
+    {
+      "day": 74,
+      "lessons": 31,
+      "rows": 62,
+      "newWords": 43
+    },
+    {
+      "day": 75,
+      "lessons": 0,
+      "rows": 0,
+      "newWords": 0
+    },
+    {
+      "day": 76,
+      "lessons": 31,
+      "rows": 66,
+      "newWords": 42
+    },
+    {
+      "day": 77,
+      "lessons": 31,
+      "rows": 62,
+      "newWords": 41
+    },
+    {
+      "day": 78,
+      "lessons": 32,
+      "rows": 64,
+      "newWords": 41
+    },
+    {
+      "day": 79,
+      "lessons": 29,
+      "rows": 58,
+      "newWords": 42
+    },
+    {
+      "day": 80,
+      "lessons": 0,
+      "rows": 0,
+      "newWords": 0
+    },
+    {
+      "day": 81,
+      "lessons": 30,
+      "rows": 64,
+      "newWords": 41
+    },
+    {
+      "day": 82,
+      "lessons": 31,
+      "rows": 62,
+      "newWords": 42
+    },
+    {
+      "day": 83,
+      "lessons": 30,
+      "rows": 60,
+      "newWords": 42
+    },
+    {
+      "day": 84,
+      "lessons": 33,
+      "rows": 66,
+      "newWords": 40
+    },
+    {
+      "day": 85,
+      "lessons": 0,
+      "rows": 0,
+      "newWords": 0
+    },
+    {
+      "day": 86,
+      "lessons": 31,
+      "rows": 66,
+      "newWords": 41
+    },
+    {
+      "day": 87,
+      "lessons": 29,
+      "rows": 58,
+      "newWords": 42
+    },
+    {
+      "day": 88,
+      "lessons": 27,
+      "rows": 54,
+      "newWords": 42
+    },
+    {
+      "day": 89,
+      "lessons": 31,
+      "rows": 62,
+      "newWords": 41
+    },
+    {
+      "day": 90,
+      "lessons": 0,
+      "rows": 0,
+      "newWords": 0
+    },
+    {
+      "day": 91,
+      "lessons": 24,
+      "rows": 52,
+      "newWords": 44
+    },
+    {
+      "day": 92,
+      "lessons": 28,
+      "rows": 56,
+      "newWords": 43
+    },
+    {
+      "day": 93,
+      "lessons": 31,
+      "rows": 62,
+      "newWords": 42
+    },
+    {
+      "day": 94,
+      "lessons": 32,
+      "rows": 64,
+      "newWords": 43
+    },
+    {
+      "day": 95,
+      "lessons": 0,
+      "rows": 0,
+      "newWords": 0
+    },
+    {
+      "day": 96,
+      "lessons": 28,
+      "rows": 60,
+      "newWords": 42
+    },
+    {
+      "day": 97,
+      "lessons": 31,
+      "rows": 62,
+      "newWords": 42
+    },
+    {
+      "day": 98,
+      "lessons": 30,
+      "rows": 60,
+      "newWords": 42
+    },
+    {
+      "day": 99,
+      "lessons": 30,
+      "rows": 60,
+      "newWords": 42
+    },
+    {
+      "day": 100,
+      "lessons": 0,
+      "rows": 0,
+      "newWords": 0
+    },
+    {
+      "day": 101,
+      "lessons": 27,
+      "rows": 58,
+      "newWords": 44
+    },
+    {
+      "day": 102,
+      "lessons": 26,
+      "rows": 52,
+      "newWords": 43
+    },
+    {
+      "day": 103,
+      "lessons": 31,
+      "rows": 62,
+      "newWords": 43
+    },
+    {
+      "day": 104,
+      "lessons": 35,
+      "rows": 70,
+      "newWords": 40
+    },
+    {
+      "day": 105,
+      "lessons": 0,
+      "rows": 0,
+      "newWords": 0
+    },
+    {
+      "day": 106,
+      "lessons": 32,
+      "rows": 68,
+      "newWords": 41
+    },
+    {
+      "day": 107,
+      "lessons": 28,
+      "rows": 56,
+      "newWords": 41
+    },
+    {
+      "day": 108,
+      "lessons": 28,
+      "rows": 56,
+      "newWords": 42
+    },
+    {
+      "day": 109,
+      "lessons": 29,
+      "rows": 58,
+      "newWords": 43
+    },
+    {
+      "day": 110,
+      "lessons": 0,
+      "rows": 0,
+      "newWords": 0
+    },
+    {
+      "day": 111,
+      "lessons": 23,
+      "rows": 50,
+      "newWords": 44
+    },
+    {
+      "day": 112,
+      "lessons": 27,
+      "rows": 54,
+      "newWords": 44
+    },
+    {
+      "day": 113,
+      "lessons": 30,
+      "rows": 60,
+      "newWords": 43
+    },
+    {
+      "day": 114,
+      "lessons": 29,
+      "rows": 58,
+      "newWords": 42
+    },
+    {
+      "day": 115,
+      "lessons": 0,
+      "rows": 0,
+      "newWords": 0
+    },
+    {
+      "day": 116,
+      "lessons": 24,
+      "rows": 52,
+      "newWords": 45
+    },
+    {
+      "day": 117,
+      "lessons": 26,
+      "rows": 52,
+      "newWords": 46
+    },
+    {
+      "day": 118,
+      "lessons": 26,
+      "rows": 52,
+      "newWords": 46
+    },
+    {
+      "day": 119,
+      "lessons": 23,
+      "rows": 46,
+      "newWords": 47
+    },
+    {
+      "day": 120,
+      "lessons": 0,
+      "rows": 0,
+      "newWords": 0
+    },
+    {
+      "day": 121,
+      "lessons": 39,
+      "rows": 82,
+      "newWords": 42
+    },
+    {
+      "day": 122,
+      "lessons": 40,
+      "rows": 80,
+      "newWords": 41
+    },
+    {
+      "day": 123,
+      "lessons": 40,
+      "rows": 80,
+      "newWords": 40
+    },
+    {
+      "day": 124,
+      "lessons": 40,
+      "rows": 80,
+      "newWords": 41
+    },
+    {
+      "day": 125,
+      "lessons": 0,
+      "rows": 0,
+      "newWords": 0
+    },
+    {
+      "day": 126,
+      "lessons": 30,
+      "rows": 64,
+      "newWords": 46
+    },
+    {
+      "day": 127,
+      "lessons": 40,
+      "rows": 80,
+      "newWords": 41
+    },
+    {
+      "day": 128,
+      "lessons": 35,
+      "rows": 70,
+      "newWords": 44
+    },
+    {
+      "day": 129,
+      "lessons": 35,
+      "rows": 70,
+      "newWords": 45
+    },
+    {
+      "day": 130,
+      "lessons": 0,
+      "rows": 0,
+      "newWords": 0
+    },
+    {
+      "day": 131,
+      "lessons": 34,
+      "rows": 72,
+      "newWords": 43
+    },
+    {
+      "day": 132,
+      "lessons": 33,
+      "rows": 66,
+      "newWords": 45
+    },
+    {
+      "day": 133,
+      "lessons": 37,
+      "rows": 74,
+      "newWords": 44
+    },
+    {
+      "day": 134,
+      "lessons": 33,
+      "rows": 66,
+      "newWords": 44
+    },
+    {
+      "day": 135,
+      "lessons": 0,
+      "rows": 0,
+      "newWords": 0
+    },
+    {
+      "day": 136,
+      "lessons": 28,
+      "rows": 60,
+      "newWords": 47
+    },
+    {
+      "day": 137,
+      "lessons": 36,
+      "rows": 72,
+      "newWords": 44
+    },
+    {
+      "day": 138,
+      "lessons": 35,
+      "rows": 70,
+      "newWords": 45
+    },
+    {
+      "day": 139,
+      "lessons": 35,
+      "rows": 70,
+      "newWords": 44
+    },
+    {
+      "day": 140,
+      "lessons": 0,
+      "rows": 0,
+      "newWords": 0
+    },
+    {
+      "day": 141,
+      "lessons": 30,
+      "rows": 64,
+      "newWords": 45
+    },
+    {
+      "day": 142,
+      "lessons": 33,
+      "rows": 66,
+      "newWords": 45
+    },
+    {
+      "day": 143,
+      "lessons": 30,
+      "rows": 60,
+      "newWords": 46
+    },
+    {
+      "day": 144,
+      "lessons": 32,
+      "rows": 64,
+      "newWords": 46
+    },
+    {
+      "day": 145,
+      "lessons": 0,
+      "rows": 0,
+      "newWords": 0
+    },
+    {
+      "day": 146,
+      "lessons": 30,
+      "rows": 64,
+      "newWords": 44
+    },
+    {
+      "day": 147,
+      "lessons": 32,
+      "rows": 64,
+      "newWords": 45
+    },
+    {
+      "day": 148,
+      "lessons": 33,
+      "rows": 66,
+      "newWords": 45
+    },
+    {
+      "day": 149,
+      "lessons": 32,
+      "rows": 64,
+      "newWords": 45
+    },
+    {
+      "day": 150,
+      "lessons": 0,
+      "rows": 0,
+      "newWords": 0
+    },
+    {
+      "day": 151,
+      "lessons": 30,
+      "rows": 64,
+      "newWords": 46
+    },
+    {
+      "day": 152,
+      "lessons": 31,
+      "rows": 62,
+      "newWords": 45
+    },
+    {
+      "day": 153,
+      "lessons": 33,
+      "rows": 66,
+      "newWords": 47
+    },
+    {
+      "day": 154,
+      "lessons": 35,
+      "rows": 70,
+      "newWords": 43
+    },
+    {
+      "day": 155,
+      "lessons": 0,
+      "rows": 0,
+      "newWords": 0
+    },
+    {
+      "day": 156,
+      "lessons": 29,
+      "rows": 62,
+      "newWords": 46
+    },
+    {
+      "day": 157,
+      "lessons": 31,
+      "rows": 62,
+      "newWords": 45
+    },
+    {
+      "day": 158,
+      "lessons": 28,
+      "rows": 56,
+      "newWords": 47
+    },
+    {
+      "day": 159,
+      "lessons": 36,
+      "rows": 72,
+      "newWords": 46
+    },
+    {
+      "day": 160,
+      "lessons": 0,
+      "rows": 0,
+      "newWords": 0
+    },
+    {
+      "day": 161,
+      "lessons": 31,
+      "rows": 66,
+      "newWords": 47
+    },
+    {
+      "day": 162,
+      "lessons": 34,
+      "rows": 68,
+      "newWords": 45
+    },
+    {
+      "day": 163,
+      "lessons": 33,
+      "rows": 66,
+      "newWords": 46
+    },
+    {
+      "day": 164,
+      "lessons": 25,
+      "rows": 50,
+      "newWords": 49
+    },
+    {
+      "day": 165,
+      "lessons": 0,
+      "rows": 0,
+      "newWords": 0
+    },
+    {
+      "day": 166,
+      "lessons": 21,
+      "rows": 46,
+      "newWords": 48
+    },
+    {
+      "day": 167,
+      "lessons": 30,
+      "rows": 60,
+      "newWords": 47
+    },
+    {
+      "day": 168,
+      "lessons": 29,
+      "rows": 58,
+      "newWords": 48
+    },
+    {
+      "day": 169,
+      "lessons": 27,
+      "rows": 54,
+      "newWords": 50
+    },
+    {
+      "day": 170,
+      "lessons": 0,
+      "rows": 0,
+      "newWords": 0
+    },
+    {
+      "day": 171,
+      "lessons": 22,
+      "rows": 48,
+      "newWords": 48
+    },
+    {
+      "day": 172,
+      "lessons": 28,
+      "rows": 56,
+      "newWords": 49
+    },
+    {
+      "day": 173,
+      "lessons": 25,
+      "rows": 50,
+      "newWords": 48
+    },
+    {
+      "day": 174,
+      "lessons": 29,
+      "rows": 58,
+      "newWords": 47
+    },
+    {
+      "day": 175,
+      "lessons": 0,
+      "rows": 0,
+      "newWords": 0
+    },
+    {
+      "day": 176,
+      "lessons": 28,
+      "rows": 60,
+      "newWords": 46
+    },
+    {
+      "day": 177,
+      "lessons": 8,
+      "rows": 16,
+      "newWords": 52
+    },
+    {
+      "day": 178,
+      "lessons": 8,
+      "rows": 16,
+      "newWords": 50
+    },
+    {
+      "day": 179,
+      "lessons": 7,
+      "rows": 14,
+      "newWords": 51
+    },
+    {
+      "day": 180,
+      "lessons": 0,
+      "rows": 0,
+      "newWords": 0
+    }
+  ]
+}
