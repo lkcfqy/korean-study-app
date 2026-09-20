@@ -29,7 +29,6 @@ export async function POST(request:Request){
  const lesson=lessons[lessonIndex];
  try{
   const db=database();const now=Date.now();const uid=user.userId;
-  if(lessonIndex>0){const prev=await db.prepare('SELECT completed_at FROM lesson_progress WHERE user_id = ? AND lesson_id = ?').bind(uid,lessons[lessonIndex-1].id).first<{completed_at:number|null}>();if(!prev?.completed_at)return json({error:'先完成上一关，就能继续这一段对话。'},403);}
   if(body.action==='select'){
    await db.prepare('INSERT INTO lesson_progress (user_id,lesson_id,updated_at) VALUES (?,?,?) ON CONFLICT(user_id,lesson_id) DO UPDATE SET updated_at=excluded.updated_at, cursor=CASE WHEN ? THEN 0 ELSE lesson_progress.cursor END').bind(uid,lesson.id,now,body.restart?1:0).run();
   }else if(body.action==='read'){

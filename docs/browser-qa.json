@@ -1,0 +1,37 @@
+{
+  "scope": "Codex in-app browser against local production Worker at 127.0.0.1:8787, unsigned-in visitor",
+  "desktop": {
+    "all36LessonsEnabled": true,
+    "jumpFromFirstToLastLesson": true,
+    "wordSelectionShowsLemmaAndPastAdnominalEnding": true,
+    "expandAllParts": true,
+    "audioPlayStarts": true
+  },
+  "phoneViewport": {
+    "requestedWidth": 390,
+    "requestedHeight": 844,
+    "usableDocumentWidth": 375,
+    "documentScrollWidth": 375,
+    "dialogClientWidth": 320,
+    "dialogScrollWidth": 320,
+    "dialogueCardClientWidth": 341,
+    "dialogueCardScrollWidth": 341,
+    "day180ExpandsTo180MinuteExamAnd60MinuteReview": true,
+    "nextSentenceResetsSelectedWord": true
+  },
+  "webMCP": {
+    "tool": "read_korean_learning_progress",
+    "result": {
+      "lessonId": "c36",
+      "line": 2,
+      "completed": 0
+    },
+    "readOnly": true
+  },
+  "consoleWarningsOrErrors": [],
+  "limits": [
+    "Not a physical phone test",
+    "Not a production two-account cloud roundtrip",
+    "Playback start does not constitute human pronunciation review"
+  ]
+}

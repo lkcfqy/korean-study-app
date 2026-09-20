@@ -1,7 +1,8 @@
 import data from '../content/course.json';
 import {z} from 'zod';
 export type Word = {id:string;term:string;zh:string;audio:string};
-export type Line = {id:string;ko:string;zh:string;note:string;words:Word[];audio:string;speakerIndex:number};
+export type SentencePart = {text:string;meaning:string;explanation:string};
+export type Line = {id:string;ko:string;zh:string;note:string;words:Word[];parts:SentencePart[];audio:string;speakerIndex:number};
 export type Lesson = {id:string;stage:number;title:string;scene:string;roles:string[];lines:Line[]};
 export const lessons: Lesson[] = data;
 export const stages = ['初识韩语','日常生活','表达想法','走进社会','理解观点','学术与论证'];

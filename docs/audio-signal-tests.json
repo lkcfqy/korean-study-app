@@ -1,0 +1,14 @@
+{
+  "files": 729,
+  "voice": "ko-KR-SunHiNeural",
+  "allDecodeToPCM": true,
+  "noSilentFiles": true,
+  "noSevereClipping": true,
+  "durationSeconds": 1743.58,
+  "rmsDbRange": [
+    -31.6,
+    -16.49
+  ],
+  "maxClippedSampleFraction": 0.0,
+  "scope": "Decode and signal checks only; no semantic speech recognition and no human pronunciation review."
+}

@@ -1,0 +1,6385 @@
+{
+  "days": [
+    {
+      "day": 1,
+      "month": 1,
+      "lessonId": "c01",
+      "topic": "字母与问候",
+      "title": "听懂与拆解",
+      "newWords": 33,
+      "newSentences": 41,
+      "cumulativeWords": 33,
+      "cumulativeSentences": 41,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 45,
+          "title": "听原音",
+          "instruction": "完整听本关，再逐句重听；先判断谁对谁说、想表达什么。"
+        },
+        {
+          "minutes": 90,
+          "title": "词句理解",
+          "instruction": "逐个点开句子拆解，辨认原形、助词、时态与语尾；结合词典记录新词的本句义。"
+        },
+        {
+          "minutes": 45,
+          "title": "同主题输入",
+          "instruction": "世宗学堂入门或初级教材中的同主题短对话；先听音，再核对文字和释义。"
+        },
+        {
+          "minutes": 60,
+          "title": "换角色回应",
+          "instruction": "用本日句型写 6–10 句自己的话，并交换角色朗读。前 7 天把其中 30 分钟用于字母组合和听写。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 2,
+      "month": 1,
+      "lessonId": "c01",
+      "topic": "字母与问候",
+      "title": "模仿与词形",
+      "newWords": 33,
+      "newSentences": 42,
+      "cumulativeWords": 66,
+      "cumulativeSentences": 83,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "跟读",
+          "instruction": "以 SunHi 完整句音频为准，分短语跟读，再恢复正常速度；重点模仿停顿、收音与连读。"
+        },
+        {
+          "minutes": 80,
+          "title": "词汇与搭配",
+          "instruction": "从同主题材料补充新词；每个词连同一个自然句子学习，不用只背孤立中文义。"
+        },
+        {
+          "minutes": 50,
+          "title": "句式变化",
+          "instruction": "沿用本关语法，变化人称、时间与肯否；对照来源核对变化是否自然。"
+        },
+        {
+          "minutes": 50,
+          "title": "口头与书面回应",
+          "instruction": "用本日句型写 6–10 句自己的话，并交换角色朗读。前 7 天把其中 30 分钟用于字母组合和听写。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 3,
+      "month": 1,
+      "lessonId": "c01",
+      "topic": "字母与问候",
+      "title": "精听与扩展",
+      "newWords": 34,
+      "newSentences": 42,
+      "cumulativeWords": 100,
+      "cumulativeSentences": 125,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 40,
+          "title": "短句听写",
+          "instruction": "隐藏中文和拆解，听写本关；逐句核对助词、收音和词形。"
+        },
+        {
+          "minutes": 80,
+          "title": "平行对话",
+          "instruction": "学习同主题的新对话，逐句对照释义；把熟悉句型在新场景中的用法记下来。"
+        },
+        {
+          "minutes": 60,
+          "title": "阅读与概括",
+          "instruction": "世宗学堂入门或初级教材中的同主题短对话；先听音，再核对文字和释义。"
+        },
+        {
+          "minutes": 60,
+          "title": "复述与改写",
+          "instruction": "用本日句型写 6–10 句自己的话，并交换角色朗读。前 7 天把其中 30 分钟用于字母组合和听写。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 4,
+      "month": 1,
+      "lessonId": "c01",
+      "topic": "字母与问候",
+      "title": "迁移与输出",
+      "newWords": 33,
+      "newSentences": 41,
+      "cumulativeWords": 133,
+      "cumulativeSentences": 166,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "脱稿听说",
+          "instruction": "不看原文复述对话，再换一个角色回答；忘记时先回听完整句子。"
+        },
+        {
+          "minutes": 60,
+          "title": "新词与旧词对比",
+          "instruction": "补齐当天新词目标，同时区分近义词、搭配对象、语体和常见助词。"
+        },
+        {
+          "minutes": 60,
+          "title": "同主题阅读",
+          "instruction": "世宗学堂入门或初级教材中的同主题短对话；先听音，再核对文字和释义。"
+        },
+        {
+          "minutes": 60,
+          "title": "完整表达",
+          "instruction": "用本日句型写 6–10 句自己的话，并交换角色朗读。前 7 天把其中 30 分钟用于字母组合和听写。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 5,
+      "month": 1,
+      "lessonId": "c01",
+      "topic": "字母与问候",
+      "title": "复习与检查",
+      "newWords": 0,
+      "newSentences": 0,
+      "cumulativeWords": 133,
+      "cumulativeSentences": 166,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "主动回忆",
+          "instruction": "不看中文回忆本周期词句；抽测隔天、3 天、7 天前学过的内容，记录正确率。"
+        },
+        {
+          "minutes": 60,
+          "title": "听写与回听",
+          "instruction": "隐藏韩文听写本关，再对照原文定位听不出的音节；回听完整句确认。"
+        },
+        {
+          "minutes": 60,
+          "title": "综合输出",
+          "instruction": "用本日句型写 6–10 句自己的话，并交换角色朗读。前 7 天把其中 30 分钟用于字母组合和听写。"
+        },
+        {
+          "minutes": 60,
+          "title": "纠错与调整",
+          "instruction": "只复习，不增加词句配额。检查译义、助词、时态与衔接；回忆正确率低于 80% 时，把下一周期新内容减半。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 6,
+      "month": 1,
+      "lessonId": "c02",
+      "topic": "国籍、主格与宾格",
+      "title": "听懂与拆解",
+      "newWords": 33,
+      "newSentences": 42,
+      "cumulativeWords": 166,
+      "cumulativeSentences": 208,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 45,
+          "title": "听原音",
+          "instruction": "完整听本关，再逐句重听；先判断谁对谁说、想表达什么。"
+        },
+        {
+          "minutes": 90,
+          "title": "词句理解",
+          "instruction": "逐个点开句子拆解，辨认原形、助词、时态与语尾；结合词典记录新词的本句义。"
+        },
+        {
+          "minutes": 45,
+          "title": "同主题输入",
+          "instruction": "世宗学堂入门或初级教材中的同主题短对话；先听音，再核对文字和释义。"
+        },
+        {
+          "minutes": 60,
+          "title": "换角色回应",
+          "instruction": "用本日句型写 6–10 句自己的话，并交换角色朗读。前 7 天把其中 30 分钟用于字母组合和听写。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 7,
+      "month": 1,
+      "lessonId": "c02",
+      "topic": "国籍、主格与宾格",
+      "title": "模仿与词形",
+      "newWords": 34,
+      "newSentences": 42,
+      "cumulativeWords": 200,
+      "cumulativeSentences": 250,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "跟读",
+          "instruction": "以 SunHi 完整句音频为准，分短语跟读，再恢复正常速度；重点模仿停顿、收音与连读。"
+        },
+        {
+          "minutes": 80,
+          "title": "词汇与搭配",
+          "instruction": "从同主题材料补充新词；每个词连同一个自然句子学习，不用只背孤立中文义。"
+        },
+        {
+          "minutes": 50,
+          "title": "句式变化",
+          "instruction": "沿用本关语法，变化人称、时间与肯否；对照来源核对变化是否自然。"
+        },
+        {
+          "minutes": 50,
+          "title": "口头与书面回应",
+          "instruction": "用本日句型写 6–10 句自己的话，并交换角色朗读。前 7 天把其中 30 分钟用于字母组合和听写。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 8,
+      "month": 1,
+      "lessonId": "c02",
+      "topic": "国籍、主格与宾格",
+      "title": "精听与扩展",
+      "newWords": 33,
+      "newSentences": 41,
+      "cumulativeWords": 233,
+      "cumulativeSentences": 291,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 40,
+          "title": "短句听写",
+          "instruction": "隐藏中文和拆解，听写本关；逐句核对助词、收音和词形。"
+        },
+        {
+          "minutes": 80,
+          "title": "平行对话",
+          "instruction": "学习同主题的新对话，逐句对照释义；把熟悉句型在新场景中的用法记下来。"
+        },
+        {
+          "minutes": 60,
+          "title": "阅读与概括",
+          "instruction": "世宗学堂入门或初级教材中的同主题短对话；先听音，再核对文字和释义。"
+        },
+        {
+          "minutes": 60,
+          "title": "复述与改写",
+          "instruction": "用本日句型写 6–10 句自己的话，并交换角色朗读。前 7 天把其中 30 分钟用于字母组合和听写。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 9,
+      "month": 1,
+      "lessonId": "c02",
+      "topic": "国籍、主格与宾格",
+      "title": "迁移与输出",
+      "newWords": 33,
+      "newSentences": 42,
+      "cumulativeWords": 266,
+      "cumulativeSentences": 333,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "脱稿听说",
+          "instruction": "不看原文复述对话，再换一个角色回答；忘记时先回听完整句子。"
+        },
+        {
+          "minutes": 60,
+          "title": "新词与旧词对比",
+          "instruction": "补齐当天新词目标，同时区分近义词、搭配对象、语体和常见助词。"
+        },
+        {
+          "minutes": 60,
+          "title": "同主题阅读",
+          "instruction": "世宗学堂入门或初级教材中的同主题短对话；先听音，再核对文字和释义。"
+        },
+        {
+          "minutes": 60,
+          "title": "完整表达",
+          "instruction": "用本日句型写 6–10 句自己的话，并交换角色朗读。前 7 天把其中 30 分钟用于字母组合和听写。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 10,
+      "month": 1,
+      "lessonId": "c02",
+      "topic": "国籍、主格与宾格",
+      "title": "复习与检查",
+      "newWords": 0,
+      "newSentences": 0,
+      "cumulativeWords": 266,
+      "cumulativeSentences": 333,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "主动回忆",
+          "instruction": "不看中文回忆本周期词句；抽测隔天、3 天、7 天前学过的内容，记录正确率。"
+        },
+        {
+          "minutes": 60,
+          "title": "听写与回听",
+          "instruction": "隐藏韩文听写本关，再对照原文定位听不出的音节；回听完整句确认。"
+        },
+        {
+          "minutes": 60,
+          "title": "综合输出",
+          "instruction": "用本日句型写 6–10 句自己的话，并交换角色朗读。前 7 天把其中 30 分钟用于字母组合和听写。"
+        },
+        {
+          "minutes": 60,
+          "title": "纠错与调整",
+          "instruction": "只复习，不增加词句配额。检查译义、助词、时态与衔接；回忆正确率低于 80% 时，把下一周期新内容减半。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 11,
+      "month": 1,
+      "lessonId": "c03",
+      "topic": "指示、所属与存在",
+      "title": "听懂与拆解",
+      "newWords": 34,
+      "newSentences": 42,
+      "cumulativeWords": 300,
+      "cumulativeSentences": 375,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 45,
+          "title": "听原音",
+          "instruction": "完整听本关，再逐句重听；先判断谁对谁说、想表达什么。"
+        },
+        {
+          "minutes": 90,
+          "title": "词句理解",
+          "instruction": "逐个点开句子拆解，辨认原形、助词、时态与语尾；结合词典记录新词的本句义。"
+        },
+        {
+          "minutes": 45,
+          "title": "同主题输入",
+          "instruction": "世宗学堂入门或初级教材中的同主题短对话；先听音，再核对文字和释义。"
+        },
+        {
+          "minutes": 60,
+          "title": "换角色回应",
+          "instruction": "用本日句型写 6–10 句自己的话，并交换角色朗读。前 7 天把其中 30 分钟用于字母组合和听写。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 12,
+      "month": 1,
+      "lessonId": "c03",
+      "topic": "指示、所属与存在",
+      "title": "模仿与词形",
+      "newWords": 33,
+      "newSentences": 41,
+      "cumulativeWords": 333,
+      "cumulativeSentences": 416,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "跟读",
+          "instruction": "以 SunHi 完整句音频为准，分短语跟读，再恢复正常速度；重点模仿停顿、收音与连读。"
+        },
+        {
+          "minutes": 80,
+          "title": "词汇与搭配",
+          "instruction": "从同主题材料补充新词；每个词连同一个自然句子学习，不用只背孤立中文义。"
+        },
+        {
+          "minutes": 50,
+          "title": "句式变化",
+          "instruction": "沿用本关语法，变化人称、时间与肯否；对照来源核对变化是否自然。"
+        },
+        {
+          "minutes": 50,
+          "title": "口头与书面回应",
+          "instruction": "用本日句型写 6–10 句自己的话，并交换角色朗读。前 7 天把其中 30 分钟用于字母组合和听写。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 13,
+      "month": 1,
+      "lessonId": "c03",
+      "topic": "指示、所属与存在",
+      "title": "精听与扩展",
+      "newWords": 33,
+      "newSentences": 42,
+      "cumulativeWords": 366,
+      "cumulativeSentences": 458,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 40,
+          "title": "短句听写",
+          "instruction": "隐藏中文和拆解，听写本关；逐句核对助词、收音和词形。"
+        },
+        {
+          "minutes": 80,
+          "title": "平行对话",
+          "instruction": "学习同主题的新对话，逐句对照释义；把熟悉句型在新场景中的用法记下来。"
+        },
+        {
+          "minutes": 60,
+          "title": "阅读与概括",
+          "instruction": "世宗学堂入门或初级教材中的同主题短对话；先听音，再核对文字和释义。"
+        },
+        {
+          "minutes": 60,
+          "title": "复述与改写",
+          "instruction": "用本日句型写 6–10 句自己的话，并交换角色朗读。前 7 天把其中 30 分钟用于字母组合和听写。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 14,
+      "month": 1,
+      "lessonId": "c03",
+      "topic": "指示、所属与存在",
+      "title": "迁移与输出",
+      "newWords": 34,
+      "newSentences": 42,
+      "cumulativeWords": 400,
+      "cumulativeSentences": 500,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "脱稿听说",
+          "instruction": "不看原文复述对话，再换一个角色回答；忘记时先回听完整句子。"
+        },
+        {
+          "minutes": 60,
+          "title": "新词与旧词对比",
+          "instruction": "补齐当天新词目标，同时区分近义词、搭配对象、语体和常见助词。"
+        },
+        {
+          "minutes": 60,
+          "title": "同主题阅读",
+          "instruction": "世宗学堂入门或初级教材中的同主题短对话；先听音，再核对文字和释义。"
+        },
+        {
+          "minutes": 60,
+          "title": "完整表达",
+          "instruction": "用本日句型写 6–10 句自己的话，并交换角色朗读。前 7 天把其中 30 分钟用于字母组合和听写。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 15,
+      "month": 1,
+      "lessonId": "c03",
+      "topic": "指示、所属与存在",
+      "title": "复习与检查",
+      "newWords": 0,
+      "newSentences": 0,
+      "cumulativeWords": 400,
+      "cumulativeSentences": 500,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "主动回忆",
+          "instruction": "不看中文回忆本周期词句；抽测隔天、3 天、7 天前学过的内容，记录正确率。"
+        },
+        {
+          "minutes": 60,
+          "title": "听写与回听",
+          "instruction": "隐藏韩文听写本关，再对照原文定位听不出的音节；回听完整句确认。"
+        },
+        {
+          "minutes": 60,
+          "title": "综合输出",
+          "instruction": "用本日句型写 6–10 句自己的话，并交换角色朗读。前 7 天把其中 30 分钟用于字母组合和听写。"
+        },
+        {
+          "minutes": 60,
+          "title": "纠错与调整",
+          "instruction": "只复习，不增加词句配额。检查译义、助词、时态与衔接；回忆正确率低于 80% 时，把下一周期新内容减半。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 16,
+      "month": 1,
+      "lessonId": "c04",
+      "topic": "数字、量词与点单",
+      "title": "听懂与拆解",
+      "newWords": 33,
+      "newSentences": 41,
+      "cumulativeWords": 433,
+      "cumulativeSentences": 541,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 45,
+          "title": "听原音",
+          "instruction": "完整听本关，再逐句重听；先判断谁对谁说、想表达什么。"
+        },
+        {
+          "minutes": 90,
+          "title": "词句理解",
+          "instruction": "逐个点开句子拆解，辨认原形、助词、时态与语尾；结合词典记录新词的本句义。"
+        },
+        {
+          "minutes": 45,
+          "title": "同主题输入",
+          "instruction": "世宗学堂入门或初级教材中的同主题短对话；先听音，再核对文字和释义。"
+        },
+        {
+          "minutes": 60,
+          "title": "换角色回应",
+          "instruction": "用本日句型写 6–10 句自己的话，并交换角色朗读。前 7 天把其中 30 分钟用于字母组合和听写。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 17,
+      "month": 1,
+      "lessonId": "c04",
+      "topic": "数字、量词与点单",
+      "title": "模仿与词形",
+      "newWords": 33,
+      "newSentences": 42,
+      "cumulativeWords": 466,
+      "cumulativeSentences": 583,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "跟读",
+          "instruction": "以 SunHi 完整句音频为准，分短语跟读，再恢复正常速度；重点模仿停顿、收音与连读。"
+        },
+        {
+          "minutes": 80,
+          "title": "词汇与搭配",
+          "instruction": "从同主题材料补充新词；每个词连同一个自然句子学习，不用只背孤立中文义。"
+        },
+        {
+          "minutes": 50,
+          "title": "句式变化",
+          "instruction": "沿用本关语法，变化人称、时间与肯否；对照来源核对变化是否自然。"
+        },
+        {
+          "minutes": 50,
+          "title": "口头与书面回应",
+          "instruction": "用本日句型写 6–10 句自己的话，并交换角色朗读。前 7 天把其中 30 分钟用于字母组合和听写。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 18,
+      "month": 1,
+      "lessonId": "c04",
+      "topic": "数字、量词与点单",
+      "title": "精听与扩展",
+      "newWords": 34,
+      "newSentences": 42,
+      "cumulativeWords": 500,
+      "cumulativeSentences": 625,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 40,
+          "title": "短句听写",
+          "instruction": "隐藏中文和拆解，听写本关；逐句核对助词、收音和词形。"
+        },
+        {
+          "minutes": 80,
+          "title": "平行对话",
+          "instruction": "学习同主题的新对话，逐句对照释义；把熟悉句型在新场景中的用法记下来。"
+        },
+        {
+          "minutes": 60,
+          "title": "阅读与概括",
+          "instruction": "世宗学堂入门或初级教材中的同主题短对话；先听音，再核对文字和释义。"
+        },
+        {
+          "minutes": 60,
+          "title": "复述与改写",
+          "instruction": "用本日句型写 6–10 句自己的话，并交换角色朗读。前 7 天把其中 30 分钟用于字母组合和听写。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 19,
+      "month": 1,
+      "lessonId": "c04",
+      "topic": "数字、量词与点单",
+      "title": "迁移与输出",
+      "newWords": 33,
+      "newSentences": 41,
+      "cumulativeWords": 533,
+      "cumulativeSentences": 666,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "脱稿听说",
+          "instruction": "不看原文复述对话，再换一个角色回答；忘记时先回听完整句子。"
+        },
+        {
+          "minutes": 60,
+          "title": "新词与旧词对比",
+          "instruction": "补齐当天新词目标，同时区分近义词、搭配对象、语体和常见助词。"
+        },
+        {
+          "minutes": 60,
+          "title": "同主题阅读",
+          "instruction": "世宗学堂入门或初级教材中的同主题短对话；先听音，再核对文字和释义。"
+        },
+        {
+          "minutes": 60,
+          "title": "完整表达",
+          "instruction": "用本日句型写 6–10 句自己的话，并交换角色朗读。前 7 天把其中 30 分钟用于字母组合和听写。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 20,
+      "month": 1,
+      "lessonId": "c04",
+      "topic": "数字、量词与点单",
+      "title": "复习与检查",
+      "newWords": 0,
+      "newSentences": 0,
+      "cumulativeWords": 533,
+      "cumulativeSentences": 666,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "主动回忆",
+          "instruction": "不看中文回忆本周期词句；抽测隔天、3 天、7 天前学过的内容，记录正确率。"
+        },
+        {
+          "minutes": 60,
+          "title": "听写与回听",
+          "instruction": "隐藏韩文听写本关，再对照原文定位听不出的音节；回听完整句确认。"
+        },
+        {
+          "minutes": 60,
+          "title": "综合输出",
+          "instruction": "用本日句型写 6–10 句自己的话，并交换角色朗读。前 7 天把其中 30 分钟用于字母组合和听写。"
+        },
+        {
+          "minutes": 60,
+          "title": "纠错与调整",
+          "instruction": "只复习，不增加词句配额。检查译义、助词、时态与衔接；回忆正确率低于 80% 时，把下一周期新内容减半。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 21,
+      "month": 1,
+      "lessonId": "c05",
+      "topic": "位置、距离与收音",
+      "title": "听懂与拆解",
+      "newWords": 33,
+      "newSentences": 42,
+      "cumulativeWords": 566,
+      "cumulativeSentences": 708,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 45,
+          "title": "听原音",
+          "instruction": "完整听本关，再逐句重听；先判断谁对谁说、想表达什么。"
+        },
+        {
+          "minutes": 90,
+          "title": "词句理解",
+          "instruction": "逐个点开句子拆解，辨认原形、助词、时态与语尾；结合词典记录新词的本句义。"
+        },
+        {
+          "minutes": 45,
+          "title": "同主题输入",
+          "instruction": "世宗学堂入门或初级教材中的同主题短对话；先听音，再核对文字和释义。"
+        },
+        {
+          "minutes": 60,
+          "title": "换角色回应",
+          "instruction": "用本日句型写 6–10 句自己的话，并交换角色朗读。前 7 天把其中 30 分钟用于字母组合和听写。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 22,
+      "month": 1,
+      "lessonId": "c05",
+      "topic": "位置、距离与收音",
+      "title": "模仿与词形",
+      "newWords": 34,
+      "newSentences": 42,
+      "cumulativeWords": 600,
+      "cumulativeSentences": 750,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "跟读",
+          "instruction": "以 SunHi 完整句音频为准，分短语跟读，再恢复正常速度；重点模仿停顿、收音与连读。"
+        },
+        {
+          "minutes": 80,
+          "title": "词汇与搭配",
+          "instruction": "从同主题材料补充新词；每个词连同一个自然句子学习，不用只背孤立中文义。"
+        },
+        {
+          "minutes": 50,
+          "title": "句式变化",
+          "instruction": "沿用本关语法，变化人称、时间与肯否；对照来源核对变化是否自然。"
+        },
+        {
+          "minutes": 50,
+          "title": "口头与书面回应",
+          "instruction": "用本日句型写 6–10 句自己的话，并交换角色朗读。前 7 天把其中 30 分钟用于字母组合和听写。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 23,
+      "month": 1,
+      "lessonId": "c05",
+      "topic": "位置、距离与收音",
+      "title": "精听与扩展",
+      "newWords": 33,
+      "newSentences": 41,
+      "cumulativeWords": 633,
+      "cumulativeSentences": 791,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 40,
+          "title": "短句听写",
+          "instruction": "隐藏中文和拆解，听写本关；逐句核对助词、收音和词形。"
+        },
+        {
+          "minutes": 80,
+          "title": "平行对话",
+          "instruction": "学习同主题的新对话，逐句对照释义；把熟悉句型在新场景中的用法记下来。"
+        },
+        {
+          "minutes": 60,
+          "title": "阅读与概括",
+          "instruction": "世宗学堂入门或初级教材中的同主题短对话；先听音，再核对文字和释义。"
+        },
+        {
+          "minutes": 60,
+          "title": "复述与改写",
+          "instruction": "用本日句型写 6–10 句自己的话，并交换角色朗读。前 7 天把其中 30 分钟用于字母组合和听写。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 24,
+      "month": 1,
+      "lessonId": "c05",
+      "topic": "位置、距离与收音",
+      "title": "迁移与输出",
+      "newWords": 33,
+      "newSentences": 42,
+      "cumulativeWords": 666,
+      "cumulativeSentences": 833,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "脱稿听说",
+          "instruction": "不看原文复述对话，再换一个角色回答；忘记时先回听完整句子。"
+        },
+        {
+          "minutes": 60,
+          "title": "新词与旧词对比",
+          "instruction": "补齐当天新词目标，同时区分近义词、搭配对象、语体和常见助词。"
+        },
+        {
+          "minutes": 60,
+          "title": "同主题阅读",
+          "instruction": "世宗学堂入门或初级教材中的同主题短对话；先听音，再核对文字和释义。"
+        },
+        {
+          "minutes": 60,
+          "title": "完整表达",
+          "instruction": "用本日句型写 6–10 句自己的话，并交换角色朗读。前 7 天把其中 30 分钟用于字母组合和听写。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 25,
+      "month": 1,
+      "lessonId": "c05",
+      "topic": "位置、距离与收音",
+      "title": "复习与检查",
+      "newWords": 0,
+      "newSentences": 0,
+      "cumulativeWords": 666,
+      "cumulativeSentences": 833,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "主动回忆",
+          "instruction": "不看中文回忆本周期词句；抽测隔天、3 天、7 天前学过的内容，记录正确率。"
+        },
+        {
+          "minutes": 60,
+          "title": "听写与回听",
+          "instruction": "隐藏韩文听写本关，再对照原文定位听不出的音节；回听完整句确认。"
+        },
+        {
+          "minutes": 60,
+          "title": "综合输出",
+          "instruction": "用本日句型写 6–10 句自己的话，并交换角色朗读。前 7 天把其中 30 分钟用于字母组合和听写。"
+        },
+        {
+          "minutes": 60,
+          "title": "纠错与调整",
+          "instruction": "只复习，不增加词句配额。检查译义、助词、时态与衔接；回忆正确率低于 80% 时，把下一周期新内容减半。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 26,
+      "month": 1,
+      "lessonId": "c06",
+      "topic": "时刻、约定与连音",
+      "title": "听懂与拆解",
+      "newWords": 34,
+      "newSentences": 42,
+      "cumulativeWords": 700,
+      "cumulativeSentences": 875,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 45,
+          "title": "听原音",
+          "instruction": "完整听本关，再逐句重听；先判断谁对谁说、想表达什么。"
+        },
+        {
+          "minutes": 90,
+          "title": "词句理解",
+          "instruction": "逐个点开句子拆解，辨认原形、助词、时态与语尾；结合词典记录新词的本句义。"
+        },
+        {
+          "minutes": 45,
+          "title": "同主题输入",
+          "instruction": "世宗学堂入门或初级教材中的同主题短对话；先听音，再核对文字和释义。"
+        },
+        {
+          "minutes": 60,
+          "title": "换角色回应",
+          "instruction": "用本日句型写 6–10 句自己的话，并交换角色朗读。前 7 天把其中 30 分钟用于字母组合和听写。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 27,
+      "month": 1,
+      "lessonId": "c06",
+      "topic": "时刻、约定与连音",
+      "title": "模仿与词形",
+      "newWords": 33,
+      "newSentences": 41,
+      "cumulativeWords": 733,
+      "cumulativeSentences": 916,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "跟读",
+          "instruction": "以 SunHi 完整句音频为准，分短语跟读，再恢复正常速度；重点模仿停顿、收音与连读。"
+        },
+        {
+          "minutes": 80,
+          "title": "词汇与搭配",
+          "instruction": "从同主题材料补充新词；每个词连同一个自然句子学习，不用只背孤立中文义。"
+        },
+        {
+          "minutes": 50,
+          "title": "句式变化",
+          "instruction": "沿用本关语法，变化人称、时间与肯否；对照来源核对变化是否自然。"
+        },
+        {
+          "minutes": 50,
+          "title": "口头与书面回应",
+          "instruction": "用本日句型写 6–10 句自己的话，并交换角色朗读。前 7 天把其中 30 分钟用于字母组合和听写。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 28,
+      "month": 1,
+      "lessonId": "c06",
+      "topic": "时刻、约定与连音",
+      "title": "精听与扩展",
+      "newWords": 33,
+      "newSentences": 42,
+      "cumulativeWords": 766,
+      "cumulativeSentences": 958,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 40,
+          "title": "短句听写",
+          "instruction": "隐藏中文和拆解，听写本关；逐句核对助词、收音和词形。"
+        },
+        {
+          "minutes": 80,
+          "title": "平行对话",
+          "instruction": "学习同主题的新对话，逐句对照释义；把熟悉句型在新场景中的用法记下来。"
+        },
+        {
+          "minutes": 60,
+          "title": "阅读与概括",
+          "instruction": "世宗学堂入门或初级教材中的同主题短对话；先听音，再核对文字和释义。"
+        },
+        {
+          "minutes": 60,
+          "title": "复述与改写",
+          "instruction": "用本日句型写 6–10 句自己的话，并交换角色朗读。前 7 天把其中 30 分钟用于字母组合和听写。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 29,
+      "month": 1,
+      "lessonId": "c06",
+      "topic": "时刻、约定与连音",
+      "title": "迁移与输出",
+      "newWords": 34,
+      "newSentences": 42,
+      "cumulativeWords": 800,
+      "cumulativeSentences": 1000,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "脱稿听说",
+          "instruction": "不看原文复述对话，再换一个角色回答；忘记时先回听完整句子。"
+        },
+        {
+          "minutes": 60,
+          "title": "新词与旧词对比",
+          "instruction": "补齐当天新词目标，同时区分近义词、搭配对象、语体和常见助词。"
+        },
+        {
+          "minutes": 60,
+          "title": "同主题阅读",
+          "instruction": "世宗学堂入门或初级教材中的同主题短对话；先听音，再核对文字和释义。"
+        },
+        {
+          "minutes": 60,
+          "title": "完整表达",
+          "instruction": "用本日句型写 6–10 句自己的话，并交换角色朗读。前 7 天把其中 30 分钟用于字母组合和听写。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 30,
+      "month": 1,
+      "lessonId": "c06",
+      "topic": "时刻、约定与连音",
+      "title": "限时测评与复盘",
+      "newWords": 0,
+      "newSentences": 0,
+      "cumulativeWords": 800,
+      "cumulativeSentences": 1000,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "月末测评",
+          "instruction": "随机听写 20 个已学音节，目标至少 18 个正确；不看稿完成 60 秒自我介绍；抽查 30 个已学词，隔天仍能回忆至少 24 个。"
+        },
+        {
+          "minutes": 180,
+          "title": "核对、归因与下阶段调整",
+          "instruction": "逐项记录证据和薄弱点；客观题按官方答案核对，作文等待按评分标准的反馈。若未达到本月训练目标，先补短板，再调整进度。"
+        }
+      ],
+      "assessment": "随机听写 20 个已学音节，目标至少 18 个正确；不看稿完成 60 秒自我介绍；抽查 30 个已学词，隔天仍能回忆至少 24 个。"
+    },
+    {
+      "day": 31,
+      "month": 2,
+      "lessonId": "c07",
+      "topic": "餐饮、敬语与请求",
+      "title": "听懂与拆解",
+      "newWords": 41,
+      "newSentences": 50,
+      "cumulativeWords": 841,
+      "cumulativeSentences": 1050,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 45,
+          "title": "听原音",
+          "instruction": "完整听本关，再逐句重听；先判断谁对谁说、想表达什么。"
+        },
+        {
+          "minutes": 90,
+          "title": "词句理解",
+          "instruction": "逐个点开句子拆解，辨认原形、助词、时态与语尾；结合词典记录新词的本句义。"
+        },
+        {
+          "minutes": 45,
+          "title": "同主题输入",
+          "instruction": "世宗学堂初级对话与 TOPIK I 官方公开练习中的通知、广告、生活短文。"
+        },
+        {
+          "minutes": 60,
+          "title": "换角色回应",
+          "instruction": "围绕同一情境自编 8–12 轮对话；将现在时改成过去时、肯定改成否定；写 80–120 韩文字的生活记录。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 32,
+      "month": 2,
+      "lessonId": "c07",
+      "topic": "餐饮、敬语与请求",
+      "title": "模仿与词形",
+      "newWords": 42,
+      "newSentences": 50,
+      "cumulativeWords": 883,
+      "cumulativeSentences": 1100,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "跟读",
+          "instruction": "以 SunHi 完整句音频为准，分短语跟读，再恢复正常速度；重点模仿停顿、收音与连读。"
+        },
+        {
+          "minutes": 80,
+          "title": "词汇与搭配",
+          "instruction": "从同主题材料补充新词；每个词连同一个自然句子学习，不用只背孤立中文义。"
+        },
+        {
+          "minutes": 50,
+          "title": "句式变化",
+          "instruction": "沿用本关语法，变化人称、时间与肯否；对照来源核对变化是否自然。"
+        },
+        {
+          "minutes": 50,
+          "title": "口头与书面回应",
+          "instruction": "围绕同一情境自编 8–12 轮对话；将现在时改成过去时、肯定改成否定；写 80–120 韩文字的生活记录。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 33,
+      "month": 2,
+      "lessonId": "c07",
+      "topic": "餐饮、敬语与请求",
+      "title": "精听与扩展",
+      "newWords": 42,
+      "newSentences": 50,
+      "cumulativeWords": 925,
+      "cumulativeSentences": 1150,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 40,
+          "title": "短句听写",
+          "instruction": "隐藏中文和拆解，听写本关；逐句核对助词、收音和词形。"
+        },
+        {
+          "minutes": 80,
+          "title": "平行对话",
+          "instruction": "学习同主题的新对话，逐句对照释义；把熟悉句型在新场景中的用法记下来。"
+        },
+        {
+          "minutes": 60,
+          "title": "阅读与概括",
+          "instruction": "世宗学堂初级对话与 TOPIK I 官方公开练习中的通知、广告、生活短文。"
+        },
+        {
+          "minutes": 60,
+          "title": "复述与改写",
+          "instruction": "围绕同一情境自编 8–12 轮对话；将现在时改成过去时、肯定改成否定；写 80–120 韩文字的生活记录。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 34,
+      "month": 2,
+      "lessonId": "c07",
+      "topic": "餐饮、敬语与请求",
+      "title": "迁移与输出",
+      "newWords": 41,
+      "newSentences": 50,
+      "cumulativeWords": 966,
+      "cumulativeSentences": 1200,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "脱稿听说",
+          "instruction": "不看原文复述对话，再换一个角色回答；忘记时先回听完整句子。"
+        },
+        {
+          "minutes": 60,
+          "title": "新词与旧词对比",
+          "instruction": "补齐当天新词目标，同时区分近义词、搭配对象、语体和常见助词。"
+        },
+        {
+          "minutes": 60,
+          "title": "同主题阅读",
+          "instruction": "世宗学堂初级对话与 TOPIK I 官方公开练习中的通知、广告、生活短文。"
+        },
+        {
+          "minutes": 60,
+          "title": "完整表达",
+          "instruction": "围绕同一情境自编 8–12 轮对话；将现在时改成过去时、肯定改成否定；写 80–120 韩文字的生活记录。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 35,
+      "month": 2,
+      "lessonId": "c07",
+      "topic": "餐饮、敬语与请求",
+      "title": "复习与检查",
+      "newWords": 0,
+      "newSentences": 0,
+      "cumulativeWords": 966,
+      "cumulativeSentences": 1200,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "主动回忆",
+          "instruction": "不看中文回忆本周期词句；抽测隔天、3 天、7 天前学过的内容，记录正确率。"
+        },
+        {
+          "minutes": 60,
+          "title": "听写与回听",
+          "instruction": "隐藏韩文听写本关，再对照原文定位听不出的音节；回听完整句确认。"
+        },
+        {
+          "minutes": 60,
+          "title": "综合输出",
+          "instruction": "围绕同一情境自编 8–12 轮对话；将现在时改成过去时、肯定改成否定；写 80–120 韩文字的生活记录。"
+        },
+        {
+          "minutes": 60,
+          "title": "纠错与调整",
+          "instruction": "只复习，不增加词句配额。检查译义、助词、时态与衔接；回忆正确率低于 80% 时，把下一周期新内容减半。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 36,
+      "month": 2,
+      "lessonId": "c08",
+      "topic": "购物、进行时与尝试",
+      "title": "听懂与拆解",
+      "newWords": 42,
+      "newSentences": 50,
+      "cumulativeWords": 1008,
+      "cumulativeSentences": 1250,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 45,
+          "title": "听原音",
+          "instruction": "完整听本关，再逐句重听；先判断谁对谁说、想表达什么。"
+        },
+        {
+          "minutes": 90,
+          "title": "词句理解",
+          "instruction": "逐个点开句子拆解，辨认原形、助词、时态与语尾；结合词典记录新词的本句义。"
+        },
+        {
+          "minutes": 45,
+          "title": "同主题输入",
+          "instruction": "世宗学堂初级对话与 TOPIK I 官方公开练习中的通知、广告、生活短文。"
+        },
+        {
+          "minutes": 60,
+          "title": "换角色回应",
+          "instruction": "围绕同一情境自编 8–12 轮对话；将现在时改成过去时、肯定改成否定；写 80–120 韩文字的生活记录。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 37,
+      "month": 2,
+      "lessonId": "c08",
+      "topic": "购物、进行时与尝试",
+      "title": "模仿与词形",
+      "newWords": 42,
+      "newSentences": 50,
+      "cumulativeWords": 1050,
+      "cumulativeSentences": 1300,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "跟读",
+          "instruction": "以 SunHi 完整句音频为准，分短语跟读，再恢复正常速度；重点模仿停顿、收音与连读。"
+        },
+        {
+          "minutes": 80,
+          "title": "词汇与搭配",
+          "instruction": "从同主题材料补充新词；每个词连同一个自然句子学习，不用只背孤立中文义。"
+        },
+        {
+          "minutes": 50,
+          "title": "句式变化",
+          "instruction": "沿用本关语法，变化人称、时间与肯否；对照来源核对变化是否自然。"
+        },
+        {
+          "minutes": 50,
+          "title": "口头与书面回应",
+          "instruction": "围绕同一情境自编 8–12 轮对话；将现在时改成过去时、肯定改成否定；写 80–120 韩文字的生活记录。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 38,
+      "month": 2,
+      "lessonId": "c08",
+      "topic": "购物、进行时与尝试",
+      "title": "精听与扩展",
+      "newWords": 41,
+      "newSentences": 50,
+      "cumulativeWords": 1091,
+      "cumulativeSentences": 1350,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 40,
+          "title": "短句听写",
+          "instruction": "隐藏中文和拆解，听写本关；逐句核对助词、收音和词形。"
+        },
+        {
+          "minutes": 80,
+          "title": "平行对话",
+          "instruction": "学习同主题的新对话，逐句对照释义；把熟悉句型在新场景中的用法记下来。"
+        },
+        {
+          "minutes": 60,
+          "title": "阅读与概括",
+          "instruction": "世宗学堂初级对话与 TOPIK I 官方公开练习中的通知、广告、生活短文。"
+        },
+        {
+          "minutes": 60,
+          "title": "复述与改写",
+          "instruction": "围绕同一情境自编 8–12 轮对话；将现在时改成过去时、肯定改成否定；写 80–120 韩文字的生活记录。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 39,
+      "month": 2,
+      "lessonId": "c08",
+      "topic": "购物、进行时与尝试",
+      "title": "迁移与输出",
+      "newWords": 42,
+      "newSentences": 50,
+      "cumulativeWords": 1133,
+      "cumulativeSentences": 1400,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "脱稿听说",
+          "instruction": "不看原文复述对话，再换一个角色回答；忘记时先回听完整句子。"
+        },
+        {
+          "minutes": 60,
+          "title": "新词与旧词对比",
+          "instruction": "补齐当天新词目标，同时区分近义词、搭配对象、语体和常见助词。"
+        },
+        {
+          "minutes": 60,
+          "title": "同主题阅读",
+          "instruction": "世宗学堂初级对话与 TOPIK I 官方公开练习中的通知、广告、生活短文。"
+        },
+        {
+          "minutes": 60,
+          "title": "完整表达",
+          "instruction": "围绕同一情境自编 8–12 轮对话；将现在时改成过去时、肯定改成否定；写 80–120 韩文字的生活记录。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 40,
+      "month": 2,
+      "lessonId": "c08",
+      "topic": "购物、进行时与尝试",
+      "title": "复习与检查",
+      "newWords": 0,
+      "newSentences": 0,
+      "cumulativeWords": 1133,
+      "cumulativeSentences": 1400,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "主动回忆",
+          "instruction": "不看中文回忆本周期词句；抽测隔天、3 天、7 天前学过的内容，记录正确率。"
+        },
+        {
+          "minutes": 60,
+          "title": "听写与回听",
+          "instruction": "隐藏韩文听写本关，再对照原文定位听不出的音节；回听完整句确认。"
+        },
+        {
+          "minutes": 60,
+          "title": "综合输出",
+          "instruction": "围绕同一情境自编 8–12 轮对话；将现在时改成过去时、肯定改成否定；写 80–120 韩文字的生活记录。"
+        },
+        {
+          "minutes": 60,
+          "title": "纠错与调整",
+          "instruction": "只复习，不增加词句配额。检查译义、助词、时态与衔接；回忆正确率低于 80% 时，把下一周期新内容减半。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 41,
+      "month": 2,
+      "lessonId": "c09",
+      "topic": "交通、条件与必要",
+      "title": "听懂与拆解",
+      "newWords": 42,
+      "newSentences": 50,
+      "cumulativeWords": 1175,
+      "cumulativeSentences": 1450,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 45,
+          "title": "听原音",
+          "instruction": "完整听本关，再逐句重听；先判断谁对谁说、想表达什么。"
+        },
+        {
+          "minutes": 90,
+          "title": "词句理解",
+          "instruction": "逐个点开句子拆解，辨认原形、助词、时态与语尾；结合词典记录新词的本句义。"
+        },
+        {
+          "minutes": 45,
+          "title": "同主题输入",
+          "instruction": "世宗学堂初级对话与 TOPIK I 官方公开练习中的通知、广告、生活短文。"
+        },
+        {
+          "minutes": 60,
+          "title": "换角色回应",
+          "instruction": "围绕同一情境自编 8–12 轮对话；将现在时改成过去时、肯定改成否定；写 80–120 韩文字的生活记录。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 42,
+      "month": 2,
+      "lessonId": "c09",
+      "topic": "交通、条件与必要",
+      "title": "模仿与词形",
+      "newWords": 41,
+      "newSentences": 50,
+      "cumulativeWords": 1216,
+      "cumulativeSentences": 1500,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "跟读",
+          "instruction": "以 SunHi 完整句音频为准，分短语跟读，再恢复正常速度；重点模仿停顿、收音与连读。"
+        },
+        {
+          "minutes": 80,
+          "title": "词汇与搭配",
+          "instruction": "从同主题材料补充新词；每个词连同一个自然句子学习，不用只背孤立中文义。"
+        },
+        {
+          "minutes": 50,
+          "title": "句式变化",
+          "instruction": "沿用本关语法，变化人称、时间与肯否；对照来源核对变化是否自然。"
+        },
+        {
+          "minutes": 50,
+          "title": "口头与书面回应",
+          "instruction": "围绕同一情境自编 8–12 轮对话；将现在时改成过去时、肯定改成否定；写 80–120 韩文字的生活记录。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 43,
+      "month": 2,
+      "lessonId": "c09",
+      "topic": "交通、条件与必要",
+      "title": "精听与扩展",
+      "newWords": 42,
+      "newSentences": 50,
+      "cumulativeWords": 1258,
+      "cumulativeSentences": 1550,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 40,
+          "title": "短句听写",
+          "instruction": "隐藏中文和拆解，听写本关；逐句核对助词、收音和词形。"
+        },
+        {
+          "minutes": 80,
+          "title": "平行对话",
+          "instruction": "学习同主题的新对话，逐句对照释义；把熟悉句型在新场景中的用法记下来。"
+        },
+        {
+          "minutes": 60,
+          "title": "阅读与概括",
+          "instruction": "世宗学堂初级对话与 TOPIK I 官方公开练习中的通知、广告、生活短文。"
+        },
+        {
+          "minutes": 60,
+          "title": "复述与改写",
+          "instruction": "围绕同一情境自编 8–12 轮对话；将现在时改成过去时、肯定改成否定；写 80–120 韩文字的生活记录。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 44,
+      "month": 2,
+      "lessonId": "c09",
+      "topic": "交通、条件与必要",
+      "title": "迁移与输出",
+      "newWords": 42,
+      "newSentences": 50,
+      "cumulativeWords": 1300,
+      "cumulativeSentences": 1600,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "脱稿听说",
+          "instruction": "不看原文复述对话，再换一个角色回答；忘记时先回听完整句子。"
+        },
+        {
+          "minutes": 60,
+          "title": "新词与旧词对比",
+          "instruction": "补齐当天新词目标，同时区分近义词、搭配对象、语体和常见助词。"
+        },
+        {
+          "minutes": 60,
+          "title": "同主题阅读",
+          "instruction": "世宗学堂初级对话与 TOPIK I 官方公开练习中的通知、广告、生活短文。"
+        },
+        {
+          "minutes": 60,
+          "title": "完整表达",
+          "instruction": "围绕同一情境自编 8–12 轮对话；将现在时改成过去时、肯定改成否定；写 80–120 韩文字的生活记录。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 45,
+      "month": 2,
+      "lessonId": "c09",
+      "topic": "交通、条件与必要",
+      "title": "复习与检查",
+      "newWords": 0,
+      "newSentences": 0,
+      "cumulativeWords": 1300,
+      "cumulativeSentences": 1600,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "主动回忆",
+          "instruction": "不看中文回忆本周期词句；抽测隔天、3 天、7 天前学过的内容，记录正确率。"
+        },
+        {
+          "minutes": 60,
+          "title": "听写与回听",
+          "instruction": "隐藏韩文听写本关，再对照原文定位听不出的音节；回听完整句确认。"
+        },
+        {
+          "minutes": 60,
+          "title": "综合输出",
+          "instruction": "围绕同一情境自编 8–12 轮对话；将现在时改成过去时、肯定改成否定；写 80–120 韩文字的生活记录。"
+        },
+        {
+          "minutes": 60,
+          "title": "纠错与调整",
+          "instruction": "只复习，不增加词句配额。检查译义、助词、时态与衔接；回忆正确率低于 80% 时，把下一周期新内容减半。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 46,
+      "month": 2,
+      "lessonId": "c10",
+      "topic": "约定、比较与承诺",
+      "title": "听懂与拆解",
+      "newWords": 41,
+      "newSentences": 50,
+      "cumulativeWords": 1341,
+      "cumulativeSentences": 1650,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 45,
+          "title": "听原音",
+          "instruction": "完整听本关，再逐句重听；先判断谁对谁说、想表达什么。"
+        },
+        {
+          "minutes": 90,
+          "title": "词句理解",
+          "instruction": "逐个点开句子拆解，辨认原形、助词、时态与语尾；结合词典记录新词的本句义。"
+        },
+        {
+          "minutes": 45,
+          "title": "同主题输入",
+          "instruction": "世宗学堂初级对话与 TOPIK I 官方公开练习中的通知、广告、生活短文。"
+        },
+        {
+          "minutes": 60,
+          "title": "换角色回应",
+          "instruction": "围绕同一情境自编 8–12 轮对话；将现在时改成过去时、肯定改成否定；写 80–120 韩文字的生活记录。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 47,
+      "month": 2,
+      "lessonId": "c10",
+      "topic": "约定、比较与承诺",
+      "title": "模仿与词形",
+      "newWords": 42,
+      "newSentences": 50,
+      "cumulativeWords": 1383,
+      "cumulativeSentences": 1700,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "跟读",
+          "instruction": "以 SunHi 完整句音频为准，分短语跟读，再恢复正常速度；重点模仿停顿、收音与连读。"
+        },
+        {
+          "minutes": 80,
+          "title": "词汇与搭配",
+          "instruction": "从同主题材料补充新词；每个词连同一个自然句子学习，不用只背孤立中文义。"
+        },
+        {
+          "minutes": 50,
+          "title": "句式变化",
+          "instruction": "沿用本关语法，变化人称、时间与肯否；对照来源核对变化是否自然。"
+        },
+        {
+          "minutes": 50,
+          "title": "口头与书面回应",
+          "instruction": "围绕同一情境自编 8–12 轮对话；将现在时改成过去时、肯定改成否定；写 80–120 韩文字的生活记录。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 48,
+      "month": 2,
+      "lessonId": "c10",
+      "topic": "约定、比较与承诺",
+      "title": "精听与扩展",
+      "newWords": 42,
+      "newSentences": 50,
+      "cumulativeWords": 1425,
+      "cumulativeSentences": 1750,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 40,
+          "title": "短句听写",
+          "instruction": "隐藏中文和拆解，听写本关；逐句核对助词、收音和词形。"
+        },
+        {
+          "minutes": 80,
+          "title": "平行对话",
+          "instruction": "学习同主题的新对话，逐句对照释义；把熟悉句型在新场景中的用法记下来。"
+        },
+        {
+          "minutes": 60,
+          "title": "阅读与概括",
+          "instruction": "世宗学堂初级对话与 TOPIK I 官方公开练习中的通知、广告、生活短文。"
+        },
+        {
+          "minutes": 60,
+          "title": "复述与改写",
+          "instruction": "围绕同一情境自编 8–12 轮对话；将现在时改成过去时、肯定改成否定；写 80–120 韩文字的生活记录。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 49,
+      "month": 2,
+      "lessonId": "c10",
+      "topic": "约定、比较与承诺",
+      "title": "迁移与输出",
+      "newWords": 41,
+      "newSentences": 50,
+      "cumulativeWords": 1466,
+      "cumulativeSentences": 1800,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "脱稿听说",
+          "instruction": "不看原文复述对话，再换一个角色回答；忘记时先回听完整句子。"
+        },
+        {
+          "minutes": 60,
+          "title": "新词与旧词对比",
+          "instruction": "补齐当天新词目标，同时区分近义词、搭配对象、语体和常见助词。"
+        },
+        {
+          "minutes": 60,
+          "title": "同主题阅读",
+          "instruction": "世宗学堂初级对话与 TOPIK I 官方公开练习中的通知、广告、生活短文。"
+        },
+        {
+          "minutes": 60,
+          "title": "完整表达",
+          "instruction": "围绕同一情境自编 8–12 轮对话；将现在时改成过去时、肯定改成否定；写 80–120 韩文字的生活记录。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 50,
+      "month": 2,
+      "lessonId": "c10",
+      "topic": "约定、比较与承诺",
+      "title": "复习与检查",
+      "newWords": 0,
+      "newSentences": 0,
+      "cumulativeWords": 1466,
+      "cumulativeSentences": 1800,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "主动回忆",
+          "instruction": "不看中文回忆本周期词句；抽测隔天、3 天、7 天前学过的内容，记录正确率。"
+        },
+        {
+          "minutes": 60,
+          "title": "听写与回听",
+          "instruction": "隐藏韩文听写本关，再对照原文定位听不出的音节；回听完整句确认。"
+        },
+        {
+          "minutes": 60,
+          "title": "综合输出",
+          "instruction": "围绕同一情境自编 8–12 轮对话；将现在时改成过去时、肯定改成否定；写 80–120 韩文字的生活记录。"
+        },
+        {
+          "minutes": 60,
+          "title": "纠错与调整",
+          "instruction": "只复习，不增加词句配额。检查译义、助词、时态与衔接；回忆正确率低于 80% 时，把下一周期新内容减半。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 51,
+      "month": 2,
+      "lessonId": "c11",
+      "topic": "天气、否定与转述",
+      "title": "听懂与拆解",
+      "newWords": 42,
+      "newSentences": 50,
+      "cumulativeWords": 1508,
+      "cumulativeSentences": 1850,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 45,
+          "title": "听原音",
+          "instruction": "完整听本关，再逐句重听；先判断谁对谁说、想表达什么。"
+        },
+        {
+          "minutes": 90,
+          "title": "词句理解",
+          "instruction": "逐个点开句子拆解，辨认原形、助词、时态与语尾；结合词典记录新词的本句义。"
+        },
+        {
+          "minutes": 45,
+          "title": "同主题输入",
+          "instruction": "世宗学堂初级对话与 TOPIK I 官方公开练习中的通知、广告、生活短文。"
+        },
+        {
+          "minutes": 60,
+          "title": "换角色回应",
+          "instruction": "围绕同一情境自编 8–12 轮对话；将现在时改成过去时、肯定改成否定；写 80–120 韩文字的生活记录。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 52,
+      "month": 2,
+      "lessonId": "c11",
+      "topic": "天气、否定与转述",
+      "title": "模仿与词形",
+      "newWords": 42,
+      "newSentences": 50,
+      "cumulativeWords": 1550,
+      "cumulativeSentences": 1900,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "跟读",
+          "instruction": "以 SunHi 完整句音频为准，分短语跟读，再恢复正常速度；重点模仿停顿、收音与连读。"
+        },
+        {
+          "minutes": 80,
+          "title": "词汇与搭配",
+          "instruction": "从同主题材料补充新词；每个词连同一个自然句子学习，不用只背孤立中文义。"
+        },
+        {
+          "minutes": 50,
+          "title": "句式变化",
+          "instruction": "沿用本关语法，变化人称、时间与肯否；对照来源核对变化是否自然。"
+        },
+        {
+          "minutes": 50,
+          "title": "口头与书面回应",
+          "instruction": "围绕同一情境自编 8–12 轮对话；将现在时改成过去时、肯定改成否定；写 80–120 韩文字的生活记录。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 53,
+      "month": 2,
+      "lessonId": "c11",
+      "topic": "天气、否定与转述",
+      "title": "精听与扩展",
+      "newWords": 41,
+      "newSentences": 50,
+      "cumulativeWords": 1591,
+      "cumulativeSentences": 1950,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 40,
+          "title": "短句听写",
+          "instruction": "隐藏中文和拆解，听写本关；逐句核对助词、收音和词形。"
+        },
+        {
+          "minutes": 80,
+          "title": "平行对话",
+          "instruction": "学习同主题的新对话，逐句对照释义；把熟悉句型在新场景中的用法记下来。"
+        },
+        {
+          "minutes": 60,
+          "title": "阅读与概括",
+          "instruction": "世宗学堂初级对话与 TOPIK I 官方公开练习中的通知、广告、生活短文。"
+        },
+        {
+          "minutes": 60,
+          "title": "复述与改写",
+          "instruction": "围绕同一情境自编 8–12 轮对话；将现在时改成过去时、肯定改成否定；写 80–120 韩文字的生活记录。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 54,
+      "month": 2,
+      "lessonId": "c11",
+      "topic": "天气、否定与转述",
+      "title": "迁移与输出",
+      "newWords": 42,
+      "newSentences": 50,
+      "cumulativeWords": 1633,
+      "cumulativeSentences": 2000,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "脱稿听说",
+          "instruction": "不看原文复述对话，再换一个角色回答；忘记时先回听完整句子。"
+        },
+        {
+          "minutes": 60,
+          "title": "新词与旧词对比",
+          "instruction": "补齐当天新词目标，同时区分近义词、搭配对象、语体和常见助词。"
+        },
+        {
+          "minutes": 60,
+          "title": "同主题阅读",
+          "instruction": "世宗学堂初级对话与 TOPIK I 官方公开练习中的通知、广告、生活短文。"
+        },
+        {
+          "minutes": 60,
+          "title": "完整表达",
+          "instruction": "围绕同一情境自编 8–12 轮对话；将现在时改成过去时、肯定改成否定；写 80–120 韩文字的生活记录。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 55,
+      "month": 2,
+      "lessonId": "c11",
+      "topic": "天气、否定与转述",
+      "title": "复习与检查",
+      "newWords": 0,
+      "newSentences": 0,
+      "cumulativeWords": 1633,
+      "cumulativeSentences": 2000,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "主动回忆",
+          "instruction": "不看中文回忆本周期词句；抽测隔天、3 天、7 天前学过的内容，记录正确率。"
+        },
+        {
+          "minutes": 60,
+          "title": "听写与回听",
+          "instruction": "隐藏韩文听写本关，再对照原文定位听不出的音节；回听完整句确认。"
+        },
+        {
+          "minutes": 60,
+          "title": "综合输出",
+          "instruction": "围绕同一情境自编 8–12 轮对话；将现在时改成过去时、肯定改成否定；写 80–120 韩文字的生活记录。"
+        },
+        {
+          "minutes": 60,
+          "title": "纠错与调整",
+          "instruction": "只复习，不增加词句配额。检查译义、助词、时态与衔接；回忆正确率低于 80% 时，把下一周期新内容减半。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 56,
+      "month": 2,
+      "lessonId": "c12",
+      "topic": "症状、过去与起点",
+      "title": "听懂与拆解",
+      "newWords": 42,
+      "newSentences": 50,
+      "cumulativeWords": 1675,
+      "cumulativeSentences": 2050,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 45,
+          "title": "听原音",
+          "instruction": "完整听本关，再逐句重听；先判断谁对谁说、想表达什么。"
+        },
+        {
+          "minutes": 90,
+          "title": "词句理解",
+          "instruction": "逐个点开句子拆解，辨认原形、助词、时态与语尾；结合词典记录新词的本句义。"
+        },
+        {
+          "minutes": 45,
+          "title": "同主题输入",
+          "instruction": "世宗学堂初级对话与 TOPIK I 官方公开练习中的通知、广告、生活短文。"
+        },
+        {
+          "minutes": 60,
+          "title": "换角色回应",
+          "instruction": "围绕同一情境自编 8–12 轮对话；将现在时改成过去时、肯定改成否定；写 80–120 韩文字的生活记录。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 57,
+      "month": 2,
+      "lessonId": "c12",
+      "topic": "症状、过去与起点",
+      "title": "模仿与词形",
+      "newWords": 41,
+      "newSentences": 50,
+      "cumulativeWords": 1716,
+      "cumulativeSentences": 2100,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "跟读",
+          "instruction": "以 SunHi 完整句音频为准，分短语跟读，再恢复正常速度；重点模仿停顿、收音与连读。"
+        },
+        {
+          "minutes": 80,
+          "title": "词汇与搭配",
+          "instruction": "从同主题材料补充新词；每个词连同一个自然句子学习，不用只背孤立中文义。"
+        },
+        {
+          "minutes": 50,
+          "title": "句式变化",
+          "instruction": "沿用本关语法，变化人称、时间与肯否；对照来源核对变化是否自然。"
+        },
+        {
+          "minutes": 50,
+          "title": "口头与书面回应",
+          "instruction": "围绕同一情境自编 8–12 轮对话；将现在时改成过去时、肯定改成否定；写 80–120 韩文字的生活记录。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 58,
+      "month": 2,
+      "lessonId": "c12",
+      "topic": "症状、过去与起点",
+      "title": "精听与扩展",
+      "newWords": 42,
+      "newSentences": 50,
+      "cumulativeWords": 1758,
+      "cumulativeSentences": 2150,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 40,
+          "title": "短句听写",
+          "instruction": "隐藏中文和拆解，听写本关；逐句核对助词、收音和词形。"
+        },
+        {
+          "minutes": 80,
+          "title": "平行对话",
+          "instruction": "学习同主题的新对话，逐句对照释义；把熟悉句型在新场景中的用法记下来。"
+        },
+        {
+          "minutes": 60,
+          "title": "阅读与概括",
+          "instruction": "世宗学堂初级对话与 TOPIK I 官方公开练习中的通知、广告、生活短文。"
+        },
+        {
+          "minutes": 60,
+          "title": "复述与改写",
+          "instruction": "围绕同一情境自编 8–12 轮对话；将现在时改成过去时、肯定改成否定；写 80–120 韩文字的生活记录。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 59,
+      "month": 2,
+      "lessonId": "c12",
+      "topic": "症状、过去与起点",
+      "title": "迁移与输出",
+      "newWords": 42,
+      "newSentences": 50,
+      "cumulativeWords": 1800,
+      "cumulativeSentences": 2200,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "脱稿听说",
+          "instruction": "不看原文复述对话，再换一个角色回答；忘记时先回听完整句子。"
+        },
+        {
+          "minutes": 60,
+          "title": "新词与旧词对比",
+          "instruction": "补齐当天新词目标，同时区分近义词、搭配对象、语体和常见助词。"
+        },
+        {
+          "minutes": 60,
+          "title": "同主题阅读",
+          "instruction": "世宗学堂初级对话与 TOPIK I 官方公开练习中的通知、广告、生活短文。"
+        },
+        {
+          "minutes": 60,
+          "title": "完整表达",
+          "instruction": "围绕同一情境自编 8–12 轮对话；将现在时改成过去时、肯定改成否定；写 80–120 韩文字的生活记录。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 60,
+      "month": 2,
+      "lessonId": "c12",
+      "topic": "症状、过去与起点",
+      "title": "限时测评与复盘",
+      "newWords": 0,
+      "newSentences": 0,
+      "cumulativeWords": 1800,
+      "cumulativeSentences": 2200,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 100,
+          "title": "月末测评",
+          "instruction": "完成一套未做过的 TOPIK I 纸笔公开试题，按官方答案核对听力与阅读，训练目标 160/200；逐题解释错误原因。"
+        },
+        {
+          "minutes": 140,
+          "title": "核对、归因与下阶段调整",
+          "instruction": "逐项记录证据和薄弱点；客观题按官方答案核对，作文等待按评分标准的反馈。若未达到本月训练目标，先补短板，再调整进度。"
+        }
+      ],
+      "assessment": "完成一套未做过的 TOPIK I 纸笔公开试题，按官方答案核对听力与阅读，训练目标 160/200；逐题解释错误原因。"
+    },
+    {
+      "day": 61,
+      "month": 3,
+      "lessonId": "c13",
+      "topic": "经历叙述与不规则变化",
+      "title": "听懂与拆解",
+      "newWords": 50,
+      "newSentences": 66,
+      "cumulativeWords": 1850,
+      "cumulativeSentences": 2266,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 45,
+          "title": "听原音",
+          "instruction": "完整听本关，再逐句重听；先判断谁对谁说、想表达什么。"
+        },
+        {
+          "minutes": 90,
+          "title": "词句理解",
+          "instruction": "逐个点开句子拆解，辨认原形、助词、时态与语尾；结合词典记录新词的本句义。"
+        },
+        {
+          "minutes": 45,
+          "title": "同主题输入",
+          "instruction": "世宗学堂中级同主题对话及 TOPIK II 短篇阅读；先标出主句，再找修饰语与连接词。"
+        },
+        {
+          "minutes": 60,
+          "title": "换角色回应",
+          "instruction": "把对话改写为 150–250 韩文字的叙述；每次用 3 种已学连接语尾；开始练习 TOPIK II 写作填空与图表说明。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 62,
+      "month": 3,
+      "lessonId": "c13",
+      "topic": "经历叙述与不规则变化",
+      "title": "模仿与词形",
+      "newWords": 50,
+      "newSentences": 67,
+      "cumulativeWords": 1900,
+      "cumulativeSentences": 2333,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "跟读",
+          "instruction": "以 SunHi 完整句音频为准，分短语跟读，再恢复正常速度；重点模仿停顿、收音与连读。"
+        },
+        {
+          "minutes": 80,
+          "title": "词汇与搭配",
+          "instruction": "从同主题材料补充新词；每个词连同一个自然句子学习，不用只背孤立中文义。"
+        },
+        {
+          "minutes": 50,
+          "title": "句式变化",
+          "instruction": "沿用本关语法，变化人称、时间与肯否；对照来源核对变化是否自然。"
+        },
+        {
+          "minutes": 50,
+          "title": "口头与书面回应",
+          "instruction": "把对话改写为 150–250 韩文字的叙述；每次用 3 种已学连接语尾；开始练习 TOPIK II 写作填空与图表说明。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 63,
+      "month": 3,
+      "lessonId": "c13",
+      "topic": "经历叙述与不规则变化",
+      "title": "精听与扩展",
+      "newWords": 50,
+      "newSentences": 67,
+      "cumulativeWords": 1950,
+      "cumulativeSentences": 2400,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 40,
+          "title": "短句听写",
+          "instruction": "隐藏中文和拆解，听写本关；逐句核对助词、收音和词形。"
+        },
+        {
+          "minutes": 80,
+          "title": "平行对话",
+          "instruction": "学习同主题的新对话，逐句对照释义；把熟悉句型在新场景中的用法记下来。"
+        },
+        {
+          "minutes": 60,
+          "title": "阅读与概括",
+          "instruction": "世宗学堂中级同主题对话及 TOPIK II 短篇阅读；先标出主句，再找修饰语与连接词。"
+        },
+        {
+          "minutes": 60,
+          "title": "复述与改写",
+          "instruction": "把对话改写为 150–250 韩文字的叙述；每次用 3 种已学连接语尾；开始练习 TOPIK II 写作填空与图表说明。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 64,
+      "month": 3,
+      "lessonId": "c13",
+      "topic": "经历叙述与不规则变化",
+      "title": "迁移与输出",
+      "newWords": 50,
+      "newSentences": 66,
+      "cumulativeWords": 2000,
+      "cumulativeSentences": 2466,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "脱稿听说",
+          "instruction": "不看原文复述对话，再换一个角色回答；忘记时先回听完整句子。"
+        },
+        {
+          "minutes": 60,
+          "title": "新词与旧词对比",
+          "instruction": "补齐当天新词目标，同时区分近义词、搭配对象、语体和常见助词。"
+        },
+        {
+          "minutes": 60,
+          "title": "同主题阅读",
+          "instruction": "世宗学堂中级同主题对话及 TOPIK II 短篇阅读；先标出主句，再找修饰语与连接词。"
+        },
+        {
+          "minutes": 60,
+          "title": "完整表达",
+          "instruction": "把对话改写为 150–250 韩文字的叙述；每次用 3 种已学连接语尾；开始练习 TOPIK II 写作填空与图表说明。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 65,
+      "month": 3,
+      "lessonId": "c13",
+      "topic": "经历叙述与不规则变化",
+      "title": "复习与检查",
+      "newWords": 0,
+      "newSentences": 0,
+      "cumulativeWords": 2000,
+      "cumulativeSentences": 2466,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "主动回忆",
+          "instruction": "不看中文回忆本周期词句；抽测隔天、3 天、7 天前学过的内容，记录正确率。"
+        },
+        {
+          "minutes": 60,
+          "title": "听写与回听",
+          "instruction": "隐藏韩文听写本关，再对照原文定位听不出的音节；回听完整句确认。"
+        },
+        {
+          "minutes": 60,
+          "title": "综合输出",
+          "instruction": "把对话改写为 150–250 韩文字的叙述；每次用 3 种已学连接语尾；开始练习 TOPIK II 写作填空与图表说明。"
+        },
+        {
+          "minutes": 60,
+          "title": "纠错与调整",
+          "instruction": "只复习，不增加词句配额。检查译义、助词、时态与衔接；回忆正确率低于 80% 时，把下一周期新内容减半。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 66,
+      "month": 3,
+      "lessonId": "c14",
+      "topic": "计划、愿望与让步",
+      "title": "听懂与拆解",
+      "newWords": 50,
+      "newSentences": 67,
+      "cumulativeWords": 2050,
+      "cumulativeSentences": 2533,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 45,
+          "title": "听原音",
+          "instruction": "完整听本关，再逐句重听；先判断谁对谁说、想表达什么。"
+        },
+        {
+          "minutes": 90,
+          "title": "词句理解",
+          "instruction": "逐个点开句子拆解，辨认原形、助词、时态与语尾；结合词典记录新词的本句义。"
+        },
+        {
+          "minutes": 45,
+          "title": "同主题输入",
+          "instruction": "世宗学堂中级同主题对话及 TOPIK II 短篇阅读；先标出主句，再找修饰语与连接词。"
+        },
+        {
+          "minutes": 60,
+          "title": "换角色回应",
+          "instruction": "把对话改写为 150–250 韩文字的叙述；每次用 3 种已学连接语尾；开始练习 TOPIK II 写作填空与图表说明。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 67,
+      "month": 3,
+      "lessonId": "c14",
+      "topic": "计划、愿望与让步",
+      "title": "模仿与词形",
+      "newWords": 50,
+      "newSentences": 67,
+      "cumulativeWords": 2100,
+      "cumulativeSentences": 2600,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "跟读",
+          "instruction": "以 SunHi 完整句音频为准，分短语跟读，再恢复正常速度；重点模仿停顿、收音与连读。"
+        },
+        {
+          "minutes": 80,
+          "title": "词汇与搭配",
+          "instruction": "从同主题材料补充新词；每个词连同一个自然句子学习，不用只背孤立中文义。"
+        },
+        {
+          "minutes": 50,
+          "title": "句式变化",
+          "instruction": "沿用本关语法，变化人称、时间与肯否；对照来源核对变化是否自然。"
+        },
+        {
+          "minutes": 50,
+          "title": "口头与书面回应",
+          "instruction": "把对话改写为 150–250 韩文字的叙述；每次用 3 种已学连接语尾；开始练习 TOPIK II 写作填空与图表说明。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 68,
+      "month": 3,
+      "lessonId": "c14",
+      "topic": "计划、愿望与让步",
+      "title": "精听与扩展",
+      "newWords": 50,
+      "newSentences": 66,
+      "cumulativeWords": 2150,
+      "cumulativeSentences": 2666,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 40,
+          "title": "短句听写",
+          "instruction": "隐藏中文和拆解，听写本关；逐句核对助词、收音和词形。"
+        },
+        {
+          "minutes": 80,
+          "title": "平行对话",
+          "instruction": "学习同主题的新对话，逐句对照释义；把熟悉句型在新场景中的用法记下来。"
+        },
+        {
+          "minutes": 60,
+          "title": "阅读与概括",
+          "instruction": "世宗学堂中级同主题对话及 TOPIK II 短篇阅读；先标出主句，再找修饰语与连接词。"
+        },
+        {
+          "minutes": 60,
+          "title": "复述与改写",
+          "instruction": "把对话改写为 150–250 韩文字的叙述；每次用 3 种已学连接语尾；开始练习 TOPIK II 写作填空与图表说明。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 69,
+      "month": 3,
+      "lessonId": "c14",
+      "topic": "计划、愿望与让步",
+      "title": "迁移与输出",
+      "newWords": 50,
+      "newSentences": 67,
+      "cumulativeWords": 2200,
+      "cumulativeSentences": 2733,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "脱稿听说",
+          "instruction": "不看原文复述对话，再换一个角色回答；忘记时先回听完整句子。"
+        },
+        {
+          "minutes": 60,
+          "title": "新词与旧词对比",
+          "instruction": "补齐当天新词目标，同时区分近义词、搭配对象、语体和常见助词。"
+        },
+        {
+          "minutes": 60,
+          "title": "同主题阅读",
+          "instruction": "世宗学堂中级同主题对话及 TOPIK II 短篇阅读；先标出主句，再找修饰语与连接词。"
+        },
+        {
+          "minutes": 60,
+          "title": "完整表达",
+          "instruction": "把对话改写为 150–250 韩文字的叙述；每次用 3 种已学连接语尾；开始练习 TOPIK II 写作填空与图表说明。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 70,
+      "month": 3,
+      "lessonId": "c14",
+      "topic": "计划、愿望与让步",
+      "title": "复习与检查",
+      "newWords": 0,
+      "newSentences": 0,
+      "cumulativeWords": 2200,
+      "cumulativeSentences": 2733,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "主动回忆",
+          "instruction": "不看中文回忆本周期词句；抽测隔天、3 天、7 天前学过的内容，记录正确率。"
+        },
+        {
+          "minutes": 60,
+          "title": "听写与回听",
+          "instruction": "隐藏韩文听写本关，再对照原文定位听不出的音节；回听完整句确认。"
+        },
+        {
+          "minutes": 60,
+          "title": "综合输出",
+          "instruction": "把对话改写为 150–250 韩文字的叙述；每次用 3 种已学连接语尾；开始练习 TOPIK II 写作填空与图表说明。"
+        },
+        {
+          "minutes": 60,
+          "title": "纠错与调整",
+          "instruction": "只复习，不增加词句配额。检查译义、助词、时态与衔接；回忆正确率低于 80% 时，把下一周期新内容减半。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 71,
+      "month": 3,
+      "lessonId": "c15",
+      "topic": "兴趣、选择与经历句型",
+      "title": "听懂与拆解",
+      "newWords": 50,
+      "newSentences": 67,
+      "cumulativeWords": 2250,
+      "cumulativeSentences": 2800,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 45,
+          "title": "听原音",
+          "instruction": "完整听本关，再逐句重听；先判断谁对谁说、想表达什么。"
+        },
+        {
+          "minutes": 90,
+          "title": "词句理解",
+          "instruction": "逐个点开句子拆解，辨认原形、助词、时态与语尾；结合词典记录新词的本句义。"
+        },
+        {
+          "minutes": 45,
+          "title": "同主题输入",
+          "instruction": "世宗学堂中级同主题对话及 TOPIK II 短篇阅读；先标出主句，再找修饰语与连接词。"
+        },
+        {
+          "minutes": 60,
+          "title": "换角色回应",
+          "instruction": "把对话改写为 150–250 韩文字的叙述；每次用 3 种已学连接语尾；开始练习 TOPIK II 写作填空与图表说明。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 72,
+      "month": 3,
+      "lessonId": "c15",
+      "topic": "兴趣、选择与经历句型",
+      "title": "模仿与词形",
+      "newWords": 50,
+      "newSentences": 66,
+      "cumulativeWords": 2300,
+      "cumulativeSentences": 2866,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "跟读",
+          "instruction": "以 SunHi 完整句音频为准，分短语跟读，再恢复正常速度；重点模仿停顿、收音与连读。"
+        },
+        {
+          "minutes": 80,
+          "title": "词汇与搭配",
+          "instruction": "从同主题材料补充新词；每个词连同一个自然句子学习，不用只背孤立中文义。"
+        },
+        {
+          "minutes": 50,
+          "title": "句式变化",
+          "instruction": "沿用本关语法，变化人称、时间与肯否；对照来源核对变化是否自然。"
+        },
+        {
+          "minutes": 50,
+          "title": "口头与书面回应",
+          "instruction": "把对话改写为 150–250 韩文字的叙述；每次用 3 种已学连接语尾；开始练习 TOPIK II 写作填空与图表说明。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 73,
+      "month": 3,
+      "lessonId": "c15",
+      "topic": "兴趣、选择与经历句型",
+      "title": "精听与扩展",
+      "newWords": 50,
+      "newSentences": 67,
+      "cumulativeWords": 2350,
+      "cumulativeSentences": 2933,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 40,
+          "title": "短句听写",
+          "instruction": "隐藏中文和拆解，听写本关；逐句核对助词、收音和词形。"
+        },
+        {
+          "minutes": 80,
+          "title": "平行对话",
+          "instruction": "学习同主题的新对话，逐句对照释义；把熟悉句型在新场景中的用法记下来。"
+        },
+        {
+          "minutes": 60,
+          "title": "阅读与概括",
+          "instruction": "世宗学堂中级同主题对话及 TOPIK II 短篇阅读；先标出主句，再找修饰语与连接词。"
+        },
+        {
+          "minutes": 60,
+          "title": "复述与改写",
+          "instruction": "把对话改写为 150–250 韩文字的叙述；每次用 3 种已学连接语尾；开始练习 TOPIK II 写作填空与图表说明。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 74,
+      "month": 3,
+      "lessonId": "c15",
+      "topic": "兴趣、选择与经历句型",
+      "title": "迁移与输出",
+      "newWords": 50,
+      "newSentences": 67,
+      "cumulativeWords": 2400,
+      "cumulativeSentences": 3000,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "脱稿听说",
+          "instruction": "不看原文复述对话，再换一个角色回答；忘记时先回听完整句子。"
+        },
+        {
+          "minutes": 60,
+          "title": "新词与旧词对比",
+          "instruction": "补齐当天新词目标，同时区分近义词、搭配对象、语体和常见助词。"
+        },
+        {
+          "minutes": 60,
+          "title": "同主题阅读",
+          "instruction": "世宗学堂中级同主题对话及 TOPIK II 短篇阅读；先标出主句，再找修饰语与连接词。"
+        },
+        {
+          "minutes": 60,
+          "title": "完整表达",
+          "instruction": "把对话改写为 150–250 韩文字的叙述；每次用 3 种已学连接语尾；开始练习 TOPIK II 写作填空与图表说明。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 75,
+      "month": 3,
+      "lessonId": "c15",
+      "topic": "兴趣、选择与经历句型",
+      "title": "复习与检查",
+      "newWords": 0,
+      "newSentences": 0,
+      "cumulativeWords": 2400,
+      "cumulativeSentences": 3000,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "主动回忆",
+          "instruction": "不看中文回忆本周期词句；抽测隔天、3 天、7 天前学过的内容，记录正确率。"
+        },
+        {
+          "minutes": 60,
+          "title": "听写与回听",
+          "instruction": "隐藏韩文听写本关，再对照原文定位听不出的音节；回听完整句确认。"
+        },
+        {
+          "minutes": 60,
+          "title": "综合输出",
+          "instruction": "把对话改写为 150–250 韩文字的叙述；每次用 3 种已学连接语尾；开始练习 TOPIK II 写作填空与图表说明。"
+        },
+        {
+          "minutes": 60,
+          "title": "纠错与调整",
+          "instruction": "只复习，不增加词句配额。检查译义、助词、时态与衔接；回忆正确率低于 80% 时，把下一周期新内容减半。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 76,
+      "month": 3,
+      "lessonId": "c16",
+      "topic": "邀请、推测与理由",
+      "title": "听懂与拆解",
+      "newWords": 50,
+      "newSentences": 66,
+      "cumulativeWords": 2450,
+      "cumulativeSentences": 3066,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 45,
+          "title": "听原音",
+          "instruction": "完整听本关，再逐句重听；先判断谁对谁说、想表达什么。"
+        },
+        {
+          "minutes": 90,
+          "title": "词句理解",
+          "instruction": "逐个点开句子拆解，辨认原形、助词、时态与语尾；结合词典记录新词的本句义。"
+        },
+        {
+          "minutes": 45,
+          "title": "同主题输入",
+          "instruction": "世宗学堂中级同主题对话及 TOPIK II 短篇阅读；先标出主句，再找修饰语与连接词。"
+        },
+        {
+          "minutes": 60,
+          "title": "换角色回应",
+          "instruction": "把对话改写为 150–250 韩文字的叙述；每次用 3 种已学连接语尾；开始练习 TOPIK II 写作填空与图表说明。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 77,
+      "month": 3,
+      "lessonId": "c16",
+      "topic": "邀请、推测与理由",
+      "title": "模仿与词形",
+      "newWords": 50,
+      "newSentences": 67,
+      "cumulativeWords": 2500,
+      "cumulativeSentences": 3133,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "跟读",
+          "instruction": "以 SunHi 完整句音频为准，分短语跟读，再恢复正常速度；重点模仿停顿、收音与连读。"
+        },
+        {
+          "minutes": 80,
+          "title": "词汇与搭配",
+          "instruction": "从同主题材料补充新词；每个词连同一个自然句子学习，不用只背孤立中文义。"
+        },
+        {
+          "minutes": 50,
+          "title": "句式变化",
+          "instruction": "沿用本关语法，变化人称、时间与肯否；对照来源核对变化是否自然。"
+        },
+        {
+          "minutes": 50,
+          "title": "口头与书面回应",
+          "instruction": "把对话改写为 150–250 韩文字的叙述；每次用 3 种已学连接语尾；开始练习 TOPIK II 写作填空与图表说明。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 78,
+      "month": 3,
+      "lessonId": "c16",
+      "topic": "邀请、推测与理由",
+      "title": "精听与扩展",
+      "newWords": 50,
+      "newSentences": 67,
+      "cumulativeWords": 2550,
+      "cumulativeSentences": 3200,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 40,
+          "title": "短句听写",
+          "instruction": "隐藏中文和拆解，听写本关；逐句核对助词、收音和词形。"
+        },
+        {
+          "minutes": 80,
+          "title": "平行对话",
+          "instruction": "学习同主题的新对话，逐句对照释义；把熟悉句型在新场景中的用法记下来。"
+        },
+        {
+          "minutes": 60,
+          "title": "阅读与概括",
+          "instruction": "世宗学堂中级同主题对话及 TOPIK II 短篇阅读；先标出主句，再找修饰语与连接词。"
+        },
+        {
+          "minutes": 60,
+          "title": "复述与改写",
+          "instruction": "把对话改写为 150–250 韩文字的叙述；每次用 3 种已学连接语尾；开始练习 TOPIK II 写作填空与图表说明。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 79,
+      "month": 3,
+      "lessonId": "c16",
+      "topic": "邀请、推测与理由",
+      "title": "迁移与输出",
+      "newWords": 50,
+      "newSentences": 66,
+      "cumulativeWords": 2600,
+      "cumulativeSentences": 3266,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "脱稿听说",
+          "instruction": "不看原文复述对话，再换一个角色回答；忘记时先回听完整句子。"
+        },
+        {
+          "minutes": 60,
+          "title": "新词与旧词对比",
+          "instruction": "补齐当天新词目标，同时区分近义词、搭配对象、语体和常见助词。"
+        },
+        {
+          "minutes": 60,
+          "title": "同主题阅读",
+          "instruction": "世宗学堂中级同主题对话及 TOPIK II 短篇阅读；先标出主句，再找修饰语与连接词。"
+        },
+        {
+          "minutes": 60,
+          "title": "完整表达",
+          "instruction": "把对话改写为 150–250 韩文字的叙述；每次用 3 种已学连接语尾；开始练习 TOPIK II 写作填空与图表说明。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 80,
+      "month": 3,
+      "lessonId": "c16",
+      "topic": "邀请、推测与理由",
+      "title": "复习与检查",
+      "newWords": 0,
+      "newSentences": 0,
+      "cumulativeWords": 2600,
+      "cumulativeSentences": 3266,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "主动回忆",
+          "instruction": "不看中文回忆本周期词句；抽测隔天、3 天、7 天前学过的内容，记录正确率。"
+        },
+        {
+          "minutes": 60,
+          "title": "听写与回听",
+          "instruction": "隐藏韩文听写本关，再对照原文定位听不出的音节；回听完整句确认。"
+        },
+        {
+          "minutes": 60,
+          "title": "综合输出",
+          "instruction": "把对话改写为 150–250 韩文字的叙述；每次用 3 种已学连接语尾；开始练习 TOPIK II 写作填空与图表说明。"
+        },
+        {
+          "minutes": 60,
+          "title": "纠错与调整",
+          "instruction": "只复习，不增加词句配额。检查译义、助词、时态与衔接；回忆正确率低于 80% 时，把下一周期新内容减半。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 81,
+      "month": 3,
+      "lessonId": "c17",
+      "topic": "比较、建议与名词化",
+      "title": "听懂与拆解",
+      "newWords": 50,
+      "newSentences": 67,
+      "cumulativeWords": 2650,
+      "cumulativeSentences": 3333,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 45,
+          "title": "听原音",
+          "instruction": "完整听本关，再逐句重听；先判断谁对谁说、想表达什么。"
+        },
+        {
+          "minutes": 90,
+          "title": "词句理解",
+          "instruction": "逐个点开句子拆解，辨认原形、助词、时态与语尾；结合词典记录新词的本句义。"
+        },
+        {
+          "minutes": 45,
+          "title": "同主题输入",
+          "instruction": "世宗学堂中级同主题对话及 TOPIK II 短篇阅读；先标出主句，再找修饰语与连接词。"
+        },
+        {
+          "minutes": 60,
+          "title": "换角色回应",
+          "instruction": "把对话改写为 150–250 韩文字的叙述；每次用 3 种已学连接语尾；开始练习 TOPIK II 写作填空与图表说明。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 82,
+      "month": 3,
+      "lessonId": "c17",
+      "topic": "比较、建议与名词化",
+      "title": "模仿与词形",
+      "newWords": 50,
+      "newSentences": 67,
+      "cumulativeWords": 2700,
+      "cumulativeSentences": 3400,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "跟读",
+          "instruction": "以 SunHi 完整句音频为准，分短语跟读，再恢复正常速度；重点模仿停顿、收音与连读。"
+        },
+        {
+          "minutes": 80,
+          "title": "词汇与搭配",
+          "instruction": "从同主题材料补充新词；每个词连同一个自然句子学习，不用只背孤立中文义。"
+        },
+        {
+          "minutes": 50,
+          "title": "句式变化",
+          "instruction": "沿用本关语法，变化人称、时间与肯否；对照来源核对变化是否自然。"
+        },
+        {
+          "minutes": 50,
+          "title": "口头与书面回应",
+          "instruction": "把对话改写为 150–250 韩文字的叙述；每次用 3 种已学连接语尾；开始练习 TOPIK II 写作填空与图表说明。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 83,
+      "month": 3,
+      "lessonId": "c17",
+      "topic": "比较、建议与名词化",
+      "title": "精听与扩展",
+      "newWords": 50,
+      "newSentences": 66,
+      "cumulativeWords": 2750,
+      "cumulativeSentences": 3466,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 40,
+          "title": "短句听写",
+          "instruction": "隐藏中文和拆解，听写本关；逐句核对助词、收音和词形。"
+        },
+        {
+          "minutes": 80,
+          "title": "平行对话",
+          "instruction": "学习同主题的新对话，逐句对照释义；把熟悉句型在新场景中的用法记下来。"
+        },
+        {
+          "minutes": 60,
+          "title": "阅读与概括",
+          "instruction": "世宗学堂中级同主题对话及 TOPIK II 短篇阅读；先标出主句，再找修饰语与连接词。"
+        },
+        {
+          "minutes": 60,
+          "title": "复述与改写",
+          "instruction": "把对话改写为 150–250 韩文字的叙述；每次用 3 种已学连接语尾；开始练习 TOPIK II 写作填空与图表说明。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 84,
+      "month": 3,
+      "lessonId": "c17",
+      "topic": "比较、建议与名词化",
+      "title": "迁移与输出",
+      "newWords": 50,
+      "newSentences": 67,
+      "cumulativeWords": 2800,
+      "cumulativeSentences": 3533,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "脱稿听说",
+          "instruction": "不看原文复述对话，再换一个角色回答；忘记时先回听完整句子。"
+        },
+        {
+          "minutes": 60,
+          "title": "新词与旧词对比",
+          "instruction": "补齐当天新词目标，同时区分近义词、搭配对象、语体和常见助词。"
+        },
+        {
+          "minutes": 60,
+          "title": "同主题阅读",
+          "instruction": "世宗学堂中级同主题对话及 TOPIK II 短篇阅读；先标出主句，再找修饰语与连接词。"
+        },
+        {
+          "minutes": 60,
+          "title": "完整表达",
+          "instruction": "把对话改写为 150–250 韩文字的叙述；每次用 3 种已学连接语尾；开始练习 TOPIK II 写作填空与图表说明。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 85,
+      "month": 3,
+      "lessonId": "c17",
+      "topic": "比较、建议与名词化",
+      "title": "复习与检查",
+      "newWords": 0,
+      "newSentences": 0,
+      "cumulativeWords": 2800,
+      "cumulativeSentences": 3533,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "主动回忆",
+          "instruction": "不看中文回忆本周期词句；抽测隔天、3 天、7 天前学过的内容，记录正确率。"
+        },
+        {
+          "minutes": 60,
+          "title": "听写与回听",
+          "instruction": "隐藏韩文听写本关，再对照原文定位听不出的音节；回听完整句确认。"
+        },
+        {
+          "minutes": 60,
+          "title": "综合输出",
+          "instruction": "把对话改写为 150–250 韩文字的叙述；每次用 3 种已学连接语尾；开始练习 TOPIK II 写作填空与图表说明。"
+        },
+        {
+          "minutes": 60,
+          "title": "纠错与调整",
+          "instruction": "只复习，不增加词句配额。检查译义、助词、时态与衔接；回忆正确率低于 80% 时，把下一周期新内容减半。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 86,
+      "month": 3,
+      "lessonId": "c18",
+      "topic": "问题处理、被动与先后",
+      "title": "听懂与拆解",
+      "newWords": 50,
+      "newSentences": 67,
+      "cumulativeWords": 2850,
+      "cumulativeSentences": 3600,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 45,
+          "title": "听原音",
+          "instruction": "完整听本关，再逐句重听；先判断谁对谁说、想表达什么。"
+        },
+        {
+          "minutes": 90,
+          "title": "词句理解",
+          "instruction": "逐个点开句子拆解，辨认原形、助词、时态与语尾；结合词典记录新词的本句义。"
+        },
+        {
+          "minutes": 45,
+          "title": "同主题输入",
+          "instruction": "世宗学堂中级同主题对话及 TOPIK II 短篇阅读；先标出主句，再找修饰语与连接词。"
+        },
+        {
+          "minutes": 60,
+          "title": "换角色回应",
+          "instruction": "把对话改写为 150–250 韩文字的叙述；每次用 3 种已学连接语尾；开始练习 TOPIK II 写作填空与图表说明。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 87,
+      "month": 3,
+      "lessonId": "c18",
+      "topic": "问题处理、被动与先后",
+      "title": "模仿与词形",
+      "newWords": 50,
+      "newSentences": 66,
+      "cumulativeWords": 2900,
+      "cumulativeSentences": 3666,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "跟读",
+          "instruction": "以 SunHi 完整句音频为准，分短语跟读，再恢复正常速度；重点模仿停顿、收音与连读。"
+        },
+        {
+          "minutes": 80,
+          "title": "词汇与搭配",
+          "instruction": "从同主题材料补充新词；每个词连同一个自然句子学习，不用只背孤立中文义。"
+        },
+        {
+          "minutes": 50,
+          "title": "句式变化",
+          "instruction": "沿用本关语法，变化人称、时间与肯否；对照来源核对变化是否自然。"
+        },
+        {
+          "minutes": 50,
+          "title": "口头与书面回应",
+          "instruction": "把对话改写为 150–250 韩文字的叙述；每次用 3 种已学连接语尾；开始练习 TOPIK II 写作填空与图表说明。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 88,
+      "month": 3,
+      "lessonId": "c18",
+      "topic": "问题处理、被动与先后",
+      "title": "精听与扩展",
+      "newWords": 50,
+      "newSentences": 67,
+      "cumulativeWords": 2950,
+      "cumulativeSentences": 3733,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 40,
+          "title": "短句听写",
+          "instruction": "隐藏中文和拆解，听写本关；逐句核对助词、收音和词形。"
+        },
+        {
+          "minutes": 80,
+          "title": "平行对话",
+          "instruction": "学习同主题的新对话，逐句对照释义；把熟悉句型在新场景中的用法记下来。"
+        },
+        {
+          "minutes": 60,
+          "title": "阅读与概括",
+          "instruction": "世宗学堂中级同主题对话及 TOPIK II 短篇阅读；先标出主句，再找修饰语与连接词。"
+        },
+        {
+          "minutes": 60,
+          "title": "复述与改写",
+          "instruction": "把对话改写为 150–250 韩文字的叙述；每次用 3 种已学连接语尾；开始练习 TOPIK II 写作填空与图表说明。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 89,
+      "month": 3,
+      "lessonId": "c18",
+      "topic": "问题处理、被动与先后",
+      "title": "迁移与输出",
+      "newWords": 50,
+      "newSentences": 67,
+      "cumulativeWords": 3000,
+      "cumulativeSentences": 3800,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "脱稿听说",
+          "instruction": "不看原文复述对话，再换一个角色回答；忘记时先回听完整句子。"
+        },
+        {
+          "minutes": 60,
+          "title": "新词与旧词对比",
+          "instruction": "补齐当天新词目标，同时区分近义词、搭配对象、语体和常见助词。"
+        },
+        {
+          "minutes": 60,
+          "title": "同主题阅读",
+          "instruction": "世宗学堂中级同主题对话及 TOPIK II 短篇阅读；先标出主句，再找修饰语与连接词。"
+        },
+        {
+          "minutes": 60,
+          "title": "完整表达",
+          "instruction": "把对话改写为 150–250 韩文字的叙述；每次用 3 种已学连接语尾；开始练习 TOPIK II 写作填空与图表说明。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 90,
+      "month": 3,
+      "lessonId": "c18",
+      "topic": "问题处理、被动与先后",
+      "title": "限时测评与复盘",
+      "newWords": 0,
+      "newSentences": 0,
+      "cumulativeWords": 3000,
+      "cumulativeSentences": 3800,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 180,
+          "title": "月末测评",
+          "instruction": "完成 TOPIK II 纸笔公开卷的听力、阅读与写作；训练目标总分 120/300。写作按官方尺度请合格韩语教师反馈，未批改时不声称总分达标。"
+        },
+        {
+          "minutes": 60,
+          "title": "核对、归因与下阶段调整",
+          "instruction": "逐项记录证据和薄弱点；客观题按官方答案核对，作文等待按评分标准的反馈。若未达到本月训练目标，先补短板，再调整进度。"
+        }
+      ],
+      "assessment": "完成 TOPIK II 纸笔公开卷的听力、阅读与写作；训练目标总分 120/300。写作按官方尺度请合格韩语教师反馈，未批改时不声称总分达标。"
+    },
+    {
+      "day": 91,
+      "month": 4,
+      "lessonId": "c19",
+      "topic": "居住、愿望与取舍",
+      "title": "听懂与拆解",
+      "newWords": 50,
+      "newSentences": 58,
+      "cumulativeWords": 3050,
+      "cumulativeSentences": 3858,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 45,
+          "title": "听原音",
+          "instruction": "完整听本关，再逐句重听；先判断谁对谁说、想表达什么。"
+        },
+        {
+          "minutes": 90,
+          "title": "词句理解",
+          "instruction": "逐个点开句子拆解，辨认原形、助词、时态与语尾；结合词典记录新词的本句义。"
+        },
+        {
+          "minutes": 45,
+          "title": "同主题输入",
+          "instruction": "世宗学堂中级材料与 TOPIK II 说明类短文；每篇标出主题句、关键词和指代对象。"
+        },
+        {
+          "minutes": 60,
+          "title": "换角色回应",
+          "instruction": "将对话改成 200–300 韩文字的说明；先写事实，再写原因与建议；每周完整练一篇图表说明。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 92,
+      "month": 4,
+      "lessonId": "c19",
+      "topic": "居住、愿望与取舍",
+      "title": "模仿与词形",
+      "newWords": 50,
+      "newSentences": 58,
+      "cumulativeWords": 3100,
+      "cumulativeSentences": 3916,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "跟读",
+          "instruction": "以 SunHi 完整句音频为准，分短语跟读，再恢复正常速度；重点模仿停顿、收音与连读。"
+        },
+        {
+          "minutes": 80,
+          "title": "词汇与搭配",
+          "instruction": "从同主题材料补充新词；每个词连同一个自然句子学习，不用只背孤立中文义。"
+        },
+        {
+          "minutes": 50,
+          "title": "句式变化",
+          "instruction": "沿用本关语法，变化人称、时间与肯否；对照来源核对变化是否自然。"
+        },
+        {
+          "minutes": 50,
+          "title": "口头与书面回应",
+          "instruction": "将对话改成 200–300 韩文字的说明；先写事实，再写原因与建议；每周完整练一篇图表说明。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 93,
+      "month": 4,
+      "lessonId": "c19",
+      "topic": "居住、愿望与取舍",
+      "title": "精听与扩展",
+      "newWords": 50,
+      "newSentences": 59,
+      "cumulativeWords": 3150,
+      "cumulativeSentences": 3975,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 40,
+          "title": "短句听写",
+          "instruction": "隐藏中文和拆解，听写本关；逐句核对助词、收音和词形。"
+        },
+        {
+          "minutes": 80,
+          "title": "平行对话",
+          "instruction": "学习同主题的新对话，逐句对照释义；把熟悉句型在新场景中的用法记下来。"
+        },
+        {
+          "minutes": 60,
+          "title": "阅读与概括",
+          "instruction": "世宗学堂中级材料与 TOPIK II 说明类短文；每篇标出主题句、关键词和指代对象。"
+        },
+        {
+          "minutes": 60,
+          "title": "复述与改写",
+          "instruction": "将对话改成 200–300 韩文字的说明；先写事实，再写原因与建议；每周完整练一篇图表说明。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 94,
+      "month": 4,
+      "lessonId": "c19",
+      "topic": "居住、愿望与取舍",
+      "title": "迁移与输出",
+      "newWords": 50,
+      "newSentences": 58,
+      "cumulativeWords": 3200,
+      "cumulativeSentences": 4033,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "脱稿听说",
+          "instruction": "不看原文复述对话，再换一个角色回答；忘记时先回听完整句子。"
+        },
+        {
+          "minutes": 60,
+          "title": "新词与旧词对比",
+          "instruction": "补齐当天新词目标，同时区分近义词、搭配对象、语体和常见助词。"
+        },
+        {
+          "minutes": 60,
+          "title": "同主题阅读",
+          "instruction": "世宗学堂中级材料与 TOPIK II 说明类短文；每篇标出主题句、关键词和指代对象。"
+        },
+        {
+          "minutes": 60,
+          "title": "完整表达",
+          "instruction": "将对话改成 200–300 韩文字的说明；先写事实，再写原因与建议；每周完整练一篇图表说明。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 95,
+      "month": 4,
+      "lessonId": "c19",
+      "topic": "居住、愿望与取舍",
+      "title": "复习与检查",
+      "newWords": 0,
+      "newSentences": 0,
+      "cumulativeWords": 3200,
+      "cumulativeSentences": 4033,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "主动回忆",
+          "instruction": "不看中文回忆本周期词句；抽测隔天、3 天、7 天前学过的内容，记录正确率。"
+        },
+        {
+          "minutes": 60,
+          "title": "听写与回听",
+          "instruction": "隐藏韩文听写本关，再对照原文定位听不出的音节；回听完整句确认。"
+        },
+        {
+          "minutes": 60,
+          "title": "综合输出",
+          "instruction": "将对话改成 200–300 韩文字的说明；先写事实，再写原因与建议；每周完整练一篇图表说明。"
+        },
+        {
+          "minutes": 60,
+          "title": "纠错与调整",
+          "instruction": "只复习，不增加词句配额。检查译义、助词、时态与衔接；回忆正确率低于 80% 时，把下一周期新内容减半。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 96,
+      "month": 4,
+      "lessonId": "c20",
+      "topic": "校园讨论与任务分工",
+      "title": "听懂与拆解",
+      "newWords": 50,
+      "newSentences": 58,
+      "cumulativeWords": 3250,
+      "cumulativeSentences": 4091,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 45,
+          "title": "听原音",
+          "instruction": "完整听本关，再逐句重听；先判断谁对谁说、想表达什么。"
+        },
+        {
+          "minutes": 90,
+          "title": "词句理解",
+          "instruction": "逐个点开句子拆解，辨认原形、助词、时态与语尾；结合词典记录新词的本句义。"
+        },
+        {
+          "minutes": 45,
+          "title": "同主题输入",
+          "instruction": "世宗学堂中级材料与 TOPIK II 说明类短文；每篇标出主题句、关键词和指代对象。"
+        },
+        {
+          "minutes": 60,
+          "title": "换角色回应",
+          "instruction": "将对话改成 200–300 韩文字的说明；先写事实，再写原因与建议；每周完整练一篇图表说明。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 97,
+      "month": 4,
+      "lessonId": "c20",
+      "topic": "校园讨论与任务分工",
+      "title": "模仿与词形",
+      "newWords": 50,
+      "newSentences": 59,
+      "cumulativeWords": 3300,
+      "cumulativeSentences": 4150,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "跟读",
+          "instruction": "以 SunHi 完整句音频为准，分短语跟读，再恢复正常速度；重点模仿停顿、收音与连读。"
+        },
+        {
+          "minutes": 80,
+          "title": "词汇与搭配",
+          "instruction": "从同主题材料补充新词；每个词连同一个自然句子学习，不用只背孤立中文义。"
+        },
+        {
+          "minutes": 50,
+          "title": "句式变化",
+          "instruction": "沿用本关语法，变化人称、时间与肯否；对照来源核对变化是否自然。"
+        },
+        {
+          "minutes": 50,
+          "title": "口头与书面回应",
+          "instruction": "将对话改成 200–300 韩文字的说明；先写事实，再写原因与建议；每周完整练一篇图表说明。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 98,
+      "month": 4,
+      "lessonId": "c20",
+      "topic": "校园讨论与任务分工",
+      "title": "精听与扩展",
+      "newWords": 50,
+      "newSentences": 58,
+      "cumulativeWords": 3350,
+      "cumulativeSentences": 4208,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 40,
+          "title": "短句听写",
+          "instruction": "隐藏中文和拆解，听写本关；逐句核对助词、收音和词形。"
+        },
+        {
+          "minutes": 80,
+          "title": "平行对话",
+          "instruction": "学习同主题的新对话，逐句对照释义；把熟悉句型在新场景中的用法记下来。"
+        },
+        {
+          "minutes": 60,
+          "title": "阅读与概括",
+          "instruction": "世宗学堂中级材料与 TOPIK II 说明类短文；每篇标出主题句、关键词和指代对象。"
+        },
+        {
+          "minutes": 60,
+          "title": "复述与改写",
+          "instruction": "将对话改成 200–300 韩文字的说明；先写事实，再写原因与建议；每周完整练一篇图表说明。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 99,
+      "month": 4,
+      "lessonId": "c20",
+      "topic": "校园讨论与任务分工",
+      "title": "迁移与输出",
+      "newWords": 50,
+      "newSentences": 58,
+      "cumulativeWords": 3400,
+      "cumulativeSentences": 4266,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "脱稿听说",
+          "instruction": "不看原文复述对话，再换一个角色回答；忘记时先回听完整句子。"
+        },
+        {
+          "minutes": 60,
+          "title": "新词与旧词对比",
+          "instruction": "补齐当天新词目标，同时区分近义词、搭配对象、语体和常见助词。"
+        },
+        {
+          "minutes": 60,
+          "title": "同主题阅读",
+          "instruction": "世宗学堂中级材料与 TOPIK II 说明类短文；每篇标出主题句、关键词和指代对象。"
+        },
+        {
+          "minutes": 60,
+          "title": "完整表达",
+          "instruction": "将对话改成 200–300 韩文字的说明；先写事实，再写原因与建议；每周完整练一篇图表说明。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 100,
+      "month": 4,
+      "lessonId": "c20",
+      "topic": "校园讨论与任务分工",
+      "title": "复习与检查",
+      "newWords": 0,
+      "newSentences": 0,
+      "cumulativeWords": 3400,
+      "cumulativeSentences": 4266,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "主动回忆",
+          "instruction": "不看中文回忆本周期词句；抽测隔天、3 天、7 天前学过的内容，记录正确率。"
+        },
+        {
+          "minutes": 60,
+          "title": "听写与回听",
+          "instruction": "隐藏韩文听写本关，再对照原文定位听不出的音节；回听完整句确认。"
+        },
+        {
+          "minutes": 60,
+          "title": "综合输出",
+          "instruction": "将对话改成 200–300 韩文字的说明；先写事实，再写原因与建议；每周完整练一篇图表说明。"
+        },
+        {
+          "minutes": 60,
+          "title": "纠错与调整",
+          "instruction": "只复习，不增加词句配额。检查译义、助词、时态与衔接；回忆正确率低于 80% 时，把下一周期新内容减半。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 101,
+      "month": 4,
+      "lessonId": "c21",
+      "topic": "职场、期限与协商",
+      "title": "听懂与拆解",
+      "newWords": 50,
+      "newSentences": 59,
+      "cumulativeWords": 3450,
+      "cumulativeSentences": 4325,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 45,
+          "title": "听原音",
+          "instruction": "完整听本关，再逐句重听；先判断谁对谁说、想表达什么。"
+        },
+        {
+          "minutes": 90,
+          "title": "词句理解",
+          "instruction": "逐个点开句子拆解，辨认原形、助词、时态与语尾；结合词典记录新词的本句义。"
+        },
+        {
+          "minutes": 45,
+          "title": "同主题输入",
+          "instruction": "世宗学堂中级材料与 TOPIK II 说明类短文；每篇标出主题句、关键词和指代对象。"
+        },
+        {
+          "minutes": 60,
+          "title": "换角色回应",
+          "instruction": "将对话改成 200–300 韩文字的说明；先写事实，再写原因与建议；每周完整练一篇图表说明。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 102,
+      "month": 4,
+      "lessonId": "c21",
+      "topic": "职场、期限与协商",
+      "title": "模仿与词形",
+      "newWords": 50,
+      "newSentences": 58,
+      "cumulativeWords": 3500,
+      "cumulativeSentences": 4383,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "跟读",
+          "instruction": "以 SunHi 完整句音频为准，分短语跟读，再恢复正常速度；重点模仿停顿、收音与连读。"
+        },
+        {
+          "minutes": 80,
+          "title": "词汇与搭配",
+          "instruction": "从同主题材料补充新词；每个词连同一个自然句子学习，不用只背孤立中文义。"
+        },
+        {
+          "minutes": 50,
+          "title": "句式变化",
+          "instruction": "沿用本关语法，变化人称、时间与肯否；对照来源核对变化是否自然。"
+        },
+        {
+          "minutes": 50,
+          "title": "口头与书面回应",
+          "instruction": "将对话改成 200–300 韩文字的说明；先写事实，再写原因与建议；每周完整练一篇图表说明。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 103,
+      "month": 4,
+      "lessonId": "c21",
+      "topic": "职场、期限与协商",
+      "title": "精听与扩展",
+      "newWords": 50,
+      "newSentences": 58,
+      "cumulativeWords": 3550,
+      "cumulativeSentences": 4441,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 40,
+          "title": "短句听写",
+          "instruction": "隐藏中文和拆解，听写本关；逐句核对助词、收音和词形。"
+        },
+        {
+          "minutes": 80,
+          "title": "平行对话",
+          "instruction": "学习同主题的新对话，逐句对照释义；把熟悉句型在新场景中的用法记下来。"
+        },
+        {
+          "minutes": 60,
+          "title": "阅读与概括",
+          "instruction": "世宗学堂中级材料与 TOPIK II 说明类短文；每篇标出主题句、关键词和指代对象。"
+        },
+        {
+          "minutes": 60,
+          "title": "复述与改写",
+          "instruction": "将对话改成 200–300 韩文字的说明；先写事实，再写原因与建议；每周完整练一篇图表说明。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 104,
+      "month": 4,
+      "lessonId": "c21",
+      "topic": "职场、期限与协商",
+      "title": "迁移与输出",
+      "newWords": 50,
+      "newSentences": 59,
+      "cumulativeWords": 3600,
+      "cumulativeSentences": 4500,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "脱稿听说",
+          "instruction": "不看原文复述对话，再换一个角色回答；忘记时先回听完整句子。"
+        },
+        {
+          "minutes": 60,
+          "title": "新词与旧词对比",
+          "instruction": "补齐当天新词目标，同时区分近义词、搭配对象、语体和常见助词。"
+        },
+        {
+          "minutes": 60,
+          "title": "同主题阅读",
+          "instruction": "世宗学堂中级材料与 TOPIK II 说明类短文；每篇标出主题句、关键词和指代对象。"
+        },
+        {
+          "minutes": 60,
+          "title": "完整表达",
+          "instruction": "将对话改成 200–300 韩文字的说明；先写事实，再写原因与建议；每周完整练一篇图表说明。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 105,
+      "month": 4,
+      "lessonId": "c21",
+      "topic": "职场、期限与协商",
+      "title": "复习与检查",
+      "newWords": 0,
+      "newSentences": 0,
+      "cumulativeWords": 3600,
+      "cumulativeSentences": 4500,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "主动回忆",
+          "instruction": "不看中文回忆本周期词句；抽测隔天、3 天、7 天前学过的内容，记录正确率。"
+        },
+        {
+          "minutes": 60,
+          "title": "听写与回听",
+          "instruction": "隐藏韩文听写本关，再对照原文定位听不出的音节；回听完整句确认。"
+        },
+        {
+          "minutes": 60,
+          "title": "综合输出",
+          "instruction": "将对话改成 200–300 韩文字的说明；先写事实，再写原因与建议；每周完整练一篇图表说明。"
+        },
+        {
+          "minutes": 60,
+          "title": "纠错与调整",
+          "instruction": "只复习，不增加词句配额。检查译义、助词、时态与衔接；回忆正确率低于 80% 时，把下一周期新内容减半。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 106,
+      "month": 4,
+      "lessonId": "c22",
+      "topic": "邮寄、意图与是否",
+      "title": "听懂与拆解",
+      "newWords": 50,
+      "newSentences": 58,
+      "cumulativeWords": 3650,
+      "cumulativeSentences": 4558,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 45,
+          "title": "听原音",
+          "instruction": "完整听本关，再逐句重听；先判断谁对谁说、想表达什么。"
+        },
+        {
+          "minutes": 90,
+          "title": "词句理解",
+          "instruction": "逐个点开句子拆解，辨认原形、助词、时态与语尾；结合词典记录新词的本句义。"
+        },
+        {
+          "minutes": 45,
+          "title": "同主题输入",
+          "instruction": "世宗学堂中级材料与 TOPIK II 说明类短文；每篇标出主题句、关键词和指代对象。"
+        },
+        {
+          "minutes": 60,
+          "title": "换角色回应",
+          "instruction": "将对话改成 200–300 韩文字的说明；先写事实，再写原因与建议；每周完整练一篇图表说明。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 107,
+      "month": 4,
+      "lessonId": "c22",
+      "topic": "邮寄、意图与是否",
+      "title": "模仿与词形",
+      "newWords": 50,
+      "newSentences": 58,
+      "cumulativeWords": 3700,
+      "cumulativeSentences": 4616,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "跟读",
+          "instruction": "以 SunHi 完整句音频为准，分短语跟读，再恢复正常速度；重点模仿停顿、收音与连读。"
+        },
+        {
+          "minutes": 80,
+          "title": "词汇与搭配",
+          "instruction": "从同主题材料补充新词；每个词连同一个自然句子学习，不用只背孤立中文义。"
+        },
+        {
+          "minutes": 50,
+          "title": "句式变化",
+          "instruction": "沿用本关语法，变化人称、时间与肯否；对照来源核对变化是否自然。"
+        },
+        {
+          "minutes": 50,
+          "title": "口头与书面回应",
+          "instruction": "将对话改成 200–300 韩文字的说明；先写事实，再写原因与建议；每周完整练一篇图表说明。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 108,
+      "month": 4,
+      "lessonId": "c22",
+      "topic": "邮寄、意图与是否",
+      "title": "精听与扩展",
+      "newWords": 50,
+      "newSentences": 59,
+      "cumulativeWords": 3750,
+      "cumulativeSentences": 4675,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 40,
+          "title": "短句听写",
+          "instruction": "隐藏中文和拆解，听写本关；逐句核对助词、收音和词形。"
+        },
+        {
+          "minutes": 80,
+          "title": "平行对话",
+          "instruction": "学习同主题的新对话，逐句对照释义；把熟悉句型在新场景中的用法记下来。"
+        },
+        {
+          "minutes": 60,
+          "title": "阅读与概括",
+          "instruction": "世宗学堂中级材料与 TOPIK II 说明类短文；每篇标出主题句、关键词和指代对象。"
+        },
+        {
+          "minutes": 60,
+          "title": "复述与改写",
+          "instruction": "将对话改成 200–300 韩文字的说明；先写事实，再写原因与建议；每周完整练一篇图表说明。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 109,
+      "month": 4,
+      "lessonId": "c22",
+      "topic": "邮寄、意图与是否",
+      "title": "迁移与输出",
+      "newWords": 50,
+      "newSentences": 58,
+      "cumulativeWords": 3800,
+      "cumulativeSentences": 4733,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "脱稿听说",
+          "instruction": "不看原文复述对话，再换一个角色回答；忘记时先回听完整句子。"
+        },
+        {
+          "minutes": 60,
+          "title": "新词与旧词对比",
+          "instruction": "补齐当天新词目标，同时区分近义词、搭配对象、语体和常见助词。"
+        },
+        {
+          "minutes": 60,
+          "title": "同主题阅读",
+          "instruction": "世宗学堂中级材料与 TOPIK II 说明类短文；每篇标出主题句、关键词和指代对象。"
+        },
+        {
+          "minutes": 60,
+          "title": "完整表达",
+          "instruction": "将对话改成 200–300 韩文字的说明；先写事实，再写原因与建议；每周完整练一篇图表说明。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 110,
+      "month": 4,
+      "lessonId": "c22",
+      "topic": "邮寄、意图与是否",
+      "title": "复习与检查",
+      "newWords": 0,
+      "newSentences": 0,
+      "cumulativeWords": 3800,
+      "cumulativeSentences": 4733,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "主动回忆",
+          "instruction": "不看中文回忆本周期词句；抽测隔天、3 天、7 天前学过的内容，记录正确率。"
+        },
+        {
+          "minutes": 60,
+          "title": "听写与回听",
+          "instruction": "隐藏韩文听写本关，再对照原文定位听不出的音节；回听完整句确认。"
+        },
+        {
+          "minutes": 60,
+          "title": "综合输出",
+          "instruction": "将对话改成 200–300 韩文字的说明；先写事实，再写原因与建议；每周完整练一篇图表说明。"
+        },
+        {
+          "minutes": 60,
+          "title": "纠错与调整",
+          "instruction": "只复习，不增加词句配额。检查译义、助词、时态与衔接；回忆正确率低于 80% 时，把下一周期新内容减半。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 111,
+      "month": 4,
+      "lessonId": "c23",
+      "topic": "新闻、间接疑问与推测",
+      "title": "听懂与拆解",
+      "newWords": 50,
+      "newSentences": 58,
+      "cumulativeWords": 3850,
+      "cumulativeSentences": 4791,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 45,
+          "title": "听原音",
+          "instruction": "完整听本关，再逐句重听；先判断谁对谁说、想表达什么。"
+        },
+        {
+          "minutes": 90,
+          "title": "词句理解",
+          "instruction": "逐个点开句子拆解，辨认原形、助词、时态与语尾；结合词典记录新词的本句义。"
+        },
+        {
+          "minutes": 45,
+          "title": "同主题输入",
+          "instruction": "世宗学堂中级材料与 TOPIK II 说明类短文；每篇标出主题句、关键词和指代对象。"
+        },
+        {
+          "minutes": 60,
+          "title": "换角色回应",
+          "instruction": "将对话改成 200–300 韩文字的说明；先写事实，再写原因与建议；每周完整练一篇图表说明。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 112,
+      "month": 4,
+      "lessonId": "c23",
+      "topic": "新闻、间接疑问与推测",
+      "title": "模仿与词形",
+      "newWords": 50,
+      "newSentences": 59,
+      "cumulativeWords": 3900,
+      "cumulativeSentences": 4850,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "跟读",
+          "instruction": "以 SunHi 完整句音频为准，分短语跟读，再恢复正常速度；重点模仿停顿、收音与连读。"
+        },
+        {
+          "minutes": 80,
+          "title": "词汇与搭配",
+          "instruction": "从同主题材料补充新词；每个词连同一个自然句子学习，不用只背孤立中文义。"
+        },
+        {
+          "minutes": 50,
+          "title": "句式变化",
+          "instruction": "沿用本关语法，变化人称、时间与肯否；对照来源核对变化是否自然。"
+        },
+        {
+          "minutes": 50,
+          "title": "口头与书面回应",
+          "instruction": "将对话改成 200–300 韩文字的说明；先写事实，再写原因与建议；每周完整练一篇图表说明。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 113,
+      "month": 4,
+      "lessonId": "c23",
+      "topic": "新闻、间接疑问与推测",
+      "title": "精听与扩展",
+      "newWords": 50,
+      "newSentences": 58,
+      "cumulativeWords": 3950,
+      "cumulativeSentences": 4908,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 40,
+          "title": "短句听写",
+          "instruction": "隐藏中文和拆解，听写本关；逐句核对助词、收音和词形。"
+        },
+        {
+          "minutes": 80,
+          "title": "平行对话",
+          "instruction": "学习同主题的新对话，逐句对照释义；把熟悉句型在新场景中的用法记下来。"
+        },
+        {
+          "minutes": 60,
+          "title": "阅读与概括",
+          "instruction": "世宗学堂中级材料与 TOPIK II 说明类短文；每篇标出主题句、关键词和指代对象。"
+        },
+        {
+          "minutes": 60,
+          "title": "复述与改写",
+          "instruction": "将对话改成 200–300 韩文字的说明；先写事实，再写原因与建议；每周完整练一篇图表说明。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 114,
+      "month": 4,
+      "lessonId": "c23",
+      "topic": "新闻、间接疑问与推测",
+      "title": "迁移与输出",
+      "newWords": 50,
+      "newSentences": 58,
+      "cumulativeWords": 4000,
+      "cumulativeSentences": 4966,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "脱稿听说",
+          "instruction": "不看原文复述对话，再换一个角色回答；忘记时先回听完整句子。"
+        },
+        {
+          "minutes": 60,
+          "title": "新词与旧词对比",
+          "instruction": "补齐当天新词目标，同时区分近义词、搭配对象、语体和常见助词。"
+        },
+        {
+          "minutes": 60,
+          "title": "同主题阅读",
+          "instruction": "世宗学堂中级材料与 TOPIK II 说明类短文；每篇标出主题句、关键词和指代对象。"
+        },
+        {
+          "minutes": 60,
+          "title": "完整表达",
+          "instruction": "将对话改成 200–300 韩文字的说明；先写事实，再写原因与建议；每周完整练一篇图表说明。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 115,
+      "month": 4,
+      "lessonId": "c23",
+      "topic": "新闻、间接疑问与推测",
+      "title": "复习与检查",
+      "newWords": 0,
+      "newSentences": 0,
+      "cumulativeWords": 4000,
+      "cumulativeSentences": 4966,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "主动回忆",
+          "instruction": "不看中文回忆本周期词句；抽测隔天、3 天、7 天前学过的内容，记录正确率。"
+        },
+        {
+          "minutes": 60,
+          "title": "听写与回听",
+          "instruction": "隐藏韩文听写本关，再对照原文定位听不出的音节；回听完整句确认。"
+        },
+        {
+          "minutes": 60,
+          "title": "综合输出",
+          "instruction": "将对话改成 200–300 韩文字的说明；先写事实，再写原因与建议；每周完整练一篇图表说明。"
+        },
+        {
+          "minutes": 60,
+          "title": "纠错与调整",
+          "instruction": "只复习，不增加词句配额。检查译义、助词、时态与衔接；回忆正确率低于 80% 时，把下一周期新内容减半。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 116,
+      "month": 4,
+      "lessonId": "c24",
+      "topic": "社区讨论与转述建议",
+      "title": "听懂与拆解",
+      "newWords": 50,
+      "newSentences": 59,
+      "cumulativeWords": 4050,
+      "cumulativeSentences": 5025,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 45,
+          "title": "听原音",
+          "instruction": "完整听本关，再逐句重听；先判断谁对谁说、想表达什么。"
+        },
+        {
+          "minutes": 90,
+          "title": "词句理解",
+          "instruction": "逐个点开句子拆解，辨认原形、助词、时态与语尾；结合词典记录新词的本句义。"
+        },
+        {
+          "minutes": 45,
+          "title": "同主题输入",
+          "instruction": "世宗学堂中级材料与 TOPIK II 说明类短文；每篇标出主题句、关键词和指代对象。"
+        },
+        {
+          "minutes": 60,
+          "title": "换角色回应",
+          "instruction": "将对话改成 200–300 韩文字的说明；先写事实，再写原因与建议；每周完整练一篇图表说明。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 117,
+      "month": 4,
+      "lessonId": "c24",
+      "topic": "社区讨论与转述建议",
+      "title": "模仿与词形",
+      "newWords": 50,
+      "newSentences": 58,
+      "cumulativeWords": 4100,
+      "cumulativeSentences": 5083,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "跟读",
+          "instruction": "以 SunHi 完整句音频为准，分短语跟读，再恢复正常速度；重点模仿停顿、收音与连读。"
+        },
+        {
+          "minutes": 80,
+          "title": "词汇与搭配",
+          "instruction": "从同主题材料补充新词；每个词连同一个自然句子学习，不用只背孤立中文义。"
+        },
+        {
+          "minutes": 50,
+          "title": "句式变化",
+          "instruction": "沿用本关语法，变化人称、时间与肯否；对照来源核对变化是否自然。"
+        },
+        {
+          "minutes": 50,
+          "title": "口头与书面回应",
+          "instruction": "将对话改成 200–300 韩文字的说明；先写事实，再写原因与建议；每周完整练一篇图表说明。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 118,
+      "month": 4,
+      "lessonId": "c24",
+      "topic": "社区讨论与转述建议",
+      "title": "精听与扩展",
+      "newWords": 50,
+      "newSentences": 58,
+      "cumulativeWords": 4150,
+      "cumulativeSentences": 5141,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 40,
+          "title": "短句听写",
+          "instruction": "隐藏中文和拆解，听写本关；逐句核对助词、收音和词形。"
+        },
+        {
+          "minutes": 80,
+          "title": "平行对话",
+          "instruction": "学习同主题的新对话，逐句对照释义；把熟悉句型在新场景中的用法记下来。"
+        },
+        {
+          "minutes": 60,
+          "title": "阅读与概括",
+          "instruction": "世宗学堂中级材料与 TOPIK II 说明类短文；每篇标出主题句、关键词和指代对象。"
+        },
+        {
+          "minutes": 60,
+          "title": "复述与改写",
+          "instruction": "将对话改成 200–300 韩文字的说明；先写事实，再写原因与建议；每周完整练一篇图表说明。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 119,
+      "month": 4,
+      "lessonId": "c24",
+      "topic": "社区讨论与转述建议",
+      "title": "迁移与输出",
+      "newWords": 50,
+      "newSentences": 59,
+      "cumulativeWords": 4200,
+      "cumulativeSentences": 5200,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "脱稿听说",
+          "instruction": "不看原文复述对话，再换一个角色回答；忘记时先回听完整句子。"
+        },
+        {
+          "minutes": 60,
+          "title": "新词与旧词对比",
+          "instruction": "补齐当天新词目标，同时区分近义词、搭配对象、语体和常见助词。"
+        },
+        {
+          "minutes": 60,
+          "title": "同主题阅读",
+          "instruction": "世宗学堂中级材料与 TOPIK II 说明类短文；每篇标出主题句、关键词和指代对象。"
+        },
+        {
+          "minutes": 60,
+          "title": "完整表达",
+          "instruction": "将对话改成 200–300 韩文字的说明；先写事实，再写原因与建议；每周完整练一篇图表说明。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 120,
+      "month": 4,
+      "lessonId": "c24",
+      "topic": "社区讨论与转述建议",
+      "title": "限时测评与复盘",
+      "newWords": 0,
+      "newSentences": 0,
+      "cumulativeWords": 4200,
+      "cumulativeSentences": 5200,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 180,
+          "title": "月末测评",
+          "instruction": "完成一套未做过的 TOPIK II 纸笔卷，训练目标 150/300；把错题按词汇、语法、主旨、推断与时间不足归因。写作需要外部反馈。"
+        },
+        {
+          "minutes": 60,
+          "title": "核对、归因与下阶段调整",
+          "instruction": "逐项记录证据和薄弱点；客观题按官方答案核对，作文等待按评分标准的反馈。若未达到本月训练目标，先补短板，再调整进度。"
+        }
+      ],
+      "assessment": "完成一套未做过的 TOPIK II 纸笔卷，训练目标 150/300；把错题按词汇、语法、主旨、推断与时间不足归因。写作需要外部反馈。"
+    },
+    {
+      "day": 121,
+      "month": 5,
+      "lessonId": "c25",
+      "topic": "环保、制度与代价",
+      "title": "听懂与拆解",
+      "newWords": 41,
+      "newSentences": 58,
+      "cumulativeWords": 4241,
+      "cumulativeSentences": 5258,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 45,
+          "title": "听原音",
+          "instruction": "完整听本关，再逐句重听；先判断谁对谁说、想表达什么。"
+        },
+        {
+          "minutes": 90,
+          "title": "词句理解",
+          "instruction": "逐个点开句子拆解，辨认原形、助词、时态与语尾；结合词典记录新词的本句义。"
+        },
+        {
+          "minutes": 45,
+          "title": "同主题输入",
+          "instruction": "TOPIK II 观点类阅读和世宗学堂高级材料；每次用中文确认逻辑，再用韩语概括。"
+        },
+        {
+          "minutes": 60,
+          "title": "换角色回应",
+          "instruction": "同一话题各写一段支持与反对意见，再整理为 600–700 韩文字的论证；每周至少一篇请教师依据评分标准批改。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 122,
+      "month": 5,
+      "lessonId": "c25",
+      "topic": "环保、制度与代价",
+      "title": "模仿与词形",
+      "newWords": 42,
+      "newSentences": 58,
+      "cumulativeWords": 4283,
+      "cumulativeSentences": 5316,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "跟读",
+          "instruction": "以 SunHi 完整句音频为准，分短语跟读，再恢复正常速度；重点模仿停顿、收音与连读。"
+        },
+        {
+          "minutes": 80,
+          "title": "词汇与搭配",
+          "instruction": "从同主题材料补充新词；每个词连同一个自然句子学习，不用只背孤立中文义。"
+        },
+        {
+          "minutes": 50,
+          "title": "句式变化",
+          "instruction": "沿用本关语法，变化人称、时间与肯否；对照来源核对变化是否自然。"
+        },
+        {
+          "minutes": 50,
+          "title": "口头与书面回应",
+          "instruction": "同一话题各写一段支持与反对意见，再整理为 600–700 韩文字的论证；每周至少一篇请教师依据评分标准批改。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 123,
+      "month": 5,
+      "lessonId": "c25",
+      "topic": "环保、制度与代价",
+      "title": "精听与扩展",
+      "newWords": 42,
+      "newSentences": 59,
+      "cumulativeWords": 4325,
+      "cumulativeSentences": 5375,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 40,
+          "title": "短句听写",
+          "instruction": "隐藏中文和拆解，听写本关；逐句核对助词、收音和词形。"
+        },
+        {
+          "minutes": 80,
+          "title": "平行对话",
+          "instruction": "学习同主题的新对话，逐句对照释义；把熟悉句型在新场景中的用法记下来。"
+        },
+        {
+          "minutes": 60,
+          "title": "阅读与概括",
+          "instruction": "TOPIK II 观点类阅读和世宗学堂高级材料；每次用中文确认逻辑，再用韩语概括。"
+        },
+        {
+          "minutes": 60,
+          "title": "复述与改写",
+          "instruction": "同一话题各写一段支持与反对意见，再整理为 600–700 韩文字的论证；每周至少一篇请教师依据评分标准批改。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 124,
+      "month": 5,
+      "lessonId": "c25",
+      "topic": "环保、制度与代价",
+      "title": "迁移与输出",
+      "newWords": 41,
+      "newSentences": 58,
+      "cumulativeWords": 4366,
+      "cumulativeSentences": 5433,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "脱稿听说",
+          "instruction": "不看原文复述对话，再换一个角色回答；忘记时先回听完整句子。"
+        },
+        {
+          "minutes": 60,
+          "title": "新词与旧词对比",
+          "instruction": "补齐当天新词目标，同时区分近义词、搭配对象、语体和常见助词。"
+        },
+        {
+          "minutes": 60,
+          "title": "同主题阅读",
+          "instruction": "TOPIK II 观点类阅读和世宗学堂高级材料；每次用中文确认逻辑，再用韩语概括。"
+        },
+        {
+          "minutes": 60,
+          "title": "完整表达",
+          "instruction": "同一话题各写一段支持与反对意见，再整理为 600–700 韩文字的论证；每周至少一篇请教师依据评分标准批改。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 125,
+      "month": 5,
+      "lessonId": "c25",
+      "topic": "环保、制度与代价",
+      "title": "复习与检查",
+      "newWords": 0,
+      "newSentences": 0,
+      "cumulativeWords": 4366,
+      "cumulativeSentences": 5433,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "主动回忆",
+          "instruction": "不看中文回忆本周期词句；抽测隔天、3 天、7 天前学过的内容，记录正确率。"
+        },
+        {
+          "minutes": 60,
+          "title": "听写与回听",
+          "instruction": "隐藏韩文听写本关，再对照原文定位听不出的音节；回听完整句确认。"
+        },
+        {
+          "minutes": 60,
+          "title": "综合输出",
+          "instruction": "同一话题各写一段支持与反对意见，再整理为 600–700 韩文字的论证；每周至少一篇请教师依据评分标准批改。"
+        },
+        {
+          "minutes": 60,
+          "title": "纠错与调整",
+          "instruction": "只复习，不增加词句配额。检查译义、助词、时态与衔接；回忆正确率低于 80% 时，把下一周期新内容减半。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 126,
+      "month": 5,
+      "lessonId": "c26",
+      "topic": "隐私、限制与否定推论",
+      "title": "听懂与拆解",
+      "newWords": 42,
+      "newSentences": 58,
+      "cumulativeWords": 4408,
+      "cumulativeSentences": 5491,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 45,
+          "title": "听原音",
+          "instruction": "完整听本关，再逐句重听；先判断谁对谁说、想表达什么。"
+        },
+        {
+          "minutes": 90,
+          "title": "词句理解",
+          "instruction": "逐个点开句子拆解，辨认原形、助词、时态与语尾；结合词典记录新词的本句义。"
+        },
+        {
+          "minutes": 45,
+          "title": "同主题输入",
+          "instruction": "TOPIK II 观点类阅读和世宗学堂高级材料；每次用中文确认逻辑，再用韩语概括。"
+        },
+        {
+          "minutes": 60,
+          "title": "换角色回应",
+          "instruction": "同一话题各写一段支持与反对意见，再整理为 600–700 韩文字的论证；每周至少一篇请教师依据评分标准批改。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 127,
+      "month": 5,
+      "lessonId": "c26",
+      "topic": "隐私、限制与否定推论",
+      "title": "模仿与词形",
+      "newWords": 42,
+      "newSentences": 59,
+      "cumulativeWords": 4450,
+      "cumulativeSentences": 5550,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "跟读",
+          "instruction": "以 SunHi 完整句音频为准，分短语跟读，再恢复正常速度；重点模仿停顿、收音与连读。"
+        },
+        {
+          "minutes": 80,
+          "title": "词汇与搭配",
+          "instruction": "从同主题材料补充新词；每个词连同一个自然句子学习，不用只背孤立中文义。"
+        },
+        {
+          "minutes": 50,
+          "title": "句式变化",
+          "instruction": "沿用本关语法，变化人称、时间与肯否；对照来源核对变化是否自然。"
+        },
+        {
+          "minutes": 50,
+          "title": "口头与书面回应",
+          "instruction": "同一话题各写一段支持与反对意见，再整理为 600–700 韩文字的论证；每周至少一篇请教师依据评分标准批改。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 128,
+      "month": 5,
+      "lessonId": "c26",
+      "topic": "隐私、限制与否定推论",
+      "title": "精听与扩展",
+      "newWords": 41,
+      "newSentences": 58,
+      "cumulativeWords": 4491,
+      "cumulativeSentences": 5608,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 40,
+          "title": "短句听写",
+          "instruction": "隐藏中文和拆解，听写本关；逐句核对助词、收音和词形。"
+        },
+        {
+          "minutes": 80,
+          "title": "平行对话",
+          "instruction": "学习同主题的新对话，逐句对照释义；把熟悉句型在新场景中的用法记下来。"
+        },
+        {
+          "minutes": 60,
+          "title": "阅读与概括",
+          "instruction": "TOPIK II 观点类阅读和世宗学堂高级材料；每次用中文确认逻辑，再用韩语概括。"
+        },
+        {
+          "minutes": 60,
+          "title": "复述与改写",
+          "instruction": "同一话题各写一段支持与反对意见，再整理为 600–700 韩文字的论证；每周至少一篇请教师依据评分标准批改。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 129,
+      "month": 5,
+      "lessonId": "c26",
+      "topic": "隐私、限制与否定推论",
+      "title": "迁移与输出",
+      "newWords": 42,
+      "newSentences": 58,
+      "cumulativeWords": 4533,
+      "cumulativeSentences": 5666,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "脱稿听说",
+          "instruction": "不看原文复述对话，再换一个角色回答；忘记时先回听完整句子。"
+        },
+        {
+          "minutes": 60,
+          "title": "新词与旧词对比",
+          "instruction": "补齐当天新词目标，同时区分近义词、搭配对象、语体和常见助词。"
+        },
+        {
+          "minutes": 60,
+          "title": "同主题阅读",
+          "instruction": "TOPIK II 观点类阅读和世宗学堂高级材料；每次用中文确认逻辑，再用韩语概括。"
+        },
+        {
+          "minutes": 60,
+          "title": "完整表达",
+          "instruction": "同一话题各写一段支持与反对意见，再整理为 600–700 韩文字的论证；每周至少一篇请教师依据评分标准批改。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 130,
+      "month": 5,
+      "lessonId": "c26",
+      "topic": "隐私、限制与否定推论",
+      "title": "复习与检查",
+      "newWords": 0,
+      "newSentences": 0,
+      "cumulativeWords": 4533,
+      "cumulativeSentences": 5666,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "主动回忆",
+          "instruction": "不看中文回忆本周期词句；抽测隔天、3 天、7 天前学过的内容，记录正确率。"
+        },
+        {
+          "minutes": 60,
+          "title": "听写与回听",
+          "instruction": "隐藏韩文听写本关，再对照原文定位听不出的音节；回听完整句确认。"
+        },
+        {
+          "minutes": 60,
+          "title": "综合输出",
+          "instruction": "同一话题各写一段支持与反对意见，再整理为 600–700 韩文字的论证；每周至少一篇请教师依据评分标准批改。"
+        },
+        {
+          "minutes": 60,
+          "title": "纠错与调整",
+          "instruction": "只复习，不增加词句配额。检查译义、助词、时态与衔接；回忆正确率低于 80% 时，把下一周期新内容减半。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 131,
+      "month": 5,
+      "lessonId": "c27",
+      "topic": "教育、机会与结果",
+      "title": "听懂与拆解",
+      "newWords": 42,
+      "newSentences": 59,
+      "cumulativeWords": 4575,
+      "cumulativeSentences": 5725,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 45,
+          "title": "听原音",
+          "instruction": "完整听本关，再逐句重听；先判断谁对谁说、想表达什么。"
+        },
+        {
+          "minutes": 90,
+          "title": "词句理解",
+          "instruction": "逐个点开句子拆解，辨认原形、助词、时态与语尾；结合词典记录新词的本句义。"
+        },
+        {
+          "minutes": 45,
+          "title": "同主题输入",
+          "instruction": "TOPIK II 观点类阅读和世宗学堂高级材料；每次用中文确认逻辑，再用韩语概括。"
+        },
+        {
+          "minutes": 60,
+          "title": "换角色回应",
+          "instruction": "同一话题各写一段支持与反对意见，再整理为 600–700 韩文字的论证；每周至少一篇请教师依据评分标准批改。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 132,
+      "month": 5,
+      "lessonId": "c27",
+      "topic": "教育、机会与结果",
+      "title": "模仿与词形",
+      "newWords": 41,
+      "newSentences": 58,
+      "cumulativeWords": 4616,
+      "cumulativeSentences": 5783,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "跟读",
+          "instruction": "以 SunHi 完整句音频为准，分短语跟读，再恢复正常速度；重点模仿停顿、收音与连读。"
+        },
+        {
+          "minutes": 80,
+          "title": "词汇与搭配",
+          "instruction": "从同主题材料补充新词；每个词连同一个自然句子学习，不用只背孤立中文义。"
+        },
+        {
+          "minutes": 50,
+          "title": "句式变化",
+          "instruction": "沿用本关语法，变化人称、时间与肯否；对照来源核对变化是否自然。"
+        },
+        {
+          "minutes": 50,
+          "title": "口头与书面回应",
+          "instruction": "同一话题各写一段支持与反对意见，再整理为 600–700 韩文字的论证；每周至少一篇请教师依据评分标准批改。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 133,
+      "month": 5,
+      "lessonId": "c27",
+      "topic": "教育、机会与结果",
+      "title": "精听与扩展",
+      "newWords": 42,
+      "newSentences": 58,
+      "cumulativeWords": 4658,
+      "cumulativeSentences": 5841,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 40,
+          "title": "短句听写",
+          "instruction": "隐藏中文和拆解，听写本关；逐句核对助词、收音和词形。"
+        },
+        {
+          "minutes": 80,
+          "title": "平行对话",
+          "instruction": "学习同主题的新对话，逐句对照释义；把熟悉句型在新场景中的用法记下来。"
+        },
+        {
+          "minutes": 60,
+          "title": "阅读与概括",
+          "instruction": "TOPIK II 观点类阅读和世宗学堂高级材料；每次用中文确认逻辑，再用韩语概括。"
+        },
+        {
+          "minutes": 60,
+          "title": "复述与改写",
+          "instruction": "同一话题各写一段支持与反对意见，再整理为 600–700 韩文字的论证；每周至少一篇请教师依据评分标准批改。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 134,
+      "month": 5,
+      "lessonId": "c27",
+      "topic": "教育、机会与结果",
+      "title": "迁移与输出",
+      "newWords": 42,
+      "newSentences": 59,
+      "cumulativeWords": 4700,
+      "cumulativeSentences": 5900,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "脱稿听说",
+          "instruction": "不看原文复述对话，再换一个角色回答；忘记时先回听完整句子。"
+        },
+        {
+          "minutes": 60,
+          "title": "新词与旧词对比",
+          "instruction": "补齐当天新词目标，同时区分近义词、搭配对象、语体和常见助词。"
+        },
+        {
+          "minutes": 60,
+          "title": "同主题阅读",
+          "instruction": "TOPIK II 观点类阅读和世宗学堂高级材料；每次用中文确认逻辑，再用韩语概括。"
+        },
+        {
+          "minutes": 60,
+          "title": "完整表达",
+          "instruction": "同一话题各写一段支持与反对意见，再整理为 600–700 韩文字的论证；每周至少一篇请教师依据评分标准批改。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 135,
+      "month": 5,
+      "lessonId": "c27",
+      "topic": "教育、机会与结果",
+      "title": "复习与检查",
+      "newWords": 0,
+      "newSentences": 0,
+      "cumulativeWords": 4700,
+      "cumulativeSentences": 5900,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "主动回忆",
+          "instruction": "不看中文回忆本周期词句；抽测隔天、3 天、7 天前学过的内容，记录正确率。"
+        },
+        {
+          "minutes": 60,
+          "title": "听写与回听",
+          "instruction": "隐藏韩文听写本关，再对照原文定位听不出的音节；回听完整句确认。"
+        },
+        {
+          "minutes": 60,
+          "title": "综合输出",
+          "instruction": "同一话题各写一段支持与反对意见，再整理为 600–700 韩文字的论证；每周至少一篇请教师依据评分标准批改。"
+        },
+        {
+          "minutes": 60,
+          "title": "纠错与调整",
+          "instruction": "只复习，不增加词句配额。检查译义、助词、时态与衔接；回忆正确率低于 80% 时，把下一周期新内容减半。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 136,
+      "month": 5,
+      "lessonId": "c28",
+      "topic": "老龄化、责任与可持续性",
+      "title": "听懂与拆解",
+      "newWords": 41,
+      "newSentences": 58,
+      "cumulativeWords": 4741,
+      "cumulativeSentences": 5958,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 45,
+          "title": "听原音",
+          "instruction": "完整听本关，再逐句重听；先判断谁对谁说、想表达什么。"
+        },
+        {
+          "minutes": 90,
+          "title": "词句理解",
+          "instruction": "逐个点开句子拆解，辨认原形、助词、时态与语尾；结合词典记录新词的本句义。"
+        },
+        {
+          "minutes": 45,
+          "title": "同主题输入",
+          "instruction": "TOPIK II 观点类阅读和世宗学堂高级材料；每次用中文确认逻辑，再用韩语概括。"
+        },
+        {
+          "minutes": 60,
+          "title": "换角色回应",
+          "instruction": "同一话题各写一段支持与反对意见，再整理为 600–700 韩文字的论证；每周至少一篇请教师依据评分标准批改。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 137,
+      "month": 5,
+      "lessonId": "c28",
+      "topic": "老龄化、责任与可持续性",
+      "title": "模仿与词形",
+      "newWords": 42,
+      "newSentences": 58,
+      "cumulativeWords": 4783,
+      "cumulativeSentences": 6016,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "跟读",
+          "instruction": "以 SunHi 完整句音频为准，分短语跟读，再恢复正常速度；重点模仿停顿、收音与连读。"
+        },
+        {
+          "minutes": 80,
+          "title": "词汇与搭配",
+          "instruction": "从同主题材料补充新词；每个词连同一个自然句子学习，不用只背孤立中文义。"
+        },
+        {
+          "minutes": 50,
+          "title": "句式变化",
+          "instruction": "沿用本关语法，变化人称、时间与肯否；对照来源核对变化是否自然。"
+        },
+        {
+          "minutes": 50,
+          "title": "口头与书面回应",
+          "instruction": "同一话题各写一段支持与反对意见，再整理为 600–700 韩文字的论证；每周至少一篇请教师依据评分标准批改。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 138,
+      "month": 5,
+      "lessonId": "c28",
+      "topic": "老龄化、责任与可持续性",
+      "title": "精听与扩展",
+      "newWords": 42,
+      "newSentences": 59,
+      "cumulativeWords": 4825,
+      "cumulativeSentences": 6075,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 40,
+          "title": "短句听写",
+          "instruction": "隐藏中文和拆解，听写本关；逐句核对助词、收音和词形。"
+        },
+        {
+          "minutes": 80,
+          "title": "平行对话",
+          "instruction": "学习同主题的新对话，逐句对照释义；把熟悉句型在新场景中的用法记下来。"
+        },
+        {
+          "minutes": 60,
+          "title": "阅读与概括",
+          "instruction": "TOPIK II 观点类阅读和世宗学堂高级材料；每次用中文确认逻辑，再用韩语概括。"
+        },
+        {
+          "minutes": 60,
+          "title": "复述与改写",
+          "instruction": "同一话题各写一段支持与反对意见，再整理为 600–700 韩文字的论证；每周至少一篇请教师依据评分标准批改。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 139,
+      "month": 5,
+      "lessonId": "c28",
+      "topic": "老龄化、责任与可持续性",
+      "title": "迁移与输出",
+      "newWords": 41,
+      "newSentences": 58,
+      "cumulativeWords": 4866,
+      "cumulativeSentences": 6133,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "脱稿听说",
+          "instruction": "不看原文复述对话，再换一个角色回答；忘记时先回听完整句子。"
+        },
+        {
+          "minutes": 60,
+          "title": "新词与旧词对比",
+          "instruction": "补齐当天新词目标，同时区分近义词、搭配对象、语体和常见助词。"
+        },
+        {
+          "minutes": 60,
+          "title": "同主题阅读",
+          "instruction": "TOPIK II 观点类阅读和世宗学堂高级材料；每次用中文确认逻辑，再用韩语概括。"
+        },
+        {
+          "minutes": 60,
+          "title": "完整表达",
+          "instruction": "同一话题各写一段支持与反对意见，再整理为 600–700 韩文字的论证；每周至少一篇请教师依据评分标准批改。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 140,
+      "month": 5,
+      "lessonId": "c28",
+      "topic": "老龄化、责任与可持续性",
+      "title": "复习与检查",
+      "newWords": 0,
+      "newSentences": 0,
+      "cumulativeWords": 4866,
+      "cumulativeSentences": 6133,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "主动回忆",
+          "instruction": "不看中文回忆本周期词句；抽测隔天、3 天、7 天前学过的内容，记录正确率。"
+        },
+        {
+          "minutes": 60,
+          "title": "听写与回听",
+          "instruction": "隐藏韩文听写本关，再对照原文定位听不出的音节；回听完整句确认。"
+        },
+        {
+          "minutes": 60,
+          "title": "综合输出",
+          "instruction": "同一话题各写一段支持与反对意见，再整理为 600–700 韩文字的论证；每周至少一篇请教师依据评分标准批改。"
+        },
+        {
+          "minutes": 60,
+          "title": "纠错与调整",
+          "instruction": "只复习，不增加词句配额。检查译义、助词、时态与衔接；回忆正确率低于 80% 时，把下一周期新内容减半。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 141,
+      "month": 5,
+      "lessonId": "c29",
+      "topic": "文化、概括与例外",
+      "title": "听懂与拆解",
+      "newWords": 42,
+      "newSentences": 58,
+      "cumulativeWords": 4908,
+      "cumulativeSentences": 6191,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 45,
+          "title": "听原音",
+          "instruction": "完整听本关，再逐句重听；先判断谁对谁说、想表达什么。"
+        },
+        {
+          "minutes": 90,
+          "title": "词句理解",
+          "instruction": "逐个点开句子拆解，辨认原形、助词、时态与语尾；结合词典记录新词的本句义。"
+        },
+        {
+          "minutes": 45,
+          "title": "同主题输入",
+          "instruction": "TOPIK II 观点类阅读和世宗学堂高级材料；每次用中文确认逻辑，再用韩语概括。"
+        },
+        {
+          "minutes": 60,
+          "title": "换角色回应",
+          "instruction": "同一话题各写一段支持与反对意见，再整理为 600–700 韩文字的论证；每周至少一篇请教师依据评分标准批改。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 142,
+      "month": 5,
+      "lessonId": "c29",
+      "topic": "文化、概括与例外",
+      "title": "模仿与词形",
+      "newWords": 42,
+      "newSentences": 59,
+      "cumulativeWords": 4950,
+      "cumulativeSentences": 6250,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "跟读",
+          "instruction": "以 SunHi 完整句音频为准，分短语跟读，再恢复正常速度；重点模仿停顿、收音与连读。"
+        },
+        {
+          "minutes": 80,
+          "title": "词汇与搭配",
+          "instruction": "从同主题材料补充新词；每个词连同一个自然句子学习，不用只背孤立中文义。"
+        },
+        {
+          "minutes": 50,
+          "title": "句式变化",
+          "instruction": "沿用本关语法，变化人称、时间与肯否；对照来源核对变化是否自然。"
+        },
+        {
+          "minutes": 50,
+          "title": "口头与书面回应",
+          "instruction": "同一话题各写一段支持与反对意见，再整理为 600–700 韩文字的论证；每周至少一篇请教师依据评分标准批改。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 143,
+      "month": 5,
+      "lessonId": "c29",
+      "topic": "文化、概括与例外",
+      "title": "精听与扩展",
+      "newWords": 41,
+      "newSentences": 58,
+      "cumulativeWords": 4991,
+      "cumulativeSentences": 6308,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 40,
+          "title": "短句听写",
+          "instruction": "隐藏中文和拆解，听写本关；逐句核对助词、收音和词形。"
+        },
+        {
+          "minutes": 80,
+          "title": "平行对话",
+          "instruction": "学习同主题的新对话，逐句对照释义；把熟悉句型在新场景中的用法记下来。"
+        },
+        {
+          "minutes": 60,
+          "title": "阅读与概括",
+          "instruction": "TOPIK II 观点类阅读和世宗学堂高级材料；每次用中文确认逻辑，再用韩语概括。"
+        },
+        {
+          "minutes": 60,
+          "title": "复述与改写",
+          "instruction": "同一话题各写一段支持与反对意见，再整理为 600–700 韩文字的论证；每周至少一篇请教师依据评分标准批改。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 144,
+      "month": 5,
+      "lessonId": "c29",
+      "topic": "文化、概括与例外",
+      "title": "迁移与输出",
+      "newWords": 42,
+      "newSentences": 58,
+      "cumulativeWords": 5033,
+      "cumulativeSentences": 6366,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "脱稿听说",
+          "instruction": "不看原文复述对话，再换一个角色回答；忘记时先回听完整句子。"
+        },
+        {
+          "minutes": 60,
+          "title": "新词与旧词对比",
+          "instruction": "补齐当天新词目标，同时区分近义词、搭配对象、语体和常见助词。"
+        },
+        {
+          "minutes": 60,
+          "title": "同主题阅读",
+          "instruction": "TOPIK II 观点类阅读和世宗学堂高级材料；每次用中文确认逻辑，再用韩语概括。"
+        },
+        {
+          "minutes": 60,
+          "title": "完整表达",
+          "instruction": "同一话题各写一段支持与反对意见，再整理为 600–700 韩文字的论证；每周至少一篇请教师依据评分标准批改。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 145,
+      "month": 5,
+      "lessonId": "c29",
+      "topic": "文化、概括与例外",
+      "title": "复习与检查",
+      "newWords": 0,
+      "newSentences": 0,
+      "cumulativeWords": 5033,
+      "cumulativeSentences": 6366,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "主动回忆",
+          "instruction": "不看中文回忆本周期词句；抽测隔天、3 天、7 天前学过的内容，记录正确率。"
+        },
+        {
+          "minutes": 60,
+          "title": "听写与回听",
+          "instruction": "隐藏韩文听写本关，再对照原文定位听不出的音节；回听完整句确认。"
+        },
+        {
+          "minutes": 60,
+          "title": "综合输出",
+          "instruction": "同一话题各写一段支持与反对意见，再整理为 600–700 韩文字的论证；每周至少一篇请教师依据评分标准批改。"
+        },
+        {
+          "minutes": 60,
+          "title": "纠错与调整",
+          "instruction": "只复习，不增加词句配额。检查译义、助词、时态与衔接；回忆正确率低于 80% 时，把下一周期新内容减半。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 146,
+      "month": 5,
+      "lessonId": "c30",
+      "topic": "工作、条件与政策效果",
+      "title": "听懂与拆解",
+      "newWords": 42,
+      "newSentences": 59,
+      "cumulativeWords": 5075,
+      "cumulativeSentences": 6425,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 45,
+          "title": "听原音",
+          "instruction": "完整听本关，再逐句重听；先判断谁对谁说、想表达什么。"
+        },
+        {
+          "minutes": 90,
+          "title": "词句理解",
+          "instruction": "逐个点开句子拆解，辨认原形、助词、时态与语尾；结合词典记录新词的本句义。"
+        },
+        {
+          "minutes": 45,
+          "title": "同主题输入",
+          "instruction": "TOPIK II 观点类阅读和世宗学堂高级材料；每次用中文确认逻辑，再用韩语概括。"
+        },
+        {
+          "minutes": 60,
+          "title": "换角色回应",
+          "instruction": "同一话题各写一段支持与反对意见，再整理为 600–700 韩文字的论证；每周至少一篇请教师依据评分标准批改。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 147,
+      "month": 5,
+      "lessonId": "c30",
+      "topic": "工作、条件与政策效果",
+      "title": "模仿与词形",
+      "newWords": 41,
+      "newSentences": 58,
+      "cumulativeWords": 5116,
+      "cumulativeSentences": 6483,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "跟读",
+          "instruction": "以 SunHi 完整句音频为准，分短语跟读，再恢复正常速度；重点模仿停顿、收音与连读。"
+        },
+        {
+          "minutes": 80,
+          "title": "词汇与搭配",
+          "instruction": "从同主题材料补充新词；每个词连同一个自然句子学习，不用只背孤立中文义。"
+        },
+        {
+          "minutes": 50,
+          "title": "句式变化",
+          "instruction": "沿用本关语法，变化人称、时间与肯否；对照来源核对变化是否自然。"
+        },
+        {
+          "minutes": 50,
+          "title": "口头与书面回应",
+          "instruction": "同一话题各写一段支持与反对意见，再整理为 600–700 韩文字的论证；每周至少一篇请教师依据评分标准批改。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 148,
+      "month": 5,
+      "lessonId": "c30",
+      "topic": "工作、条件与政策效果",
+      "title": "精听与扩展",
+      "newWords": 42,
+      "newSentences": 58,
+      "cumulativeWords": 5158,
+      "cumulativeSentences": 6541,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 40,
+          "title": "短句听写",
+          "instruction": "隐藏中文和拆解，听写本关；逐句核对助词、收音和词形。"
+        },
+        {
+          "minutes": 80,
+          "title": "平行对话",
+          "instruction": "学习同主题的新对话，逐句对照释义；把熟悉句型在新场景中的用法记下来。"
+        },
+        {
+          "minutes": 60,
+          "title": "阅读与概括",
+          "instruction": "TOPIK II 观点类阅读和世宗学堂高级材料；每次用中文确认逻辑，再用韩语概括。"
+        },
+        {
+          "minutes": 60,
+          "title": "复述与改写",
+          "instruction": "同一话题各写一段支持与反对意见，再整理为 600–700 韩文字的论证；每周至少一篇请教师依据评分标准批改。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 149,
+      "month": 5,
+      "lessonId": "c30",
+      "topic": "工作、条件与政策效果",
+      "title": "迁移与输出",
+      "newWords": 42,
+      "newSentences": 59,
+      "cumulativeWords": 5200,
+      "cumulativeSentences": 6600,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "脱稿听说",
+          "instruction": "不看原文复述对话，再换一个角色回答；忘记时先回听完整句子。"
+        },
+        {
+          "minutes": 60,
+          "title": "新词与旧词对比",
+          "instruction": "补齐当天新词目标，同时区分近义词、搭配对象、语体和常见助词。"
+        },
+        {
+          "minutes": 60,
+          "title": "同主题阅读",
+          "instruction": "TOPIK II 观点类阅读和世宗学堂高级材料；每次用中文确认逻辑，再用韩语概括。"
+        },
+        {
+          "minutes": 60,
+          "title": "完整表达",
+          "instruction": "同一话题各写一段支持与反对意见，再整理为 600–700 韩文字的论证；每周至少一篇请教师依据评分标准批改。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 150,
+      "month": 5,
+      "lessonId": "c30",
+      "topic": "工作、条件与政策效果",
+      "title": "限时测评与复盘",
+      "newWords": 0,
+      "newSentences": 0,
+      "cumulativeWords": 5200,
+      "cumulativeSentences": 6600,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 180,
+          "title": "月末测评",
+          "instruction": "完成一套未做过的 TOPIK II 纸笔卷，训练目标 190/300；复盘写作内容完整性、篇章结构、词汇语法。不得把自己估计的作文分当作实测成绩。"
+        },
+        {
+          "minutes": 60,
+          "title": "核对、归因与下阶段调整",
+          "instruction": "逐项记录证据和薄弱点；客观题按官方答案核对，作文等待按评分标准的反馈。若未达到本月训练目标，先补短板，再调整进度。"
+        }
+      ],
+      "assessment": "完成一套未做过的 TOPIK II 纸笔卷，训练目标 190/300；复盘写作内容完整性、篇章结构、词汇语法。不得把自己估计的作文分当作实测成绩。"
+    },
+    {
+      "day": 151,
+      "month": 6,
+      "lessonId": "c31",
+      "topic": "图表、百分比与百分点",
+      "title": "听懂与拆解",
+      "newWords": 33,
+      "newSentences": 58,
+      "cumulativeWords": 5233,
+      "cumulativeSentences": 6658,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 45,
+          "title": "听原音",
+          "instruction": "完整听本关，再逐句重听；先判断谁对谁说、想表达什么。"
+        },
+        {
+          "minutes": 90,
+          "title": "词句理解",
+          "instruction": "逐个点开句子拆解，辨认原形、助词、时态与语尾；结合词典记录新词的本句义。"
+        },
+        {
+          "minutes": 45,
+          "title": "同主题输入",
+          "instruction": "以未做过的 TOPIK II 官方公开题为主，精读错题对应段落；新词优先选高频遗漏词，不追求偏词数量。"
+        },
+        {
+          "minutes": 60,
+          "title": "换角色回应",
+          "instruction": "限时写作并核对题目要求；用 1 分钟口头概括、150 字摘要和完整论证三种方式表达同一内容。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 152,
+      "month": 6,
+      "lessonId": "c31",
+      "topic": "图表、百分比与百分点",
+      "title": "模仿与词形",
+      "newWords": 33,
+      "newSentences": 58,
+      "cumulativeWords": 5266,
+      "cumulativeSentences": 6716,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "跟读",
+          "instruction": "以 SunHi 完整句音频为准，分短语跟读，再恢复正常速度；重点模仿停顿、收音与连读。"
+        },
+        {
+          "minutes": 80,
+          "title": "词汇与搭配",
+          "instruction": "从同主题材料补充新词；每个词连同一个自然句子学习，不用只背孤立中文义。"
+        },
+        {
+          "minutes": 50,
+          "title": "句式变化",
+          "instruction": "沿用本关语法，变化人称、时间与肯否；对照来源核对变化是否自然。"
+        },
+        {
+          "minutes": 50,
+          "title": "口头与书面回应",
+          "instruction": "限时写作并核对题目要求；用 1 分钟口头概括、150 字摘要和完整论证三种方式表达同一内容。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 153,
+      "month": 6,
+      "lessonId": "c31",
+      "topic": "图表、百分比与百分点",
+      "title": "精听与扩展",
+      "newWords": 34,
+      "newSentences": 59,
+      "cumulativeWords": 5300,
+      "cumulativeSentences": 6775,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 40,
+          "title": "短句听写",
+          "instruction": "隐藏中文和拆解，听写本关；逐句核对助词、收音和词形。"
+        },
+        {
+          "minutes": 80,
+          "title": "平行对话",
+          "instruction": "学习同主题的新对话，逐句对照释义；把熟悉句型在新场景中的用法记下来。"
+        },
+        {
+          "minutes": 60,
+          "title": "阅读与概括",
+          "instruction": "以未做过的 TOPIK II 官方公开题为主，精读错题对应段落；新词优先选高频遗漏词，不追求偏词数量。"
+        },
+        {
+          "minutes": 60,
+          "title": "复述与改写",
+          "instruction": "限时写作并核对题目要求；用 1 分钟口头概括、150 字摘要和完整论证三种方式表达同一内容。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 154,
+      "month": 6,
+      "lessonId": "c31",
+      "topic": "图表、百分比与百分点",
+      "title": "迁移与输出",
+      "newWords": 33,
+      "newSentences": 58,
+      "cumulativeWords": 5333,
+      "cumulativeSentences": 6833,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "脱稿听说",
+          "instruction": "不看原文复述对话，再换一个角色回答；忘记时先回听完整句子。"
+        },
+        {
+          "minutes": 60,
+          "title": "新词与旧词对比",
+          "instruction": "补齐当天新词目标，同时区分近义词、搭配对象、语体和常见助词。"
+        },
+        {
+          "minutes": 60,
+          "title": "同主题阅读",
+          "instruction": "以未做过的 TOPIK II 官方公开题为主，精读错题对应段落；新词优先选高频遗漏词，不追求偏词数量。"
+        },
+        {
+          "minutes": 60,
+          "title": "完整表达",
+          "instruction": "限时写作并核对题目要求；用 1 分钟口头概括、150 字摘要和完整论证三种方式表达同一内容。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 155,
+      "month": 6,
+      "lessonId": "c31",
+      "topic": "图表、百分比与百分点",
+      "title": "复习与检查",
+      "newWords": 0,
+      "newSentences": 0,
+      "cumulativeWords": 5333,
+      "cumulativeSentences": 6833,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "主动回忆",
+          "instruction": "不看中文回忆本周期词句；抽测隔天、3 天、7 天前学过的内容，记录正确率。"
+        },
+        {
+          "minutes": 60,
+          "title": "听写与回听",
+          "instruction": "隐藏韩文听写本关，再对照原文定位听不出的音节；回听完整句确认。"
+        },
+        {
+          "minutes": 60,
+          "title": "综合输出",
+          "instruction": "限时写作并核对题目要求；用 1 分钟口头概括、150 字摘要和完整论证三种方式表达同一内容。"
+        },
+        {
+          "minutes": 60,
+          "title": "纠错与调整",
+          "instruction": "只复习，不增加词句配额。检查译义、助词、时态与衔接；回忆正确率低于 80% 时，把下一周期新内容减半。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 156,
+      "month": 6,
+      "lessonId": "c32",
+      "topic": "相关、因果与限定表达",
+      "title": "听懂与拆解",
+      "newWords": 33,
+      "newSentences": 58,
+      "cumulativeWords": 5366,
+      "cumulativeSentences": 6891,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 45,
+          "title": "听原音",
+          "instruction": "完整听本关，再逐句重听；先判断谁对谁说、想表达什么。"
+        },
+        {
+          "minutes": 90,
+          "title": "词句理解",
+          "instruction": "逐个点开句子拆解，辨认原形、助词、时态与语尾；结合词典记录新词的本句义。"
+        },
+        {
+          "minutes": 45,
+          "title": "同主题输入",
+          "instruction": "以未做过的 TOPIK II 官方公开题为主，精读错题对应段落；新词优先选高频遗漏词，不追求偏词数量。"
+        },
+        {
+          "minutes": 60,
+          "title": "换角色回应",
+          "instruction": "限时写作并核对题目要求；用 1 分钟口头概括、150 字摘要和完整论证三种方式表达同一内容。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 157,
+      "month": 6,
+      "lessonId": "c32",
+      "topic": "相关、因果与限定表达",
+      "title": "模仿与词形",
+      "newWords": 34,
+      "newSentences": 59,
+      "cumulativeWords": 5400,
+      "cumulativeSentences": 6950,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "跟读",
+          "instruction": "以 SunHi 完整句音频为准，分短语跟读，再恢复正常速度；重点模仿停顿、收音与连读。"
+        },
+        {
+          "minutes": 80,
+          "title": "词汇与搭配",
+          "instruction": "从同主题材料补充新词；每个词连同一个自然句子学习，不用只背孤立中文义。"
+        },
+        {
+          "minutes": 50,
+          "title": "句式变化",
+          "instruction": "沿用本关语法，变化人称、时间与肯否；对照来源核对变化是否自然。"
+        },
+        {
+          "minutes": 50,
+          "title": "口头与书面回应",
+          "instruction": "限时写作并核对题目要求；用 1 分钟口头概括、150 字摘要和完整论证三种方式表达同一内容。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 158,
+      "month": 6,
+      "lessonId": "c32",
+      "topic": "相关、因果与限定表达",
+      "title": "精听与扩展",
+      "newWords": 33,
+      "newSentences": 58,
+      "cumulativeWords": 5433,
+      "cumulativeSentences": 7008,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 40,
+          "title": "短句听写",
+          "instruction": "隐藏中文和拆解，听写本关；逐句核对助词、收音和词形。"
+        },
+        {
+          "minutes": 80,
+          "title": "平行对话",
+          "instruction": "学习同主题的新对话，逐句对照释义；把熟悉句型在新场景中的用法记下来。"
+        },
+        {
+          "minutes": 60,
+          "title": "阅读与概括",
+          "instruction": "以未做过的 TOPIK II 官方公开题为主，精读错题对应段落；新词优先选高频遗漏词，不追求偏词数量。"
+        },
+        {
+          "minutes": 60,
+          "title": "复述与改写",
+          "instruction": "限时写作并核对题目要求；用 1 分钟口头概括、150 字摘要和完整论证三种方式表达同一内容。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 159,
+      "month": 6,
+      "lessonId": "c32",
+      "topic": "相关、因果与限定表达",
+      "title": "迁移与输出",
+      "newWords": 33,
+      "newSentences": 58,
+      "cumulativeWords": 5466,
+      "cumulativeSentences": 7066,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "脱稿听说",
+          "instruction": "不看原文复述对话，再换一个角色回答；忘记时先回听完整句子。"
+        },
+        {
+          "minutes": 60,
+          "title": "新词与旧词对比",
+          "instruction": "补齐当天新词目标，同时区分近义词、搭配对象、语体和常见助词。"
+        },
+        {
+          "minutes": 60,
+          "title": "同主题阅读",
+          "instruction": "以未做过的 TOPIK II 官方公开题为主，精读错题对应段落；新词优先选高频遗漏词，不追求偏词数量。"
+        },
+        {
+          "minutes": 60,
+          "title": "完整表达",
+          "instruction": "限时写作并核对题目要求；用 1 分钟口头概括、150 字摘要和完整论证三种方式表达同一内容。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 160,
+      "month": 6,
+      "lessonId": "c32",
+      "topic": "相关、因果与限定表达",
+      "title": "复习与检查",
+      "newWords": 0,
+      "newSentences": 0,
+      "cumulativeWords": 5466,
+      "cumulativeSentences": 7066,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "主动回忆",
+          "instruction": "不看中文回忆本周期词句；抽测隔天、3 天、7 天前学过的内容，记录正确率。"
+        },
+        {
+          "minutes": 60,
+          "title": "听写与回听",
+          "instruction": "隐藏韩文听写本关，再对照原文定位听不出的音节；回听完整句确认。"
+        },
+        {
+          "minutes": 60,
+          "title": "综合输出",
+          "instruction": "限时写作并核对题目要求；用 1 分钟口头概括、150 字摘要和完整论证三种方式表达同一内容。"
+        },
+        {
+          "minutes": 60,
+          "title": "纠错与调整",
+          "instruction": "只复习，不增加词句配额。检查译义、助词、时态与衔接；回忆正确率低于 80% 时，把下一周期新内容减半。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 161,
+      "month": 6,
+      "lessonId": "c33",
+      "topic": "政策、效率与公平",
+      "title": "听懂与拆解",
+      "newWords": 34,
+      "newSentences": 59,
+      "cumulativeWords": 5500,
+      "cumulativeSentences": 7125,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 45,
+          "title": "听原音",
+          "instruction": "完整听本关，再逐句重听；先判断谁对谁说、想表达什么。"
+        },
+        {
+          "minutes": 90,
+          "title": "词句理解",
+          "instruction": "逐个点开句子拆解，辨认原形、助词、时态与语尾；结合词典记录新词的本句义。"
+        },
+        {
+          "minutes": 45,
+          "title": "同主题输入",
+          "instruction": "以未做过的 TOPIK II 官方公开题为主，精读错题对应段落；新词优先选高频遗漏词，不追求偏词数量。"
+        },
+        {
+          "minutes": 60,
+          "title": "换角色回应",
+          "instruction": "限时写作并核对题目要求；用 1 分钟口头概括、150 字摘要和完整论证三种方式表达同一内容。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 162,
+      "month": 6,
+      "lessonId": "c33",
+      "topic": "政策、效率与公平",
+      "title": "模仿与词形",
+      "newWords": 33,
+      "newSentences": 58,
+      "cumulativeWords": 5533,
+      "cumulativeSentences": 7183,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "跟读",
+          "instruction": "以 SunHi 完整句音频为准，分短语跟读，再恢复正常速度；重点模仿停顿、收音与连读。"
+        },
+        {
+          "minutes": 80,
+          "title": "词汇与搭配",
+          "instruction": "从同主题材料补充新词；每个词连同一个自然句子学习，不用只背孤立中文义。"
+        },
+        {
+          "minutes": 50,
+          "title": "句式变化",
+          "instruction": "沿用本关语法，变化人称、时间与肯否；对照来源核对变化是否自然。"
+        },
+        {
+          "minutes": 50,
+          "title": "口头与书面回应",
+          "instruction": "限时写作并核对题目要求；用 1 分钟口头概括、150 字摘要和完整论证三种方式表达同一内容。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 163,
+      "month": 6,
+      "lessonId": "c33",
+      "topic": "政策、效率与公平",
+      "title": "精听与扩展",
+      "newWords": 33,
+      "newSentences": 58,
+      "cumulativeWords": 5566,
+      "cumulativeSentences": 7241,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 40,
+          "title": "短句听写",
+          "instruction": "隐藏中文和拆解，听写本关；逐句核对助词、收音和词形。"
+        },
+        {
+          "minutes": 80,
+          "title": "平行对话",
+          "instruction": "学习同主题的新对话，逐句对照释义；把熟悉句型在新场景中的用法记下来。"
+        },
+        {
+          "minutes": 60,
+          "title": "阅读与概括",
+          "instruction": "以未做过的 TOPIK II 官方公开题为主，精读错题对应段落；新词优先选高频遗漏词，不追求偏词数量。"
+        },
+        {
+          "minutes": 60,
+          "title": "复述与改写",
+          "instruction": "限时写作并核对题目要求；用 1 分钟口头概括、150 字摘要和完整论证三种方式表达同一内容。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 164,
+      "month": 6,
+      "lessonId": "c33",
+      "topic": "政策、效率与公平",
+      "title": "迁移与输出",
+      "newWords": 34,
+      "newSentences": 59,
+      "cumulativeWords": 5600,
+      "cumulativeSentences": 7300,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "脱稿听说",
+          "instruction": "不看原文复述对话，再换一个角色回答；忘记时先回听完整句子。"
+        },
+        {
+          "minutes": 60,
+          "title": "新词与旧词对比",
+          "instruction": "补齐当天新词目标，同时区分近义词、搭配对象、语体和常见助词。"
+        },
+        {
+          "minutes": 60,
+          "title": "同主题阅读",
+          "instruction": "以未做过的 TOPIK II 官方公开题为主，精读错题对应段落；新词优先选高频遗漏词，不追求偏词数量。"
+        },
+        {
+          "minutes": 60,
+          "title": "完整表达",
+          "instruction": "限时写作并核对题目要求；用 1 分钟口头概括、150 字摘要和完整论证三种方式表达同一内容。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 165,
+      "month": 6,
+      "lessonId": "c33",
+      "topic": "政策、效率与公平",
+      "title": "复习与检查",
+      "newWords": 0,
+      "newSentences": 0,
+      "cumulativeWords": 5600,
+      "cumulativeSentences": 7300,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "主动回忆",
+          "instruction": "不看中文回忆本周期词句；抽测隔天、3 天、7 天前学过的内容，记录正确率。"
+        },
+        {
+          "minutes": 60,
+          "title": "听写与回听",
+          "instruction": "隐藏韩文听写本关，再对照原文定位听不出的音节；回听完整句确认。"
+        },
+        {
+          "minutes": 60,
+          "title": "综合输出",
+          "instruction": "限时写作并核对题目要求；用 1 分钟口头概括、150 字摘要和完整论证三种方式表达同一内容。"
+        },
+        {
+          "minutes": 60,
+          "title": "纠错与调整",
+          "instruction": "只复习，不增加词句配额。检查译义、助词、时态与衔接；回忆正确率低于 80% 时，把下一周期新内容减半。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 166,
+      "month": 6,
+      "lessonId": "c34",
+      "topic": "反论、让步与回应",
+      "title": "听懂与拆解",
+      "newWords": 33,
+      "newSentences": 58,
+      "cumulativeWords": 5633,
+      "cumulativeSentences": 7358,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 45,
+          "title": "听原音",
+          "instruction": "完整听本关，再逐句重听；先判断谁对谁说、想表达什么。"
+        },
+        {
+          "minutes": 90,
+          "title": "词句理解",
+          "instruction": "逐个点开句子拆解，辨认原形、助词、时态与语尾；结合词典记录新词的本句义。"
+        },
+        {
+          "minutes": 45,
+          "title": "同主题输入",
+          "instruction": "以未做过的 TOPIK II 官方公开题为主，精读错题对应段落；新词优先选高频遗漏词，不追求偏词数量。"
+        },
+        {
+          "minutes": 60,
+          "title": "换角色回应",
+          "instruction": "限时写作并核对题目要求；用 1 分钟口头概括、150 字摘要和完整论证三种方式表达同一内容。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 167,
+      "month": 6,
+      "lessonId": "c34",
+      "topic": "反论、让步与回应",
+      "title": "模仿与词形",
+      "newWords": 33,
+      "newSentences": 58,
+      "cumulativeWords": 5666,
+      "cumulativeSentences": 7416,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "跟读",
+          "instruction": "以 SunHi 完整句音频为准，分短语跟读，再恢复正常速度；重点模仿停顿、收音与连读。"
+        },
+        {
+          "minutes": 80,
+          "title": "词汇与搭配",
+          "instruction": "从同主题材料补充新词；每个词连同一个自然句子学习，不用只背孤立中文义。"
+        },
+        {
+          "minutes": 50,
+          "title": "句式变化",
+          "instruction": "沿用本关语法，变化人称、时间与肯否；对照来源核对变化是否自然。"
+        },
+        {
+          "minutes": 50,
+          "title": "口头与书面回应",
+          "instruction": "限时写作并核对题目要求；用 1 分钟口头概括、150 字摘要和完整论证三种方式表达同一内容。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 168,
+      "month": 6,
+      "lessonId": "c34",
+      "topic": "反论、让步与回应",
+      "title": "精听与扩展",
+      "newWords": 34,
+      "newSentences": 59,
+      "cumulativeWords": 5700,
+      "cumulativeSentences": 7475,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 40,
+          "title": "短句听写",
+          "instruction": "隐藏中文和拆解，听写本关；逐句核对助词、收音和词形。"
+        },
+        {
+          "minutes": 80,
+          "title": "平行对话",
+          "instruction": "学习同主题的新对话，逐句对照释义；把熟悉句型在新场景中的用法记下来。"
+        },
+        {
+          "minutes": 60,
+          "title": "阅读与概括",
+          "instruction": "以未做过的 TOPIK II 官方公开题为主，精读错题对应段落；新词优先选高频遗漏词，不追求偏词数量。"
+        },
+        {
+          "minutes": 60,
+          "title": "复述与改写",
+          "instruction": "限时写作并核对题目要求；用 1 分钟口头概括、150 字摘要和完整论证三种方式表达同一内容。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 169,
+      "month": 6,
+      "lessonId": "c34",
+      "topic": "反论、让步与回应",
+      "title": "迁移与输出",
+      "newWords": 33,
+      "newSentences": 58,
+      "cumulativeWords": 5733,
+      "cumulativeSentences": 7533,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "脱稿听说",
+          "instruction": "不看原文复述对话，再换一个角色回答；忘记时先回听完整句子。"
+        },
+        {
+          "minutes": 60,
+          "title": "新词与旧词对比",
+          "instruction": "补齐当天新词目标，同时区分近义词、搭配对象、语体和常见助词。"
+        },
+        {
+          "minutes": 60,
+          "title": "同主题阅读",
+          "instruction": "以未做过的 TOPIK II 官方公开题为主，精读错题对应段落；新词优先选高频遗漏词，不追求偏词数量。"
+        },
+        {
+          "minutes": 60,
+          "title": "完整表达",
+          "instruction": "限时写作并核对题目要求；用 1 分钟口头概括、150 字摘要和完整论证三种方式表达同一内容。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 170,
+      "month": 6,
+      "lessonId": "c34",
+      "topic": "反论、让步与回应",
+      "title": "限时测评与复盘",
+      "newWords": 0,
+      "newSentences": 0,
+      "cumulativeWords": 5733,
+      "cumulativeSentences": 7533,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 180,
+          "title": "第一次完整检验",
+          "instruction": "在第 170、180 天分别做不同的完整 TOPIK II 纸笔卷，训练目标两次达到 240/300 以上，含得到反馈的写作分。官方 6 级线为 230/300；一次练习达标不等于考试保证。"
+        },
+        {
+          "minutes": 60,
+          "title": "核对、归因与下阶段调整",
+          "instruction": "逐项记录证据和薄弱点；客观题按官方答案核对，作文等待按评分标准的反馈。若未达到本月训练目标，先补短板，再调整进度。"
+        }
+      ],
+      "assessment": "在第 170、180 天分别做不同的完整 TOPIK II 纸笔卷，训练目标两次达到 240/300 以上，含得到反馈的写作分。官方 6 级线为 230/300；一次练习达标不等于考试保证。"
+    },
+    {
+      "day": 171,
+      "month": 6,
+      "lessonId": "c35",
+      "topic": "研究、引用与责任",
+      "title": "听懂与拆解",
+      "newWords": 33,
+      "newSentences": 58,
+      "cumulativeWords": 5766,
+      "cumulativeSentences": 7591,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 45,
+          "title": "听原音",
+          "instruction": "完整听本关，再逐句重听；先判断谁对谁说、想表达什么。"
+        },
+        {
+          "minutes": 90,
+          "title": "词句理解",
+          "instruction": "逐个点开句子拆解，辨认原形、助词、时态与语尾；结合词典记录新词的本句义。"
+        },
+        {
+          "minutes": 45,
+          "title": "同主题输入",
+          "instruction": "以未做过的 TOPIK II 官方公开题为主，精读错题对应段落；新词优先选高频遗漏词，不追求偏词数量。"
+        },
+        {
+          "minutes": 60,
+          "title": "换角色回应",
+          "instruction": "限时写作并核对题目要求；用 1 分钟口头概括、150 字摘要和完整论证三种方式表达同一内容。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 172,
+      "month": 6,
+      "lessonId": "c35",
+      "topic": "研究、引用与责任",
+      "title": "模仿与词形",
+      "newWords": 34,
+      "newSentences": 59,
+      "cumulativeWords": 5800,
+      "cumulativeSentences": 7650,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "跟读",
+          "instruction": "以 SunHi 完整句音频为准，分短语跟读，再恢复正常速度；重点模仿停顿、收音与连读。"
+        },
+        {
+          "minutes": 80,
+          "title": "词汇与搭配",
+          "instruction": "从同主题材料补充新词；每个词连同一个自然句子学习，不用只背孤立中文义。"
+        },
+        {
+          "minutes": 50,
+          "title": "句式变化",
+          "instruction": "沿用本关语法，变化人称、时间与肯否；对照来源核对变化是否自然。"
+        },
+        {
+          "minutes": 50,
+          "title": "口头与书面回应",
+          "instruction": "限时写作并核对题目要求；用 1 分钟口头概括、150 字摘要和完整论证三种方式表达同一内容。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 173,
+      "month": 6,
+      "lessonId": "c35",
+      "topic": "研究、引用与责任",
+      "title": "精听与扩展",
+      "newWords": 33,
+      "newSentences": 58,
+      "cumulativeWords": 5833,
+      "cumulativeSentences": 7708,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 40,
+          "title": "短句听写",
+          "instruction": "隐藏中文和拆解，听写本关；逐句核对助词、收音和词形。"
+        },
+        {
+          "minutes": 80,
+          "title": "平行对话",
+          "instruction": "学习同主题的新对话，逐句对照释义；把熟悉句型在新场景中的用法记下来。"
+        },
+        {
+          "minutes": 60,
+          "title": "阅读与概括",
+          "instruction": "以未做过的 TOPIK II 官方公开题为主，精读错题对应段落；新词优先选高频遗漏词，不追求偏词数量。"
+        },
+        {
+          "minutes": 60,
+          "title": "复述与改写",
+          "instruction": "限时写作并核对题目要求；用 1 分钟口头概括、150 字摘要和完整论证三种方式表达同一内容。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 174,
+      "month": 6,
+      "lessonId": "c35",
+      "topic": "研究、引用与责任",
+      "title": "迁移与输出",
+      "newWords": 33,
+      "newSentences": 58,
+      "cumulativeWords": 5866,
+      "cumulativeSentences": 7766,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "脱稿听说",
+          "instruction": "不看原文复述对话，再换一个角色回答；忘记时先回听完整句子。"
+        },
+        {
+          "minutes": 60,
+          "title": "新词与旧词对比",
+          "instruction": "补齐当天新词目标，同时区分近义词、搭配对象、语体和常见助词。"
+        },
+        {
+          "minutes": 60,
+          "title": "同主题阅读",
+          "instruction": "以未做过的 TOPIK II 官方公开题为主，精读错题对应段落；新词优先选高频遗漏词，不追求偏词数量。"
+        },
+        {
+          "minutes": 60,
+          "title": "完整表达",
+          "instruction": "限时写作并核对题目要求；用 1 分钟口头概括、150 字摘要和完整论证三种方式表达同一内容。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 175,
+      "month": 6,
+      "lessonId": "c35",
+      "topic": "研究、引用与责任",
+      "title": "复习与检查",
+      "newWords": 0,
+      "newSentences": 0,
+      "cumulativeWords": 5866,
+      "cumulativeSentences": 7766,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "主动回忆",
+          "instruction": "不看中文回忆本周期词句；抽测隔天、3 天、7 天前学过的内容，记录正确率。"
+        },
+        {
+          "minutes": 60,
+          "title": "听写与回听",
+          "instruction": "隐藏韩文听写本关，再对照原文定位听不出的音节；回听完整句确认。"
+        },
+        {
+          "minutes": 60,
+          "title": "综合输出",
+          "instruction": "限时写作并核对题目要求；用 1 分钟口头概括、150 字摘要和完整论证三种方式表达同一内容。"
+        },
+        {
+          "minutes": 60,
+          "title": "纠错与调整",
+          "instruction": "只复习，不增加词句配额。检查译义、助词、时态与衔接；回忆正确率低于 80% 时，把下一周期新内容减半。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 176,
+      "month": 6,
+      "lessonId": "c36",
+      "topic": "篇章、衔接与文体",
+      "title": "听懂与拆解",
+      "newWords": 34,
+      "newSentences": 59,
+      "cumulativeWords": 5900,
+      "cumulativeSentences": 7825,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 45,
+          "title": "听原音",
+          "instruction": "完整听本关，再逐句重听；先判断谁对谁说、想表达什么。"
+        },
+        {
+          "minutes": 90,
+          "title": "词句理解",
+          "instruction": "逐个点开句子拆解，辨认原形、助词、时态与语尾；结合词典记录新词的本句义。"
+        },
+        {
+          "minutes": 45,
+          "title": "同主题输入",
+          "instruction": "以未做过的 TOPIK II 官方公开题为主，精读错题对应段落；新词优先选高频遗漏词，不追求偏词数量。"
+        },
+        {
+          "minutes": 60,
+          "title": "换角色回应",
+          "instruction": "限时写作并核对题目要求；用 1 分钟口头概括、150 字摘要和完整论证三种方式表达同一内容。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 177,
+      "month": 6,
+      "lessonId": "c36",
+      "topic": "篇章、衔接与文体",
+      "title": "模仿与词形",
+      "newWords": 33,
+      "newSentences": 58,
+      "cumulativeWords": 5933,
+      "cumulativeSentences": 7883,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "跟读",
+          "instruction": "以 SunHi 完整句音频为准，分短语跟读，再恢复正常速度；重点模仿停顿、收音与连读。"
+        },
+        {
+          "minutes": 80,
+          "title": "词汇与搭配",
+          "instruction": "从同主题材料补充新词；每个词连同一个自然句子学习，不用只背孤立中文义。"
+        },
+        {
+          "minutes": 50,
+          "title": "句式变化",
+          "instruction": "沿用本关语法，变化人称、时间与肯否；对照来源核对变化是否自然。"
+        },
+        {
+          "minutes": 50,
+          "title": "口头与书面回应",
+          "instruction": "限时写作并核对题目要求；用 1 分钟口头概括、150 字摘要和完整论证三种方式表达同一内容。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 178,
+      "month": 6,
+      "lessonId": "c36",
+      "topic": "篇章、衔接与文体",
+      "title": "精听与扩展",
+      "newWords": 33,
+      "newSentences": 58,
+      "cumulativeWords": 5966,
+      "cumulativeSentences": 7941,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 40,
+          "title": "短句听写",
+          "instruction": "隐藏中文和拆解，听写本关；逐句核对助词、收音和词形。"
+        },
+        {
+          "minutes": 80,
+          "title": "平行对话",
+          "instruction": "学习同主题的新对话，逐句对照释义；把熟悉句型在新场景中的用法记下来。"
+        },
+        {
+          "minutes": 60,
+          "title": "阅读与概括",
+          "instruction": "以未做过的 TOPIK II 官方公开题为主，精读错题对应段落；新词优先选高频遗漏词，不追求偏词数量。"
+        },
+        {
+          "minutes": 60,
+          "title": "复述与改写",
+          "instruction": "限时写作并核对题目要求；用 1 分钟口头概括、150 字摘要和完整论证三种方式表达同一内容。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 179,
+      "month": 6,
+      "lessonId": "c36",
+      "topic": "篇章、衔接与文体",
+      "title": "迁移与输出",
+      "newWords": 34,
+      "newSentences": 59,
+      "cumulativeWords": 6000,
+      "cumulativeSentences": 8000,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 60,
+          "title": "脱稿听说",
+          "instruction": "不看原文复述对话，再换一个角色回答；忘记时先回听完整句子。"
+        },
+        {
+          "minutes": 60,
+          "title": "新词与旧词对比",
+          "instruction": "补齐当天新词目标，同时区分近义词、搭配对象、语体和常见助词。"
+        },
+        {
+          "minutes": 60,
+          "title": "同主题阅读",
+          "instruction": "以未做过的 TOPIK II 官方公开题为主，精读错题对应段落；新词优先选高频遗漏词，不追求偏词数量。"
+        },
+        {
+          "minutes": 60,
+          "title": "完整表达",
+          "instruction": "限时写作并核对题目要求；用 1 分钟口头概括、150 字摘要和完整论证三种方式表达同一内容。"
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "day": 180,
+      "month": 6,
+      "lessonId": "c36",
+      "topic": "篇章、衔接与文体",
+      "title": "限时测评与复盘",
+      "newWords": 0,
+      "newSentences": 0,
+      "cumulativeWords": 6000,
+      "cumulativeSentences": 8000,
+      "minutes": 240,
+      "tasks": [
+        {
+          "minutes": 180,
+          "title": "月末测评",
+          "instruction": "在第 170、180 天分别做不同的完整 TOPIK II 纸笔卷，训练目标两次达到 240/300 以上，含得到反馈的写作分。官方 6 级线为 230/300；一次练习达标不等于考试保证。"
+        },
+        {
+          "minutes": 60,
+          "title": "核对、归因与下阶段调整",
+          "instruction": "逐项记录证据和薄弱点；客观题按官方答案核对，作文等待按评分标准的反馈。若未达到本月训练目标，先补短板，再调整进度。"
+        }
+      ],
+      "assessment": "在第 170、180 天分别做不同的完整 TOPIK II 纸笔卷，训练目标两次达到 240/300 以上，含得到反馈的写作分。官方 6 级线为 230/300；一次练习达标不等于考试保证。"
+    }
+  ],
+  "months": [
+    {
+      "month": 1,
+      "startDay": 1,
+      "endDay": 30,
+      "title": "拼读、基础句式与生活表达",
+      "words": 800,
+      "sentences": 1000,
+      "focus": [
+        "字母与问候",
+        "国籍、主格与宾格",
+        "指示、所属与存在",
+        "数字、量词与点单",
+        "位置、距离与收音",
+        "时刻、约定与连音"
+      ],
+      "skills": "能自己拼读陌生的韩文音节，完成自我介绍、问路、点单和约时间。",
+      "reading": "世宗学堂入门或初级教材中的同主题短对话；先听音，再核对文字和释义。",
+      "output": "用本日句型写 6–10 句自己的话，并交换角色朗读。前 7 天把其中 30 分钟用于字母组合和听写。",
+      "checkpoint": "随机听写 20 个已学音节，目标至少 18 个正确；不看稿完成 60 秒自我介绍；抽查 30 个已学词，隔天仍能回忆至少 24 个。",
+      "examMinutes": 60
+    },
+    {
+      "month": 2,
+      "startDay": 31,
+      "endDay": 60,
+      "title": "熟悉日常对话，稳固 TOPIK I 基础",
+      "words": 1800,
+      "sentences": 2200,
+      "focus": [
+        "餐饮、敬语与请求",
+        "购物、进行时与尝试",
+        "交通、条件与必要",
+        "约定、比较与承诺",
+        "天气、否定与转述",
+        "症状、过去与起点"
+      ],
+      "skills": "听懂生活对话的时间、地点、人物和需求，能连续讲述一段日常经历。",
+      "reading": "世宗学堂初级对话与 TOPIK I 官方公开练习中的通知、广告、生活短文。",
+      "output": "围绕同一情境自编 8–12 轮对话；将现在时改成过去时、肯定改成否定；写 80–120 韩文字的生活记录。",
+      "checkpoint": "完成一套未做过的 TOPIK I 纸笔公开试题，按官方答案核对听力与阅读，训练目标 160/200；逐题解释错误原因。",
+      "examMinutes": 100
+    },
+    {
+      "month": 3,
+      "startDay": 61,
+      "endDay": 90,
+      "title": "经历、理由与长句，进入 TOPIK II",
+      "words": 3000,
+      "sentences": 3800,
+      "focus": [
+        "经历叙述与不规则变化",
+        "计划、愿望与让步",
+        "兴趣、选择与经历句型",
+        "邀请、推测与理由",
+        "比较、建议与名词化",
+        "问题处理、被动与先后"
+      ],
+      "skills": "能把时间、原因、条件和结果串成段落，区分敬语、口语与书面表达。",
+      "reading": "世宗学堂中级同主题对话及 TOPIK II 短篇阅读；先标出主句，再找修饰语与连接词。",
+      "output": "把对话改写为 150–250 韩文字的叙述；每次用 3 种已学连接语尾；开始练习 TOPIK II 写作填空与图表说明。",
+      "checkpoint": "完成 TOPIK II 纸笔公开卷的听力、阅读与写作；训练目标总分 120/300。写作按官方尺度请合格韩语教师反馈，未批改时不声称总分达标。",
+      "examMinutes": 180
+    },
+    {
+      "month": 4,
+      "startDay": 91,
+      "endDay": 120,
+      "title": "社会情境、信息核实与概括",
+      "words": 4200,
+      "sentences": 5200,
+      "focus": [
+        "居住、愿望与取舍",
+        "校园讨论与任务分工",
+        "职场、期限与协商",
+        "邮寄、意图与是否",
+        "新闻、间接疑问与推测",
+        "社区讨论与转述建议"
+      ],
+      "skills": "能读懂多层修饰句，区分事实、看法与推测，并用自己的话概括信息。",
+      "reading": "世宗学堂中级材料与 TOPIK II 说明类短文；每篇标出主题句、关键词和指代对象。",
+      "output": "将对话改成 200–300 韩文字的说明；先写事实，再写原因与建议；每周完整练一篇图表说明。",
+      "checkpoint": "完成一套未做过的 TOPIK II 纸笔卷，训练目标 150/300；把错题按词汇、语法、主旨、推断与时间不足归因。写作需要外部反馈。",
+      "examMinutes": 180
+    },
+    {
+      "month": 5,
+      "startDay": 121,
+      "endDay": 150,
+      "title": "抽象观点、让步与论证",
+      "words": 5200,
+      "sentences": 6600,
+      "focus": [
+        "环保、制度与代价",
+        "隐私、限制与否定推论",
+        "教育、机会与结果",
+        "老龄化、责任与可持续性",
+        "文化、概括与例外",
+        "工作、条件与政策效果"
+      ],
+      "skills": "能比较正反观点，识别论据能支持的范围，写出有让步、有回应的论证。",
+      "reading": "TOPIK II 观点类阅读和世宗学堂高级材料；每次用中文确认逻辑，再用韩语概括。",
+      "output": "同一话题各写一段支持与反对意见，再整理为 600–700 韩文字的论证；每周至少一篇请教师依据评分标准批改。",
+      "checkpoint": "完成一套未做过的 TOPIK II 纸笔卷，训练目标 190/300；复盘写作内容完整性、篇章结构、词汇语法。不得把自己估计的作文分当作实测成绩。",
+      "examMinutes": 180
+    },
+    {
+      "month": 6,
+      "startDay": 151,
+      "endDay": 180,
+      "title": "综合运用、限时训练与 TOPIK 6 检验",
+      "words": 6000,
+      "sentences": 8000,
+      "focus": [
+        "图表、百分比与百分点",
+        "相关、因果与限定表达",
+        "政策、效率与公平",
+        "反论、让步与回应",
+        "研究、引用与责任",
+        "篇章、衔接与文体"
+      ],
+      "skills": "在考试时间内完成听力、阅读与写作；能读懂较复杂观点并保持书面语体一致。",
+      "reading": "以未做过的 TOPIK II 官方公开题为主，精读错题对应段落；新词优先选高频遗漏词，不追求偏词数量。",
+      "output": "限时写作并核对题目要求；用 1 分钟口头概括、150 字摘要和完整论证三种方式表达同一内容。",
+      "checkpoint": "在第 170、180 天分别做不同的完整 TOPIK II 纸笔卷，训练目标两次达到 240/300 以上，含得到反馈的写作分。官方 6 级线为 230/300；一次练习达标不等于考试保证。",
+      "examMinutes": 180
+    }
+  ],
+  "totalDays": 180,
+  "dailyMinutes": 240,
+  "totalHours": 720,
+  "inventoryNote": "日程以站内 36 段对话作精读锚点，并配合同主题官方学习材料与公开题扩展。6,000 词条、8,000 个不同句子是学习输入目标，包含站外材料；不是站内已经收录的数量，也不是 TOPIK 官方门槛。",
+  "retentionRule": "每 5 天安排一天复习。复习同一句不增加独立句数；同一词形的屈折变化不重复计算词条。隔天回忆低于 80% 时减少新内容，不为了完成数量跳过理解。",
+  "sources": [
+    {
+      "label": "国立国语院韩中词典",
+      "url": "https://krdict.korean.go.kr/"
+    },
+    {
+      "label": "世宗学堂学习平台",
+      "url": "https://nuri.iksi.or.kr/"
+    },
+    {
+      "label": "TOPIK 官方网站与公开学习资料",
+      "url": "https://www.topik.go.kr/"
+    },
+    {
+      "label": "NIIED 官方考试说明",
+      "url": "https://www.niied.go.kr/web/NIIED/contents/niiedEng/eng_topikOverview"
+    }
+  ]
+}

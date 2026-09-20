@@ -19,7 +19,11 @@ def call(body=None,user=USER,origin=BASE,expected=200):
 def passed(name): checks.append(name)
 call(user=None,expected=401);call({'action':'select','lessonId':'c01'},user=None,expected=401);passed('anonymous reads and writes rejected')
 call({'action':'select','lessonId':'c01'},origin='https://invalid.example',expected=403);passed('cross-origin write rejected')
-call({'action':'select','lessonId':'c02'},expected=403);passed('locked lesson enforced on server')
+result=call({'action':'select','lessonId':'c36'})
+assert result['currentLesson']=='c36' and all(r['completed_at'] is None for r in result['rows'])
+call({'action':'read','lessonId':'c36','lineIndex':0})
+call({'action':'select','lessonId':'c07'})
+passed('fresh account freely selects and studies advanced lessons without prerequisites')
 call({'action':'read','lessonId':'c01','lineIndex':4},expected=409);passed('unread dialogue cannot be skipped')
 call({'action':'complete','lessonId':'c01','answers':[0,1]},expected=409);passed('unread lesson cannot be completed')
 call({'action':'read','lessonId':'c01','lineIndex':31},expected=400);passed('invalid requests rejected')
@@ -29,7 +33,7 @@ for n,lesson in enumerate(LESSONS):
     if n==0:
         call({'action':'complete','lessonId':lesson['id'],'answers':[2,2]},expected=422)
         assert call()['rows'][0]['completed_at'] is None
-        passed('wrong answer does not unlock lesson')
+        passed('wrong answer does not mark lesson completed')
     payload={'action':'complete','lessonId':lesson['id'],'answers':[n%3,(n+1)%3]}
     result=call(payload)
     record=next(r for r in result['rows'] if r['lesson_id']==lesson['id'])
@@ -37,7 +41,7 @@ for n,lesson in enumerate(LESSONS):
     duplicate=call(payload)
     row2=next(r for r in duplicate['rows'] if r['lesson_id']==lesson['id'])
     assert record['next_review_at']==row2['next_review_at'] and record['review_step']==row2['review_step']
-passed('all 36 lessons save, assess, unlock, and resume')
+passed('all 36 freely selectable lessons save, assess, and resume')
 passed('duplicate completion does not inflate review schedule')
 assert len(call()['rows'])==36 and call()['currentLesson']=='c36'
 assert call(user=USER+'_other')['rows']==[];passed('two user identities have isolated progress')
@@ -65,6 +69,6 @@ call({'action':'read','lessonId':'c01','lineIndex':0})
 row=next(r for r in call()['rows'] if r['lesson_id']=='c01')
 assert row['read_mask']==63 and row['completed_at'] and row['review_step']==1
 passed('replay from another session preserves all earned progress')
-report={'scope':'local built production Worker with local D1; not a live phone/desktop test','passed':len(checks),'checks':checks,'browserQA':'unavailable: CUA localhost navigation blocked','webMCPQA':'unavailable: no supported browser context'}
+report={'scope':'local built production Worker with local D1; not a live phone/desktop test','passed':len(checks),'checks':checks,'browserQA':'see docs/browser-qa.json','webMCPQA':'see docs/browser-qa.json'}
 (ROOT/'docs/progress-tests.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
 print(json.dumps(report,ensure_ascii=False,indent=2))

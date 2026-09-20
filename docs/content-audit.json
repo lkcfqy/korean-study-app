@@ -3,14 +3,24 @@
   "dialogueRows": 216,
   "uniqueSentences": 216,
   "uniqueCoreEntries": 472,
+  "annotatedSentences": 216,
+  "annotatedParts": 1051,
+  "annotationCoverage": "every source character and word in original order; editorial explanations, not automatic token guesses",
+  "studyPlanDays": 180,
+  "studyPlanHours": 720,
+  "inputTargets": {
+    "words": 6000,
+    "sentences": 8000,
+    "includesExternalMaterials": true
+  },
   "voice": "ko-KR-SunHiNeural",
   "audioFiles": 729,
   "requiredAudioReferences": 727,
   "audioDurationSeconds": 1743.58,
   "missingAudio": 0,
   "structuralValidation": "passed",
-  "semanticReview": "author self-review only; no independent bilingual review",
+  "semanticReview": "all 216 dialogue translations and 1051 segment explanations reviewed by author; four contextual translations corrected; not an independent bilingual certification",
   "audioListeningReview": "not performed",
-  "mobileDeviceQA": "pending",
-  "fullSixMonthCurriculum": "not complete"
+  "mobileDeviceQA": "390x844 browser viewport passed; physical device not tested",
+  "fullSixMonthCurriculum": "180-day schedule complete; input target inventory requires specified external materials; site contains 216 unique sentences"
 }
