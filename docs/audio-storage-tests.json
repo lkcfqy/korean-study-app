@@ -1,0 +1,26 @@
+{
+  "scope": "local production Worker and R2",
+  "checks": [
+    "unauthenticated import rejected",
+    "cross origin import rejected",
+    "non-matching bytes rejected",
+    "import and idempotent retry read-back verified",
+    "full original MP3 bytes served",
+    "prefix byte range",
+    "suffix byte range",
+    "out of range rejected",
+    "conditional request",
+    "HEAD metadata",
+    "full original MP3 bytes served",
+    "prefix byte range",
+    "suffix byte range",
+    "out of range rejected",
+    "conditional request",
+    "HEAD metadata",
+    "missing audio 404",
+    "invalid filename 404"
+  ],
+  "passed": 18,
+  "voice": "ko-KR-SunHiNeural",
+  "originalBytesPreserved": true
+}
