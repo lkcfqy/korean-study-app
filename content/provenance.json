@@ -1,0 +1,22 @@
+{
+  "source": "National Institute of Korean Language, Korean Basic Dictionary",
+  "sourceDate": "2023-09-01",
+  "mirror": "https://github.com/71/study-korean/blob/master/data/kodict.zip",
+  "license": "https://creativecommons.org/licenses/by-sa/2.0/kr/",
+  "archiveSha256": "37923a593c019dd3d44ac7ffebdbf551f999cbc66876d2bafdfcded4013773ab",
+  "entries": 53170,
+  "dialogues": 59888,
+  "levels": {
+    "없음": 42142,
+    "중급": 3981,
+    "고급": 5105,
+    "초급": 1942
+  },
+  "scope": "Dictionary Chinese senses are source translations. Dialogue Chinese translations are not in the source.",
+  "author": "National Institute of Korean Language (국립국어원)",
+  "copyrightPolicy": "https://krdict.korean.go.kr/kor/kboardPolicy/copyRightTermsInfo",
+  "courseModifications": "Selection and ordering; Chinese sentence translation and AI editorial correction; morphological annotations; 180-day allocation; comprehension questions.",
+  "sourceAudioUsed": false,
+  "courseTextLicense": "CC BY-SA 2.0 KR",
+  "sentenceTranslationIsOfficial": false
+}

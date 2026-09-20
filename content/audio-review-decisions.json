@@ -1,0 +1,157 @@
+{
+  "네, 다섯 시 오 분입니다.": {
+    "recognized": "네, 5시 5분입니다.",
+    "reason": "Digits represent the correct mixed native-hour and Sino-minute readings.",
+    "method": "AI review of transcript orthography and Korean phonological equivalence; not human listening"
+  },
+  "그거 지수 가방 아냐?": {
+    "recognized": "그거 지수 가방 아니야?",
+    "reason": "ASR expands contracted 아냐 to 아니야.",
+    "method": "AI review of transcript orthography and Korean phonological equivalence; not human listening"
+  },
+  "너 지금 내 말이 우습니?": {
+    "recognized": "너 지금 내 말이 웃음니?",
+    "reason": "우습니 has nasal assimilation before 니; ASR alternative spelling represents the same syllables.",
+    "method": "AI review of transcript orthography and Korean phonological equivalence; not human listening"
+  },
+  "무를 뽑으신다고 밭에 가셨어요.": {
+    "recognized": "물을 뽑으신다고 밭에 가셨어요.",
+    "reason": "무를 and 물을 are both pronounced 무를 under liaison.",
+    "method": "AI review of transcript orthography and Korean phonological equivalence; not human listening"
+  },
+  "네. 몇 포기나 사 올까요?": {
+    "recognized": "네, 몇 폭이나 사올까요?",
+    "reason": "포기 and 폭이 share the phonetic reading 포기.",
+    "method": "AI review of transcript orthography and Korean phonological equivalence; not human listening"
+  },
+  "너희 집은 장을 직접 담그니?": {
+    "recognized": "너희 지분장을 직접 담그니?",
+    "reason": "집은 장 becomes 지븐 장 under liaison; ASR respacing.",
+    "method": "AI review of transcript orthography and Korean phonological equivalence; not human listening"
+  },
+  "극을 잘못 끼운 거 아냐?": {
+    "recognized": "극을 잘못 끼운 거 아니야?",
+    "reason": "ASR expands 아냐 to 아니야.",
+    "method": "AI review of transcript orthography and Korean phonological equivalence; not human listening"
+  },
+  "네, 맞힌 인형은 가져가시면 돼요.": {
+    "recognized": "네, 마친 인형은 가져가시면 돼요.",
+    "reason": "맞힌 and 마친 both pronounced 마친.",
+    "method": "AI review of transcript orthography and Korean phonological equivalence; not human listening"
+  },
+  "다 익었나 확인해 보려고 그랬어.": {
+    "recognized": "다 이건나 확인해 보려고 그랬어",
+    "reason": "익었나 is pronounced 이건나 under liaison and nasal assimilation.",
+    "method": "AI review of transcript orthography and Korean phonological equivalence; not human listening"
+  },
+  "봤어? 내가 골을 넣었어!": {
+    "recognized": "봤어. 내가 고를 넣었어.",
+    "reason": "골을 pronounced 고를; ASR respelling.",
+    "method": "AI review of transcript orthography and Korean phonological equivalence; not human listening"
+  },
+  "뭘요. 대단한 일도 아니에요.": {
+    "recognized": "머료 대단한 일도 아니에요?",
+    "reason": "뭘요 is pronounced 뭐료; ASR respelling.",
+    "method": "AI review of transcript orthography and Korean phonological equivalence; not human listening"
+  },
+  "아냐, 나도 많이 늙었어.": {
+    "recognized": "아니야 나도 많이 늙었어.",
+    "reason": "ASR expands 아냐 to 아니야.",
+    "method": "AI review of transcript orthography and Korean phonological equivalence; not human listening"
+  },
+  "안 좋은 일이 잇달아 생기네.": {
+    "recognized": "안 좋은 일이 잇따라 생기네.",
+    "reason": "잇달아 and 잇따라 share the reading 읻따라.",
+    "method": "AI review of transcript orthography and Korean phonological equivalence; not human listening"
+  },
+  "어, 유민아 출근길이야?": {
+    "recognized": "어, 유미나 출근길이야.",
+    "reason": "유민아 is pronounced 유미나 under liaison.",
+    "method": "AI review of transcript orthography and Korean phonological equivalence; not human listening"
+  },
+  "어디서 삐끗한 거 아냐?": {
+    "recognized": "어디서 삐끗한 거 아니야?",
+    "reason": "ASR expands 아냐 to 아니야.",
+    "method": "AI review of transcript orthography and Korean phonological equivalence; not human listening"
+  },
+  "어떡해! 옷에 음료수를 흘렸어요.": {
+    "recognized": "어떻게 옷에 음료수를 흘렸어요?",
+    "reason": "어떡해 and 어떻게 share the reading 어떠케.",
+    "method": "AI review of transcript orthography and Korean phonological equivalence; not human listening"
+  },
+  "어디에 빠뜨린 거 아냐?": {
+    "recognized": "어디에 빠뜨린 거 아니야?",
+    "reason": "ASR expands 아냐 to 아니야.",
+    "method": "AI review of transcript orthography and Korean phonological equivalence; not human listening"
+  },
+  "와! 크리스마스트리다!": {
+    "recognized": "와, 크리스마스 틀이다.",
+    "reason": "트리다 and 틀이다 share the reading 트리다.",
+    "method": "AI review of transcript orthography and Korean phonological equivalence; not human listening"
+  },
+  "요즘은 비수기라 얼마 안 해요.": {
+    "recognized": "요즘은 비숙이라 얼마 안해요.",
+    "reason": "비수기라 and 비숙이라 share the reading 비수기라.",
+    "method": "AI review of transcript orthography and Korean phonological equivalence; not human listening"
+  },
+  "유가 급락 소식 들었어?": {
+    "recognized": "육아 급락 소식 들었어?",
+    "reason": "유가 and 육아 share the reading 유가 under liaison.",
+    "method": "AI review of transcript orthography and Korean phonological equivalence; not human listening"
+  },
+  "응, 듣는데 등골이 싸늘하더라.": {
+    "recognized": "응 듣는데 등꼬리 싸늘하더라",
+    "reason": "등골이 has the accepted tense reading 등꼬리.",
+    "method": "AI review of transcript orthography and Korean phonological equivalence; not human listening"
+  },
+  "응, 카레 가루를 발라서 구운 거야.": {
+    "recognized": "응, 칼에 가루를 발라서 구운 거야?",
+    "reason": "카레 and 칼에 share the reading 카레.",
+    "method": "AI review of transcript orthography and Korean phonological equivalence; not human listening"
+  },
+  "이십. 그럼 모두 스무 개인 거지?": {
+    "recognized": "20 그럼 모두 20개인 거지?",
+    "reason": "ASR digits correctly represent Sino 이십 and native 스무 in different positions.",
+    "method": "AI review of transcript orthography and Korean phonological equivalence; not human listening"
+  },
+  "잔돈은 그냥 괜찮으니 가지세요.": {
+    "recognized": "잔도는 그냥 괜찮으니 가지세요.",
+    "reason": "잔돈은 is pronounced 잔도는 under liaison.",
+    "method": "AI review of transcript orthography and Korean phonological equivalence; not human listening"
+  },
+  "저 산은 현재도 활동 중이에요.": {
+    "recognized": "저사는 현재도 활동 중이에요.",
+    "reason": "저 산은 is pronounced 저 사는 under liaison.",
+    "method": "AI review of transcript orthography and Korean phonological equivalence; not human listening"
+  },
+  "저도요. 담에 또 봅시다.": {
+    "recognized": "저도요. 다음에 또 봅시다.",
+    "reason": "ASR expands the colloquial contraction 담에 to 다음에.",
+    "method": "AI review of transcript orthography and Korean phonological equivalence; not human listening"
+  },
+  "조금 이따가 치울게.": {
+    "recognized": "조금 있다가 치울게.",
+    "reason": "이따가 and 있다가 share the reading 이따가.",
+    "method": "AI review of transcript orthography and Korean phonological equivalence; not human listening"
+  },
+  "지수 꿈이 비행기 조종사라고?": {
+    "recognized": "지수꾸미 비행기 조종사라고?",
+    "reason": "꿈이 is pronounced 꾸미 under liaison.",
+    "method": "AI review of transcript orthography and Korean phonological equivalence; not human listening"
+  },
+  "큰집에 차례 드리러 가요.": {
+    "recognized": "큰 집에 차례 들이러 가요.",
+    "reason": "드리러 and 들이러 share the reading 드리러.",
+    "method": "AI review of transcript orthography and Korean phonological equivalence; not human listening"
+  },
+  "학교 끝나고 더러 가기도 해.": {
+    "recognized": "학교 끝나고 덜어 가기도 해.",
+    "reason": "더러 and 덜어 share the reading 더러.",
+    "method": "AI review of transcript orthography and Korean phonological equivalence; not human listening"
+  },
+  "휴대폰 고리 예쁘다.": {
+    "recognized": "휴대폰 골이 예쁘다.",
+    "reason": "고리 and 골이 share the reading 고리.",
+    "method": "AI review of transcript orthography and Korean phonological equivalence; not human listening"
+  }
+}

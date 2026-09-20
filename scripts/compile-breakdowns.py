@@ -2,7 +2,7 @@
 import json, pathlib
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
-course = json.loads((ROOT / 'content/course.json').read_text())
+course = json.loads((ROOT / 'content/foundation.json').read_text())
 annotations = {}
 for row in (ROOT / 'content/breakdowns.txt').read_text().splitlines():
     if not row or row.startswith('#'):
@@ -36,7 +36,7 @@ for lesson in course:
                 if word['term'] == '발표':
                     word['zh'] = '口头报告（课堂语境）'
 assert seen == set(annotations), set(annotations) ^ seen
-(ROOT / 'content/course.json').write_text(json.dumps(course, ensure_ascii=False, indent=2) + '\n')
+(ROOT / 'content/foundation.json').write_text(json.dumps(course, ensure_ascii=False, indent=2) + '\n')
 # Keep the human-readable dialogue source aligned with the published data.
 rows = []
 for lesson in course:

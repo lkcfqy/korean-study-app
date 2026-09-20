@@ -1,11 +1,21 @@
 {
-  "scope": "Codex in-app browser against local production Worker at 127.0.0.1:8787, unsigned-in visitor",
+  "checkedAt": "2026-09-20T16:42:30.536925+00:00",
+  "scope": "Codex in-app browser against local built production Worker at 127.0.0.1:8787, unsigned-in visitor",
+  "inventory": {
+    "lessons": 4006,
+    "uniqueWords": 6150,
+    "uniqueSentences": 8154
+  },
   "desktop": {
-    "all36LessonsEnabled": true,
     "jumpFromFirstToLastLesson": true,
-    "wordSelectionShowsLemmaAndPastAdnominalEnding": true,
-    "expandAllParts": true,
-    "audioPlayStarts": true
+    "derivedWordAndAttributiveEndingReadable": true,
+    "normalAndSlowSentencePlaybackStarts": true,
+    "wordPlaybackStarts": true,
+    "wholeSentenceExpansionControlRemoved": true,
+    "selectedAnnotationOnly": true,
+    "selectedLemmaPlaybackStarts": true,
+    "clickSelectedWordAgainClosesAnnotation": true,
+    "compoundLemmaDoesNotOfferItsSuffixAsSeparateWord": true
   },
   "phoneViewport": {
     "requestedWidth": 390,
@@ -16,14 +26,20 @@
     "dialogScrollWidth": 320,
     "dialogueCardClientWidth": 341,
     "dialogueCardScrollWidth": 341,
-    "day180ExpandsTo180MinuteExamAnd60MinuteReview": true,
-    "nextSentenceResetsSelectedWord": true
+    "firstDayShows47Words28Sentences": true,
+    "firstDayTasksTotal240Minutes": true,
+    "day180Shows180MinuteExamAnd60MinuteReview": true,
+    "nextSentenceResetsSelectedWord": true,
+    "freeJumpToDay179AndLastLesson": true,
+    "viewportOverrideResetAfterCheck": true,
+    "annotationWidth": 295,
+    "annotationScrollWidth": 295
   },
   "webMCP": {
     "tool": "read_korean_learning_progress",
     "result": {
-      "lessonId": "c36",
-      "line": 2,
+      "lessonId": "n57383-1-8",
+      "line": 1,
       "completed": 0
     },
     "readOnly": true

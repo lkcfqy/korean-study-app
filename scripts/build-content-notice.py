@@ -1,0 +1,44 @@
+"""Publish attribution and a precise description of the editorial work."""
+from course_data import load_course
+import html
+import json
+import pathlib
+
+ROOT = pathlib.Path(__file__).resolve().parents[1]
+course = load_course()
+index = json.loads((ROOT/'content/course-index.json').read_text())
+audio = json.loads((ROOT/'content/audio-manifest.json').read_text())
+added = [l for l in course if l.get('source')]
+source = json.loads((ROOT/'.sites-runtime/corpus/nikl-source.json').read_text())
+source.update({
+    'author': 'National Institute of Korean Language (국립국어원)',
+    'copyrightPolicy': 'https://krdict.korean.go.kr/kor/kboardPolicy/copyRightTermsInfo',
+    'courseModifications': 'Selection and ordering; Chinese sentence translation and AI editorial correction; morphological annotations; 180-day allocation; comprehension questions.',
+    'sourceAudioUsed': False,
+    'courseTextLicense': 'CC BY-SA 2.0 KR',
+    'sentenceTranslationIsOfficial': False,
+})
+(ROOT/'content/provenance.json').write_text(json.dumps(source,ensure_ascii=False,indent=2)+'\n')
+body=f'''<!doctype html>
+<html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>来源与审校 · 一句一步</title>
+<style>body{{font-family:system-ui,-apple-system,sans-serif;background:#f8faf8;color:#23372e;line-height:1.85;margin:0}}main{{max-width:780px;margin:auto;padding:40px 22px 64px}}h1{{font-size:30px}}h2{{font-size:21px;margin-top:32px}}a{{color:#206647;text-underline-offset:4px}}.numbers{{padding:20px;background:#eaf3ec;border-radius:16px;font-weight:650}}p{{overflow-wrap:anywhere}}small{{color:#627168}}</style>
+<main><a href="/">← 返回学习</a><h1>来源与审校说明</h1>
+<p class="numbers">{len(course):,} 关 · {index['totalWords']:,} 个去重词条 · {index['totalSentences']:,} 个独立句<br>180 天 · 每天 4 小时</p>
+<h2>这些数字对应什么</h2>
+<p>全部词句均收录在站内。句子忽略空格和标点后去重，复习不计为新增；动词、形容词尽量按词典原形统计。词条包含单词、依存名词及基础课中的常用表达，不是 TOPIK 官方词汇门槛。学过的数量表示接触记录，掌握程度仍需回忆和测评验证。</p>
+<h2>韩语、中文与拆解</h2>
+<p>新增的 {len(added):,} 段对话取自韩国国立国语院的<a href="https://krdict.korean.go.kr/chn">韩国语—汉语学习词典</a>，每关保留词条来源链接。词典中文义主要沿用原资料，并修正已发现的明显错字；整句中文由本课程翻译，经过完整韩中对照的 AI 逐句审校，不是国语院官方整句译文。保留的 36 段基础对话为本课程编写。</p>
+<p>句子拆解覆盖各个词块、原形、助词与语尾。新增内容使用形态分析还原完整词形，结合相应词性的词典义项和语法说明；多义词的非目标义项显示为“词义参考”，需结合整句译文理解，不把列出的所有义项都当成本句含义。</p>
+<p>这一轮逐句审校检查了人物关系、否定、时间、金额、语气和惯用表达，并修正发现的误译，剔除原句书写有误或语音复核仍有疑点的对话。尚未取得独立韩语教师对全部译文和拆解的逐条认证。</p>
+<h2>固定 SunHi 读音</h2>
+<p>句子、词条和拼读示例使用 {len(audio['entries']):,} 段固定的 ko-KR-SunHiNeural 合成音频，正常语速生成；慢速播放保留音高。句子整段合成，保留连读和语调，不拼接单词音频。</p>
+<p>全部音频进行解码、静音和削波检查；完整句子还经过不提供原文提示的自动转写复核，低匹配项单独复核。数字写法与可解释的同音转写已核对，未能确认的对话已从本次课程中剔除。自动转写与信号检查不能代替母语者逐条听审，本次未完成全部音频的人工听审。</p>
+<h2>署名与许可</h2>
+<p>原作者：韩国国立国语院（국립국어원）。原始文本快照日期：{html.escape(source['sourceDate'])}；<a href="{html.escape(source['mirror'])}">文本数据镜像</a>。选择、排序、整句中文翻译、拆解、练习及日程是本课程所作的编译改动。</p>
+<p>依据<a href="{source['copyrightPolicy']}">原资料版权政策</a>，课程中使用与改编的词典文本及本课程文本改编以<a href="{source['license']}">知识共享署名—相同方式共享 2.0 韩国许可（CC BY-SA 2.0 KR）</a>提供。转载这些文本请保留署名、来源、改动说明和相同许可。未使用词典网站的录音或其他多媒体素材；SunHi 音频为本项目重新合成，不是国语院录音。</p>
+<h2>半年目标如何检验</h2>
+<p>半年从零冲刺 TOPIK 6 是高强度目标。每月安排听力、阅读和写作检验；词句数量与投入时长不构成分数保证。测评尺度见<a href="https://www.niied.go.kr/web/NIIED/contents/niiedEng/eng_topikOverview">NIIED 官方 TOPIK 说明</a>。</p>
+<small>课程与审校说明更新：2026-09-21</small></main></html>'''
+(ROOT/'public/content-sources.html').write_text(body+'\n')
+print('Published content notice and provenance')

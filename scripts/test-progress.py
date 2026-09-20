@@ -3,7 +3,12 @@ import concurrent.futures, json, pathlib, sqlite3, time, urllib.request, urllib.
 ROOT=pathlib.Path(__file__).resolve().parents[1]
 BASE='http://127.0.0.1:8787'
 USER='qa_'+uuid.uuid4().hex
-LESSONS=json.loads((ROOT/'content/course.json').read_text())
+ALL_LESSONS=json.loads((ROOT/'content/course-index.json').read_text())['lessons']
+LESSONS=[l for l in ALL_LESSONS if l['id'].startswith('c')]
+for stage in range(6):
+    extra=[l for l in ALL_LESSONS if l['stage']==stage and not l['id'].startswith('c')]
+    if extra:LESSONS.extend([extra[0],extra[-1]])
+META={l['id']:l for l in ALL_LESSONS}
 checks=[]
 def call(body=None,user=USER,origin=BASE,expected=200):
     headers={'Content-Type':'application/json','Origin':origin}
@@ -25,28 +30,28 @@ call({'action':'read','lessonId':'c36','lineIndex':0})
 call({'action':'select','lessonId':'c07'})
 passed('fresh account freely selects and studies advanced lessons without prerequisites')
 call({'action':'read','lessonId':'c01','lineIndex':4},expected=409);passed('unread dialogue cannot be skipped')
-call({'action':'complete','lessonId':'c01','answers':[0,1]},expected=409);passed('unread lesson cannot be completed')
+call({'action':'complete','lessonId':'c01','answers':META['c01']['answers']},expected=409);passed('unread lesson cannot be completed')
 call({'action':'read','lessonId':'c01','lineIndex':31},expected=400);passed('invalid requests rejected')
 for n,lesson in enumerate(LESSONS):
     call({'action':'select','lessonId':lesson['id']})
-    for i in range(6):call({'action':'read','lessonId':lesson['id'],'lineIndex':i})
+    for i in range(lesson['lineCount']):call({'action':'read','lessonId':lesson['id'],'lineIndex':i})
     if n==0:
-        call({'action':'complete','lessonId':lesson['id'],'answers':[2,2]},expected=422)
+        call({'action':'complete','lessonId':lesson['id'],'answers':[(a+1)%3 for a in lesson['answers']]},expected=422)
         assert call()['rows'][0]['completed_at'] is None
         passed('wrong answer does not mark lesson completed')
-    payload={'action':'complete','lessonId':lesson['id'],'answers':[n%3,(n+1)%3]}
+    payload={'action':'complete','lessonId':lesson['id'],'answers':lesson['answers']}
     result=call(payload)
     record=next(r for r in result['rows'] if r['lesson_id']==lesson['id'])
-    assert record['completed_at'] and record['read_mask']==63
+    assert record['completed_at'] and record['read_mask']==(1<<lesson['lineCount'])-1
     duplicate=call(payload)
     row2=next(r for r in duplicate['rows'] if r['lesson_id']==lesson['id'])
     assert record['next_review_at']==row2['next_review_at'] and record['review_step']==row2['review_step']
-passed('all 36 freely selectable lessons save, assess, and resume')
+passed('foundation lessons and first/last expanded dialogue in every month save, assess, and resume')
 passed('duplicate completion does not inflate review schedule')
-assert len(call()['rows'])==36 and call()['currentLesson']=='c36'
+assert len(call()['rows'])==len(LESSONS) and call()['currentLesson']==LESSONS[-1]['id']
 assert call(user=USER+'_other')['rows']==[];passed('two user identities have isolated progress')
 # Every HTTP request uses a new client connection; rereads must come from durable D1 state.
-assert all(r['read_mask']==63 for r in call()['rows']);passed('fresh sessions restore durable progress')
+assert all(r['read_mask']==(1<<META[r['lesson_id']]['lineCount'])-1 for r in call()['rows']);passed('fresh sessions restore durable progress')
 call({'action':'draft','lessonId':'c31','text':'제 생각에는 근거를 확인해야 합니다.','revision':0})
 call({'action':'draft','lessonId':'c31','text':'stale overwrite','revision':0},expected=409)
 row=next(r for r in call()['rows'] if r['lesson_id']=='c31')
@@ -58,7 +63,7 @@ for file in (ROOT/'.wrangler/state').rglob('*.sqlite'):
     if db.execute("SELECT name FROM sqlite_master WHERE type='table' AND name='lesson_progress'").fetchone():
         db.execute('UPDATE lesson_progress SET next_review_at=? WHERE user_id=? AND lesson_id=?',(int(time.time()*1000)-1000,USER,'c01'));db.commit();db.close();break
     db.close()
-payload={'action':'complete','lessonId':'c01','answers':[0,1]}
+payload={'action':'complete','lessonId':'c01','answers':META['c01']['answers']}
 with concurrent.futures.ThreadPoolExecutor(max_workers=2) as pool: list(pool.map(lambda _:call(payload),range(2)))
 row=next(r for r in call()['rows'] if r['lesson_id']=='c01')
 assert row['review_step']==1

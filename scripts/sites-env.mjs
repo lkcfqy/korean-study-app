@@ -12,6 +12,13 @@ process.env.WRANGLER_LOG_PATH ||= path.join(runtimeRoot, "wrangler/logs");
 process.env.WRANGLER_REGISTRY_PATH ||= path.join(runtimeRoot, "wrangler/dev-registry");
 process.env.MINIFLARE_REGISTRY_PATH ||= path.join(runtimeRoot, "wrangler/registry");
 
+// The complete audio library exceeds macOS's practical native watcher limit.
+// Polling keeps local preview child-process creation from failing with EBADF.
+if (process.platform === "darwin") {
+  process.env.CHOKIDAR_USEPOLLING ??= "true";
+  process.env.CHOKIDAR_INTERVAL ??= "10000";
+}
+
 process.chdir(projectRoot);
 for (const directory of [
   path.dirname(process.env.WRANGLER_LOG_PATH),

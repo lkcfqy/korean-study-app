@@ -1,26 +1,31 @@
 {
-  "lessons": 36,
-  "dialogueRows": 216,
-  "uniqueSentences": 216,
-  "uniqueCoreEntries": 472,
-  "annotatedSentences": 216,
-  "annotatedParts": 1051,
-  "annotationCoverage": "every source character and word in original order; editorial explanations, not automatic token guesses",
+  "lessons": 4006,
+  "dialogueRows": 8156,
+  "uniqueSentences": 8154,
+  "uniqueCoreEntries": 6150,
+  "annotatedSentences": 8156,
+  "annotatedParts": 44985,
+  "annotationMethod": "Original 216 sentences have authored contextual breakdowns. Added dialogue uses Kiwi morphology, recombined dictionary lemmas, POS-filtered NIKL Chinese senses and grammar explanations. Ambiguous non-target senses are explicitly labelled as dictionary references.",
+  "breakdownSemanticRegressions": "passed: derived lemmas, attributive ending vs imperative, necessity construction and source typo",
   "studyPlanDays": 180,
   "studyPlanHours": 720,
-  "inputTargets": {
-    "words": 6000,
-    "sentences": 8000,
-    "includesExternalMaterials": true
-  },
+  "includesExternalMaterialsInCounts": false,
+  "newWordsPerLearningDay": [
+    34,
+    59
+  ],
   "voice": "ko-KR-SunHiNeural",
-  "audioFiles": 729,
-  "requiredAudioReferences": 727,
-  "audioDurationSeconds": 1743.58,
+  "audioFiles": 14325,
+  "requiredAudioReferences": 14325,
   "missingAudio": 0,
   "structuralValidation": "passed",
-  "semanticReview": "all 216 dialogue translations and 1051 segment explanations reviewed by author; four contextual translations corrected; not an independent bilingual certification",
-  "audioListeningReview": "not performed",
-  "mobileDeviceQA": "390x844 browser viewport passed; physical device not tested",
-  "fullSixMonthCurriculum": "180-day schedule complete; input target inventory requires specified external materials; site contains 216 unique sentences"
+  "bilingualReview": {
+    "releasedDialoguesCovered": 4006,
+    "method": "All complete Korean sentences and Chinese translations read together by Codex AI editor; source dictionary Chinese senses retained with attribution.",
+    "correctedPublishedDialoguePairs": 627,
+    "humanTeacherCertification": false
+  },
+  "excludedSourceDialogues": 58,
+  "audioReview": "All required files decoded and signal screened; all complete sentence assets recognized without an expected-text prompt; see separate report. No full human listening review.",
+  "examOutcome": "Course inventory and time commitment do not certify a TOPIK score."
 }
