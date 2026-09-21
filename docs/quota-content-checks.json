@@ -1,127 +1,337 @@
 {
-  "explicitEditsVerified": 97,
+  "explicitEditsVerified": 169,
   "demonstrativeControlsVerified": 20,
+  "surnameControlsVerified": 27,
   "controlLocations": [
-    [
-      "n51014-1-7",
-      1,
-      1,
-      "그거?"
-    ],
-    [
-      "n65234-2-6",
-      0,
-      0,
-      "그거"
-    ],
-    [
-      "n26633-1-8",
-      1,
-      0,
-      "그건"
-    ],
-    [
-      "n24068-1-7",
-      1,
-      0,
-      "그건"
-    ],
-    [
-      "n63320-6-7",
-      1,
-      0,
-      "그거"
-    ],
-    [
-      "n28460-1-12",
-      1,
-      0,
-      "그건"
-    ],
-    [
-      "n14763-1-10",
-      1,
-      0,
-      "그거"
-    ],
-    [
-      "n38346-1-9",
-      0,
-      0,
-      "그건"
-    ],
-    [
-      "n60201-4-7",
-      1,
-      1,
-      "그거"
-    ],
-    [
-      "n62251-2-2",
-      1,
-      2,
-      "그거"
-    ],
-    [
-      "n15101-1-13",
-      1,
-      0,
-      "그건"
-    ],
-    [
-      "n87847-1-8",
-      1,
-      0,
-      "그거"
-    ],
-    [
-      "n77891-1-7",
-      1,
-      0,
-      "그건"
-    ],
-    [
-      "n68448-2-9",
-      0,
-      0,
-      "그거"
-    ],
-    [
-      "n26136-3-8",
-      1,
-      1,
-      "그거"
-    ],
-    [
-      "n85706-2-7",
-      1,
-      0,
-      "그걸"
-    ],
-    [
-      "n62269-2-2",
-      1,
-      4,
-      "그걸"
-    ],
-    [
-      "n15469-1-6",
-      1,
-      0,
-      "그걸"
-    ],
-    [
-      "n71624-1-32",
-      1,
-      6,
-      "그걸"
-    ],
-    [
-      "n53785-4-7",
-      1,
-      1,
-      "그걸"
-    ]
+    {
+      "lessonId": "n51014-1-7",
+      "line": 1,
+      "part": 1,
+      "text": "그거?",
+      "type": "demonstrative"
+    },
+    {
+      "lessonId": "n65234-2-6",
+      "line": 0,
+      "part": 0,
+      "text": "그거",
+      "type": "demonstrative"
+    },
+    {
+      "lessonId": "n26633-1-8",
+      "line": 1,
+      "part": 0,
+      "text": "그건",
+      "type": "demonstrative"
+    },
+    {
+      "lessonId": "n58905-3-5",
+      "line": 0,
+      "part": 0,
+      "text": "김",
+      "type": "surname"
+    },
+    {
+      "lessonId": "n24068-1-7",
+      "line": 1,
+      "part": 0,
+      "text": "그건",
+      "type": "demonstrative"
+    },
+    {
+      "lessonId": "n73029-2-7",
+      "line": 0,
+      "part": 0,
+      "text": "김",
+      "type": "surname"
+    },
+    {
+      "lessonId": "n46133-5-5",
+      "line": 0,
+      "part": 0,
+      "text": "김",
+      "type": "surname"
+    },
+    {
+      "lessonId": "n63320-6-7",
+      "line": 1,
+      "part": 0,
+      "text": "그거",
+      "type": "demonstrative"
+    },
+    {
+      "lessonId": "n70656-19-9",
+      "line": 0,
+      "part": 0,
+      "text": "김",
+      "type": "surname"
+    },
+    {
+      "lessonId": "n28460-1-12",
+      "line": 1,
+      "part": 0,
+      "text": "그건",
+      "type": "demonstrative"
+    },
+    {
+      "lessonId": "n22109-17-5",
+      "line": 0,
+      "part": 0,
+      "text": "김",
+      "type": "surname"
+    },
+    {
+      "lessonId": "n58145-1-7",
+      "line": 0,
+      "part": 0,
+      "text": "김",
+      "type": "surname"
+    },
+    {
+      "lessonId": "n14763-1-10",
+      "line": 1,
+      "part": 0,
+      "text": "그거",
+      "type": "demonstrative"
+    },
+    {
+      "lessonId": "n92042-4-7",
+      "line": 0,
+      "part": 2,
+      "text": "김",
+      "type": "surname"
+    },
+    {
+      "lessonId": "n38346-1-9",
+      "line": 0,
+      "part": 0,
+      "text": "그건",
+      "type": "demonstrative"
+    },
+    {
+      "lessonId": "n60201-4-7",
+      "line": 1,
+      "part": 1,
+      "text": "그거",
+      "type": "demonstrative"
+    },
+    {
+      "lessonId": "n79480-1-9",
+      "line": 1,
+      "part": 0,
+      "text": "김",
+      "type": "surname"
+    },
+    {
+      "lessonId": "n37534-2-7",
+      "line": 0,
+      "part": 1,
+      "text": "김",
+      "type": "surname"
+    },
+    {
+      "lessonId": "n55743-1-7",
+      "line": 0,
+      "part": 0,
+      "text": "김",
+      "type": "surname"
+    },
+    {
+      "lessonId": "n62251-2-2",
+      "line": 1,
+      "part": 2,
+      "text": "그거",
+      "type": "demonstrative"
+    },
+    {
+      "lessonId": "n88105-12-10",
+      "line": 0,
+      "part": 0,
+      "text": "김",
+      "type": "surname"
+    },
+    {
+      "lessonId": "n48362-2-8",
+      "line": 0,
+      "part": 0,
+      "text": "김",
+      "type": "surname"
+    },
+    {
+      "lessonId": "n37178-1-7",
+      "line": 0,
+      "part": 0,
+      "text": "김",
+      "type": "surname"
+    },
+    {
+      "lessonId": "n28561-1-7",
+      "line": 0,
+      "part": 0,
+      "text": "김",
+      "type": "surname"
+    },
+    {
+      "lessonId": "n47395-1-8",
+      "line": 0,
+      "part": 0,
+      "text": "김",
+      "type": "surname"
+    },
+    {
+      "lessonId": "n15101-1-13",
+      "line": 1,
+      "part": 0,
+      "text": "그건",
+      "type": "demonstrative"
+    },
+    {
+      "lessonId": "n87847-1-8",
+      "line": 1,
+      "part": 0,
+      "text": "그거",
+      "type": "demonstrative"
+    },
+    {
+      "lessonId": "n55521-1-7",
+      "line": 0,
+      "part": 0,
+      "text": "김",
+      "type": "surname"
+    },
+    {
+      "lessonId": "n25088-1-8",
+      "line": 0,
+      "part": 0,
+      "text": "김",
+      "type": "surname"
+    },
+    {
+      "lessonId": "n77891-1-7",
+      "line": 1,
+      "part": 0,
+      "text": "그건",
+      "type": "demonstrative"
+    },
+    {
+      "lessonId": "n68448-2-9",
+      "line": 0,
+      "part": 0,
+      "text": "그거",
+      "type": "demonstrative"
+    },
+    {
+      "lessonId": "n66246-5-8",
+      "line": 0,
+      "part": 0,
+      "text": "김",
+      "type": "surname"
+    },
+    {
+      "lessonId": "n16288-1-7",
+      "line": 0,
+      "part": 0,
+      "text": "김",
+      "type": "surname"
+    },
+    {
+      "lessonId": "n26136-3-8",
+      "line": 1,
+      "part": 1,
+      "text": "그거",
+      "type": "demonstrative"
+    },
+    {
+      "lessonId": "n55817-1-11",
+      "line": 0,
+      "part": 1,
+      "text": "김",
+      "type": "surname"
+    },
+    {
+      "lessonId": "n55817-1-11",
+      "line": 1,
+      "part": 1,
+      "text": "김",
+      "type": "surname"
+    },
+    {
+      "lessonId": "n85706-2-7",
+      "line": 1,
+      "part": 0,
+      "text": "그걸",
+      "type": "demonstrative"
+    },
+    {
+      "lessonId": "n17866-1-3",
+      "line": 0,
+      "part": 2,
+      "text": "김",
+      "type": "surname"
+    },
+    {
+      "lessonId": "n71879-1-10",
+      "line": 0,
+      "part": 0,
+      "text": "김",
+      "type": "surname"
+    },
+    {
+      "lessonId": "n75236-1-4",
+      "line": 0,
+      "part": 0,
+      "text": "김",
+      "type": "surname"
+    },
+    {
+      "lessonId": "n62269-2-2",
+      "line": 1,
+      "part": 4,
+      "text": "그걸",
+      "type": "demonstrative"
+    },
+    {
+      "lessonId": "n81598-1-6",
+      "line": 1,
+      "part": 0,
+      "text": "김",
+      "type": "surname"
+    },
+    {
+      "lessonId": "n83169-1-24",
+      "line": 0,
+      "part": 0,
+      "text": "김",
+      "type": "surname"
+    },
+    {
+      "lessonId": "n36674-1-9",
+      "line": 0,
+      "part": 1,
+      "text": "김",
+      "type": "surname"
+    },
+    {
+      "lessonId": "n15469-1-6",
+      "line": 1,
+      "part": 0,
+      "text": "그걸",
+      "type": "demonstrative"
+    },
+    {
+      "lessonId": "n71624-1-32",
+      "line": 1,
+      "part": 6,
+      "text": "그걸",
+      "type": "demonstrative"
+    },
+    {
+      "lessonId": "n53785-4-7",
+      "line": 1,
+      "part": 1,
+      "text": "그걸",
+      "type": "demonstrative"
+    }
   ],
-  "source": "Published JSON compared with fixed v13 baseline and explicit editorial decisions"
+  "source": "Published JSON compared with fixed v13 baseline and explicit editorial decisions; structural propagation checks, not independent semantic certification"
 }
