@@ -154,7 +154,7 @@ def main():
             continue
         prepared=lexicon.prepare(lesson);record=selections.get(lesson['id'])
         if not record or record['signature']!=prepared['signature']:
-            issues.append({'id':lesson['id'],'type':'missing current sense selection'})
+            issues.append({'id':lesson['id'],'type':'missing current versioned sense selection; review and update content/context-senses.json explicitly'})
             if args.partial:continue
             continue
         lesson_rows=[]
@@ -261,8 +261,8 @@ def main():
         raise SystemExit('Resolve editorial issues before release assembly.')
     (CACHE/'compiled-course.json').write_text(json.dumps(course,ensure_ascii=False,separators=(',',':'))+'\n')
     if not args.partial:
-        published={'method':VERSION,'teacherCertification':False,'records':[{k:selections[l['id']][k] for k in ('id','signature','choices','model')} for l in course if not l['id'].startswith('c')]}
-        (ROOT/'content/context-senses.json').write_text(json.dumps(published,ensure_ascii=False,separators=(',',':'))+'\n')
+        # Assembly consumes the versioned decisions; it does not author or
+        # silently promote local model output into the source snapshot.
         (ROOT/'docs/context-annotation-coverage.json').write_text(json.dumps(coverage,ensure_ascii=False,separators=(',',':'))+'\n')
         (ROOT/'content/foundation.json').write_text(json.dumps([l for l in course if l['id'].startswith('c')],ensure_ascii=False,indent=2)+'\n')
 

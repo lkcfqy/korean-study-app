@@ -1,0 +1,158 @@
+{
+  "observedDate": "2026-09-22",
+  "scope": "Dictionary lesson selection-record provenance, not the number of fully unreviewed lessons or an accuracy measurement.",
+  "recordCount": 3970,
+  "models": {
+    "qwen3.6:35b": 3940,
+    "Codex AI source-backed editorial correction": 2,
+    "Codex source-constrained editorial review": 2,
+    "qwen3.6:35b + Codex source-editorial reconciliation": 26
+  },
+  "confirmedCases": [
+    {
+      "lessonId": "n13968-1-9",
+      "lineId": "n13968-1-9-2",
+      "ko": "안경을 쓰면 시야가 밝아질 거야.",
+      "part": 1,
+      "text": "쓰면",
+      "selectionModel": "qwen3.6:35b",
+      "automaticSelection": {
+        "entryId": "71285",
+        "senseId": "1",
+        "lemma": "쓰다",
+        "meaning": "用，使用",
+        "definition": "做某事时利用材料、工具等。",
+        "pos": "동사"
+      },
+      "localCorrectedAnnotation": {
+        "text": "쓰면",
+        "meaning": "戴（眼镜）",
+        "explanation": "쓰다：戴（眼镜）；면：表示条件或假设：“如果、若、……的话”。",
+        "readings": [
+          {
+            "term": "쓰다",
+            "audio": "/audio/e5721a077be2e027ff8c.mp3"
+          }
+        ],
+        "sources": [
+          {
+            "entryId": "65173",
+            "senseId": "2",
+            "lemma": "쓰다",
+            "origin": "NIKL Korean-Chinese dictionary"
+          }
+        ],
+        "surfaceReading": {
+          "term": "쓰면",
+          "audio": "/audio/cacd9de3fdf20ad11c61.mp3"
+        }
+      },
+      "priorPublishedAnnotation": {
+        "text": "쓰면",
+        "meaning": "用，使用",
+        "explanation": "쓰다：用，使用；면：表示条件或假设：“如果、若、……的话”。",
+        "readings": [
+          {
+            "term": "쓰다",
+            "audio": "/audio/e5721a077be2e027ff8c.mp3"
+          }
+        ],
+        "sources": [
+          {
+            "entryId": "71285",
+            "senseId": "1",
+            "lemma": "쓰다",
+            "origin": "NIKL Korean-Chinese dictionary"
+          }
+        ],
+        "surfaceReading": {
+          "term": "쓰면",
+          "audio": "/audio/cacd9de3fdf20ad11c61.mp3"
+        }
+      }
+    },
+    {
+      "lessonId": "n76992-1-10",
+      "lineId": "n76992-1-10-2",
+      "ko": "여기서 제일 가까운 주유소가 어디에 있는지 물어보자.",
+      "part": 6,
+      "text": "물어보자.",
+      "selectionModel": "qwen3.6:35b",
+      "automaticSelection": {
+        "entryId": "15722",
+        "senseId": "2",
+        "lemma": "묻다",
+        "meaning": "掩藏，掩盖",
+        "definition": "将事情深藏起来。",
+        "pos": "동사"
+      },
+      "localCorrectedAnnotation": {
+        "text": "물어보자.",
+        "meaning": "问问看、打听一下",
+        "explanation": "묻다 在这里是问，不是埋藏；ㄷ 不规则活用使 묻 + 어 变为 물어。-아/어 보다 表试着，-자 是一起做的提议。",
+        "readings": [
+          {
+            "term": "묻다",
+            "audio": "/audio/ed5c4f65f9f1771c348e.mp3"
+          },
+          {
+            "term": "보다",
+            "audio": "/audio/6a45cf834264a5ec3611.mp3"
+          }
+        ],
+        "sources": [
+          {
+            "entryId": "69471",
+            "senseId": "1",
+            "lemma": "묻다",
+            "origin": "NIKL Korean-Chinese dictionary"
+          },
+          {
+            "entryId": "62171",
+            "senseId": "1",
+            "lemma": "보다",
+            "origin": "NIKL Korean-Chinese dictionary"
+          }
+        ],
+        "surfaceReading": {
+          "term": "물어보자",
+          "audio": "/audio/6e3d50c35364552e188b.mp3"
+        }
+      },
+      "priorPublishedAnnotation": {
+        "text": "물어보자.",
+        "meaning": "掩藏，掩盖；试，试图",
+        "explanation": "묻다：掩藏，掩盖；보다：试，试图；어：连接后续动作或辅助表达；常与前面的词干缩合。；자：非敬语提议句末：“一起……吧”。",
+        "readings": [
+          {
+            "term": "묻다",
+            "audio": "/audio/ed5c4f65f9f1771c348e.mp3"
+          },
+          {
+            "term": "보다",
+            "audio": "/audio/6a45cf834264a5ec3611.mp3"
+          }
+        ],
+        "sources": [
+          {
+            "entryId": "15722",
+            "senseId": "2",
+            "lemma": "묻다",
+            "origin": "NIKL Korean-Chinese dictionary"
+          },
+          {
+            "entryId": "62171",
+            "senseId": "1",
+            "lemma": "보다",
+            "origin": "NIKL Korean-Chinese dictionary"
+          }
+        ],
+        "surfaceReading": {
+          "term": "물어보자",
+          "audio": "/audio/6e3d50c35364552e188b.mp3"
+        }
+      }
+    }
+  ],
+  "verifiedPriorPublishedCommit": "fc1e34abda927f6c7f8e4f337f805f6ff1a1b2ec"
+}

@@ -1,8 +1,9 @@
-"""Source-constrained contextual sense selection, with inspectable evidence.
+"""Generate candidate NIKL sense selections for separate editorial review.
 
-The fixed local model can only select existing NIKL meanings. It cannot invent
-grammar, lexical roots, readings or translations. Ambiguous/unmatched selections
-are retained for editorial review rather than silently accepted as a new gloss.
+Choosing an existing dictionary sense does not establish that it fits the
+dialogue. Historical tracked selections include automatic choices and still
+need semantic review. Course assembly reads only the tracked snapshot; model
+cache output must never silently replace it during an ordinary rebuild.
 """
 import argparse
 import collections
@@ -23,12 +24,16 @@ JAMO=RULES['JAMO']
 TAGS={'VV':{'동사'},'VA':{'형용사'},'VX':{'보조 동사','보조 형용사'},'NNG':{'명사'},'NP':{'대명사'},'NR':{'수사'},'NNB':{'의존 명사'},'MM':{'관형사'},'MAG':{'부사'},'MAJ':{'부사'},'IC':{'감탄사'}}
 
 
-def load_selections():
-    """Published decisions are reproducible; the local cache may add new ones."""
+def load_selections(*, include_candidates=False):
+    """Read the versioned snapshot, without promoting local model candidates.
+
+    Only the candidate-generation job opts into its cache to resume work.
+    Presence in the tracked snapshot is provenance, not teacher certification.
+    """
     released=ROOT/'content/context-senses.json'
     records={r['id']:r for r in json.loads(released.read_text())['records']} if released.exists() else {}
     cache=CACHE/'context-sense-selections.jsonl'
-    if cache.exists():
+    if include_candidates and cache.exists():
         for row in cache.read_text().splitlines():
             record=json.loads(row);records[record['id']]=record
     return records
@@ -198,7 +203,7 @@ def main():
     p=argparse.ArgumentParser();p.add_argument('--limit',type=int,default=0);p.add_argument('--workers',type=int,default=4);p.add_argument('--sample',action='store_true');p.add_argument('--retry',action='store_true');args=p.parse_args()
     course=[l for l in json.loads((CACHE/'compiled-course.json').read_text()) if not l['id'].startswith('c')]
     lexicon=Lexicon();outpath=CACHE/'context-sense-selections.jsonl';errpath=CACHE/'context-sense-failures.jsonl'
-    previous=load_selections()
+    previous=load_selections(include_candidates=True)
     if args.limit and args.sample:
         ids={'n63510-5-8','n93441-1-5','n30837-1-8','n57383-1-8'}
         risk=[l for l in course if l['id'] in ids];rest=[l for l in course if l['id'] not in ids];count=args.limit-len(risk)
