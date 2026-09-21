@@ -1,42 +1,10 @@
 {
-  "baselineRef": "ba4c81c8d0402bddb3a30f85c744f682081da5ff",
+  "baselineRef": "4d70801ddd06dc8850ab88146f72e6d6052dbb24",
   "lessons": 4006,
   "lineIdsAndOrderPreserved": 8156,
   "quizAnswerPositionsPreserved": true,
   "speakerAssignmentsPreserved": true,
-  "koreanTextCorrections": [
-    {
-      "id": "n56388-1-11-2",
-      "before": "바늘질하다가 바늘에 찔렸어.",
-      "after": "바느질하다가 바늘에 찔렸어."
-    }
-  ],
-  "chineseTextCorrections": [
-    {
-      "id": "n62491-1-20-2",
-      "before": "说是放在旁边却找不到了，所以才大惊小怪的？",
-      "after": "包就在你旁边，你却说不见了，还大惊小怪地闹成那样？"
-    },
-    {
-      "id": "n21134-1-8-1",
-      "before": "在医院里真的非得做手术吗？",
-      "after": "医院说一定得做手术吗？"
-    },
-    {
-      "id": "n54969-1-7-1",
-      "before": "我晕车了，能开一下窗户吗？",
-      "after": "我晕车了，我开一下窗户。"
-    },
-    {
-      "id": "n38813-2-2-1",
-      "before": "承奎在闹着玩的时候把那个花瓶打碎了。",
-      "after": "承奎闹着玩，把这个花瓶打碎了。"
-    },
-    {
-      "id": "n38813-2-2-2",
-      "before": "那家伙果然又搞出了事故。",
-      "after": "那家伙最终还是闯祸了。"
-    }
-  ],
+  "koreanTextCorrections": [],
+  "chineseTextCorrections": [],
   "scope": "Source compatibility; durable database behavior is tested separately in progress-tests.json."
 }

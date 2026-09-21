@@ -20,5 +20,6 @@
 .skip-link{position:fixed;top:8px;left:12px;z-index:100;background:#fff;padding:12px 18px;border:2px solid #315be9;border-radius:10px;transform:translateY(-180%)}.skip-link:focus{transform:translateY(0)}
 
 #lesson-title{scroll-margin-top:24px}#lesson-title:focus{outline:none}.hint,.button.subtle,.word-strip,.bottom-stats,.muted,.hangul-table small{color:#526580}
+.listening-title{font-size:26px;margin-top:24px;line-height:1.5}.listening-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px}.quiz-transcript{padding:14px 18px;background:#f3f6ff;border-radius:12px;font-size:26px}.info-banner .text-link{margin-left:12px}.choice:disabled.correct{opacity:1}
 
 @media(max-width:380px){.course-day-grid{grid-template-columns:repeat(5,minmax(0,1fr))}}

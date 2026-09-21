@@ -45,7 +45,7 @@ for month in months:
     month['words']=last['cumulativeWords'];month['sentences']=last['cumulativeSentences']
 plan=dict(days=days,months=months,totalDays=180,dailyMinutes=240,totalHours=720,
  inventoryNote='对话文本按韩文去除空格和标点后去重；短回答和含多句的发言也各算一条，不等于同样数量的独立句型。词条包含词典原形、依存名词及基础表达。复习不增加数量；接触记录不等于掌握。',
- retentionRule='新对话安排隔天、一周后和一个月后再遇见；每五天还会整组复习前四天。下方复习列表可以直接进入。课程仍可自由选择，回忆不足 80% 时先补复习，再按自己的速度继续。最后一个月内容的后续复习会延续至第 210 天，云端学习与复习记录继续保留。',
+ retentionRule='先处理“复习与巩固”，再增加新课。每关听力检查根据首次回答、是否听完和是否查看韩文提示安排复习；答错或用过提示时，登录账号会安排一天内再练，不把最终答对直接当成掌握。每关只检查两句，不代表整关掌握率。第一周每天最多 24 个新词，第二周最多 36 个，第一月最多 48 个。每次先学一组四关，没记住就停下来复习；一天的内容可以分多天完成。日程还列出隔天、一周、一个月后的复习，每五天整组复习前四天。后续复习可以延续到第 210 天以后。',
  sources=[dict(label='国立国语院韩国语—汉语学习词典',url='https://krdict.korean.go.kr/chn'),dict(label='课程来源与审校覆盖',url='/content-sources.html'),dict(label='TOPIK 官方测评资料',url='https://www.topik.go.kr/')])
 assert len(seen_words)>=6000 and len(seen_sentences)>=8000
 assert sum(d['newWords'] for d in days)==len(seen_words)
@@ -53,6 +53,23 @@ assert sum(d['newSentences'] for d in days)==len(seen_sentences)
 assert all(sum(t['minutes'] for t in d['tasks'])==240 for d in days)
 assert all(d['newWords']==d['newSentences']==0 for d in days if d['day']%5==0)
 (ROOT/'content/study-plan.json').write_text(json.dumps(plan,ensure_ascii=False,indent=2)+'\n')
+# The browser needs one copy of shared task instructions, not 180 repetitions.
+# Catalog offsets replace repeated lesson IDs only in this generated transport.
+positions={lesson['id']:i for i,lesson in enumerate(course)}
+task_copies=[];copy_ids={};client_days=[]
+for day in days:
+    tasks=[]
+    for task in day['tasks']:
+        key=(task['title'],task['instruction'])
+        if key not in copy_ids:
+            copy_ids[key]=len(task_copies);task_copies.append({'title':key[0],'instruction':key[1]})
+        tasks.append([task['minutes'],copy_ids[key]])
+    client_days.append({**{k:day[k] for k in ('day','month','topic','title','newWords','newSentences','cumulativeWords','cumulativeSentences')},
+        'lessonIds':[positions[id] for id in day['lessonIds']],
+        'reviewGroups':[{'title':group['title'],'lessonIds':[positions[id] for id in group['lessonIds']]} for group in day['reviewGroups']],
+        'tasks':tasks})
+client_plan={**plan,'days':client_days,'taskCopies':task_copies}
+(ROOT/'content/study-plan-client.json').write_text(json.dumps(client_plan,ensure_ascii=False,separators=(',',':'))+'\n')
 lines=['# 180 天站内韩语课程','',f"{len(course)} 关，{len(seen_words)} 个去重词条，{len(seen_sentences)} 条去重对话文本；每天四小时，共 720 小时。",'',plan['inventoryNote'],'']
 for day in days:
     lines += [f"## 第 {day['day']} 天 · {day['title']}",'',f"新增 {day['newWords']} 词条 / {day['newSentences']} 句；累计 {day['cumulativeWords']} 词条 / {day['cumulativeSentences']} 句。",'']

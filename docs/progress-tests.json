@@ -1,6 +1,6 @@
 {
   "scope": "local built production Worker with local D1; not a live phone/desktop test",
-  "passed": 14,
+  "passed": 24,
   "checks": [
     "anonymous reads and writes rejected",
     "cross-origin write rejected",
@@ -15,7 +15,17 @@
     "fresh sessions restore durable progress",
     "stale writing revision cannot overwrite another device",
     "simultaneous due review advances exactly once",
-    "replay from another session preserves all earned progress"
+    "replay from another session preserves all earned progress",
+    "using a transcript hint schedules one-day consolidation",
+    "duplicate assisted attempts do not postpone review and legacy clients cannot clear consolidation",
+    "independent success clears consolidation without skipping the first delayed review",
+    "independent delayed success advances to a three-day interval",
+    "first-answer error shortens a long interval even after the final answer is corrected",
+    "simultaneous consolidation successes retain a one-day check instead of double advancement",
+    "an unplayed sentence cannot count as independent listening",
+    "malformed listening evidence is rejected",
+    "every progress response preserves deduplicated sentence word and completion counts",
+    "a complete 4006-lesson history returns exact totals without a client-side corpus index"
   ],
   "browserQA": "see docs/browser-qa.json",
   "webMCPQA": "see docs/browser-qa.json"

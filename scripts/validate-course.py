@@ -19,15 +19,18 @@ def read(name):
 
 course = load_course(prefer_cache=False)
 index = read('content/course-index.json')
+catalog = read('content/course-catalog.json')
 audio = read('content/audio-manifest.json')
 audio_storage = read('content/audio-storage-index.json')
 hangul = read('content/hangul.json')
 plan = read('content/study-plan.json')
+packed_plan = read('content/study-plan-client.json')
 foundation = read('content/foundation.json')
 context_coverage=read('docs/context-annotation-coverage.json')
 context_decisions=read('content/context-senses.json')
 context_edits=read('content/context-editorial.json')
 question_positions=read('content/question-positions.json')
+question_overrides=read('content/question-overrides.json')
 excluded = read('content/source-exclusions.json')
 review = [json.loads(row) for row in (ROOT / 'docs/editorial-review-log.jsonl').read_text().splitlines()]
 reviewed = {identity for row in review for identity in row['dialogueIds']}
@@ -41,6 +44,15 @@ assert not set(by_id) & set(excluded)
 assert set(by_id) <= reviewed, 'Every released dialogue needs a recorded bilingual review'
 assert audio['voice'] == 'ko-KR-SunHiNeural' and not audio['failedTexts']
 assert len(index['lessons']) == len(course)
+assert catalog['totalWords']==index['totalWords'] and catalog['totalSentences']==index['totalSentences']
+assert catalog['lessons']==[[l['id'],l['title'],l['day'],l['lineCount'],l['revision']] for l in index['lessons']]
+assert len(packed_plan['days'])==len(plan['days'])
+for compact,original in zip(packed_plan['days'],plan['days']):
+    decoded={**compact,'lessonIds':[catalog['lessons'][i][0] for i in compact['lessonIds']],
+        'reviewGroups':[{'title':group['title'],'lessonIds':[catalog['lessons'][i][0] for i in group['lessonIds']]} for group in compact['reviewGroups']],
+        'tasks':[{**packed_plan['taskCopies'][copy],'minutes':minutes} for minutes,copy in compact['tasks']]}
+    assert all(value==original[key] for key,value in decoded.items()),original['day']
+assert all(value==plan[key] for key,value in packed_plan.items() if key not in {'days','taskCopies'})
 assert {r['id'] for r in context_coverage}=={l['id'] for l in course if not l['id'].startswith('c')}, 'Partial annotation drafts cannot be released'
 assert {r['id']:r['signature'] for r in context_coverage}=={r['id']:r['signature'] for r in context_decisions['records']}
 assert not context_decisions['teacherCertification']
@@ -86,6 +98,10 @@ for lesson in course:
     for q in published['questions']:
         assert len(set(q['options'])) == 3
         assert q['options'][q['answer']] == lesson['lines'][q['lineIndex']]['zh']
+        question_line=lesson['lines'][q['lineIndex']]['id']
+        if lesson['id'].startswith('c'):assert question_line in question_overrides
+        if question_line in question_overrides:
+            assert [text for i,text in enumerate(q['options']) if i!=q['answer']]==question_overrides[question_line]
     assert meta['answers'] == [q['answer'] for q in published['questions']]
     assert meta['answers']==question_positions[lesson['id']], 'Course reordering must preserve answers for already-open lessons'
     assert meta['revision'] == hashlib.sha256((ROOT / 'public/course' / (lesson['id'] + '.json')).read_bytes()).hexdigest()[:12]
@@ -127,6 +143,17 @@ assert '卑鄙' in part_at('n47384-3-5-1',1)['meaning']
 assert '被解雇' in part_at('n72649-1-11-2',7)['meaning']
 assert not any(r['term']=='않다' for r in part_at('n64618-1-9-2',4)['readings'])
 assert lines_by_id['n56388-1-11-2']['ko']=='바느질하다가 바늘에 찔렸어.'
+# Regressions for the actual false senses found in the product review.
+assert '观看' in part_at('n71624-1-32-1',3)['meaning']
+assert '观看' in part_at('n71624-1-32-2',7)['meaning']
+assert any(s['entryId']=='82136' for s in part_at('n55498-1-7-1',4)['sources'])
+assert '什么样' in part_at('n57383-1-8-1',9)['meaning']
+assert any(r['term']=='듣다' for r in part_at('n15110-2-6-1',2)['readings'])
+# Every recorded decision must survive regeneration, including legitimate
+# auxiliary exceptions. This does not certify unreviewed semantic cases.
+for decision in read('docs/context-safety-review.json')['decisions']:
+    part=part_at(decision['lineId'],decision['part'])
+    assert all(part['sources'][decision['item']][k]==v for k,v in decision['after'].items()),decision
 for text,expected in [('오백','500'),('이십사','24'),('스물다섯','25'),('열일곱','17'),('이천이십육','2026'),('일일구','119'),('일조','1000000000000'),('이만','20000')]:
     assert number_meaning(text).split('（')[0]==expected
 assert all('不知失措' not in l['title'] for l in course)
@@ -149,7 +176,9 @@ assert required <= {e['path'] for e in audio['entries'].values()}
 assert [d['day'] for d in plan['days']] == list(range(1, 181))
 assert all(sum(t['minutes'] for t in d['tasks']) == 240 for d in plan['days'])
 assert all(d['newWords'] <= 60 for d in plan['days']), 'Avoid overloading any one day with novel vocabulary'
-assert all(d['newWords'] <= 28 for d in plan['days'][:7]), 'Gentle first week'
+assert all(d['newWords'] <= 24 for d in plan['days'][:7]), 'Gentle first week'
+assert all(d['newWords'] <= 36 for d in plan['days'][7:14]), 'Gradual second week'
+assert all(d['newWords'] <= 48 for d in plan['days'][:30]), 'First month vocabulary limit'
 assigned = [i for d in plan['days'] for i in d['lessonIds']]
 assert len(assigned) == len(set(assigned)) == len(course) and set(assigned) == set(by_id)
 seen_words, seen_sentences = set(), set()

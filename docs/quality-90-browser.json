@@ -1,0 +1,57 @@
+{
+  "checkedAt": "2026-09-21T02:48:16.556176+00:00",
+  "scope": "Codex in-app browser, local production Worker; guest UI only. Account persistence and intervals tested separately through 22 local D1 integration checks.",
+  "lesson": "c01",
+  "checks": {
+    "transcriptAbsentBeforeHint": true,
+    "choicesAbsentBeforePlaybackEnds": true,
+    "actualAudioPlaybackUnlocksChoices": true,
+    "wrongFirstAnswerThenCorrectionPreservesDifficulty": true,
+    "transcriptHintWorksWithoutPlayback": true,
+    "mixedWrongAndHintedAttemptReportsZeroOfTwo": true,
+    "independentAudioOnlyAttemptReportsTwoOfTwo": true,
+    "returnToDialogueStopsPlaybackAndAllowsResuming": true,
+    "returnToDialoguePreservesAssistanceOnRetry": true,
+    "secondQuestionResetsTranscriptAndPlaybackGate": true,
+    "day8Shows32NewWords": true,
+    "day8GroupsContain4Then4Then3Lessons": true,
+    "onlyFirstNewLessonGroupInitiallyExpanded": true,
+    "noBrowserConsoleWarningsOrErrors": true,
+    "viewportOverrideResetAndTemporaryTabClosed": true,
+    "reviewGroupsPresentInPlan": true
+  },
+  "viewports": [
+    {
+      "width": 390,
+      "height": 844,
+      "documentScrollWidth": 375,
+      "planClientWidth": 320,
+      "planScrollWidth": 320
+    },
+    {
+      "width": 320,
+      "height": 700,
+      "documentScrollWidth": 305
+    }
+  ],
+  "limits": [
+    "Viewport simulation is not a physical phone test.",
+    "No live deployment or live cross-device account test.",
+    "Actual playback and UI state were checked; this is not pronunciation certification.",
+    "Audio failure itself was not injected; the no-playback transcript alternative was exercised.",
+    "Raw first-answer history is not persisted; the server stores consolidation status and next review time."
+  ],
+  "releasePayloadFollowUp": {
+    "checkedAt": "2026-09-21T03:10:38.839595+00:00",
+    "scope": "Local production build after catalog and schedule compaction; guest UI. Separate local D1 suite now passes 24 checks.",
+    "checks": {
+      "initialGuestLessonRenders": true,
+      "day8GroupsContain4Then4Then3Lessons": true,
+      "day8TaskInstructionsAndReviewGroupsRender": true,
+      "day8FirstLessonOpensJigeumAtPosition32": true,
+      "sixthMonthExpandedLessonOpensAtPosition3370": true,
+      "noBrowserConsoleWarningsOrErrors": true
+    },
+    "limits": "No additional physical-phone or live-production check."
+  }
+}

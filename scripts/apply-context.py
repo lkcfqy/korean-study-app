@@ -156,6 +156,11 @@ def main():
                         sense={'lemma':e['term'],'entryId':e['id'],'senseId':s['id'],'meaning':s['zh'],'definition':s['definition'],'pos':e['pos']}
                     lemma=sense['lemma'];entry=lexicon.byid[sense['entryId']]
                     expression=context_expression(lemma,item['tag'],parts,j)
+                    # A model may confuse a lexical verb with a homonymous
+                    # auxiliary. Morphology is a review trigger, not a verdict:
+                    # genuine auxiliaries can be retained by an authored choice.
+                    if item['tag'] in {'VV','VA'} and entry['pos'].startswith('보조') and not (edit or expression or construction or source_target):
+                        issues.append({'id':lesson['id'],'line':i,'part':j,'item':k,'type':'unreviewed lexical-to-auxiliary sense','ko':line['ko'],'lemma':lemma,'entryId':entry['id']})
                     edited_meaning=edit.get('lexicalMeaning') if k==edit.get('rootItem',0) else None
                     meaning=edited_meaning or expression or READABLE_GLOSSES.get((sense['entryId'],sense['senseId']),sense['meaning'])
                     lexical.append(lemma+'：'+meaning);glosses.append(meaning)

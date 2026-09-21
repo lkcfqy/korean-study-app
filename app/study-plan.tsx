@@ -1,21 +1,27 @@
 'use client';
 
 import {useState} from 'react';
-import plan from '../content/study-plan.json';
+import packed from '../content/study-plan-client.json';
 import {lessons,lessonById,totalWords,totalSentences} from '../lib/course';
+
+const plan={...packed,days:packed.days.map(day=>({...day,
+ lessonIds:day.lessonIds.map(i=>lessons[i].id),
+ reviewGroups:day.reviewGroups.map(group=>({...group,lessonIds:group.lessonIds.map(i=>lessons[i].id)})),
+ tasks:day.tasks.map(([minutes,copy])=>({...packed.taskCopies[copy],minutes})),
+}))};
 
 export default function StudyPlan({initialMonth,disabled,onChooseLesson}:{initialMonth:number;disabled:boolean;onChooseLesson:(id:string)=>void}){
  const [month,setMonth]=useState(initialMonth);
  const spec=plan.months[month];
  const days=plan.days.filter(d=>d.month===month+1);
  return <>
-  <p>180 天，每天 4 小时，共 720 小时。按从入门到进阶的顺序安排，也可以直接选择任意一天、任意关卡。</p>
+  <p>180 天是每天 4 小时、共 720 小时的参考安排。可以按自己的速度延长，也可以直接选择任意一天、任意关卡。</p>
   <div className="plan-note"><strong>站内精读：{lessons.length} 关 · {totalSentences} 条去重对话 · {totalWords} 个去重词条</strong><p>{plan.inventoryNote}</p></div>
   <div className="month-tabs" role="group" aria-label="选择学习月份">{plan.months.map((m,i)=><button key={m.month} className={'button '+(month===i?'primary':'')} aria-pressed={month===i} onClick={()=>setMonth(i)}>第 {m.month} 月</button>)}</div>
   <section className="month-overview"><p className="eyebrow">DAY {spec.startDay}–{spec.endDay}</p><h3>{spec.title}</h3><p>{spec.skills}</p><p className="month-target">截至本月的站内词句：<strong>{spec.words.toLocaleString()}</strong> 词条 · <strong>{spec.sentences.toLocaleString()}</strong> 条去重对话</p></section>
-  <p className="muted">展开某一天查看四小时安排。新课和间隔复习都列出了实际对话；复习日不增加新词、新句。</p>
+  <p className="muted">每次先学一组四关，遇到“待巩固”就先复习。一天的内容可以分多天完成；复习日不增加新词、新句。</p>
   <div className="day-list">{days.map(day=>{
-   return <details key={day.day} className="plan-day"><summary><span className="day-number">{day.day}</span><span className="day-title"><strong>{day.topic}</strong><small>{day.title} · {day.newWords?`新词 ${day.newWords} / 新句 ${day.newSentences}`:'不增加新词句'}</small></span><span aria-hidden="true" className="day-expand">＋</span></summary><div className="day-detail">{day.lessonIds.length>0&&<h4>当天新对话</h4>}<div className="day-dialogues">{day.lessonIds.map(id=>{const item=lessonById.get(id)!;return <button key={id} className="button" disabled={disabled} onClick={()=>onChooseLesson(id)}>{item.title}<span className="muted">{item.lineCount} 句</span></button>;})}</div>{day.reviewGroups.map(group=><details className="review-group" key={group.title}><summary>{group.title} · {group.lessonIds.length} 段对话</summary><div className="day-dialogues">{group.lessonIds.map(id=>{const item=lessonById.get(id)!;return <button key={id} className="button" disabled={disabled} onClick={()=>onChooseLesson(id)}>{item.title}</button>;})}</div></details>)}<ol className="daily-tasks">{day.tasks.map((task,i)=><li key={i}><div><strong>{task.title}</strong><span>{task.minutes} 分钟</span></div><p>{task.instruction}</p></li>)}</ol><p className="muted">截至今天，课程累计收录：{day.cumulativeWords.toLocaleString()} 词条 / {day.cumulativeSentences.toLocaleString()} 句。同一词条、同一句子只计算一次。</p></div></details>;
+   return <details key={day.day} className="plan-day"><summary><span className="day-number">{day.day}</span><span className="day-title"><strong>{day.topic}</strong><small>{day.title} · {day.newWords?`新词 ${day.newWords} / 新句 ${day.newSentences}`:'不增加新词句'}</small></span><span aria-hidden="true" className="day-expand">＋</span></summary><div className="day-detail">{day.lessonIds.length>0&&<h4>当天新对话</h4>}{Array.from({length:Math.ceil(day.lessonIds.length/4)},(_,group)=>{const ids=day.lessonIds.slice(group*4,group*4+4);return <details className="review-group" key={group} open={group===0}><summary>第 {group+1} 组 · {ids.length} 关</summary><div className="day-dialogues">{ids.map(id=>{const item=lessonById.get(id)!;return <button key={id} className="button" disabled={disabled} onClick={()=>onChooseLesson(id)}>{item.title}<span className="muted">{item.lineCount} 句</span></button>;})}</div></details>;})}{day.reviewGroups.map(group=><details className="review-group" key={group.title}><summary>{group.title} · {group.lessonIds.length} 段对话</summary><div className="day-dialogues">{group.lessonIds.map(id=>{const item=lessonById.get(id)!;return <button key={id} className="button" disabled={disabled} onClick={()=>onChooseLesson(id)}>{item.title}</button>;})}</div></details>)}<ol className="daily-tasks">{day.tasks.map((task,i)=><li key={i}><div><strong>{task.title}</strong><span>{task.minutes} 分钟</span></div><p>{task.instruction}</p></li>)}</ol><p className="muted">截至今天，课程累计收录：{day.cumulativeWords.toLocaleString()} 词条 / {day.cumulativeSentences.toLocaleString()} 句。同一词条、同一句子只计算一次。</p></div></details>;
   })}</div>
   <h3 className="section-title">本月怎么检验</h3><p>{spec.checkpoint}</p>
   <h3 className="section-title">记住了再加量</h3><p>{plan.retentionRule}</p>

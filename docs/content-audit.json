@@ -8,14 +8,14 @@
   "annotationMethod": "Original 216 rows have authored notes. Added dialogue uses source-constrained contextual sense selection, authored grammar, dictionary supplements, and recorded morphology/editorial repairs. Every chunk has a structured audio mapping. Automatic selection is not independent teacher certification.",
   "contextSelectionDialogues": 3970,
   "contextSelectionItems": 43562,
-  "explicitContextEdits": 223,
+  "explicitContextEdits": 678,
   "breakdownSemanticRegressions": "passed: derived lemmas, noun-modifying endings, necessity, names vs homonyms, live vs buy, bloom vs country name, honorific eat, sweet vs close, grain-buying idiom, missing terms, numerals and source typo",
   "studyPlanDays": 180,
   "studyPlanHours": 720,
   "includesExternalMaterialsInCounts": false,
   "newWordsPerLearningDay": [
-    23,
-    53
+    19,
+    54
   ],
   "voice": "ko-KR-SunHiNeural",
   "audioFiles": 15117,

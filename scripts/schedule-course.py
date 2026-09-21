@@ -48,7 +48,7 @@ def schedule(course):
         prior_foundation = set(seen)
         phase_words = set(first_at) | set().union(*(words(l) for l in bases.values()))
         total_novel = len(phase_words-seen)
-        target_normal = (total_novel-(6*24 if phase==0 else 0))/(42 if phase==0 else 48)
+        target_normal = (total_novel-(6*20+6*30 if phase==0 else 0))/(36 if phase==0 else 48)
         for di, day in enumerate(days):
             base = bases.get(di)
             base_words = words(base) if base else set()
@@ -63,8 +63,8 @@ def schedule(course):
             base_after = [sum(first_at.get(w,n)>=k for w in base_novel) for k in range(n+1)]
             next_states, back = {}, {}
             remaining = 47-di
-            cap = 28 if phase==0 and day<=7 else 60
-            target_words = 24 if phase==0 and day<=7 else target_normal
+            cap = 24 if day<=7 else 36 if day<=14 else 48 if day<=30 else 60
+            target_words = 20 if day<=7 else 30 if day<=14 else min(44,target_normal) if day<=30 else target_normal
             target_rows = (n*2+sum(len(l['lines']) for l in bases.values()))/48
             max_take = (96-(len(base['lines']) if base else 0))//2
             for start, previous_cost in current.items():
@@ -120,7 +120,7 @@ def main():
         months.append({'month':month+1,'lessons':len(ls),'sourceHeadwordLevels':dict(collections.Counter(l.get('sourceLevel','foundation') for l in ls)),
                        'medianWordsPerTurn':statistics.median(len(s['ko'].split()) for l in ls for s in l['lines'])})
     report={'method':'source-level gates plus sentence complexity; exact workload-constrained partition', 'sourceLevelIsNotWholeSentenceLevel':True,
-            'preservesLessonAndLineIds':True,'firstWeekNewWordCap':28,'newWordCap':60,'dialogueRowCap':96,'months':months,'days':days}
+            'preservesLessonAndLineIds':True,'firstWeekNewWordCap':24,'secondWeekNewWordCap':36,'firstMonthNewWordCap':48,'newWordCap':60,'dialogueRowCap':96,'months':months,'days':days}
     (ROOT/'docs/schedule-quality.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
     print(json.dumps({'months':months,'newWordRange':[min(d['newWords'] for d in days if d['lessons']),max(d['newWords'] for d in days)],'maxRows':max(d['rows'] for d in days)},ensure_ascii=False))
 

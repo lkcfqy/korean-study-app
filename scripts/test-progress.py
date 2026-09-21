@@ -4,6 +4,7 @@ ROOT=pathlib.Path(__file__).resolve().parents[1]
 BASE='http://127.0.0.1:8787'
 USER='qa_'+uuid.uuid4().hex
 ALL_LESSONS=json.loads((ROOT/'content/course-index.json').read_text())['lessons']
+ALL_META={l['id']:l for l in ALL_LESSONS}
 LESSONS=[l for l in ALL_LESSONS if l['id'].startswith('c')]
 for stage in range(6):
     extra=[l for l in ALL_LESSONS if l['stage']==stage and not l['id'].startswith('c')]
@@ -20,7 +21,17 @@ def call(body=None,user=USER,origin=BASE,expected=200):
     except urllib.error.HTTPError as e: status=e.code;raw=e.read();cache=e.headers.get('Cache-Control','')
     assert status==expected,(status,expected,raw[:400])
     assert 'no-store' in cache
-    return json.loads(raw)
+    data=json.loads(raw)
+    if 'rows' in data:
+        words=set();sentences=set();completed=0
+        for row in data['rows']:
+            lesson=ALL_META.get(row['lesson_id'])
+            if not lesson:continue
+            completed+=row['completed_at'] is not None
+            for i,stats in enumerate(lesson['lineStats']):
+                if row['read_mask']&(1<<i):sentences.add(stats[0]);words.update(stats[1:])
+        assert data['counts']=={'words':len(words),'sentences':len(sentences),'completed':completed}
+    return data
 def passed(name): checks.append(name)
 call(user=None,expected=401);call({'action':'select','lessonId':'c01'},user=None,expected=401);passed('anonymous reads and writes rejected')
 call({'action':'select','lessonId':'c01'},origin='https://invalid.example',expected=403);passed('cross-origin write rejected')
@@ -74,6 +85,54 @@ call({'action':'read','lessonId':'c01','lineIndex':0})
 row=next(r for r in call()['rows'] if r['lesson_id']=='c01')
 assert row['read_mask']==63 and row['completed_at'] and row['review_step']==1
 passed('replay from another session preserves all earned progress')
+# Listening evidence controls the interval independently of the final corrected answers.
+LISTENER=USER+'_listening'
+def listening_row():return next(r for r in call(user=LISTENER)['rows'] if r['lesson_id']=='c01')
+def listening_attempt(first=None,heard=None,hints=None,include=True):
+    payload={'action':'complete','lessonId':'c01','answers':META['c01']['answers']}
+    if include:payload['check']={'firstAnswers':first or META['c01']['answers'],'heard':heard or [True,True],'hints':hints or [False,False]}
+    return call(payload,user=LISTENER)
+def make_due():
+    db=sqlite3.connect(file)
+    db.execute('UPDATE lesson_progress SET next_review_at=? WHERE user_id=? AND lesson_id=?',(int(time.time()*1000)-1000,LISTENER,'c01'))
+    db.commit();db.close()
+call({'action':'select','lessonId':'c01'},user=LISTENER)
+for i in range(META['c01']['lineCount']):call({'action':'read','lessonId':'c01','lineIndex':i},user=LISTENER)
+listening_attempt(hints=[True,False]);hinted=listening_row()
+assert hinted['review_step']==-1 and .99*86400000<hinted['next_review_at']-int(time.time()*1000)<=86400000
+passed('using a transcript hint schedules one-day consolidation')
+listening_attempt(hints=[True,False]);assert listening_row()['next_review_at']==hinted['next_review_at']
+listening_attempt(include=False);assert listening_row()['review_step']==-1
+passed('duplicate assisted attempts do not postpone review and legacy clients cannot clear consolidation')
+listening_attempt();independent=listening_row()
+assert independent['review_step']==0 and independent['next_review_at']==hinted['next_review_at']
+passed('independent success clears consolidation without skipping the first delayed review')
+make_due();listening_attempt();row=listening_row()
+assert row['review_step']==1 and 2.99*86400000<row['next_review_at']-int(time.time()*1000)<=3*86400000
+passed('independent delayed success advances to a three-day interval')
+first=META['c01']['answers'].copy();first[0]=(first[0]+1)%3
+listening_attempt(first=first);row=listening_row()
+assert row['review_step']==-1 and .99*86400000<row['next_review_at']-int(time.time()*1000)<=86400000
+passed('first-answer error shortens a long interval even after the final answer is corrected')
+make_due()
+with concurrent.futures.ThreadPoolExecutor(max_workers=2) as pool:list(pool.map(lambda _:listening_attempt(),range(2)))
+row=listening_row()
+assert row['review_step']==0 and .99*86400000<row['next_review_at']-int(time.time()*1000)<=86400000
+passed('simultaneous consolidation successes retain a one-day check instead of double advancement')
+listening_attempt(heard=[False,True]);assert listening_row()['review_step']==-1
+passed('an unplayed sentence cannot count as independent listening')
+call({'action':'complete','lessonId':'c01','answers':META['c01']['answers'],'check':{'firstAnswers':[3,0],'heard':[True,True],'hints':[False,False]}},user=LISTENER,expected=400)
+passed('malformed listening evidence is rejected')
+passed('every progress response preserves deduplicated sentence word and completion counts')
+# Exercise the largest normal account history without touching any real user.
+full_user=USER+'_full'
+now=int(time.time()*1000)
+db=sqlite3.connect(file)
+db.executemany('INSERT INTO lesson_progress (user_id,lesson_id,cursor,read_mask,completed_at,next_review_at,review_step,updated_at) VALUES (?,?,?,?,?,?,?,?)',[(full_user,l['id'],l['lineCount'],(1<<l['lineCount'])-1,now,now+86400000,0,now) for l in ALL_LESSONS])
+db.commit();db.close()
+full=call(user=full_user)
+assert len(full['rows'])==4006 and full['counts']=={'words':6351,'sentences':8154,'completed':4006}
+passed('a complete 4006-lesson history returns exact totals without a client-side corpus index')
 report={'scope':'local built production Worker with local D1; not a live phone/desktop test','passed':len(checks),'checks':checks,'browserQA':'see docs/browser-qa.json','webMCPQA':'see docs/browser-qa.json'}
 (ROOT/'docs/progress-tests.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
 print(json.dumps(report,ensure_ascii=False,indent=2))

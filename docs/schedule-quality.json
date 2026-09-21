@@ -2,27 +2,29 @@
   "method": "source-level gates plus sentence complexity; exact workload-constrained partition",
   "sourceLevelIsNotWholeSentenceLevel": true,
   "preservesLessonAndLineIds": true,
-  "firstWeekNewWordCap": 28,
+  "firstWeekNewWordCap": 24,
+  "secondWeekNewWordCap": 36,
+  "firstMonthNewWordCap": 48,
   "newWordCap": 60,
   "dialogueRowCap": 96,
   "months": [
     {
       "month": 1,
-      "lessons": 453,
+      "lessons": 384,
       "sourceHeadwordLevels": {
         "foundation": 6,
-        "초급": 447
+        "초급": 378
       },
       "medianWordsPerTurn": 4.0
     },
     {
       "month": 2,
-      "lessons": 645,
+      "lessons": 714,
       "sourceHeadwordLevels": {
         "foundation": 6,
-        "초급": 639
+        "초급": 708
       },
-      "medianWordsPerTurn": 6.0
+      "medianWordsPerTurn": 5.0
     },
     {
       "month": 3,
@@ -64,27 +66,27 @@
   "days": [
     {
       "day": 1,
-      "lessons": 6,
-      "rows": 16,
-      "newWords": 25
+      "lessons": 4,
+      "rows": 12,
+      "newWords": 19
     },
     {
       "day": 2,
       "lessons": 6,
       "rows": 12,
-      "newWords": 25
+      "newWords": 21
     },
     {
       "day": 3,
-      "lessons": 6,
-      "rows": 12,
-      "newWords": 23
+      "lessons": 5,
+      "rows": 10,
+      "newWords": 22
     },
     {
       "day": 4,
       "lessons": 6,
       "rows": 12,
-      "newWords": 24
+      "newWords": 23
     },
     {
       "day": 5,
@@ -96,25 +98,25 @@
       "day": 6,
       "lessons": 5,
       "rows": 14,
-      "newWords": 26
+      "newWords": 23
     },
     {
       "day": 7,
-      "lessons": 9,
-      "rows": 18,
-      "newWords": 27
+      "lessons": 5,
+      "rows": 10,
+      "newWords": 23
     },
     {
       "day": 8,
-      "lessons": 15,
-      "rows": 30,
-      "newWords": 53
+      "lessons": 11,
+      "rows": 22,
+      "newWords": 32
     },
     {
       "day": 9,
-      "lessons": 17,
-      "rows": 34,
-      "newWords": 49
+      "lessons": 10,
+      "rows": 20,
+      "newWords": 34
     },
     {
       "day": 10,
@@ -124,27 +126,27 @@
     },
     {
       "day": 11,
-      "lessons": 18,
-      "rows": 40,
-      "newWords": 49
+      "lessons": 8,
+      "rows": 20,
+      "newWords": 34
     },
     {
       "day": 12,
-      "lessons": 21,
-      "rows": 42,
-      "newWords": 48
+      "lessons": 13,
+      "rows": 26,
+      "newWords": 34
     },
     {
       "day": 13,
-      "lessons": 21,
-      "rows": 42,
-      "newWords": 48
+      "lessons": 14,
+      "rows": 28,
+      "newWords": 34
     },
     {
       "day": 14,
-      "lessons": 20,
-      "rows": 40,
-      "newWords": 49
+      "lessons": 14,
+      "rows": 28,
+      "newWords": 34
     },
     {
       "day": 15,
@@ -160,20 +162,20 @@
     },
     {
       "day": 17,
-      "lessons": 24,
-      "rows": 48,
+      "lessons": 21,
+      "rows": 42,
       "newWords": 47
     },
     {
       "day": 18,
-      "lessons": 26,
-      "rows": 52,
-      "newWords": 47
+      "lessons": 22,
+      "rows": 44,
+      "newWords": 48
     },
     {
       "day": 19,
-      "lessons": 25,
-      "rows": 50,
+      "lessons": 22,
+      "rows": 44,
       "newWords": 47
     },
     {
@@ -184,27 +186,27 @@
     },
     {
       "day": 21,
-      "lessons": 24,
-      "rows": 52,
+      "lessons": 22,
+      "rows": 48,
       "newWords": 47
     },
     {
       "day": 22,
       "lessons": 25,
       "rows": 50,
-      "newWords": 49
+      "newWords": 46
     },
     {
       "day": 23,
-      "lessons": 26,
-      "rows": 52,
-      "newWords": 49
+      "lessons": 22,
+      "rows": 44,
+      "newWords": 47
     },
     {
       "day": 24,
-      "lessons": 29,
-      "rows": 58,
-      "newWords": 48
+      "lessons": 27,
+      "rows": 54,
+      "newWords": 46
     },
     {
       "day": 25,
@@ -214,27 +216,27 @@
     },
     {
       "day": 26,
-      "lessons": 24,
-      "rows": 52,
-      "newWords": 49
-    },
-    {
-      "day": 27,
-      "lessons": 29,
-      "rows": 58,
+      "lessons": 26,
+      "rows": 56,
       "newWords": 47
     },
     {
+      "day": 27,
+      "lessons": 27,
+      "rows": 54,
+      "newWords": 46
+    },
+    {
       "day": 28,
-      "lessons": 25,
-      "rows": 50,
-      "newWords": 48
+      "lessons": 21,
+      "rows": 42,
+      "newWords": 47
     },
     {
       "day": 29,
-      "lessons": 26,
-      "rows": 52,
-      "newWords": 48
+      "lessons": 28,
+      "rows": 56,
+      "newWords": 47
     },
     {
       "day": 30,
@@ -244,27 +246,27 @@
     },
     {
       "day": 31,
-      "lessons": 23,
-      "rows": 50,
-      "newWords": 48
+      "lessons": 29,
+      "rows": 62,
+      "newWords": 52
     },
     {
       "day": 32,
-      "lessons": 25,
-      "rows": 50,
-      "newWords": 47
+      "lessons": 29,
+      "rows": 58,
+      "newWords": 52
     },
     {
       "day": 33,
-      "lessons": 28,
-      "rows": 56,
-      "newWords": 46
+      "lessons": 27,
+      "rows": 54,
+      "newWords": 53
     },
     {
       "day": 34,
-      "lessons": 30,
-      "rows": 60,
-      "newWords": 47
+      "lessons": 27,
+      "rows": 54,
+      "newWords": 53
     },
     {
       "day": 35,
@@ -274,27 +276,27 @@
     },
     {
       "day": 36,
-      "lessons": 29,
-      "rows": 62,
-      "newWords": 45
+      "lessons": 31,
+      "rows": 66,
+      "newWords": 51
     },
     {
       "day": 37,
-      "lessons": 26,
-      "rows": 52,
-      "newWords": 48
+      "lessons": 33,
+      "rows": 66,
+      "newWords": 51
     },
     {
       "day": 38,
-      "lessons": 26,
-      "rows": 52,
-      "newWords": 47
+      "lessons": 33,
+      "rows": 66,
+      "newWords": 52
     },
     {
       "day": 39,
-      "lessons": 32,
-      "rows": 64,
-      "newWords": 47
+      "lessons": 31,
+      "rows": 62,
+      "newWords": 52
     },
     {
       "day": 40,
@@ -304,27 +306,27 @@
     },
     {
       "day": 41,
-      "lessons": 23,
-      "rows": 50,
-      "newWords": 49
+      "lessons": 27,
+      "rows": 58,
+      "newWords": 54
     },
     {
       "day": 42,
-      "lessons": 29,
-      "rows": 58,
-      "newWords": 47
+      "lessons": 33,
+      "rows": 66,
+      "newWords": 52
     },
     {
       "day": 43,
-      "lessons": 24,
-      "rows": 48,
-      "newWords": 48
+      "lessons": 29,
+      "rows": 58,
+      "newWords": 53
     },
     {
       "day": 44,
-      "lessons": 27,
-      "rows": 54,
-      "newWords": 47
+      "lessons": 28,
+      "rows": 56,
+      "newWords": 54
     },
     {
       "day": 45,
@@ -334,27 +336,27 @@
     },
     {
       "day": 46,
-      "lessons": 31,
-      "rows": 66,
-      "newWords": 45
+      "lessons": 29,
+      "rows": 62,
+      "newWords": 52
     },
     {
       "day": 47,
-      "lessons": 29,
-      "rows": 58,
-      "newWords": 50
+      "lessons": 33,
+      "rows": 66,
+      "newWords": 52
     },
     {
       "day": 48,
-      "lessons": 28,
-      "rows": 56,
-      "newWords": 49
+      "lessons": 33,
+      "rows": 66,
+      "newWords": 53
     },
     {
       "day": 49,
-      "lessons": 28,
-      "rows": 56,
-      "newWords": 48
+      "lessons": 30,
+      "rows": 60,
+      "newWords": 54
     },
     {
       "day": 50,
@@ -364,27 +366,27 @@
     },
     {
       "day": 51,
-      "lessons": 28,
-      "rows": 60,
-      "newWords": 47
+      "lessons": 32,
+      "rows": 68,
+      "newWords": 51
     },
     {
       "day": 52,
-      "lessons": 27,
-      "rows": 54,
-      "newWords": 47
+      "lessons": 30,
+      "rows": 60,
+      "newWords": 54
     },
     {
       "day": 53,
-      "lessons": 30,
-      "rows": 60,
-      "newWords": 47
+      "lessons": 33,
+      "rows": 66,
+      "newWords": 53
     },
     {
       "day": 54,
-      "lessons": 26,
-      "rows": 52,
-      "newWords": 49
+      "lessons": 30,
+      "rows": 60,
+      "newWords": 54
     },
     {
       "day": 55,
@@ -394,27 +396,27 @@
     },
     {
       "day": 56,
-      "lessons": 26,
-      "rows": 56,
-      "newWords": 47
+      "lessons": 29,
+      "rows": 62,
+      "newWords": 54
     },
     {
       "day": 57,
-      "lessons": 27,
-      "rows": 54,
-      "newWords": 48
+      "lessons": 30,
+      "rows": 60,
+      "newWords": 52
     },
     {
       "day": 58,
-      "lessons": 23,
-      "rows": 46,
-      "newWords": 48
+      "lessons": 26,
+      "rows": 52,
+      "newWords": 53
     },
     {
       "day": 59,
-      "lessons": 20,
-      "rows": 40,
-      "newWords": 50
+      "lessons": 22,
+      "rows": 44,
+      "newWords": 54
     },
     {
       "day": 60,

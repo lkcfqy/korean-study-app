@@ -1,12 +1,14 @@
 import {getChatGPTUser} from '../../chatgpt-auth';
 import {database,readProgress} from '../../../lib/progress-db';
-import {lessons,type LessonProgress} from '../../../lib/course';
+import type {LessonProgress} from '../../../lib/course';
+import {lessons} from '../../../lib/course-server';
 import {z} from 'zod';
+import {listeningCheckSchema,independentAnswers} from '../../../lib/listening-check';
 export const dynamic='force-dynamic';
 const bodySchema=z.discriminatedUnion('action',[
  z.object({action:z.literal('select'),lessonId:z.string(),restart:z.boolean().optional()}),
  z.object({action:z.literal('read'),lessonId:z.string(),lineIndex:z.number().int().min(0).max(30)}),
- z.object({action:z.literal('complete'),lessonId:z.string(),answers:z.array(z.number().int().min(0).max(2)).length(2)}),
+ z.object({action:z.literal('complete'),lessonId:z.string(),answers:z.array(z.number().int().min(0).max(2)).length(2),check:listeningCheckSchema.optional()}),
  z.object({action:z.literal('draft'),lessonId:z.string(),text:z.string().max(4000),revision:z.number().int().nonnegative()}),
 ]);
 function json(data:unknown,status=200){return Response.json(data,{status,headers:{'Cache-Control':'private, no-store','Vary':'Cookie'}});}
@@ -41,8 +43,23 @@ export async function POST(request:Request){
    if(lesson.answers.some((answer,i)=>answer!==body.answers[i]))return json({error:'还有一处理解需要再确认，回听后再试。'},422);
    const prev=await db.prepare('SELECT * FROM lesson_progress WHERE user_id=? AND lesson_id=?').bind(uid,lesson.id).first<LessonProgress>();
    if(!prev||prev.read_mask!==((1<<lesson.lineCount)-1))return json({error:'先学完这一关的全部对话。'},409);
-   // This single conditional SQL update advances a due review at most once, even on retries from another device.
-   await db.prepare('UPDATE lesson_progress SET completed_at=COALESCE(completed_at,?),cursor=?,updated_at=?,next_review_at=CASE WHEN completed_at IS NULL THEN ? WHEN next_review_at <= ? THEN ? + (CASE review_step WHEN 0 THEN 3 WHEN 1 THEN 7 WHEN 2 THEN 14 ELSE 30 END)*86400000 ELSE next_review_at END,review_step=CASE WHEN completed_at IS NOT NULL AND next_review_at <= ? THEN MIN(review_step+1,4) ELSE review_step END WHERE user_id=? AND lesson_id=?').bind(now,lesson.lineCount,now,now+86400000,now,now,now,uid,lesson.id).run();
+   // -1 is a practice flag, not a mastery score. Old clients cannot clear it.
+   // Conditional SQL keeps duplicate and concurrent completions from extending a review twice.
+   const outcome=body.check?(independentAnswers(body.check,lesson.answers)===2?1:0):-1;
+   await db.prepare(`UPDATE lesson_progress SET
+    completed_at=COALESCE(completed_at,?),cursor=?,updated_at=?,
+    next_review_at=CASE
+     WHEN completed_at IS NULL THEN ?
+     WHEN ?=0 THEN CASE WHEN next_review_at<=? OR next_review_at IS NULL THEN ? ELSE MIN(next_review_at,?) END
+     WHEN review_step=-1 AND ?=1 THEN CASE WHEN next_review_at<=? OR next_review_at IS NULL THEN ? ELSE MIN(next_review_at,?) END
+     WHEN next_review_at<=? THEN ?+(CASE review_step WHEN -1 THEN 1 WHEN 0 THEN 3 WHEN 1 THEN 7 WHEN 2 THEN 14 ELSE 30 END)*86400000
+     ELSE next_review_at END,
+    review_step=CASE WHEN ?=0 THEN -1
+     WHEN review_step=-1 AND ?=1 THEN 0
+     WHEN completed_at IS NOT NULL AND next_review_at<=? AND review_step>=0 THEN MIN(review_step+1,4)
+     ELSE review_step END
+    WHERE user_id=? AND lesson_id=?`)
+    .bind(now,lesson.lineCount,now,now+86400000,outcome,now,now+86400000,now+86400000,outcome,now,now+86400000,now+86400000,now,now,outcome,outcome,now,uid,lesson.id).run();
   }else if(body.action==='draft'){
    if(lesson.stage!==5)return json({error:'这一关没有书面回复练习。'},400);
    const result=await db.prepare('UPDATE lesson_progress SET draft=?,draft_revision=draft_revision+1,updated_at=? WHERE user_id=? AND lesson_id=? AND draft_revision=?').bind(body.text,now,uid,lesson.id,body.revision).run();

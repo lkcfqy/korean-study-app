@@ -4,6 +4,7 @@ import hashlib
 import json
 import pathlib
 from course_keys import sentence_key as key
+from question_choices import QuestionChoices
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 
@@ -12,6 +13,7 @@ def main():
     course = load_course()
     positions_path=ROOT/'content/question-positions.json'
     positions=json.loads(positions_path.read_text()) if positions_path.exists() else {}
+    choices=QuestionChoices(course,json.loads((ROOT/'content/question-overrides.json').read_text()))
     words = sorted({w['term'] for l in course for s in l['lines'] for w in s['words']})
     sentences = sorted({key(s['ko']) for l in course for s in l['lines']})
     wi, si = {w: i for i, w in enumerate(words)}, {s: i for i, s in enumerate(sentences)}
@@ -28,13 +30,7 @@ def main():
         questions = []
         for q, line_index in enumerate(indices):
             line = lesson['lines'][line_index]
-            candidates = [s['zh'] for s in lesson['lines'] if s['zh'] != line['zh']]
-            for offset in range(1, len(course)):
-                if len(set(candidates)) >= 2:
-                    break
-                candidates.extend(s['zh'] for s in course[(n + offset) % len(course)]['lines']
-                                  if s['zh'] != line['zh'])
-            options = list(dict.fromkeys(candidates))[:2]
+            options = list(choices.distractors(lesson,line))
             assert len(options) == 2
             # Reordering the curriculum must not invalidate a quiz already
             # open on another device. Existing lessons retain their positions.
@@ -55,6 +51,8 @@ def main():
                       'revision': hashlib.sha256(encoded.encode()).hexdigest()[:12]})
     data = {'totalWords': len(words), 'totalSentences': len(sentences), 'lessons': index}
     (ROOT / 'content/course-index.json').write_text(json.dumps(data, ensure_ascii=False, separators=(',', ':')) + '\n')
+    catalog={'totalWords':len(words),'totalSentences':len(sentences),'lessons':[[l['id'],l['title'],l['day'],l['lineCount'],l['revision']] for l in index]}
+    (ROOT/'content/course-catalog.json').write_text(json.dumps(catalog,ensure_ascii=False,separators=(',',':'))+'\n')
     print(json.dumps({'lessons': len(index), 'words': len(words), 'sentences': len(sentences),
                       'indexBytes': (ROOT / 'content/course-index.json').stat().st_size}))
 
