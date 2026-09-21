@@ -10,7 +10,7 @@
   "uniqueSurfacePronunciations": 16374,
   "contextSelectionDialogues": 3970,
   "contextSelectionItems": 43558,
-  "explicitContextEdits": 1276,
+  "explicitContextEdits": 1310,
   "breakdownSemanticRegressions": "passed: derived lemmas, noun-modifying endings, necessity, names vs homonyms, live vs buy, bloom vs country name, honorific eat, sweet vs close, grain-buying idiom, missing terms, numerals and source typo",
   "studyPlanDays": 180,
   "studyPlanHours": 720,
@@ -27,7 +27,9 @@
   "structuralValidation": "passed",
   "bilingualReview": {
     "releasedDialoguesCovered": 4006,
-    "method": "All complete Korean sentences and Chinese translations read together by Codex AI editor; source dictionary Chinese senses retained with attribution.",
+    "method": "Historical bilingual AI review log matched by dialogue ID; source dictionary Chinese senses retained with attribution.",
+    "scope": "These historical rows are not bound to the current text hash. This count is not current full-course semantic verification. Current adjudications and model-input coverage are recorded in docs/quota-review-summary.json.",
+    "currentFullCourseMeaningAccuracyCertified": false,
     "correctedPublishedDialoguePairs": 627,
     "humanTeacherCertification": false
   },
