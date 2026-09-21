@@ -12,6 +12,7 @@ texts = sorted(set(SYLLABLES + [line['ko'] for lesson in COURSE for line in less
 parser = argparse.ArgumentParser()
 parser.add_argument('--include-selected', action='store_true')
 parser.add_argument('--workers', type=int, default=5)
+parser.add_argument('--text', action='append', help='Generate only the specified required text; may be repeated.')
 parser.add_argument('--only-surface-inputs', action='store_true', help='Regenerate only authored punctuation-adjusted surface clips.')
 args = parser.parse_args()
 assert 1 <= args.workers <= 8
@@ -76,6 +77,9 @@ async def generate(text):
 
 async def main():
     targets=[text for text in texts if text in surface_inputs] if args.only_surface_inputs else texts
+    if args.text:
+        assert set(args.text)<=set(texts), 'Requested audio must be referenced by the current course.'
+        targets=list(dict.fromkeys(args.text))
     await asyncio.gather(*(generate(text) for text in targets))
     checkpoint()
     print(f'Complete: {done} SunHi assets; failures {len(failures)}', flush=True)

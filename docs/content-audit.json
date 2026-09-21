@@ -2,15 +2,15 @@
   "lessons": 4006,
   "dialogueRows": 8156,
   "uniqueSentences": 8154,
-  "uniqueCoreEntries": 6351,
+  "uniqueCoreEntries": 6352,
   "annotatedSentences": 8156,
   "annotatedParts": 44985,
   "annotationMethod": "Original 216 rows have authored notes. Added dialogue uses source-constrained contextual sense selection, authored grammar, dictionary supplements, and recorded morphology/editorial repairs. Every clickable chunk has a complete surface-form audio mapping, with lexical readings kept separately. Automatic selection is not independent teacher certification.",
   "surfacePronunciationParts": 44985,
   "uniqueSurfacePronunciations": 16374,
   "contextSelectionDialogues": 3970,
-  "contextSelectionItems": 43562,
-  "explicitContextEdits": 678,
+  "contextSelectionItems": 43560,
+  "explicitContextEdits": 873,
   "breakdownSemanticRegressions": "passed: derived lemmas, noun-modifying endings, necessity, names vs homonyms, live vs buy, bloom vs country name, honorific eat, sweet vs close, grain-buying idiom, missing terms, numerals and source typo",
   "studyPlanDays": 180,
   "studyPlanHours": 720,
@@ -20,8 +20,9 @@
     54
   ],
   "voice": "ko-KR-SunHiNeural",
-  "audioFiles": 28777,
-  "requiredAudioReferences": 28742,
+  "audioFiles": 28778,
+  "requiredAudioReferences": 28743,
+  "audioBytesVerification": "all local files match manifest bytes and SHA-256",
   "missingAudio": 0,
   "structuralValidation": "passed",
   "bilingualReview": {
@@ -31,6 +32,6 @@
     "humanTeacherCertification": false
   },
   "excludedSourceDialogues": 58,
-  "audioReview": "Baseline audio has prior decoding, signal and sentence-ASR reports. Baseline hashes are rechecked; newly added clips receive decoding/signal checks. One spelling-corrected sentence and new word/chunk clips are outside the baseline ASR report. No full human listening review.",
+  "audioReview": "Audio bytes and references are checked here. Hash-bound blind transcription coverage and unresolved differences are recorded separately in docs/audio-inventory-review.json. No full human listening review.",
   "examOutcome": "Course inventory and time commitment do not certify a TOPIK score."
 }

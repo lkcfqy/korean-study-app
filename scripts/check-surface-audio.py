@@ -18,6 +18,7 @@ ROOT=Path(__file__).resolve().parents[1]
 parser=argparse.ArgumentParser()
 parser.add_argument('--baseline-ref',required=True)
 parser.add_argument('--stage-new',action='store_true')
+parser.add_argument('--include-lexical-additions',action='store_true',help='Also allow current sentence and lemma assets in addition to surface forms.')
 args=parser.parse_args()
 baseline=json.loads(subprocess.check_output(['git','show',args.baseline_ref+':content/audio-manifest.json'],cwd=ROOT))
 old_index=json.loads(subprocess.check_output(['git','show',args.baseline_ref+':content/audio-storage-index.json'],cwd=ROOT))
@@ -43,7 +44,8 @@ for line_id,part in parts:
     different_from_lemmas+=not any(r['term']==reading['term'] for r in part['readings'])
 
 new_entries={text:entry for text,entry in entries.items() if text not in baseline['entries']}
-assert set(new_entries)<=set(terms),'This release adds sentence-token forms only'
+lexical={s['ko'] for l in load_course(prefer_cache=False) for s in l['lines']}|{w['term'] for l in load_course(prefer_cache=False) for s in l['lines'] for w in s['words']}
+assert set(new_entries)<=set(terms)|(lexical if args.include_lexical_additions else set()),'Unexpected audio additions'
 new_bytes=0
 for text,entry in entries.items():
     filename=Path(entry['path']).name
@@ -67,8 +69,9 @@ report={
     'partsWithCompleteSurfaceReading':sum(terms.values()),
     'uniqueSurfaceForms':len(terms),
     'partsWhosePreviousReadingsOmittedTheFullForm':different_from_lemmas,
-    'newSurfaceAudioFiles':len(new_entries),
-    'reusedSurfaceAudioFiles':len(terms)-len(new_entries),
+    'newSurfaceAudioFiles':len(set(new_entries)&set(terms)),
+    'newOtherAudioFiles':len(set(new_entries)-set(terms)),
+    'reusedSurfaceAudioFiles':len(terms)-len(set(new_entries)&set(terms)),
     'newAudioBytes':new_bytes,
     'contextDerivedSurfaceClips':sum('contextClip' in e for e in new_entries.values()),
     'preservedPreviousAudioFiles':len(baseline['entries']),

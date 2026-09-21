@@ -1,6 +1,6 @@
 {
   "scope": "local built production Worker with local D1; not a live phone/desktop test",
-  "passed": 24,
+  "passed": 28,
   "checks": [
     "anonymous reads and writes rejected",
     "cross-origin write rejected",
@@ -25,8 +25,15 @@
     "an unplayed sentence cannot count as independent listening",
     "malformed listening evidence is rejected",
     "every progress response preserves deduplicated sentence word and completion counts",
-    "a complete 4006-lesson history returns exact totals without a client-side corpus index"
+    "a complete 4006-lesson history returns exact totals without a client-side corpus index",
+    "opt-in delta returns one row and exact full-account counts, reducing transfer over 99 percent",
+    "self-rated omissions schedule consolidation even with canonical completion answers",
+    "only a complete unassisted self-rating clears recall consolidation",
+    "self-ratings cannot substitute for authored choice questions"
   ],
+  "fullHistoryBytes": 741925,
+  "deltaBytes": 308,
+  "transferReductionPercent": 99.958,
   "browserQA": "see docs/browser-qa.json",
   "webMCPQA": "see docs/browser-qa.json"
 }

@@ -24,3 +24,5 @@
 .listening-title{font-size:26px;margin-top:24px;line-height:1.5}.listening-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px}.quiz-transcript{padding:14px 18px;background:#f3f6ff;border-radius:12px;font-size:26px}.info-banner .text-link{margin-left:12px}.choice:disabled.correct{opacity:1}
 
 @media(max-width:380px){.course-day-grid{grid-template-columns:repeat(5,minmax(0,1fr))}}
+
+.course-search{display:block;font-size:14px;margin-top:20px}.course-search input{display:block;width:100%;border:1px solid #b8c6df;border-radius:12px;padding:12px 14px;margin:7px 0 10px;background:#fff;color:#172440;min-height:48px}.session-picker{border:1px solid #dbe3f0;background:#fff;border-radius:14px;padding:12px 18px;margin-bottom:20px}.session-picker summary{cursor:pointer;min-height:44px;display:flex;align-items:center;color:#315be9;font-size:14px;font-weight:600}.session-picker .line-note{margin:14px 0}.session-picker .line-note svg{display:inline;vertical-align:middle;margin-right:6px}.session-picker .button{white-space:normal;text-align:left;overflow-wrap:anywhere}.recall-translation{margin-top:16px}

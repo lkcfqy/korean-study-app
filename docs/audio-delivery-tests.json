@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-09-21T04:04:55.922568+00:00",
-  "files": 28777,
+  "checkedAt": "2026-09-21T08:12:21.008323+00:00",
+  "files": 28778,
   "allHttpResponses": "200 audio/mpeg",
   "byteExact": true,
-  "totalBytes": 415548048,
+  "totalBytes": 415560144,
   "scope": "local built production Worker, not live deployment",
   "transport": "Eight reusable local HTTP connections; byte comparison for every asset."
 }

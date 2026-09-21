@@ -19,7 +19,8 @@ def main():
     foundation_path.write_text(json.dumps(foundation,ensure_ascii=False,indent=2)+'\n')
     positions_path=ROOT/'content/question-positions.json'
     positions=json.loads(positions_path.read_text()) if positions_path.exists() else {}
-    choices=QuestionChoices(course,json.loads((ROOT/'content/question-overrides.json').read_text()))
+    overrides=json.loads((ROOT/'content/question-overrides.json').read_text())
+    choices=QuestionChoices(course,overrides)
     words = sorted({w['term'] for l in course for s in l['lines'] for w in s['words']})
     sentences = sorted({key(s['ko']) for l in course for s in l['lines']})
     wi, si = {w: i for i, w in enumerate(words)}, {s: i for i, s in enumerate(sentences)}
@@ -30,9 +31,12 @@ def main():
         if previous.stem not in current_ids:
             previous.unlink()
     index = []
+    contrast_lessons = []
     for n, lesson in enumerate(course):
         assert 2 <= len(lesson['lines']) <= 30
         indices = [2, 4] if len(lesson['lines']) >= 6 else [0, len(lesson['lines']) - 1]
+        if all(lesson['lines'][i]['id'] in overrides for i in indices):
+            contrast_lessons.append(lesson['id'])
         questions = []
         for q, line_index in enumerate(indices):
             line = lesson['lines'][line_index]
@@ -59,6 +63,7 @@ def main():
     (ROOT / 'content/course-index.json').write_text(json.dumps(data, ensure_ascii=False, separators=(',', ':')) + '\n')
     catalog={'totalWords':len(words),'totalSentences':len(sentences),'lessons':[[l['id'],l['title'],l['day'],l['lineCount'],l['revision']] for l in index]}
     (ROOT/'content/course-catalog.json').write_text(json.dumps(catalog,ensure_ascii=False,separators=(',',':'))+'\n')
+    (ROOT/'content/contrast-lessons.json').write_text(json.dumps(contrast_lessons,separators=(',',':'))+'\n')
     print(json.dumps({'lessons': len(index), 'words': len(words), 'sentences': len(sentences),
                       'indexBytes': (ROOT / 'content/course-index.json').stat().st_size}))
 

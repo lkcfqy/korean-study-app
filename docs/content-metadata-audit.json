@@ -1,0 +1,37 @@
+{
+  "lessons": 4006,
+  "dialogueRows": 8156,
+  "uniqueSentences": 8154,
+  "uniqueCoreEntries": 6352,
+  "annotatedSentences": 8156,
+  "annotatedParts": 44985,
+  "annotationMethod": "Original 216 rows have authored notes. Added dialogue uses source-constrained contextual sense selection, authored grammar, dictionary supplements, and recorded morphology/editorial repairs. Every clickable chunk has a complete surface-form audio mapping, with lexical readings kept separately. Automatic selection is not independent teacher certification.",
+  "surfacePronunciationParts": 44985,
+  "uniqueSurfacePronunciations": 16374,
+  "contextSelectionDialogues": 3970,
+  "contextSelectionItems": 43560,
+  "explicitContextEdits": 873,
+  "breakdownSemanticRegressions": "passed: derived lemmas, noun-modifying endings, necessity, names vs homonyms, live vs buy, bloom vs country name, honorific eat, sweet vs close, grain-buying idiom, missing terms, numerals and source typo",
+  "studyPlanDays": 180,
+  "studyPlanHours": 720,
+  "includesExternalMaterialsInCounts": false,
+  "newWordsPerLearningDay": [
+    19,
+    54
+  ],
+  "voice": "ko-KR-SunHiNeural",
+  "audioFiles": 28778,
+  "requiredAudioReferences": 28743,
+  "audioBytesVerification": "skipped: metadata-only mode",
+  "missingAudio": null,
+  "structuralValidation": "passed",
+  "bilingualReview": {
+    "releasedDialoguesCovered": 4006,
+    "method": "All complete Korean sentences and Chinese translations read together by Codex AI editor; source dictionary Chinese senses retained with attribution.",
+    "correctedPublishedDialoguePairs": 627,
+    "humanTeacherCertification": false
+  },
+  "excludedSourceDialogues": 58,
+  "audioReview": "Audio bytes and references are checked here. Hash-bound blind transcription coverage and unresolved differences are recorded separately in docs/audio-inventory-review.json. No full human listening review.",
+  "examOutcome": "Course inventory and time commitment do not certify a TOPIK score."
+}

@@ -3,6 +3,7 @@
 Structural checks do not certify language semantics or human listening quality.
 """
 from course_data import load_course
+import argparse
 import hashlib
 import json
 import pathlib
@@ -12,6 +13,9 @@ from context_grammar import number_meaning
 from surface_readings import surface_reading,surface_term
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
+parser=argparse.ArgumentParser()
+parser.add_argument('--metadata-only',action='store_true',help='Validate committed metadata without requiring local audio files; does not verify audio bytes.')
+args=parser.parse_args()
 
 
 def read(name):
@@ -33,6 +37,8 @@ context_decisions=read('content/context-senses.json')
 context_edits=read('content/context-editorial.json')
 question_positions=read('content/question-positions.json')
 question_overrides=read('content/question-overrides.json')
+contrast_lessons=read('content/contrast-lessons.json')
+assert set(contrast_lessons)=={l['id'] for l in course if all(l['lines'][i]['id'] in question_overrides for i in ([2,4] if len(l['lines'])>=6 else [0,len(l['lines'])-1]))}
 excluded = read('content/source-exclusions.json')
 review = [json.loads(row) for row in (ROOT / 'docs/editorial-review-log.jsonl').read_text().splitlines()]
 reviewed = {identity for row in review for identity in row['dialogueIds']}
@@ -129,6 +135,16 @@ assert '命令' not in advanced_parts['바람직한']['explanation']
 assert '应该、必须' in advanced_parts['할']['meaning']
 lines_by_id={s['id']:s for l in course for s in l['lines']}
 def part_at(identity,index):return lines_by_id[identity]['parts'][index]
+assert '想买' not in part_at('n77610-1-10-1',6)['meaning']
+assert part_at('n79167-2-7-1',1)['readings'][0]['term']=='하나'
+assert '不太好' in part_at('n49297-1-7-2',3)['meaning']
+assert '것 + 이' in part_at('n29724-1-13-1',4)['meaning']
+assert part_at('n79167-2-7-1',5)['sources'][0]['senseId']=='1'
+assert part_at('n58163-5-6-2',4)['readings'][0]['term']=='날'
+assert part_at('n65234-2-6-1',3)['readings'][0]['term']=='아니다'
+assert part_at('n85791-2-7-1',6)['readings'][0]['term']=='알다'
+assert '33' in part_at('n70812-1-7-2',1)['meaning']
+assert '李' in part_at('n64703-4-10-1',0)['meaning']
 assert '是什么事' in part_at('n93441-1-5-1',1)['meaning']
 assert '일（事情）' in part_at('n93441-1-5-1',1)['explanation']
 assert '染上' in part_at('n63510-5-8-2',4)['meaning']
@@ -170,7 +186,8 @@ for entry in hangul:
     required.add(entry['audio'])
 for text, entry in audio['entries'].items():
     path = ROOT / 'content/audio' / pathlib.Path(entry['path']).name
-    assert path.is_file() and path.stat().st_size == entry['bytes'] >= 1000
+    assert entry['bytes'] >= 1000
+    if not args.metadata_only:assert path.is_file() and path.stat().st_size == entry['bytes']
     assert path.stem == hashlib.sha256(text.encode()).hexdigest()[:20]
     assert entry['voice'] == audio['voice']
     if 'inputText' in entry:assert surface_term(entry['inputText'])==text
@@ -179,14 +196,17 @@ for text, entry in audio['entries'].items():
         assert source_line['ko']==clip['sourceText']
         assert any(p['surfaceReading']['term']==text for p in source_line['parts'])
         source_file=ROOT/'content/audio'/pathlib.Path(source_line['audio']).name
-        assert hashlib.sha256(source_file.read_bytes()).hexdigest()==clip['sourceSha256']
-    assert audio_storage[path.name] == {'bytes':entry['bytes'],'sha256':hashlib.sha256(path.read_bytes()).hexdigest()}
+        assert audio_storage[source_file.name]['sha256']==clip['sourceSha256']
+        if not args.metadata_only:assert hashlib.sha256(source_file.read_bytes()).hexdigest()==clip['sourceSha256']
+    assert audio_storage[path.name]['bytes']==entry['bytes']
+    assert re.fullmatch('[a-f0-9]{64}',audio_storage[path.name]['sha256'])
+    if not args.metadata_only:assert audio_storage[path.name]['sha256']==hashlib.sha256(path.read_bytes()).hexdigest()
 assert len(audio_storage) == len(audio['entries'])
 for text,recipe in surface_inputs.items():
     assert audio['entries'][text]['inputText']==recipe['inputText']
     assert audio['entries'][text].get('contextClip')==recipe.get('contextClip')
 for cached in (ROOT / 'public/audio').glob('*.mp3'):
-    assert cached.read_bytes() == (ROOT / 'content/audio' / cached.name).read_bytes()
+    assert hashlib.sha256(cached.read_bytes()).hexdigest()==audio_storage[cached.name]['sha256']
 assert required <= {e['path'] for e in audio['entries'].values()}
 
 assert [d['day'] for d in plan['days']] == list(range(1, 181))
@@ -238,14 +258,14 @@ report = {
     'studyPlanDays': 180, 'studyPlanHours': 720, 'includesExternalMaterialsInCounts': False,
     'newWordsPerLearningDay': [min(d['newWords'] for d in plan['days'] if d['lessonIds']), max(d['newWords'] for d in plan['days'])],
     'voice': audio['voice'], 'audioFiles': len(audio['entries']),
-    'requiredAudioReferences': len(required), 'missingAudio': 0, 'structuralValidation': 'passed',
+    'requiredAudioReferences': len(required), 'audioBytesVerification': 'skipped: metadata-only mode' if args.metadata_only else 'all local files match manifest bytes and SHA-256', 'missingAudio': None if args.metadata_only else 0, 'structuralValidation': 'passed',
     'bilingualReview': {'releasedDialoguesCovered': len(set(by_id) & reviewed),
                        'method': 'All complete Korean sentences and Chinese translations read together by Codex AI editor; source dictionary Chinese senses retained with attribution.',
                        'correctedPublishedDialoguePairs': len((set(by_id) - {b['id'] for b in foundation}) & set(corrections)),
                        'humanTeacherCertification': False},
     'excludedSourceDialogues': len(excluded),
-    'audioReview': 'Baseline audio has prior decoding, signal and sentence-ASR reports. Baseline hashes are rechecked; newly added clips receive decoding/signal checks. One spelling-corrected sentence and new word/chunk clips are outside the baseline ASR report. No full human listening review.',
+    'audioReview': 'Audio bytes and references are checked here. Hash-bound blind transcription coverage and unresolved differences are recorded separately in docs/audio-inventory-review.json. No full human listening review.',
     'examOutcome': 'Course inventory and time commitment do not certify a TOPIK score.'
 }
-(ROOT / 'docs/content-audit.json').write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n')
+(ROOT / ('docs/content-metadata-audit.json' if args.metadata_only else 'docs/content-audit.json')).write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n')
 print(json.dumps(report, ensure_ascii=False, indent=2))

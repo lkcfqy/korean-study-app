@@ -11,17 +11,19 @@ for stage in range(6):
     if extra:LESSONS.extend([extra[0],extra[-1]])
 META={l['id']:l for l in ALL_LESSONS}
 checks=[]
-def call(body=None,user=USER,origin=BASE,expected=200):
+transfer={}
+def call(body=None,user=USER,origin=BASE,expected=200,delta=False):
     headers={'Content-Type':'application/json','Origin':origin}
     if user:
         headers.update({'oai-authenticated-user-id':user,'oai-authenticated-user-email':'qa@example.test'})
-    request=urllib.request.Request(BASE+'/api/progress',None if body is None else json.dumps(body).encode(),headers)
+    request=urllib.request.Request(BASE+'/api/progress'+('?response=delta' if delta else ''),None if body is None else json.dumps(body).encode(),headers)
     try:
         with urllib.request.urlopen(request,timeout=15) as r: status=r.status;raw=r.read();cache=r.headers.get('Cache-Control','')
     except urllib.error.HTTPError as e: status=e.code;raw=e.read();cache=e.headers.get('Cache-Control','')
     assert status==expected,(status,expected,raw[:400])
     assert 'no-store' in cache
     data=json.loads(raw)
+    transfer['delta' if delta else 'full']=len(raw)
     if 'rows' in data:
         words=set();sentences=set();completed=0
         for row in data['rows']:
@@ -131,8 +133,28 @@ db=sqlite3.connect(file)
 db.executemany('INSERT INTO lesson_progress (user_id,lesson_id,cursor,read_mask,completed_at,next_review_at,review_step,updated_at) VALUES (?,?,?,?,?,?,?,?)',[(full_user,l['id'],l['lineCount'],(1<<l['lineCount'])-1,now,now+86400000,0,now) for l in ALL_LESSONS])
 db.commit();db.close()
 full=call(user=full_user)
-assert len(full['rows'])==4006 and full['counts']=={'words':6351,'sentences':8154,'completed':4006}
+assert len(full['rows'])==4006 and full['counts']=={'words':6352,'sentences':8154,'completed':4006}
 passed('a complete 4006-lesson history returns exact totals without a client-side corpus index')
-report={'scope':'local built production Worker with local D1; not a live phone/desktop test','passed':len(checks),'checks':checks,'browserQA':'see docs/browser-qa.json','webMCPQA':'see docs/browser-qa.json'}
+# Opt-in deltas keep old clients working and avoid returning all 4006 rows.
+full_bytes=transfer['full']
+delta=call({'action':'select','lessonId':'c01'},user=full_user,delta=True)
+assert delta['kind']=='delta' and delta['row']['lesson_id']=='c01' and 'rows' not in delta
+assert delta['counts']==full['counts'] and delta['currentLesson']=='c01'
+delta_bytes=transfer['delta'];assert delta_bytes<1000 and delta_bytes<full_bytes/100
+passed('opt-in delta returns one row and exact full-account counts, reducing transfer over 99 percent')
+# Recall is explicitly self-rated; hints and omissions still need consolidation.
+RECALL=USER+'_recall';lesson=ALL_META['n79167-2-7'];identity=lesson['id']
+for i in range(lesson['lineCount']):call({'action':'read','lessonId':identity,'lineIndex':i},user=RECALL,delta=True)
+payload={'action':'complete','lessonId':identity,'answers':lesson['answers'],'check':{'mode':'recall','recalled':[True,False],'heard':[True,True],'hints':[False,False]}}
+r=call(payload,user=RECALL,delta=True)['row'];assert r['review_step']==-1
+passed('self-rated omissions schedule consolidation even with canonical completion answers')
+payload['check']['recalled']=[True,True];payload['check']['hints']=[False,True]
+assert call(payload,user=RECALL,delta=True)['row']['review_step']==-1
+payload['check']['hints']=[False,False]
+assert call(payload,user=RECALL,delta=True)['row']['review_step']==0
+passed('only a complete unassisted self-rating clears recall consolidation')
+call({'action':'complete','lessonId':'c01','answers':META['c01']['answers'],'check':payload['check']},user=LISTENER,expected=400)
+passed('self-ratings cannot substitute for authored choice questions')
+report={'scope':'local built production Worker with local D1; not a live phone/desktop test','passed':len(checks),'checks':checks,'fullHistoryBytes':full_bytes,'deltaBytes':delta_bytes,'transferReductionPercent':round((1-delta_bytes/full_bytes)*100,3),'browserQA':'see docs/browser-qa.json','webMCPQA':'see docs/browser-qa.json'}
 (ROOT/'docs/progress-tests.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
 print(json.dumps(report,ensure_ascii=False,indent=2))

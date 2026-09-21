@@ -1,0 +1,48 @@
+{
+  "date": "2026-09-21",
+  "scope": "Local development with mock sign-in, then actual production build on localhost; no live real-device claim",
+  "viewports": [
+    {
+      "width": 320,
+      "height": 700,
+      "documentWidth": 305,
+      "dialogWidth": 267,
+      "dialogClientWidth": 265,
+      "dialogScrollWidth": 265,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "documentWidth": 375,
+      "horizontalOverflow": false
+    }
+  ],
+  "checks": [
+    "Signed-in title/ID search jumps to day 137 lesson n79167-2-7 and closes dialog with focused lesson heading",
+    "Correct 하나 noun-number annotation is displayed in context",
+    "Expanded lesson uses recall; reveal disabled before complete playback or explicit transcript hint",
+    "Playback completes before recall reveal becomes enabled",
+    "Reveal displays current Korean and Chinese, then requires a self-rating",
+    "Second question resets reveal and rating state",
+    "One unassisted recall and one hinted recall reports self-rated 1/2, not objective listening accuracy, and stores consolidation",
+    "Session starts with one consolidation and three unseen lessons; opening completed review does not count it again",
+    "Reading all review dialogue lines still leaves session completion at zero",
+    "Completing the actual practice increases group completion from 0/4 to 1/4",
+    "Reload restores completed lesson and consolidation from local D1; transient group state may reset",
+    "Korean search 커피 returns two matching titles and hides day controls while searching",
+    "Production guest foundation c01 retains choice quiz with no visible options until actual audio completion",
+    "First correct answer plus second hinted/wrong-then-correct answer reports independent 1/2 and consolidation feedback",
+    "Production n65234-2-6 shows 아냐 from 아니다 and plays the newly added lemma audio",
+    "Production expanded recall view fits 390 px width; corrected token controls fit 320 px width"
+  ],
+  "consoleWarnings": [],
+  "consoleErrors": [],
+  "manualAudioListening": "Not a phonetic listening review; playback UI and completion events were exercised",
+  "notCovered": [
+    "Physical phone hardware",
+    "Production signed-in cross-device end-to-end flow",
+    "Longitudinal retention",
+    "Whole-course human pronunciation assessment"
+  ]
+}

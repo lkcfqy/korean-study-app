@@ -1,10 +1,21 @@
 {
-  "baselineRef": "706a57c33ecbd4a1d1e392599ffc1b1e0cc164e5",
+  "baselineRef": "c6f8cc9d85b159dcf7024084357cf114b1a4e45b",
   "lessons": 4006,
   "lineIdsAndOrderPreserved": 8156,
   "quizAnswerPositionsPreserved": true,
   "speakerAssignmentsPreserved": true,
   "koreanTextCorrections": [],
-  "chineseTextCorrections": [],
+  "chineseTextCorrections": [
+    {
+      "id": "n62233-26-15-2",
+      "before": "出来办事，顺便散散步。",
+      "after": "就是出来一下，顺便散散步。"
+    },
+    {
+      "id": "n26846-2-10-2",
+      "before": "不，只是偶尔见过一两次而已。",
+      "after": "不，只是路过时见过一两次。"
+    }
+  ],
   "scope": "Source compatibility; durable database behavior is tested separately in progress-tests.json."
 }

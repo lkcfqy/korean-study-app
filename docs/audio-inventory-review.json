@@ -1,0 +1,33 @@
+{
+  "inventoryFiles": 28778,
+  "filesWithCurrentHashBoundBlindASR": 28778,
+  "expectedTextProvidedToRecognizer": false,
+  "coverageByMode": {
+    "isolated": 12516,
+    "grouped": 28778
+  },
+  "classification": {
+    "transcript_match": 26324,
+    "unresolved_transcription_difference": 1978,
+    "strict_normalizer_agreement_only": 476
+  },
+  "classificationByUse": {
+    "dialogue_line": {
+      "transcript_match": 7568,
+      "unresolved_transcription_difference": 516,
+      "strict_normalizer_agreement_only": 72
+    },
+    "word_form_lemma_or_alphabet": {
+      "transcript_match": 18756,
+      "unresolved_transcription_difference": 1462,
+      "strict_normalizer_agreement_only": 404
+    }
+  },
+  "inventoryIndexSha256": "c4fe8b9c8c1bcfa81efe5d9266f0cfe6a358b6359a1945f3123fa313d964bbfc",
+  "evidenceSha256": "921dedc3d991869b631d50bb3bb5ea7ac36f3080c200a93fb4e23ab5e362d666",
+  "evidenceFile": "audio-inventory-screen.jsonl",
+  "humanListeningReview": false,
+  "allPronunciationsCertified": false,
+  "method": "Blind Whisper large-v3-turbo; grouped clips followed by isolated discrepancy checks. Numeric/unit variants are normalized after recognition. Strict g2p comparison does not merge vowel classes.",
+  "limits": "Transcription differences, especially short isolated words, are unresolved screening signals, not confirmed synthesis errors. Transcript or normalizer agreement cannot certify phonemes, naturalness, prosody or listening comprehension. The evidence is a snapshot of completed checks only."
+}

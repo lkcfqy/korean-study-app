@@ -1,0 +1,2441 @@
+{
+  "baseline": "c6f8cc9d85b159dcf7024084357cf114b1a4e45b",
+  "decisions": [
+    {
+      "lineId": "n14018-1-6-1",
+      "part": 4,
+      "ko": "올해 아버님의 연세가 어떻게 되시죠?",
+      "zh": "今年您父亲的年龄是多少呢？",
+      "before": "变得、最终处于某种情况（-게 되다）",
+      "after": "是、为（询问年龄）",
+      "reason": "어떻게 is an interrogative manner expression here; its 게 must not trigger the verb/adjective + 게 되다 construction rule. The specific question determines the authored contextual gloss.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n14330-1-7-2",
+      "part": 4,
+      "ko": "만약에 규칙을 어기면 어떻게 되나요?",
+      "zh": "如果违反规则的话会怎么样呢？",
+      "before": "变得、最终处于某种情况（-게 되다）",
+      "after": "发展到某种情况（询问结果或状况）",
+      "reason": "어떻게 is an interrogative manner expression here; its 게 must not trigger the verb/adjective + 게 되다 construction rule. The specific question determines the authored contextual gloss.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n14446-1-7-1",
+      "part": 2,
+      "ko": "주소가 어떻게 되세요?",
+      "zh": "您的地址是什么？",
+      "before": "变得、最终处于某种情况（-게 되다）",
+      "after": "是、为（询问地址）",
+      "reason": "어떻게 is an interrogative manner expression here; its 게 must not trigger the verb/adjective + 게 되다 construction rule. The specific question determines the authored contextual gloss.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n21898-1-22-1",
+      "part": 3,
+      "ko": "형제 관계가 어떻게 되세요?",
+      "zh": "您有几位兄弟姐妹？",
+      "before": "变得、最终处于某种情况（-게 되다）",
+      "after": "有、是（询问家庭成员及关系）",
+      "reason": "어떻게 is an interrogative manner expression here; its 게 must not trigger the verb/adjective + 게 되다 construction rule. The specific question determines the authored contextual gloss.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n24512-1-8-1",
+      "part": 3,
+      "ko": "가족 구성이 어떻게 됩니까?",
+      "zh": "您家里有哪些人？",
+      "before": "变得、最终处于某种情况（-게 되다）",
+      "after": "有、是（询问家庭成员及关系）",
+      "reason": "어떻게 is an interrogative manner expression here; its 게 must not trigger the verb/adjective + 게 되다 construction rule. The specific question determines the authored contextual gloss.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n24781-1-9-1",
+      "part": 3,
+      "ko": "그 일이 어떻게 되었다고요?",
+      "zh": "那件事最后怎么样了？",
+      "before": "变得、最终处于某种情况（-게 되다）",
+      "after": "发展到某种情况（询问结果或状况）",
+      "reason": "어떻게 is an interrogative manner expression here; its 게 must not trigger the verb/adjective + 게 되다 construction rule. The specific question determines the authored contextual gloss.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n28175-2-7-1",
+      "part": 5,
+      "ko": "너희 아버지는 형제 관계가 어떻게 되시니?",
+      "zh": "你们爸爸的兄弟姐妹关系是怎样的？",
+      "before": "变得、最终处于某种情况（-게 되다）",
+      "after": "有、是（询问家庭成员及关系）",
+      "reason": "어떻게 is an interrogative manner expression here; its 게 must not trigger the verb/adjective + 게 되다 construction rule. The specific question determines the authored contextual gloss.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n31516-1-9-1",
+      "part": 3,
+      "ko": "범인 검거는 어떻게 됐대?",
+      "zh": "听说抓捕犯人的进展怎么样了？",
+      "before": "变得、最终处于某种情况（-게 되다）",
+      "after": "发展到某种情况（询问结果或状况）",
+      "reason": "어떻게 is an interrogative manner expression here; its 게 must not trigger the verb/adjective + 게 되다 construction rule. The specific question determines the authored contextual gloss.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n35087-1-3-1",
+      "part": 3,
+      "ko": "할머니, 연세가 어떻게 되세요?",
+      "zh": "奶奶，您多大年纪了？",
+      "before": "变得、最终处于某种情况（-게 되다）",
+      "after": "是、为（询问年龄）",
+      "reason": "어떻게 is an interrogative manner expression here; its 게 must not trigger the verb/adjective + 게 되다 construction rule. The specific question determines the authored contextual gloss.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n44487-1-24-1",
+      "part": 2,
+      "ko": "가족이 어떻게 되세요?",
+      "zh": "您的家人都是谁呢？",
+      "before": "变得、最终处于某种情况（-게 되다）",
+      "after": "有、是（询问家庭成员及关系）",
+      "reason": "어떻게 is an interrogative manner expression here; its 게 must not trigger the verb/adjective + 게 되다 construction rule. The specific question determines the authored contextual gloss.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n45579-1-7-1",
+      "part": 2,
+      "ko": "형제가 어떻게 돼요?",
+      "zh": "你有几个兄弟姐妹？",
+      "before": "变得、最终处于某种情况（-게 되다）",
+      "after": "有、是（询问家庭成员及关系）",
+      "reason": "어떻게 is an interrogative manner expression here; its 게 must not trigger the verb/adjective + 게 되다 construction rule. The specific question determines the authored contextual gloss.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n47145-1-9-1",
+      "part": 4,
+      "ko": "오늘 수영 경기 어떻게 됐어? 금메달 땄어?",
+      "zh": "今天的游泳比赛怎么样了？拿到金牌了吗？",
+      "before": "变得、最终处于某种情况（-게 되다）",
+      "after": "发展到某种情况（询问结果或状况）",
+      "reason": "어떻게 is an interrogative manner expression here; its 게 must not trigger the verb/adjective + 게 되다 construction rule. The specific question determines the authored contextual gloss.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n50309-1-9-1",
+      "part": 5,
+      "ko": "지난주에 너 남자 소개받았다면서? 어떻게 됐어?",
+      "zh": "上周你不是说有人给你介绍对象了吗？后来怎么样了？",
+      "before": "变得、最终处于某种情况（-게 되다）",
+      "after": "发展到某种情况（询问结果或状况）",
+      "reason": "어떻게 is an interrogative manner expression here; its 게 must not trigger the verb/adjective + 게 되다 construction rule. The specific question determines the authored contextual gloss.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n54736-1-7-1",
+      "part": 3,
+      "ko": "실례지만 몸무게가 어떻게 되세요?",
+      "zh": "打扰一下，您的体重是多少呢？",
+      "before": "变得、最终处于某种情况（-게 되다）",
+      "after": "是、为（询问体重）",
+      "reason": "어떻게 is an interrogative manner expression here; its 게 must not trigger the verb/adjective + 게 되다 construction rule. The specific question determines the authored contextual gloss.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n55844-1-11-1",
+      "part": 5,
+      "ko": "그 범인 목격자는 지금 어떻게 되었어?",
+      "zh": "那个案犯的目击者现在怎么样了？",
+      "before": "变得、最终处于某种情况（-게 되다）",
+      "after": "发展到某种情况（询问结果或状况）",
+      "reason": "어떻게 is an interrogative manner expression here; its 게 must not trigger the verb/adjective + 게 되다 construction rule. The specific question determines the authored contextual gloss.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n58153-1-10-1",
+      "part": 4,
+      "ko": "민준 씨는 전화번호가 어떻게 돼요?",
+      "zh": "敏俊，你的电话号码是多少呢？",
+      "before": "变得、最终处于某种情况（-게 되다）",
+      "after": "是、为（询问电话号码）",
+      "reason": "어떻게 is an interrogative manner expression here; its 게 must not trigger the verb/adjective + 게 되다 construction rule. The specific question determines the authored contextual gloss.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n60157-1-10-1",
+      "part": 4,
+      "ko": "어제 축구 경기 어떻게 됐어?",
+      "zh": "昨天的足球比赛结果怎么样？",
+      "before": "变得、最终处于某种情况（-게 되다）",
+      "after": "发展到某种情况（询问结果或状况）",
+      "reason": "어떻게 is an interrogative manner expression here; its 게 must not trigger the verb/adjective + 게 되다 construction rule. The specific question determines the authored contextual gloss.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n60356-2-7-1",
+      "part": 3,
+      "ko": "경기 결과가 어떻게 됐습니까?",
+      "zh": "比赛结果怎么样了？",
+      "before": "变得、最终处于某种情况（-게 되다）",
+      "after": "发展到某种情况（询问结果或状况）",
+      "reason": "어떻게 is an interrogative manner expression here; its 게 must not trigger the verb/adjective + 게 되다 construction rule. The specific question determines the authored contextual gloss.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n61642-1-7-1",
+      "part": 5,
+      "ko": "최근 컴퓨터 사용자의 연령은 어떻게 됩니까?",
+      "zh": "最近使用电脑的人群年龄是怎样的？",
+      "before": "变得、最终处于某种情况（-게 되다）",
+      "after": "是、为（询问年龄）",
+      "reason": "어떻게 is an interrogative manner expression here; its 게 must not trigger the verb/adjective + 게 되다 construction rule. The specific question determines the authored contextual gloss.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n62253-1-12-1",
+      "part": 3,
+      "ko": "액자의 크기가 어떻게 돼요?",
+      "zh": "相框的尺寸是多少呢？",
+      "before": "变得、最终处于某种情况（-게 되다）",
+      "after": "是、为（询问尺寸）",
+      "reason": "어떻게 is an interrogative manner expression here; its 게 must not trigger the verb/adjective + 게 되다 construction rule. The specific question determines the authored contextual gloss.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n62472-1-18-1",
+      "part": 4,
+      "ko": "그래서 결국 주인공은 어떻게 됐어?",
+      "zh": "那么，最终那个主角怎么样了？",
+      "before": "变得、最终处于某种情况（-게 되다）",
+      "after": "发展到某种情况（询问结果或状况）",
+      "reason": "어떻게 is an interrogative manner expression here; its 게 must not trigger the verb/adjective + 게 되다 construction rule. The specific question determines the authored contextual gloss.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n63606-1-9-1",
+      "part": 2,
+      "ko": "경기는 어떻게 되었어?",
+      "zh": "比赛结果怎么样？",
+      "before": "变得、最终处于某种情况（-게 되다）",
+      "after": "发展到某种情况（询问结果或状况）",
+      "reason": "어떻게 is an interrogative manner expression here; its 게 must not trigger the verb/adjective + 게 되다 construction rule. The specific question determines the authored contextual gloss.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n65856-1-7-1",
+      "part": 2,
+      "ko": "종교가 어떻게 되세요?",
+      "zh": "您信仰什么宗教呢？",
+      "before": "变得、最终处于某种情况（-게 되다）",
+      "after": "是、为（询问宗教信仰）",
+      "reason": "어떻게 is an interrogative manner expression here; its 게 must not trigger the verb/adjective + 게 되다 construction rule. The specific question determines the authored contextual gloss.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n66585-6-7-1",
+      "part": 2,
+      "ko": "직업이 어떻게 되시나요?",
+      "zh": "您是做什么工作的呢？",
+      "before": "变得、最终处于某种情况（-게 되다）",
+      "after": "是、为（询问职业）",
+      "reason": "어떻게 is an interrogative manner expression here; its 게 must not trigger the verb/adjective + 게 되다 construction rule. The specific question determines the authored contextual gloss.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n67470-20-7-1",
+      "part": 4,
+      "ko": "승규 씨는 자녀가 어떻게 되세요?",
+      "zh": "承奎先生，您有几个孩子呢？",
+      "before": "变得、最终处于某种情况（-게 되다）",
+      "after": "有、是（询问家庭成员及关系）",
+      "reason": "어떻게 is an interrogative manner expression here; its 게 must not trigger the verb/adjective + 게 되다 construction rule. The specific question determines the authored contextual gloss.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n67493-1-9-1",
+      "part": 5,
+      "ko": "이 아파트 완공 연도가 어떻게 됩니까?",
+      "zh": "这栋公寓的竣工年份是哪一年呢？",
+      "before": "变得、最终处于某种情况（-게 되다）",
+      "after": "是、为（询问竣工年份）",
+      "reason": "어떻게 is an interrogative manner expression here; its 게 must not trigger the verb/adjective + 게 되다 construction rule. The specific question determines the authored contextual gloss.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n67887-1-8-1",
+      "part": 2,
+      "ko": "나이가 어떻게 되십니까?",
+      "zh": "您多大年纪了？",
+      "before": "变得、最终处于某种情况（-게 되다）",
+      "after": "是、为（询问年龄）",
+      "reason": "어떻게 is an interrogative manner expression here; its 게 must not trigger the verb/adjective + 게 되다 construction rule. The specific question determines the authored contextual gloss.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n70500-1-8-2",
+      "part": 2,
+      "ko": "그러니까 어떻게 된 상황인지 설명을 해 주셔야지요.",
+      "zh": "所以您得把现在的状况解释清楚啊。",
+      "before": "变得、最终处于某种情况（-게 되다）",
+      "after": "发展到某种情况（询问结果或状况）",
+      "reason": "어떻게 is an interrogative manner expression here; its 게 must not trigger the verb/adjective + 게 되다 construction rule. The specific question determines the authored contextual gloss.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n70778-1-2-1",
+      "part": 3,
+      "ko": "할아버지, 연세가 어떻게 되세요?",
+      "zh": "爷爷，您多大年纪了？",
+      "before": "变得、最终处于某种情况（-게 되다）",
+      "after": "是、为（询问年龄）",
+      "reason": "어떻게 is an interrogative manner expression here; its 게 must not trigger the verb/adjective + 게 되다 construction rule. The specific question determines the authored contextual gloss.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n71288-2-7-1",
+      "part": 3,
+      "ko": "너는 형제가 어떻게 돼?",
+      "zh": "你有多少个兄弟姐妹？",
+      "before": "变得、最终处于某种情况（-게 되다）",
+      "after": "有、是（询问家庭成员及关系）",
+      "reason": "어떻게 is an interrogative manner expression here; its 게 must not trigger the verb/adjective + 게 되다 construction rule. The specific question determines the authored contextual gloss.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n73277-17-2-1",
+      "part": 2,
+      "ko": "성함이 어떻게 되세요?",
+      "zh": "您叫什么名字呢？",
+      "before": "变得、最终处于某种情况（-게 되다）",
+      "after": "是、为（询问姓名）",
+      "reason": "어떻게 is an interrogative manner expression here; its 게 must not trigger the verb/adjective + 게 되다 construction rule. The specific question determines the authored contextual gloss.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n81672-2-12-1",
+      "part": 2,
+      "ko": "주량이 어떻게 되세요?",
+      "zh": "您的酒量怎么样？",
+      "before": "变得、最终处于某种情况（-게 되다）",
+      "after": "是、为（询问酒量）",
+      "reason": "어떻게 is an interrogative manner expression here; its 게 must not trigger the verb/adjective + 게 되다 construction rule. The specific question determines the authored contextual gloss.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n82684-2-5-1",
+      "part": 6,
+      "ko": "우리 본관이 같은데 자네 파가 어떻게 되나?",
+      "zh": "我们的本贯相同，你属于哪一支？",
+      "before": "变得、最终处于某种情况（-게 되다）",
+      "after": "是、为（询问家族支派）",
+      "reason": "어떻게 is an interrogative manner expression here; its 게 must not trigger the verb/adjective + 게 되다 construction rule. The specific question determines the authored contextual gloss.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n84321-1-5-1",
+      "part": 4,
+      "ko": "지수야, 너 학번이 어떻게 되니?",
+      "zh": "智秀，你的学号是多少呀？",
+      "before": "变得、最终处于某种情况（-게 되다）",
+      "after": "是、为（询问学号）",
+      "reason": "어떻게 is an interrogative manner expression here; its 게 must not trigger the verb/adjective + 게 되다 construction rule. The specific question determines the authored contextual gloss.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n87909-1-7-1",
+      "part": 2,
+      "ko": "나이가 어떻게 되시죠?",
+      "zh": "您多大年纪了？",
+      "before": "变得、最终处于某种情况（-게 되다）",
+      "after": "是、为（询问年龄）",
+      "reason": "어떻게 is an interrogative manner expression here; its 게 must not trigger the verb/adjective + 게 되다 construction rule. The specific question determines the authored contextual gloss.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n89598-2-9-1",
+      "part": 3,
+      "ko": "집 번지수가 어떻게 됩니까?",
+      "zh": "请问您的住址是多少？",
+      "before": "变得、最终处于某种情况（-게 되다）",
+      "after": "是、为（询问门牌地址）",
+      "reason": "어떻게 is an interrogative manner expression here; its 게 must not trigger the verb/adjective + 게 되다 construction rule. The specific question determines the authored contextual gloss.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n92489-1-6-1",
+      "part": 4,
+      "ko": "저번에 본 시험은 어떻게 됐어? 잘 봤다면서.",
+      "zh": "上次的那次考试怎么样了？听说你考得不错吧？",
+      "before": "变得、最终处于某种情况（-게 되다）",
+      "after": "发展到某种情况（询问结果或状况）",
+      "reason": "어떻게 is an interrogative manner expression here; its 게 must not trigger the verb/adjective + 게 되다 construction rule. The specific question determines the authored contextual gloss.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n82136-1-9-1",
+      "part": 1,
+      "ko": "이건 뭐니?",
+      "zh": "这是什么呀？",
+      "before": "小孩儿或女人撒娇时用在句尾的话。",
+      "after": "什么（询问事物或情况）",
+      "beforeSources": [
+        {
+          "entryId": "27525",
+          "senseId": "5",
+          "lemma": "뭐",
+          "origin": "NIKL Korean-Chinese dictionary"
+        }
+      ],
+      "selectedSense": {
+        "entryId": "84991",
+        "senseId": "1",
+        "term": "뭐",
+        "pos": "대명사",
+        "dictionaryMeaning": "什么",
+        "definition": "指代不知道的事实或事物。"
+      },
+      "reason": "The full sentence selects this homonymous dictionary sense; the previous sense referred to a different meaning.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n29683-1-2-2",
+      "part": 5,
+      "ko": "맞아. 그때 본 영화 제목이 뭐지?",
+      "zh": "对啊。那时候看的电影叫什么来着？",
+      "before": "怎么了",
+      "after": "什么（询问事物或情况）",
+      "beforeSources": [
+        {
+          "entryId": "27525",
+          "senseId": "2",
+          "lemma": "뭐",
+          "origin": "NIKL Korean-Chinese dictionary"
+        }
+      ],
+      "selectedSense": {
+        "entryId": "84991",
+        "senseId": "1",
+        "term": "뭐",
+        "pos": "대명사",
+        "dictionaryMeaning": "什么",
+        "definition": "指代不知道的事实或事物。"
+      },
+      "reason": "The full sentence selects this homonymous dictionary sense; the previous sense referred to a different meaning.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n71735-1-8-1",
+      "part": 3,
+      "ko": "많이 다쳤니? 의사가 뭐라고 그래?",
+      "zh": "伤得严重吗？医生怎么说？",
+      "before": "怎么了",
+      "after": "什么（询问事物或情况）",
+      "beforeSources": [
+        {
+          "entryId": "27525",
+          "senseId": "2",
+          "lemma": "뭐",
+          "origin": "NIKL Korean-Chinese dictionary"
+        }
+      ],
+      "selectedSense": {
+        "entryId": "84991",
+        "senseId": "1",
+        "term": "뭐",
+        "pos": "대명사",
+        "dictionaryMeaning": "什么",
+        "definition": "指代不知道的事实或事物。"
+      },
+      "reason": "The full sentence selects this homonymous dictionary sense; the previous sense referred to a different meaning.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n25681-1-6-1",
+      "part": 4,
+      "ko": "이번 방학 때 계획이 뭐니?",
+      "zh": "这次假期有什么计划吗？",
+      "before": "表示对对方想法的轻微反驳或给予新的启发。",
+      "after": "什么（询问事物或情况）",
+      "beforeSources": [
+        {
+          "entryId": "27525",
+          "senseId": "4",
+          "lemma": "뭐",
+          "origin": "NIKL Korean-Chinese dictionary"
+        }
+      ],
+      "selectedSense": {
+        "entryId": "84991",
+        "senseId": "1",
+        "term": "뭐",
+        "pos": "대명사",
+        "dictionaryMeaning": "什么",
+        "definition": "指代不知道的事实或事物。"
+      },
+      "reason": "The full sentence selects this homonymous dictionary sense; the previous sense referred to a different meaning.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n87718-1-7-1",
+      "part": 2,
+      "ko": "허벅지가 빨간데, 뭐가 났니?",
+      "zh": "你的大腿好红啊，是长什么东西了吗？",
+      "before": "怎么了",
+      "after": "什么（询问事物或情况）",
+      "beforeSources": [
+        {
+          "entryId": "27525",
+          "senseId": "2",
+          "lemma": "뭐",
+          "origin": "NIKL Korean-Chinese dictionary"
+        }
+      ],
+      "selectedSense": {
+        "entryId": "84991",
+        "senseId": "1",
+        "term": "뭐",
+        "pos": "대명사",
+        "dictionaryMeaning": "什么",
+        "definition": "指代不知道的事实或事物。"
+      },
+      "reason": "The full sentence selects this homonymous dictionary sense; the previous sense referred to a different meaning.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n78292-1-7-2",
+      "part": 1,
+      "ko": "네가 뭔데 참견이야?",
+      "zh": "你算什么，也敢来插手？",
+      "before": "表示对对方想法的轻微反驳或给予新的启发。",
+      "after": "什么（询问事物或情况）",
+      "beforeSources": [
+        {
+          "entryId": "27525",
+          "senseId": "4",
+          "lemma": "뭐",
+          "origin": "NIKL Korean-Chinese dictionary"
+        }
+      ],
+      "selectedSense": {
+        "entryId": "84991",
+        "senseId": "1",
+        "term": "뭐",
+        "pos": "대명사",
+        "dictionaryMeaning": "什么",
+        "definition": "指代不知道的事实或事物。"
+      },
+      "reason": "The full sentence selects this homonymous dictionary sense; the previous sense referred to a different meaning.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n88464-2-5-2",
+      "part": 0,
+      "ko": "뭐랄까? 품위가 없고 좀 싸 보여요.",
+      "zh": "怎么说呢？它没什么档次，看起来还挺便宜的。",
+      "before": "表示对对方想法的轻微反驳或给予新的启发。",
+      "after": "什么；뭐랄까 表示“怎么说呢”",
+      "beforeSources": [
+        {
+          "entryId": "27525",
+          "senseId": "4",
+          "lemma": "뭐",
+          "origin": "NIKL Korean-Chinese dictionary"
+        }
+      ],
+      "selectedSense": {
+        "entryId": "84991",
+        "senseId": "1",
+        "term": "뭐",
+        "pos": "대명사",
+        "dictionaryMeaning": "什么",
+        "definition": "指代不知道的事实或事物。"
+      },
+      "reason": "The full sentence selects this homonymous dictionary sense; the previous sense referred to a different meaning.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n42236-1-8-2",
+      "part": 0,
+      "ko": "뭘요. 대단한 일도 아니에요.",
+      "zh": "哪里的话，这没什么了不起的。",
+      "before": "表示对对方想法的轻微反驳或给予新的启发。",
+      "after": "哪里的话（谦逊回应赞扬）",
+      "beforeSources": [
+        {
+          "entryId": "27525",
+          "senseId": "4",
+          "lemma": "뭐",
+          "origin": "NIKL Korean-Chinese dictionary"
+        }
+      ],
+      "selectedSense": {
+        "entryId": "27525",
+        "senseId": "4",
+        "term": "뭐",
+        "pos": "감탄사",
+        "dictionaryMeaning": "(无对应词汇)",
+        "definition": "表示对对方想法的轻微反驳或给予新的启发。"
+      },
+      "reason": "The full sentence selects this homonymous dictionary sense; the previous sense referred to a different meaning.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n62380-2-11-1",
+      "part": 2,
+      "ko": "너는 걔 어디가 그렇게 예쁘니?",
+      "zh": "你觉得她哪里那么漂亮啊？",
+      "before": "怎么，哪里，哪能",
+      "after": "哪里、哪一点（询问漂亮之处）",
+      "beforeSources": [
+        {
+          "entryId": "60320",
+          "senseId": "2",
+          "lemma": "어디",
+          "origin": "NIKL Korean-Chinese dictionary"
+        }
+      ],
+      "selectedSense": {
+        "entryId": "60319",
+        "senseId": "1",
+        "term": "어디",
+        "pos": "대명사",
+        "dictionaryMeaning": "哪里，哪儿",
+        "definition": "指代不知道的处所。"
+      },
+      "reason": "The full sentence selects this homonymous dictionary sense; the previous sense referred to a different meaning.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n87847-1-8-1",
+      "part": 0,
+      "ko": "어디서 고양이 소리 나지 않았어?",
+      "zh": "刚才哪儿有猫叫的声音吗？",
+      "before": "怎么，哪里，哪能",
+      "after": "哪里、哪儿",
+      "beforeSources": [
+        {
+          "entryId": "60320",
+          "senseId": "2",
+          "lemma": "어디",
+          "origin": "NIKL Korean-Chinese dictionary"
+        }
+      ],
+      "selectedSense": {
+        "entryId": "60319",
+        "senseId": "1",
+        "term": "어디",
+        "pos": "대명사",
+        "dictionaryMeaning": "哪里，哪儿",
+        "definition": "指代不知道的处所。"
+      },
+      "reason": "The full sentence selects this homonymous dictionary sense; the previous sense referred to a different meaning.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n71229-1-12-1",
+      "part": 6,
+      "ko": "네가 무슨 돈이 있다고. 이 큰돈을 어디서 구했니?",
+      "zh": "你哪来这么多钱啊？这笔大钱是从哪儿弄来的？",
+      "before": "怎么，哪里，哪能",
+      "after": "哪里、哪儿",
+      "beforeSources": [
+        {
+          "entryId": "60320",
+          "senseId": "2",
+          "lemma": "어디",
+          "origin": "NIKL Korean-Chinese dictionary"
+        }
+      ],
+      "selectedSense": {
+        "entryId": "60319",
+        "senseId": "1",
+        "term": "어디",
+        "pos": "대명사",
+        "dictionaryMeaning": "哪里，哪儿",
+        "definition": "指代不知道的处所。"
+      },
+      "reason": "The full sentence selects this homonymous dictionary sense; the previous sense referred to a different meaning.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n21116-1-7-1",
+      "part": 0,
+      "ko": "어딜 그렇게 분주하게 뛰어가니?",
+      "zh": "你跑得那么急匆匆的，要去哪儿啊？",
+      "before": "怎么，哪里，哪能",
+      "after": "哪里、哪儿",
+      "beforeSources": [
+        {
+          "entryId": "60320",
+          "senseId": "2",
+          "lemma": "어디",
+          "origin": "NIKL Korean-Chinese dictionary"
+        }
+      ],
+      "selectedSense": {
+        "entryId": "60319",
+        "senseId": "1",
+        "term": "어디",
+        "pos": "대명사",
+        "dictionaryMeaning": "哪里，哪儿",
+        "definition": "指代不知道的处所。"
+      },
+      "reason": "The full sentence selects this homonymous dictionary sense; the previous sense referred to a different meaning.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n27645-1-11-1",
+      "part": 0,
+      "ko": "어디를 그렇게 급하게 가?",
+      "zh": "怎么走得这么急啊？",
+      "before": "怎么，哪里，哪能",
+      "after": "哪里、哪儿",
+      "beforeSources": [
+        {
+          "entryId": "60320",
+          "senseId": "2",
+          "lemma": "어디",
+          "origin": "NIKL Korean-Chinese dictionary"
+        }
+      ],
+      "selectedSense": {
+        "entryId": "60319",
+        "senseId": "1",
+        "term": "어디",
+        "pos": "대명사",
+        "dictionaryMeaning": "哪里，哪儿",
+        "definition": "指代不知道的处所。"
+      },
+      "reason": "The full sentence selects this homonymous dictionary sense; the previous sense referred to a different meaning.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n48655-1-10-1",
+      "part": 0,
+      "ko": "저, 제가 지금 동전이 없어요.",
+      "zh": "那个，我现在没有硬币。",
+      "before": "我",
+      "after": "嗯，那个（犹豫着开口）",
+      "beforeSources": [
+        {
+          "entryId": "44506",
+          "senseId": "1",
+          "lemma": "저",
+          "origin": "NIKL Korean-Chinese dictionary"
+        }
+      ],
+      "selectedSense": {
+        "entryId": "71216",
+        "senseId": "2",
+        "term": "저",
+        "pos": "감탄사",
+        "dictionaryMeaning": "嗯，那",
+        "definition": "用于表示很难说出口而犹豫。"
+      },
+      "reason": "The full sentence selects this homonymous dictionary sense; the previous sense referred to a different meaning.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n66778-1-8-2",
+      "part": 2,
+      "ko": "네, 맞아요. 제 나이를 바로 알아맞혔네요.",
+      "zh": "是的，没错。您一下子就猜对我的年龄了。",
+      "before": "嗯，那个",
+      "after": "我（谦称）；제 是 저의 的缩略形式，表示“我的”",
+      "beforeSources": [
+        {
+          "entryId": "71216",
+          "senseId": "1",
+          "lemma": "저",
+          "origin": "NIKL Korean-Chinese dictionary"
+        }
+      ],
+      "selectedSense": {
+        "entryId": "44506",
+        "senseId": "1",
+        "term": "저",
+        "pos": "대명사",
+        "dictionaryMeaning": "我",
+        "definition": "说话人在听话人面前对自己的谦称。"
+      },
+      "reason": "The full sentence selects this homonymous dictionary sense; the previous sense referred to a different meaning.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n25069-1-9-2",
+      "part": 0,
+      "ko": "네. 여기 종이에 적힌 전화번호로 연락을 해 보세요.",
+      "zh": "有的。请试着用这里纸上的电话号码联系他们。",
+      "before": "你",
+      "after": "是，好的（礼貌的肯定应答）",
+      "beforeSources": [
+        {
+          "entryId": "89180",
+          "senseId": "1",
+          "lemma": "네",
+          "origin": "NIKL Korean-Chinese dictionary"
+        }
+      ],
+      "selectedSense": {
+        "entryId": "17294",
+        "senseId": "2",
+        "term": "네",
+        "pos": "감탄사",
+        "dictionaryMeaning": "是，行",
+        "definition": "用于肯定回答长辈所提出的问题或命令等。"
+      },
+      "reason": "The full sentence selects this homonymous dictionary sense; the previous sense referred to a different meaning.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n37863-1-9-2",
+      "part": 0,
+      "ko": "네. 제가 꼼꼼하게 잘 처리할게요.",
+      "zh": "好的，我会仔细认真地处理好的。",
+      "before": "你",
+      "after": "是，好的（礼貌的肯定应答）",
+      "beforeSources": [
+        {
+          "entryId": "89180",
+          "senseId": "1",
+          "lemma": "네",
+          "origin": "NIKL Korean-Chinese dictionary"
+        }
+      ],
+      "selectedSense": {
+        "entryId": "17294",
+        "senseId": "2",
+        "term": "네",
+        "pos": "감탄사",
+        "dictionaryMeaning": "是，行",
+        "definition": "用于肯定回答长辈所提出的问题或命令等。"
+      },
+      "reason": "The full sentence selects this homonymous dictionary sense; the previous sense referred to a different meaning.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n16298-1-10-2",
+      "part": 0,
+      "ko": "네, 아내는 친정 나들이를 갔어요.",
+      "zh": "是的，我妻子去娘家玩了。",
+      "before": "你",
+      "after": "是，好的（礼貌的肯定应答）",
+      "beforeSources": [
+        {
+          "entryId": "89180",
+          "senseId": "1",
+          "lemma": "네",
+          "origin": "NIKL Korean-Chinese dictionary"
+        }
+      ],
+      "selectedSense": {
+        "entryId": "17294",
+        "senseId": "2",
+        "term": "네",
+        "pos": "감탄사",
+        "dictionaryMeaning": "是，行",
+        "definition": "用于肯定回答长辈所提出的问题或命令等。"
+      },
+      "reason": "The full sentence selects this homonymous dictionary sense; the previous sense referred to a different meaning.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n85690-1-10-2",
+      "part": 0,
+      "ko": "어디 보자. 내가 다시 설명해 줄게.",
+      "zh": "让我看看。我再给你解释一遍。",
+      "before": "一个地方",
+      "after": "来，让我……（着手查看或思考）",
+      "beforeSources": [
+        {
+          "entryId": "60319",
+          "senseId": "2",
+          "lemma": "어디",
+          "origin": "NIKL Korean-Chinese dictionary"
+        }
+      ],
+      "selectedSense": {
+        "entryId": "60320",
+        "senseId": "1",
+        "term": "어디",
+        "pos": "감탄사",
+        "dictionaryMeaning": "(无对应词汇)",
+        "definition": "用于表示为完成某件事而寻找机会或下决心。"
+      },
+      "reason": "The full sentence selects this homonymous dictionary sense; the previous sense referred to a different meaning.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n79657-1-9-2",
+      "part": 1,
+      "ko": "그래? 어디 한번 보자.",
+      "zh": "是吗？那我们去看看看吧。",
+      "before": "哪里，哪儿",
+      "after": "来，让我……（着手查看或思考）",
+      "beforeSources": [
+        {
+          "entryId": "60319",
+          "senseId": "1",
+          "lemma": "어디",
+          "origin": "NIKL Korean-Chinese dictionary"
+        }
+      ],
+      "selectedSense": {
+        "entryId": "60320",
+        "senseId": "1",
+        "term": "어디",
+        "pos": "감탄사",
+        "dictionaryMeaning": "(无对应词汇)",
+        "definition": "用于表示为完成某件事而寻找机会或下决心。"
+      },
+      "reason": "The full sentence selects this homonymous dictionary sense; the previous sense referred to a different meaning.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n60489-1-13-1",
+      "part": 0,
+      "ko": "저기 달력에 크게 동그라미 친 날은 무슨 날이야?",
+      "zh": "日历上画了大圈的那天是什么日子？",
+      "before": "喂",
+      "after": "那里、那儿（指日历上的位置）",
+      "beforeSources": [
+        {
+          "entryId": "71219",
+          "senseId": "2",
+          "lemma": "저기",
+          "origin": "NIKL Korean-Chinese dictionary"
+        }
+      ],
+      "selectedSense": {
+        "entryId": "71218",
+        "senseId": "1",
+        "term": "저기",
+        "pos": "대명사",
+        "dictionaryMeaning": "那里，那儿",
+        "definition": "指代离说话人或听话人很远的地方。"
+      },
+      "reason": "The full sentence selects this homonymous dictionary sense; the previous sense referred to a different meaning.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n71111-3-5-1",
+      "part": 5,
+      "ko": "나는 학교 다닐 때 만날 일 등만 했어.",
+      "zh": "我上学时总是考第一。",
+      "before": "事情，工作",
+      "after": "第一（일 등：第一名）",
+      "beforeSources": [
+        {
+          "entryId": "91895",
+          "senseId": "1",
+          "lemma": "일",
+          "origin": "NIKL Korean-Chinese dictionary"
+        }
+      ],
+      "selectedSense": {
+        "entryId": "31528",
+        "senseId": "2",
+        "term": "일",
+        "pos": "관형사",
+        "dictionaryMeaning": "第一",
+        "definition": "第一次的。"
+      },
+      "reason": "The full sentence selects this homonymous dictionary sense; the previous sense referred to a different meaning.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n76810-1-9-2",
+      "part": 2,
+      "ko": "역에서 나오셔서 일 분 정도 곧바로 직진으로 가면 저희 건물이 보입니다.",
+      "zh": "从车站出来后，直接笔直走大约一分钟，就能看到我们的大楼了。",
+      "before": "事",
+      "after": "一（汉字数词）",
+      "beforeSources": [
+        {
+          "entryId": "91895",
+          "senseId": "7",
+          "lemma": "일",
+          "origin": "NIKL Korean-Chinese dictionary"
+        }
+      ],
+      "selectedSense": {
+        "entryId": "31523",
+        "senseId": "1",
+        "term": "일",
+        "pos": "수사",
+        "dictionaryMeaning": "一",
+        "definition": "数数时第一个数目。"
+      },
+      "reason": "The full sentence selects this homonymous dictionary sense; the previous sense referred to a different meaning.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n75463-1-7-2",
+      "part": 3,
+      "ko": "지금 상병이니까 아직도 일 년 가까이 남았어.",
+      "zh": "我现在是上兵，所以还得再待将近一年。",
+      "before": "一日",
+      "after": "一（汉字数词）",
+      "beforeSources": [
+        {
+          "entryId": "89863",
+          "senseId": "1",
+          "lemma": "일",
+          "origin": "NIKL Korean-Chinese dictionary"
+        }
+      ],
+      "selectedSense": {
+        "entryId": "31523",
+        "senseId": "1",
+        "term": "일",
+        "pos": "수사",
+        "dictionaryMeaning": "一",
+        "definition": "数数时第一个数目。"
+      },
+      "reason": "The full sentence selects this homonymous dictionary sense; the previous sense referred to a different meaning.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n82692-1-9-2",
+      "part": 2,
+      "ko": "응. 특파원으로 일 년 동안 파견을 나가게 됐어.",
+      "zh": "对。我被派去当特派员，要在外工作一年。",
+      "before": "一日",
+      "after": "一（汉字数词）",
+      "beforeSources": [
+        {
+          "entryId": "89863",
+          "senseId": "1",
+          "lemma": "일",
+          "origin": "NIKL Korean-Chinese dictionary"
+        }
+      ],
+      "selectedSense": {
+        "entryId": "31523",
+        "senseId": "1",
+        "term": "일",
+        "pos": "수사",
+        "dictionaryMeaning": "一",
+        "definition": "数数时第一个数目。"
+      },
+      "reason": "The full sentence selects this homonymous dictionary sense; the previous sense referred to a different meaning.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n74300-1-7-2",
+      "part": 1,
+      "ko": "네, 일 년 동안 열심히 공부한 보람이 있어요.",
+      "zh": "是的，这一年来努力学习的成果终于显现了。",
+      "before": "一日",
+      "after": "一（汉字数词）",
+      "beforeSources": [
+        {
+          "entryId": "89863",
+          "senseId": "1",
+          "lemma": "일",
+          "origin": "NIKL Korean-Chinese dictionary"
+        }
+      ],
+      "selectedSense": {
+        "entryId": "31523",
+        "senseId": "1",
+        "term": "일",
+        "pos": "수사",
+        "dictionaryMeaning": "一",
+        "definition": "数数时第一个数目。"
+      },
+      "reason": "The full sentence selects this homonymous dictionary sense; the previous sense referred to a different meaning.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n71003-1-8-1",
+      "part": 1,
+      "ko": "민준이가 일주일이 넘게 안 보여.",
+      "zh": "一个多星期没看见敏俊了。",
+      "before": "一日；周，星期",
+      "after": "一周、一星期（主语）",
+      "beforeSources": [
+        {
+          "entryId": "89863",
+          "senseId": "1",
+          "lemma": "일",
+          "origin": "NIKL Korean-Chinese dictionary"
+        },
+        {
+          "entryId": "90850",
+          "senseId": "1",
+          "lemma": "주일",
+          "origin": "NIKL Korean-Chinese dictionary"
+        }
+      ],
+      "selectedSense": {
+        "entryId": "31523",
+        "senseId": "1",
+        "term": "일",
+        "pos": "수사",
+        "dictionaryMeaning": "一",
+        "definition": "数数时第一个数目。"
+      },
+      "reason": "The full sentence selects this homonymous dictionary sense; the previous sense referred to a different meaning.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n25692-1-2-2",
+      "part": 4,
+      "ko": "지수네 반의 연극은 학예회 이 부의 첫 순서래.",
+      "zh": "听说智秀班上的话剧是汇演第二部分的第一个节目。",
+      "before": "牙齿",
+      "after": "第二（이 부：第二部分）",
+      "beforeSources": [
+        {
+          "entryId": "69529",
+          "senseId": "1",
+          "lemma": "이",
+          "origin": "NIKL Korean-Chinese dictionary"
+        }
+      ],
+      "selectedSense": {
+        "entryId": "71127",
+        "senseId": "2",
+        "term": "이",
+        "pos": "관형사",
+        "dictionaryMeaning": "第二",
+        "definition": "第二个的。"
+      },
+      "reason": "The full sentence selects this homonymous dictionary sense; the previous sense referred to a different meaning.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n61097-3-6-1",
+      "part": 2,
+      "ko": "저 부부는 한시도 안 떨어지고 계속 팔짱을 끼고 다녀.",
+      "zh": "那对夫妻一刻都不分开，一直手挽手一起走。",
+      "before": "限度；时，时候",
+      "after": "连一刻也（与后面的否定连用）",
+      "beforeSources": [
+        {
+          "entryId": "84551",
+          "senseId": "1",
+          "lemma": "한",
+          "origin": "NIKL Korean-Chinese dictionary"
+        },
+        {
+          "entryId": "65108",
+          "senseId": "2",
+          "lemma": "시",
+          "origin": "NIKL Korean-Chinese dictionary"
+        }
+      ],
+      "selectedSense": {
+        "entryId": "73278",
+        "senseId": "1",
+        "term": "한",
+        "pos": "관형사",
+        "dictionaryMeaning": "一",
+        "definition": "一个的。"
+      },
+      "reason": "The full sentence selects this homonymous dictionary sense; the previous sense referred to a different meaning.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n24943-1-7-1",
+      "part": 3,
+      "ko": "아빠가 화날 때 한 번 소리를 지르시면 마치 천둥 소리 같아요.",
+      "zh": "爸爸生气的时候大喊一声，听起来就像雷声一样。",
+      "before": "界限 ，穷尽",
+      "after": "一、一个（修饰后面的量词或名词）",
+      "beforeSources": [
+        {
+          "entryId": "84551",
+          "senseId": "2",
+          "lemma": "한",
+          "origin": "NIKL Korean-Chinese dictionary"
+        }
+      ],
+      "selectedSense": {
+        "entryId": "73278",
+        "senseId": "1",
+        "term": "한",
+        "pos": "관형사",
+        "dictionaryMeaning": "一",
+        "definition": "一个的。"
+      },
+      "reason": "The full sentence selects this homonymous dictionary sense; the previous sense referred to a different meaning.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n56324-3-8-1",
+      "part": 2,
+      "ko": "식당에 들어가려면 한 시간을 기다려야 한대.",
+      "zh": "据说要进那家餐厅得等一个小时呢。",
+      "before": "限度",
+      "after": "一、一个（修饰后面的量词或名词）",
+      "beforeSources": [
+        {
+          "entryId": "84551",
+          "senseId": "1",
+          "lemma": "한",
+          "origin": "NIKL Korean-Chinese dictionary"
+        }
+      ],
+      "selectedSense": {
+        "entryId": "73278",
+        "senseId": "1",
+        "term": "한",
+        "pos": "관형사",
+        "dictionaryMeaning": "一",
+        "definition": "一个的。"
+      },
+      "reason": "The full sentence selects this homonymous dictionary sense; the previous sense referred to a different meaning.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n83288-1-10-1",
+      "part": 2,
+      "ko": "이제 더위도 한 고비가 지났네요.",
+      "zh": "现在暑热也快要过去了呢。",
+      "before": "限度",
+      "after": "一、一个（修饰后面的量词或名词）",
+      "beforeSources": [
+        {
+          "entryId": "84551",
+          "senseId": "1",
+          "lemma": "한",
+          "origin": "NIKL Korean-Chinese dictionary"
+        }
+      ],
+      "selectedSense": {
+        "entryId": "73278",
+        "senseId": "1",
+        "term": "한",
+        "pos": "관형사",
+        "dictionaryMeaning": "一",
+        "definition": "一个的。"
+      },
+      "reason": "The full sentence selects this homonymous dictionary sense; the previous sense referred to a different meaning.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n61987-1-8-1",
+      "part": 0,
+      "ko": "한 번만 봐주세요.",
+      "zh": "就饶我这一次吧。",
+      "before": "界限 ，穷尽",
+      "after": "一、一个（修饰后面的量词或名词）",
+      "beforeSources": [
+        {
+          "entryId": "84551",
+          "senseId": "2",
+          "lemma": "한",
+          "origin": "NIKL Korean-Chinese dictionary"
+        }
+      ],
+      "selectedSense": {
+        "entryId": "73278",
+        "senseId": "1",
+        "term": "한",
+        "pos": "관형사",
+        "dictionaryMeaning": "一",
+        "definition": "一个的。"
+      },
+      "reason": "The full sentence selects this homonymous dictionary sense; the previous sense referred to a different meaning.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n62732-1-13-1",
+      "part": 0,
+      "ko": "한 무명 작가가 생활고에 허덕이다 결국 요절하고 말았대.",
+      "zh": "据说有个无名作家因为生活困苦而苦苦挣扎，最终英年早逝了。",
+      "before": "程度，限度，范围",
+      "after": "一个、某个",
+      "beforeSources": [
+        {
+          "entryId": "84551",
+          "senseId": "3",
+          "lemma": "한",
+          "origin": "NIKL Korean-Chinese dictionary"
+        }
+      ],
+      "selectedSense": {
+        "entryId": "73278",
+        "senseId": "2",
+        "term": "한",
+        "pos": "관형사",
+        "dictionaryMeaning": "一个",
+        "definition": "多个中的一个。"
+      },
+      "reason": "The full sentence selects this homonymous dictionary sense; the previous sense referred to a different meaning.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n61250-1-14-2",
+      "part": 4,
+      "ko": "오늘이 엄마 생신이라 케이크를 하나 사려고.",
+      "zh": "今天是妈妈的生日，所以想买个蛋糕。",
+      "before": "唯一",
+      "after": "一、一个",
+      "beforeSources": [
+        {
+          "entryId": "20283",
+          "senseId": "3",
+          "lemma": "하나",
+          "origin": "NIKL Korean-Chinese dictionary"
+        }
+      ],
+      "selectedSense": {
+        "entryId": "20279",
+        "senseId": "1",
+        "term": "하나",
+        "pos": "수사",
+        "dictionaryMeaning": "一",
+        "definition": "数数时的第一个数字。"
+      },
+      "reason": "The full sentence selects this homonymous dictionary sense; the previous sense referred to a different meaning.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n58173-1-9-2",
+      "part": 2,
+      "ko": "네, 이거 하나만 더 실으면 됩니다.",
+      "zh": "是的，再装这一个就够了。",
+      "before": "唯一",
+      "after": "一、一个",
+      "beforeSources": [
+        {
+          "entryId": "20283",
+          "senseId": "3",
+          "lemma": "하나",
+          "origin": "NIKL Korean-Chinese dictionary"
+        }
+      ],
+      "selectedSense": {
+        "entryId": "20279",
+        "senseId": "1",
+        "term": "하나",
+        "pos": "수사",
+        "dictionaryMeaning": "一",
+        "definition": "数数时的第一个数字。"
+      },
+      "reason": "The full sentence selects this homonymous dictionary sense; the previous sense referred to a different meaning.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n58107-1-7-2",
+      "part": 8,
+      "ko": "저는 쇼핑을 즐기는 편이 아니라서 자주 가는 매장이 하나밖에 없어요.",
+      "zh": "我不太喜欢购物，所以只有常去的一家店而已。",
+      "before": "唯一",
+      "after": "一、一个",
+      "beforeSources": [
+        {
+          "entryId": "20283",
+          "senseId": "3",
+          "lemma": "하나",
+          "origin": "NIKL Korean-Chinese dictionary"
+        }
+      ],
+      "selectedSense": {
+        "entryId": "20279",
+        "senseId": "1",
+        "term": "하나",
+        "pos": "수사",
+        "dictionaryMeaning": "一",
+        "definition": "数数时的第一个数字。"
+      },
+      "reason": "The full sentence selects this homonymous dictionary sense; the previous sense referred to a different meaning.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n59072-4-7-1",
+      "part": 2,
+      "ko": "동네에 카페를 하나 벌일까 생각 중이야.",
+      "zh": "我正在考虑在咱们小区开家咖啡馆。",
+      "before": "某种",
+      "after": "一、一个",
+      "beforeSources": [
+        {
+          "entryId": "20283",
+          "senseId": "5",
+          "lemma": "하나",
+          "origin": "NIKL Korean-Chinese dictionary"
+        }
+      ],
+      "selectedSense": {
+        "entryId": "20279",
+        "senseId": "1",
+        "term": "하나",
+        "pos": "수사",
+        "dictionaryMeaning": "一",
+        "definition": "数数时的第一个数字。"
+      },
+      "reason": "The full sentence selects this homonymous dictionary sense; the previous sense referred to a different meaning.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n26723-1-7-2",
+      "part": 3,
+      "ko": "그냥 싼 월세 하나 구했어.",
+      "zh": "只是找了个便宜的月租房子而已。",
+      "before": "某种",
+      "after": "一、一个",
+      "beforeSources": [
+        {
+          "entryId": "20283",
+          "senseId": "5",
+          "lemma": "하나",
+          "origin": "NIKL Korean-Chinese dictionary"
+        }
+      ],
+      "selectedSense": {
+        "entryId": "20279",
+        "senseId": "1",
+        "term": "하나",
+        "pos": "수사",
+        "dictionaryMeaning": "一",
+        "definition": "数数时的第一个数字。"
+      },
+      "reason": "The full sentence selects this homonymous dictionary sense; the previous sense referred to a different meaning.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n71575-1-9-2",
+      "part": 1,
+      "ko": "이거 하나만 먹을 건데 뭐 어때.",
+      "zh": "我就吃这一个，有啥问题吗？",
+      "before": "唯一",
+      "after": "一、一个",
+      "beforeSources": [
+        {
+          "entryId": "20283",
+          "senseId": "3",
+          "lemma": "하나",
+          "origin": "NIKL Korean-Chinese dictionary"
+        }
+      ],
+      "selectedSense": {
+        "entryId": "20279",
+        "senseId": "1",
+        "term": "하나",
+        "pos": "수사",
+        "dictionaryMeaning": "一",
+        "definition": "数数时的第一个数字。"
+      },
+      "reason": "The full sentence selects this homonymous dictionary sense; the previous sense referred to a different meaning.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n81240-1-9-2",
+      "part": 3,
+      "ko": "나 제주도에 콘도가 하나 있는데 거기로 가는 건 어때?",
+      "zh": "我有个济州岛的度假屋，去那儿怎么样？",
+      "before": "某种",
+      "after": "一、一个",
+      "beforeSources": [
+        {
+          "entryId": "20283",
+          "senseId": "5",
+          "lemma": "하나",
+          "origin": "NIKL Korean-Chinese dictionary"
+        }
+      ],
+      "selectedSense": {
+        "entryId": "20279",
+        "senseId": "1",
+        "term": "하나",
+        "pos": "수사",
+        "dictionaryMeaning": "一",
+        "definition": "数数时的第一个数字。"
+      },
+      "reason": "The full sentence selects this homonymous dictionary sense; the previous sense referred to a different meaning.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n31752-1-10-2",
+      "part": 6,
+      "ko": "명절에도 평소처럼 정상 영업을 하는 식당이 하나 있어. 거기 가자.",
+      "zh": "有个餐厅即使在节日期间也像平时一样正常营业。我们去那儿吧。",
+      "before": "某种",
+      "after": "一、一个",
+      "beforeSources": [
+        {
+          "entryId": "20283",
+          "senseId": "5",
+          "lemma": "하나",
+          "origin": "NIKL Korean-Chinese dictionary"
+        }
+      ],
+      "selectedSense": {
+        "entryId": "20279",
+        "senseId": "1",
+        "term": "하나",
+        "pos": "수사",
+        "dictionaryMeaning": "一",
+        "definition": "数数时的第一个数字。"
+      },
+      "reason": "The full sentence selects this homonymous dictionary sense; the previous sense referred to a different meaning.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n15045-1-6-1",
+      "part": 1,
+      "ko": "부탁이 하나 있는데, 들어줄 수 있어요?",
+      "zh": "有个请求想麻烦你，能帮帮我吗？",
+      "before": "某种",
+      "after": "一、一个",
+      "beforeSources": [
+        {
+          "entryId": "20283",
+          "senseId": "5",
+          "lemma": "하나",
+          "origin": "NIKL Korean-Chinese dictionary"
+        }
+      ],
+      "selectedSense": {
+        "entryId": "20279",
+        "senseId": "1",
+        "term": "하나",
+        "pos": "수사",
+        "dictionaryMeaning": "一",
+        "definition": "数数时的第一个数字。"
+      },
+      "reason": "The full sentence selects this homonymous dictionary sense; the previous sense referred to a different meaning.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n78926-1-10-2",
+      "part": 3,
+      "ko": "그럼 짤막한 이야기 하나만 하고 발표를 마치겠습니다.",
+      "zh": "那我就讲一个简短的故事，然后结束汇报。",
+      "before": "唯一",
+      "after": "一、一个",
+      "beforeSources": [
+        {
+          "entryId": "20283",
+          "senseId": "3",
+          "lemma": "하나",
+          "origin": "NIKL Korean-Chinese dictionary"
+        }
+      ],
+      "selectedSense": {
+        "entryId": "20279",
+        "senseId": "1",
+        "term": "하나",
+        "pos": "수사",
+        "dictionaryMeaning": "一",
+        "definition": "数数时的第一个数字。"
+      },
+      "reason": "The full sentence selects this homonymous dictionary sense; the previous sense referred to a different meaning.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n82672-1-8-1",
+      "part": 3,
+      "ko": "지수는 옷에 티끌 하나 묻어 있지 않더라.",
+      "zh": "智秀的衣服上连一点灰尘都没有呢。",
+      "before": "完全",
+      "after": "一、一个",
+      "beforeSources": [
+        {
+          "entryId": "20283",
+          "senseId": "4",
+          "lemma": "하나",
+          "origin": "NIKL Korean-Chinese dictionary"
+        }
+      ],
+      "selectedSense": {
+        "entryId": "20279",
+        "senseId": "1",
+        "term": "하나",
+        "pos": "수사",
+        "dictionaryMeaning": "一",
+        "definition": "数数时的第一个数字。"
+      },
+      "reason": "The full sentence selects this homonymous dictionary sense; the previous sense referred to a different meaning.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n26384-1-7-2",
+      "part": 5,
+      "ko": "여기가 세계의 거대 유적지 중 하나야.",
+      "zh": "这里可是世界上的大型遗址之一呢。",
+      "before": "某种",
+      "after": "其中之一",
+      "beforeSources": [
+        {
+          "entryId": "20283",
+          "senseId": "5",
+          "lemma": "하나",
+          "origin": "NIKL Korean-Chinese dictionary"
+        }
+      ],
+      "selectedSense": {
+        "entryId": "20283",
+        "senseId": "2",
+        "term": "하나",
+        "pos": "명사",
+        "dictionaryMeaning": "其中",
+        "definition": "许多种类中的特定的事物或人。"
+      },
+      "reason": "The full sentence selects this homonymous dictionary sense; the previous sense referred to a different meaning.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n87778-2-7-2",
+      "part": 4,
+      "ko": "사람을 마구 휘둘러서 정신이 하나도 없어.",
+      "zh": "人被甩来甩去，晕头转向的。",
+      "before": "其中",
+      "after": "一点也（하나도 与否定表达连用）",
+      "beforeSources": [
+        {
+          "entryId": "20283",
+          "senseId": "2",
+          "lemma": "하나",
+          "origin": "NIKL Korean-Chinese dictionary"
+        }
+      ],
+      "selectedSense": {
+        "entryId": "20283",
+        "senseId": "4",
+        "term": "하나",
+        "pos": "명사",
+        "dictionaryMeaning": "完全",
+        "definition": "全然，毫无。"
+      },
+      "reason": "The full sentence selects this homonymous dictionary sense; the previous sense referred to a different meaning.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n36752-1-11-2",
+      "part": 8,
+      "ko": "어제 하루 종일 구토를 하는 바람에 온몸에 기운이 하나도 없어.",
+      "zh": "因为昨天一整天都在呕吐，现在浑身一点力气都没有。",
+      "before": "一体",
+      "after": "一点也（하나도 与否定表达连用）",
+      "beforeSources": [
+        {
+          "entryId": "20283",
+          "senseId": "1",
+          "lemma": "하나",
+          "origin": "NIKL Korean-Chinese dictionary"
+        }
+      ],
+      "selectedSense": {
+        "entryId": "20283",
+        "senseId": "4",
+        "term": "하나",
+        "pos": "명사",
+        "dictionaryMeaning": "完全",
+        "definition": "全然，毫无。"
+      },
+      "reason": "The full sentence selects this homonymous dictionary sense; the previous sense referred to a different meaning.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n28178-2-7-2",
+      "part": 0,
+      "ko": "첫째 큰어머니는 부엌에 계시고 둘째 큰어머니는 시장에 가셨어요.",
+      "zh": "长伯母在厨房，二伯母去市场了。",
+      "before": "老大",
+      "after": "第一；这里修饰排行第一的伯母",
+      "beforeSources": [
+        {
+          "entryId": "17313",
+          "senseId": "2",
+          "lemma": "첫째",
+          "origin": "NIKL Korean-Chinese dictionary"
+        }
+      ],
+      "selectedSense": {
+        "entryId": "17309",
+        "senseId": "1",
+        "term": "첫째",
+        "pos": "관형사",
+        "dictionaryMeaning": "第一",
+        "definition": "排在最前面的。"
+      },
+      "reason": "The full sentence selects this homonymous dictionary sense; the previous sense referred to a different meaning.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n28178-2-7-2",
+      "part": 4,
+      "ko": "첫째 큰어머니는 부엌에 계시고 둘째 큰어머니는 시장에 가셨어요.",
+      "zh": "长伯母在厨房，二伯母去市场了。",
+      "before": "老二",
+      "after": "第二；这里修饰排行第二的伯母",
+      "beforeSources": [
+        {
+          "entryId": "90911",
+          "senseId": "2",
+          "lemma": "둘째",
+          "origin": "NIKL Korean-Chinese dictionary"
+        }
+      ],
+      "selectedSense": {
+        "entryId": "58109",
+        "senseId": "1",
+        "term": "둘째",
+        "pos": "관형사",
+        "dictionaryMeaning": "第二，老二",
+        "definition": "排在二的顺序的。"
+      },
+      "reason": "The full sentence selects this homonymous dictionary sense; the previous sense referred to a different meaning.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n67098-1-6-2",
+      "part": 1,
+      "ko": "다 됐으니까 손을 씻고 와.",
+      "zh": "都做好了，去洗洗手再过来。",
+      "before": "顺利，不错",
+      "after": "已经做好、完成",
+      "beforeSources": [
+        {
+          "entryId": "89858",
+          "senseId": "13",
+          "lemma": "되다",
+          "origin": "NIKL Korean-Chinese dictionary"
+        }
+      ],
+      "selectedSense": {
+        "entryId": "89858",
+        "senseId": "12"
+      },
+      "reason": "Food is ready; this is completion, not a description of how smoothly events progress.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n32205-2-8-2",
+      "part": 0,
+      "ko": "그냥 아는 누나야.",
+      "zh": "只是个认识的姐姐而已。",
+      "before": "随便",
+      "after": "只是、不过是（没有特别的关系）",
+      "beforeSources": [
+        {
+          "entryId": "36241",
+          "senseId": "4",
+          "lemma": "그냥",
+          "origin": "NIKL Korean-Chinese dictionary"
+        }
+      ],
+      "selectedSense": null,
+      "reason": "The speaker minimizes the relationship with a known older woman; 随便 alone suggests arbitrary action.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n62233-26-15-2",
+      "part": 0,
+      "ko": "그냥 산책 겸 나왔어요.",
+      "zh": "出来办事，顺便散散步。",
+      "before": "随便",
+      "after": "只是、不过是（没有特别的用意）",
+      "beforeSources": [
+        {
+          "entryId": "36241",
+          "senseId": "4",
+          "lemma": "그냥",
+          "origin": "NIKL Korean-Chinese dictionary"
+        }
+      ],
+      "selectedSense": null,
+      "reason": "The reply explains that there is no special reason for the visit, not an arbitrary manner of walking.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n58162-3-8-2",
+      "part": 0,
+      "ko": "별로 생각 없어.",
+      "zh": "我不太想吃。",
+      "before": "特别，格外",
+      "after": "（不）怎么、（不）太（与后面的否定连用）",
+      "beforeSources": [
+        {
+          "entryId": "58301",
+          "senseId": "1",
+          "lemma": "별로",
+          "origin": "NIKL Korean-Chinese dictionary"
+        }
+      ],
+      "selectedSense": null,
+      "reason": "별로 … 없다 is a negative degree expression; the standalone positive Chinese gloss is misleading here.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n31685-1-28-1",
+      "part": 2,
+      "ko": "여기 고기 이 인분만 주세요.",
+      "zh": "这里请来两人份的肉。",
+      "before": "这个",
+      "after": "二、两（이 인분：两人份）",
+      "beforeSources": [
+        {
+          "entryId": "27527",
+          "senseId": "1",
+          "lemma": "이",
+          "origin": "NIKL Korean-Chinese dictionary"
+        }
+      ],
+      "selectedSense": {
+        "entryId": "71127",
+        "senseId": "1"
+      },
+      "reason": "The numeral modifies a serving quantity; it is not the demonstrative 这个.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n17206-4-4-2",
+      "part": 1,
+      "ko": "아닙니다. 그쪽부터 고르십시오.",
+      "zh": "不用了，您先选吧。",
+      "before": "那样，那个；边",
+      "after": "你、您（这里指对方）；부터 表示“从……开始”",
+      "beforeSources": [
+        {
+          "entryId": "62250",
+          "senseId": "2",
+          "lemma": "그",
+          "origin": "NIKL Korean-Chinese dictionary"
+        },
+        {
+          "entryId": "58147",
+          "senseId": "1",
+          "lemma": "쪽",
+          "origin": "NIKL Korean-Chinese dictionary"
+        }
+      ],
+      "selectedSense": {
+        "entryId": "17206",
+        "senseId": "4"
+      },
+      "reason": "그쪽 is the second-person pronoun in both lines; splitting it into 那个 plus 边 misleads the learner.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n62233-26-15-2",
+      "part": -1,
+      "field": "translation",
+      "ko": "그냥 산책 겸 나왔어요.",
+      "before": "出来办事，顺便散散步。",
+      "after": "就是出来一下，顺便散散步。",
+      "reason": "The original added a concrete errand that the Korean dialogue does not specify. The revision preserves the secondary-purpose nuance of 겸 without inventing the other purpose.",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n27372-1-9-1",
+      "part": 3,
+      "ko": "엄마, 설탕도 넣어 드릴까요?",
+      "zh": "妈妈，也给您加糖吗？",
+      "before": "致，呈，献，奉上",
+      "afterLexical": "为别人做某事（-아/어 드리다，谦敬表达）",
+      "selectedSense": {
+        "entryId": "59252",
+        "senseId": "1"
+      },
+      "reason": "Reviewed auxiliary 드리다 after an action verb, including attached 도와드리다 and 해드리다; distinguish a respectful beneficial action from physically presenting an object.",
+      "kind": "sense correction",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n17198-4-7-2",
+      "part": 4,
+      "ko": "아, 잠깐만요. 형 바꿔 드릴게요.",
+      "zh": "啊，稍等一下。我帮您转接给哥哥。",
+      "before": "致，呈，献，奉上",
+      "afterLexical": "为别人做某事（-아/어 드리다，谦敬表达）",
+      "selectedSense": {
+        "entryId": "59252",
+        "senseId": "1"
+      },
+      "reason": "Reviewed auxiliary 드리다 after an action verb, including attached 도와드리다 and 해드리다; distinguish a respectful beneficial action from physically presenting an object.",
+      "kind": "sense correction",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n17204-1-20-2",
+      "part": 2,
+      "ko": "어떡하죠? 거슬러 드릴 돈이 없네요.",
+      "zh": "怎么办呢？我没有零钱找给您了。",
+      "before": "致，呈，献，奉上",
+      "afterLexical": "为别人做某事（-아/어 드리다，谦敬表达）",
+      "selectedSense": {
+        "entryId": "59252",
+        "senseId": "1"
+      },
+      "reason": "Reviewed auxiliary 드리다 after an action verb, including attached 도와드리다 and 해드리다; distinguish a respectful beneficial action from physically presenting an object.",
+      "kind": "sense correction",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n28633-2-8-1",
+      "part": 7,
+      "ko": "엄마, 이제 저한테 기대세요. 제가 힘이 되어 드릴게요.",
+      "zh": "妈妈，以后您就依靠我吧，我会支持您的。",
+      "before": "致，呈，献，奉上",
+      "afterLexical": "为别人做某事（-아/어 드리다，谦敬表达）",
+      "selectedSense": {
+        "entryId": "59252",
+        "senseId": "1"
+      },
+      "reason": "Reviewed auxiliary 드리다 after an action verb, including attached 도와드리다 and 해드리다; distinguish a respectful beneficial action from physically presenting an object.",
+      "kind": "sense correction",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n71121-1-11-2",
+      "part": 3,
+      "ko": "아동용 의자를 가져다 드릴까요?",
+      "zh": "需要我拿把儿童椅过来吗？",
+      "before": "致，呈，献，奉上",
+      "afterLexical": "为别人做某事（-아/어 드리다，谦敬表达）",
+      "selectedSense": {
+        "entryId": "59252",
+        "senseId": "1"
+      },
+      "reason": "Reviewed auxiliary 드리다 after an action verb, including attached 도와드리다 and 해드리다; distinguish a respectful beneficial action from physically presenting an object.",
+      "kind": "sense correction",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n90069-1-9-1",
+      "part": 3,
+      "ko": "커피에 설탕을 타 드릴까요?",
+      "zh": "需要我在咖啡里加糖吗？",
+      "before": "致，呈，献，奉上",
+      "afterLexical": "为别人做某事（-아/어 드리다，谦敬表达）",
+      "selectedSense": {
+        "entryId": "59252",
+        "senseId": "1"
+      },
+      "reason": "Reviewed auxiliary 드리다 after an action verb, including attached 도와드리다 and 해드리다; distinguish a respectful beneficial action from physically presenting an object.",
+      "kind": "sense correction",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n73063-1-17-2",
+      "part": 5,
+      "ko": "네, 손님. 이 안쪽에서 보여 드릴게요. 안으로 들어오세요.",
+      "zh": "有的，顾客。我带您去里面看看。请进吧。",
+      "before": "致，呈，献，奉上",
+      "afterLexical": "为别人做某事（-아/어 드리다，谦敬表达）",
+      "selectedSense": {
+        "entryId": "59252",
+        "senseId": "1"
+      },
+      "reason": "Reviewed auxiliary 드리다 after an action verb, including attached 도와드리다 and 해드리다; distinguish a respectful beneficial action from physically presenting an object.",
+      "kind": "sense correction",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n48655-1-10-2",
+      "part": 7,
+      "ko": "그래요? 그럼 지폐를 주시면 제가 동전으로 바꿔 드릴게요.",
+      "zh": "是吗？那请您给我纸币，我帮您换成硬币。",
+      "before": "致，呈，献，奉上",
+      "afterLexical": "为别人做某事（-아/어 드리다，谦敬表达）",
+      "selectedSense": {
+        "entryId": "59252",
+        "senseId": "1"
+      },
+      "reason": "Reviewed auxiliary 드리다 after an action verb, including attached 도와드리다 and 해드리다; distinguish a respectful beneficial action from physically presenting an object.",
+      "kind": "sense correction",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n55525-1-7-2",
+      "part": 6,
+      "ko": "지금 집에 안 계신데 메모를 남겨 드릴까요?",
+      "zh": "她现在不在家，要我留张便条给她吗？",
+      "before": "致，呈，献，奉上",
+      "afterLexical": "为别人做某事（-아/어 드리다，谦敬表达）",
+      "selectedSense": {
+        "entryId": "59252",
+        "senseId": "1"
+      },
+      "reason": "Reviewed auxiliary 드리다 after an action verb, including attached 도와드리다 and 해드리다; distinguish a respectful beneficial action from physically presenting an object.",
+      "kind": "sense correction",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n77610-1-10-2",
+      "part": 4,
+      "ko": "우선 부모님 선물부터 사 드려야지.",
+      "zh": "首先得给父母买份礼物吧。",
+      "before": "致，呈，献，奉上",
+      "afterLexical": "为别人做某事（-아/어 드리다，谦敬表达）",
+      "selectedSense": {
+        "entryId": "59252",
+        "senseId": "1"
+      },
+      "reason": "Reviewed auxiliary 드리다 after an action verb, including attached 도와드리다 and 해드리다; distinguish a respectful beneficial action from physically presenting an object.",
+      "kind": "sense correction",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n64542-1-14-1",
+      "part": 3,
+      "ko": "지난번에 제가 보내 드린 자료는 받으셨습니까?",
+      "zh": "上次我发给您的资料您收到了吗？",
+      "before": "致，呈，献，奉上",
+      "afterLexical": "为别人做某事（-아/어 드리다，谦敬表达）",
+      "selectedSense": {
+        "entryId": "59252",
+        "senseId": "1"
+      },
+      "reason": "Reviewed auxiliary 드리다 after an action verb, including attached 도와드리다 and 해드리다; distinguish a respectful beneficial action from physically presenting an object.",
+      "kind": "sense correction",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n65116-1-10-2",
+      "part": 6,
+      "ko": "지금부터 이유에 대해 하나하나 설명을 해 드릴게요.",
+      "zh": "接下来我会逐一为您解释这些原因。",
+      "before": "致，呈，献，奉上",
+      "afterLexical": "为别人做某事（-아/어 드리다，谦敬表达）",
+      "selectedSense": {
+        "entryId": "59252",
+        "senseId": "1"
+      },
+      "reason": "Reviewed auxiliary 드리다 after an action verb, including attached 도와드리다 and 해드리다; distinguish a respectful beneficial action from physically presenting an object.",
+      "kind": "sense correction",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n28375-1-11-2",
+      "part": 6,
+      "ko": "이리 주세요. 제가 바느질해서 다시 달아 드릴게요.",
+      "zh": "请给我吧，我帮您缝上再装回去。",
+      "before": "致，呈，献，奉上",
+      "afterLexical": "为别人做某事（-아/어 드리다，谦敬表达）",
+      "selectedSense": {
+        "entryId": "59252",
+        "senseId": "1"
+      },
+      "reason": "Reviewed auxiliary 드리다 after an action verb, including attached 도와드리다 and 해드리다; distinguish a respectful beneficial action from physically presenting an object.",
+      "kind": "sense correction",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n13992-1-7-2",
+      "part": 2,
+      "ko": "조금 식혀서 드릴게요.",
+      "zh": "我稍微凉一下再给您。",
+      "before": "(尊称)表示前面的言语或行动给他人的行动带来影响。",
+      "afterLexical": "为别人做某事（-아/어 드리다，谦敬表达）",
+      "selectedSense": {
+        "entryId": "59252",
+        "senseId": "1"
+      },
+      "reason": "Reviewed auxiliary 드리다 after an action verb, including attached 도와드리다 and 해드리다; distinguish a respectful beneficial action from physically presenting an object.",
+      "kind": "clarification",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n32546-1-5-1",
+      "part": 2,
+      "ko": "어머니, 제가 도와드릴까요?",
+      "zh": "妈妈，要我帮您吗？",
+      "before": "帮，帮助；致，呈，献，奉上",
+      "afterLexical": "为别人做某事（-아/어 드리다，谦敬表达）",
+      "selectedSense": {
+        "entryId": "59252",
+        "senseId": "1"
+      },
+      "reason": "Reviewed auxiliary 드리다 after an action verb, including attached 도와드리다 and 해드리다; distinguish a respectful beneficial action from physically presenting an object.",
+      "kind": "sense correction",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n15819-1-5-1",
+      "part": 4,
+      "ko": "뭐 찾으시는 거 있으세요? 도와드릴까요?",
+      "zh": "需要找什么吗？需要我帮忙吗？",
+      "before": "帮，帮助；(尊称)表示前面的言语或行动给他人的行动带来影响。",
+      "afterLexical": "为别人做某事（-아/어 드리다，谦敬表达）",
+      "selectedSense": {
+        "entryId": "59252",
+        "senseId": "1"
+      },
+      "reason": "Reviewed auxiliary 드리다 after an action verb, including attached 도와드리다 and 해드리다; distinguish a respectful beneficial action from physically presenting an object.",
+      "kind": "clarification",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n55527-1-6-2",
+      "part": 3,
+      "ko": "물론이죠. 볼펜도 빌려 드릴까요?",
+      "zh": "当然可以。需要笔的话我也借给您吧？",
+      "before": "致，呈，献，奉上",
+      "afterLexical": "为别人做某事（-아/어 드리다，谦敬表达）",
+      "selectedSense": {
+        "entryId": "59252",
+        "senseId": "1"
+      },
+      "reason": "Reviewed auxiliary 드리다 after an action verb, including attached 도와드리다 and 해드리다; distinguish a respectful beneficial action from physically presenting an object.",
+      "kind": "sense correction",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n25448-1-9-1",
+      "part": 4,
+      "ko": "오늘 청소는 제가 도와 드릴게요.",
+      "zh": "今天打扫的工作让我来帮忙吧。",
+      "before": "致，呈，献，奉上",
+      "afterLexical": "为别人做某事（-아/어 드리다，谦敬表达）",
+      "selectedSense": {
+        "entryId": "59252",
+        "senseId": "1"
+      },
+      "reason": "Reviewed auxiliary 드리다 after an action verb, including attached 도와드리다 and 해드리다; distinguish a respectful beneficial action from physically presenting an object.",
+      "kind": "sense correction",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n62370-2-11-2",
+      "part": 3,
+      "ko": "금방 차 비켜 드릴게요.",
+      "zh": "我马上把车挪开。",
+      "before": "致，呈，献，奉上",
+      "afterLexical": "为别人做某事（-아/어 드리다，谦敬表达）",
+      "selectedSense": {
+        "entryId": "59252",
+        "senseId": "1"
+      },
+      "reason": "Reviewed auxiliary 드리다 after an action verb, including attached 도와드리다 and 해드리다; distinguish a respectful beneficial action from physically presenting an object.",
+      "kind": "sense correction",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n62252-1-9-1",
+      "part": 5,
+      "ko": "제가 술 한 잔 따라 드릴게요.",
+      "zh": "让我给您倒一杯酒吧。",
+      "before": "致，呈，献，奉上",
+      "afterLexical": "为别人做某事（-아/어 드리다，谦敬表达）",
+      "selectedSense": {
+        "entryId": "59252",
+        "senseId": "1"
+      },
+      "reason": "Reviewed auxiliary 드리다 after an action verb, including attached 도와드리다 and 해드리다; distinguish a respectful beneficial action from physically presenting an object.",
+      "kind": "sense correction",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n77578-2-6-1",
+      "part": 4,
+      "ko": "할아버지 제가 짐 들어 드릴게요.",
+      "zh": "爷爷，让我来帮您拿行李吧。",
+      "before": "致，呈，献，奉上",
+      "afterLexical": "为别人做某事（-아/어 드리다，谦敬表达）",
+      "selectedSense": {
+        "entryId": "59252",
+        "senseId": "1"
+      },
+      "reason": "Reviewed auxiliary 드리다 after an action verb, including attached 도와드리다 and 해드리다; distinguish a respectful beneficial action from physically presenting an object.",
+      "kind": "sense correction",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n84716-1-9-2",
+      "part": 3,
+      "ko": "네. 바로 준비해 드리겠습니다.",
+      "zh": "有的。我马上为您准备。",
+      "before": "致，呈，献，奉上",
+      "afterLexical": "为别人做某事（-아/어 드리다，谦敬表达）",
+      "selectedSense": {
+        "entryId": "59252",
+        "senseId": "1"
+      },
+      "reason": "Reviewed auxiliary 드리다 after an action verb, including attached 도와드리다 and 해드리다; distinguish a respectful beneficial action from physically presenting an object.",
+      "kind": "sense correction",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n15299-1-8-2",
+      "part": 3,
+      "ko": "가만 계세요. 제가 도와드릴게요.",
+      "zh": "请稍等，让我来帮您吧。",
+      "before": "帮，帮助；(尊称)表示前面的言语或行动给他人的行动带来影响。",
+      "afterLexical": "为别人做某事（-아/어 드리다，谦敬表达）",
+      "selectedSense": {
+        "entryId": "59252",
+        "senseId": "1"
+      },
+      "reason": "Reviewed auxiliary 드리다 after an action verb, including attached 도와드리다 and 해드리다; distinguish a respectful beneficial action from physically presenting an object.",
+      "kind": "clarification",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n69410-1-10-2",
+      "part": 5,
+      "ko": "골프를 좋아하시니까 골프 용품을 사 드리는 건 어때?",
+      "zh": "他喜欢高尔夫，送他高尔夫用品怎么样？",
+      "before": "致，呈，献，奉上",
+      "afterLexical": "为别人做某事（-아/어 드리다，谦敬表达）",
+      "selectedSense": {
+        "entryId": "59252",
+        "senseId": "1"
+      },
+      "reason": "Reviewed auxiliary 드리다 after an action verb, including attached 도와드리다 and 해드리다; distinguish a respectful beneficial action from physically presenting an object.",
+      "kind": "sense correction",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n13971-1-7-2",
+      "part": 7,
+      "ko": "빠른 시일 내에 집으로 검사 결과를 보내 드리겠습니다.",
+      "zh": "我们会尽快把检查结果寄给您。",
+      "before": "致，呈，献，奉上",
+      "afterLexical": "为别人做某事（-아/어 드리다，谦敬表达）",
+      "selectedSense": {
+        "entryId": "59252",
+        "senseId": "1"
+      },
+      "reason": "Reviewed auxiliary 드리다 after an action verb, including attached 도와드리다 and 해드리다; distinguish a respectful beneficial action from physically presenting an object.",
+      "kind": "sense correction",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n89071-1-8-1",
+      "part": 4,
+      "ko": "부모님 제가 해외여행 시켜 드릴게요.",
+      "zh": "爸妈，我安排你们去国外旅行。",
+      "before": "致，呈，献，奉上",
+      "afterLexical": "为别人做某事（-아/어 드리다，谦敬表达）",
+      "selectedSense": {
+        "entryId": "59252",
+        "senseId": "1"
+      },
+      "reason": "Reviewed auxiliary 드리다 after an action verb, including attached 도와드리다 and 해드리다; distinguish a respectful beneficial action from physically presenting an object.",
+      "kind": "sense correction",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n41603-1-17-1",
+      "part": 3,
+      "ko": "앞머리를 어떻게 잘라 드릴까요?",
+      "zh": "要怎么剪刘海比较好呢？",
+      "before": "(尊称)表示前面的言语或行动给他人的行动带来影响。",
+      "afterLexical": "为别人做某事（-아/어 드리다，谦敬表达）",
+      "selectedSense": {
+        "entryId": "59252",
+        "senseId": "1"
+      },
+      "reason": "Reviewed auxiliary 드리다 after an action verb, including attached 도와드리다 and 해드리다; distinguish a respectful beneficial action from physically presenting an object.",
+      "kind": "clarification",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n14336-1-8-2",
+      "part": 4,
+      "ko": "아니요. 대신에 배달을 해 드립니다.",
+      "zh": "没有。不过我们会为您安排送货。",
+      "before": "致，呈，献，奉上",
+      "afterLexical": "为别人做某事（-아/어 드리다，谦敬表达）",
+      "selectedSense": {
+        "entryId": "59252",
+        "senseId": "1"
+      },
+      "reason": "Reviewed auxiliary 드리다 after an action verb, including attached 도와드리다 and 해드리다; distinguish a respectful beneficial action from physically presenting an object.",
+      "kind": "sense correction",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n27342-1-7-2",
+      "part": 4,
+      "ko": "죄송합니다, 손님. 다시 계산해 드리겠습니다.",
+      "zh": "非常抱歉，顾客。我重新为您计算一下。",
+      "before": "致，呈，献，奉上",
+      "afterLexical": "为别人做某事（-아/어 드리다，谦敬表达）",
+      "selectedSense": {
+        "entryId": "59252",
+        "senseId": "1"
+      },
+      "reason": "Reviewed auxiliary 드리다 after an action verb, including attached 도와드리다 and 해드리다; distinguish a respectful beneficial action from physically presenting an object.",
+      "kind": "sense correction",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n73674-1-9-2",
+      "part": 6,
+      "ko": "네. 다음 행사 일시가 정해지면 알려 드릴게요.",
+      "zh": "好的。下次活动的日期确定了，我会告诉您的。",
+      "before": "致，呈，献，奉上",
+      "afterLexical": "为别人做某事（-아/어 드리다，谦敬表达）",
+      "selectedSense": {
+        "entryId": "59252",
+        "senseId": "1"
+      },
+      "reason": "Reviewed auxiliary 드리다 after an action verb, including attached 도와드리다 and 해드리다; distinguish a respectful beneficial action from physically presenting an object.",
+      "kind": "sense correction",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n14378-2-6-1",
+      "part": 3,
+      "ko": "식빵을 얇게 썰어 드릴까요?",
+      "zh": "要我把吐司切成薄片吗？",
+      "before": "(尊称)表示前面的言语或行动给他人的行动带来影响。",
+      "afterLexical": "为别人做某事（-아/어 드리다，谦敬表达）",
+      "selectedSense": {
+        "entryId": "59252",
+        "senseId": "1"
+      },
+      "reason": "Reviewed auxiliary 드리다 after an action verb, including attached 도와드리다 and 해드리다; distinguish a respectful beneficial action from physically presenting an object.",
+      "kind": "clarification",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n22142-1-8-1",
+      "part": 5,
+      "ko": "아빠, 생신 때 제가 뭘 해드릴까요?",
+      "zh": "爸爸，您生日时我为您做点什么好？",
+      "before": "做，干；致，呈，献，奉上",
+      "afterLexical": "为别人做某事（-아/어 드리다，谦敬表达）",
+      "selectedSense": {
+        "entryId": "59252",
+        "senseId": "1"
+      },
+      "reason": "Reviewed auxiliary 드리다 after an action verb, including attached 도와드리다 and 해드리다; distinguish a respectful beneficial action from physically presenting an object.",
+      "kind": "sense correction",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n68916-1-7-1",
+      "part": 1,
+      "ko": "무엇을 도와드릴까요?",
+      "zh": "需要我帮您什么吗？",
+      "before": "帮，帮助；致，呈，献，奉上",
+      "afterLexical": "为别人做某事（-아/어 드리다，谦敬表达）",
+      "selectedSense": {
+        "entryId": "59252",
+        "senseId": "1"
+      },
+      "reason": "Reviewed auxiliary 드리다 after an action verb, including attached 도와드리다 and 해드리다; distinguish a respectful beneficial action from physically presenting an object.",
+      "kind": "sense correction",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n80376-1-8-2",
+      "part": 2,
+      "ko": "부모님께 갖다 드리려고 알이 굵은 감자만 추린 거예요.",
+      "zh": "这是特意挑了颗粒较大的土豆，准备送给父母们的。",
+      "before": "致，呈，献，奉上",
+      "afterLexical": "为别人做某事（-아/어 드리다，谦敬表达）",
+      "selectedSense": {
+        "entryId": "59252",
+        "senseId": "1"
+      },
+      "reason": "Reviewed auxiliary 드리다 after an action verb, including attached 도와드리다 and 해드리다; distinguish a respectful beneficial action from physically presenting an object.",
+      "kind": "sense correction",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n38025-1-7-1",
+      "part": 3,
+      "ko": "저희가 뭐부터 도와 드리면 될까요?",
+      "zh": "我们需要先帮您做些什么呢？",
+      "before": "致，呈，献，奉上",
+      "afterLexical": "为别人做某事（-아/어 드리다，谦敬表达）",
+      "selectedSense": {
+        "entryId": "59252",
+        "senseId": "1"
+      },
+      "reason": "Reviewed auxiliary 드리다 after an action verb, including attached 도와드리다 and 해드리다; distinguish a respectful beneficial action from physically presenting an object.",
+      "kind": "sense correction",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n86772-1-9-2",
+      "part": 3,
+      "ko": "알겠습니다. 곧 불러 드리겠습니다.",
+      "zh": "好的，我马上叫她过来。",
+      "before": "(尊称)表示前面的言语或行动给他人的行动带来影响。",
+      "afterLexical": "为别人做某事（-아/어 드리다，谦敬表达）",
+      "selectedSense": {
+        "entryId": "59252",
+        "senseId": "1"
+      },
+      "reason": "Reviewed auxiliary 드리다 after an action verb, including attached 도와드리다 and 해드리다; distinguish a respectful beneficial action from physically presenting an object.",
+      "kind": "clarification",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n61839-1-7-2",
+      "part": 4,
+      "ko": "그 곳에 산소를 만들어 드려서 다행이다.",
+      "zh": "幸好把她安葬在故乡了。",
+      "before": "致，呈，献，奉上",
+      "afterLexical": "为别人做某事（-아/어 드리다，谦敬表达）",
+      "selectedSense": {
+        "entryId": "59252",
+        "senseId": "1"
+      },
+      "reason": "Reviewed auxiliary 드리다 after an action verb, including attached 도와드리다 and 해드리다; distinguish a respectful beneficial action from physically presenting an object.",
+      "kind": "sense correction",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n90812-1-9-1",
+      "part": 2,
+      "ko": "어머니를 보살펴 드리지 못한 건 모두 다 제 잘못이에요.",
+      "zh": "没能照顾好母亲，全都是我的错。",
+      "before": "致，呈，献，奉上",
+      "afterLexical": "为别人做某事（-아/어 드리다，谦敬表达）",
+      "selectedSense": {
+        "entryId": "59252",
+        "senseId": "1"
+      },
+      "reason": "Reviewed auxiliary 드리다 after an action verb, including attached 도와드리다 and 해드리다; distinguish a respectful beneficial action from physically presenting an object.",
+      "kind": "sense correction",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n66160-1-10-1",
+      "part": 6,
+      "ko": "할머니, 허리가 아프세요? 제가 좀 주물러 드릴까요?",
+      "zh": "奶奶，您腰疼吗？让我帮您按按好吗？",
+      "before": "致，呈，献，奉上",
+      "afterLexical": "为别人做某事（-아/어 드리다，谦敬表达）",
+      "selectedSense": {
+        "entryId": "59252",
+        "senseId": "1"
+      },
+      "reason": "Reviewed auxiliary 드리다 after an action verb, including attached 도와드리다 and 해드리다; distinguish a respectful beneficial action from physically presenting an object.",
+      "kind": "sense correction",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n69638-1-9-2",
+      "part": 3,
+      "ko": "위염이네요. 약을 지어 드릴게요.",
+      "zh": "是胃炎啊。我这就给您开点药。",
+      "before": "致，呈，献，奉上",
+      "afterLexical": "为别人做某事（-아/어 드리다，谦敬表达）",
+      "selectedSense": {
+        "entryId": "59252",
+        "senseId": "1"
+      },
+      "reason": "Reviewed auxiliary 드리다 after an action verb, including attached 도와드리다 and 해드리다; distinguish a respectful beneficial action from physically presenting an object.",
+      "kind": "sense correction",
+      "reviewer": "Codex AI editorial review; no human certification"
+    },
+    {
+      "lineId": "n84098-1-7-1",
+      "part": 7,
+      "ko": "할아버지 댁에 갈 때 간식으로 무엇을 사다 드리면 좋을까?",
+      "zh": "去爷爷家，给他买什么点心好？",
+      "before": "致，呈，献，奉上",
+      "afterLexical": "为别人做某事（-아/어 드리다，谦敬表达）",
+      "selectedSense": {
+        "entryId": "59252",
+        "senseId": "1"
+      },
+      "reason": "Reviewed auxiliary 드리다 after an action verb, including attached 도와드리다 and 해드리다; distinguish a respectful beneficial action from physically presenting an object.",
+      "kind": "sense correction",
+      "reviewer": "Codex AI editorial review; no human certification"
+    }
+  ]
+}

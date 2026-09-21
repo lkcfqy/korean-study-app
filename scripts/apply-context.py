@@ -38,7 +38,7 @@ def context_expression(lemma,tag,parts,index):
         return '考虑、打算做（-ㄹ/을까 하다）'
     if lemma=='되다' and previous_forms&{'어야','아야','여야'}:
         return '应该、必须（-아/어야 되다）'
-    if lemma=='되다' and '게' in previous_forms:
+    if lemma=='되다' and '게' in previous_forms and not any(t['lemma'] in {'어떻다'} for t in previous):
         return '变得、最终处于某种情况（-게 되다）'
     if lemma=='되다' and previous_forms&{'어도','아도','여도'}:
         return '可以、得到允许（-아/어도 되다）'
@@ -47,6 +47,8 @@ def context_expression(lemma,tag,parts,index):
         if previous_forms&{'어','아','여'}:return '试着做（-아/어 보다）'
     if lemma=='주다' and tag=='VX' and previous_forms&{'어','아','여'}:
         return '为别人做某事（-아/어 주다）'
+    if lemma=='드리다' and tag=='VX':
+        return '为别人做某事（-아/어 드리다，谦敬表达）'
     if lemma=='나다' and tag=='VX' and '고' in previous_forms:
         return '做完前面的动作（-고 나다）'
     if lemma=='있다' and tag=='VX' and '고' in previous_forms:
@@ -83,6 +85,7 @@ def construction_sense(item,parts,index):
         if '고' in forms:return ('62595','2')
         if forms&{'어','아','여'}:return ('62595','3')
     if lemma=='주다' and item['tag']=='VX' and forms&{'어','아','여'}:return ('77245','1')
+    if lemma=='드리다' and item['tag']=='VX':return ('59252','1')
     if lemma=='나다' and item['tag']=='VX' and '고' in forms:return ('62134','1')
     if lemma=='하다':
         if any(t['form'].translate(JAMO) in {'다고','ㄴ다고','는다고','라고'} and t['tag']=='EC' for t in tokens+previous):return ('73277','22')
