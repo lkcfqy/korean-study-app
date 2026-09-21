@@ -1,14 +1,14 @@
 {
-  "inventoryFiles": 28779,
-  "filesWithCurrentHashBoundBlindASR": 28779,
+  "inventoryFiles": 28782,
+  "filesWithCurrentHashBoundBlindASR": 28782,
   "expectedTextProvidedToRecognizer": false,
   "coverageByMode": {
-    "grouped": 28779,
     "isolated": 12517,
+    "grouped": 28782,
     "repeat": 2454
   },
   "classification": {
-    "transcript_match": 26612,
+    "transcript_match": 26615,
     "unresolved_transcription_difference": 1731,
     "strict_normalizer_agreement_only": 436
   },
@@ -19,13 +19,13 @@
       "strict_normalizer_agreement_only": 70
     },
     "word_form_lemma_or_alphabet": {
-      "transcript_match": 19011,
+      "transcript_match": 19014,
       "unresolved_transcription_difference": 1246,
       "strict_normalizer_agreement_only": 366
     }
   },
-  "inventoryIndexSha256": "7ab984c350a5ff8d1dbcfe130f6edd6704b894b7739631cac899838fc83197a5",
-  "evidenceSha256": "4908577e09b3950783365b775652ee46efa4d3b8ed48d8498f3bd1702f4113a5",
+  "inventoryIndexSha256": "23590beaa00d6f1a7c086f59e8a938a4a1d2ea4fe9c1347cc555dd560eda7d81",
+  "evidenceSha256": "f96108be2866f571dfdebd76d23d9bf3e43c38376e07942fdebd2e912c77d1fc",
   "evidenceFile": "audio-inventory-screen.jsonl",
   "humanListeningReview": false,
   "allPronunciationsCertified": false,

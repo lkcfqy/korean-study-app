@@ -143906,6 +143906,21 @@
       "path": "/audio/2c4f295da9900c3cfd31.mp3",
       "voice": "ko-KR-SunHiNeural",
       "bytes": 11232
+    },
+    "네, 누나가 있어서 자연스럽게 깨쳤어요.": {
+      "path": "/audio/dccd783a882007603e37.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 25344
+    },
+    "깨쳤어요": {
+      "path": "/audio/ea55bc6443becd8e668d.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "깨치다": {
+      "path": "/audio/7b403e1db1aaddf3cb44.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11952
     }
   },
   "audioListeningReview": "not performed by a human; automated coverage in docs/audio-transcription-tests.json",

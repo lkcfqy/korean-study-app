@@ -1,0 +1,68 @@
+{
+  "lessonId": "n69512-3-7",
+  "lineId": "n69512-3-7-2",
+  "sourceKo": "네, 누나가 있어서 자연스럽게 깨우쳤어요.",
+  "correctedKo": "네, 누나가 있어서 자연스럽게 깨쳤어요.",
+  "status": "audio_prepared_before_text_switch",
+  "reason": "The original dictionary example uses 깨우치다 for the child learning Hangul. NIKL usage guidance distinguishes 깨치다 (oneself learns/understands) from 깨우치다 (makes someone understand). Preserve the original source and change the authored lesson and its audio together.",
+  "sources": [
+    {
+      "url": "https://www.korean.go.kr/nkview/nklife/2002_1/2002_0114.pdf",
+      "page": 147,
+      "role": "NIKL usage guidance for a child learning Hangul"
+    },
+    {
+      "url": "https://krdict.korean.go.kr/eng/dicSearch/SearchView?ParaWordNo=69512",
+      "role": "Original conflicting example in 자연스럽다"
+    },
+    {
+      "url": "https://krdict.korean.go.kr/chn/dicSearch/SearchView?ParaWordNo=41517",
+      "role": "Target lexical root 깨치다"
+    }
+  ],
+  "voice": "ko-KR-SunHiNeural",
+  "newAssets": [
+    {
+      "file": "dccd783a882007603e37.mp3",
+      "bytes": 25344,
+      "text": "네, 누나가 있어서 자연스럽게 깨쳤어요.",
+      "sha256": "4c7444bb4afb6f507706d87c219deb6361a056be1f4e7a5659c72d4ba7965d87",
+      "recognized": "네, 누나가 있어서 자연스럽게 깨쳤어요.",
+      "similarity": 1.0,
+      "requiresReview": false,
+      "mode": "grouped",
+      "model": "/Users/lkc/.cache/huggingface/hub/models--mlx-community--whisper-large-v3-turbo/snapshots/a4aaeec0636e6fef84abdcbe3544cb2bf7e9f6fb",
+      "methodVersion": "blind-inventory-v1",
+      "expectedTextProvidedToRecognizer": false
+    },
+    {
+      "file": "ea55bc6443becd8e668d.mp3",
+      "bytes": 11232,
+      "text": "깨쳤어요",
+      "sha256": "a509549ba3ac5f721e39cf451a7e88181efb86de5fd422944882a09065ee04d3",
+      "recognized": "깨쳤어요.",
+      "similarity": 1.0,
+      "requiresReview": false,
+      "mode": "grouped",
+      "model": "/Users/lkc/.cache/huggingface/hub/models--mlx-community--whisper-large-v3-turbo/snapshots/a4aaeec0636e6fef84abdcbe3544cb2bf7e9f6fb",
+      "methodVersion": "blind-inventory-v1",
+      "expectedTextProvidedToRecognizer": false
+    },
+    {
+      "file": "7b403e1db1aaddf3cb44.mp3",
+      "bytes": 11952,
+      "text": "깨치다",
+      "sha256": "c615a25efa19d971b338a1c3381e0e0b63afa66ada474008a751629b49a2fc94",
+      "recognized": "깨치다.",
+      "similarity": 1.0,
+      "requiresReview": false,
+      "mode": "grouped",
+      "model": "/Users/lkc/.cache/huggingface/hub/models--mlx-community--whisper-large-v3-turbo/snapshots/a4aaeec0636e6fef84abdcbe3544cb2bf7e9f6fb",
+      "methodVersion": "blind-inventory-v1",
+      "expectedTextProvidedToRecognizer": false
+    }
+  ],
+  "signalChecks": "audio-signal-tests.json",
+  "storageProvisioning": "pending; new text not yet switched in the published lesson",
+  "humanListeningReview": false
+}
