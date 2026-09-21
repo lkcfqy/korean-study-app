@@ -3,7 +3,7 @@
   "lineId": "n69512-3-7-2",
   "sourceKo": "네, 누나가 있어서 자연스럽게 깨우쳤어요.",
   "correctedKo": "네, 누나가 있어서 자연스럽게 깨쳤어요.",
-  "status": "audio_prepared_before_text_switch",
+  "status": "storage_verified_text_enabled_locally_pending_publish",
   "reason": "The original dictionary example uses 깨우치다 for the child learning Hangul. NIKL usage guidance distinguishes 깨치다 (oneself learns/understands) from 깨우치다 (makes someone understand). Preserve the original source and change the authored lesson and its audio together.",
   "sources": [
     {
@@ -63,6 +63,28 @@
     }
   ],
   "signalChecks": "audio-signal-tests.json",
-  "storageProvisioning": "pending; new text not yet switched in the published lesson",
+  "storageProvisioning": {
+    "serverReadBackVerified": true,
+    "verified": [
+      "7b403e1db1aaddf3cb44.mp3",
+      "dccd783a882007603e37.mp3",
+      "ea55bc6443becd8e668d.mp3"
+    ],
+    "bytes": 48528,
+    "files": [
+      {
+        "file": "dccd783a882007603e37.mp3",
+        "sha256": "4c7444bb4afb6f507706d87c219deb6361a056be1f4e7a5659c72d4ba7965d87"
+      },
+      {
+        "file": "ea55bc6443becd8e668d.mp3",
+        "sha256": "a509549ba3ac5f721e39cf451a7e88181efb86de5fd422944882a09065ee04d3"
+      },
+      {
+        "file": "7b403e1db1aaddf3cb44.mp3",
+        "sha256": "c615a25efa19d971b338a1c3381e0e0b63afa66ada474008a751629b49a2fc94"
+      }
+    ]
+  },
   "humanListeningReview": false
 }

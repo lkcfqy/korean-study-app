@@ -4,7 +4,13 @@
   "lineIdsAndOrderPreserved": 8156,
   "quizAnswerPositionsPreserved": true,
   "speakerAssignmentsPreserved": true,
-  "koreanTextCorrections": [],
+  "koreanTextCorrections": [
+    {
+      "id": "n69512-3-7-2",
+      "before": "네, 누나가 있어서 자연스럽게 깨우쳤어요.",
+      "after": "네, 누나가 있어서 자연스럽게 깨쳤어요."
+    }
+  ],
   "chineseTextCorrections": [
     {
       "id": "n83639-7-7-2",
@@ -205,6 +211,31 @@
       "id": "n24757-1-7-2",
       "before": "估计是我们家的狗把它抓吃掉了。",
       "after": "估计是我们家的狗把它吃掉了。"
+    },
+    {
+      "id": "n67836-1-11-1",
+      "before": "听说整个社区都很乱，发生什么事了吗？",
+      "after": "整个社区看起来乱哄哄的，发生什么事了吗？"
+    },
+    {
+      "id": "n14380-1-8-1",
+      "before": "饭都凉了，快过来吃吧。",
+      "after": "饭快凉了，快过来吃吧。"
+    },
+    {
+      "id": "n80035-1-9-2",
+      "before": "房东先生，我们实在没有那个余力啊。",
+      "after": "房东先生，我们实在负担不起啊。"
+    },
+    {
+      "id": "n69143-1-12-1",
+      "before": "听说你开了家新补习班，生意怎么样？",
+      "after": "听说你开了家新补习班，经营得还顺利吗？"
+    },
+    {
+      "id": "n67479-1-8-1",
+      "before": "你最近也是每晚九点看那部剧吗？",
+      "after": "你最近也在看那部每晚九点播出的电视剧吗？"
     },
     {
       "id": "n14593-1-5-1",

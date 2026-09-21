@@ -140,10 +140,13 @@ def main():
     for lesson in course:
         if lesson['id'].startswith('c'):
             for line in lesson['lines']:
-                # Foundation translations use the same durable editorial layer.
+                # Foundation translations and notes share the durable editor layer.
                 if editorial.get(line['id'],{}).get('zh'):
                     line['zh']=editorial[line['id']]['zh']
-                for part in line['parts']:
+                for j,part in enumerate(line['parts']):
+                    part_edit=editorial.get(line['id'],{}).get('parts',{}).get(str(j),{})
+                    for field in ('meaning','explanation'):
+                        if field in part_edit:part[field]=part_edit[field]
                     chunks=part['explanation'].split('；')
                     matches=[w for w in line['words'] if any(re.search(r'(?<![가-힣])'+re.escape(w['term'])+r'(?![가-힣])',chunk.split('：')[0]) for chunk in chunks) or part['text'].strip('.?!')==w['term']]
                     part['readings']=[{'term':w['term'],'audio':w['audio']} for w in matches]

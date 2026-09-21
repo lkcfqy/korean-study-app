@@ -31,7 +31,7 @@
   "publishedAudioFilesChanged": 0,
   "humanListeningReview": false,
   "allPronunciationsCertified": false,
-  "baselineEvidenceSha256": "f96108be2866f571dfdebd76d23d9bf3e43c38376e07942fdebd2e912c77d1fc",
+  "baselineEvidenceSha256": "4b69c51ff55685386e639b144747de624101d9506cbcf7c1ad880bff42355623",
   "evidenceFile": "audio-second-engine-screen.jsonl",
   "evidenceSha256": "2661ca4cdc20280d72138e29cba72a4a5e8cfa8abb7827230ccda1d77144b931",
   "method": "A separate non-Whisper model transcribes the audio without expected words. Compare afterward using the existing Korean text/numeral/unit normalizer. The original Whisper classifications remain intact; disagreement between recognizers is reported separately.",

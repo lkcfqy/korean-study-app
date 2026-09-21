@@ -15,7 +15,8 @@
     "test": "node --test scripts/*.test.mjs && python3 scripts/test-semantic-cache.py",
     "typecheck": "tsc --noEmit --incremental false",
     "check:content": "python3 scripts/validate-course.py --metadata-only",
-    "verify": "npm run typecheck && npm run lint && npm test && npm run check:content && npm run build"
+    "verify": "npm run typecheck && npm run lint && npm test && npm run check:content && npm run build",
+    "content:rebuild": "python3 scripts/rebuild-content.py"
   },
   "dependencies": {
     "@base-ui/react": "^1.7.0",

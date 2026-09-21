@@ -1,5 +1,6 @@
 """Publish attribution and a precise description of the editorial work."""
 from course_data import load_course
+import hashlib
 import html
 import json
 import pathlib
@@ -13,6 +14,8 @@ contrast_count = len(json.loads((ROOT/'content/contrast-lessons.json').read_text
 recall_count = len(course) - contrast_count
 review = json.loads((ROOT/'docs/quota-review-summary.json').read_text())
 second = json.loads((ROOT/'docs/audio-second-engine-review.json').read_text())
+review_current = review.get('courseCatalogSha256') == hashlib.sha256((ROOT/'content/course-catalog.json').read_bytes()).hexdigest()
+coverage_notice = (f'匹配本版本课程内容的独立模型记录有 {review["crossModelCurrentInputs"]:,} 关；过期记录与尚未检查的关卡不计入有效覆盖。' if review_current else '已保存的独立模型覆盖快照对应较早课程版本；后续编辑会使部分记录过期，不能将旧数字当成本版本的有效覆盖。')
 source = json.loads((ROOT/'.sites-runtime/corpus/nikl-source.json').read_text())
 source.update({
     'author': 'National Institute of Korean Language (국립국어원)',
@@ -37,7 +40,7 @@ body=f'''<!doctype html>
 <p>这一轮逐句审校检查了人物关系、否定、时间、金额、语气和惯用表达，并修正发现的误译，剔除原句书写有误或语音复核仍有疑点的对话。语境选择包含自动模型检查，另有对未匹配、形态歧义及已知误译的编辑复核；尚未取得独立韩语教师对全部译文和点词注释的逐条认证。</p>
 <p>2026-09-21 的定向复核进一步检查了 402 处本动词与助动词义项疑点，以及全部 82 处 어떤 用法，共修正 398 处义项。构建会拦截尚未编辑确认的本动词词性与助动词义项冲突。这是针对已识别风险的 AI 编辑复核，未宣称全部词义零错误。</p>
 <p>本次复评后又定向修正或澄清 128 处注释，包括 하다 的动作与点餐选择义、하나 的数词义、별로 的否定语境，게（것 + 이）的名词化用法，以及 아냐 的否定判断、살 的体重语境和复合数词。每处保留编辑决定与词典义项，课程与句子编号不变。这是 AI 编辑核对，仍非独立教师认证。</p>
-<p>继续复核批次已逐关裁决或定向检查 {review["newTriageDistinctLessons"]:,} 关，修正 {review["explicitParts"]:,} 个词块与 {review["explicitChineseLines"]:,} 处整句中文。当前审校快照中，独立模型记录匹配现有内容的有 {review["crossModelCurrentInputs"]:,} 关；编辑后过期的历史记录与尚未检查的关卡不计入当前覆盖。模型提示须经具体语境核对，不能直接当成错误。</p>
+<p>继续复核批次已逐关裁决或定向检查 {review["newTriageDistinctLessons"]:,} 关，修正 {review["explicitParts"]:,} 个词块与 {review["explicitChineseLines"]:,} 处整句中文。{coverage_notice}模型提示须经具体语境核对，不能直接当成错误。</p>
 <h2>180 天如何安排</h2>
 <p>两个月一组，按词典目标词的初、中、高级顺序安排；这不是国语院对整段对话的等级认证。首周每天新增词条不超过 24 个，第二周不超过 36 个，第一月不超过 48 个，之后不超过 60 个。每组四关，一天的内容可以分多天完成。学习日同时安排隔天、一周、一个月的回忆复习，240 分钟只是参考投入；最后一个月内容的一月后复习需要延续到第 210 天。全部关卡随时可选。</p>
 <h2>听力检查与巩固</h2>

@@ -3102,6 +3102,430 @@
         "lexicalMeaning": "只有……左右（与否定连用）",
         "explanation": "정도 表示大约的程度；밖에 与后面的 안 连用表示只有。반 정도밖에 안 보이다：只看得到约一半。"
       }
+    },
+    {
+      "lineId": "n15168-1-7-2",
+      "part": 1,
+      "text": "해",
+      "context": "운동을 해 보는 건 어때?",
+      "before": "表示引用。",
+      "edit": {
+        "meaning": "做、进行（运动）",
+        "lexicalMeaning": "做、进行（运动）",
+        "root": {
+          "entryId": "73277",
+          "senseId": "1"
+        }
+      }
+    },
+    {
+      "lineId": "n54717-1-13-1",
+      "part": 3,
+      "text": "하나도",
+      "context": "냉장고 안에 음식이 하나도 없네?",
+      "before": "完全",
+      "edit": {
+        "meaning": "一点也、丝毫（与否定连用）",
+        "lexicalMeaning": "一点也、丝毫（与否定连用）",
+        "root": {
+          "entryId": "20283",
+          "senseId": "4"
+        },
+        "explanation": "하나도 없다：一点也没有；这里用 하나 强调完全没有，而不是单纯表示数词一。"
+      }
+    },
+    {
+      "lineId": "n67836-1-11-1",
+      "part": 2,
+      "text": "어수선하던데,",
+      "context": "온 동네가 어수선하던데, 무슨 일이 있었어요?",
+      "before": "纷乱，心烦意乱",
+      "edit": {
+        "meaning": "纷乱、不安定（周围气氛）",
+        "lexicalMeaning": "纷乱、不安定（周围气氛）",
+        "root": {
+          "entryId": "67032",
+          "senseId": "2"
+        },
+        "explanation": "어수선하다 的本句用法指社区气氛纷乱、不安定；不把整个社区说成某个人心烦意乱。"
+      }
+    },
+    {
+      "lineId": "n67836-1-11-1",
+      "field": "zh",
+      "context": "온 동네가 어수선하던데, 무슨 일이 있었어요?",
+      "before": "听说整个社区都很乱，发生什么事了吗？",
+      "after": "整个社区看起来乱哄哄的，发生什么事了吗？"
+    },
+    {
+      "lineId": "c18-3",
+      "part": 2,
+      "text": "계세요?",
+      "context": "영수증을 가지고 계세요?",
+      "before": "您有吗？",
+      "edit": {
+        "meaning": "您……着吗？（敬语状态）",
+        "explanation": "계시다 是 있다 的尊敬表达；가지고 계세요? 询问对方是否带着、持有收据。"
+      }
+    },
+    {
+      "lineId": "c18-4",
+      "part": 0,
+      "text": "네,",
+      "context": "네, 여기 있어요. 교환할 수 있나요?",
+      "before": "有",
+      "edit": {
+        "meaning": "是的、带了（肯定回答）",
+        "explanation": "네：肯定回答；此处回应对方是否带着收据的询问。"
+      }
+    },
+    {
+      "lineId": "n14380-1-8-1",
+      "field": "zh",
+      "context": "밥 식으니까 빨리 와서 먹으렴.",
+      "before": "饭都凉了，快过来吃吧。",
+      "after": "饭快凉了，快过来吃吧。"
+    },
+    {
+      "lineId": "n14380-1-8-1",
+      "part": 3,
+      "text": "와서",
+      "context": "밥 식으니까 빨리 와서 먹으렴.",
+      "before": "来，来参加",
+      "edit": {
+        "meaning": "来、过来",
+        "lexicalMeaning": "来、过来",
+        "root": {
+          "entryId": "69514",
+          "senseId": "1"
+        }
+      }
+    },
+    {
+      "lineId": "n71575-1-9-1",
+      "part": 0,
+      "text": "더럽게",
+      "context": "더럽게 왜 손으로 음식을 집어 먹어?",
+      "before": "不堪，非常",
+      "edit": {
+        "meaning": "脏、不卫生（吃东西的方式）",
+        "lexicalMeaning": "脏、不卫生（吃东西的方式）",
+        "root": {
+          "entryId": "47384",
+          "senseId": "1"
+        },
+        "explanation": "더럽게 在这里评价用手抓食物的吃法不卫生；不是把后面的 왜 加强成非常。"
+      }
+    },
+    {
+      "lineId": "n71575-1-9-1",
+      "part": 3,
+      "text": "음식을",
+      "context": "더럽게 왜 손으로 음식을 집어 먹어?",
+      "before": "饮食，饭菜",
+      "edit": {
+        "meaning": "食物、饭菜",
+        "lexicalMeaning": "食物、饭菜"
+      }
+    },
+    {
+      "lineId": "n71575-1-9-1",
+      "part": 4,
+      "text": "집어",
+      "context": "더럽게 왜 손으로 음식을 집어 먹어?",
+      "before": "握，拿",
+      "edit": {
+        "meaning": "拿、夹取（食物）",
+        "lexicalMeaning": "拿、夹取（食物）"
+      }
+    },
+    {
+      "lineId": "n80035-1-9-2",
+      "field": "zh",
+      "context": "주인아저씨, 저희 그럴 여유가 없어요.",
+      "before": "房东先生，我们实在没有那个余力啊。",
+      "after": "房东先生，我们实在负担不起啊。"
+    },
+    {
+      "lineId": "n80035-1-9-2",
+      "part": 3,
+      "text": "여유가",
+      "context": "주인아저씨, 저희 그럴 여유가 없어요.",
+      "before": "宽裕，闲暇",
+      "edit": {
+        "meaning": "宽裕、余地（经济上）",
+        "lexicalMeaning": "宽裕、余地（经济上）",
+        "root": {
+          "entryId": "67787",
+          "senseId": "1"
+        }
+      }
+    },
+    {
+      "lineId": "n25451-3-9-1",
+      "part": 2,
+      "text": "흐리게",
+      "context": "요즘 칠판이 흐리게 보이고 초점이 잘 안 맞아.",
+      "before": "浑浊，浑",
+      "edit": {
+        "meaning": "模糊、不清晰（看东西）",
+        "lexicalMeaning": "模糊、不清晰（看东西）",
+        "root": {
+          "entryId": "89184",
+          "senseId": "3"
+        },
+        "explanation": "흐리다 第三义是不清楚、不鲜明；흐리게 보이다 指看起来模糊，本句不是液体浑浊。"
+      }
+    },
+    {
+      "lineId": "n25451-3-9-1",
+      "part": 7,
+      "text": "맞아.",
+      "context": "요즘 칠판이 흐리게 보이고 초점이 잘 안 맞아.",
+      "before": "对，中",
+      "edit": {
+        "meaning": "对准、对上（焦点）",
+        "lexicalMeaning": "对准、对上（焦点）",
+        "explanation": "초점이 맞다：焦点对准；초점이 잘 안 맞아 表示无法清楚聚焦，不是在说答案是否正确。"
+      }
+    },
+    {
+      "lineId": "n42812-1-8-1",
+      "part": 7,
+      "text": "도와줘.",
+      "context": "지수야, 이리 와서 빨래 너는 것 좀 도와줘.",
+      "before": "帮，帮助；表现前面的动作给他人的行为造成影响。",
+      "edit": {
+        "meaning": "帮忙……（请对方协助）",
+        "rootItem": 1,
+        "lexicalMeaning": "为别人做某事（-아/어 주다）",
+        "explanation": "도와줘：请帮忙；돕다 加 -아/어 주다，表示帮对方做事。这里请求帮助晾衣服。"
+      }
+    },
+    {
+      "lineId": "n69143-1-12-1",
+      "field": "zh",
+      "context": "학원을 새로 열었다더니, 잘돼 가니?",
+      "before": "听说你开了家新补习班，生意怎么样？",
+      "after": "听说你开了家新补习班，经营得还顺利吗？"
+    },
+    {
+      "lineId": "n69143-1-12-1",
+      "part": 4,
+      "text": "가니?",
+      "context": "학원을 새로 열었다더니, 잘돼 가니?",
+      "before": "到，进展到",
+      "edit": {
+        "meaning": "持续发展、进行（-아/어 가다）",
+        "lexicalMeaning": "持续发展、进行（-아/어 가다）",
+        "root": {
+          "entryId": "28764",
+          "senseId": "1"
+        },
+        "explanation": "잘돼 가다 表示经营状况持续向前发展，结合问句询问是否顺利；这里的 가다 是辅助动词，不是到达某个地方。"
+      }
+    },
+    {
+      "lineId": "n67479-1-8-1",
+      "field": "zh",
+      "context": "너도 요즘 매일 밤 아홉 시에 하는 드라마를 보니?",
+      "before": "你最近也是每晚九点看那部剧吗？",
+      "after": "你最近也在看那部每晚九点播出的电视剧吗？"
+    },
+    {
+      "lineId": "n67479-1-8-1",
+      "part": 6,
+      "text": "하는",
+      "context": "너도 요즘 매일 밤 아홉 시에 하는 드라마를 보니?",
+      "before": "做，干",
+      "edit": {
+        "meaning": "播出（电视剧）",
+        "lexicalMeaning": "播出（电视剧）",
+        "root": {
+          "entryId": "73277",
+          "senseId": "1"
+        },
+        "explanation": "아홉 시에 하는 드라마 是九点播出的电视剧；时间修饰电视剧的播出，不一定是听话人实际观看的时间。"
+      }
+    },
+    {
+      "lineId": "n67479-1-8-2",
+      "part": 4,
+      "text": "못해서",
+      "context": "아니. 배우들이 연기를 너무 못해서 안 봐.",
+      "before": "不会",
+      "edit": {
+        "meaning": "做得不好（演技差），所以……",
+        "lexicalMeaning": "做不好、做不到一定水准",
+        "root": {
+          "entryId": "91168",
+          "senseId": "1"
+        },
+        "explanation": "연기를 못하다 指演得不好，不是完全不会演戏；-어서 表原因。"
+      }
+    },
+    {
+      "lineId": "n91762-1-8-1",
+      "part": 1,
+      "text": "내려가는",
+      "context": "부산으로 내려가는 버스 표가 남아 있나요?",
+      "before": "下",
+      "edit": {
+        "meaning": "往地方去、下去（此处指去釜山）",
+        "lexicalMeaning": "往地方去、下去（此处指去釜山）",
+        "root": {
+          "entryId": "63723",
+          "senseId": "2"
+        },
+        "explanation": "내려가다 可指从中心地区到地方去；此处说去釜山，不必理解成沿斜坡向下走。"
+      }
+    },
+    {
+      "lineId": "n15611-2-7-1",
+      "part": 3,
+      "text": "모르고",
+      "context": "기름값이 무서운 줄 모르고 솟네요.",
+      "before": "不知不觉",
+      "edit": {
+        "meaning": "不知道、浑然不顾（拟人表达）",
+        "lexicalMeaning": "不知道、浑然不顾（拟人表达）",
+        "root": {
+          "entryId": "29712",
+          "senseId": "1"
+        },
+        "explanation": "무서운 줄 모르고 솟다 把油价拟人，形容像不知害怕一样不停猛涨；不是说话人没料到，也不是无意识地做事。"
+      }
+    },
+    {
+      "lineId": "n15611-2-7-2",
+      "part": 6,
+      "text": "하고",
+      "context": "네, 그래서 저는 요즘 지하철로 출퇴근을 하고 있습니다.",
+      "before": "经由",
+      "edit": {
+        "meaning": "做、进行（출퇴근을 하다：上下班）",
+        "lexicalMeaning": "做、进行（출퇴근을 하다：上下班）",
+        "root": {
+          "entryId": "73277",
+          "senseId": "1"
+        },
+        "explanation": "출퇴근을 하다：上下班；-고 있다 描述持续进行。经由地铁的信息来自 지하철로，不是 하다 的词义。"
+      }
+    },
+    {
+      "lineId": "n52762-4-5-2",
+      "part": 2,
+      "text": "붉은빛을",
+      "context": "장미요. 특히 붉은빛을 띤 장미를 좋아해요.",
+      "before": "红，赤；光，色",
+      "edit": {
+        "meaning": "红色、红色光泽",
+        "explanation": "붉다：红；빛：色、光泽。붉은빛을 띠다 合指呈现红色、泛红，不是把 붉은빛 本身当成修饰语尾。"
+      }
+    },
+    {
+      "lineId": "n52762-4-5-2",
+      "part": 3,
+      "text": "띤",
+      "context": "장미요. 특히 붉은빛을 띤 장미를 좋아해요.",
+      "before": "浮现，呈现，发出",
+      "edit": {
+        "meaning": "呈现、泛着（某种色调）",
+        "lexicalMeaning": "呈现、泛着（某种色调）",
+        "explanation": "빛을 띠다：带有或呈现某种颜色、光泽。띤 是 띠다 的修饰形式，不是后缀。"
+      }
+    },
+    {
+      "lineId": "n14142-1-7-1",
+      "part": 1,
+      "text": "친구들",
+      "context": "이번 친구들 모임에서는 어떤 오락이 가장 재미있을까?",
+      "before": "家伙，小子",
+      "edit": {
+        "meaning": "朋友们",
+        "lexicalMeaning": "朋友们",
+        "root": {
+          "entryId": "29742",
+          "senseId": "1"
+        }
+      }
+    },
+    {
+      "lineId": "n14142-1-7-1",
+      "part": 4,
+      "text": "오락이",
+      "context": "이번 친구들 모임에서는 어떤 오락이 가장 재미있을까?",
+      "before": "娱乐",
+      "edit": {
+        "meaning": "娱乐活动、游戏（聚会）",
+        "lexicalMeaning": "娱乐活动、游戏（聚会）"
+      }
+    },
+    {
+      "lineId": "n14142-1-7-2",
+      "part": 1,
+      "text": "자랑이",
+      "context": "장기 자랑이 재미있을 것 같아.",
+      "before": "炫耀，夸耀",
+      "edit": {
+        "meaning": "展示（장기 자랑：才艺展示）",
+        "lexicalMeaning": "展示（장기 자랑：才艺展示）",
+        "explanation": "장기 자랑 是展示特长、才艺的活动；此处不是贬义地责备别人炫耀。"
+      }
+    },
+    {
+      "lineId": "n76992-1-10-1",
+      "part": 4,
+      "text": "다",
+      "context": "큰일이야. 자동차에 기름이 거의 다 떨어졌어.",
+      "before": "连",
+      "edit": {
+        "meaning": "全、都",
+        "lexicalMeaning": "全、都",
+        "root": {
+          "entryId": "58176",
+          "senseId": "1"
+        }
+      }
+    },
+    {
+      "lineId": "n76992-1-10-2",
+      "part": 6,
+      "text": "물어보자.",
+      "context": "여기서 제일 가까운 주유소가 어디에 있는지 물어보자.",
+      "before": "掩藏，掩盖；试，试图",
+      "edit": {
+        "meaning": "问问看、打听一下",
+        "lexicalMeaning": "问、询问",
+        "root": {
+          "entryId": "69471",
+          "senseId": "1"
+        },
+        "explanation": "묻다 在这里是问，不是埋藏；ㄷ 不规则活用使 묻 + 어 变为 물어。-아/어 보다 表试着，-자 是一起做的提议。"
+      }
+    },
+    {
+      "lineId": "n69512-3-7-2",
+      "field": "ko",
+      "before": "네, 누나가 있어서 자연스럽게 깨우쳤어요.",
+      "after": "네, 누나가 있어서 자연스럽게 깨쳤어요.",
+      "reason": "NIKL usage distinction: a child learns Hangul with 깨치다; 깨우치다 makes someone understand. Source conflict and synchronized audio evidence in docs/korean-correction-20260922.json."
+    },
+    {
+      "lineId": "n69512-3-7-2",
+      "part": 4,
+      "text": "깨우쳤어요.",
+      "context": "네, 누나가 있어서 자연스럽게 깨우쳤어요.",
+      "before": "使领悟，使醒悟",
+      "edit": {
+        "meaning": "学会、领悟（自己掌握）",
+        "lexicalMeaning": "学会、领悟（自己掌握）",
+        "root": {
+          "entryId": "41517",
+          "senseId": "1"
+        },
+        "explanation": "깨치다：自己理解、掌握事理；깨치 + 었어요 缩合为 깨쳤어요，表示已经学会。使别人领悟用 깨우치다；此句的主语是学会韩文的孩子。"
+      }
     }
   ]
 }
