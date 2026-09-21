@@ -15,7 +15,7 @@ recall_count = len(course) - contrast_count
 review = json.loads((ROOT/'docs/quota-review-summary.json').read_text())
 second = json.loads((ROOT/'docs/audio-second-engine-review.json').read_text())
 review_current = review.get('courseCatalogSha256') == hashlib.sha256((ROOT/'content/course-catalog.json').read_bytes()).hexdigest()
-coverage_notice = (f'匹配本版本课程内容的独立模型记录有 {review["crossModelCurrentInputs"]:,} 关；过期记录与尚未检查的关卡不计入有效覆盖。' if review_current else '已保存的独立模型覆盖快照对应较早课程版本；后续编辑会使部分记录过期，不能将旧数字当成本版本的有效覆盖。')
+coverage_notice = (f'匹配本版本课程内容的模型复核记录有 {review["crossModelCurrentInputs"]:,} 关；过期记录与尚未检查的关卡不计入有效覆盖。' if review_current else '已保存的模型复核覆盖快照对应较早课程版本；后续编辑会使部分记录过期，不能将旧数字当成本版本的有效覆盖。')
 source = json.loads((ROOT/'.sites-runtime/corpus/nikl-source.json').read_text())
 source.update({
     'author': 'National Institute of Korean Language (국립국어원)',
@@ -35,12 +35,12 @@ body=f'''<!doctype html>
 <h2>这些数字对应什么</h2>
 <p>全部词句均收录在站内。对话文本忽略空格和标点后去重，包含短回答及一句以上的发言，不等于同等数量的独立句型；复习不计为新增。动词、形容词尽量按词典原形统计。词条包含单词、依存名词及基础课中的常用表达，不是 TOPIK 官方词汇门槛。学过的数量表示接触记录，掌握程度仍需回忆和测评验证。</p>
 <h2>韩语、中文与点词注释</h2>
-<p>新增的 {len(added):,} 段对话取自韩国国立国语院的<a href="https://krdict.korean.go.kr/chn">韩国语—汉语学习词典</a>，每关保留词条来源链接。词典中文义主要沿用原资料，并修正已发现的明显错字；整句中文由本课程翻译，经过完整韩中对照的 AI 逐句审校，不是国语院官方整句译文。保留的 36 段基础对话为本课程编写。</p>
+<p>新增的 {len(added):,} 段对话取自韩国国立国语院的<a href="https://krdict.korean.go.kr/chn">韩国语—汉语学习词典</a>，每关保留词条来源链接。词典中文义主要沿用原资料，并修正已发现的明显错字；整句中文由本课程翻译并持续进行 AI 语境核对，不是国语院官方整句译文，尚未完成对当前全部内容的独立语言审核。保留的 36 段基础对话为本课程编写。</p>
 <p>点击词语后显示本句采用的词义和必要的助词、语尾说明，不展开整句拆解。新增内容先还原词形，再结合完整韩中对话从词典候选义项中选择；常用语法与惯用搭配单独编写。词形修正、具体义项及编辑覆盖记录可追溯。原词典快照未收录的常用词使用课程补充释义，不伪装成国语院词条。</p>
 <p>逐句 AI 审校检查人物关系、否定、时间、金额、语气和惯用表达，并修正已发现的误译。点词注释的初始语境义项主要由自动模型从词典候选中选择，已发现将戴眼镜选成使用、将问问看选成掩藏等错误，并逐项修正。全库仍包含尚未充分复核的自动选择；有词典来源或通过自动检查不等于符合本句语境。尚未取得独立韩语教师对全部译文和点词注释的逐条认证。</p>
 <p>2026-09-21 的定向复核进一步检查了 402 处本动词与助动词义项疑点，以及全部 82 处 어떤 用法，共修正 398 处义项。构建会拦截尚未编辑确认的本动词词性与助动词义项冲突。这是针对已识别风险的 AI 编辑复核，未宣称全部词义零错误。</p>
 <p>本次复评后又定向修正或澄清 128 处注释，包括 하다 的动作与点餐选择义、하나 的数词义、별로 的否定语境，게（것 + 이）的名词化用法，以及 아냐 的否定判断、살 的体重语境和复合数词。每处保留编辑决定与词典义项，课程与句子编号不变。这是 AI 编辑核对，仍非独立教师认证。</p>
-<p>继续复核批次已逐关裁决或定向检查 {review["newTriageDistinctLessons"]:,} 关，修正 {review["explicitParts"]:,} 个词块与 {review["explicitChineseLines"]:,} 处整句中文。{coverage_notice}模型提示须经具体语境核对，不能直接当成错误。</p>
+<p>继续复核批次已逐关裁决或定向检查 {review["newTriageDistinctLessons"]:,} 关，修正或澄清 {review["explicitParts"]:,} 个词块与 {review["explicitChineseLines"]:,} 处整句中文。{coverage_notice}这些记录混有同一模型再次检查和其他模型检查，不视为独立专家验证。模型提示须经具体语境核对，不能直接当成错误。</p>
 <h2>180 天如何安排</h2>
 <p>两个月一组，按词典目标词的初、中、高级顺序安排；这不是国语院对整段对话的等级认证。首周每天新增词条不超过 24 个，第二周不超过 36 个，第一月不超过 48 个，之后不超过 60 个。每组四关，一天的内容可以分多天完成。学习日同时安排隔天、一周、一个月的回忆复习，240 分钟只是参考投入；最后一个月内容的一月后复习需要延续到第 210 天。全部关卡随时可选。</p>
 <h2>听力检查与巩固</h2>

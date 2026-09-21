@@ -1,8 +1,8 @@
 {
   "batch": "quota-20260921",
   "rawStartOffset": 1665,
-  "lastAdjudicatedSignature": "0cf38e49d2537a0b7d7f9ed60226bb3b981c1bdebbc9226b943c3dca9928b5c8",
-  "nextFlaggedIndex": 291,
+  "lastAdjudicatedSignature": "39d04f0cffb679a4a790aea786367e362401f44d5666781ce3ab08eb207281e3",
+  "nextFlaggedIndex": 327,
   "adjudicatedLessonIds": [
     "n15013-1-5",
     "n88105-12-10",
@@ -294,1146 +294,45 @@
     "n52762-4-5",
     "n14142-1-7",
     "n76992-1-10",
-    "n71047-3-3"
+    "n71047-3-3",
+    "n83988-1-5",
+    "n65209-1-8",
+    "n15020-1-7",
+    "n21176-1-6",
+    "n85534-2-8",
+    "n26136-3-8",
+    "n32526-2-6",
+    "n50103-1-8",
+    "n84716-1-9",
+    "n24862-1-8",
+    "n31508-1-13",
+    "n56109-1-7",
+    "n52155-2-7",
+    "n14024-1-8",
+    "n26624-1-7",
+    "n61058-1-10",
+    "n15430-2-17",
+    "n63367-1-11",
+    "n15831-4-7",
+    "n28346-7-8",
+    "n24833-2-8",
+    "n29021-1-9",
+    "n15311-1-5",
+    "n14733-1-7",
+    "n55521-1-7",
+    "n62325-1-10",
+    "n15849-1-7",
+    "n71206-1-8",
+    "n25350-3-7",
+    "n41676-1-9",
+    "n63967-1-8",
+    "n69157-1-9",
+    "n71478-3-5",
+    "n89165-2-6",
+    "n14630-1-11",
+    "n63509-3-8"
   ],
   "pendingCandidates": [
-    {
-      "issues": [
-        {
-          "line": 0,
-          "part": -1,
-          "field": "word",
-          "reason": "words中'합격하다'仅列'合格/及格'，未体现口语语境下'考上/录取'的常用义，易致理解偏差。",
-          "suggestion": "补充'考上、录取'等符合语境的释义。"
-        },
-        {
-          "line": 1,
-          "part": -1,
-          "field": "word",
-          "reason": "words中'장하다'仅列'了不起'，未体现口语中'能干、厉害'的褒义色彩，语义略显单薄。",
-          "suggestion": "补充'能干、厉害'等更贴切的释义。"
-        }
-      ],
-      "id": "n83988-1-5",
-      "signature": "91414f657fd5bc8a608038ef8c5dd14be72234edd3f74bc3942496169227d459",
-      "model": "qwen3.6:35b",
-      "backend": "ollama",
-      "inputSignature": "c75515ff20e8b62d92a309c50dd3340850bf61d3e8876d5e8b01b2552382b795",
-      "methodVersion": "whole-course-semantics-v5",
-      "teacherCertification": false,
-      "lines": 2,
-      "parts": 9,
-      "wordOccurrences": 9,
-      "questions": 2,
-      "outputTokens": 189,
-      "seconds": 5.41
-    },
-    {
-      "issues": [
-        {
-          "line": 1,
-          "part": -1,
-          "field": "translation",
-          "reason": "译文'可以'丢失了原文'응'对请求的肯定答复含义，易让学习者忽略对话中的许可语境。",
-          "suggestion": "建议译为'行，但前提是不能把碎屑掉在地上。'"
-        },
-        {
-          "line": 1,
-          "part": -1,
-          "field": "translation",
-          "reason": "原文'먹어라'是长辈对晚辈的命令式，译文未体现语气差异，可能误导学习者语用场景。",
-          "suggestion": "建议译为'...吃吧。'或保留命令语气，如'...去吃。'"
-        },
-        {
-          "line": 1,
-          "part": -1,
-          "field": "question",
-          "reason": "听力题干扰项包含上一句译文，虽非本句含义，但作为单句听力测试选项易造成混淆。",
-          "suggestion": "建议替换为与'가루를 흘리지 말고'语义无关的独立句子。"
-        }
-      ],
-      "id": "n65209-1-8",
-      "signature": "2e9ef0c4100c47dd564e9e0e608a042c36474cfd8b80fe206d3156d898e6c47c",
-      "model": "qwen3.6:35b",
-      "backend": "ollama",
-      "inputSignature": "56ca1db955c23c4d8c813810e0b7c0ce58b2a4561fb104f60051415d1724a65d",
-      "methodVersion": "whole-course-semantics-v5",
-      "teacherCertification": false,
-      "lines": 2,
-      "parts": 13,
-      "wordOccurrences": 13,
-      "questions": 2,
-      "outputTokens": 273,
-      "seconds": 7.09
-    },
-    {
-      "issues": [
-        {
-          "line": 0,
-          "part": 3,
-          "field": "word",
-          "reason": "词块'타.'对应动词'타다'（乘），但注释给出'从事，经营'（하다）义项，导致语义错误。",
-          "suggestion": "将'타.'的中文词义修正为'乘坐'或'上车'。"
-        }
-      ],
-      "id": "n15020-1-7",
-      "signature": "4ba65b983a93eb82cafd3228b33be116603c379b266db4d65b30967c14ff53c0",
-      "model": "qwen3.6:35b",
-      "backend": "ollama",
-      "inputSignature": "a5d637ff88370d89bd8da7162e5ecd9f7261064f75fc34c5365793590b6eb301",
-      "methodVersion": "whole-course-semantics-v5",
-      "teacherCertification": false,
-      "lines": 2,
-      "parts": 10,
-      "wordOccurrences": 9,
-      "questions": 2,
-      "outputTokens": 98,
-      "seconds": 6.09
-    },
-    {
-      "issues": [
-        {
-          "line": 0,
-          "part": -1,
-          "field": "translation",
-          "reason": "语境义偏差：'떨어지다'在此指选举落选，而非考试落榜。",
-          "suggestion": "将'落榜'改为'落选'以符合政治语境。"
-        },
-        {
-          "line": 0,
-          "part": 3,
-          "field": "word",
-          "reason": "词义错误：'떨어지다'在选举语境下意为落选，非考试失败。",
-          "suggestion": "将'落榜'更正为'落选'。"
-        },
-        {
-          "line": 1,
-          "part": -1,
-          "field": "question",
-          "reason": "题目歧义：听力题正确选项与干扰项含义相同，无法区分。",
-          "suggestion": "修改干扰项，使其含义明显错误或与原句无关。"
-        }
-      ],
-      "id": "n21176-1-6",
-      "signature": "dd0efdc20a1be759280a549530a6c3c6e9b8a787c68ffb42145d642f7345e6b2",
-      "model": "qwen3.6:35b",
-      "backend": "ollama",
-      "inputSignature": "2cc7ec328db843fb1d9e4f1b660fadc5dd16c14a8817b58a9dffdc8033491916",
-      "methodVersion": "whole-course-semantics-v5",
-      "teacherCertification": false,
-      "lines": 2,
-      "parts": 10,
-      "wordOccurrences": 10,
-      "questions": 2,
-      "outputTokens": 246,
-      "seconds": 5.17
-    },
-    {
-      "issues": [
-        {
-          "line": 1,
-          "part": 0,
-          "field": "word",
-          "reason": "助词이被错误标注为实义词“表示人”，导致学习者误解句子成分结构。",
-          "suggestion": "修正为：主格助词，用于提示主语或强调对象。"
-        }
-      ],
-      "id": "n85534-2-8",
-      "signature": "974320530407403adf720a10b4e7c136f2a3d6f3222179eaaf3adc7a36672766",
-      "model": "qwen3.6:35b",
-      "backend": "ollama",
-      "inputSignature": "0d7006a20eac63b8b4974c5255e894e6cc5a2e584d66f73a3744901a41ee0b10",
-      "methodVersion": "whole-course-semantics-v5",
-      "teacherCertification": false,
-      "lines": 2,
-      "parts": 11,
-      "wordOccurrences": 11,
-      "questions": 2,
-      "outputTokens": 83,
-      "seconds": 4.97
-    },
-    {
-      "issues": [
-        {
-          "line": 0,
-          "part": 1,
-          "field": "annotation",
-          "reason": "손에서意为'从手中'，指物理位置，而非'权限、影响力'。学习者易误解为抽象概念。",
-          "suggestion": "修正为：从手里"
-        },
-        {
-          "line": 0,
-          "part": -1,
-          "field": "word",
-          "reason": "손意为'手'，此处指身体部位。注释解释为'权限、影响力'属于同形异义词误用，导致语义完全错误。",
-          "suggestion": "修正为：手"
-        },
-        {
-          "line": 1,
-          "part": -1,
-          "field": "word",
-          "reason": "중독意为'中毒、成瘾'。注释解释为'上瘾，成瘾'虽语义正确，但通常'중독'更强调病理性的'中毒'或严重的'沉迷'，此处语境下'成瘾'尚可，但需确保学习者理解其严重性。不过主要错误在于前一句的손。此条可",
-          "suggestion": "保持：上瘾，成瘾（注：指沉迷状态）"
-        }
-      ],
-      "id": "n26136-3-8",
-      "signature": "30024d8db0b174ace3b9b5e036811f8a49d849829d24d99f587285ef3c3d2644",
-      "model": "qwen3.6:35b",
-      "backend": "ollama",
-      "inputSignature": "a8c2fc975de4297b612a82856fdb2e66c826ae131d5a176d1542aeb8d5935c89",
-      "methodVersion": "whole-course-semantics-v5",
-      "teacherCertification": false,
-      "lines": 2,
-      "parts": 8,
-      "wordOccurrences": 8,
-      "questions": 2,
-      "outputTokens": 292,
-      "seconds": 5.95
-    },
-    {
-      "issues": [
-        {
-          "line": 1,
-          "part": 2,
-          "field": "annotation",
-          "reason": "보여的释义“得到，受到”严重错误，导致整句语义完全偏离。此处show-다意为展示、显现。",
-          "suggestion": "修正为：展示，显现"
-        },
-        {
-          "line": 1,
-          "part": 3,
-          "field": "annotation",
-          "reason": "주셨거든的释义仅解释为“为别人做某事”，未体现过去时态和连接词尾“-ㄴ/은 거다”（因为...）的含义，导致因果逻辑缺失。",
-          "suggestion": "修正为：曾为别人做过（-아/어 주다），因为是..."
-        },
-        {
-          "line": 1,
-          "part": -1,
-          "field": "translation",
-          "reason": "译文“因为神显出了奇迹啊”虽通顺，但忽略了주셨거든中隐含的“（我信教是因为）神向我展示了奇迹”这一施事受益关系，易让学习者误解为客观陈述。",
-          "suggestion": "建议补充语境：因为神向我展示了奇迹啊。"
-        },
-        {
-          "line": 0,
-          "part": 3,
-          "field": "annotation",
-          "reason": "되셨어요?的释义“成为，变为”未体现敬语词尾“-시-”，虽不影响核心语义，但作为教学注释应提示尊敬含义。",
-          "suggestion": "修正为：成为（敬语形式）"
-        }
-      ],
-      "id": "n32526-2-6",
-      "signature": "0a2ecfaeae59024f68610dad35af2b944a7bca4f8ab53d4af47cea4801e9b847",
-      "model": "qwen3.6:35b",
-      "backend": "ollama",
-      "inputSignature": "e64724d4d4cb461f0537ad9bf8e47af4c3b1e509317d337d673606f2a3e0f5dd",
-      "methodVersion": "whole-course-semantics-v5",
-      "teacherCertification": false,
-      "lines": 2,
-      "parts": 8,
-      "wordOccurrences": 8,
-      "questions": 2,
-      "outputTokens": 387,
-      "seconds": 6.27
-    },
-    {
-      "issues": [
-        {
-          "line": 1,
-          "part": -1,
-          "field": "translation",
-          "reason": "韩语'형'指说话人的哥哥（男性），译文'你'错误指向听话人，导致人物关系实质误解。",
-          "suggestion": "将'你'修正为'我哥'或'哥哥'。"
-        },
-        {
-          "line": 1,
-          "part": -1,
-          "field": "question",
-          "reason": "听力题正确选项'它不就在你旁边吗？'中'你'与原文'형（我哥）'不符，该选项本身存在语义错误。",
-          "suggestion": "修正正确选项为'它就在我哥哥旁边吗？'"
-        }
-      ],
-      "id": "n50103-1-8",
-      "signature": "b0fa1449a3cf5c91f52acab0140b842a16beb972cf0ed6ebd0703a994a7990a7",
-      "model": "qwen3.6:35b",
-      "backend": "ollama",
-      "inputSignature": "570b7d8c1b2de62d6d13fe0c8e4f34a91334668e77ca239e355a49918284fe66",
-      "methodVersion": "whole-course-semantics-v5",
-      "teacherCertification": false,
-      "lines": 2,
-      "parts": 8,
-      "wordOccurrences": 8,
-      "questions": 2,
-      "outputTokens": 188,
-      "seconds": 8.46
-    },
-    {
-      "issues": [
-        {
-          "line": 0,
-          "part": 1,
-          "field": "word",
-          "reason": "어린이用词义过宽，易混淆为泛指小孩而非专用修饰语",
-          "suggestion": "改为'儿童'以明确其作为定语修饰'叉子'的用途"
-        },
-        {
-          "line": 1,
-          "part": -1,
-          "field": "translation",
-          "reason": "译文'有的'对应错误，韩语'네'在此处为肯定回答而非存在动词",
-          "suggestion": "删除'有的'，直接译为'好的'或保留语气词以匹配语境"
-        }
-      ],
-      "id": "n84716-1-9",
-      "signature": "6c42ec8963b346db8e04bd829410649fce14f16a5d9fa6debc9d5fb50eec11b4",
-      "model": "qwen3.6:35b",
-      "backend": "ollama",
-      "inputSignature": "0c160ab14ff1ca10b37b23cd9a1e2ae40a23f2d311fd2a89bba5f1f1c75fa3bf",
-      "methodVersion": "whole-course-semantics-v5",
-      "teacherCertification": false,
-      "lines": 2,
-      "parts": 8,
-      "wordOccurrences": 8,
-      "questions": 2,
-      "outputTokens": 169,
-      "seconds": 5.51
-    },
-    {
-      "issues": [
-        {
-          "line": 0,
-          "part": 3,
-          "field": "word",
-          "reason": "‘행사’在此语境下指商业或公共活动，译为‘仪式、典礼’易误导学习者认为这是正式礼仪场合，与‘新产品宣传’的商务性质不符。",
-          "suggestion": "建议将‘행사’的词义调整为侧重‘活动、庆典’，弱化‘仪式、典礼’等庄重含义。"
-        },
-        {
-          "line": 1,
-          "part": 3,
-          "field": "word",
-          "reason": "‘주다’在此处意为‘发放、赠送’，若仅解释为‘给予’过于宽泛，学习者可能无法准确联想到‘发纪念品’这一具体动作。",
-          "suggestion": "建议补充‘发放、赠送’义项，以匹配‘纪念品’的语境。"
-        }
-      ],
-      "id": "n24862-1-8",
-      "signature": "fba6dd9828173c4e21ea519e43471b71c5fdc44234213eb9ca7bc1e191be25dc",
-      "model": "qwen3.6:35b",
-      "backend": "ollama",
-      "inputSignature": "c30cf4339029986130d08ffae13c77039de670c4fb942330b674b87dbf6a2848",
-      "methodVersion": "whole-course-semantics-v5",
-      "teacherCertification": false,
-      "lines": 2,
-      "parts": 9,
-      "wordOccurrences": 9,
-      "questions": 2,
-      "outputTokens": 218,
-      "seconds": 5.99
-    },
-    {
-      "issues": [
-        {
-          "line": 0,
-          "part": -1,
-          "field": "question",
-          "reason": "听力题干扰项'这张照片里全家人都拍得很好呢'语义完全无关，属于无效干扰，易误导学习者。",
-          "suggestion": "建议替换为与'在国外生活状况'相关的合理误解选项，如'孩子们在国外学习努力吗？'"
-        },
-        {
-          "line": 1,
-          "part": -1,
-          "field": "question",
-          "reason": "听力题干扰项'这张照片里全家人都拍得很好呢'语义完全无关，属于无效干扰。",
-          "suggestion": "建议替换为与'担心/遗忘'相关的合理误解选项，如'我很担心他们忘记韩语'"
-        }
-      ],
-      "id": "n31508-1-13",
-      "signature": "8909dd6a73db4346fbb0b23f695cbaabeae59cc3e66971acc57e8cf127ca2bbb",
-      "model": "qwen3.6:35b",
-      "backend": "ollama",
-      "inputSignature": "695c58a49e63d0b9ed9d9e1fe890e178d506ae7cb674ef305ea96fec2b7c5681",
-      "methodVersion": "whole-course-semantics-v5",
-      "teacherCertification": false,
-      "lines": 2,
-      "parts": 13,
-      "wordOccurrences": 13,
-      "questions": 2,
-      "outputTokens": 192,
-      "seconds": 3.44
-    },
-    {
-      "issues": [
-        {
-          "line": 1,
-          "part": 3,
-          "field": "annotation",
-          "reason": "助动词'했는데'标注为'打算做'错误，其核心语义为转折或解释原因（可是/因为），与'려고 하다'无关。",
-          "suggestion": "修正为：表示转折或背景说明（可是/因为）"
-        }
-      ],
-      "id": "n56109-1-7",
-      "signature": "76c0724a5e0b851036487f98bed241e4831ab86f8ca0a3ca974a6a3d32bd725e",
-      "model": "qwen3.6:35b",
-      "backend": "ollama",
-      "inputSignature": "1563ecad58604bb30e2b38d3babac7ed530d52f935513da7520526e602cdec70",
-      "methodVersion": "whole-course-semantics-v5",
-      "teacherCertification": false,
-      "lines": 2,
-      "parts": 7,
-      "wordOccurrences": 6,
-      "questions": 2,
-      "outputTokens": 102,
-      "seconds": 4.77
-    },
-    {
-      "issues": [
-        {
-          "line": 1,
-          "part": 1,
-          "field": "annotation",
-          "reason": "똑똑히意为“清楚地、明白地”，修饰动词表示动作清晰，而非“聪明地”。",
-          "suggestion": "修正为“清楚地”或“清晰地”。"
-        },
-        {
-          "line": 1,
-          "part": 2,
-          "field": "annotation",
-          "reason": "처신했어야지意为“本该好好处世/应对”，原译“为人处世”为名词，词性不符且未体现虚拟语气。",
-          "suggestion": "修正为“本该好好待人接物”或“本该更谨慎行事”。"
-        }
-      ],
-      "id": "n52155-2-7",
-      "signature": "b8bf5f0ac862079831d3d70b54f5eea6d7a3155948aa2d9cec4ae7d1cc0f7ed6",
-      "model": "qwen3.6:35b",
-      "backend": "ollama",
-      "inputSignature": "e6e051e385b90f24e96435db562cc2107223ff393bd842092cad42340c813392",
-      "methodVersion": "whole-course-semantics-v5",
-      "teacherCertification": false,
-      "lines": 2,
-      "parts": 11,
-      "wordOccurrences": 11,
-      "questions": 2,
-      "outputTokens": 180,
-      "seconds": 4.54
-    },
-    {
-      "issues": [
-        {
-          "line": 0,
-          "part": -1,
-          "field": "translation",
-          "reason": "최고在韩语口语中常作形容词表示‘极好、棒极了’，此处译为‘最；最佳’易让学习者误解为最高级比较或名词，未能准确传达赞美语气。",
-          "suggestion": "将词义修正为‘极好的；顶好的’以匹配语境中的赞叹含义。"
-        },
-        {
-          "line": 1,
-          "part": -1,
-          "field": "translation",
-          "reason": "생각해요在此处意为‘认为、觉得’，词义标注为‘当作’易导致学习者混淆其作为认知动词的本义，误以为是‘把...当作...’的处置义。",
-          "suggestion": "将词义修正为‘认为；觉得’以准确反映其表达观点或看法的语义。"
-        }
-      ],
-      "id": "n14024-1-8",
-      "signature": "4845e2636bb081fd792e64d126af494da0c1b85050024c5ee2d216b97e2b1575",
-      "model": "qwen3.6:35b",
-      "backend": "ollama",
-      "inputSignature": "ecb0337a905ec8865b488ab74d8b52af694876bd33841f9f554af5d175ebdfc5",
-      "methodVersion": "whole-course-semantics-v5",
-      "teacherCertification": false,
-      "lines": 2,
-      "parts": 9,
-      "wordOccurrences": 9,
-      "questions": 2,
-      "outputTokens": 223,
-      "seconds": 6.14
-    },
-    {
-      "issues": [
-        {
-          "line": 1,
-          "part": -1,
-          "field": "translation",
-          "reason": "‘말 시키지 마’意为‘别让我说话/别让我开口’，译文‘别让我说话了’易被误解为禁止对方继续说，导致因果逻辑（因生气而要求沉默）混淆。",
-          "suggestion": "修正为：嗯，气得想骂人，别让我开口。"
-        }
-      ],
-      "id": "n26624-1-7",
-      "signature": "938df324307cc9bed6e110cdcdf4b4f3f652c5c9c95e2249ce9bcfff2ea82d11",
-      "model": "qwen3.6:35b",
-      "backend": "ollama",
-      "inputSignature": "9db3b08c0bc4956316876ae556fd105f624ca07f810a7fb1485bb0873cfc354a",
-      "methodVersion": "whole-course-semantics-v5",
-      "teacherCertification": false,
-      "lines": 2,
-      "parts": 13,
-      "wordOccurrences": 13,
-      "questions": 2,
-      "outputTokens": 107,
-      "seconds": 2.45
-    },
-    {
-      "issues": [
-        {
-          "line": 0,
-          "part": 0,
-          "field": "word",
-          "reason": "지다作为后缀解释为“表示成为前面表达的状态”过于抽象，学习者易误解为被动语态或状态持续，未点明其核心语义“变得/变成”。",
-          "suggestion": "建议补充说明：此处“-아/어지다”表示状态变化，意为“变得、变成”，而非单纯的被动。"
-        },
-        {
-          "line": 1,
-          "part": 0,
-          "field": "word",
-          "reason": "별것解释为“稀罕的，特别的”易导致学习者将其理解为形容词修饰名词，而此处별것없다是固定搭配，意为“没什么大不了的/没什么特别的”，별것作名词性成分。",
-          "suggestion": "建议明确：별것在此处指“特别的事情/东西”，별것없다整体意为“没什么大不了的事”。"
-        }
-      ],
-      "id": "n61058-1-10",
-      "signature": "ad2bfa84b9b02865190b9efdf5a05a598561ae4e594cba9a3f809b1a5fd0aa8c",
-      "model": "qwen3.6:35b",
-      "backend": "ollama",
-      "inputSignature": "cd3c5778e05910d2ed13c7170d485014e386d285517a3adcea305bbfb2859a9d",
-      "methodVersion": "whole-course-semantics-v5",
-      "teacherCertification": false,
-      "lines": 2,
-      "parts": 9,
-      "wordOccurrences": 10,
-      "questions": 2,
-      "outputTokens": 236,
-      "seconds": 5.68
-    },
-    {
-      "issues": [
-        {
-          "line": 1,
-          "part": 0,
-          "field": "annotation",
-          "reason": "응在此处为肯定应答词“嗯”，而非动词“是”或许可“行”。",
-          "suggestion": "修正为：嗯"
-        }
-      ],
-      "id": "n15430-2-17",
-      "signature": "b1f781b6609e45b8ccfc013221087e222bfda9f509bc6d254449e377c4357e3f",
-      "model": "qwen3.6:35b",
-      "backend": "ollama",
-      "inputSignature": "555af6450441530246229b0dfd2cdce1e1a8dd639c1bfb028485dc8a9a76b94a",
-      "methodVersion": "whole-course-semantics-v5",
-      "teacherCertification": false,
-      "lines": 2,
-      "parts": 12,
-      "wordOccurrences": 10,
-      "questions": 2,
-      "outputTokens": 80,
-      "seconds": 5.35
-    },
-    {
-      "issues": [
-        {
-          "line": 0,
-          "part": -1,
-          "field": "translation",
-          "reason": "韩语'아주머니'在年轻女性对年长女性的称呼语境中，通常译为'阿姨'或'大姐'。译文使用'大嫂'易导致学习者误解人物关系（误以为对方已婚且是兄长配偶），不符合本句礼貌询问的社交语义。",
-          "suggestion": "将词块['아주머니,','大嫂，大妈，阿姨']中的'大嫂'删除或标注为'仅用于特定亲属/熟人语境'"
-        },
-        {
-          "line": 1,
-          "part": -1,
-          "field": "translation",
-          "reason": "韩语'아가씨'指年轻未婚女性（小姐）。译文使用'姑娘'虽可接受，但在听力题干扰项辨析中，若学习者将'아가씨'误记为'阿姨'（아주머니）或'女士'，会导致人物身份混淆。需明确其'年轻女性'的核心语义以区",
-          "suggestion": "在词块['아가씨,','小姐']的注释中补充：'指年轻未婚女子，区别于아주머니(阿姨/大妈)'"
-        },
-        {
-          "line": 0,
-          "part": 2,
-          "field": "word",
-          "reason": "韩语'어떤'在此处意为'哪一种/哪种'，表示选择。若学习者将其仅理解为'哪一个'（侧重特定个体）或忽略其疑问代词属性，可能在听力中无法快速对应'哪种海鲜'的语义重点。",
-          "suggestion": "在词['어떤']的释义中强化：'用于询问种类或性质，译为“哪种”、“什么样的”'"
-        },
-        {
-          "line": 1,
-          "part": 4,
-          "field": "word",
-          "reason": "韩语'나는'是动词'나다'（出产、发生）的现在时形。若学习者将其误认为代词'我'（나）+助词'는'，将完全曲解句意（误译为“我产”等）。这是本句最大的语义陷阱。",
-          "suggestion": "在词['나다']的释义中醒目提示：'此处为动词“出产/发生”，非代词“我”'"
-        }
-      ],
-      "id": "n63367-1-11",
-      "signature": "2575f914ff479acaa94c78ad30de6105c20272fe4574f2daa9c441a6b4bd6dac",
-      "model": "qwen3.6:35b",
-      "backend": "ollama",
-      "inputSignature": "1bcb32ec491edab68a2369ee47c17dc3086ceeced3633241f475624b58011bbc",
-      "methodVersion": "whole-course-semantics-v5",
-      "teacherCertification": false,
-      "lines": 2,
-      "parts": 12,
-      "wordOccurrences": 12,
-      "questions": 2,
-      "outputTokens": 542,
-      "seconds": 9.59
-    },
-    {
-      "issues": [
-        {
-          "line": 0,
-          "part": -1,
-          "field": "translation",
-          "reason": "韩语'네가'意为'你'，译文'你说'错误地将主语理解为说话者自己，导致语义主体混淆。",
-          "suggestion": "改为'那个你喜欢的人'"
-        },
-        {
-          "line": 0,
-          "part": -1,
-          "field": "question",
-          "reason": "听力题正确选项译文存在与原文相同的'你说'错误，误导学习者理解主语。",
-          "suggestion": "修正为'那个你喜欢的人'"
-        }
-      ],
-      "id": "n15831-4-7",
-      "signature": "4718f91e3094253e9655d0a89e7a1ab2d394d7a527cab66f7a5ce90a34e4fe3c",
-      "model": "qwen3.6:35b",
-      "backend": "ollama",
-      "inputSignature": "77a886c8fadcdb3d4b0f3d8f6f12923b3e4138fda1375419010598cde09cad1d",
-      "methodVersion": "whole-course-semantics-v5",
-      "teacherCertification": false,
-      "lines": 2,
-      "parts": 12,
-      "wordOccurrences": 12,
-      "questions": 2,
-      "outputTokens": 158,
-      "seconds": 10.56
-    },
-    {
-      "issues": [
-        {
-          "line": 0,
-          "part": -1,
-          "field": "question",
-          "reason": "听力题中，错误选项'敏俊的性格怎么样？'与原文语义无关，但作为干扰项尚可接受。然而，另一错误选项'对，他对待那辆车简直就像对待自己的孩子一样。'是第二句的译文，若作为第一句的错误选项，虽非实质语义矛盾",
-          "suggestion": "建议保留当前设置，因听力题旨在区分两句不同含义，而非考察单句内部逻辑。"
-        },
-        {
-          "line": 1,
-          "part": -1,
-          "field": "question",
-          "reason": "听力题中，错误选项'敏俊的性格怎么样？'与原文语义无关，但作为干扰项尚可接受。然而，另一错误选项'敏俊好像真的很珍惜他新买的车呢。'是第一句的译文，若作为第二句的错误选项，虽非实质语义矛盾",
-          "suggestion": "建议保留当前设置，因听力题旨在区分两句不同含义，而非考察单句内部逻辑。"
-        }
-      ],
-      "id": "n28346-7-8",
-      "signature": "2c3432b1ae2a137d7ff4ef4e467c3933e861f0ec225b1e57d65c4d2b043ec267",
-      "model": "qwen3.6:35b",
-      "backend": "ollama",
-      "inputSignature": "f59ee7604699726a8394a9dfc13813a0aec1650741ea50b803b3696a1d7cc5e2",
-      "methodVersion": "whole-course-semantics-v5",
-      "teacherCertification": false,
-      "lines": 2,
-      "parts": 14,
-      "wordOccurrences": 13,
-      "questions": 2,
-      "outputTokens": 261,
-      "seconds": 6.24
-    },
-    {
-      "issues": [
-        {
-          "line": 1,
-          "part": 5,
-          "field": "annotation",
-          "reason": "助动词되다在此处意为‘成立、合理’，而非‘不被允许’。该解释会导致学习者误解反问句的语义逻辑。",
-          "suggestion": "修正为：表示事情合乎情理或成立。常用于反问句，表达‘岂有此理’或‘不可能’的语气。"
-        }
-      ],
-      "id": "n24833-2-8",
-      "signature": "22771ade012c5f59b6481a7ed127c9178a54efe44b8fc9952d333a7d990cb263",
-      "model": "qwen3.6:35b",
-      "backend": "ollama",
-      "inputSignature": "5ab1c3c8d146f99c588a71a10ee45cf07ef2ecc6d9780538b83bde2ee66d7c7e",
-      "methodVersion": "whole-course-semantics-v5",
-      "teacherCertification": false,
-      "lines": 2,
-      "parts": 13,
-      "wordOccurrences": 13,
-      "questions": 2,
-      "outputTokens": 112,
-      "seconds": 2.58
-    },
-    {
-      "issues": [
-        {
-          "line": 1,
-          "part": 7,
-          "field": "annotation",
-          "reason": "韩语'것'在此处为名词化标记，指代前文'모인'这一事实/情况，而非表示对未来的预测。",
-          "suggestion": "修正为：表示将动词名词化，指代前述的情况或事实。"
-        }
-      ],
-      "id": "n29021-1-9",
-      "signature": "f11c081b36eab7fd06ec222417dc3e85065722a51c30a4d66aa9b624c92df94e",
-      "model": "qwen3.6:35b",
-      "backend": "ollama",
-      "inputSignature": "3c32e75031c406abfa4bab4c8387487b29c4d740ac4a6199f3673809482b7613",
-      "methodVersion": "whole-course-semantics-v5",
-      "teacherCertification": false,
-      "lines": 2,
-      "parts": 13,
-      "wordOccurrences": 13,
-      "questions": 2,
-      "outputTokens": 102,
-      "seconds": 3.9
-    },
-    {
-      "issues": [
-        {
-          "line": 1,
-          "part": 0,
-          "field": "annotation",
-          "reason": "별在此处为'特别、特殊'之意，与거组成'별것'指'大事、特别的事'。注释仅写'特别的'易误导学习者忽略其作为定语修饰后续名词的语法功能及固定搭配含义。",
-          "suggestion": "建议修改为：'特别的（修饰后面的거）'或注明此处与거连用表示'大事、特别的事'"
-        }
-      ],
-      "id": "n15311-1-5",
-      "signature": "43aa2837db7de6539f06ca9603e74efa5dd909c453ec9ff1fd9f2056d20d2e0e",
-      "model": "qwen3.6:35b",
-      "backend": "ollama",
-      "inputSignature": "944ffbbca419ac3d6da92c8fc0fe72f009331d90c08030089512551fc4e9a510",
-      "methodVersion": "whole-course-semantics-v5",
-      "teacherCertification": false,
-      "lines": 2,
-      "parts": 13,
-      "wordOccurrences": 12,
-      "questions": 2,
-      "outputTokens": 123,
-      "seconds": 4.44
-    },
-    {
-      "issues": [
-        {
-          "line": 0,
-          "part": 1,
-          "field": "word",
-          "reason": "‘잃었다면서’意为‘听说/你说迷路了’，此处‘면서’表引用传闻或转述对方话语，而非动词‘迷失’的时态。词块释义漏译了‘听说/据说’的核心语义，易导致学习者误解为单纯的过去动作描述。",
-          "suggestion": "修正为：听说（你）迷路了；你说迷路了"
-        },
-        {
-          "line": 1,
-          "part": 0,
-          "field": "word",
-          "reason": "‘왔던’是‘오다’的过去定语形式，意为‘来过的/刚才来的’，修饰后面的‘길’（路）。词块释义‘经由，途经’错误，混淆了动词原形或副词用法，导致无法准确理解‘来时的路’这一语义。",
-          "suggestion": "修正为：来过的；刚才来的"
-        },
-        {
-          "line": 1,
-          "part": 4,
-          "field": "word",
-          "reason": "‘보니’是‘보다’的连接词尾，表示‘看了/做了...之后发现/结果’。词块释义将其解释为‘领悟到...事实’过于抽象且偏离了‘看/观察’的本义，虽大意可通，但作为词汇释义不够精准，易误导学习者对‘보-",
-          "suggestion": "修正为：看了；做了...之后发现；结果"
-        },
-        {
-          "line": 1,
-          "part": 7,
-          "field": "word",
-          "reason": "‘나오더라고요’意为‘出现了/显露出来了’，指路出现在眼前。词块释义‘出现’正确，但结合语境，此处强调‘意外发现熟悉的路’，若仅注‘出现’可能忽略其‘显现、露出’的动态感，不过语义基本无误。鉴于前几项",
-          "suggestion": "修正为：出现了；显露出来了"
-        }
-      ],
-      "id": "n14733-1-7",
-      "signature": "0c0a072999b7e1d4ad13d4ee95d6711976e1186104692690bf02967ae736d061",
-      "model": "qwen3.6:35b",
-      "backend": "ollama",
-      "inputSignature": "4f9d8e56c8638ba0cedeeb11a8e47a9ba5c6837cb2ed913d0cde0cbfaca1e530",
-      "methodVersion": "whole-course-semantics-v5",
-      "teacherCertification": false,
-      "lines": 2,
-      "parts": 13,
-      "wordOccurrences": 12,
-      "questions": 2,
-      "outputTokens": 482,
-      "seconds": 9.88
-    },
-    {
-      "issues": [
-        {
-          "line": 0,
-          "part": -1,
-          "field": "translation",
-          "reason": "자신 있으시지요?意为'有信心吧'，译文将'자신(自信)'与'있으시지요?(有/是)'割裂，导致助动词含义缺失，易让学习者误解为单纯的名词罗列。",
-          "suggestion": "建议将'자신'标注为'自信'，'있으시지요?'标注为'有信心吧'，以体现'有自信'的固定搭配语义。"
-        },
-        {
-          "line": 1,
-          "part": -1,
-          "field": "translation",
-          "reason": "parts中'있습니다.'仅标注为'能'，严重误导。此处'있다'表示状态'有/存在'，结合语境为'有信心'，单独译作'能'易与能力助动词混淆。",
-          "suggestion": "建议将'있습니다.'的注解修正为'有（信心）'或'是（有的）'，明确其作为系动词/存在动词的状态含义。"
-        }
-      ],
-      "id": "n55521-1-7",
-      "signature": "f5d930f4d65afc13eaa58a38721246b4e296bb26c930e205445cbfa80211b671",
-      "model": "qwen3.6:35b",
-      "backend": "ollama",
-      "inputSignature": "07bfc3ff32487b51f8b1ea18e63353facd78d29aed928a2ff8b515529d6e9a26",
-      "methodVersion": "whole-course-semantics-v5",
-      "teacherCertification": false,
-      "lines": 2,
-      "parts": 13,
-      "wordOccurrences": 12,
-      "questions": 2,
-      "outputTokens": 268,
-      "seconds": 11.43
-    },
-    {
-      "issues": [
-        {
-          "line": 1,
-          "part": -1,
-          "field": "translation",
-          "reason": "译文'不知道是不是吃了什么坏东西'存在实质语义错误。韩语'뭘 잘못 먹었는지'意为'不知吃了什么错/不好的东西'，侧重对原因的推测，而非确定是'坏东西'；且后半句'배를 앓아서'指因腹痛而痛苦，并非仅",
-          "suggestion": "建议改为：'不知是不是吃错了什么，这几天一直肚子疼。'"
-        }
-      ],
-      "id": "n62325-1-10",
-      "signature": "b56445a5428ea8a8702ac033243bb37bcfa332f14cf1e69365aba4ae6c5505d6",
-      "model": "qwen3.6:35b",
-      "backend": "ollama",
-      "inputSignature": "95ec3f9cd717d75a7558c19d4d7c20855a79c07762ede454c9552493b3708e77",
-      "methodVersion": "whole-course-semantics-v5",
-      "teacherCertification": false,
-      "lines": 2,
-      "parts": 13,
-      "wordOccurrences": 13,
-      "questions": 2,
-      "outputTokens": 135,
-      "seconds": 6.49
-    },
-    {
-      "issues": [
-        {
-          "line": 0,
-          "part": -1,
-          "field": "translation",
-          "reason": "韩语'있던'意为'曾经存在的/放着的'，强调钱包原本的位置状态。译文'我放在这里的'虽通顺但丢失了'曾经存在'的语义色彩，且未体现对'消失'的惊讶语境关联。",
-          "suggestion": "建议译为：'咦？我之前放在这儿的钱包去哪儿了？'"
-        },
-        {
-          "line": 1,
-          "part": -1,
-          "field": "translation",
-          "reason": "韩语'훔쳐 갔나 봐'中'가다'在此处表示'被带走/消失'，而非物理上的'去'。译文'偷走了'准确传达了结果，但'슬쩍'（趁人不备/偷偷地）的语感在'偷偷'中略有重复且力度稍弱，不过整体语义无实质错误",
-          "suggestion": "当前译文'看来是有人偷偷偷走了'已准确传达核心语义，无需修改。"
-        },
-        {
-          "line": 0,
-          "part": 6,
-          "field": "word",
-          "reason": "词块'갔지?'标注为'去'，但在本句语境中，'가다'与'어디'连用表示'消失/不见'，而非物理位移的'去'。学习者若按'去'理解，会误以为钱包去了某个地方，而非丢失。",
-          "suggestion": "建议修正为：'消失，不见了'"
-        },
-        {
-          "line": 1,
-          "part": 3,
-          "field": "word",
-          "reason": "词块'갔나'标注为'去'，在此语境下（窃贼带走钱包），'가다'意为'被带走/溜走'。若学习者理解为普通的'去'，无法建立与'偷窃'结果的逻辑联系。",
-          "suggestion": "建议修正为：'被带走，溜走'"
-        }
-      ],
-      "id": "n15849-1-7",
-      "signature": "47195c35976b25e8b2b94f3fe90892c46fcd2ea5bec9dca4266c6ad0e41748cf",
-      "model": "qwen3.6:35b",
-      "backend": "ollama",
-      "inputSignature": "74ab070b1eacd0444b6d9a5b184b96c165d45ad3f97261919d920d5bda720945",
-      "methodVersion": "whole-course-semantics-v5",
-      "teacherCertification": false,
-      "lines": 2,
-      "parts": 12,
-      "wordOccurrences": 12,
-      "questions": 2,
-      "outputTokens": 453,
-      "seconds": 7.08
-    },
-    {
-      "issues": [
-        {
-          "line": 0,
-          "part": -1,
-          "field": "translation",
-          "reason": "시아주버님指“大舅子”（妻子的哥哥），译文误作“丈夫的哥哥”，导致人物关系完全错误。",
-          "suggestion": "将“您丈夫的哥哥”修正为“您的大舅子”。"
-        }
-      ],
-      "id": "n71206-1-8",
-      "signature": "3a603b883acf2e07342b5a07a32ee83d962e507a83bed47604d2783d881d7e8d",
-      "model": "qwen3.6:35b",
-      "backend": "ollama",
-      "inputSignature": "19b10b8958236c16f33589d0e641884f7ef101072b16d57177db6f700c8533e2",
-      "methodVersion": "whole-course-semantics-v5",
-      "teacherCertification": false,
-      "lines": 2,
-      "parts": 14,
-      "wordOccurrences": 14,
-      "questions": 2,
-      "outputTokens": 99,
-      "seconds": 2.35
-    },
-    {
-      "issues": [
-        {
-          "line": 1,
-          "part": 1,
-          "field": "annotation",
-          "reason": "청하지도 않은中'청하다'意为'邀请'，此处解释为'请客/招待'易导致语义偏差，且未体现'也/甚至'的否定强调语气。",
-          "suggestion": "修正为'连邀请都没做'或'未经邀请'，以准确传达'不速之客'的含义。"
-        }
-      ],
-      "id": "n25350-3-7",
-      "signature": "aaca5cba7e17de9d2a01c71a536eebb0c8484880b26d6f01f2be39662b45174d",
-      "model": "qwen3.6:35b",
-      "backend": "ollama",
-      "inputSignature": "d2f61acafb1987eb712bb6bf3ba2a4d8764f383d1c9714a1d85942244b94655e",
-      "methodVersion": "whole-course-semantics-v5",
-      "teacherCertification": false,
-      "lines": 2,
-      "parts": 11,
-      "wordOccurrences": 11,
-      "questions": 2,
-      "outputTokens": 122,
-      "seconds": 2.54
-    },
-    {
-      "issues": [
-        {
-          "line": 0,
-          "part": -1,
-          "field": "translation",
-          "reason": "눕히다意为使躺下，译文'放在哪里'未体现'躺'的动作实质，易导致学习者忽略核心语义。",
-          "suggestion": "改为'要把病人安置在哪里（躺下）呢？'"
-        },
-        {
-          "line": 1,
-          "part": -1,
-          "field": "translation",
-          "reason": "原文'눕혀 주세요'是祈使句'请让他躺下'，译文'请让他/她躺在那里'语气稍弱且未强调动作指令。",
-          "suggestion": "改为'请让他躺在那儿'"
-        }
-      ],
-      "id": "n41676-1-9",
-      "signature": "8143cea4c8d3974a1d45dfc38886e5c4a67f5064f819caaaadb375e1e8a94ab7",
-      "model": "qwen3.6:35b",
-      "backend": "ollama",
-      "inputSignature": "bee52c75da435e27a86f37d2a20ebe087f4e3abe2741ced80858eaedde8a2ae4",
-      "methodVersion": "whole-course-semantics-v5",
-      "teacherCertification": false,
-      "lines": 2,
-      "parts": 11,
-      "wordOccurrences": 11,
-      "questions": 2,
-      "outputTokens": 169,
-      "seconds": 4.72
-    },
-    {
-      "issues": [
-        {
-          "line": 1,
-          "part": -1,
-          "field": "translation",
-          "reason": "韩语'약이 다 닳았는지'字面意为'药/电池快用完了吗'，此处指手表动力耗尽。译文'可能电池没电了'虽通顺，但原句'어머'为惊讶语气，且后半句'손목시계의 바늘이 멈췄어'是观察到的结果而非推测原因，",
-          "suggestion": "建议译为：哎呀，看来手表的动力耗尽了，指针停了。以保留惊讶语气及因果逻辑。"
-        }
-      ],
-      "id": "n63967-1-8",
-      "signature": "f99bd0f4e8ff2da194922f971441fcc32694e42cfd64803d26029132b2358647",
-      "model": "qwen3.6:35b",
-      "backend": "ollama",
-      "inputSignature": "eeadb2f9458abfd8639b94994d521b1bdf1ba26ec2b630c1a9fa6e5933504fa6",
-      "methodVersion": "whole-course-semantics-v5",
-      "teacherCertification": false,
-      "lines": 2,
-      "parts": 10,
-      "wordOccurrences": 10,
-      "questions": 2,
-      "outputTokens": 153,
-      "seconds": 5.42
-    },
-    {
-      "issues": [
-        {
-          "line": 0,
-          "part": -1,
-          "field": "word",
-          "reason": "쌀쌀하다指微凉，非寒冷，译'冷'易致程度误解。",
-          "suggestion": "将'冷'改为'凉'或'微凉'以准确传达温度感。"
-        },
-        {
-          "line": 0,
-          "part": 0,
-          "field": "word",
-          "reason": "생각보다意为'出乎意料/比预期'，译'想法'偏离比较语义。",
-          "suggestion": "将词义修正为'比预期'或'出乎意料地'。"
-        },
-        {
-          "line": 1,
-          "part": 0,
-          "field": "word",
-          "reason": "외투도中的도表'连...也'，译'外套'遗漏了强调语气。",
-          "suggestion": "将词义修正为'连外套也'或'外套都'。"
-        },
-        {
-          "line": 1,
-          "part": 7,
-          "field": "word",
-          "reason": "그렇다在此指代前文状况，译'那样'易被误解为指示代词。",
-          "suggestion": "将词义修正为'因此'或'所以如此'以明确因果。"
-        }
-      ],
-      "id": "n69157-1-9",
-      "signature": "c1d5fb0fa57f71d03a49a4cdff36f0172e4094c64e5f1f381992d5c963cc16d3",
-      "model": "qwen3.6:35b",
-      "backend": "ollama",
-      "inputSignature": "d57d9b5c4213ba0aed7bc7b9b355ee1d66863e0a7d56bfb88e5441215a341415",
-      "methodVersion": "whole-course-semantics-v5",
-      "teacherCertification": false,
-      "lines": 2,
-      "parts": 11,
-      "wordOccurrences": 10,
-      "questions": 2,
-      "outputTokens": 341,
-      "seconds": 7.48
-    },
-    {
-      "issues": [
-        {
-          "line": 0,
-          "part": 4,
-          "field": "word",
-          "reason": "词块标注为'턴'，但韩语原句动词为'털다'（抢），标注错误导致学习者无法对应正确词义。",
-          "suggestion": "将'턴'修正为'털다'或指出此处应为'털어'的变体/误写，确保与原文动词一致。"
-        },
-        {
-          "line": 0,
-          "part": -1,
-          "field": "question",
-          "reason": "听力题干扰项包含另一句对话内容，虽为常见出题方式，但'턴'的标注错误会直接误导学习者对原句核心动词的理解。",
-          "suggestion": "修正词汇标注后，确保学习者能准确识别'털다'意为'抢劫'而非其他含义。"
-        }
-      ],
-      "id": "n71478-3-5",
-      "signature": "b433b6c37405bdf6db64777c71fa0671a6108ddb5836d3886e3726db966c2dc5",
-      "model": "qwen3.6:35b",
-      "backend": "ollama",
-      "inputSignature": "bdb9b6936a919f68b45c07ca100a2ec9b9aeded25459a41c0c0615267705208b",
-      "methodVersion": "whole-course-semantics-v5",
-      "teacherCertification": false,
-      "lines": 2,
-      "parts": 10,
-      "wordOccurrences": 10,
-      "questions": 2,
-      "outputTokens": 219,
-      "seconds": 8.38
-    },
-    {
-      "issues": [
-        {
-          "line": 1,
-          "part": 1,
-          "field": "annotation",
-          "reason": "‘희생을’标注为‘死亡’属严重语义错误，该词意为‘牺牲、受害’，此处指因洪水受灾/遇难的人，而非直接等同于死亡。",
-          "suggestion": "修正为‘牺牲、受害’或结合语境译为‘遇难者’的构成部分，避免误导学习者认为其单独表示死亡。"
-        },
-        {
-          "line": 1,
-          "part": 7,
-          "field": "annotation",
-          "reason": "‘된대’标注为‘有’不准确，‘되다’在此处意为‘达到、成为’，指人数累计达到某数值，而非存在。",
-          "suggestion": "修正为‘达到、变成’，以准确反映数量累积的语义。"
-        },
-        {
-          "line": 0,
-          "part": 2,
-          "field": "annotation",
-          "reason": "‘해?’标注为‘表示引用’不完整且易误导，此处‘뭐라고 해?’是固定口语表达，意为‘说什么？/讲什么？’，‘해’是动词‘做/说’的疑问形式。",
-          "suggestion": "修正为‘做、说（疑问）’，明确其为动词‘하다’的活用形式，而非单纯的功能标记。"
-        },
-        {
-          "line": 1,
-          "part": 4,
-          "field": "annotation",
-          "reason": "‘사람들이’标注为‘人们，大家’虽可接受，但在此语境下特指‘受害者/遇难者群体’，泛化为‘人们’可能模糊主语的具体指向。",
-          "suggestion": "修正为‘（受灾）人们、大家’或备注此处特指前文提到的遇难人群，以增强语义连贯性。"
-        }
-      ],
-      "id": "n89165-2-6",
-      "signature": "b4c75b9232f22cf4556434986dc95e256165c1440183830cbb45aa3dbc6a65ae",
-      "model": "qwen3.6:35b",
-      "backend": "ollama",
-      "inputSignature": "8bb98cf4545d80e7a173b60202d5b35eaa546d7d14a762530a1ccafc58cb1796",
-      "methodVersion": "whole-course-semantics-v5",
-      "teacherCertification": false,
-      "lines": 2,
-      "parts": 11,
-      "wordOccurrences": 11,
-      "questions": 2,
-      "outputTokens": 416,
-      "seconds": 6.7
-    },
-    {
-      "issues": [
-        {
-          "line": 0,
-          "part": -1,
-          "field": "translation",
-          "reason": "말리다在此语境指吹干头发，译文'晾干、风干'易误导学习者以为自然干燥，忽略主动动作。",
-          "suggestion": "将词义修正为'吹干（头发）'以匹配听力场景。"
-        },
-        {
-          "line": 1,
-          "part": -1,
-          "field": "translation",
-          "reason": "译文'应该是...吧'语气偏弱，原句推测意味更强，且未体现'그럴 거야'的因果逻辑。",
-          "suggestion": "建议调整为'大概是因为你头发多才这样的吧'以增强因果关联。"
-        }
-      ],
-      "id": "n14630-1-11",
-      "signature": "27e7bde5a9af29715cd5dee009f33ebfb6cec4bc3d82e27d3bfb2f5008dbb0b7",
-      "model": "qwen3.6:35b",
-      "backend": "ollama",
-      "inputSignature": "76fe877ee20f844fe2b986868883f8d2d9dffda0ac20ea70ce43a055177ae297",
-      "methodVersion": "whole-course-semantics-v5",
-      "teacherCertification": false,
-      "lines": 2,
-      "parts": 10,
-      "wordOccurrences": 10,
-      "questions": 2,
-      "outputTokens": 191,
-      "seconds": 3.71
-    },
-    {
-      "issues": [
-        {
-          "line": 0,
-          "part": -1,
-          "field": "translation",
-          "reason": "韩语'갈 거지?'是确认对方计划或推测（'你会去吗？/你打算去吧？'），中文译文'...吧？'语气偏向说话人自己的推测，未准确体现向对方确认意图的语义。",
-          "suggestion": "改为：'明天你要去看棒球比赛吗？'或'明天你打算去看棒球比赛吧？'"
-        },
-        {
-          "line": 1,
-          "part": -1,
-          "field": "translation",
-          "reason": "韩语'그럼.'在此处是对前句确认的回应，意为'好的/行/那就这么说定了'，中文译文'对啊'逻辑不通，且未体现答应或确认的含义。",
-          "suggestion": "改为：'好。'或'行。'"
-        }
-      ],
-      "id": "n63509-3-8",
-      "signature": "39d04f0cffb679a4a790aea786367e362401f44d5666781ce3ab08eb207281e3",
-      "model": "qwen3.6:35b",
-      "backend": "ollama",
-      "inputSignature": "f45996e7b571fcbcf25999f5e9669a64af55e93eac004aa3ae3b56afda52f529",
-      "methodVersion": "whole-course-semantics-v5",
-      "teacherCertification": false,
-      "lines": 2,
-      "parts": 13,
-      "wordOccurrences": 13,
-      "questions": 2,
-      "outputTokens": 223,
-      "seconds": 3.9
-    },
     {
       "issues": [
         {
@@ -22726,6 +21625,3796 @@
       "questions": 2,
       "outputTokens": 280,
       "seconds": 6.64
+    },
+    {
+      "issues": [
+        {
+          "line": 1,
+          "part": -1,
+          "field": "translation",
+          "reason": "主语缺失导致指代不明，学习者可能误以为承奎本人去审批文件。",
+          "suggestion": "补充主语'他'或'我'以明确动作发出者，避免与上一句主语混淆。"
+        }
+      ],
+      "id": "n32127-1-8",
+      "signature": "ee6c7f3c55131271fc887118cf5ba04d6de0806dba7d97e2c8849565adfe0e1d",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "43dc0801c6924c1b0a1bb5a11e1c44e3474c0e0add651c208e97b3468dce3389",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 10,
+      "wordOccurrences": 9,
+      "questions": 2,
+      "outputTokens": 96,
+      "seconds": 5.32
+    },
+    {
+      "issues": [
+        {
+          "line": 0,
+          "part": -1,
+          "field": "question",
+          "reason": "听力题干扰项'我这就把苹果和梨削好拿过来。'是第1句的正确译文，作为第0句的干扰项会导致学习者混淆两句含义，属于题目设计错误而非语义错误，但在此语境下易引发误解。",
+          "suggestion": "建议更换与第0句无关的干扰项，避免使用其他句子的正确译文。"
+        }
+      ],
+      "id": "n39913-2-7",
+      "signature": "ed02243cef80c11df59924c0f1436d81950550d9d8a85558f774ac879cfa7a66",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "12b1b23c44176d11e9a64614d91efcbafaf72aa0117bc090fa7ff813fe72fd4e",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 10,
+      "wordOccurrences": 10,
+      "questions": 2,
+      "outputTokens": 128,
+      "seconds": 3.62
+    },
+    {
+      "issues": [
+        {
+          "line": 0,
+          "part": 5,
+          "field": "word",
+          "reason": "알아채다意为察觉、发觉，而非看破或看透。",
+          "suggestion": "修正为：察觉，发觉"
+        },
+        {
+          "line": 1,
+          "part": 3,
+          "field": "word",
+          "reason": "달라是动词달르다的终结词尾形式，意为不同、不一样，而非形容词与众不同。",
+          "suggestion": "修正为：不同，不一样"
+        }
+      ],
+      "id": "n66782-1-8",
+      "signature": "51f50e9002716be708c08c49f5569369b882c3123f3b5a6c4e1d13494bf2b004",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "50db44cf9756cb73c55fc7d1c1acb6bbd44f1cde40f8821b9c498624ad43f250",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 10,
+      "wordOccurrences": 9,
+      "questions": 2,
+      "outputTokens": 134,
+      "seconds": 4.05
+    },
+    {
+      "issues": [
+        {
+          "line": 1,
+          "part": -1,
+          "field": "translation",
+          "reason": "불고기는韩式烤肉，通常用猪肉或牛肉制作，但中文常特指‘烤牛肉’。此处译为‘烤牛肉’虽常见，但若严格对应词义，可能引起混淆，不过不构成实质语义错误。",
+          "suggestion": "无"
+        },
+        {
+          "line": 1,
+          "part": -1,
+          "field": "question",
+          "reason": "听力题中correctChineseMeaning与wrongChineseMeanings存在歧义，因为‘今天晚上烤五花肉吃怎么样？’和‘中午已经吃过烤牛肉了，肉已经吃腻了。’都是合理翻译，但作为听",
+          "suggestion": "无"
+        }
+      ],
+      "id": "n93723-1-3",
+      "signature": "1eae13d40e03e65c90b41b471aa73cb4b19551fcf0add04349bd41203e7ec0d6",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "31c6a989e3fc72af44ac6ce92aaa61ed960bdfc3ccafb58ddeb5f2b19b4b9628",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 10,
+      "wordOccurrences": 10,
+      "questions": 2,
+      "outputTokens": 197,
+      "seconds": 4.79
+    },
+    {
+      "issues": [
+        {
+          "line": 0,
+          "part": -1,
+          "field": "question",
+          "reason": "听力题干扰项'那家人可真是儿女成群啊'语义正确，导致题目存在歧义。",
+          "suggestion": "移除语义正确的干扰项，或修改为明显错误含义。"
+        },
+        {
+          "line": 1,
+          "part": -1,
+          "field": "question",
+          "reason": "听力题干扰项'听说隔壁家的孩子有十个呢'语义正确，导致题目存在歧义。",
+          "suggestion": "移除语义正确的干扰项，或修改为明显错误含义。"
+        }
+      ],
+      "id": "n84386-2-5",
+      "signature": "4c08e7e9b9fbd1783018a0d1a5a0572847059779517ff4424cb8956d096c3f59",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "572d19956989038dad9915b3bf37214713d717296a557c112077ea3de07655f9",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 10,
+      "wordOccurrences": 10,
+      "questions": 2,
+      "outputTokens": 171,
+      "seconds": 2.76
+    },
+    {
+      "issues": [
+        {
+          "line": 0,
+          "part": -1,
+          "field": "translation",
+          "reason": "韩语原句为感叹/确认语气，未包含疑问词'怎么'，译文添加'怎么'改变了原句的语用色彩，虽非严重语义错误但属过度意译。",
+          "suggestion": "建议改为'突然下起大雨来了？'或'天突然下起大雨了？'"
+        },
+        {
+          "line": 1,
+          "part": -1,
+          "field": "translation",
+          "reason": "韩语'브레이크가 걸렸군'字面意为'刹车被踩下/卡住'，引申为'受阻/中止'。译文'泡汤了'虽通顺，但'泡汤'常指计划彻底失败或落空，而原句侧重'中断/受阻'的状态，语义重心略有偏差。",
+          "suggestion": "建议改为'我们原本打算去野餐的计划受阻了。'"
+        }
+      ],
+      "id": "n61051-2-7",
+      "signature": "aa0a2a4b2377e67d9e89f10ccdaf255804ba7741c97f638592850d96027d4677",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "21570284971f64a39da0b28266d70512ef8479c56c8beb274c4be581eb051d3a",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 9,
+      "wordOccurrences": 9,
+      "questions": 2,
+      "outputTokens": 243,
+      "seconds": 3.8
+    },
+    {
+      "issues": [
+        {
+          "line": 0,
+          "part": -1,
+          "field": "translation",
+          "reason": "韩语'우리'在此处为包括听者的‘我们’，而非所有格‘我们的’。译文‘我们喝的酒’易被误解为限定范围，且句末语气词'-죠'表确认或寻求共鸣，译为‘酒吧？’完全错误，应为‘吧？’或‘对吧？’",
+          "suggestion": "昨天我们一起喝了很多酒吧？"
+        },
+        {
+          "line": 0,
+          "part": -1,
+          "field": "question",
+          "reason": "听力题正确选项'昨天我们喝了很多酒吧？'中‘酒吧’为严重错译，导致语义完全偏离。原句意为确认饮酒事实或感叹，而非询问地点。该选项实质含义错误，不应作为正确答案。",
+          "suggestion": "修正正确选项为：'昨天我们一起喝了不少酒啊？'"
+        }
+      ],
+      "id": "n36238-1-0",
+      "signature": "e706b5af55b697bc3d5f56c183f0d7e90777dbc3516b2566d8490cd01e4f7ad7",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "aab4c0091b717777f5b57715f43b46d9162ae681dbb6ba3ca26fe168e04c3370",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 11,
+      "wordOccurrences": 11,
+      "questions": 2,
+      "outputTokens": 235,
+      "seconds": 6.77
+    },
+    {
+      "issues": [
+        {
+          "line": 1,
+          "part": -1,
+          "field": "translation",
+          "reason": "原文'끝이 나는구나'表示学期结束这一事实的感叹，意为'结束了呢'；译文'又要结束了呢'添加了将来时态含义，与原文完成/既成事实语义矛盾。",
+          "suggestion": "改为：又这样，一个学期结束了呢。"
+        }
+      ],
+      "id": "n40052-1-9",
+      "signature": "78561583d7b7461ecc70492c86a49c45a4b4889cbf04de3f1dc02e3022ed4faf",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "0c7d9f82482f22356f38eb5254b06881f2576bdbeedd9e02f3bf8e63d3f6afcb",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 9,
+      "wordOccurrences": 9,
+      "questions": 2,
+      "outputTokens": 101,
+      "seconds": 2.22
+    },
+    {
+      "issues": [
+        {
+          "line": 0,
+          "part": -1,
+          "field": "question",
+          "reason": "听力题干扰项'没关系，我们再争取下一次的机会吧。'实质含义与正确答案不同，但作为干扰项是合理的，不构成错误。",
+          "suggestion": ""
+        },
+        {
+          "line": 1,
+          "part": -1,
+          "field": "question",
+          "reason": "听力题干扰项'这次考试我又没及格啊。'实质含义与正确答案不同，但作为干扰项是合理的，不构成错误。",
+          "suggestion": ""
+        }
+      ],
+      "id": "n40143-2-8",
+      "signature": "33bf21320a4bc9b818b9d910bcd4e052723a40dad1fceaef19c678835b5144be",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "7c543699d899339ba0f22a5806eb3c0c001096c7bb5c0aae408936fd8aa4458d",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 9,
+      "wordOccurrences": 9,
+      "questions": 2,
+      "outputTokens": 158,
+      "seconds": 3.82
+    },
+    {
+      "issues": [
+        {
+          "line": 0,
+          "part": 4,
+          "field": "annotation",
+          "reason": "'만들래?'是'만들다(使/让)+-ㄹ래?(意图/反问)'，意为'想让人...吗？'。注释为'使成为'丢失了疑问语气和说话人的指责意图，易导致学习者误解为单纯的使役动作描述。",
+          "suggestion": "改为：'想让人...吗？（表示质问或不满）'"
+        },
+        {
+          "line": 0,
+          "part": -1,
+          "field": "question",
+          "reason": "听力题中，正确选项'你是不是故意要惹人生气的？'添加了'故意'一词。原文'자꾸... 만들래?'侧重'总是/一直'导致的结果及说话人的厌烦情绪，并未明确证实对方有主观上的'故意'。虽然语用上接近，但'",
+          "suggestion": "建议修正正确选项为：'你老是让人心里不舒服吗？'以更贴合'자꾸(总是)'和'언짢게(不愉快)'的字面语义。"
+        }
+      ],
+      "id": "n67288-1-11",
+      "signature": "589c28a23601e720007b78888826c2fc7d503868d8908dfb7b14a556ebd41453",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "4f3fff2e0ce9ea88050c0a887a719a357fa00de8f82cb84c1b8bd3bb94d136c1",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 9,
+      "wordOccurrences": 9,
+      "questions": 2,
+      "outputTokens": 272,
+      "seconds": 6.3
+    },
+    {
+      "issues": [
+        {
+          "line": 1,
+          "part": -1,
+          "field": "translation",
+          "reason": "韩语'떨어졌거든요'意为'落下来/被分配下来'，中文译文'因为突然有了新的工作任务'虽通顺但遗漏了'갑자기'(突然)的强调意味，且未体现'떨어지다'作为被动或意外获得的语感，易让学习者忽略该动词的核心",
+          "suggestion": "改为'因为突然落下了新的工作。'"
+        },
+        {
+          "line": 0,
+          "part": -1,
+          "field": "question",
+          "reason": "听力题中，正确选项'今天怎么一大早就这么忙啊？'与干扰项'因为突然有了新的工作任务。'在语义上存在因果关联，但后者是回答而非问句含义。若学习者未听出疑问语气，可能误选干扰项为对'바쁘세요'的陈述性解释",
+          "suggestion": "确保题目明确区分疑问句与陈述句的语境功能"
+        }
+      ],
+      "id": "n72305-1-12",
+      "signature": "3b037ec0245eba5c72ccc059ed7f17ae5c08e6cf7c0560a54a8a85168f3b3f8d",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "a4ca94b3a47b64d0b84b2963fc7f257765a472e3f83b685da0fcb6fc87d4b307",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 9,
+      "wordOccurrences": 9,
+      "questions": 2,
+      "outputTokens": 248,
+      "seconds": 7.81
+    },
+    {
+      "issues": [
+        {
+          "line": 0,
+          "part": -1,
+          "field": "translation",
+          "reason": "韩语'열성이더라'含传闻/推测语气，译文'非常上心呢'语气偏肯定，未体现'听说/看来'的语感。",
+          "suggestion": "建议改为：智秀的妈妈听说对孩子的教育特别热心。"
+        },
+        {
+          "line": 1,
+          "part": -1,
+          "field": "translation",
+          "reason": "韩语'다닌대'含传闻语气，译文'居然要上'偏向主观惊讶或将来时，未准确传达'听说/据说'的客观转述义。",
+          "suggestion": "建议改为：听说孩子们上了五所补习班呢。"
+        }
+      ],
+      "id": "n67472-1-8",
+      "signature": "852601498def1c0fd7e8d4dd650d0dfd5d18df020e42c9e5fda02848ffb60e48",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "d8ae327fbec0deb329914b4d7db59fbfbf3e53a379b07ea9ddda179de2e10f9c",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 12,
+      "wordOccurrences": 11,
+      "questions": 2,
+      "outputTokens": 196,
+      "seconds": 3.48
+    },
+    {
+      "issues": [
+        {
+          "line": 0,
+          "part": -1,
+          "field": "translation",
+          "reason": "韩语'어떤 모양'意为'什么形状/样子'，询问特征而非身份。译文'哪张牌'混淆了疑问词'어떤(什么样的)'与'어느(哪一张)'，导致语义错误。",
+          "suggestion": "改为'丢的卡片是什么形状的？'"
+        },
+        {
+          "line": 0,
+          "part": 1,
+          "field": "word",
+          "reason": "韩语'카드'在此语境指扑克牌中的'一张牌'，而非泛指'扑克牌'这一游戏或整副牌。词义标注易引发误解。",
+          "suggestion": "改为'卡片，牌'"
+        },
+        {
+          "line": 1,
+          "part": -1,
+          "field": "question",
+          "reason": "听力题正确选项'丢的是哪张牌？'与原文'什么形状'含义不符。该选项存在实质性语义错误，不应作为正确答案。",
+          "suggestion": "修正正确选项为'丢失的卡片是什么形状的？'"
+        }
+      ],
+      "id": "n40579-2-7",
+      "signature": "79ce0ed6ff94eed9c00d5ce1715277a29a3016d76c000fc0740a2b81f4fe5b9b",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "2ad4f2b0977566213518fdb20717168d9e352a3a50ef17dc03b8fe7db575bcb4",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 9,
+      "wordOccurrences": 10,
+      "questions": 2,
+      "outputTokens": 285,
+      "seconds": 7.05
+    },
+    {
+      "issues": [
+        {
+          "line": 0,
+          "part": 0,
+          "field": "annotation",
+          "reason": "词义解释错误，'밖에'在此处意为'外面'，而非表示限定范围的副词。",
+          "suggestion": "修正为：外面"
+        },
+        {
+          "line": 1,
+          "part": 1,
+          "field": "annotation",
+          "reason": "助词解释错误，'-로'在此处表示原因或手段，意为'因为/由于'，而非名词'雨'。",
+          "suggestion": "修正为：因为（雨）"
+        }
+      ],
+      "id": "n56200-2-7",
+      "signature": "54c895f59de8d789a8cebd1e92b6963761e2891259e3761c924939dd8f267797",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "2d48c0b52cf238225e8ded8e40f603644d4815795c3d6de02a4f9ba466f503d0",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 8,
+      "wordOccurrences": 8,
+      "questions": 2,
+      "outputTokens": 162,
+      "seconds": 6.53
+    },
+    {
+      "issues": [
+        {
+          "line": 0,
+          "part": -1,
+          "field": "translation",
+          "reason": "韩语'이 지역은'意为'这个地区'，译文'这个地区的'将主语误译为定语，导致句子结构理解偏差。",
+          "suggestion": "改为'这个地区，集市什么时候开？'"
+        },
+        {
+          "line": 1,
+          "part": -1,
+          "field": "translation",
+          "reason": "韩语'열흘마다'意为'每十天'或'每隔九天'，译文'每隔十天'在中文语境中通常指间隔十天（即每十一日），存在语义歧义。",
+          "suggestion": "改为'每十天市场就开市一次。'"
+        }
+      ],
+      "id": "n82973-2-7",
+      "signature": "1c4db697d35d6e12361933421c753017067f090ad235fb69e0c5f420dcd51d3a",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "a8dd8767f1f90a65ef1d34c31f7f2b9a39219f9b5fd54d88e2d3f0e303aa4be4",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 8,
+      "wordOccurrences": 8,
+      "questions": 2,
+      "outputTokens": 190,
+      "seconds": 5.3
+    },
+    {
+      "issues": [
+        {
+          "line": 0,
+          "part": 2,
+          "field": "word",
+          "reason": "좀在此处为程度副词'稍微'，非数量词'一下'。译文中省略未显式表达虽可接受，但词义标注易误导学习者以为此处必须译为'一下'。",
+          "suggestion": "将'一下'修正为'稍微'或'一点'"
+        },
+        {
+          "line": 1,
+          "part": 1,
+          "field": "word",
+          "reason": "갑갑하다指因狭窄、闷热导致的'憋闷、压抑'感，而非生理上的'透不过气'（呼吸困难）。该释义易导致学习者误解为窒息症状。",
+          "suggestion": "将'透不过气'修正为'憋闷'或'闷热'"
+        }
+      ],
+      "id": "n22891-1-6",
+      "signature": "5c16432b31f6644c4ddbe20d2b76bcd56ddff962ceeab27ac99ce0a628c2ba55",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "8057e71cf5ec70029cec19916397ce6eb65770783c22d872c870cb999df8af7b",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 8,
+      "wordOccurrences": 8,
+      "questions": 2,
+      "outputTokens": 210,
+      "seconds": 6.0
+    },
+    {
+      "issues": [
+        {
+          "line": 0,
+          "part": -1,
+          "field": "translation",
+          "reason": "译文'使用英语'未能体现韩语'쓰다'在此语境下指代'说/讲'语言的实质语义，易导致学习者误解为书写行为。",
+          "suggestion": "将'使用英语'修正为'说英语'或'讲英语'。"
+        },
+        {
+          "line": 0,
+          "part": 6,
+          "field": "annotation",
+          "reason": "词块'거죠?'的注释列举了'确信、决定、决心'，但在此疑问句中，其核心功能是寻求解释或确认原因，而非表达说话人的决心。",
+          "suggestion": "修正为'表示对前文内容的追问或寻求解释的语气'。"
+        },
+        {
+          "line": 1,
+          "part": -1,
+          "field": "translation",
+          "reason": "译文'因为过去这里是英国的殖民地啊'中，'这里'为增补成分，虽符合逻辑但原文无明确地点指示词，且'因为'对应'거든'的因果解释功能，需确保学习者理解这是回答而非独立陈述。",
+          "suggestion": "保持现状，但需确保上下文语境清晰，避免孤立理解。"
+        },
+        {
+          "line": 1,
+          "part": 2,
+          "field": "annotation",
+          "reason": "词块'식민지였거든.'的注释仅给出'殖民地'，遗漏了终结语尾'거든'所携带的'解释原因、提供背景信息'的关键语义功能。",
+          "suggestion": "修正为'曾是殖民地（用于解释原因或提供背景）'。"
+        }
+      ],
+      "id": "n90727-1-8",
+      "signature": "008939a4aad54b801145ab4d4237c1dc3e20c5d0679e8bc19def3955eacc9123",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "508ddc9145cccb5140d77fea23e5b1df642370703e051ffe3a4e7cfc5191544b",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 10,
+      "wordOccurrences": 9,
+      "questions": 2,
+      "outputTokens": 385,
+      "seconds": 6.26
+    },
+    {
+      "issues": [
+        {
+          "line": 0,
+          "part": 3,
+          "field": "word",
+          "reason": "사람在单数语境下指'那个人'，译为'人们'易致误解。",
+          "suggestion": "改为'人'"
+        },
+        {
+          "line": 1,
+          "part": 4,
+          "field": "word",
+          "reason": "답답하다在此语境指'令人憋闷/不爽'，译为'死板'偏离原意。",
+          "suggestion": "改为'让人憋闷'"
+        }
+      ],
+      "id": "n73623-4-7",
+      "signature": "2d4eb6513dbdeada23a716a51f891e026c18bb4cc8be97f2e4de6332f001902e",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "f40f4b785b2b64a411e81cb52e163be4b03955e25677ea2c56e6b00483b41b47",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 10,
+      "wordOccurrences": 10,
+      "questions": 2,
+      "outputTokens": 151,
+      "seconds": 8.1
+    },
+    {
+      "issues": [
+        {
+          "line": 1,
+          "part": -1,
+          "field": "translation",
+          "reason": "译文'翘起小屁股'易使学习者误解为故意摆姿势，原意是婴儿学步时因重心不稳导致的无意识臀部晃动。",
+          "suggestion": "建议改为'总是把小屁股撅起来'或'频繁地挺起小屁股'，以体现身体重心的自然移动而非刻意动作。"
+        }
+      ],
+      "id": "n51055-8-5",
+      "signature": "6ed5f3a2b255a7d571b8bde3229bc5c3a6df4c42d5c0c620f2e77304cd5a25f2",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "600f3c868238582caa729f6fa99812af5d4234ea5b37849437687494acce4841",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 10,
+      "wordOccurrences": 11,
+      "questions": 2,
+      "outputTokens": 119,
+      "seconds": 4.71
+    },
+    {
+      "issues": [
+        {
+          "line": 0,
+          "part": -1,
+          "field": "question",
+          "reason": "听力题干扰项'真是太好了。'是第1句的正确含义，作为第0句的干扰项会导致学习者混淆两句语义，造成实质理解错误。",
+          "suggestion": "将干扰项中的'真是太好了。'替换为其他无关或易混淆但非本句含义的选项。"
+        }
+      ],
+      "id": "n69411-3-5",
+      "signature": "9bcb44c453460dcaab3dce2f049d9260f61cda3e7be3304e186f62b89f832784",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "db71f3665ebacb46abf40ccec07edfa5723ea8e3894035f95e117d8265d7fdca",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 8,
+      "wordOccurrences": 8,
+      "questions": 2,
+      "outputTokens": 114,
+      "seconds": 4.23
+    },
+    {
+      "issues": [
+        {
+          "line": 1,
+          "part": -1,
+          "field": "translation",
+          "reason": "译文'不开放'未体现主语'图书馆'，结合听力题语境，易让学习者误以为泛指任何场所或机构，而非特指前句提到的图书馆。",
+          "suggestion": "建议译为'所以（图书馆）不开放'或'因此不开馆'，明确主体以消除歧义。"
+        }
+      ],
+      "id": "n23686-2-8",
+      "signature": "054f14bec29f5f6d7020c2eb91946c765416b593721a1c8ad0d188e196318601",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "6248ab748b46452c3f68c9846399310c7016420f20e9e51ef7946f31841736af",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 11,
+      "wordOccurrences": 11,
+      "questions": 2,
+      "outputTokens": 116,
+      "seconds": 4.04
+    },
+    {
+      "issues": [
+        {
+          "line": 0,
+          "part": -1,
+          "field": "word",
+          "reason": "되다在此语境意为'是/达到（尺寸）'，标注为'有'易导致学习者误解为拥有或存在，而非数值状态。",
+          "suggestion": "将'되다'的释义修正为'是、达到（尺寸/数量）'"
+        },
+        {
+          "line": 1,
+          "part": -1,
+          "field": "word",
+          "reason": "될是되다的将来时态，此处表示推测'大概是'，标注为'有'未能体现时态和推测语气，易造成理解偏差。",
+          "suggestion": "将'될'的释义修正为'大概是、预计是'"
+        }
+      ],
+      "id": "n42368-1-8",
+      "signature": "23780d12630b6c09a7cee3ec98e1cb1c5fe9b886d247557f0c54c8933a2fb5de",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "f309bd3ea3fada31c4212f405e0c51e068a2e980679faa76816afccd0a68d8f0",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 11,
+      "wordOccurrences": 11,
+      "questions": 2,
+      "outputTokens": 198,
+      "seconds": 5.21
+    },
+    {
+      "issues": [
+        {
+          "line": 0,
+          "part": 0,
+          "field": "word",
+          "reason": "单词'배'在此语境下意为'肚子'，词块标注为'船'会导致学习者严重误解句意。",
+          "suggestion": "将'배'的释义修正为'肚子'。"
+        },
+        {
+          "line": 0,
+          "part": -1,
+          "field": "question",
+          "reason": "听力题干扰项包含另一句对话，虽非本句含义但作为干扰项合理；然而第一行单词标注错误导致整体语义理解偏差风险极大。",
+          "suggestion": "无需修改题目，但需修正对应行的词汇标注以消除歧义。"
+        }
+      ],
+      "id": "n81494-2-5",
+      "signature": "8c46e5bfb773d2b4511168400b3012490099c17788496850dd96a65cb5985cb7",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "89f72654b46ee1bb507be954c490d9b55374d4b20ca0aa870fc25cb6a373e128",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 11,
+      "wordOccurrences": 11,
+      "questions": 2,
+      "outputTokens": 173,
+      "seconds": 5.91
+    },
+    {
+      "issues": [
+        {
+          "line": 1,
+          "part": -1,
+          "field": "translation",
+          "reason": "译文'一听这话我就来精神了'未体现'귀가 뜨이다'（耳朵竖起来/侧耳倾听）的字面意象，易导致学习者忽略该成语的听觉专注含义。",
+          "suggestion": "建议译为：真的？我听得真真切切！谢谢妈妈。"
+        },
+        {
+          "line": 1,
+          "part": 0,
+          "field": "annotation",
+          "reason": "'정말요?'标注为'真是的'带有抱怨或惊讶语气，此处儿子对给零花钱表示惊喜确认，应译为'真的吗？'。",
+          "suggestion": "修正标注为：真的吗？"
+        },
+        {
+          "line": 1,
+          "part": 1,
+          "field": "word",
+          "reason": "'귀'标注为'听觉能力'过于抽象，此处指具体的'耳朵'，与'뜨이다'（竖起）搭配构成习语。",
+          "suggestion": "修正词义为：耳朵"
+        }
+      ],
+      "id": "n53962-4-4",
+      "signature": "9d6c47df79c5d771197f4a49cc10829153292155302afdb30e8c4b9c204af6a2",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "e63645bad961d734e1d83d1b12ebd049fc7fbc715be010d66ab2c190a9462dc2",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 10,
+      "wordOccurrences": 10,
+      "questions": 2,
+      "outputTokens": 279,
+      "seconds": 4.5
+    },
+    {
+      "issues": [
+        {
+          "line": 1,
+          "part": -1,
+          "field": "translation",
+          "reason": "原文'좋아'为形容词'好'的口语缩略形式，表示评价。译文'真不错'准确传达了这种对'坐飞机'这一经历的正面评价。虽然干扰项中出现了上一句的含义，但本句译文本身无实质语义错误。",
+          "suggestion": "无需修改"
+        },
+        {
+          "line": 0,
+          "part": -1,
+          "field": "question",
+          "reason": "听力题中，干扰项'还能坐飞机，真不错'是下一句的正确译文。虽然作为干扰项存在，但其本身是一个语法正确且语义完整的句子。题目设计利用了上下文语境混淆，而非选项本身的语义错误。因此不构成实质性的翻译或题目",
+          "suggestion": "无需修改"
+        }
+      ],
+      "id": "n25392-1-8",
+      "signature": "dbbaa0b1603a0660493198a09f0433eb94d970fe495478d61cd75857313ae4fb",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "97c764c7cb66554b90de176669cf3f238b5873cbcbea2035e12abd141e08ac48",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 7,
+      "wordOccurrences": 7,
+      "questions": 2,
+      "outputTokens": 215,
+      "seconds": 7.58
+    },
+    {
+      "issues": [
+        {
+          "line": 1,
+          "part": 3,
+          "field": "word",
+          "reason": "몰아가다在此语境意为‘驾驶（车辆）前往’，而非‘引向’。词义偏差导致对动作主体的误解。",
+          "suggestion": "修正为：驾驶（车辆）去"
+        }
+      ],
+      "id": "n57452-1-7",
+      "signature": "e743f0f8075d728b923e480088ae4871f99c6bb03941e66e71024b15e46a8d15",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "f4b5c0cc3ca05e57c677c36767a64cf07dfa181df2161526ff2a0f9b5366d9d9",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 8,
+      "wordOccurrences": 8,
+      "questions": 2,
+      "outputTokens": 93,
+      "seconds": 5.3
+    },
+    {
+      "issues": [
+        {
+          "line": 1,
+          "part": -1,
+          "field": "translation",
+          "reason": "韩语'한산하다'意为冷清、不拥挤，指环境状态而非时间属性。译文'空闲的时段'易让学习者误解为'有空的时间段'，偏离了'不忙/冷清'的实质语义。",
+          "suggestion": "建议改为'现在正是比较清闲的时候'或'现在正好是冷清的时段'，以准确传达'한산하다'的含义。"
+        }
+      ],
+      "id": "n84908-1-7",
+      "signature": "01476c6ea29022c70c37de9c725b66b14fc142e241dd1387493cdcba3ad364f8",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "2f8f51515eef0bc44fca66c7966ea4be190558b0fd77dfad05f3e3ee3fe5b557",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 7,
+      "wordOccurrences": 6,
+      "questions": 2,
+      "outputTokens": 134,
+      "seconds": 4.01
+    },
+    {
+      "issues": [
+        {
+          "line": 1,
+          "part": -1,
+          "field": "translation",
+          "reason": "韩语'크다'在此处指体型巨大，中文译文'大'准确无误，但需确保学习者不将其误解为性格或规模等其他含义。",
+          "suggestion": "无实质错误，保持当前翻译即可。"
+        },
+        {
+          "line": 0,
+          "part": -1,
+          "field": "question",
+          "reason": "听力题正确选项与干扰项区分明确，无歧义。",
+          "suggestion": "题目设计合理，无需修改。"
+        }
+      ],
+      "id": "n22844-1-7",
+      "signature": "e6aad77f3f2063a3f46fca18e60fb5735ab3843456bd84794c7b906ec7065685",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "09570a9d64e60e085b54ae58dea1288dcf583ff2f7a6fa176d6c07627483d285",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 9,
+      "wordOccurrences": 10,
+      "questions": 2,
+      "outputTokens": 164,
+      "seconds": 5.17
+    },
+    {
+      "issues": [
+        {
+          "line": 1,
+          "part": 1,
+          "field": "annotation",
+          "reason": "词块'더러'标注为'有时'有误，该词意为'偶尔、间或'，频率低于'有时'，易导致学习者对频率副词的细微差别产生误解。",
+          "suggestion": "将'有时'修正为'偶尔'或'间或'。"
+        }
+      ],
+      "id": "n93386-1-7",
+      "signature": "43dbf7202279d2ab9edf8286ee8e6cb9af92479ad7b7a57aa2156784c852d725",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "c05141fcf7d1958482948017e41afe1ac96697d9aac3689db76d12ab3b48ffc8",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 9,
+      "wordOccurrences": 9,
+      "questions": 2,
+      "outputTokens": 112,
+      "seconds": 2.49
+    },
+    {
+      "issues": [
+        {
+          "line": 0,
+          "part": -1,
+          "field": "translation",
+          "reason": "韩语'재미있었어?'是过去时疑问句，询问过去的体验（好玩吗？/有趣吗？），译文'好玩吗？'为一般现在时或将来时疑问，时态不符导致语义偏差。",
+          "suggestion": "将译文改为'棒球游戏好玩吗？'或'棒球游戏有趣吗？'以体现过去时态。"
+        },
+        {
+          "line": 1,
+          "part": 4,
+          "field": "word",
+          "reason": "韩语'생각보다'意为'比想象/预料中'，注释'念头，想法'仅解释了名词'생각'，未体现比较级含义，易误导学习者忽略'보다'的比较功能。",
+          "suggestion": "将词义修正为'比想象中'或'比预想中'。"
+        },
+        {
+          "line": 1,
+          "part": 5,
+          "field": "word",
+          "reason": "韩语'어렵더라'是过去时感叹/陈述，表示'当时觉得难'，注释'难，不容易'为原形，未体现时态和语感，可能导致学习者误用现在时。",
+          "suggestion": "将词义修正为'（当时）觉得难'或'原来这么难'。"
+        },
+        {
+          "line": 0,
+          "part": -1,
+          "field": "question",
+          "reason": "听力题干扰项'你说丢失的那枚戒指找到了吗？'与原文完全无关，属于无效干扰项，无法测试学习者对'재미있었어?'（过去时有趣吗）的辨析能力。",
+          "suggestion": "建议替换为语义相近但时态或对象不同的选项，如'棒球游戏好玩吗？'（现在时）或'棒球比赛结束了吗？'"
+        }
+      ],
+      "id": "n40855-2-7",
+      "signature": "dcd8af285f793bb4bad0ffc9019d0a4f63a87522b608e603bd604901b0d9b8f7",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "fb9dbf316317940269f2129170f803227565b362c881da7727db50a3f6f5429a",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 9,
+      "wordOccurrences": 9,
+      "questions": 2,
+      "outputTokens": 466,
+      "seconds": 8.19
+    },
+    {
+      "issues": [
+        {
+          "line": 0,
+          "part": -1,
+          "field": "translation",
+          "reason": "韩语'잃어버렸다던'含'听说/据说'语境，译文'你说丢失的'易误解为对方亲口所说，未体现传闻义。",
+          "suggestion": "改为'听说你丢的那枚戒指找到了吗？'"
+        },
+        {
+          "line": 1,
+          "part": -1,
+          "field": "translation",
+          "reason": "韩语'없었어요'在此语境指物品不存在/没找到，译文'没找到'虽通顺但略去'不存在'的实质状态。",
+          "suggestion": "改为'还是没有（那枚戒指）。'"
+        },
+        {
+          "line": 0,
+          "part": -1,
+          "field": "question",
+          "reason": "听力题干扰项包含第二句译文，若考生混淆两句内容易选错，但选项本身语义无歧义。",
+          "suggestion": "无需修改，题目设计合理。"
+        },
+        {
+          "line": 1,
+          "part": -1,
+          "field": "question",
+          "reason": "听力题干扰项包含第一句译文，若考生混淆两句内容易选错，但选项本身语义无歧义。",
+          "suggestion": "无需修改，题目设计合理。"
+        }
+      ],
+      "id": "n24507-1-8",
+      "signature": "afac120ea8700fb74de86d8a749bd49cc832b495f0e987a5f154fc33e7730398",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "4976a642b9f112250c5d6bd3edbbad6adcebec95caba923454f2e206cebb7e48",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 10,
+      "wordOccurrences": 10,
+      "questions": 2,
+      "outputTokens": 342,
+      "seconds": 11.02
+    },
+    {
+      "issues": [
+        {
+          "line": 1,
+          "part": -1,
+          "field": "question",
+          "reason": "听力题干扰项'知道了，我会抽时间去的。'与第2句译文完全一致，导致该选项对第2句而言是正确答案而非干扰项，造成题目歧义。",
+          "suggestion": "将第2句听力题的干扰项替换为其他无关含义，避免与正确译文重复。"
+        }
+      ],
+      "id": "n77983-2-7",
+      "signature": "b6c6944a78a127ad4fd5c10e1034b43b5eec80f9fa6e4cab7163c4855e3aba2b",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "b870706dedff1756fad96a524bdbe1e56e301faf8e2375c11db2b6b30adf1f05",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 10,
+      "wordOccurrences": 10,
+      "questions": 2,
+      "outputTokens": 117,
+      "seconds": 6.79
+    },
+    {
+      "issues": [
+        {
+          "line": 0,
+          "part": -1,
+          "field": "translation",
+          "reason": "韩语'재미있나 봐?'是推测对方是否觉得有趣，意为'看来这游戏挺有意思的？'。译文'看起来挺有意思的吧？'带有确认语气，虽可接受但略偏。更严重的是，该句核心在于说话人通过观察做出的主观推测，而非单纯问",
+          "suggestion": "建议译为：'看来这游戏挺有意思的？'"
+        },
+        {
+          "line": 1,
+          "part": -1,
+          "field": "translation",
+          "reason": "韩语'시간이나 때우려고 하는 거지'中，'시간을 때우다'是固定搭配，意为'消磨时间'。译文'打发时间'准确。但'거지'结尾带有解释、辩解的语气，即'不过是...罢了'。译文'而已'传达了这种语气，",
+          "suggestion": "译文基本准确，无需大幅修改，保持现状即可。"
+        }
+      ],
+      "id": "n50393-5-5",
+      "signature": "563a2d0662624c0012f5d2485f9d0150850fd3ba6fdd1da8048c9ce92d6c1ec5",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "5ec036bd32c9bc184ecc57aecdabb466f1ff8d94b099819d7d93d2a36a701440",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 10,
+      "wordOccurrences": 10,
+      "questions": 2,
+      "outputTokens": 248,
+      "seconds": 4.58
+    },
+    {
+      "issues": [
+        {
+          "line": 1,
+          "part": -1,
+          "field": "translation",
+          "reason": "韩语原句为陈述句，无主语'我'。译文添加'我会'改变了语气和主体，虽非严重语义错误，但偏离了原文客观描述的习惯用法，易让学习者误以为必须补出主语。",
+          "suggestion": "建议译为：'通过聊天和朋友们闲聊。'"
+        },
+        {
+          "line": 1,
+          "part": 2,
+          "field": "word",
+          "reason": "'수다'在此处意为'闲谈、聊天'，是中性或褒义词。注释为'废话、啰嗦、唠叨'带有强烈贬义，严重误导词义色彩，导致学习者误解句意。",
+          "suggestion": "建议修正为：'闲聊、聊天'"
+        },
+        {
+          "line": 1,
+          "part": 3,
+          "field": "word",
+          "reason": "'떨다'在此处是固定搭配'수다를 떨다'（闲聊）的一部分，意为'进行、开展'。注释为'耍'完全错误，导致学习者无法理解动词含义。",
+          "suggestion": "建议修正为：'进行、开展'"
+        },
+        {
+          "line": 1,
+          "part": 2,
+          "field": "annotation",
+          "reason": "词块'수다를'的注释为'废话，啰嗦，唠叨'，同样带有贬义且未体现宾语格助词'를'的功能，易导致学习者对'수다'一词产生负面联想。",
+          "suggestion": "建议修正为：'闲聊（宾语）'"
+        }
+      ],
+      "id": "n78118-1-8",
+      "signature": "1e3d8343db29b73be30b068c1bbeb9c5c4ee00b5e783ec38ebb957fb4f74e507",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "08bfc4d96115aebc8b2a8f1ea53ec92ca57b92c75654a6720a03d00b8f800370",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 8,
+      "wordOccurrences": 8,
+      "questions": 2,
+      "outputTokens": 410,
+      "seconds": 9.76
+    },
+    {
+      "issues": [
+        {
+          "line": 0,
+          "part": -1,
+          "field": "word",
+          "reason": "오다在此语境为‘来’，非‘起因于’。听力题干扰项混淆了‘哪里疼’与‘肚子疼’的具体症状，但作为词义注释，‘起因于’易误导学习者将此处动词理解为表原因的静态关系而非位移动作。",
+          "suggestion": "将오다的释义修正为‘来’或‘就诊’，以符合医院问诊语境。"
+        },
+        {
+          "line": 1,
+          "part": -1,
+          "field": "word",
+          "reason": "속在此处指‘胃/胃部’而非泛指的‘内脏’。听力题中若学习者将속理解为广义内脏，可能无法准确对应中文的‘恶心’（通常关联胃部不适），导致对症状定位的理解偏差。",
+          "suggestion": "将속的释义补充或修正为‘胃’，以明确其在此医疗语境下的具体指代。"
+        }
+      ],
+      "id": "n69330-2-6",
+      "signature": "a5468171857aa548c7deb8fad28cffe674eb70bc8f9e7c484ca0857dc746190e",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "de465f50c184f6b1e9b7f6aed210b33c6c77da06a7763841802d312c21489d72",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 8,
+      "wordOccurrences": 8,
+      "questions": 2,
+      "outputTokens": 252,
+      "seconds": 4.65
+    },
+    {
+      "issues": [
+        {
+          "line": 0,
+          "part": 5,
+          "field": "word",
+          "reason": "감하다在此语境指尺寸缩小，译为“减少”易误导为数量或程度降低，与袖子变短不符。",
+          "suggestion": "修正为“缩短、变小”。"
+        },
+        {
+          "line": 1,
+          "part": 2,
+          "field": "word",
+          "reason": "보다在此表推测，译为“看来”虽通顺但作为词条释义不够精准，易与视觉动词混淆。",
+          "suggestion": "修正为“表示推测，似乎、大概”。"
+        }
+      ],
+      "id": "n22745-3-7",
+      "signature": "81d58f18021ea3d43f77539e32e0a7f35dbc1fb6a364fed5fbd8066708a8c2a8",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "ef458bb5d93383e30989f3d9308fed0851a53f82060fb2f32a29d15f6851a160",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 9,
+      "wordOccurrences": 9,
+      "questions": 2,
+      "outputTokens": 169,
+      "seconds": 6.81
+    },
+    {
+      "issues": [
+        {
+          "line": 1,
+          "part": 0,
+          "field": "word",
+          "reason": "이러다意为'照这样下去/万一'，表推测或假设后果。注释为'这么着'偏向指代当前状态，未体现对未来的负面推测含义，易导致学习者忽略语境中的紧迫感。",
+          "suggestion": "建议修正为：照这样下去、万一"
+        }
+      ],
+      "id": "n47381-1-8",
+      "signature": "4e9fa325462a3bc376f15badfdd63e2936bd2ad13d24d15473672dc9cac4f75c",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "2eb1d782e7bb7a7fc3812f2b39428e35cbfd585eb850a5aa98ee0c447e1c2b31",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 9,
+      "wordOccurrences": 9,
+      "questions": 2,
+      "outputTokens": 111,
+      "seconds": 4.79
+    },
+    {
+      "issues": [
+        {
+          "line": 0,
+          "part": -1,
+          "field": "translation",
+          "reason": "译文'让看见'严重误译'보여'。此处'보이다'为自动词'出现/露面'，非他动词'展示'。应译为'露面'或'见到'。",
+          "suggestion": "将'让看见'修正为'露面'或'见到'。"
+        },
+        {
+          "line": 1,
+          "part": -1,
+          "field": "translation",
+          "reason": "译文'是啊'误译'그러게'。此处'그러게'表示赞同对方观点（'确实如此/说得对'），而非单纯感叹'是啊'，易导致语气偏差。",
+          "suggestion": "将'是啊'修正为'确实'或'说得对'。"
+        }
+      ],
+      "id": "n71003-1-8",
+      "signature": "44dbde190116dde30bd1f7a8f8d051cc3913ba88790a689549dba7f1afceb29f",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "f74b625a381db38605c3029a5018857781e4c373724ae009eb3bdabbc83c34c8",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 9,
+      "wordOccurrences": 9,
+      "questions": 2,
+      "outputTokens": 200,
+      "seconds": 5.25
+    },
+    {
+      "issues": [
+        {
+          "line": 1,
+          "part": 0,
+          "field": "translation",
+          "reason": "응在此处为口语应答“嗯/对”，表示同意对方观点，而非确认事实的“是”。",
+          "suggestion": "将“是”修正为“嗯”或“对”。"
+        }
+      ],
+      "id": "n84063-1-8",
+      "signature": "75fd8f56a061e7bdf724ba8d7d47455d579a27deae742950c8801ad572863c20",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "c4cce1d790596fc0920ca93b148d547f75db2dcbe93efe115278845f2cdd4eac",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 9,
+      "wordOccurrences": 9,
+      "questions": 2,
+      "outputTokens": 92,
+      "seconds": 5.03
+    },
+    {
+      "issues": [
+        {
+          "line": 0,
+          "part": 4,
+          "field": "annotation",
+          "reason": "助动词되다在此语境下意为“是/为”，解释为“怎么样”易与疑问词어떻게混淆，导致语义误解。",
+          "suggestion": "修正为：询问身份或数值时的系动词用法，意为“是”。"
+        },
+        {
+          "line": 1,
+          "part": 3,
+          "field": "annotation",
+          "reason": "数字20120306被单独解释且未说明其作为学号的属性，可能让学习者误以为是普通计数而非特定标识。",
+          "suggestion": "补充说明该数字代表具体的学号编号。"
+        }
+      ],
+      "id": "n84321-1-5",
+      "signature": "effa04f6c6889086cd7a9002baad90c75b2ea5bd9a04cb4b4b9b3bb173c122f1",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "c4e0e981a623cb8343fae309aeb2a23de216cfb09aa4d810ee74b3d5391b870a",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 9,
+      "wordOccurrences": 7,
+      "questions": 2,
+      "outputTokens": 190,
+      "seconds": 5.13
+    },
+    {
+      "issues": [
+        {
+          "line": 1,
+          "part": 2,
+          "field": "annotation",
+          "reason": "‘훑어보다’意为粗略地看、浏览，而非‘端详、打量’（仔细查看），词义偏差会导致学习者误解动作方式。",
+          "suggestion": "将‘端详，打量’修正为‘粗略地看，浏览’。"
+        },
+        {
+          "line": 1,
+          "part": 3,
+          "field": "annotation",
+          "reason": "‘주마’是‘주다’的将来时形式，意为‘给、给予’，注释解释为‘表现前面的动作给他人的行为造成影响’过于抽象且易引发歧义。",
+          "suggestion": "将注释修正为‘给，给予（表示将来或意志）’。"
+        }
+      ],
+      "id": "n87741-1-7",
+      "signature": "f9f816fab9ebac337dee398b79f46238314d2ea8dff3ff18a6617beb729a9ca9",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "ec66f22e7071bab5b58cdc0db522c5d79400e947ebe97f894a98d284e371a8cf",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 9,
+      "wordOccurrences": 9,
+      "questions": 2,
+      "outputTokens": 208,
+      "seconds": 3.8
+    },
+    {
+      "issues": [
+        {
+          "line": 0,
+          "part": -1,
+          "field": "translation",
+          "reason": "‘동생’指弟妹，译文‘弟妹’易误解为配偶，且原句未明确性别，译为‘弟弟或妹妹’更准确。",
+          "suggestion": "将‘弟妹’改为‘弟弟或妹妹’"
+        },
+        {
+          "line": 0,
+          "part": -1,
+          "field": "question",
+          "reason": "听力题正确选项译文存在上述歧义，可能导致学习者对‘동생’指代关系理解错误。",
+          "suggestion": "修正正确选项译文为‘那边跑过来的不是你弟弟或妹妹吗？’"
+        }
+      ],
+      "id": "n15210-1-8",
+      "signature": "772971c48b22ad199b5e5f0399cb4dc0198ff5bcf64eb8c647fd58763715cdaa",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "96dad841cc03e018d89bc5ba7ebb326fa2009a18c544fb428cb07de1992a97c1",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 11,
+      "wordOccurrences": 10,
+      "questions": 2,
+      "outputTokens": 185,
+      "seconds": 6.14
+    },
+    {
+      "issues": [
+        {
+          "line": 1,
+          "part": -1,
+          "field": "translation",
+          "reason": "韩语'배우겠더라'含回忆语气，译文'学不会'仅表能力缺失，丢失了'当时/后来发现'的语境义，易致理解偏差。",
+          "suggestion": "改为'我因为怕水，所以（当时）学不了游泳。'"
+        }
+      ],
+      "id": "n30092-1-5",
+      "signature": "1cf80a6f82b48bf4836df5ef908fbe8d011b387408addf937933d3ad18a55c5b",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "3e0acfdb0498f6006d51539579e93e9120ceb82ee7dd8cd9f6eab92c0753eb5f",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 11,
+      "wordOccurrences": 11,
+      "questions": 2,
+      "outputTokens": 109,
+      "seconds": 4.84
+    },
+    {
+      "issues": [
+        {
+          "line": 0,
+          "part": 4,
+          "field": "word",
+          "reason": "词块'잘'标注为'很好地，熟练地'，但在'지리 잘 아세요'语境中意为'很/非常'，修饰程度而非方式。学习者易误解为强调动作的熟练度而非知识储备量。",
+          "suggestion": "修正为：'很，非常'（用于加强形容词或动词的程度）"
+        },
+        {
+          "line": 1,
+          "part": 3,
+          "field": "word",
+          "reason": "词块'보다'标注为'阅读，看'。此处'지도 보다'意为'看地图（参照）'，而非'阅读'。若理解为阅读文本，会误导学习者对'지리'（地理知识）场景的理解。",
+          "suggestion": "修正为：'看，查看'（指参考地图等视觉信息）"
+        }
+      ],
+      "id": "n77589-1-10",
+      "signature": "03528bfa0de6eed0ce43c4da5c20ca4ee7616bfe07707f6b7530da35c173a016",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "82d97796bb7db5d4d0f72a0e26fcba7b8b4868cdbcb71f428e65dac8e024f780",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 11,
+      "wordOccurrences": 9,
+      "questions": 2,
+      "outputTokens": 235,
+      "seconds": 5.7
+    },
+    {
+      "issues": [
+        {
+          "line": 1,
+          "part": -1,
+          "field": "translation",
+          "reason": "졸이다在此语境指‘熬煮’使汤汁浓缩，而非单纯‘收汁’或‘使减少’，原译未体现烹饪过程导致的咸度变化逻辑。",
+          "suggestion": "建议将'收汁'调整为'熬煮'或'炖煮'，以准确传达因长时间加热导致汤汁变少、味道变咸的因果语义。"
+        }
+      ],
+      "id": "n90326-1-7",
+      "signature": "1eef18b9a8498585643557121a724a54fc9a7f9a6b1c46ffe44f7a3d5b9e4684",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "50cabab81c139ba63e22c465a2a3eaefe6e40c655f74bc107857f609cef612d4",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 9,
+      "wordOccurrences": 9,
+      "questions": 2,
+      "outputTokens": 128,
+      "seconds": 5.91
+    },
+    {
+      "issues": [
+        {
+          "line": 0,
+          "part": 1,
+          "field": "annotation",
+          "reason": "助动词'하는'被误释为时间概念，此处应为动词'하다'的定语形式，意为'播放/制作'",
+          "suggestion": "修正为：做，进行（修饰后面的名词'프로그램'）"
+        },
+        {
+          "line": 0,
+          "part": 4,
+          "field": "annotation",
+          "reason": "'줄'被误释为方法或内容，此处是'줄 알다'固定搭配，意为'知道/晓得'",
+          "suggestion": "修正为：（与'알다'连用）知道，晓得"
+        },
+        {
+          "line": 1,
+          "part": 2,
+          "field": "annotation",
+          "reason": "助动词'할'被误释为时间概念，此处是'하다'的将来/推测用法，意为'该做...了'",
+          "suggestion": "修正为：做，进行（表示即将发生或应当发生）"
+        }
+      ],
+      "id": "n24892-1-8",
+      "signature": "c057c9ef669eb4b4210a9ff469672aff11fcfd83005580ec0c894dec06efeac7",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "265adc80aef3a2d7a8a81f430706f1d312a7986cf783f095ff59d4cea1b44d7f",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 10,
+      "wordOccurrences": 10,
+      "questions": 2,
+      "outputTokens": 246,
+      "seconds": 5.88
+    },
+    {
+      "issues": [
+        {
+          "line": 1,
+          "part": -1,
+          "field": "translation",
+          "reason": "译文'看来冬天就要来了'未体现韩语'되려나 봐'中'快要...了/似乎要...'的推测与临界状态，语义偏差。",
+          "suggestion": "建议改为'看来冬天快到了'或'好像要入冬了'以准确传达推测语气。"
+        }
+      ],
+      "id": "n55809-5-4",
+      "signature": "c710e7de5a3728199e31c47b04a906d83e760ffe7eb043769c274864040d64eb",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "d59d6abd8279d865d34396d97f4b830229951412136973decff1fd3c050cc79e",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 8,
+      "wordOccurrences": 8,
+      "questions": 2,
+      "outputTokens": 112,
+      "seconds": 5.64
+    },
+    {
+      "issues": [
+        {
+          "line": 1,
+          "part": -1,
+          "field": "translation",
+          "reason": "助词'가'在'원형의 거울이'中作主语标记，但中文译文未体现其强调或对比意味，易被误读为普通陈述。结合上下文，此处隐含'（其他形状不卖）圆形镜子才畅销'的对比逻辑，建议补充语境提示。",
+          "suggestion": "是的，因为圆形镜子最畅销（暗示其他形状滞销）。"
+        },
+        {
+          "line": 1,
+          "part": -1,
+          "field": "question",
+          "reason": "听力题干扰项'这家店的镜子都是圆形的啊。'与正确选项含义完全不同，但作为干扰项过于明显且无逻辑混淆性，不构成实质语义误导，无需修正。",
+          "suggestion": "无需修正。"
+        }
+      ],
+      "id": "n69582-1-7",
+      "signature": "5e09dbd60c2c894e7fb5ea1686e1066b65c8e68fa96a7052adf544d791aca406",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "d5279297fc30481afe63ba174665e5664653f84eaa374a8fff68422cfe5e4ec1",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 11,
+      "wordOccurrences": 11,
+      "questions": 2,
+      "outputTokens": 222,
+      "seconds": 5.42
+    },
+    {
+      "issues": [
+        {
+          "line": 1,
+          "part": -1,
+          "field": "translation",
+          "reason": "韩语'응'在此处为确认对方话语的应答（意为'嗯/是的'），而非表示同意或许可的'行'。虽不影响核心语义，但语气词义偏差易致初学者误解对话逻辑。",
+          "suggestion": "将'응,'译为'嗯，'更贴合语境中的确认语气。"
+        }
+      ],
+      "id": "n14121-1-8",
+      "signature": "8968ac6ef77ba167042e38efafb3b982e348bcc83580c75c7693a662e5755403",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "1fbb4c9dfe53b9ffeaea27a48bccf11810f3ba9406ac020925a78f64030d81f8",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 11,
+      "wordOccurrences": 10,
+      "questions": 2,
+      "outputTokens": 119,
+      "seconds": 5.7
+    },
+    {
+      "issues": [
+        {
+          "line": 0,
+          "part": -1,
+          "field": "translation",
+          "reason": "다녀왔니意为'去过并回来了吗'，侧重行程归来。译文'玩得好吗'侧重体验质量，虽语境通顺但语义重心偏移，易误导学习者忽略' 다녀오다 '的往返含义。",
+          "suggestion": "建议译为'暑假休假回来啦？'或保留原意补充为'暑假休假过得怎么样？'"
+        },
+        {
+          "line": 1,
+          "part": -1,
+          "field": "question",
+          "reason": "听力题中，correctChineseMeaning将'잘 다녀왔니?'译为'玩得好吗'，而wrong选项包含答句。若学习者仅凭中文意思匹配，可能因'玩得好'与答句内容重合而误选干扰项，导致对问句实质",
+          "suggestion": "建议修正正确选项为侧重行程的'暑假休假回来啦？'以区分问答逻辑。"
+        }
+      ],
+      "id": "n17419-2-8",
+      "signature": "d13b18e156c5e51c177eef952ffe195e84bde363682927e48b98a93874f0f843",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "cbe0ff29853170a2a473e8321e37c78dfdd8d0130412528c332548ea6ca9d0de",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 9,
+      "wordOccurrences": 9,
+      "questions": 2,
+      "outputTokens": 247,
+      "seconds": 6.39
+    },
+    {
+      "issues": [
+        {
+          "line": 0,
+          "part": -1,
+          "field": "translation",
+          "reason": "韩语'이게 뭐니'在此语境下表达的是对连续加班现状的抱怨与无奈（意为'这算怎么回事/太离谱了'），而非询问具体原因或定义。译文'这到底算什么啊'虽通顺，但易让学习者误解为在寻求逻辑解释，忽略了其强烈的",
+          "suggestion": "建议补充语境提示，明确此处为情绪宣泄而非疑问。"
+        },
+        {
+          "line": 1,
+          "part": -1,
+          "field": "question",
+          "reason": "听力题干扰项'要买几个鸡蛋呢？'与原文语义完全无关，属于无效干扰项，无法测试学习者对'휴가(休假)'或'절실해(迫切)'的理解，可能导致猜测得分。",
+          "suggestion": "建议替换为易混淆的语义选项，如'真的，我特别想回家'或'真的，工作太轻松了'。"
+        }
+      ],
+      "id": "n81800-1-7",
+      "signature": "457f2c4bcdfd846e8b29e5b1e811189de989660a490926af668e66d5e53fcf8e",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "2acfaeb2a05b96330dfefda601a139cb29ccd9ac4e952649760e9d09276a8acf",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 12,
+      "wordOccurrences": 12,
+      "questions": 2,
+      "outputTokens": 248,
+      "seconds": 8.36
+    },
+    {
+      "issues": [
+        {
+          "line": 1,
+          "part": -1,
+          "field": "translation",
+          "reason": "原文'오랜만에 계란 좀 많이 먹어야겠어'意为'好久没吃鸡蛋了，得多吃点'，译文'好久没吃那么多鸡蛋了'将'많이(多)'误解为修饰'먹다'的频率或数量对比，导致语义偏差。",
+          "suggestion": "改为：买一盘吧。好久没吃鸡蛋了，得多吃点。"
+        }
+      ],
+      "id": "n80680-4-7",
+      "signature": "d8bb3d014810f80160f669865b946ef9c09cbab05f42335fff9f34fe8e820423",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "896b5b1abd88ba33fde45261e58918d08a3999857181dde45633bd8926a5a496",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 12,
+      "wordOccurrences": 12,
+      "questions": 2,
+      "outputTokens": 131,
+      "seconds": 6.33
+    },
+    {
+      "issues": [
+        {
+          "line": 0,
+          "part": 5,
+          "field": "annotation",
+          "reason": "词块'빌려'标注为'借'，但结合助词'갔네?'（去了），此处语义为'借走'。单独标注'借'易使学习者忽略'拿/带走'的动作方向，导致对'谁先借走了'这一完成态理解偏差。",
+          "suggestion": "建议修正为'借走'或'借出'，以体现动作的完成及对象离开的语义。"
+        },
+        {
+          "line": 0,
+          "part": 6,
+          "field": "annotation",
+          "reason": "词块'갔네?'标注为'去'，但在'빌려 갔네'结构中，'가다'作为趋向补语，表示动作的完成或结果（借走了），而非主语物理位置的移动。标注'去'易误导学习者理解为主语'谁'去了某地。",
+          "suggestion": "建议修正为'（动作）完成/带走'，或注明此处表动作结果的趋向。"
+        },
+        {
+          "line": 1,
+          "part": 2,
+          "field": "annotation",
+          "reason": "词块'늦었구나.'标注为'缓慢，晚'，但'늦다'在此处意为'迟到/晚到'。标注'缓慢'是形容词义，与语境不符，易导致学习者混淆'速度慢'与'时间晚'的区别。",
+          "suggestion": "建议修正为'迟到/晚到'，准确对应'한발 늦었구나'（晚了一步/迟到了）的语境。"
+        },
+        {
+          "line": 1,
+          "part": -1,
+          "field": "question",
+          "reason": "听力题中，第一句的正确选项与第二句的正确选项互为干扰项。虽然这是题目设计的一部分，但需确保学习者能区分'谁借走了书'（疑问）和'你迟到了'（陈述）。当前标注无误，但需注意学习者可能因混淆两句话的语义而",
+          "suggestion": "无需修正，但提示：确保学习者理解第一句是询问对象，第二句是评价状态。"
+        }
+      ],
+      "id": "n84902-1-8",
+      "signature": "0b9443ae330141c118323d0a65616efaf981e69512005668dd4a79f7a8d2ef52",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "68e235d1978106a114c0215b8398dd96393d647a96ce3a324db2b218f65bb875",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 10,
+      "wordOccurrences": 9,
+      "questions": 2,
+      "outputTokens": 526,
+      "seconds": 13.56
+    },
+    {
+      "issues": [
+        {
+          "line": 0,
+          "part": 1,
+          "field": "annotation",
+          "reason": "사람在此指特定个体'那个人'，而非复数'人们'，易致理解偏差。",
+          "suggestion": "修正为：人，那个人"
+        },
+        {
+          "line": 0,
+          "part": 6,
+          "field": "annotation",
+          "reason": "대体意为'大体上'，此处대체是副词'到底/究竟'，义项错误。",
+          "suggestion": "修正为：到底，究竟"
+        },
+        {
+          "line": 0,
+          "part": 8,
+          "field": "word",
+          "reason": "하다在此处作为做样子的动词，而非'表示肯定状态'的助动词用法。",
+          "suggestion": "修正为：做，干，表现"
+        },
+        {
+          "line": 1,
+          "part": 2,
+          "field": "translation",
+          "reason": "zh译文'真的一点都不知道'语气过重，ko原句仅为'真的不知道'。",
+          "suggestion": "修正为：我也真的不知道。"
+        }
+      ],
+      "id": "n14356-1-2",
+      "signature": "b012c39e6236d970572313f62a99d87651437be4bcecfe4b8dddb9257356900d",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "4e4cf67f9aae6f8c0341f73a55a25efa556a1748ada1737d0d2c2c5099c13cdb",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 13,
+      "wordOccurrences": 13,
+      "questions": 2,
+      "outputTokens": 270,
+      "seconds": 4.9
+    },
+    {
+      "issues": [
+        {
+          "line": 0,
+          "part": -1,
+          "field": "translation",
+          "reason": "韩语'나오다'在此语境指照片冲洗/成像效果，非物理'出现'。译文'拍得好看吗'虽通顺但丢失了'出来'的语义核心，易误导学习者以为仅问拍摄动作而非结果。",
+          "suggestion": "建议译为'照片洗出来了吗？'或'照片效果好吗？'以准确传达成像/显影含义。"
+        },
+        {
+          "line": 1,
+          "part": -1,
+          "field": "translation",
+          "reason": "韩语'아니'是对前句'是否出来/好'的否定回答，意为'没（拍好/出来）'。译文直接译为'不好看'虽符合中文习惯，但忽略了其作为对'结果'否定的逻辑关联，易使学习者误解为单纯评价主观美感而非客观成像失败",
+          "suggestion": "建议补充语境或译为'没（拍好）。'以体现对前句结果的否定回应。"
+        }
+      ],
+      "id": "n38867-1-11",
+      "signature": "27ec923e049bf1f6d77feda85b87c9036a20b475c0285ea31f1afefc0ee2d4c1",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "1e20f16be8f22afa487d880da0d1738c38359d4fea8f1cc692eded022f4574e0",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 10,
+      "wordOccurrences": 10,
+      "questions": 2,
+      "outputTokens": 265,
+      "seconds": 8.6
+    },
+    {
+      "issues": [
+        {
+          "line": 0,
+          "part": -1,
+          "field": "translation",
+          "reason": "韩语'~는다며?'是引用他人话语并确认的句型，意为'听说...是吗？'。译文'听说油价要大幅上涨吗？'易被误解为说话人自己也在询问油价是否上涨，未体现'转述/引用'的语义核心，可能导致学习者忽略该句法",
+          "suggestion": "建议译为：'听说油价要大幅上涨？'"
+        },
+        {
+          "line": 1,
+          "part": -1,
+          "field": "question",
+          "reason": "听力题中，correctChineseMeaning为'对，估计会上涨10%以上。'，wrongChineseMeanings包含'听说油价要大幅上涨吗？'。前者是回答，后者是提问，两者语用功能不同，",
+          "suggestion": "建议将干扰项改为实质含义错误但形式相近的选项，如'油价已经大幅下跌了'"
+        }
+      ],
+      "id": "n46952-1-7",
+      "signature": "729d885cef728135c7ae9f7e7a73b29fd5f2504cb2292db9c1e0f12b81a75ef7",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "aeb99cc8eaefd361f2cdc087eb851f56ce1d706c8ef5b136da5bca92bc36b194",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 10,
+      "wordOccurrences": 10,
+      "questions": 2,
+      "outputTokens": 245,
+      "seconds": 8.28
+    },
+    {
+      "issues": [
+        {
+          "line": 0,
+          "part": -1,
+          "field": "translation",
+          "reason": "韩语'많이'修饰形容词'심각하다'时意为'很、非常'，而非数量上的'多'。译文'情况很严重吗？'语义正确，但词块标注'많이: 多'易误导学习者将其理解为程度副词以外的含义。",
+          "suggestion": "将'많이'的注释修正为'很、非常'以匹配语境。"
+        },
+        {
+          "line": 1,
+          "part": -1,
+          "field": "translation",
+          "reason": "韩语'고칠 수가 없습니다'意为'无法治愈/无法治好'，强调客观能力的缺失。译文'无法治愈'准确。但词块'고치다'标注为'治疗，医治'略显宽泛，且'수'标注为'可以，可能'在否定语境下易混淆，需明确其",
+          "suggestion": "将'고치다'注释细化为'治好、痊愈'；'수'在此处应提示为'能力/可能性'，结合'없다'表示'无法'。"
+        }
+      ],
+      "id": "n71886-1-6",
+      "signature": "f3ecad81c91d512e51e91861e67f8fb46fdafbb170fa4bdb9920061878baa1ec",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "14184b27660c7162ca33bef403aaca547cd36bdd9915108342e433ece58f599a",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 10,
+      "wordOccurrences": 10,
+      "questions": 2,
+      "outputTokens": 284,
+      "seconds": 8.26
+    },
+    {
+      "issues": [
+        {
+          "line": 0,
+          "part": 2,
+          "field": "annotation",
+          "reason": "助动词 -아/어야 在此处表示‘必须’，但句中 '해야 할 일' 是定语从句修饰 '일'，意为‘必须做的事’。注释将其解释为与前面的词合用表示‘应该、必须’容易让学习者误以为该句含有‘我们应该做某事’",
+          "suggestion": "修正为：此处 -아/어야 构成定语，表示‘必须做的’，修饰后面的名词 '일'。"
+        },
+        {
+          "line": 1,
+          "part": 3,
+          "field": "annotation",
+          "reason": "词块 '하지?' 的注释仅给出‘做，干’，未体现疑问语气或反语/感叹语境。结合前句抱怨工作多，此句意为‘这些什么时候才能做完啊？’（隐含无奈）。若学习者仅理解为‘做吗？’则语义偏差。",
+          "suggestion": "修正为：此处表疑问兼感叹，意为‘……吗？’或‘……啊？’，结合语境含无奈语气。"
+        }
+      ],
+      "id": "n62188-2-5",
+      "signature": "cd322d2e8c39e71b7aa43ebcb6e9c2ce1f5aa05f7850a11926f80ad8876ff4e0",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "6d8fb9d6d46e86ff5e1a576a57e614a1048f9e5c413851267310236b860c5946",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 9,
+      "wordOccurrences": 8,
+      "questions": 2,
+      "outputTokens": 276,
+      "seconds": 8.72
+    },
+    {
+      "issues": [
+        {
+          "line": 1,
+          "part": -1,
+          "field": "translation",
+          "reason": "原文'보자기'指包袱皮或布包，译文'布包'易误解为有填充物的包裹，实质是展开一块布。",
+          "suggestion": "建议改为'把那边那个粉红色的包袱皮打开看看'以准确传达动作对象。"
+        }
+      ],
+      "id": "n14519-1-7",
+      "signature": "262373c507ab8d8ba00c8a3c497fc7edda21bb3895c1c308eae3da37414b4b50",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "38ad1fad7ea771bf1df5db05541d004b4fb3d68b34eddc18c63a5b3493888747",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 11,
+      "wordOccurrences": 11,
+      "questions": 2,
+      "outputTokens": 106,
+      "seconds": 2.48
+    },
+    {
+      "issues": [
+        {
+          "line": 1,
+          "part": 1,
+          "field": "word",
+          "reason": "词块'다음달'被拆分为'다음'(以后，下次)和'달'(月)，导致学习者无法将'다음달'整体识别为'下个月'这一时间概念，易误解为'以后的月份'。",
+          "suggestion": "将'다음달'作为一个整体词条处理，释义为'下个月'。"
+        }
+      ],
+      "id": "n25428-1-10",
+      "signature": "9ca99ff6bbc15424f087cbdc5c87201c13eceb8ddd76d6ca9d61bb25f6b34f52",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "b091dc61a783a0910670dfaefdbf1bef49c8fed8af83e8be363047da877839b9",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 11,
+      "wordOccurrences": 11,
+      "questions": 2,
+      "outputTokens": 122,
+      "seconds": 3.91
+    },
+    {
+      "issues": [
+        {
+          "line": 0,
+          "part": -1,
+          "field": "translation",
+          "reason": "괜찮았지?在询问食物时意为‘好吃吗/合胃口吗’，译为‘不错吧’易被误解为评价事物状态（如完好、没问题），未准确传达对味觉的询问。",
+          "suggestion": "改为‘好吃吗？’或‘合胃口吗？’"
+        },
+        {
+          "line": 1,
+          "part": -1,
+          "field": "translation",
+          "reason": "한 가닥도 안 남겼어直译为‘一根都没剩’，虽形象但中文习惯说‘一点没剩’或‘全吃光了’。‘一根’易让学习者困惑冷面为何论根，且未体现‘全吃完’的实质语义。",
+          "suggestion": "改为‘一点都没剩下’或‘全吃光了’"
+        }
+      ],
+      "id": "n28118-2-7",
+      "signature": "f6a1e6feef90a08ac1fb44733926982085f7d36e98de3473adc5689165c8b6e9",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "1401aea155a335b376374409033570b92e398c47267e6111c513c4e08b9fa7ca",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 11,
+      "wordOccurrences": 11,
+      "questions": 2,
+      "outputTokens": 229,
+      "seconds": 5.55
+    },
+    {
+      "issues": [
+        {
+          "line": 0,
+          "part": -1,
+          "field": "word",
+          "reason": "单词'하다'的释义错误，将其解释为承接语气的助动词，导致学习者无法理解'준비를 하다'（准备）这一核心动宾搭配。",
+          "suggestion": "将'하다'的释义修正为'做，进行'，以准确对应'준비를 하다'的含义。"
+        },
+        {
+          "line": 1,
+          "part": -1,
+          "field": "word",
+          "reason": "单词'잘'的释义错误，仅解释为'容易'，忽略了其在否定句'잘 안 돌아가요'中作为程度副词修饰'不'的功能，易导致语义误解。",
+          "suggestion": "将'잘'的释义修正为'很，非常'或补充说明其在否定句中加强语气的作用。"
+        }
+      ],
+      "id": "n40699-2-9",
+      "signature": "1af2c33cfd683c00047ce0e74ae8a146e2d18cd1ae60c6cd71fb8f8ce72bfa00",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "7193a92c6cad518be2557bfd44da2fa63472aa19f152124a4fc83757defa6511",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 11,
+      "wordOccurrences": 11,
+      "questions": 2,
+      "outputTokens": 226,
+      "seconds": 6.92
+    },
+    {
+      "issues": [
+        {
+          "line": 1,
+          "part": -1,
+          "field": "question",
+          "reason": "听力题干扰项'今天怎么不带车去？'与韩语原句语义完全无关，属于无效干扰项，易误导学习者。",
+          "suggestion": "删除该无效干扰项，替换为与'身材好'或'骨架'相关的合理误解选项。"
+        }
+      ],
+      "id": "n82623-4-7",
+      "signature": "3679e614aae5420f41867dcab18ad30000fe5c7a9f603b871ab680e70be49306",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "54bd2a93ab99cc62e27d8f4c91a328e3c8ec16e907e8025510daf98e84654fae",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 11,
+      "wordOccurrences": 11,
+      "questions": 2,
+      "outputTokens": 107,
+      "seconds": 2.34
+    },
+    {
+      "issues": [
+        {
+          "line": 0,
+          "part": -1,
+          "field": "translation",
+          "reason": "韩语'가지고 가'意为'带着去'，译文'不带车去'遗漏了'带/拿'这一核心动作，易导致学习者误解为单纯'不开车'。",
+          "suggestion": "建议改为'今天怎么不带着车去？'或'今天怎么不带车出门？'"
+        },
+        {
+          "line": 1,
+          "part": -1,
+          "field": "translation",
+          "reason": "韩语'정비 중이거든'含解释原因或提供背景的语气（-ㄴ/는 거다），译文仅陈述事实，未体现'因为...所以...'的语境关联。",
+          "suggestion": "建议改为'公司大楼的停车场正在整修呢（所以没法停）'以补全语用含义。"
+        }
+      ],
+      "id": "n31751-3-8",
+      "signature": "94c02188a471ebda32fc4f262fdc39db6b95139e9d3cf7cf2585b8f3a1abe822",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "1ec28077b3e45ad3fa635a99f90ed902f5dee8348ec1e6f3a286beb687635b2b",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 12,
+      "wordOccurrences": 12,
+      "questions": 2,
+      "outputTokens": 225,
+      "seconds": 5.17
+    },
+    {
+      "issues": [
+        {
+          "line": 0,
+          "part": -1,
+          "field": "translation",
+          "reason": "韩语'밖에 누구 왔나?'意为'除了...之外还有谁来了？'或'外面是谁来了？'，隐含'只有一个人'或'特定对象'的语境，译文'有谁来了吗'过于宽泛，未体现'밖에'的限制含义。",
+          "suggestion": "改为'外面是谁来了？'或'除了我还有谁来了？'"
+        },
+        {
+          "line": 0,
+          "part": 2,
+          "field": "word",
+          "reason": "'왔나?'是疑问词尾，表示对事实的确认或惊讶，而非单纯的过去时陈述。注释'来，来到'未体现疑问语气。",
+          "suggestion": "改为'来了吗？（表示确认）'"
+        },
+        {
+          "line": 1,
+          "part": -1,
+          "field": "question",
+          "reason": "听力题干扰项'雨下得这么大，你还要去哪儿啊？'与原文完全无关，属于无效干扰，可能误导学习者对语境的判断。",
+          "suggestion": "替换为与'出去看看'语义相近但语境不同的选项，如'我打算去外面确认一下。'"
+        },
+        {
+          "line": 1,
+          "part": 2,
+          "field": "annotation",
+          "reason": "'볼게요.'注释为'试着做（-아/어 보다）'不准确，此处'볼게요'是'보겠다'的委婉形式，表示'我去看看/处理'，而非单纯尝试。",
+          "suggestion": "改为'我出去看看（表示意图）'"
+        }
+      ],
+      "id": "n42920-1-4",
+      "signature": "98e7a79c0ec5aea9f82659f1fe54ec8ce4d53a53ced6b656b8ca76d87cf7c249",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "468b1a0af6210737630a5cf394fa6d6e968563c3cf72bf4baefd94b23167ff6b",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 9,
+      "wordOccurrences": 9,
+      "questions": 2,
+      "outputTokens": 415,
+      "seconds": 9.09
+    },
+    {
+      "issues": [
+        {
+          "line": 0,
+          "part": 5,
+          "field": "annotation",
+          "reason": "거니?解释为推测或信念错误，此处表反问/质问语气，非单纯推测。",
+          "suggestion": "改为：表示反问或质问的语气词"
+        },
+        {
+          "line": 0,
+          "part": -1,
+          "field": "question",
+          "reason": "听力题干扰项包含第二句译文，易导致学习者混淆两句话的语境对应关系。",
+          "suggestion": "移除干扰项中属于另一对话轮次的句子"
+        }
+      ],
+      "id": "n81109-1-7",
+      "signature": "3de76b1b8349b6ca9776e863d155aded4c88c2d6d7862817274d4b3ebb507f6d",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "7137613ff82d06f83f3168e3be68d08da03d94ff5d0f82d7e1d494ee4e3d3b4b",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 9,
+      "wordOccurrences": 9,
+      "questions": 2,
+      "outputTokens": 160,
+      "seconds": 8.28
+    },
+    {
+      "issues": [
+        {
+          "line": 1,
+          "part": 2,
+          "field": "annotation",
+          "reason": "‘덕분에’在此语境下意为‘多亏、得益于’，标注‘关怀、恩德’易使学习者误解为对他人恩情的感激，偏离客观因果语义。",
+          "suggestion": "建议将‘关怀、恩德’删除或移至次要义项，优先保留‘多亏、得益于’等表因果的释义。"
+        }
+      ],
+      "id": "n55743-1-7",
+      "signature": "8e6c36736ffff341bc3ca9cc2866720244fe8eb3f2129361ecd3dab325751aaa",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "6b59f2843085658ab024438e14ebaf969d0636bd7cb2d253322e9eded7954c99",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 12,
+      "wordOccurrences": 11,
+      "questions": 2,
+      "outputTokens": 123,
+      "seconds": 5.43
+    },
+    {
+      "issues": [
+        {
+          "line": 1,
+          "part": -1,
+          "field": "translation",
+          "reason": "译文'那里的气温...'严重偏离原句语义。原句'고온의 날씨에 습도가 높아'意为'天气高温且湿度高'，未提及与'我国'的比较，也未提及'气温'这一具体指标，属于实质性误译。",
+          "suggestion": "修正为：'天气很热，湿度也很高。'"
+        },
+        {
+          "line": 1,
+          "part": -1,
+          "field": "question",
+          "reason": "听力题中，正确选项'东南亚的气候怎么样？'与错误选项'那里的气温比我们国家高，湿度也更大。'存在逻辑冲突。原句并未包含比较含义，将无比较义的陈述句设为干扰项是合理的，但需确保考生不因译文误导而选错。",
+          "suggestion": "建议检查题目设计意图，确保干扰项明显错误而非语义模糊。"
+        }
+      ],
+      "id": "n18786-1-7",
+      "signature": "d29f14116c9f415f8c69d8c8edc8d794e5dbcef747b98145b60a2da37d79fab8",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "b2c588ebaa0ab2c48a6233cd399b451aec1f4317c7605253e9a06eb886e8427c",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 8,
+      "wordOccurrences": 8,
+      "questions": 2,
+      "outputTokens": 245,
+      "seconds": 6.54
+    },
+    {
+      "issues": [
+        {
+          "line": 0,
+          "part": -1,
+          "field": "word",
+          "reason": "词块'연주'标注为'演奏'，但在此语境下指'演奏速度/节奏'，而非动作本身。学习者易误解为对'演奏行为'的评价，忽略了对'快慢'这一属性的描述。",
+          "suggestion": "将'연주'的释义调整为'演奏（的速度/节奏）'或补充语境义，以明确其指代的是速度属性。"
+        },
+        {
+          "line": 1,
+          "part": -1,
+          "field": "word",
+          "reason": "词块'늦추다'标注为'放慢，减慢'，虽语义正确，但作为动词原形，其在此处是将来时态' 늦출게'（我会放慢）的核心。若学习者仅记'减慢'而忽略时态语境，可能误以为是在描述过去或一般事实。",
+          "suggestion": "在'늦추다'的释义中补充说明其在此对话中用于表达'即将进行的动作'或'意愿'，以匹配译文中的'我会...'。"
+        }
+      ],
+      "id": "n57341-1-8",
+      "signature": "453ae195d0b1759225b9ba0d1cccc310b96b39279c3cc7e010b7ff06add03f99",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "16503ec98660f08f55590ec7da060815096e71a87c6f414640080cbc61c3c533",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 8,
+      "wordOccurrences": 8,
+      "questions": 2,
+      "outputTokens": 283,
+      "seconds": 8.05
+    },
+    {
+      "issues": [
+        {
+          "line": 0,
+          "part": -1,
+          "field": "translation",
+          "reason": "들어왔대요意为'听说进来了'，此处指比赛冲线，译文'传来'属严重语义错误，易导致学习者误解为消息传递而非动作。",
+          "suggestion": "将'传来'修正为'冲过终点'或'进入'，以准确表达比赛结果。"
+        },
+        {
+          "line": 0,
+          "part": -1,
+          "field": "question",
+          "reason": "听力题中correctChineseMeaning正确描述了事件，但wrongChineseMeanings包含的'也就是说他得了最后一名啊'在语义上也是正确的推断，并非错误选项，造成题目歧义。",
+          "suggestion": "将干扰项'也就是说他得了最后一名啊'替换为明显错误的含义，如'敏俊获得了第一名'。"
+        }
+      ],
+      "id": "n26546-1-7",
+      "signature": "f463d8047bb282ae9a3057b4169cc43841f94b09409fb410f81a8a40437e1e3f",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "376f4f369e5e380bbe4268af58613224489eed10f58eccac6a2007f9f1c3d15b",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 8,
+      "wordOccurrences": 7,
+      "questions": 2,
+      "outputTokens": 226,
+      "seconds": 7.77
+    },
+    {
+      "issues": [
+        {
+          "line": 1,
+          "part": -1,
+          "field": "translation",
+          "reason": "主语错误：'앉으세요'是敬语，针对特定对象（如对方或少数人），译为复数'大家'易误导学习者以为是对群体说话。",
+          "suggestion": "将'大家'改为'您'或'你们'，以准确反映对话中的单数/双数指向。"
+        },
+        {
+          "line": 1,
+          "part": 1,
+          "field": "annotation",
+          "reason": "词义缺失：'비좁으니까'标注为'狭小，狭窄'，遗漏了连接词尾'-니까'表示'因为'的因果逻辑，易导致理解偏差。",
+          "suggestion": "补充标注为'因为狭小/狭窄'或注明包含因果含义。"
+        },
+        {
+          "line": 0,
+          "part": -1,
+          "field": "question",
+          "reason": "听力题干扰项逻辑不清：第一题正确选项'我们一起坐吧'与第二句'여기는 비좁으니까...'无直接语义冲突，但作为干扰项出现在第一题中，可能让学习者混淆两句话的适用场景。",
+          "suggestion": "建议调整干扰项，使其更贴近易混淆语境，或明确区分两句话的使用对象差异。"
+        }
+      ],
+      "id": "n60727-1-7",
+      "signature": "c5d75b1652be4ea785d5d147f107327f1b34807b46108fe4feba1c7ce38d07da",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "a8ddecb6184de76738808e3e5fc66e9ef17a0cb73080841613f945b7602f582c",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 8,
+      "wordOccurrences": 8,
+      "questions": 2,
+      "outputTokens": 335,
+      "seconds": 8.4
+    },
+    {
+      "issues": [
+        {
+          "line": 0,
+          "part": -1,
+          "field": "translation",
+          "reason": "韩语'안 드세요?'是疑问句，译文'妈妈怎么不吃呢？'虽通顺但易被误解为陈述语气或反问，未明确体现对'为何不吃'的询问意图，建议改为'妈妈为什么不吃呢？'以强化疑问语义。",
+          "suggestion": "将'妈妈怎么不吃呢？'修正为'妈妈为什么不吃呢？'"
+        },
+        {
+          "line": 1,
+          "part": -1,
+          "field": "translation",
+          "reason": "韩语'어미는 괜찮으니'中'어미'指母亲，'괜찮으니'表示原因（因为没事），译文'妈妈我没事'将主语混淆为说话者自己，导致人物关系错误。",
+          "suggestion": "将'妈妈我没事'修正为'妈妈没事'"
+        },
+        {
+          "line": 1,
+          "part": -1,
+          "field": "question",
+          "reason": "听力题中，正确选项'妈妈我没事，你们都吃吧。'包含人物关系错误（将母亲状态误译为说话者），导致该选项实质含义错误，不应作为正确答案。",
+          "suggestion": "修正正确选项为'妈妈没事，你们都吃吧。'"
+        },
+        {
+          "line": 0,
+          "part": -1,
+          "field": "question",
+          "reason": "听力题干扰项'妈妈怎么不吃呢？'与正确选项语义重复且未体现疑问差异，无法有效区分学习者对疑问语气的理解。",
+          "suggestion": "替换干扰项为'妈妈正在吃饭吗？'"
+        }
+      ],
+      "id": "n71194-6-7",
+      "signature": "4ede852f7e1cd1cae8a1b717ac8991b46fb281bb300479155e2562f395efd4f3",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "518310cf81af4ea14acbb9ee3afd5cf32f1ab058917d63fbf7872e4f8c33cbef",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 9,
+      "wordOccurrences": 9,
+      "questions": 2,
+      "outputTokens": 415,
+      "seconds": 6.49
+    },
+    {
+      "issues": [
+        {
+          "line": 1,
+          "part": -1,
+          "field": "translation",
+          "reason": "韩语'쏟다'意为液体泼洒、倾倒，此处指可乐洒出。中文译文使用'倒'字，易被学习者误解为主动的'倒水/倒垃圾'动作，未能准确传达'意外泼洒'的语义实质。",
+          "suggestion": "将'倒'修正为'洒'或'泼洒'，以准确对应韩语动词'쏟다'在此语境下的含义。"
+        }
+      ],
+      "id": "n37872-1-7",
+      "signature": "ab234971f041f3333fcef41d17d29ed78d2e6357f1850b02454ff53171e9f931",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "144363a851cc9717497fd1616f3f43b7b807d234044e7b99ac6835dede2b56fb",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 9,
+      "wordOccurrences": 8,
+      "questions": 2,
+      "outputTokens": 139,
+      "seconds": 8.18
+    },
+    {
+      "issues": [
+        {
+          "line": 1,
+          "part": 1,
+          "field": "annotation",
+          "reason": "사물指具体物体，译为'事物'易混淆抽象概念，应改为'物体'",
+          "suggestion": "将'事物'修正为'物体'"
+        }
+      ],
+      "id": "n53131-1-10",
+      "signature": "05dc6ff55ab385fdca235a2e94b23530945948a4c12aaa38962ef6201da0be75",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "25794a1a55fc177cf1a1786c0266562704ae68c666e33294e49add6b878254ab",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 9,
+      "wordOccurrences": 9,
+      "questions": 2,
+      "outputTokens": 83,
+      "seconds": 3.79
+    },
+    {
+      "issues": [
+        {
+          "line": 0,
+          "part": 4,
+          "field": "word",
+          "reason": "좋다在此语境指发音'好/棒'，而非'强'。标注'强'易误导学习者以为指声音强度或能力强大，与句意不符。",
+          "suggestion": "将'좋다'的释义修正为'好，棒'，去除'强'以免产生歧义。"
+        }
+      ],
+      "id": "n70257-1-9",
+      "signature": "950ef9ede6295dccdf761cefb091f3aa5b23a15c31f9603d91eafeffde15030d",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "e83c01c94ffa9e34f7296564a09404f1fc18e838387595b284b007c377510831",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 9,
+      "wordOccurrences": 9,
+      "questions": 2,
+      "outputTokens": 109,
+      "seconds": 3.32
+    },
+    {
+      "issues": [
+        {
+          "line": 1,
+          "part": -1,
+          "field": "word",
+          "reason": "词义严重错误。'느끼다'意为感觉、体会，而非'气喘吁吁'。该错误会导致学习者完全误解句意。",
+          "suggestion": "将'느끼다'的释义修正为'感觉，体会'。"
+        },
+        {
+          "line": 1,
+          "part": -1,
+          "field": "word",
+          "reason": "词义严重错误。'지다'在此处作为被动语态后缀，表示'被...'或'成为...'的状态，而非独立词汇'表示成为前面表达的那样'。",
+          "suggestion": "将'지다'的释义修正为'（动词词干后）表示被动或状态变化'。"
+        }
+      ],
+      "id": "n80652-1-9",
+      "signature": "89c278e9f9f5f9022c89b9614ccac679ff0e86b3096410493eaabff9a13fac61",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "84f3b9093551a08888c68e1254f189ca6a8d86a2a87338964f056f458b5b449c",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 10,
+      "wordOccurrences": 11,
+      "questions": 2,
+      "outputTokens": 209,
+      "seconds": 3.97
+    },
+    {
+      "issues": [
+        {
+          "line": 0,
+          "part": -1,
+          "field": "translation",
+          "reason": "애창곡指'特别喜爱的歌曲'，并非'最常唱的歌'。将'喜爱'误译为'频率最高'，导致语义偏差。",
+          "suggestion": "改为：智秀最喜爱的歌曲是哪首呢？"
+        },
+        {
+          "line": 1,
+          "part": -1,
+          "field": "question",
+          "reason": "听力题干扰项'平时我经常唱自己喜欢的歌手的歌。'与正确答案含义完全一致，无法区分。",
+          "suggestion": "修改干扰项为其他无关句意，避免同义重复。"
+        }
+      ],
+      "id": "n17394-1-6",
+      "signature": "060e957f5092e98c0f3057a7b89e6394ce214fa4848e908448bf69ab7ed2afc4",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "1f243a8accc47a454bf8e10934b4f30997f797721cdc499d281862abdc3a1cf5",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 11,
+      "wordOccurrences": 10,
+      "questions": 2,
+      "outputTokens": 181,
+      "seconds": 6.35
+    },
+    {
+      "issues": [
+        {
+          "line": 0,
+          "part": 3,
+          "field": "annotation",
+          "reason": "수업을译为“进修，修习”错误，此处指“上课/课程”，与动词걸르다（缺席）搭配不当。",
+          "suggestion": "改为“课”或“课程”。"
+        },
+        {
+          "line": 0,
+          "part": 4,
+          "field": "annotation",
+          "reason": "걸렀니译为“落，跳过”错误，此处语境为缺席课程，应译为“缺席、没去”。",
+          "suggestion": "改为“缺席了吗”或“没去吗”。"
+        },
+        {
+          "line": 1,
+          "part": 3,
+          "field": "annotation",
+          "reason": "수업을译为“授课，讲课”错误，此处指学生听的“课”，而非老师讲的“授课”。",
+          "suggestion": "改为“课”或“课程”。"
+        },
+        {
+          "line": 1,
+          "part": 5,
+          "field": "annotation",
+          "reason": "들었어요译为“听”不准确，此处指“听课/上课”，仅译“听”易误解为听力动作。",
+          "suggestion": "改为“听课了”或“上课了”。"
+        }
+      ],
+      "id": "n26793-1-8",
+      "signature": "b9ff9be4d958f85185ab646bdcdab015d79537359c482d825c0e7d5266292bf2",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "1d79eb75cc149250c4d2456601fe5ad57747add295df9ac6e518a42054b78709",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 11,
+      "wordOccurrences": 11,
+      "questions": 2,
+      "outputTokens": 331,
+      "seconds": 7.63
+    },
+    {
+      "issues": [
+        {
+          "line": 0,
+          "part": -1,
+          "field": "translation",
+          "reason": "‘김 사장’通常指姓金的社长/老板，译文‘金社长’易被误解为名字含‘金’或特定称谓，且未体现‘사장’作为职位的通用性，建议明确为‘姓金的社长’。",
+          "suggestion": "最近姓金的社长生意好像进展得不错啊。"
+        },
+        {
+          "line": 1,
+          "part": -1,
+          "field": "translation",
+          "reason": "‘얼굴이 좋아 보이다’字面意为‘脸色看起来好’，引申为气色好或境遇好。译文‘气色很好’虽通顺，但忽略了该短语在韩语中常指‘处境/运气好转’的语境义，易导致学习者仅理解为生理状态。",
+          "suggestion": "嗯，他看起来境遇不错（或气色很好）。"
+        },
+        {
+          "line": 0,
+          "part": -1,
+          "field": "question",
+          "reason": "听力题干扰项‘爷爷，羊把草吃完了’与原文完全无关，属于无效干扰。正确选项‘最近金社长的事业好像进展得不错啊’中‘金社长’的指代若未明确，可能导致学习者对主语身份产生歧义。",
+          "suggestion": "建议将干扰项改为语义相近但细节错误的选项，如‘最近金董事的事业似乎停滞了’。"
+        },
+        {
+          "line": 1,
+          "part": -1,
+          "field": "question",
+          "reason": "听力题干扰项‘爷爷，羊把草吃完了’同样无效。正确选项‘嗯，他看起来气色很好’中‘他’指代前文的‘金社长’，若脱离上下文，学习者可能误以为‘얼굴’仅指面部表情而非整体状态。",
+          "suggestion": "建议将干扰项改为‘嗯，他的脸色看起来很苍白’等语义相反或细节偏差的选项。"
+        }
+      ],
+      "id": "n37534-2-7",
+      "signature": "916c090befc61c1ddc28e93a80f5021c7a80478a954e85aef5bdd0999fcc1082",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "6277b00afe1c3f118c132f3207b2d638ba87d5ac0a928d04fb08ace352b183d4",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 11,
+      "wordOccurrences": 10,
+      "questions": 2,
+      "outputTokens": 488,
+      "seconds": 11.52
+    },
+    {
+      "issues": [
+        {
+          "line": 1,
+          "part": -1,
+          "field": "translation",
+          "reason": "韩语'우리'在此语境指'羊圈/围栏'，译文补出'羊'字虽合理但易让学习者误以为原文有'羊'字或混淆前后句主语关系。",
+          "suggestion": "建议译为'那就把它们赶进圈里吧'，更贴合原文'우리'仅指代处所而非具体动物的语义，避免歧义。"
+        }
+      ],
+      "id": "n57454-1-7",
+      "signature": "2e28bc882aa0d756bc25d4814dd53921e3617fe446a340b46892dfc34b50f8d2",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "b7f7222bff57fe305bfbb4395859a76c08a7b44bac3496182f5dc2b1b8dd3b65",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 10,
+      "wordOccurrences": 10,
+      "questions": 2,
+      "outputTokens": 130,
+      "seconds": 9.08
+    },
+    {
+      "issues": [
+        {
+          "line": 1,
+          "part": -1,
+          "field": "translation",
+          "reason": "韩语'나가마'意为'出去'，译文'出来'方向相反，导致语义错误。",
+          "suggestion": "将'出来'修正为'出去'。"
+        }
+      ],
+      "id": "n77441-1-7",
+      "signature": "b8ea5b5fda5cbd7db147aef6493a0586491af3d04ddfbd61a14777245af767fe",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "8afbd7a1bb41bb358e40998dabc9c65e636c961156cd54d6ff181e7857dcc90d",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 10,
+      "wordOccurrences": 10,
+      "questions": 2,
+      "outputTokens": 87,
+      "seconds": 3.74
+    },
+    {
+      "issues": [
+        {
+          "line": 0,
+          "part": -1,
+          "field": "translation",
+          "reason": "韩语'전체에서'意为'从整体/全范围'，中文译文'这整栋楼'虽通顺但丢失了'范围'的语义侧重，易让学习者忽略'전체'的核心含义。",
+          "suggestion": "建议译为：'这栋楼的整个区域都禁烟吗？'以保留'전체'的范围义。"
+        },
+        {
+          "line": 1,
+          "part": -1,
+          "field": "question",
+          "reason": "听力题干扰项包含上一句的译文，虽非语义错误但易造成混淆。更严重的是，若学习者未掌握'지침이 그렇습니다'（规定如此/照章办事）这一固定搭配，可能误译为字面的'那样'。",
+          "suggestion": "确保学习者理解'지침이 그렇습니다'在此语境下指代'遵守内部规定'，而非单纯指示代词'那样'。"
+        }
+      ],
+      "id": "n77796-2-9",
+      "signature": "f6455708298d80c25d731f008949c1880e5ef14c40bb539f51aeda5410b88f30",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "3f16cc573d3d97979acd73c674baa28b9cbd17fcf0904cd73590ad7a3b980a8f",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 10,
+      "wordOccurrences": 10,
+      "questions": 2,
+      "outputTokens": 257,
+      "seconds": 5.56
+    },
+    {
+      "issues": [
+        {
+          "line": 0,
+          "part": -1,
+          "field": "translation",
+          "reason": "译文'你知道的，就是啊'对应韩语'있잖아'，但听力题正确选项将其译为'你知道的，就是啊'，而错误选项中包含'喂，先好好整理一下再来说话吧。'，这会导致学习者混淆两句话的含义。",
+          "suggestion": "确保听力题的正确选项与原文语义完全一致，避免使用其他句子的译文作为干扰项。"
+        },
+        {
+          "line": 1,
+          "part": -1,
+          "field": "translation",
+          "reason": "译文'喂，先好好整理一下再来说话吧。'对应韩语'뭐야, 좀 차곡차곡 정리를 해서 말을 해.'，但听力题正确选项将其译为'喂，先好好整理一下再来说话吧。'，而错误选项中包含'你知道的，就是啊，昨天非",
+          "suggestion": "确保听力题的正确选项与原文语义完全一致，避免使用其他句子的译文作为干扰项。"
+        }
+      ],
+      "id": "n80191-2-5",
+      "signature": "5141e5237bf4cce9588a12ab635477526dbe4644cefecc4b16f60242b4ac03e9",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "67790f764d42fac70215b0b48577591d5b3a8948cfe9252d1c7fe883025eb398",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 11,
+      "wordOccurrences": 10,
+      "questions": 2,
+      "outputTokens": 263,
+      "seconds": 7.71
+    },
+    {
+      "issues": [
+        {
+          "line": 0,
+          "part": 1,
+          "field": "annotation",
+          "reason": "‘그래?’在此语境下意为‘怎么了/发生什么事了’，而非字面的‘那样’。标注为‘那样’易导致学习者误解句意。",
+          "suggestion": "将‘그래?’的释义修正为‘怎么了/怎么回事’或补充语境义。"
+        },
+        {
+          "line": 1,
+          "part": 3,
+          "field": "annotation",
+          "reason": "‘그래.’在此处承接前文，意为‘（是因为）头晕’，而非字面的‘那样’。标注为‘那样’无法体现因果逻辑。",
+          "suggestion": "将‘그래.’的释义修正为‘（因为）头晕/所以这样’或补充语境义。"
+        }
+      ],
+      "id": "n87135-1-16",
+      "signature": "5035f0fccd413d2fbce3d6aefaff66a068f16dc32f3039024157f5b3d47a4021",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "d5767ff8bce34ea92b19a239e9d71f277d03a420ba1db21a8cc9a9a9823634fc",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 11,
+      "wordOccurrences": 11,
+      "questions": 2,
+      "outputTokens": 209,
+      "seconds": 6.78
+    },
+    {
+      "issues": [
+        {
+          "line": 1,
+          "part": 1,
+          "field": "translation",
+          "reason": "韩语'이'意为'这/该'，指代当前或上文提到的特定对象。译文将其具体化为'李'姓，属于无依据的过度推断，若人物并非姓李则造成实质误解。",
+          "suggestion": "改为'那这位部长'或'那位部长'，保留指示词含义而不预设姓氏。"
+        }
+      ],
+      "id": "n87530-1-7",
+      "signature": "d7043d1c9cbd9a2869ac6299e65cc66eebb64551ceeaba1234e77720bc9a4670",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "9727320a0c6152205b36ceeb1b4e909dd6fce385554f9755142d3158b770ae05",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 11,
+      "wordOccurrences": 11,
+      "questions": 2,
+      "outputTokens": 122,
+      "seconds": 5.37
+    },
+    {
+      "issues": [
+        {
+          "line": 0,
+          "part": 3,
+          "field": "annotation",
+          "reason": "‘만큼’在此处表示程度或代价，意为‘为了获得...需要付出...’，而非简单的‘与之相应地’，易导致因果逻辑理解偏差。",
+          "suggestion": "修正为：'越是...就越是...' 或 '在提供便利的同时（隐含代价）'"
+        },
+        {
+          "line": 2,
+          "part": 5,
+          "field": "translation",
+          "reason": "‘충분히’修饰‘이해한’，意为‘充分理解’。译文‘充分理解’准确，但需确保学习者不将其误解为‘完全理解’或忽略程度副词对语义的限制作用。此处无实质错误，但作为审校点提示注意语境中的‘充分’而非‘绝对’",
+          "suggestion": "保持现状，确认学习者理解‘充分’不等于‘完全’"
+        },
+        {
+          "line": 4,
+          "part": 1,
+          "field": "word",
+          "reason": "‘동의’在隐私语境下特指‘同意（数据处理）’，若学习者仅理解为一般性的‘赞同’，可能忽略其法律/协议含义。",
+          "suggestion": "明确标注为：'（对数据处理的）同意'"
+        },
+        {
+          "line": 5,
+          "part": 1,
+          "field": "word",
+          "reason": "‘자기 결정권’是专有名词‘自主决定权’，若拆解为‘自己的决定权’虽可通但不够精准，可能影响对隐私权利概念的专业理解。",
+          "suggestion": "修正为：'自主决定权'"
+        }
+      ],
+      "id": "c26",
+      "signature": "826ed8ee94e869e5cb7d5c851a22b6f1b1007b047f6d54398958044c6446a218",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "51d08dd2ea055af256020ff790895c40e1a6c5a89ad4bad8d87af23c9af40897",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 6,
+      "parts": 38,
+      "wordOccurrences": 16,
+      "questions": 2,
+      "outputTokens": 417,
+      "seconds": 8.87
+    },
+    {
+      "issues": [
+        {
+          "line": 0,
+          "part": 4,
+          "field": "translation",
+          "reason": "韩语'아들입니다'意为'是儿子'，译文'儿子'缺失系动词'是'，导致语义不完整。",
+          "suggestion": "改为'这个孩子是我的大儿子是。'或调整语序为'这是我的大儿子。'"
+        },
+        {
+          "line": 1,
+          "part": 0,
+          "field": "translation",
+          "reason": "韩语'그래?'在此语境下表示确认或感叹'是吗？/原来如此'，译文'真的'易被误解为对事实的强调而非回应。",
+          "suggestion": "改为'是吗？'"
+        }
+      ],
+      "id": "n41282-1-9",
+      "signature": "9544187024a0c4acfef6f161e073ee2362b8a995ed17e6b25a213654c0db4532",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "1ea6f957661067bf0c15f7d59944039b59c2736d5b630fd9c2ab75ba2aa14581",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 11,
+      "wordOccurrences": 11,
+      "questions": 2,
+      "outputTokens": 186,
+      "seconds": 3.46
+    },
+    {
+      "issues": [
+        {
+          "line": 0,
+          "part": 2,
+          "field": "annotation",
+          "reason": "词块'즐거웠어?'标注为'愉快，欢乐，欢快'，遗漏了疑问语气。学习者可能误以为这是陈述句而非询问感受，导致对听力题选项的语义判断错误。",
+          "suggestion": "修正为：'愉快吗？（过去式）'"
+        },
+        {
+          "line": 1,
+          "part": 7,
+          "field": "annotation",
+          "reason": "词块'있지.'标注为'就是'，严重误导。此处'있지'是终结语尾，表示确认或寻求同意（'对吧/是吧'），而非动词'有'的含义。学习者易误解句意。",
+          "suggestion": "修正为：'……吧（寻求确认）'"
+        }
+      ],
+      "id": "n77523-2-9",
+      "signature": "f99d4ad93d4a2ff0dfc78662e4c4c4eebe79b3f0a03b8fb338ca4e9626c58602",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "277c698bf51b3b66601614fd7d3885c1843341ae0f7eb4aff2b9556a74ce2d4c",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 11,
+      "wordOccurrences": 11,
+      "questions": 2,
+      "outputTokens": 216,
+      "seconds": 6.17
+    },
+    {
+      "issues": [
+        {
+          "line": 0,
+          "part": -1,
+          "field": "translation",
+          "reason": "韩语'가시니?'是疑问终结词尾，表示询问原因或确认事实，译为'吗？'虽通顺但丢失了'因为...所以...'的因果语境暗示，易让学习者忽略其作为探询理由的功能。",
+          "suggestion": "建议补充语境提示：'您父亲经常去登山吗（是因为什么/想了解情况）？'"
+        },
+        {
+          "line": 1,
+          "part": -1,
+          "field": "translation",
+          "reason": "韩语'한결같이'意为'始终如一地、总是'，强调一贯性而非时间上的'准时'。中文译文用'准时'属于语义偏差，可能误导学习者将'한결같이'理解为'정시에'（按时）。",
+          "suggestion": "建议修正为：'是的。每周日早上他都会一如既往地出门去。'"
+        }
+      ],
+      "id": "n84092-1-7",
+      "signature": "9465faa1959272435a5e1fbc9ae1e7155b90b275dd1beeaa2b255711f44a170c",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "2bb99882fef6f7d7f3ee29fb28863f3fc24df66cb5ac83a7fe8c91aad1038b9f",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 11,
+      "wordOccurrences": 11,
+      "questions": 2,
+      "outputTokens": 239,
+      "seconds": 7.24
+    },
+    {
+      "issues": [
+        {
+          "line": 0,
+          "part": -1,
+          "field": "translation",
+          "reason": "韩语'옆구리'本义为肋部，此处为隐喻用法指代伴侣。词块释义仅列字面义'肋'，未提示引申义，易致学习者误解为身体疼痛或空洞感，而非情感寂寞。",
+          "suggestion": "在'옆구리가'的词义注释中补充：'此处喻指身边的伴侣/依靠'"
+        },
+        {
+          "line": 1,
+          "part": 3,
+          "field": "word",
+          "reason": "词块'만들어'对应动词'만들다'，释义为'创立'严重偏离语境。此处'남자 친구를 만들다'是固定搭配，意为'结交/建立恋爱关系'，'创立'多用于组织或作品，会导致理解错误。",
+          "suggestion": "将'만들다'的释义修正为：'建立（关系），结交'"
+        }
+      ],
+      "id": "n87927-1-7",
+      "signature": "18243ad29aeebebe52d8984f793f81fc95be0c1c314d0aeba29de65b19adc4e9",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "19b3f7b0860b3e2365645aaa6bbefa0333f5ac9c0a5c31e6e75fb726684d584e",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 7,
+      "wordOccurrences": 7,
+      "questions": 2,
+      "outputTokens": 247,
+      "seconds": 7.83
+    },
+    {
+      "issues": [
+        {
+          "line": 0,
+          "part": -1,
+          "field": "word",
+          "reason": "words中'생선'释义含'鲜鱼，活鱼'易误导学习者认为鱼是新鲜的，而语境为腐烂。",
+          "suggestion": "删除'鲜鱼，活鱼'，仅保留'鱼'以避免与'썩는(腐烂)'语义冲突。"
+        },
+        {
+          "line": 1,
+          "part": -1,
+          "field": "word",
+          "reason": "words中'고약하다'释义含'臭'，虽通但易与'냄새'字面义重复，且不如'难闻'准确传达厌恶感。",
+          "suggestion": "删除'臭'，保留'难闻'以强调主观感受，避免与line 0的'臭味'混淆。"
+        }
+      ],
+      "id": "n18770-1-7",
+      "signature": "4f609ebdd5a095f3b339cbf5a784022ae0257236071da2a65d7d5825bd81db02",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "f5357309cb1d067a1c6fcaca999b5358f3ba7d70e0efad6f79ab8dac15cb84e4",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 7,
+      "wordOccurrences": 7,
+      "questions": 2,
+      "outputTokens": 220,
+      "seconds": 7.34
+    },
+    {
+      "issues": [
+        {
+          "line": 0,
+          "part": 2,
+          "field": "annotation",
+          "reason": "누구랑意为'和谁'，是疑问对象；注释为'谁都，无论是谁'属同形异义错误，会导致学习者误解为任指。",
+          "suggestion": "修正为：和谁"
+        },
+        {
+          "line": 0,
+          "part": -1,
+          "field": "question",
+          "reason": "听力题中，'听说他和智秀形影不离呢'是第二句含义，作为第一句的干扰项会导致学习者混淆两句语义。",
+          "suggestion": "建议移除该干扰项或替换为无关选项"
+        },
+        {
+          "line": 1,
+          "part": 1,
+          "field": "annotation",
+          "reason": "맞붙어意为'碰头、对接、交手'，注释为'形影不离'属严重语义错误，原句仅指两人经常见面或同行。",
+          "suggestion": "修正为：碰头、对接"
+        },
+        {
+          "line": 1,
+          "part": -1,
+          "field": "question",
+          "reason": "听力题中，'承奎最近是在和谁一起出去啊？'是第一句含义，作为第二句的干扰项会导致学习者混淆两句语义。",
+          "suggestion": "建议移除该干扰项或替换为无关选项"
+        }
+      ],
+      "id": "n57512-3-7",
+      "signature": "550d45f36285c69374ed3ad4e78dc7b9bfeb10b0ffdf2de15369f072d76b8113",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "afac96bec4c347025d267b200120eaa1f4b3ee495f2cd504ef94109916c44751",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 7,
+      "wordOccurrences": 5,
+      "questions": 2,
+      "outputTokens": 356,
+      "seconds": 8.49
+    },
+    {
+      "issues": [
+        {
+          "line": 1,
+          "part": -1,
+          "field": "translation",
+          "reason": "韩语'얻었어요'核心义为'得到/获得'，中文译作'租到'限缩了语义范围。若语境非租房场景（如免费获得、捡到），该译文会导致学习者误解动词原意。",
+          "suggestion": "建议将'租到'改为'得到'或'弄到'，以准确对应'얻다'的通用含义。"
+        }
+      ],
+      "id": "n87709-2-8",
+      "signature": "a8d8cff7e220ebda8458f75936a1c9fb6cfaefa2d27636f0441001e086cccfa4",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "a438c1da11da75235eefa229031014a53592374feb121fee5d1489ed8dfd4575",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 7,
+      "wordOccurrences": 7,
+      "questions": 2,
+      "outputTokens": 131,
+      "seconds": 7.38
+    },
+    {
+      "issues": [
+        {
+          "line": 0,
+          "part": 2,
+          "field": "word",
+          "reason": "빠져나가다在此语境指从困境或封闭空间'脱身/出去'，而非抽象的'摆脱'或'流失'，易误导学习者忽略物理移动含义。",
+          "suggestion": "修正为：脱身，逃出去，离开"
+        },
+        {
+          "line": 1,
+          "part": 1,
+          "field": "word",
+          "reason": "묘한意为'奇怪的、微妙的、难以言喻的'，并非'绝妙/绝佳'。此处译为'特别'尚可接受，但词义注释错误会导致学习者混淆褒贬及具体语境。",
+          "suggestion": "修正为：奇怪的，微妙的，难以捉摸的"
+        }
+      ],
+      "id": "n54827-3-7",
+      "signature": "9869e7387a9080b97ea3b708ea15990f75c20beea5c50bc0a2b8e9489e4cb019",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "ee184067c1e120dc87528a1174f55090fe2ffc4560ce97ce449baabd8a968bab",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 7,
+      "wordOccurrences": 7,
+      "questions": 2,
+      "outputTokens": 206,
+      "seconds": 5.39
+    },
+    {
+      "issues": [
+        {
+          "line": 1,
+          "part": 5,
+          "field": "annotation",
+          "reason": "词义解释错误。'차여'是动词'차다'（踢）的语干+终结词尾，意为'被踢/踢到'，而非'被踢起'。",
+          "suggestion": "修正为：被踢，踢到"
+        }
+      ],
+      "id": "n82273-4-5",
+      "signature": "d3ff0f05db270d4a9fa8b25bcb1ac6312bc1065927981617e75bd6fc63635050",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "64cb93509871e409020a2b6f207bb4a8e60c443a4677c4a4ff9a6c81cf9640ee",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 10,
+      "wordOccurrences": 10,
+      "questions": 2,
+      "outputTokens": 106,
+      "seconds": 2.48
+    },
+    {
+      "issues": [
+        {
+          "line": 0,
+          "part": -1,
+          "field": "translation",
+          "reason": "韩语'보이네?'在此语境下表示'没看见/不见踪影'，而非'看起来/看上去'。译文未体现'没见到'的核心语义，易导致学习者误解为对状态的观察。",
+          "suggestion": "将'看起来，看上去'修正为'没见到/不见踪影'。"
+        },
+        {
+          "line": 0,
+          "part": 3,
+          "field": "annotation",
+          "reason": "词块'보이네?'的注释给出'看起来，看上去'，这是'보다'作为视觉动词或状态形容词时的常见义，但在此句'안 보이네'中意为'看不见/没露面'。注释误导了本句的实际含义。",
+          "suggestion": "将'看起来，看上去'修正为'没见到/不见踪影'。"
+        },
+        {
+          "line": 1,
+          "part": 0,
+          "field": "annotation",
+          "reason": "词块'걔'注释为'그 아이(那个孩子)'，虽解释了来源，但在本句中指代前文的'승규'（承奎），即'他'。对于学习者而言，直接对应'他'更准确，避免误以为是泛指小孩。",
+          "suggestion": "补充或修正为'他（指承奎）'。"
+        }
+      ],
+      "id": "n82059-1-10",
+      "signature": "1644f705e10afb8e0e6087ab57f58a15a49f65a365f55aa68d6a32a9b98e1388",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "54f601ba7e1a3691d33f453527c79b11b13619fd18515f592a87ace79af76041",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 12,
+      "wordOccurrences": 11,
+      "questions": 2,
+      "outputTokens": 348,
+      "seconds": 6.89
+    },
+    {
+      "issues": [
+        {
+          "line": 0,
+          "part": 1,
+          "field": "word",
+          "reason": "词块'다음'标注为'以后，下次'，易与'주에'（周）混淆。此处'다음 주'意为'下周'，'다음'应明确为序数修饰语'下一个'。",
+          "suggestion": "将'다음'的释义修正为'下一个'，以准确对应'다음 주'（下周）的时间概念。"
+        },
+        {
+          "line": 1,
+          "part": 2,
+          "field": "word",
+          "reason": "词块'말도'标注为'意思'严重错误。'말'意为'话/语言'，'도'是助词'也'。此处指'连一句话都没有'，而非抽象的'意思'。",
+          "suggestion": "将'말도'的释义修正为'话（也）'或'言语'，明确其指代具体的话语内容。"
+        },
+        {
+          "line": 1,
+          "part": 3,
+          "field": "word",
+          "reason": "词块'없다가'标注为'没有'遗漏了语法功能。'-다가'表示状态持续后发生转折，意为'一直...却突然...'。仅译'没有'无法体现前后因果转折的语义实质。",
+          "suggestion": "将'없다가'的释义补充为'一直没...却突然'，以体现从'无声'到'突发质问'的状态转换。"
+        },
+        {
+          "line": 1,
+          "part": 7,
+          "field": "word",
+          "reason": "词块'소리야!'标注为'话，语言'过于宽泛。在此语境'그게 무슨 소리야'是固定习语，意为'那是什么话/意思'，带有惊讶或质疑语气，非单纯指物理声音。",
+          "suggestion": "将'소리'的释义修正为'（话语的）意思/说法'，以贴合'무슨 소리야'（什么话/什么意思）的习语用法。"
+        }
+      ],
+      "id": "n40404-1-8",
+      "signature": "01d33c0d41bc74ce64a121cbab9af6e1e649c9cc3bfdc0a0ca5913871da9f719",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "09794175c8967317383bdcba7d4de6d90aeb23094f55e87e29ce71237997c2df",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 13,
+      "wordOccurrences": 12,
+      "questions": 2,
+      "outputTokens": 508,
+      "seconds": 11.9
+    },
+    {
+      "issues": [
+        {
+          "line": 0,
+          "part": -1,
+          "field": "question",
+          "reason": "听力题干扰项'今天约会的那个男人怎么样？'与原文语义完全无关，属于无效干扰，易误导学习者。",
+          "suggestion": "删除该无效干扰项，或替换为与'轮子/制作'相关的近义混淆项。"
+        }
+      ],
+      "id": "n50261-1-8",
+      "signature": "452135817cd80f9dcd1836393b3d5e1582db3482879a2e22a85513b39619e2e2",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "91b3e534f1bba4176c43d1eaaaa6d63c82962f61e25c14d181b45536651ad618",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 8,
+      "wordOccurrences": 8,
+      "questions": 2,
+      "outputTokens": 104,
+      "seconds": 8.67
+    },
+    {
+      "issues": [
+        {
+          "line": 0,
+          "part": -1,
+          "field": "translation",
+          "reason": "ko '소개팅'意为相亲，zh误译为约会，属同形异义词错误，导致场景实质语义偏差。",
+          "suggestion": "将'今天约会的那个男人怎么样？'修正为'今天相亲的那个男人怎么样？'"
+        },
+        {
+          "line": 1,
+          "part": -1,
+          "field": "translation",
+          "reason": "zh添加'所以'，原文无因果连接词，虽语意通顺但改变了原句的陈述结构。",
+          "suggestion": "将'他性格很差，所以不太好。'修正为'他性格不怎么样，挺一般的。'"
+        }
+      ],
+      "id": "n58694-1-8",
+      "signature": "107c308f56a1c138a3b4f4a0031c78102878866504d69ef000a42bdd26aeaffa",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "e04724c86afdd790660999e947c4870483597ca491a4fc5c112c23e9c4f24a3f",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 8,
+      "wordOccurrences": 8,
+      "questions": 2,
+      "outputTokens": 191,
+      "seconds": 4.72
+    },
+    {
+      "issues": [
+        {
+          "line": 1,
+          "part": 0,
+          "field": "word",
+          "reason": "신경在此语境意为'关心、留意'，而非生理上的'神经'。学习者若按字面义理解会导致语义偏差。",
+          "suggestion": "将'神经'修正为'关心'或'关照'"
+        },
+        {
+          "line": 1,
+          "part": 1,
+          "field": "word",
+          "reason": "쓰다在此处是'신경 쓰다（关心/留意）'的固定搭配，意为'费心、关注'。解释为'用，使用'易误导学习者将其视为普通动词。",
+          "suggestion": "将'用，使用'修正为'费心、关注'"
+        }
+      ],
+      "id": "n15456-1-9",
+      "signature": "044d41177f4a280f69595736b8bc8ea55ad45f57729a86970fa08b23dc3ab55c",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "d5465aeef9673d9c304152702681bace5d824471c4a35672bf9b292a0be4f8b3",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 10,
+      "wordOccurrences": 10,
+      "questions": 2,
+      "outputTokens": 198,
+      "seconds": 6.01
+    },
+    {
+      "issues": [
+        {
+          "line": 0,
+          "part": 4,
+          "field": "translation",
+          "reason": "조용하다意为安静、不吵闹，此处形容因专注而无声的状态；译为“文静”侧重性格温和内向，易导致学习者误解为描述人物性格而非当前状态。",
+          "suggestion": "将“文静”修正为“安静”。"
+        },
+        {
+          "line": 0,
+          "part": 2,
+          "field": "word",
+          "reason": "하길래是하다+기-llae构成，表示“因为做某事（所以……）”，强调原因；仅注“做，干”遗漏了因果逻辑，易导致学习者忽略前后句的因果联系。",
+          "suggestion": "补充解释为“因为做、由于做”。"
+        },
+        {
+          "line": 1,
+          "part": 3,
+          "field": "annotation",
+          "reason": "-고 있다表示动作正在进行或状态持续；注“正在做”易让初学者误以为必须对应具体动词，而此处是形容词性状态（专注），应强调状态的持续性。",
+          "suggestion": "修正为“表示状态持续”。"
+        }
+      ],
+      "id": "n56010-1-10",
+      "signature": "fba93c2ecad314e94586505dfdcb98d10a9e7a25b63277bb11313f89d7b35861",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "e49dc4b1fff2f6a43c081d5bd424a40fbcf60dc2c8b0ee953999fc715e683ee0",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 9,
+      "wordOccurrences": 8,
+      "questions": 2,
+      "outputTokens": 272,
+      "seconds": 7.53
+    },
+    {
+      "issues": [
+        {
+          "line": 0,
+          "part": 2,
+          "field": "annotation",
+          "reason": "词块'하려고'标注为'做，干'易使学习者误以为此处动词是'做'，实际语义核心是意图'充电'。",
+          "suggestion": "建议修正为：表示意图的助动词结构（打算/想要）"
+        }
+      ],
+      "id": "n78855-1-7",
+      "signature": "05da477d08ac51ab1bfec3d9bba6a6ea212caf875ff86a10c45e09da416a18dc",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "b4a1c2dea889e274a39a2521f44d2b8b1540051a030869cdb4387a1d7ae551fe",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 9,
+      "wordOccurrences": 9,
+      "questions": 2,
+      "outputTokens": 104,
+      "seconds": 2.61
+    },
+    {
+      "issues": [
+        {
+          "line": 0,
+          "part": 4,
+          "field": "word",
+          "reason": "词义解释严重错误，'되다'意为'成为/发生'，此处'안 되다'为'不行/没发生'，非'不被允许'",
+          "suggestion": "修正为：某个事情不发生或无法实现。"
+        },
+        {
+          "line": 0,
+          "part": 5,
+          "field": "word",
+          "reason": "词义解释错误，'거'在此处是名词化定语词尾，指代前文提到的事实/情况，非泛指事物",
+          "suggestion": "修正为：指代前述的事实或情况。"
+        },
+        {
+          "line": 1,
+          "part": 4,
+          "field": "word",
+          "reason": "词义解释错误，'하다'在此处是辅助动词构成'하면서'(一边...一边/在...期间)，非独立行为动词",
+          "suggestion": "修正为：构成连接语尾，表示动作的伴随或期间。"
+        },
+        {
+          "line": 1,
+          "part": 5,
+          "field": "word",
+          "reason": "词义解释缺失后缀功能，'지내다'意为度过(时间)，此处'지냈거든'含告知原因语气，非仅'度日'",
+          "suggestion": "修正为：度过(时间)，句尾含告知原因的语气。"
+        }
+      ],
+      "id": "n88021-2-4",
+      "signature": "3a313b7aedce0a13b3ba2b95cfa22e7bffa36a270a6ba01f298200cae5ae02d0",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "4cdc95ca9fba456959e68c1bd5d2dee22d39613c3e9cc0f1d5d8b1619de7a40c",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 12,
+      "wordOccurrences": 12,
+      "questions": 2,
+      "outputTokens": 334,
+      "seconds": 6.75
+    },
+    {
+      "issues": [
+        {
+          "line": 1,
+          "part": -1,
+          "field": "translation",
+          "reason": "韩语'된장'指大酱（发酵豆酱），中文译文误作'黄豆酱'，虽成分相近但语义范畴不同，易导致学习者混淆两种酱料的区别。",
+          "suggestion": "将'黄豆酱'修正为'大酱'。"
+        },
+        {
+          "line": 1,
+          "part": -1,
+          "field": "question",
+          "reason": "听力题中，第一句的正确译文被错误地列为第二句的干扰项，反之亦然。这导致题目逻辑混乱，无法正确考察对单句含义的理解。",
+          "suggestion": "交换两个问题的correctChineseMeaning和wrongChineseMeanings中的对应选项，确保每个问题只针对当前句子。"
+        }
+      ],
+      "id": "n73818-2-7",
+      "signature": "1dab2972279e34b5a84ae88db646304a6215c7b44691d82618b04c3a3db9f4e5",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "ec615c914dcfd95ce2ac58fc4c55f10d78b03eefcf19315f2e10aba17067fc07",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 11,
+      "wordOccurrences": 11,
+      "questions": 2,
+      "outputTokens": 212,
+      "seconds": 8.01
+    },
+    {
+      "issues": [
+        {
+          "line": 1,
+          "part": 0,
+          "field": "annotation",
+          "reason": "그냥在此处意为“仅仅、只是”，表示限定范围，而非“随便”。",
+          "suggestion": "修正为“只是”或“仅仅”。"
+        },
+        {
+          "line": 1,
+          "part": 6,
+          "field": "annotation",
+          "reason": "텔레비전이나中的-나表示“姑且、随便”，暗示动作的随意性，而非单纯指代电视。",
+          "suggestion": "修正为“看电视（而已/随便看看）”。"
+        }
+      ],
+      "id": "n50958-1-7",
+      "signature": "5200c2dad8183839395cf9cfff1f75ee50528c9850ac646d58c9e92cfdc6ea22",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "501a74e91ce69e104db72025b83314336cb2cbef99fb3652c552ce2af3e5a5a6",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 9,
+      "wordOccurrences": 10,
+      "questions": 2,
+      "outputTokens": 165,
+      "seconds": 5.84
+    },
+    {
+      "issues": [
+        {
+          "line": 0,
+          "part": -1,
+          "field": "translation",
+          "reason": "译文'我被调往外地工作了'添加了原文没有的'我'和'了'，虽可接受但非直译。更严重的是parts中'발령이'解释为'任命，调令'，'났어'解释为'发生'，这种拆分导致学习者误以为这是两个独立动作，而非",
+          "suggestion": "建议将'발령이 났다'整体理解为'被调动/接到调令'，避免拆分为'任命发生'"
+        },
+        {
+          "line": 1,
+          "part": -1,
+          "field": "translation",
+          "reason": "译文'那就要和家人分开生活了吗？'准确传达了原意。但parts中'하는'解释为'应该、必须（与前面的 -아/어야 合用）'是错误的语法术语描述，'하다'在此处是形式动词，无实际词汇意义，仅起语法支撑或",
+          "suggestion": "建议删除'하는'和'하다'的'应该、必须'释义，标注为'形式动词，无实义'"
+        }
+      ],
+      "id": "n56796-1-15",
+      "signature": "b4cd1f3c860a1d58a093c3ea726eb643a6ee2f3f11cca57d63a370dd60a155a8",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "b078e92d24f366264938fc161c009bd10f6dacc0a61833ab0bb03a0405360e87",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 10,
+      "wordOccurrences": 10,
+      "questions": 2,
+      "outputTokens": 282,
+      "seconds": 7.09
+    },
+    {
+      "issues": [
+        {
+          "line": 0,
+          "part": 1,
+          "field": "annotation",
+          "reason": "동생指弟妹，非特指‘家里小的那个’（可能含子女），易致人物关系误解。",
+          "suggestion": "修正为'弟弟；妹妹'"
+        },
+        {
+          "line": 1,
+          "part": -1,
+          "field": "question",
+          "reason": "听力题将两句不同语义内容互换为干扰项，导致选项实质含义混淆。",
+          "suggestion": "移除对方句子作为干扰项"
+        }
+      ],
+      "id": "n62755-1-10",
+      "signature": "535d090a5db6cd83b62bcc0c258b6e182fba6f4c0dc416acd9d5eb6372d86961",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "54656ab55f09e5c48945b544bbf39f6d96615ad6fa720acc61f36259040dd463",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 9,
+      "wordOccurrences": 9,
+      "questions": 2,
+      "outputTokens": 156,
+      "seconds": 3.19
+    },
+    {
+      "issues": [
+        {
+          "line": 0,
+          "part": -1,
+          "field": "translation",
+          "reason": "韩语'좁지 않아요?'是反问句，意为'不窄吗？/挺宽敞的'，译文'不会有点窄吧？'语义相反。",
+          "suggestion": "改为：这个房间不觉得有点窄吗？"
+        },
+        {
+          "line": 1,
+          "part": -1,
+          "field": "question",
+          "reason": "听力题正确选项与上一句译文相同，导致两题答案混淆，无法区分。",
+          "suggestion": "修改第二题的正确中文含义，使其对应'安身之所/正合适'。"
+        }
+      ],
+      "id": "n66416-2-8",
+      "signature": "5eee3268f1de245f64d9244a2f737e2457ce1d52206e58063d4eb4796a374858",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "a266780e42d7af58761e4d0fe39c5e66700a80cc7c43abb09137b6f821feb38f",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 9,
+      "wordOccurrences": 9,
+      "questions": 2,
+      "outputTokens": 182,
+      "seconds": 5.4
+    },
+    {
+      "issues": [
+        {
+          "line": 0,
+          "part": 1,
+          "field": "word",
+          "reason": "'억세다'在此语境指程度深、猛烈，译为'强大/疾劲'易误导为力量大，应侧重寒冷之剧烈。",
+          "suggestion": "修正词义：猛烈地、厉害地。"
+        },
+        {
+          "line": 1,
+          "part": 4,
+          "field": "word",
+          "reason": "'것'在此处与'같다'搭配表示推测（好像要...），注释解释为预测/计划会导致学习者误解语法功能。",
+          "suggestion": "修正词义：用于动词后，表示对情况的推测或判断。"
+        }
+      ],
+      "id": "n67187-4-8",
+      "signature": "fef243115c394f97c81a412b6c89231b06e3ffbe50abcb790958ea0c61513e08",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "078a12388474bdd02f43a554fe7733483d1d130e5769a7200e9d2c84d3a84349",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 9,
+      "wordOccurrences": 9,
+      "questions": 2,
+      "outputTokens": 170,
+      "seconds": 5.69
+    },
+    {
+      "issues": [
+        {
+          "line": 0,
+          "part": -1,
+          "field": "word",
+          "reason": "‘없다’在此处意为‘没有’，而非‘不可以/不能’。词义错误会导致学习者误解句意。",
+          "suggestion": "将‘없다’的释义修正为‘没有’。"
+        },
+        {
+          "line": 1,
+          "part": -1,
+          "field": "word",
+          "reason": "‘엉키다’意为‘纠缠、打结’，形容思绪混乱。释义‘纠结’易与情感上的纠结混淆，且未体现‘乱’的核心语义。",
+          "suggestion": "将‘엉키다’的释义修正为‘纠缠不清’或‘打结’。"
+        }
+      ],
+      "id": "n67461-6-6",
+      "signature": "0b861c0d5b1c0c557a7fbf6c2e36146a984afe1ab13a487e54697b0a1075a552",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "b8016f2906c566020d0872a53239dd8a92a99ecfa7ba838afc4967f22efbd293",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 9,
+      "wordOccurrences": 9,
+      "questions": 2,
+      "outputTokens": 198,
+      "seconds": 5.68
+    },
+    {
+      "issues": [
+        {
+          "line": 0,
+          "part": 1,
+          "field": "word",
+          "reason": "개처럼意为“像狗一样”，修饰생긴（长得），解释为“狗，犬”割裂了比喻关系，易致误解。",
+          "suggestion": "改为“像狗一样”"
+        },
+        {
+          "line": 1,
+          "part": -1,
+          "field": "translation",
+          "reason": "한단다含“听说/据说”之意，译文“那是狼”丢失了信息来源，实质语义不完整。",
+          "suggestion": "改为“听说那是狼”"
+        }
+      ],
+      "id": "n28331-1-7",
+      "signature": "173c3d7b561480254752b880b3e3392070b9b7b4eca6d1309290dc0a037cfabb",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "a70afaa68f3251b2167bede01ac197973c419c576d774087e6ed87c9ffe397f0",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 11,
+      "wordOccurrences": 11,
+      "questions": 2,
+      "outputTokens": 168,
+      "seconds": 3.13
+    },
+    {
+      "issues": [
+        {
+          "line": 1,
+          "part": -1,
+          "field": "translation",
+          "reason": "译文'没有'易被误解为对前句'找到围巾了吗？'的否定回答，但此处'아니'是语气词表示转折或无奈，实质语义是'还没呢/没影儿'，且后半句才是核心。",
+          "suggestion": "建议将'没有'改为'还没呢'或'没影儿'，以准确传达说话人未找到且略带抱怨的语气，避免与一般否定回答混淆。"
+        },
+        {
+          "line": 1,
+          "part": -1,
+          "field": "question",
+          "reason": "听力题中，wrongChineseMeanings包含'找到围巾了吗？'，这是第一句的译文，作为第二句的干扰项虽可接受，但若学习者混淆两句，可能误选。更严重的歧义在于correctChineseMea",
+          "suggestion": "建议检查听力题选项设置，确保干扰项不会因上下文缺失导致严重误解。当前干扰项'找到围巾了吗？'与正确答案含义截然不同，无实质歧义，但需确保学习者能区分两句语境。"
+        }
+      ],
+      "id": "n82634-4-7",
+      "signature": "7d03d3ce54af6b2f952315cd18a3a3c40e4254856adeb1b9177f19c900f69239",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "be2dfa2811e74c116cc985a8906add95298564cf734bb60932f63438c845c0d6",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 9,
+      "wordOccurrences": 9,
+      "questions": 2,
+      "outputTokens": 284,
+      "seconds": 4.99
+    },
+    {
+      "issues": [
+        {
+          "line": 0,
+          "part": -1,
+          "field": "translation",
+          "reason": "韩语'얼굴이 피어나는 거야?'意为脸色红润、气色好，是褒义。译文'气色这么好'正确。但听力题中，correctChineseMeaning设为'最近怎么气色这么好啊？'，而wrongChineseM",
+          "suggestion": "听力题选项设置无误，无需修正。"
+        },
+        {
+          "line": 1,
+          "part": -1,
+          "field": "question",
+          "reason": "听力题中，correctChineseMeaning为'嗯，其实我交了新男朋友。'，这是正确的翻译。wrongChineseMeanings中的'最近怎么气色这么好啊？'是上一句的译文，作为干扰项合理",
+          "suggestion": "题目设计合理，无实质错误。"
+        }
+      ],
+      "id": "n85882-4-5",
+      "signature": "b9dc4c92b69768fc6296faa8286ef9985dc8a7ce1648bba3f51cf66cf2042fbf",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "f2bed1e86f6c8beabb087495973d4a1aea31568ff19ef21287a8ca26eb1db8d5",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 12,
+      "wordOccurrences": 12,
+      "questions": 2,
+      "outputTokens": 218,
+      "seconds": 7.39
+    },
+    {
+      "issues": [
+        {
+          "line": 0,
+          "part": -1,
+          "field": "translation",
+          "reason": "语用错误：'어설프다'在此语境指工作/技能不熟练、生疏，而非物理上的'粗糙'。译为'粗糙'易误导学习者理解为本义。",
+          "suggestion": "将'粗糙'改为'生疏'或'不熟练'，以准确传达对作品质量的自谦。"
+        },
+        {
+          "line": 1,
+          "part": -1,
+          "field": "translation",
+          "reason": "语用错误：'어설프다'在此指新手常见的不熟练状态，译为'不够熟练'尚可，但结合'뭐'（算了/罢了）的语气，原译'很正常的'虽通顺但丢失了'勉强/凑合'的细微语感，不过不构成实质误解。主要问题在于前一句",
+          "suggestion": "建议保留'不熟练'，无需大幅修改，因当前译文未造成严重语义偏差。"
+        },
+        {
+          "line": 0,
+          "part": 5,
+          "field": "word",
+          "reason": "释义误导：'어설프다'的释义包含'粗糙'，易使学习者混淆其用于形容物品表面与形容技能/作品质量的区别。",
+          "suggestion": "补充说明该词在形容技能或作品时意为'生疏、不熟练'，避免仅用'粗糙'导致误解。"
+        },
+        {
+          "line": 1,
+          "part": 3,
+          "field": "annotation",
+          "reason": "释义不完整：'어설프지'的注释为'粗糙，不熟练'，未体现句末'-지'在此处表示确认或轻微感叹的语气功能。",
+          "suggestion": "补充说明此处'-지'用于寻求对方认同或表示'本来就是这样'的语气，而非单纯陈述事实。"
+        }
+      ],
+      "id": "n67029-1-10",
+      "signature": "13d59ad53c1835188762d5bdc6791a56364d0de665c3afcf3a203cf354b9b75c",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "ed790f38e3f2064cb19f9d4841b3ceb192009cee2803a1319a3bc6e9c183af59",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 11,
+      "wordOccurrences": 11,
+      "questions": 2,
+      "outputTokens": 467,
+      "seconds": 7.18
+    },
+    {
+      "issues": [
+        {
+          "line": 0,
+          "part": -1,
+          "field": "translation",
+          "reason": "韩语'그 사람'在此语境下指代前文提到的特定男性，译为'那个男人'更准确。译文将'그 사람'译为'那个男人'虽可接受，但结合下文回答'그 남자는'（那个男人），此处用'那个人'或保留'那个男人'均可，",
+          "suggestion": "无实质错误，建议统一为'那个男人'以呼应下文。"
+        },
+        {
+          "line": 1,
+          "part": 0,
+          "field": "annotation",
+          "reason": "韩语'응'在此处作为肯定回答，意为'嗯'、'是的'。注释给出'是，行'，其中'行'带有口语许可意味，易误导学习者将其理解为对请求的答应，而非对评价问题的确认。",
+          "suggestion": "建议修正为'嗯，是的'。"
+        },
+        {
+          "line": 1,
+          "part": 5,
+          "field": "word",
+          "reason": "韩语'사람이지'中的'이지'是强调终结词尾，表示确认或提醒对方已知的事实（...吧/...嘛）。注释仅给出'人'，遗漏了语气成分，可能导致学习者忽略句子的确认语气。",
+          "suggestion": "建议补充为'人（吧/嘛）'或注明强调语气。"
+        },
+        {
+          "line": 0,
+          "part": -1,
+          "field": "question",
+          "reason": "听力题中，正确选项'智秀，那个男人怎么样？'与干扰项'嗯，那个男人是个勤奋又踏实的人。'在语义上分别对应问句和答句。但干扰项中的'嗯'是答句开头，放在问句选项中会造成语境混淆，虽非实质含义错误，但作为",
+          "suggestion": "建议移除干扰项中的'嗯'，改为'那个男人怎么样？'以避免语气误导。"
+        }
+      ],
+      "id": "n80059-1-10",
+      "signature": "362787462335f6dcdd7fd22c21a61f1541676b98daf7fcb996ae97629ae2d278",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "994c67b2207338fde657d56c871bc9e20cccad0df779e5bf02ee50d3cafecdde",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 10,
+      "wordOccurrences": 9,
+      "questions": 2,
+      "outputTokens": 476,
+      "seconds": 13.23
+    },
+    {
+      "issues": [
+        {
+          "line": 0,
+          "part": -1,
+          "field": "translation",
+          "reason": "韩语'~다며?'是转述他人话语并确认（听说...？），而非直接疑问句。译文用'吗'易让学习者误解为说话人直接向对方求证，忽略了转述语境。",
+          "suggestion": "建议译为：听说你弟弟伤得很重？"
+        },
+        {
+          "line": 1,
+          "part": 3,
+          "field": "word",
+          "reason": "词块'네'标注为'四'，但在韩语中'네'也是'是的'。虽此处确为数词，但结合前文听力题干扰项，需确保学习者不因同形异义混淆。当前标注无误，但需注意语境区分。",
+          "suggestion": "标注正确，无需修改。"
+        },
+        {
+          "line": 1,
+          "part": -1,
+          "field": "question",
+          "reason": "听力题中，第一句的干扰项包含了第二句的正确译文，这会导致学习者混淆两句话的含义，而非考察对单句的理解。题目设计存在逻辑缺陷。",
+          "suggestion": "移除其他句子译文作为干扰项，使用无关语义选项。"
+        },
+        {
+          "line": 1,
+          "part": -1,
+          "field": "question",
+          "reason": "第二句的干扰项'你弟弟受伤很严重吗？'是第一句的正确译文。这导致两个听力题的正确答案互斥，学习者若掌握第一句则必错第二题，反之亦然，无法独立考察单句语义。",
+          "suggestion": "将干扰项替换为与'缝针'无关的其他错误含义。"
+        }
+      ],
+      "id": "n37785-1-7",
+      "signature": "1797c7e32dd8cf8eba8ef3e9815ddbb646f4838e2eb133ca3cdd2336bddd676d",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "aa7e602c41955b0819a4948bd333ed7ad5b1298b3d47cfce2c915c31f24d43a9",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 10,
+      "wordOccurrences": 10,
+      "questions": 2,
+      "outputTokens": 421,
+      "seconds": 12.87
+    },
+    {
+      "issues": [
+        {
+          "line": 0,
+          "part": -1,
+          "field": "question",
+          "reason": "听力题干扰项'没有。还有点工作没做完，得加班呢。'是第1句的回答，并非第0句的含义，属于答非所问的干扰，不构成选项含义歧义。",
+          "suggestion": "无需修正。该干扰项设计合理，旨在测试学习者对对话逻辑及句意匹配的理解，而非单纯词汇翻译。"
+        }
+      ],
+      "id": "n72285-1-10",
+      "signature": "57b0fea565b6471b38bfafb8e0331ed47408dde82bd7a42f67cdac90c38dd432",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "ad8cae23a2a5a4478293ac73ccea84006fbe4cadaf78ca69e48fc6307e496dd4",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 11,
+      "wordOccurrences": 11,
+      "questions": 2,
+      "outputTokens": 125,
+      "seconds": 2.63
+    },
+    {
+      "issues": [
+        {
+          "line": 1,
+          "part": -1,
+          "field": "translation",
+          "reason": "译文'昨天少喝点不就好了'将原句的责备语气（为什么不...）误译为建议/假设语气，实质语义偏差。",
+          "suggestion": "改为：'是啊，昨天要是少喝点就好了，干嘛要暴饮暴食呢？'"
+        },
+        {
+          "line": 1,
+          "part": 5,
+          "field": "word",
+          "reason": "'왜'在此处结合语境表责备或反问原因，译为'为什么'虽字面对应，但忽略了'그러게'带来的共情/责备语境，易导致语气理解偏差。",
+          "suggestion": "建议标注为：'怎么（还）', 强调对不当行为的质问而非单纯询问原因。"
+        },
+        {
+          "line": 1,
+          "part": 6,
+          "field": "word",
+          "reason": "'과음'译为'过度饮酒'准确，但结合前文'조금만 마시지'（要是少喝点），此处强调后果的严重性，仅译名词易丢失对比意味。",
+          "suggestion": "建议补充语境义：'搞到暴饮暴食的地步'，以体现与'조금만'的对比。"
+        },
+        {
+          "line": 0,
+          "part": 0,
+          "field": "word",
+          "reason": "'아'译为'咳'不准确，此处为感叹词表示疼痛或突然意识到，'咳'通常用于清嗓子或咳嗽声。",
+          "suggestion": "改为：'啊'或'哎'，以准确传达疼痛时的自然反应。"
+        }
+      ],
+      "id": "n18253-1-7",
+      "signature": "4ba348b540a555baeb2cbf5de92ceee719341cf7df01af21a176aaf2a876e2dc",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "cb4e1884a8c2e0782f67c3470f252d6ded9848ea1fef46e46f5d31fd95219674",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 12,
+      "wordOccurrences": 12,
+      "questions": 2,
+      "outputTokens": 414,
+      "seconds": 7.92
+    },
+    {
+      "issues": [
+        {
+          "line": 0,
+          "part": -1,
+          "field": "word",
+          "reason": "韩语'끼다'在此语境意为'聚集、布满'，而非'弥漫、笼罩'。后者多指烟雾或气味扩散，语义偏差易致误解。",
+          "suggestion": "将'끼다'的释义修正为'聚集，布满'。"
+        },
+        {
+          "line": 1,
+          "part": -1,
+          "field": "word",
+          "reason": "韩语'것'在此为形式名词，无实义，仅用于连接定语从句或构成名词性短语。标注为'表示某种行为...'易误导学习者认为其有独立词汇意义。",
+          "suggestion": "将'것'的释义修正为'形式名词，无实义'。"
+        }
+      ],
+      "id": "n54805-1-7",
+      "signature": "1a0f4974c3981b36138e7f15186b4d852b77c952a31fb3933c4db052fdc99016",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "294de98fffdf42045c05fbd22eac0f5025b4e9b36574192d1eb82aecdbd16aad",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 12,
+      "wordOccurrences": 12,
+      "questions": 2,
+      "outputTokens": 209,
+      "seconds": 3.4
+    },
+    {
+      "issues": [
+        {
+          "line": 0,
+          "part": 4,
+          "field": "translation",
+          "reason": "놈通常含贬义，译为中性词'孩子'易误导学习者忽略其语用色彩。",
+          "suggestion": "建议改为'那小子'或加注说明语境中的亲昵用法。"
+        },
+        {
+          "line": 1,
+          "part": 2,
+          "field": "translation",
+          "reason": "아저씨指'大叔/叔叔'，译文'您'未体现具体称谓对象，易混淆人物关系。",
+          "suggestion": "建议改为'长得真像您这位大叔'或'长得真像您'并明确指代。"
+        }
+      ],
+      "id": "n74193-2-0",
+      "signature": "3240ae849e135b96c2a7d16e092418cbf8205b483081f189ebae6cd6dad6299c",
+      "model": "qwen3.6:35b",
+      "backend": "ollama",
+      "inputSignature": "51abd307f377fc88b039f5c9df0145c77a7ad93622361f3b28e698aa123f04a8",
+      "methodVersion": "whole-course-semantics-v5",
+      "teacherCertification": false,
+      "lines": 2,
+      "parts": 12,
+      "wordOccurrences": 12,
+      "questions": 2,
+      "outputTokens": 184,
+      "seconds": 5.57
     }
   ],
   "fixedReviewPromptVersion": "whole-course-semantics-v5",

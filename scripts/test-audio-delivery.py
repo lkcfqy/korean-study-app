@@ -45,6 +45,7 @@ report = {
     'byteExact': True,
     'totalBytes': total,
     'scope': 'local built production Worker, not live deployment',
+    'staticAudioFilesInBuild': len(list((ROOT/'dist/client/audio').glob('*.mp3'))),
     'transport': 'Eight reusable local HTTP connections; byte comparison for every asset.',
 }
 (ROOT / 'docs/audio-delivery-tests.json').write_text(json.dumps(report, indent=2) + '\n')

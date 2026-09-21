@@ -7,6 +7,7 @@ makes interrupted imports resumable. This script does not publish Site versions.
 import argparse
 import base64
 import concurrent.futures
+import getpass
 import hashlib
 import json
 import pathlib
@@ -23,14 +24,22 @@ parser.add_argument('--base', required=True)
 parser.add_argument('--receipt', required=True)
 parser.add_argument('--limit', type=int)
 parser.add_argument('--workers', type=int, default=12)
+parser.add_argument('--files', type=pathlib.Path,
+                    help='JSON array of inventory filenames to import; other files are untouched.')
 args = parser.parse_args()
 assert 1 <= args.workers <= 12
 url = urllib.parse.urlsplit(args.base)
 assert url.scheme == 'https' or (url.scheme == 'http' and url.hostname == '127.0.0.1')
 assert not url.username and not url.password and not url.query and not url.fragment
-secret = sys.stdin.readline().strip()
+secret = getpass.getpass('Audio import key: ') if sys.stdin.isatty() else sys.stdin.readline().strip()
 assert secret, 'Authorization key required on stdin'
 inventory = json.loads((ROOT / 'content/audio-storage-index.json').read_text())
+if args.files:
+    selected = json.loads(args.files.read_text())
+    assert isinstance(selected, list) and selected and all(isinstance(name, str) for name in selected), 'Expected a nonempty JSON filename array'
+    assert len(selected) == len(set(selected)), 'Duplicate filenames'
+    assert set(selected) <= set(inventory), 'Filename missing from the verified local inventory'
+    inventory = {name: inventory[name] for name in selected}
 receipt = pathlib.Path(args.receipt)
 receipt.parent.mkdir(parents=True, exist_ok=True)
 completed = {}

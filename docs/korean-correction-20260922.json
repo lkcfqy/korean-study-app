@@ -3,7 +3,7 @@
   "lineId": "n69512-3-7-2",
   "sourceKo": "네, 누나가 있어서 자연스럽게 깨우쳤어요.",
   "correctedKo": "네, 누나가 있어서 자연스럽게 깨쳤어요.",
-  "status": "storage_verified_text_enabled_locally_pending_publish",
+  "status": "published_with_matching_verified_audio",
   "reason": "The original dictionary example uses 깨우치다 for the child learning Hangul. NIKL usage guidance distinguishes 깨치다 (oneself learns/understands) from 깨우치다 (makes someone understand). Preserve the original source and change the authored lesson and its audio together.",
   "sources": [
     {
@@ -86,5 +86,10 @@
       }
     ]
   },
-  "humanListeningReview": false
+  "humanListeningReview": false,
+  "publication": {
+    "deploymentId": "appgdep_6ab15212116c8191b73bd0b42f401a13",
+    "savedVersion": 17,
+    "succeededAt": "2026-09-21T15:50:24.656383+00:00"
+  }
 }

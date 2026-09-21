@@ -1,0 +1,18 @@
+{
+  "completedAt": "2026-09-21T16:12:55.508038+00:00",
+  "files": 28782,
+  "bytes": 415619904,
+  "inventorySha256": "23590beaa00d6f1a7c086f59e8a938a4a1d2ea4fe9c1347cc555dd560eda7d81",
+  "allCurrentFilesCovered": true,
+  "staticFilesReadBackThisMigration": 15183,
+  "staticBytesReadBackThisMigration": 174883296,
+  "sourceAudioRemoved": false,
+  "humanListeningCertification": false,
+  "evidence": {
+    "baselineCommit": "ba4c81c8d0402bddb3a30f85c744f682081da5ff",
+    "baselineInventorySha256": "9706612d4bbf5ed6d0092d95c472be8bfc6562482388154d7bd6f91107719ee0",
+    "staticMigrationReceipt": "docs/audio-cloud-static-migration.jsonl",
+    "staticMigrationReceiptSha256": "8ec939b8996303c962dcd574e81be9910778171d3657d5230403967449415176",
+    "correctedKoreanReceipt": "docs/korean-correction-20260922.json"
+  }
+}
