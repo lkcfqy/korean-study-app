@@ -86,6 +86,7 @@ export async function POST(request: Request) {
     const db = database();
     const now = Date.now();
     const uid = user.userId;
+    let savedProgress: Awaited<ReturnType<typeof readProgress>> | undefined;
     if (body.action === "select") {
       await db
         .prepare(
@@ -178,17 +179,29 @@ export async function POST(request: Request) {
         )
         .bind(body.text, now, uid, lesson.id, body.revision)
         .run();
-      if (result.meta.changes !== 1)
-        return json(
-          {
-            error:
-              "另一台设备更新了这段回复。你的文字仍保留在输入框中，请先重新读取云端内容。",
-            progress: await readProgress(uid),
-          },
-          409,
+      if (result.meta.changes !== 1) {
+        savedProgress = await readProgress(uid);
+        const current = savedProgress.rows.find(
+          (row) => row.lesson_id === lesson.id,
         );
+        // A successful write can lose its response. Identical retries are safe;
+        // different stale text must still preserve the other device's update.
+        if (
+          !current ||
+          current.draft !== body.text ||
+          current.draft_revision <= body.revision
+        )
+          return json(
+            {
+              error:
+                "另一台设备更新了这段回复。你的文字仍保留在输入框中，请先重新读取云端内容。",
+              progress: savedProgress,
+            },
+            409,
+          );
+      }
     }
-    const progress = await readProgress(uid);
+    const progress = savedProgress ?? (await readProgress(uid));
     // Old clients retain the full response. New clients merge one changed row;
     // a fresh GET reconciles changes made on other devices.
     if (new URL(request.url).searchParams.get("response") === "delta") {

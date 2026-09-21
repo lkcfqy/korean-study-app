@@ -1,0 +1,32 @@
+{
+  "date": "2026-09-21",
+  "scope": "Local production build in Codex in-app browser; loopback-only proxy injects a test identity and one-shot network failures into local D1. No production account records were edited.",
+  "draftChecks": [
+    "Write-before-save 503 preserves input; no database revision is created.",
+    "Automatic draft save failure blocks next-lesson navigation and preserves input.",
+    "Normal retry saves successfully.",
+    "Lost response after successful write preserves client input; identical retry succeeds without a second revision or false conflict.",
+    "Clearing a previously saved reply shows an explicit clear button, persists empty text, and remains empty after reload.",
+    "A concurrent different update returns 409, keeps the local draft, and preserves the other writer's value.",
+    "Read-cloud action fetches a new value written after page load, without needing a prior conflict response.",
+    "Read-cloud 503 preserves unsaved input and reports failure.",
+    "Successful cloud read following a conflict replaces input with the latest saved text and clears the old error."
+  ],
+  "newContrastLesson": {
+    "lessonId": "n16315-2-7",
+    "searchById": "one correct result",
+    "bothDialogueTurnsRead": true,
+    "audioPlaybackUnlocksOptions": true,
+    "wrongPersonVersusCorrectTimeContrast": "wrong answer rejected; corrected answer enables next question",
+    "secondQuestionHint": "Korean shown and date/frequency distractors displayed",
+    "finalFeedback": "0/2 first independent answers, consolidation required, next review on September 22",
+    "savedCompletion": true
+  },
+  "responsive": [
+    {"viewport": "320x700", "page": "saved reply", "clientWidth": 305, "scrollWidth": 305, "horizontalOverflow": false},
+    {"viewport": "390x844", "page": "new contrast question with Korean hint", "clientWidth": 375, "scrollWidth": 375, "horizontalOverflow": false}
+  ],
+  "lastBrowserWarningErrorLogSnapshot": [],
+  "expectedFailureResponses": "Intentional 503 and 409 responses were checked via visible UI and the local API; they are not counted as unexpected application failures.",
+  "limits": "Viewport simulation is not a physical phone. Cloud synchronization was emulated with the local production Worker, not two real devices signed into the live Site. No human pronunciation certification or long-term learner outcome measurement."
+}

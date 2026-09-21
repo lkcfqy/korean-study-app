@@ -1,0 +1,13 @@
+{
+  "reviewedPendingLessons": 216,
+  "newTriageRecords": 216,
+  "uniqueTriageLessonsAllBatches": 280,
+  "explicitCorrectionLocations": 101,
+  "explicitPartCorrections": 90,
+  "sentenceTranslationsAdjusted": 11,
+  "generatedChangedParts": 635,
+  "generatedChangedLessons": 563,
+  "sourceSelectionChanges": 63,
+  "contrastLessons": 102,
+  "teacherCertification": false
+}

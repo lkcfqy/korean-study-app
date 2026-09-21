@@ -1,0 +1,1286 @@
+{
+  "newLessons": 64,
+  "newQuestions": 128,
+  "questions": [
+    {
+      "lineId": "n16315-2-7-1",
+      "ko": "집세는 언제 드리면 될까요?",
+      "correct": "房租什么时候交比较合适呢？",
+      "distractors": [
+        "房租应该交给谁呢？",
+        "房租每个月是多少钱呢？"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n16315-2-7-2",
+      "ko": "오늘이 사 일이니까 매달 나흘에 주시구려.",
+      "correct": "今天是四号，所以每个月四号交就可以了。",
+      "distractors": [
+        "今天是三号，以后每个月三号交。",
+        "今天是四号，以后每个星期四交。"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n62478-1-13-1",
+      "ko": "누구시죠? 저를 아시나요?",
+      "correct": "您是哪位？您认识我吗？",
+      "distractors": [
+        "您住在哪里？我们以前是邻居吗？",
+        "您是哪位？您认识我的朋友吗？"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n62478-1-13-2",
+      "ko": "앗, 죄송합니다. 아는 사람인 줄 알고, 제가 잘못 봤나 봅니다.",
+      "correct": "啊，对不起。我以为您是认识的人，看来是我看错了。",
+      "distractors": [
+        "对不起，我刚刚没有看见您。",
+        "对不起，我认出您了，但忘记您的名字了。"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n75781-4-4-1",
+      "ko": "민준이가 요즘 왜 이렇게 힘들어 하니?",
+      "correct": "敏俊最近怎么这么辛苦啊？",
+      "distractors": [
+        "敏俊最近怎么这么轻松啊？",
+        "裕敏最近怎么这么辛苦啊？"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n75781-4-4-2",
+      "ko": "유민이하고 헤어졌는데도 완전히 정리가 안 되나 봐.",
+      "correct": "虽然和裕敏分手了，但他似乎还是完全没有走出来。",
+      "distractors": [
+        "他和裕敏已经和好，心情完全恢复了。",
+        "他想和裕敏分手，但还没开口。"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n30211-1-13-1",
+      "ko": "세 시간 이상 차를 타야 하니까 미리 화장실에 다녀오자.",
+      "correct": "因为要坐车三个小时以上，我们先去趟洗手间吧。",
+      "distractors": [
+        "再坐三分钟车就到洗手间了。",
+        "还有三个小时才出发，先别去洗手间。"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n30211-1-13-2",
+      "ko": "그래. 남자 화장실은 이쪽, 여자 화장실은 저쪽이야.",
+      "correct": "好啊。男洗手间在这边，女洗手间在那边。",
+      "distractors": [
+        "男洗手间在那边，女洗手间在这边。",
+        "男洗手间和女洗手间都在楼上。"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n74121-3-7-1",
+      "ko": "승규야, 그 과자는 어디서 난 거니?",
+      "correct": "承奎，那个饼干是从哪儿来的呀？",
+      "distractors": [
+        "承奎，那块饼干要送到哪里去？",
+        "承奎，你刚才吃了多少饼干？"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n74121-3-7-2",
+      "ko": "가겟집 할아버지께서 주신 거예요.",
+      "correct": "是杂货店的老爷爷给我们的。",
+      "distractors": [
+        "是给杂货店老爷爷买的。",
+        "是从杂货店老爷爷那里买的。"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n26808-2-20-1",
+      "ko": "미국으로 유학을 간 민준이는 매년 여름에만 한국에 온대.",
+      "correct": "去美国留学的敏俊，每年只有夏天才会回韩国。",
+      "distractors": [
+        "敏俊每年只有冬天才回韩国。",
+        "敏俊每个月都会从美国回韩国。"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n26808-2-20-2",
+      "ko": "미국은 겨울 방학은 짧고 여름 방학이 길거든.",
+      "correct": "因为美国的寒假很短，而暑假很长。",
+      "distractors": [
+        "因为美国寒假很长，暑假很短。",
+        "因为美国既没有寒假，也没有暑假。"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n71234-1-12-1",
+      "ko": "여기 적은 것들을 혼자서 잘 사 올 수 있겠니?",
+      "correct": "这些写在这里的东西，你能自己顺利买回来吗？",
+      "distractors": [
+        "你能独自把这里写的东西都卖掉吗？",
+        "你已经把这里写的东西全买回来了吗？"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n71234-1-12-2",
+      "ko": "네, 엄마. 걱정 마세요.",
+      "correct": "能的，妈妈。您别担心。",
+      "distractors": [
+        "不行，妈妈，还是您去买吧。",
+        "我忘记买了，妈妈，对不起。"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n62391-1-14-1",
+      "ko": "내일 소풍은 박물관으로 간다며?",
+      "correct": "听说明天郊游要去博物馆？",
+      "distractors": [
+        "听说明天郊游不去博物馆了？",
+        "听说明天博物馆的人要来学校？"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n62391-1-14-2",
+      "ko": "응, 우리 학교 학생 전체가 가기에는 너무 좁을 것 같은데.",
+      "correct": "嗯，全校学生都去的话，那里恐怕太小了。",
+      "distractors": [
+        "嗯，只有老师去的话，那里太小了。",
+        "嗯，全校学生都去的话，那里肯定足够宽敞。"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n37744-1-3-1",
+      "ko": "어제 내 방에 갑자기 큰 새가 날아 들어온 거 있지!",
+      "correct": "你知道吗，昨天我房间里突然飞进了一只大鸟！",
+      "distractors": [
+        "你知道吗，昨天我房间里的大鸟飞走了！",
+        "你知道吗，今天有人送了我一只大鸟！"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n37744-1-3-2",
+      "ko": "정말 깜짝 놀랐겠다.",
+      "correct": "你肯定被吓了一跳吧。",
+      "distractors": [
+        "你肯定早就猜到了吧。",
+        "你肯定一点也不惊讶吧。"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n61179-1-9-1",
+      "ko": "오랜만에 왔는데 카페 종업원이 바뀌었네요.",
+      "correct": "好久没来了，咖啡店的员工换人了呢。",
+      "distractors": [
+        "我每天都来，这位员工还是原来那位。",
+        "好久没来了，咖啡店换了地址呢。"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n61179-1-9-2",
+      "ko": "예전 종업원은 다른 곳에 취직이 되어서 나갔어요.",
+      "correct": "之前的员工去了别的地方工作，所以离开了。",
+      "distractors": [
+        "之前的员工休假去了，很快会回来。",
+        "之前的员工刚刚到这家店上班。"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n62777-1-12-1",
+      "ko": "부엌 바닥에 이 유리는 뭐야?",
+      "correct": "厨房地板上的这个玻璃碎片是什么？",
+      "distractors": [
+        "厨房地板上为什么有水？",
+        "厨房桌子上的这个玻璃杯是谁的？"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n62777-1-12-2",
+      "ko": "애들이 장난치다가 병을 깨뜨렸어요.",
+      "correct": "是孩子们玩耍时打碎的瓶子啊。",
+      "distractors": [
+        "孩子们把瓶子从地上捡起来了。",
+        "是我洗碗的时候打碎的盘子。"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n31502-1-11-1",
+      "ko": "잃어버린 지갑 찾았다면서?",
+      "correct": "听说你找到了丢失的钱包？",
+      "distractors": [
+        "听说你又把找到的钱包弄丢了？",
+        "听说你找到了丢失的手机？"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n31502-1-11-2",
+      "ko": "응. 돈은 없어졌는데 다행히 카드하고 신분증은 그대로 들어 있었어.",
+      "correct": "嗯。钱不见了，不过幸好卡和身份证还在里面。",
+      "distractors": [
+        "钱还在，卡和身份证却都不见了。",
+        "钱、卡和身份证全都不见了。"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n37141-2-8-1",
+      "ko": "너는 시집 언제 갈 거냐?",
+      "correct": "你什么时候结婚啊？",
+      "distractors": [
+        "你结婚已经多长时间了？",
+        "你打算什么时候去参加别人的婚礼？"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n37141-2-8-2",
+      "ko": "아직 마땅한 짝이 없네요.",
+      "correct": "我还没遇到合适的对象呢。",
+      "distractors": [
+        "我已经找到合适的对象了。",
+        "我已经结婚了，只是还没办婚礼。"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n66029-1-9-1",
+      "ko": "어제 라디오에 내가 좋아하는 가수가 나왔잖아.",
+      "correct": "昨天我喜欢的歌手上广播节目了。",
+      "distractors": [
+        "昨天我喜欢的歌手来我们学校了。",
+        "明天我喜欢的歌手才会上广播节目。"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n66029-1-9-2",
+      "ko": "나도 들었어. 신청곡도 네가 보낸 거지?",
+      "correct": "我也听了，点歌也是你发过去的吧？",
+      "distractors": [
+        "我没有听到，是你替我点的歌吗？",
+        "我也听了，点歌是你收到的吧？"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n71619-4-15-1",
+      "ko": "네 동생은 더위에 약한가 봐?",
+      "correct": "你弟弟好像很怕热啊？",
+      "distractors": [
+        "你弟弟好像特别怕冷啊？",
+        "你弟弟好像特别能耐热啊？"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n71619-4-15-2",
+      "ko": "응, 걔는 여름에 에어컨 앞을 떠나서는 못 살더라.",
+      "correct": "对，他夏天不待在空调旁边就没法活。",
+      "distractors": [
+        "他夏天最不喜欢待在空调旁边。",
+        "他夏天即使没有空调也过得很好。"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n31953-4-2-1",
+      "ko": "그것들 참 귀엽게 생겼네.",
+      "correct": "这些小家伙长得真可爱。",
+      "distractors": [
+        "这些小家伙怎么长得这么高？",
+        "这些小家伙以前长得真可爱。"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n31953-4-2-2",
+      "ko": "그러게 말이에요. 집에 돌아가면 손자들이 눈에 밟히겠어요.",
+      "correct": "是啊，回家以后一定会总惦记着孙辈们。",
+      "distractors": [
+        "是啊，回家以后马上就会忘了孙辈们。",
+        "是啊，孙辈们已经一起回家了。"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n57275-3-5-1",
+      "ko": "저 갈비는 누구야?",
+      "correct": "那个瘦得像排骨的人是谁？",
+      "distractors": [
+        "那个很胖的人是谁？",
+        "那份排骨是谁点的？"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n57275-3-5-2",
+      "ko": "우리 반에서 제일 마른 승규야. 아무리 먹어도 살이 안 찐대.",
+      "correct": "承奎，我们班最瘦的。听说怎么吃都不胖。",
+      "distractors": [
+        "他是我们班最胖的，一吃就长肉。",
+        "他以前很瘦，最近已经胖了很多。"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n15765-1-7-1",
+      "ko": "어른이 수저를 드시기 전에 너희들이 먼저 밥을 먹으면 어떡하니?",
+      "correct": "大人还没拿起餐具，你们怎么能先吃饭呢？",
+      "distractors": [
+        "大人已经吃完了，你们怎么还不吃？",
+        "大人还没来，你们怎么把饭全倒掉了？"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n15765-1-7-2",
+      "ko": "잘못했어요, 엄마.",
+      "correct": "对不起，妈妈。",
+      "distractors": [
+        "我没有做错，妈妈。",
+        "妈妈，这次是您做错了。"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n55525-1-7-1",
+      "ko": "어머니를 좀 바꿔 주겠어요?",
+      "correct": "能帮我换一下电话给妈妈吗？",
+      "distractors": [
+        "能帮我给妈妈留一句话吗？",
+        "能请妈妈晚一点再给我打电话吗？"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n55525-1-7-2",
+      "ko": "지금 집에 안 계신데 메모를 남겨 드릴까요?",
+      "correct": "她现在不在家，要我留张便条给她吗？",
+      "distractors": [
+        "她现在就在家，我马上转给她。",
+        "她刚留下便条，要您立刻回家。"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n72138-1-8-1",
+      "ko": "지금 지하철역에 내렸는데 어디 계십니까?",
+      "correct": "我现在在地铁站下了，您在哪儿呢？",
+      "distractors": [
+        "我马上要坐地铁了，您要去哪里？",
+        "我刚在公交车站下车，您在哪里？"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n72138-1-8-2",
+      "ko": "3번 출구로 올라오시면 제가 보일 겁니다.",
+      "correct": "从3号出口出来就能看到我了。",
+      "distractors": [
+        "请从二号出口上来，就能看见我。",
+        "我会从三号出口下去找您。"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n74128-1-7-1",
+      "ko": "할머니, 옛날 이야기 해 주세요.",
+      "correct": "奶奶，请给我讲讲古老的故事吧。",
+      "distractors": [
+        "奶奶，请再给我唱一首歌吧。",
+        "奶奶，您不想听我讲故事吗？"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n74128-1-7-2",
+      "ko": "옛날에 호랑이 한 마리가 살고 있었단다.",
+      "correct": "从前，有一只老虎住在那里呢。",
+      "distractors": [
+        "从前，这里住着两只老虎。",
+        "从前，这里住着一只兔子。"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n65154-1-7-1",
+      "ko": "숟가락이 없는데 국을 어떻게 먹지?",
+      "correct": "没有勺子，要怎么喝汤呢？",
+      "distractors": [
+        "没有碗，要把汤装在哪里呢？",
+        "没有勺子，要怎么搅拌汤呢？"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n65154-1-7-2",
+      "ko": "그럼 그냥 대접째 들고 마셔.",
+      "correct": "那就直接端着碗喝吧。",
+      "distractors": [
+        "那就先别喝，等拿到勺子再说。",
+        "那就把汤倒掉，只端着空碗吧。"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n82436-1-12-1",
+      "ko": "아버지는 어떤 일을 하시니?",
+      "correct": "您父亲是做什么工作的呢？",
+      "distractors": [
+        "您父亲是在哪里出生的呢？",
+        "您父亲今天为什么不上班呢？"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n82436-1-12-2",
+      "ko": "저희 아버지께서는 트럭을 운전하세요.",
+      "correct": "我父亲是开卡车的。",
+      "distractors": [
+        "我父亲是修卡车的。",
+        "我父亲是开公交车的。"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n60489-1-13-1",
+      "ko": "저기 달력에 크게 동그라미 친 날은 무슨 날이야?",
+      "correct": "日历上画了大圈的那天是什么日子？",
+      "distractors": [
+        "日历上画了大圈的是谁写的字？",
+        "日历上画了大圈的那天已经过了吗？"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n60489-1-13-2",
+      "ko": "응, 내 동생 생일이야.",
+      "correct": "是我家弟妹的生日。",
+      "distractors": [
+        "那是我哥哥或姐姐的生日。",
+        "那是我弟弟或妹妹的毕业典礼。"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n61142-1-7-1",
+      "ko": "삼촌, 우리 아빠는 어렸을 때 어땠어요?",
+      "correct": "叔叔，我们爸爸小时候是什么样的呢？",
+      "distractors": [
+        "叔叔，我爸爸现在长什么样呢？",
+        "爸爸，我叔叔小时候是什么样的呢？"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n61142-1-7-2",
+      "ko": "형은 어렸을 때부터 공부를 잘하는 모범생이었어.",
+      "correct": "哥哥从小时候起就是学习优异的模范生。",
+      "distractors": [
+        "哥哥小时候成绩一直很差。",
+        "哥哥小时候很爱运动，但从不学习。"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n80833-1-19-1",
+      "ko": "오늘 집에 있으면 택배 좀 대신 받아 줘.",
+      "correct": "今天如果你在家的话，能帮我收一下快递吗？",
+      "distractors": [
+        "今天如果你在家，替我把快递寄出去。",
+        "今天我不在家，请把快递退回去。"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n80833-1-19-2",
+      "ko": "몇 시쯤에 오는데?",
+      "correct": "快递大概几点到啊？",
+      "distractors": [
+        "快递大概要多少钱啊？",
+        "快递是从哪里寄来的啊？"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n17884-3-7-1",
+      "ko": "엄마, 넘어져서 옷이 찢어졌어요.",
+      "correct": "妈妈，我摔倒了，衣服被撕坏了。",
+      "distractors": [
+        "妈妈，我把刚洗好的衣服弄湿了。",
+        "妈妈，我跑丢了昨天买的衣服。"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n17884-3-7-2",
+      "ko": "어제 산 새 옷인데 조심 좀 하지 그랬어.",
+      "correct": "那是昨天刚买的新衣服，你怎么不小心点呢。",
+      "distractors": [
+        "那是很旧的衣服，弄破也没关系。",
+        "我昨天就让你把那件旧衣服扔掉。"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n62661-4-7-1",
+      "ko": "여자 친구가 제 생일에 직접 목도리를 떠서 줬어요.",
+      "correct": "我女朋友在我生日那天亲手为我织了条围巾送给我。",
+      "distractors": [
+        "我生日时亲手织了一条围巾送给女朋友。",
+        "女朋友在我生日那天给我买了一条围巾。"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n62661-4-7-2",
+      "ko": "정성이 가득 담긴 선물이네요.",
+      "correct": "这礼物真是饱含了满满的心意啊。",
+      "distractors": [
+        "这份礼物一点心意也没有。",
+        "这份礼物一定特别昂贵。"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n78928-1-7-1",
+      "ko": "오늘 점심엔 새로 생긴 중국집에 중화요리를 시켜 먹자. 넌 뭐 먹을래?",
+      "correct": "今天午饭从新开的中餐馆点菜吧，你要吃什么？",
+      "distractors": [
+        "晚饭去那家老中餐馆吃吧，你想吃什么？",
+        "午饭从新开的西餐厅点菜吧，你想吃什么？"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n78928-1-7-2",
+      "ko": "난 짬뽕으로 할게.",
+      "correct": "我要辣海鲜面。",
+      "distractors": [
+        "我要炸酱面。",
+        "我要一份炒饭。"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n26788-7-17-1",
+      "ko": "오늘 저녁에 가볍게 한잔 마시는 것 어때요?",
+      "correct": "今天晚上轻松小酌一杯怎么样？",
+      "distractors": [
+        "今天早上小酌一杯怎么样？",
+        "今天晚上大家都别喝酒，怎么样？"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n26788-7-17-2",
+      "ko": "마침 술 한잔 생각났었는데 좋지.",
+      "correct": "我正好也想喝点酒，太好了。",
+      "distractors": [
+        "我刚好不想喝酒，还是算了吧。",
+        "我刚才已经喝了很多，不能再喝了。"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n30189-1-16-1",
+      "ko": "뭘 이렇게 많이 샀어?",
+      "correct": "怎么买了这么多东西啊？",
+      "distractors": [
+        "你怎么把买来的东西全卖掉了？",
+        "怎么买的东西这么少啊？"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n30189-1-16-2",
+      "ko": "나는 일요일에 일주일 치 장을 다 봐 놓거든.",
+      "correct": "我每周日都会把一周要用的东西都买好呢。",
+      "distractors": [
+        "我每天都会买当天要用的东西。",
+        "我每周日只买当天的一顿饭。"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n64492-4-11-1",
+      "ko": "저 아이의 피아노 실력이 좀 는 것 같지?",
+      "correct": "那个孩子的钢琴水平好像有所进步了吧？",
+      "distractors": [
+        "那个孩子的钢琴水平好像退步了吧？",
+        "那个孩子的绘画水平好像提高了吧？"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n64492-4-11-2",
+      "ko": "응, 전보다 더 잘 치는 것 같네.",
+      "correct": "嗯，看起来比以前弹得更好了。",
+      "distractors": [
+        "嗯，好像弹得还不如以前。",
+        "嗯，但他从来没有学过弹钢琴。"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n74181-1-7-1",
+      "ko": "뭔가 걷는 느낌이 이상한데?",
+      "correct": "走路的时候感觉有点奇怪啊？",
+      "distractors": [
+        "坐下的时候感觉有点奇怪啊。",
+        "今天这双鞋的颜色有点奇怪啊。"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n74181-1-7-2",
+      "ko": "민준아, 너 신발 바닥에 껌이 붙었어.",
+      "correct": "敏俊，你鞋底粘着口香糖呢。",
+      "distractors": [
+        "敏俊，你鞋底粘着一片树叶。",
+        "敏俊，你衣服上粘着口香糖。"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n86434-1-15-1",
+      "ko": "준비 다 됐으면 얼른 나와!",
+      "correct": "准备好了就快点出来！",
+      "distractors": [
+        "还没准备好也要立刻出来！",
+        "等所有人都出去后，你再开始准备！"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n86434-1-15-2",
+      "ko": "머리만 빗으면 되니까 먼저 나가 있어.",
+      "correct": "只要梳个头就行，你先出去等着吧。",
+      "distractors": [
+        "我还得洗澡换衣服，你先别走。",
+        "你先把头发梳好，我先出去。"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n29732-1-7-1",
+      "ko": "남편이랑 무슨 일로 싸운 거야?",
+      "correct": "你和丈夫因为什么事吵架了？",
+      "distractors": [
+        "你和丈夫准备去哪里呢？",
+        "你和丈夫已经和好了吗？"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n29732-1-7-2",
+      "ko": "남편이 육아에 전혀 관심이 없는 게 너무 화가 나서요.",
+      "correct": "我太生气了，因为他根本不对育儿感兴趣。",
+      "distractors": [
+        "因为他太关心育儿，所以我生气了。",
+        "因为他根本不关心工作，所以我生气了。"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n91737-3-4-1",
+      "ko": "너 아직도 마음이 힘들어? 표정이 안 좋네.",
+      "correct": "你还是心里很难过吗？表情看起来不太好啊。",
+      "distractors": [
+        "你看起来很开心，已经不难过了吧？",
+        "你的身体已经完全恢复了吗？"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n91737-3-4-2",
+      "ko": "응. 괜찮아지려고 노력하는데 잘 안되네.",
+      "correct": "嗯。我在努力让自己好起来，但就是不太顺利呢。",
+      "distractors": [
+        "我已经不想再努力，打算放弃了。",
+        "我没做任何努力，心情却已经好了。"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n71696-3-7-1",
+      "ko": "둘이 왜 싸운 거니?",
+      "correct": "你们俩为什么吵架了？",
+      "distractors": [
+        "你们俩为什么一直没见面？",
+        "你们俩是什么时候认识的？"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n71696-3-7-2",
+      "ko": "처음엔 장난이었는데 장난을 치다가 싸움이 일어난 거예요.",
+      "correct": "一开始只是闹着玩的，结果在开玩笑的过程中就吵起来了。",
+      "distractors": [
+        "刚开始在吵架，后来才开始开玩笑。",
+        "本来只是在玩，后来两个人都睡着了。"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n72239-6-9-1",
+      "ko": "요즘 어떻게 지내니?",
+      "correct": "最近过得怎么样？",
+      "distractors": [
+        "你明天准备去哪里？",
+        "你最近搬到哪里住了？"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n72239-6-9-2",
+      "ko": "그냥 집에 눌러 있으면서 일자리를 알아보고 있어.",
+      "correct": "我就待在家里，同时也在找工作。",
+      "distractors": [
+        "我最近一直在公司加班。",
+        "我已经找到工作，不再待在家里了。"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n66104-1-7-1",
+      "ko": "밖에 나가서 친구 좀 만나고 올게요.",
+      "correct": "我出去见个朋友，然后就回来。",
+      "distractors": [
+        "我要和朋友一起回来，然后就不出去了。",
+        "朋友要来家里，我在这里等他。"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n66104-1-7-2",
+      "ko": "오늘 날씨가 쌀쌀하니까 옷을 든든하게 입으렴.",
+      "correct": "今天天气有点冷，记得穿暖和点。",
+      "distractors": [
+        "今天天气炎热，尽量穿少一点。",
+        "今天虽然冷，但别穿厚衣服。"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n71700-1-12-1",
+      "ko": "올 여름은 계속 장마야.",
+      "correct": "今年夏天一直是梅雨天气。",
+      "distractors": [
+        "今年冬天一直在下雪。",
+        "今年夏天一直晴天，很少下雨。"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n71700-1-12-2",
+      "ko": "그러게 계속 비만 오고 햇빛 본 날이 며칠 없어.",
+      "correct": "是啊，一直下雨，见到阳光的日子没几天。",
+      "distractors": [
+        "是啊，晴天很多，几乎没下过雨。",
+        "是啊，只有今天下雨，前几天都晴朗。"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n71579-1-8-1",
+      "ko": "걔는 왜 이렇게 사람을 짜증 나게 하는지 모르겠어.",
+      "correct": "真搞不懂，他为什么总这么让人生气。",
+      "distractors": [
+        "真不明白，他为什么总能让人开心。",
+        "他已经告诉我为什么会生气了。"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n71579-1-8-2",
+      "ko": "무슨 화나는 일이라도 있어?",
+      "correct": "是发生了什么让人生气的事吗？",
+      "distractors": [
+        "今天没有发生任何事，对吗？",
+        "是发生了什么让你开心的事吗？"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n72574-5-9-1",
+      "ko": "어른께서는 자네의 이 문제를 알고 계신 것인가?",
+      "correct": "长辈知道你的这个问题吗？",
+      "distractors": [
+        "长辈已经同意你处理这个问题的方法了吗？",
+        "你准备什么时候告诉长辈这个问题？"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n72574-5-9-2",
+      "ko": "아니요. 아직 저희 아버지께는 말씀드리지 못했습니다.",
+      "correct": "不知道。我还没来得及告诉我父亲。",
+      "distractors": [
+        "知道，我已经详细告诉父亲了。",
+        "不知道，父亲一直不愿意听我说。"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n64540-1-7-1",
+      "ko": "할아버지가 부르시는데 대답을 빨리 안 해서 혼났어요.",
+      "correct": "爷爷叫我，我没快点回应，被骂了。",
+      "distractors": [
+        "爷爷叫我，我回应太大声，被骂了。",
+        "我叫爷爷，他一直不回应我。"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n64540-1-7-2",
+      "ko": "어른들이 부르시면 대답을 잘 해야지.",
+      "correct": "长辈叫话的时候，得好好回应才行。",
+      "distractors": [
+        "长辈叫的时候，最好假装没听见。",
+        "只有朋友叫的时候才需要回应。"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n67285-2-3-1",
+      "ko": "텔레비전에서 나오는 저기, 경치 정말 좋다.",
+      "correct": "电视里播放的那个地方，风景真好啊。",
+      "distractors": [
+        "电视里那个地方的天气真差啊。",
+        "我们上次去过的地方比电视里好。"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n67285-2-3-2",
+      "ko": "응, 언제나 저런 곳에 가 볼 수 있으려나.",
+      "correct": "嗯，不知道什么时候才能去那种地方看看呢。",
+      "distractors": [
+        "嗯，我们昨天才从那里回来。",
+        "嗯，我再也不想去那种地方了。"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n27821-1-7-1",
+      "ko": "민준아, 이마가 왜 그래? 다쳤어?",
+      "correct": "敏俊，你的额头怎么了？受伤了吗？",
+      "distractors": [
+        "敏俊，你的膝盖怎么了，受伤了吗？",
+        "敏俊，你的额头已经不疼了吗？"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n27821-1-7-2",
+      "ko": "어제 축구하다가 축구공에 맞았어.",
+      "correct": "昨天踢足球的时候被足球砸到了。",
+      "distractors": [
+        "昨天打篮球时被篮球砸到了。",
+        "昨天踢足球时不小心摔了一跤。"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n75754-2-7-1",
+      "ko": "할머니, 요즘 손자를 봐서 재미가 좋으시죠?",
+      "correct": "奶奶，最近照顾孙子一定很开心吧？",
+      "distractors": [
+        "奶奶，最近照顾孙子很辛苦吧？",
+        "奶奶，您是不是希望将来能有孙子？"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n75754-2-7-2",
+      "ko": "그럼. 손자가 있으니 시간 가는 줄도 모르겠어.",
+      "correct": "那当然。有孙子在，时间过得飞快呢。",
+      "distractors": [
+        "当然，有孙子在就觉得时间特别难熬。",
+        "不，我觉得没有孙子的日子更快乐。"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n59474-3-5-1",
+      "ko": "아버지가 왜 저렇게 화를 끓이고 계시지?",
+      "correct": "爸爸为什么气得那么厉害啊？",
+      "distractors": [
+        "爸爸为什么那么高兴啊？",
+        "爸爸为什么一直没有回家啊？"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n59474-3-5-2",
+      "ko": "하시려던 일이 뜻대로 안 되니까 그렇지.",
+      "correct": "因为他想做的事没有如愿以偿吧。",
+      "distractors": [
+        "因为他做的事完全如愿以偿。",
+        "因为他还没有决定要做什么。"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n15324-1-21-1",
+      "ko": "이건 어디서 난 거야?",
+      "correct": "这是从哪儿弄来的？",
+      "distractors": [
+        "这个准备送到哪里去？",
+        "这个东西什么时候会到？"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n15324-1-21-2",
+      "ko": "물건을 많이 샀더니 백화점에서 무료로 나눠 준 거야.",
+      "correct": "买了很多东西，百货商店就免费送了这个。",
+      "distractors": [
+        "这是我在百货商店花钱单独买的。",
+        "因为买得太少，所以商店没有送东西。"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n69521-4-8-1",
+      "ko": "옛날 사람들은 시간을 어떻게 알았을까?",
+      "correct": "古代的人是怎么知道时间的呢？",
+      "distractors": [
+        "古代的人为什么不关心时间？",
+        "现代人最早发明了什么钟表？"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n69521-4-8-2",
+      "ko": "별의 운동을 관찰하여 시간과 계절의 변화를 알았지.",
+      "correct": "他们通过观察星星的运行来了解时间和季节的变化。",
+      "distractors": [
+        "他们观察植物颜色来预测天气。",
+        "他们靠观察太阳来决定食物的价格。"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n23143-5-7-1",
+      "ko": "서류 작성은 다 됐나요?",
+      "correct": "文件填写都做完了吗？",
+      "distractors": [
+        "文件已经全部寄出去了吗？",
+        "文件应该由谁来填写呢？"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n23143-5-7-2",
+      "ko": "컴퓨터가 너무 느려서 삼십 분 정도 더 걸릴 것 같습니다.",
+      "correct": "电脑太慢了，大概还需要三十分钟左右。",
+      "distractors": [
+        "电脑很快，三分钟内就能完成。",
+        "电脑太慢了，大概要再等三个小时。"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n62490-1-17-1",
+      "ko": "승규야, 이게 무슨 글자니?",
+      "correct": "承奎，这是什么字啊？",
+      "distractors": [
+        "承奎，这个字是谁教你的？",
+        "承奎，你今天写了多少字？"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n62490-1-17-2",
+      "ko": "너무 흘려 써서 저도 무슨 글자인지 도저히 못 알아보겠어요.",
+      "correct": "写得太潦草了，我根本看不出这是什么字。",
+      "distractors": [
+        "写得很清楚，我一眼就认出来了。",
+        "字虽潦草，但我完全能认出来。"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n62275-1-6-1",
+      "ko": "선배, 어서 병원에 가요. 병 키워서 나중에 후회하지 말고요.",
+      "correct": "前辈，快去医院吧。别把病拖下去，以后可别后悔啊。",
+      "distractors": [
+        "前辈，别去医院，等病更严重再说。",
+        "前辈，病已经好了，不用再检查了。"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n62275-1-6-2",
+      "ko": "알았어. 곧 갈게.",
+      "correct": "知道了，我马上就过去。",
+      "distractors": [
+        "知道了，明年再去。",
+        "我不去，也不准备听你的建议。"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n68090-1-8-1",
+      "ko": "얘들아, 오늘은 아버지 생신이셔서 저녁에 외식을 할 계획이야.",
+      "correct": "大家，今天是爸爸的生日，所以我们打算晚上去外面吃饭。",
+      "distractors": [
+        "今天是妈妈的生日，晚上在家吃饭。",
+        "今天是爸爸的生日，中午已经外食了。"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n68090-1-8-2",
+      "ko": "우리 오늘 오랜만에 포식하겠네요.",
+      "correct": "我们今天可要好好大吃一顿了。",
+      "distractors": [
+        "我们今天又要饿肚子了。",
+        "我们每天都吃大餐，今天也一样。"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n69484-1-8-1",
+      "ko": "너랑 너희 언니랑 분위기가 정말 다르네?",
+      "correct": "你和你姐姐的氛围真的完全不一样呢？",
+      "distractors": [
+        "你和你姐姐给人的感觉完全一样呢。",
+        "你姐姐和我姐姐的感觉完全不一样呢。"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n69484-1-8-2",
+      "ko": "언니는 나랑 외모부터 옷 고르는 취향까지 완전히 반대야.",
+      "correct": "我姐姐无论外貌还是选衣服的品味，都和我完全相反。",
+      "distractors": [
+        "姐姐和我从外貌到穿衣品味都一样。",
+        "姐姐的外貌和我不同，但穿衣品味完全一样。"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n71735-1-8-1",
+      "ko": "많이 다쳤니? 의사가 뭐라고 그래?",
+      "correct": "伤得严重吗？医生怎么说？",
+      "distractors": [
+        "已经完全好了吧，医生不用再看了吗？",
+        "伤在哪里，医生什么时候来？"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n71735-1-8-2",
+      "ko": "응, 여기 넷째 발가락의 뼈가 부러졌대.",
+      "correct": "嗯，说这里第四个脚趾的骨头断了。",
+      "distractors": [
+        "医生说第四根手指的骨头断了。",
+        "医生说第二个脚趾的骨头断了。"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n65200-6-3-1",
+      "ko": "방금 전에 네 고모라는 분한테서 전화가 왔었어.",
+      "correct": "刚才有位自称是你姑姑的人打过电话来。",
+      "distractors": [
+        "刚才有位自称你姨妈的人打过电话。",
+        "刚才我给你姑姑打了一通电话。"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n65200-6-3-2",
+      "ko": "이상하다. 내 가까운 친척이라고는 삼촌뿐인데.",
+      "correct": "真奇怪，我亲近的亲戚只有叔叔而已。",
+      "distractors": [
+        "我亲近的亲戚除了叔叔还有姑姑。",
+        "我和所有亲戚都很亲近，并不奇怪。"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n91753-1-7-1",
+      "ko": "우리 조카, 못 본 사이에 많이 컸구나.",
+      "correct": "我的小外甥，好久不见，长大了不少。",
+      "distractors": [
+        "小家伙，好久不见，怎么一点也没长大。",
+        "小家伙，我们天天见，你还记得我吗？"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n91753-1-7-2",
+      "ko": "이모, 보고 싶었어요.",
+      "correct": "姨妈，我想您了。",
+      "distractors": [
+        "姨妈，我一点也不想您。",
+        "姨妈，您想我了吗？"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n91770-1-8-1",
+      "ko": "감기가 계속 안 떨어지네.",
+      "correct": "感冒怎么一直好不了啊。",
+      "distractors": [
+        "感冒怎么一下子就好了啊。",
+        "感冒已经好了，只是现在很饿。"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n91770-1-8-2",
+      "ko": "병원에 가서 주사 한 방 맞으면 금방 나을 텐데.",
+      "correct": "去医院打一针的话应该很快就能好起来的。",
+      "distractors": [
+        "打一针也肯定不会好转。",
+        "只有连续打一个月针才能好。"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n72482-1-12-1",
+      "ko": "내 결혼식에 와 줄 거지?",
+      "correct": "你会来参加我的婚礼吧？",
+      "distractors": [
+        "你会邀请我参加你的婚礼吧？",
+        "你不会来参加我的婚礼吧？"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n72482-1-12-2",
+      "ko": "그럼. 네 인생에서 가장 큰 행사인데 당연히 가야지.",
+      "correct": "当然会。那可是你人生中最重要的一场庆典，我肯定要去啊。",
+      "distractors": [
+        "当然不去，婚礼并不重要。",
+        "只有你付我路费，我才会去。"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n35136-2-7-1",
+      "ko": "민준아, 나는 네가 밥은 먹었나, 학교는 잘 갔나, 늘 궁금하다.",
+      "correct": "敏俊啊，我总挂念着你有没有吃饭，有没有顺利去上学。",
+      "distractors": [
+        "敏俊，我不在意你有没有吃饭上学。",
+        "敏俊，我总想知道你昨天看了什么电影。"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n35136-2-7-2",
+      "ko": "걱정마세요, 어머니. 저는 잘 지내고 있어요.",
+      "correct": "别担心，妈妈。我过得很好哦。",
+      "distractors": [
+        "妈妈，您应该更担心我才对。",
+        "妈妈，我最近一直过得不好。"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n31666-1-29-1",
+      "ko": "결혼식 주례는 누가 보기로 했나요?",
+      "correct": "婚礼决定请谁证婚？",
+      "distractors": [
+        "婚礼决定在哪里举办呢？",
+        "婚礼决定请谁担任摄影师？"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n31666-1-29-2",
+      "ko": "우리 부부를 잘 아는 교수님께서 해 주시기로 했어요.",
+      "correct": "请了一位熟悉我们夫妻俩的教授来证婚。",
+      "distractors": [
+        "请了一位不认识我们的教授来证婚。",
+        "我们夫妻决定自己证婚，不请任何人。"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n25949-2-11-1",
+      "ko": "저기 길에 누가 쓰러져 있어. 어떻게 하지?",
+      "correct": "那边路上有人倒下了。该怎么办呢？",
+      "distractors": [
+        "那边路上有人在跑步，我们怎么办？",
+        "那边路上有人跌倒了，已经站起来了吧？"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n25949-2-11-2",
+      "ko": "경찰을 부르는 게 제일 좋을 것 같아.",
+      "correct": "我觉得最好还是叫警察来。",
+      "distractors": [
+        "我觉得最好不要叫警察。",
+        "我觉得最好把警察送回家。"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n58156-3-6-1",
+      "ko": "집으로 오는 길을 잃어 버리거든 남쪽만 바라고 오면 돼.",
+      "correct": "如果回家的路上迷路了，只要往南方走就行。",
+      "distractors": [
+        "回家的路上迷路时，一直朝北走就行。",
+        "回家的路上迷路时，要一直朝西走。"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n58156-3-6-2",
+      "ko": "우리 집이 남쪽에 있어요?",
+      "correct": "我们家在南方吗？",
+      "distractors": [
+        "我们家在北方吗？",
+        "我们家已经搬走了吗？"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n17289-1-21-1",
+      "ko": "민준아, 즐거운 금요일 밤인데 왜 공부를 하니?",
+      "correct": "敏俊啊，今天是愉快的周五晚上，你怎么还在学习呢？",
+      "distractors": [
+        "今天星期一，你怎么还不学习呢？",
+        "今天周五晚上，你怎么还在工作呢？"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    },
+    {
+      "lineId": "n17289-1-21-2",
+      "ko": "내일 시험이 있거든. 토요일 오전에 시험을 보다니 너무해.",
+      "correct": "因为明天有考试。居然要在周六上午考试，太不公平了。",
+      "distractors": [
+        "因为明天没考试，周六上午终于能休息了。",
+        "因为考试在周六下午，上午不用去。"
+      ],
+      "reviewer": "Codex authored semantic contrasts after reading both dialogue turns; not teacher certification"
+    }
+  ]
+}

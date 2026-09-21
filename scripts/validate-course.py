@@ -171,6 +171,36 @@ assert '观看' in part_at('n71624-1-32-2',7)['meaning']
 assert any(s['entryId']=='82136' for s in part_at('n55498-1-7-1',4)['sources'])
 assert '什么样' in part_at('n57383-1-8-1',9)['meaning']
 assert any(r['term']=='듣다' for r in part_at('n15110-2-6-1',2)['readings'])
+# Cases found by reading the actual dialogue, with controls for homographs and
+# auxiliary constructions. Regeneration must not reintroduce these errors.
+assert '四' in part_at('n34873-1-2-2',2)['meaning']
+assert part_at('n69518-14-6-2',0)['readings'][0]['term']=='옴'
+assert part_at('n49308-3-4-1',0)['sources'][0]['entryId']=='62156'
+assert '尽可能' in part_at('n31952-2-2-2',2)['meaning']
+assert '59' in part_at('n71105-2-7-2',1)['meaning']
+assert '62' in part_at('n70813-1-7-2',2)['meaning']
+assert part_at('n83344-3-5-2',2)['text'] == '삼사'
+assert '34' not in part_at('n83344-3-5-2',2)['meaning']
+assert '你的' not in part_at('n43832-1-23-2',1)['meaning']
+assert part_at('n62391-1-14-2',9)['sources'][0]['senseId']=='8'
+assert part_at('n62597-1-8-2',3)['sources'][0]['entryId']=='61346'
+assert '原因' in part_at('n62597-1-8-2',3)['explanation']
+assert '疑问句末' in part_at('n69533-1-13-1',4)['explanation']
+assert '原因' not in part_at('n69533-1-13-1',4)['explanation']
+assert part_at('n60201-4-7-1',8)['sources'][0]['entryId']=='62601'
+assert part_at('n15765-1-7-1',2)['sources'][0]['senseId']=='2'
+assert part_at('n67897-1-7-1',5)['readings'][0]['term']=='밝다'
+assert '祝福' in part_at('n67897-1-7-2',5)['meaning']
+assert not any(r['term']=='하다' for r in part_at('n74128-1-7-2',5)['readings'])
+assert part_at('n30189-1-16-2',4)['sources'][0]['entryId']=='73815'
+assert '踢足球' in part_at('n27821-1-7-2',1)['meaning']
+assert part_at('n27821-1-7-2',1)['sources'][0]['entryId']=='36700'
+assert '今年' in part_at('n71700-1-12-1',0)['meaning']
+assert '线股' in part_at('n89458-7-6-1',0)['meaning']
+assert '引用' not in part_at('n62508-1-8-2',3)['meaning']
+assert '外面' in part_at('n71354-2-3-1',3)['meaning']
+assert '位置' in part_at('n15631-3-6-2',2)['meaning']
+assert '马上' in part_at('n70378-15-8-2',2)['meaning']
 # Every recorded decision must survive regeneration, including legitimate
 # auxiliary exceptions. This does not certify unreviewed semantic cases.
 for decision in read('docs/context-safety-review.json')['decisions']:

@@ -1,6 +1,6 @@
 {
   "scope": "local built production Worker with local D1; not a live phone/desktop test",
-  "passed": 28,
+  "passed": 31,
   "checks": [
     "anonymous reads and writes rejected",
     "cross-origin write rejected",
@@ -14,6 +14,9 @@
     "two user identities have isolated progress",
     "fresh sessions restore durable progress",
     "stale writing revision cannot overwrite another device",
+    "lost draft response can be retried without a false conflict or another revision",
+    "a future draft revision is rejected even when its text matches",
+    "cleared drafts persist and retry safely without allowing stale text to restore them",
     "simultaneous due review advances exactly once",
     "replay from another session preserves all earned progress",
     "using a transcript hint schedules one-day consolidation",

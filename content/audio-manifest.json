@@ -143901,6 +143901,11 @@
       "path": "/audio/66b2ad55d8645d92ed83.mp3",
       "voice": "ko-KR-SunHiNeural",
       "bytes": 12096
+    },
+    "옴": {
+      "path": "/audio/2c4f295da9900c3cfd31.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
     }
   },
   "audioListeningReview": "not performed by a human; automated coverage in docs/audio-transcription-tests.json",

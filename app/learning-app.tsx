@@ -445,6 +445,36 @@ export default function LearningApp({ signedIn, signInHref }: Props) {
       setDraftSaved(true);
     }
   };
+  const readCloudDraft = async () => {
+    if (inFlight.current) return;
+    inFlight.current = true;
+    ++progressRequest.current;
+    setBusy(true);
+    setSync("正在读取云端回复");
+    try {
+      const response = await fetch("/api/progress", {
+        cache: "no-store",
+        signal: AbortSignal.timeout(15000),
+      });
+      const raw = await response.json();
+      if (!response.ok) throw new Error(errorSchema.parse(raw).error);
+      const data = progressSchema.parse(raw);
+      const cloud = data.rows.find((row) => row.lesson_id === lessonId);
+      setProgress(data);
+      setDraft(cloud?.draft ?? "");
+      setDraftRevision(cloud?.draft_revision ?? 0);
+      draftTouched.current = false;
+      setDraftSaved(true);
+      setError("");
+      setSync("已读取云端回复");
+    } catch (e) {
+      setSync("暂未连接云端");
+      setError(learningError(e, "读取失败，输入框中的文字仍保留，请重试。"));
+    } finally {
+      inFlight.current = false;
+      setBusy(false);
+    }
+  };
   const stateRef = useRef({ lesson, progress, cursor });
   useEffect(() => {
     stateRef.current = { lesson, progress, cursor };
@@ -1030,21 +1060,16 @@ export default function LearningApp({ signedIn, signInHref }: Props) {
                   <button
                     className="button subtle"
                     disabled={busy}
-                    onClick={() => {
-                      setDraft(record?.draft ?? "");
-                      setDraftRevision(record?.draft_revision ?? 0);
-                      draftTouched.current = false;
-                      setDraftSaved(false);
-                    }}
+                    onClick={() => void readCloudDraft()}
                   >
                     读取云端回复
                   </button>
                   <button
                     className="button"
-                    disabled={disabled || !draft.trim()}
+                    disabled={disabled || (!draft.trim() && !record?.draft)}
                     onClick={() => void saveDraft()}
                   >
-                    保存回复
+                    {draft.length === 0 && record?.draft ? "清空云端回复" : "保存回复"}
                   </button>
                 </div>
               </div>

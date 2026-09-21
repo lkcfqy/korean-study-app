@@ -1,33 +1,34 @@
 {
-  "inventoryFiles": 28778,
-  "filesWithCurrentHashBoundBlindASR": 28778,
+  "inventoryFiles": 28779,
+  "filesWithCurrentHashBoundBlindASR": 28779,
   "expectedTextProvidedToRecognizer": false,
   "coverageByMode": {
-    "isolated": 12516,
-    "grouped": 28778
+    "grouped": 28779,
+    "isolated": 12517,
+    "repeat": 2454
   },
   "classification": {
-    "transcript_match": 26324,
-    "unresolved_transcription_difference": 1978,
-    "strict_normalizer_agreement_only": 476
+    "transcript_match": 26612,
+    "unresolved_transcription_difference": 1731,
+    "strict_normalizer_agreement_only": 436
   },
   "classificationByUse": {
     "dialogue_line": {
-      "transcript_match": 7568,
-      "unresolved_transcription_difference": 516,
-      "strict_normalizer_agreement_only": 72
+      "transcript_match": 7601,
+      "unresolved_transcription_difference": 485,
+      "strict_normalizer_agreement_only": 70
     },
     "word_form_lemma_or_alphabet": {
-      "transcript_match": 18756,
-      "unresolved_transcription_difference": 1462,
-      "strict_normalizer_agreement_only": 404
+      "transcript_match": 19011,
+      "unresolved_transcription_difference": 1246,
+      "strict_normalizer_agreement_only": 366
     }
   },
-  "inventoryIndexSha256": "c4fe8b9c8c1bcfa81efe5d9266f0cfe6a358b6359a1945f3123fa313d964bbfc",
-  "evidenceSha256": "921dedc3d991869b631d50bb3bb5ea7ac36f3080c200a93fb4e23ab5e362d666",
+  "inventoryIndexSha256": "7ab984c350a5ff8d1dbcfe130f6edd6704b894b7739631cac899838fc83197a5",
+  "evidenceSha256": "4908577e09b3950783365b775652ee46efa4d3b8ed48d8498f3bd1702f4113a5",
   "evidenceFile": "audio-inventory-screen.jsonl",
   "humanListeningReview": false,
   "allPronunciationsCertified": false,
-  "method": "Blind Whisper large-v3-turbo; grouped clips followed by isolated discrepancy checks. Numeric/unit variants are normalized after recognition. Strict g2p comparison does not merge vowel classes.",
+  "method": "Blind Whisper large-v3-turbo; grouped clips followed by isolated and repeated-clip discrepancy checks using the same model. Expected text is never supplied to recognition. Numeric/unit variants are normalized after recognition. Strict g2p comparison does not merge vowel classes.",
   "limits": "Transcription differences, especially short isolated words, are unresolved screening signals, not confirmed synthesis errors. Transcript or normalizer agreement cannot certify phonemes, naturalness, prosody or listening comprehension. The evidence is a snapshot of completed checks only."
 }

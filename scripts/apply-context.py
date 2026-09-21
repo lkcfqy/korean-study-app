@@ -10,6 +10,20 @@ from surface_readings import surface_reading
 
 NAMES=json.loads((ROOT/'content/context-names.json').read_text())
 READABLE_GLOSSES={('28818','1'):'韩国泡菜（辛奇）',('28026','1'):'旅行，旅游',('48655','1'):'硬币',('56548','1'):'听写',('57293','3'):'用餐、吃或喝（敬语）'}
+READABLE_GLOSSES.update({
+    ('17254','1'):'不能、没能（能力或条件限制）',
+    ('74176','1'):'年幼、年龄小',
+    ('61168','1'):'给、奉上（谦敬表达）',
+    ('91753','1'):'侄子、侄女、外甥、外甥女',
+    ('31971','1'):'姐姐（女性对姐姐的称呼）',
+    ('31971','3'):'姐姐、大姐（女性对年长女性的亲切称呼）',
+    ('32205','1'):'姐姐（男性对姐姐的称呼）',
+    ('32205','2'):'姐姐（男性对年长女性的亲切称呼）',
+    ('20286','1'):'哥哥（男性对哥哥的称呼）',
+    ('20286','2'):'哥哥（男性对年长男性的亲切称呼）',
+    ('68006','1'):'哥哥（女性对哥哥的称呼）',
+    ('68006','2'):'哥哥、大哥（女性对年长男性的亲切称呼）',
+})
 
 
 def path(term):return '/audio/'+hashlib.sha256(term.encode()).hexdigest()[:20]+'.mp3'
@@ -55,6 +69,11 @@ def context_expression(lemma,tag,parts,index):
         return '正在做、持续进行（-고 있다）'
     if lemma=='있다' and tag=='VX' and previous_forms&{'어','아','여'}:
         return '某种结果状态持续着（-아/어 있다）'
+    if lemma=='계시다' and tag=='VX':
+        if '고' in previous_forms:return '正在做、持续进行（-고 계시다，尊敬表达）'
+        if previous_forms&{'어','아','여'}:return '结果状态持续着（-아/어 계시다，尊敬表达）'
+    if lemma=='버리다' and tag=='VX' and previous_forms&{'어','아','여'}:
+        return '做完、彻底结束（-아/어 버리다，可带遗憾或痛快语气）'
     if lemma=='말다' and tag=='VX':
         if '지' in previous_forms:return '不要做、停止做（-지 말다）'
         if '고' in previous_forms:return '结果还是、最终发生（-고 말다）'
@@ -63,7 +82,9 @@ def context_expression(lemma,tag,parts,index):
         for noun,meaning in emotions.items():
             if noun in prior_words:
                 if lemma=='내다' and noun in {'화','짜증','신경질'}:meaning='发脾气、表现出不满'
-                return meaning+'（'+noun+('이/가 ' if lemma=='나다' else '을/를 ')+lemma+'）'
+                final=(ord(noun[-1])-0xAC00)%28
+                particle=('이' if final else '가') if lemma=='나다' else ('을' if final else '를')
+                return meaning+'（'+noun+particle+' '+lemma+'）'
     if lemma=='여자' and index+1<len(parts) and any(t['lemma']=='친구' for t in parts[index+1]['tokens']):
         return '女性（여자 친구 合指“女朋友”）'
     if lemma=='남자' and index+1<len(parts) and any(t['lemma']=='친구' for t in parts[index+1]['tokens']):
@@ -84,6 +105,10 @@ def construction_sense(item,parts,index):
     if lemma=='있다' and item['tag']=='VX':
         if '고' in forms:return ('62595','2')
         if forms&{'어','아','여'}:return ('62595','3')
+    if lemma=='계시다' and item['tag']=='VX':
+        if '고' in forms:return ('61346','1')
+        if forms&{'어','아','여'}:return ('61346','2')
+    if lemma=='버리다' and item['tag']=='VX' and forms&{'어','아','여'}:return ('62601','1')
     if lemma=='주다' and item['tag']=='VX' and forms&{'어','아','여'}:return ('77245','1')
     if lemma=='드리다' and item['tag']=='VX':return ('59252','1')
     if lemma=='나다' and item['tag']=='VX' and '고' in forms:return ('62134','1')
@@ -178,7 +203,7 @@ def main():
                     else:line_words[lemma]=word
                     required.add(lemma)
                     lesson_rows.append({'key':choice_key,**sources[-1],'meaning':meaning,'mode':'authored context expression' if expression or edit else 'unique headword in source-sense example' if source_target else 'authored construction rule' if construction else entry.get('origin','selected NIKL sense')})
-                grammar=[grammar_note(t,part['tokens']) for t in part['tokens']]
+                grammar=[grammar_note(t,part['tokens'],question_final=bool(re.search(r'[?？]["”’]*$',part['text']))) for t in part['tokens']]
                 grammar=list(dict.fromkeys(filter(None,grammar)))
                 for t in part['tokens']:
                     if t['tag'] in TAGS and not any(item['lemma']==t['lemma'] for item in part['items']):
@@ -196,6 +221,17 @@ def main():
                 if not glosses:
                     number=number_meaning(part['text'])
                     if number:glosses.append(number);lexical.append(number)
+                # Compose actual numeral tokens only. Homographs such as 일
+                # (work), 사 (company) and 네 (your/yes) retain lexical senses.
+                number_tokens=[t for t in part['tokens'] if t['tag'] not in {'SF','SP','SS','SSO','SSC','SE','SO','SW'}]
+                whole_number=number_meaning(part['text']) if len(number_tokens)>1 and all(t['tag'] in {'NR','MM','SN'} for t in number_tokens) else None
+                # Adjacent digits can be approximate quantities (삼사 년:
+                # three or four years), not place-value numbers like 34.
+                if all(ch in '영공일이삼사오육칠팔구' for ch in part['text'].strip('.,?!')):
+                    whole_number=None
+                if whole_number:
+                    glosses=[whole_number]
+                    lexical.append('整体数词：'+whole_number)
                 meaning=edit.get('meaning','；'.join(dict.fromkeys(glosses)) or '；'.join(grammar))
                 explanation=edit.get('explanation','；'.join(lexical+grammar))
                 if not meaning or not explanation:

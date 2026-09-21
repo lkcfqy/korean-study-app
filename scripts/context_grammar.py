@@ -213,8 +213,13 @@ add('화','XSN','构成“……化”，表示转变成相应事物或形态。
 add('하','XSV','接在动作性名词等后，组成表示做该行为的动词。')
 
 
-def grammar_note(token,tokens):
+def grammar_note(token,tokens,question_final=False):
     form,tag=token['form'].translate(JAMO),token['tag']
+    if tag=='XSN' and form=='네':
+        return '네：表示某人一家或所属群体，如 대리네（代理家）。'
+    endings=[t for t in tokens if t['tag'] not in {'SF','SP','SS','SSO','SSC','SE','SO','SW'}]
+    if question_final and endings and token is endings[-1] and tag=='EC' and form in {'니','냐','나','ㄴ가','은가','는가'}:
+        return form+'：'+NOTES[(form,'EF')]
     if tag=='EC' and form in {'어요','아요','에요','ㅂ니다','습니다','야','네','소','ㄹ세','다지'}:
         if (form,'EF') in NOTES:return form+'：'+NOTES[(form,'EF')]
     if tag=='ETM' and form=='는':

@@ -46,7 +46,7 @@ report={'inventoryFiles':len(manifest),'filesWithCurrentHashBoundBlindASR':len(e
         'inventoryIndexSha256':hashlib.sha256((ROOT/'content/audio-storage-index.json').read_bytes()).hexdigest(),
         'evidenceSha256':hashlib.sha256(out.read_bytes()).hexdigest(),'evidenceFile':out.name,
         'humanListeningReview':False,'allPronunciationsCertified':False,
-        'method':'Blind Whisper large-v3-turbo; grouped clips followed by isolated discrepancy checks. Numeric/unit variants are normalized after recognition. Strict g2p comparison does not merge vowel classes.',
+        'method':'Blind Whisper large-v3-turbo; grouped clips followed by isolated and repeated-clip discrepancy checks using the same model. Expected text is never supplied to recognition. Numeric/unit variants are normalized after recognition. Strict g2p comparison does not merge vowel classes.',
         'limits':'Transcription differences, especially short isolated words, are unresolved screening signals, not confirmed synthesis errors. Transcript or normalizer agreement cannot certify phonemes, naturalness, prosody or listening comprehension. The evidence is a snapshot of completed checks only.'}
 (ROOT/'docs/audio-inventory-review.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
 print(json.dumps(report,ensure_ascii=False,indent=2))

@@ -70,6 +70,17 @@ call({'action':'draft','lessonId':'c31','text':'stale overwrite','revision':0},e
 row=next(r for r in call()['rows'] if r['lesson_id']=='c31')
 assert row['draft_revision']==1 and row['draft'].startswith('제 생각')
 passed('stale writing revision cannot overwrite another device')
+retry=call({'action':'draft','lessonId':'c31','text':row['draft'],'revision':0},delta=True)['row']
+assert retry['draft_revision']==1 and retry['draft']==row['draft']
+passed('lost draft response can be retried without a false conflict or another revision')
+call({'action':'draft','lessonId':'c31','text':row['draft'],'revision':2},expected=409)
+passed('a future draft revision is rejected even when its text matches')
+cleared=call({'action':'draft','lessonId':'c31','text':'','revision':1},delta=True)['row']
+assert cleared['draft']=='' and cleared['draft_revision']==2
+assert call({'action':'draft','lessonId':'c31','text':'','revision':1},delta=True)['row']['draft_revision']==2
+call({'action':'draft','lessonId':'c31','text':row['draft'],'revision':1},expected=409)
+assert next(r for r in call()['rows'] if r['lesson_id']=='c31')['draft']==''
+passed('cleared drafts persist and retry safely without allowing stale text to restore them')
 # Move only this test account's local review due time to the past.
 for file in (ROOT/'.wrangler/state').rglob('*.sqlite'):
     db=sqlite3.connect(file)
