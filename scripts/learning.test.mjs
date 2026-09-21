@@ -21,6 +21,15 @@ test('due time is inclusive; future reviews wait; unfinished lessons resume',()=
  const rows=[row('l0',{next_review_at:201}),row('l1',{next_review_at:200}),row('l2',{completed_at:null,next_review_at:null,cursor:1})];
  assert.deepEqual(planSession(catalog,rows,200,4).ids,['l1','l2','l3','l4']);
 });
+test('recent unfinished later lessons resume before unseen earlier lessons, without restarting them',()=>{
+ const rows=[row('l18',{completed_at:null,next_review_at:null,cursor:1,read_mask:1,updated_at:40}),row('l17',{completed_at:null,next_review_at:null,cursor:0,read_mask:0,draft:'연습',updated_at:50}),row('l19',{completed_at:null,next_review_at:null,cursor:0,read_mask:0,updated_at:60}),row('l10',{next_review_at:200})];
+ const session=planSession(catalog,rows,200,4);
+ assert.deepEqual(session.ids,['l10','l17','l18','l0']);
+ assert.deepEqual(session.resumeIds,['l17','l18']);
+ assert.deepEqual(session.reviewIds,['l10']);
+ assert.deepEqual(session.newIds,['l0']);
+ assert.deepEqual(planSession(catalog,rows,200,1).ids,['l10']);
+});
 test('empty and fully completed courses do not create nonexistent work',()=>{
  assert.deepEqual(planSession([],[],200).ids,[]);
  assert.deepEqual(planSession(catalog,catalog.map(l=>row(l.id,{next_review_at:999})),200).ids,[]);

@@ -36,7 +36,7 @@ export type Lesson = {
   lines: Line[];
   day?: number;
   source?: { url: string; label: string; license: string };
-  questions: { lineIndex: number; options: string[]; answer: number }[];
+  questions: { lineIndex: number; options: string[]; answer: number; explanation?: string }[];
 };
 export type LessonMeta = {
   id: string;
@@ -129,6 +129,7 @@ export const lessonSchema = z.object({
         lineIndex: z.number().int().nonnegative(),
         options: z.array(z.string()).length(3),
         answer: z.number().int().min(0).max(2),
+        explanation: z.string().min(1).optional(),
       }),
     )
     .length(2),

@@ -72,7 +72,7 @@ def main():
                     if args.mode == 'repeat':
                         arrays.extend((samples, tail, samples, tail))
                     break
-            result = speech.mlx_whisper.transcribe(
+            result = speech.transcribe(
                 np.concatenate(arrays), path_or_hf_repo=args.model, language='ko',
                 temperature=0, condition_on_previous_text=False,
                 word_timestamps=args.mode == 'grouped', verbose=None,

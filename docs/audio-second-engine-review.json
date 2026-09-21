@@ -1,0 +1,39 @@
+{
+  "targetWhisperDifferences": 1731,
+  "currentHashBoundSecondEngineReviews": 1731,
+  "allTargetClipsProcessed": true,
+  "classification": {
+    "difference_persists": 1343,
+    "independent_transcript_match": 388
+  },
+  "classificationByUse": {
+    "dialogue_line": {
+      "difference_persists": 436,
+      "independent_transcript_match": 49
+    },
+    "word_form_lemma_or_alphabet": {
+      "difference_persists": 907,
+      "independent_transcript_match": 339
+    }
+  },
+  "notYetProcessed": 0,
+  "models": [
+    {
+      "name": "FunAudioLLM/SenseVoiceSmall",
+      "revision": "3847d57b6bdf2dd8875cb1508d2af43d80a16bf7",
+      "weightsSha256": "833ca2dcfdf8ec91bd4f31cfac36d6124e0c459074d5e909aec9cabe6204a3ea"
+    }
+  ],
+  "source": "https://huggingface.co/FunAudioLLM/SenseVoiceSmall",
+  "runtime": "FunASR 1.4.16, CPU, language=ko, use_itn=False, isolated clips, batch size 8",
+  "expectedTextProvidedToRecognizer": false,
+  "recognitionRunsOnLocalDevice": true,
+  "publishedAudioFilesChanged": 0,
+  "humanListeningReview": false,
+  "allPronunciationsCertified": false,
+  "baselineEvidenceSha256": "4908577e09b3950783365b775652ee46efa4d3b8ed48d8498f3bd1702f4113a5",
+  "evidenceFile": "audio-second-engine-screen.jsonl",
+  "evidenceSha256": "2661ca4cdc20280d72138e29cba72a4a5e8cfa8abb7827230ccda1d77144b931",
+  "method": "A separate non-Whisper model transcribes the audio without expected words. Compare afterward using the existing Korean text/numeral/unit normalizer. The original Whisper classifications remain intact; disagreement between recognizers is reported separately.",
+  "limits": "Independent transcript agreement is additional screening evidence, not a pronunciation repair or certification. Persistent differences may be synthesis or recognition errors. This targets only the previously unresolved clips, not a second complete pass over all 28,779 files."
+}

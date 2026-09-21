@@ -20,6 +20,7 @@ def main():
     positions_path=ROOT/'content/question-positions.json'
     positions=json.loads(positions_path.read_text()) if positions_path.exists() else {}
     overrides=json.loads((ROOT/'content/question-overrides.json').read_text())
+    explanations=json.loads((ROOT/'content/question-explanations.json').read_text())
     choices=QuestionChoices(course,overrides)
     words = sorted({w['term'] for l in course for s in l['lines'] for w in s['words']})
     sentences = sorted({key(s['ko']) for l in course for s in l['lines']})
@@ -46,7 +47,11 @@ def main():
             # open on another device. Existing lessons retain their positions.
             answer = positions.get(lesson['id'],[int(hashlib.sha256((lesson['id']+str(i)).encode()).hexdigest()[:8],16)%3 for i in range(2)])[q]
             options.insert(answer, line['zh'])
-            questions.append({'lineIndex': line_index, 'options': options, 'answer': answer})
+            question={'lineIndex': line_index, 'options': options, 'answer': answer}
+            if line['id'] in explanations:
+                assert line['id'] in overrides, 'Explanations require reviewed contrast choices'
+                question['explanation']=explanations[line['id']]
+            questions.append(question)
         published = {**lesson, 'questions': questions}
         encoded = json.dumps(published, ensure_ascii=False, separators=(',', ':')) + '\n'
         (directory / f"{lesson['id']}.json").write_text(encoded)

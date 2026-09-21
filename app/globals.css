@@ -86,3 +86,9 @@
 @media (max-width: 380px) {
   .course-page .course-day-grid { grid-template-columns: repeat(5, minmax(0, 1fr)); }
 }
+.contrast-explanation {
+  display: block;
+  margin-top: 0.5rem;
+  color: var(--muted-foreground);
+  line-height: 1.7;
+}

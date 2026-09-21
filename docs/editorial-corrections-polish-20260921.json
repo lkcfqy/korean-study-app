@@ -1,0 +1,1708 @@
+{
+  "method": "Codex AI review of complete dialogue and original NIKL senses; not teacher certification",
+  "corrections": [
+    {
+      "lineId": "n65975-1-3-1",
+      "part": 0,
+      "text": "혹시",
+      "context": "혹시 승규 못 봤니?",
+      "before": "或，或许，也许",
+      "edit": {
+        "meaning": "是不是、是否（试探询问）",
+        "lexicalMeaning": "是不是、是否（试探询问）",
+        "root": {
+          "entryId": "87955",
+          "senseId": "4"
+        },
+        "explanation": "혹시：试探、委婉地询问；혹시 승규 못 봤니? 在这里相当于“你有没有看到承奎？”"
+      }
+    },
+    {
+      "lineId": "n17198-4-7-2",
+      "part": 0,
+      "text": "아,",
+      "context": "아, 잠깐만요. 형 바꿔 드릴게요.",
+      "before": "喂",
+      "edit": {
+        "meaning": "啊、哦（回应对方）",
+        "lexicalMeaning": "啊、哦（回应对方）",
+        "root": {
+          "entryId": "16247",
+          "senseId": "4"
+        },
+        "explanation": "아：听明白对方要找谁后的应答、领会。这里接着说“稍等，我让哥哥接电话”。"
+      }
+    },
+    {
+      "lineId": "n60346-1-5-2",
+      "part": 0,
+      "text": "그래?",
+      "context": "그래? 그럼 간단하게 뭐 먹으러 갈까?",
+      "before": "真的",
+      "edit": {
+        "meaning": "是吗？真的吗？（确认）",
+        "lexicalMeaning": "是吗？真的吗？（确认）",
+        "explanation": "그래?：对刚听到的情况表示确认或轻微惊讶，相当于“是吗？”"
+      }
+    },
+    {
+      "lineId": "n66591-9-7-2",
+      "part": 1,
+      "text": "잘",
+      "context": "부모 잘 만나서 그렇지. 뭐.",
+      "before": "很好地，了不起地",
+      "edit": {
+        "meaning": "好（부모 잘 만나다：有好的父母或家庭条件）",
+        "lexicalMeaning": "好、很好地",
+        "explanation": "잘 在 부모 잘 만나다 中表示遇上好的父母、拥有好的家庭条件；这里在解释年轻就当上老板的原因。"
+      }
+    },
+    {
+      "lineId": "n82142-5-7-1",
+      "part": 1,
+      "text": "한",
+      "context": "지수가 한 얘기 잘 들었어?",
+      "before": "承接他人的话或想法等的句子，并修饰后面的单词。",
+      "edit": {
+        "meaning": "说过的、讲过的",
+        "lexicalMeaning": "说、讲（이야기를 하다）",
+        "root": {
+          "entryId": "73277",
+          "senseId": "22"
+        },
+        "explanation": "하다：说、讲；-ㄴ：动词后修饰名词，表示已做过的动作。지수가 한 얘기 指智秀说过的话，不是引用句专用的连接表达。"
+      }
+    },
+    {
+      "lineId": "n90069-1-9-2",
+      "part": 4,
+      "text": "약간만",
+      "context": "아주 단 것은 싫으니까 약간만 넣어라.",
+      "before": "若干",
+      "edit": {
+        "meaning": "只要一点点",
+        "lexicalMeaning": "少量、一点",
+        "explanation": "약간：少量、一点；-만：只、仅。약간만 넣어라 表示只放一点，不要加多。"
+      }
+    },
+    {
+      "lineId": "n60201-4-7-1",
+      "part": 7,
+      "text": "늘어나",
+      "context": "이것 봐. 이 옷의 귀 부분이 다 늘어나 버렸어.",
+      "before": "增，涨，扩大",
+      "edit": {
+        "meaning": "拉长、拉松（衣物变形）",
+        "lexicalMeaning": "变长、变大；本句指衣物拉松变形",
+        "explanation": "늘어나다：原本的长度、体积或程度增加；这里指衣服边角被拉松、变形。后接 -아/어 버리다 表示已经出现了不愿看到的结果。"
+      }
+    },
+    {
+      "lineId": "n72138-1-8-2",
+      "part": 0,
+      "text": "3번",
+      "context": "3번 출구로 올라오시면 제가 보일 겁니다.",
+      "before": "号",
+      "edit": {
+        "meaning": "三号（出口编号）",
+        "lexicalMeaning": "号（编号）",
+        "explanation": "3：三；번：号、编号。3번 출구 是三号出口，不是走三次。"
+      }
+    },
+    {
+      "lineId": "n57305-1-8-2",
+      "field": "zh",
+      "context": "너무 힘들어서 더 빨리는 못 가겠어.",
+      "before": "太累了，走不动更快了。",
+      "after": "太累了，没法走得更快了。"
+    },
+    {
+      "lineId": "n17204-1-20-1",
+      "field": "zh",
+      "context": "잘 먹었습니다. 여기 만 원이요.",
+      "before": "吃得很饱了。这是1万韩元。",
+      "after": "我吃好了，谢谢。这是一万韩元。"
+    },
+    {
+      "lineId": "n50523-1-10-1",
+      "part": 0,
+      "text": "웬",
+      "context": "웬 땀을 이렇게 많이 흘렸어?",
+      "before": "有个",
+      "edit": {
+        "meaning": "怎么会有、哪儿来的（表示意外）",
+        "lexicalMeaning": "怎么会有、哪儿来的（表示意外）",
+        "root": {
+          "entryId": "69527",
+          "senseId": "1"
+        }
+      }
+    },
+    {
+      "lineId": "n50523-1-10-2",
+      "part": 0,
+      "text": "좀",
+      "context": "좀 전에 팔 굽혀 펴기를 백 개나 했거든.",
+      "before": "一下",
+      "edit": {
+        "meaning": "稍微、不久（좀 전：刚才）",
+        "lexicalMeaning": "少许、一点；좀 전 合指不久前"
+      }
+    },
+    {
+      "lineId": "n61533-1-16-1",
+      "part": 3,
+      "text": "주면",
+      "context": "아내한테 무슨 선물을 주면 기뻐할까?",
+      "before": "使感到，使受到，带来",
+      "edit": {
+        "meaning": "给、送（如果送礼物）",
+        "lexicalMeaning": "给、送给",
+        "root": {
+          "entryId": "82136",
+          "senseId": "1"
+        }
+      }
+    },
+    {
+      "lineId": "n61533-1-16-2",
+      "part": 1,
+      "text": "넌지시",
+      "context": "그냥 넌지시 물어보면 어때?",
+      "before": "悄悄地，偷偷地",
+      "edit": {
+        "meaning": "委婉地、不露声色地（询问）",
+        "lexicalMeaning": "不露声色地、委婉地"
+      }
+    },
+    {
+      "lineId": "n15401-1-8-1",
+      "part": 5,
+      "text": "떴어요.",
+      "context": "저기 보세요. 빌딩 사이로 무지개가 떴어요.",
+      "before": "漂，浮",
+      "edit": {
+        "meaning": "浮现、出现在空中（彩虹）",
+        "lexicalMeaning": "浮起、出现在空中；本句指彩虹出现"
+      }
+    },
+    {
+      "lineId": "n62092-1-6-2",
+      "part": 1,
+      "text": "작은아들입니다.",
+      "context": "제 작은아들입니다.",
+      "before": "小， 矮；儿子",
+      "edit": {
+        "meaning": "是小儿子（非长子）",
+        "lexicalMeaning": "小（这里指儿子排行，不指身材）",
+        "explanation": "작은아들 合指几个儿子中不是长子的儿子，通常称小儿子；这里的 작은 不表示个子矮。-입니다 是正式礼貌的判断句末。"
+      }
+    },
+    {
+      "lineId": "n16617-1-10-2",
+      "part": 2,
+      "text": "뒤에",
+      "context": "오 년 뒤에 있어요.",
+      "before": "背后，背地里，内幕",
+      "edit": {
+        "meaning": "以后、之后（时间）",
+        "lexicalMeaning": "以后、之后",
+        "root": {
+          "entryId": "67477",
+          "senseId": "2"
+        }
+      }
+    },
+    {
+      "lineId": "n46603-2-8-1",
+      "part": 4,
+      "text": "게냐.",
+      "context": "식사 도중에 어딜 가는 게냐.",
+      "before": "表示对未发生事情的预测、推测或计划。",
+      "edit": {
+        "meaning": "是……吗？（询问行为）",
+        "lexicalMeaning": "某种行为、状态或事情",
+        "root": {
+          "entryId": "62835",
+          "senseId": "4"
+        },
+        "explanation": "게냐 是 것이냐 的缩略形式；가는 게냐 在这里询问“这是要去哪儿”，不是预测或计划。句末 -냐 是对亲近者或晚辈使用的疑问形式。"
+      }
+    },
+    {
+      "lineId": "n25696-2-7-2",
+      "part": 2,
+      "text": "내신대요.",
+      "context": "부장님께서 다 내신대요.",
+      "before": "交，提，提交",
+      "edit": {
+        "meaning": "据说由……支付",
+        "lexicalMeaning": "交、支付（费用）",
+        "root": {
+          "entryId": "89906",
+          "senseId": "17"
+        },
+        "explanation": "내다：支付费用；-시-：尊敬；-ㄴ대요：转述听来的消息。这里说部长会付全部聚餐费。"
+      }
+    },
+    {
+      "lineId": "n57957-1-17-2",
+      "part": 0,
+      "text": "다음",
+      "context": "다음 주에 학교에서 발표회를 해요.",
+      "before": "又不是",
+      "edit": {
+        "meaning": "下一个（다음 주：下周）",
+        "lexicalMeaning": "下一个",
+        "root": {
+          "entryId": "64531",
+          "senseId": "2"
+        }
+      }
+    },
+    {
+      "lineId": "n57957-1-17-2",
+      "part": 3,
+      "text": "발표회를",
+      "context": "다음 주에 학교에서 발표회를 해요.",
+      "before": "发布会，报告会",
+      "edit": {
+        "meaning": "演奏汇报会（本句为钢琴表演）",
+        "lexicalMeaning": "成果展示会、汇报演出；本句指钢琴演奏会"
+      }
+    },
+    {
+      "lineId": "n28562-4-8-2",
+      "part": 1,
+      "text": "쪽으로",
+      "context": "그다음 쪽으로 넘기세요.",
+      "before": "边",
+      "edit": {
+        "meaning": "向下一页（쪽：页）",
+        "lexicalMeaning": "页",
+        "root": {
+          "entryId": "71582",
+          "senseId": "1"
+        },
+        "explanation": "쪽：书或文档的一页；-으로：方向。그다음 쪽으로 넘기세요 表示翻到下一页，不是翻到某一边。"
+      }
+    },
+    {
+      "lineId": "n64537-2-8-2",
+      "part": 2,
+      "text": "한걸음에",
+      "context": "이모가 오셨다니까 한걸음에 달려왔더라고.",
+      "before": "一；步伐，迈步",
+      "edit": {
+        "meaning": "一口气、一下子就（赶来）",
+        "lexicalMeaning": "一（한걸음에 合指一口气、径直赶来）",
+        "explanation": "한걸음에 不要求只迈一步，而是表示不耽搁、一口气赶来；与 달려오다 连用强调迅速赶到。"
+      }
+    },
+    {
+      "lineId": "n24107-2-2-1",
+      "part": 2,
+      "text": "이내",
+      "context": "어머니의 소식은 이내 모르는군.",
+      "before": "之后就",
+      "edit": {
+        "meaning": "一直、始终（持续至今）",
+        "lexicalMeaning": "从某时起一直、始终",
+        "root": {
+          "entryId": "24107",
+          "senseId": "2"
+        },
+        "explanation": "이내 在此采用“从某时起一直持续”的义项，与 모르는군 合起来表示一直不知道消息；不是常见的马上、立刻义。"
+      }
+    },
+    {
+      "lineId": "n15524-3-7-1",
+      "part": 2,
+      "text": "되는",
+      "context": "영화의 무대가 되는 곳이 우리 고향이야.",
+      "before": "形成，完成",
+      "edit": {
+        "meaning": "成为、作为（电影故事的背景）",
+        "lexicalMeaning": "成为、作为",
+        "root": {
+          "entryId": "89858",
+          "senseId": "16"
+        }
+      }
+    },
+    {
+      "lineId": "n49497-1-7-2",
+      "part": 2,
+      "text": "전에",
+      "context": "그럼, 자기 전에 당연히 해야지.",
+      "before": "上",
+      "edit": {
+        "meaning": "之前（时间）",
+        "lexicalMeaning": "之前",
+        "root": {
+          "entryId": "17301",
+          "senseId": "2"
+        }
+      }
+    },
+    {
+      "lineId": "n62380-2-11-2",
+      "part": 3,
+      "text": "다",
+      "context": "얼굴에 난 점까지도 다 예뻐.",
+      "before": "连",
+      "edit": {
+        "meaning": "全、都",
+        "lexicalMeaning": "全、都",
+        "root": {
+          "entryId": "58176",
+          "senseId": "1"
+        }
+      }
+    },
+    {
+      "lineId": "n24063-1-9-2",
+      "part": 1,
+      "text": "9층에",
+      "context": "네. 9층에 있어요.",
+      "before": "层",
+      "edit": {
+        "meaning": "在九楼",
+        "lexicalMeaning": "楼层",
+        "explanation": "9：九；층：楼层；-에：所在地点。9층에 있어요 表示在九楼。"
+      }
+    },
+    {
+      "lineId": "n67867-1-8-1",
+      "part": 3,
+      "text": "누구",
+      "context": "욕실 청소는 이번에 누구 차례지?",
+      "before": "谁都，无论是谁",
+      "edit": {
+        "meaning": "谁（询问人）",
+        "lexicalMeaning": "谁（询问人）",
+        "root": {
+          "entryId": "62078",
+          "senseId": "1"
+        }
+      }
+    },
+    {
+      "lineId": "n15195-1-7-1",
+      "part": 2,
+      "text": "있어?",
+      "context": "무슨 일 있어?",
+      "before": "可能",
+      "edit": {
+        "meaning": "有、发生（有什么事吗）",
+        "lexicalMeaning": "有某种事情发生",
+        "root": {
+          "entryId": "68797",
+          "senseId": "15"
+        }
+      }
+    },
+    {
+      "lineId": "n15195-1-7-2",
+      "part": 3,
+      "text": "엉망이니까",
+      "context": "지금 내 기분 엉망이니까 말 시키지 마.",
+      "before": "杂乱，混杂",
+      "edit": {
+        "meaning": "因为糟透了（心情）",
+        "lexicalMeaning": "一团糟、糟糕"
+      }
+    },
+    {
+      "lineId": "n93435-1-10-2",
+      "part": 1,
+      "text": "좋겠다.",
+      "context": "와, 좋겠다. 안내서는 샀어?",
+      "before": "喜爱，喜欢",
+      "edit": {
+        "meaning": "真好啊、真让人羡慕",
+        "lexicalMeaning": "好、令人高兴",
+        "root": {
+          "entryId": "79033",
+          "senseId": "11"
+        },
+        "explanation": "좋다：好、令人高兴；-겠- 在此推想对方的好处或愉快感受。좋겠다 表达“真好啊、真羡慕”。"
+      }
+    },
+    {
+      "lineId": "n82890-1-11-1",
+      "part": 3,
+      "text": "거야?",
+      "context": "왜 퇴직을 하려는 거야?",
+      "before": "表示说话人的确信、决定、决心等。",
+      "edit": {
+        "meaning": "是……吗？（追问原因）",
+        "lexicalMeaning": "某种事情、情况",
+        "root": {
+          "entryId": "62331",
+          "senseId": "1"
+        },
+        "explanation": "거 是 것 的口语形式；-는 거야? 在此与 왜 合用，追问为什么想辞职，不是陈述决心或确信。"
+      }
+    },
+    {
+      "lineId": "n82890-1-11-2",
+      "part": 1,
+      "text": "그만두고",
+      "context": "회사를 그만두고 대학원에 가려고.",
+      "before": "停住，停",
+      "edit": {
+        "meaning": "辞掉、停止这份工作，然后……",
+        "lexicalMeaning": "辞掉、停止（工作）"
+      }
+    },
+    {
+      "lineId": "n70896-2-7-2",
+      "field": "zh",
+      "context": "네, 조금 힘들었어요. 제대로 목소리가 안 나왔어요.",
+      "before": "是的，确实有点辛苦。声音根本发不出来。",
+      "after": "是的，确实有点辛苦。声音没能正常发挥出来。"
+    },
+    {
+      "lineId": "n24980-1-8-1",
+      "field": "zh",
+      "context": "네 동생은 아직 학생이니?",
+      "before": "你家比你小的那个还是学生吗？",
+      "after": "你的弟弟或妹妹还是学生吗？"
+    },
+    {
+      "lineId": "n37062-2-3-1",
+      "part": 3,
+      "text": "갔어?",
+      "context": "승규는 벌써 집에 갔어?",
+      "before": "去世",
+      "edit": {
+        "meaning": "去、离开（移动地点）",
+        "lexicalMeaning": "去、离开",
+        "root": {
+          "entryId": "27500",
+          "senseId": "1"
+        }
+      }
+    },
+    {
+      "lineId": "n62324-1-15-1",
+      "part": 1,
+      "text": "가시게요?",
+      "context": "벌써 가시게요?",
+      "before": "去世",
+      "edit": {
+        "meaning": "去、离开（移动地点）",
+        "lexicalMeaning": "去、离开",
+        "root": {
+          "entryId": "27500",
+          "senseId": "1"
+        }
+      }
+    },
+    {
+      "lineId": "n56351-3-6-1",
+      "part": 2,
+      "text": "가셨니?",
+      "context": "아버지 어디 가셨니?",
+      "before": "去世",
+      "edit": {
+        "meaning": "去、离开（移动地点）",
+        "lexicalMeaning": "去、离开",
+        "root": {
+          "entryId": "27500",
+          "senseId": "1"
+        }
+      }
+    },
+    {
+      "lineId": "n50559-2-7-1",
+      "part": 2,
+      "text": "가셨어요?",
+      "context": "아버지는 어디 가셨어요?",
+      "before": "去世",
+      "edit": {
+        "meaning": "去、离开（移动地点）",
+        "lexicalMeaning": "去、离开",
+        "root": {
+          "entryId": "27500",
+          "senseId": "1"
+        }
+      }
+    },
+    {
+      "lineId": "n75001-1-5-1",
+      "part": 3,
+      "text": "가셨다면서?",
+      "context": "부모님께서 교외로 이사 가셨다면서?",
+      "before": "去世",
+      "edit": {
+        "meaning": "去、离开（移动地点）",
+        "lexicalMeaning": "去、离开",
+        "root": {
+          "entryId": "27500",
+          "senseId": "1"
+        }
+      }
+    },
+    {
+      "lineId": "n75001-1-5-2",
+      "part": 8,
+      "text": "가셨답니다.",
+      "context": "네. 아버지 정년퇴직 이후에 조용한 동네에서 사시겠다며 이사를 가셨답니다.",
+      "before": "去世",
+      "edit": {
+        "meaning": "去、离开（移动地点）",
+        "lexicalMeaning": "去、离开",
+        "root": {
+          "entryId": "27500",
+          "senseId": "1"
+        }
+      }
+    },
+    {
+      "lineId": "n26750-1-8-1",
+      "part": 3,
+      "text": "갔다",
+      "context": "나 오늘 장례식에 갔다 왔어.",
+      "before": "去世",
+      "edit": {
+        "meaning": "去参加（葬礼）",
+        "lexicalMeaning": "去、前往（参加活动）",
+        "root": {
+          "entryId": "27500",
+          "senseId": "3"
+        }
+      }
+    },
+    {
+      "lineId": "n71206-1-8-1",
+      "part": 5,
+      "text": "가셨대요?",
+      "context": "시아주버님은 왜 아직 장가를 안 가셨대요?",
+      "before": "去世",
+      "edit": {
+        "meaning": "结婚（장가를 가다）",
+        "lexicalMeaning": "去；장가를 가다 合指男子结婚",
+        "root": {
+          "entryId": "27500",
+          "senseId": "1"
+        },
+        "explanation": "장가를 가다 合指男子娶妻、结婚；本句 안 가셨대요? 表示听说尚未结婚，并询问原因。这里的 가다 不是去世。"
+      }
+    },
+    {
+      "lineId": "n63278-2-7-1",
+      "part": 0,
+      "text": "네",
+      "context": "네 시계가 오 분 정도 빠른데?",
+      "before": "四",
+      "edit": {
+        "meaning": "你的（너의 的缩略）",
+        "lexicalMeaning": "你",
+        "root": {
+          "entryId": "64390",
+          "senseId": "1"
+        },
+        "explanation": "너：你；의：的。네 是 너의 的缩略，修饰后面的名词，表示“你的”；这里不是数词四。"
+      }
+    },
+    {
+      "lineId": "n24980-1-8-1",
+      "part": 0,
+      "text": "네",
+      "context": "네 동생은 아직 학생이니?",
+      "before": "四",
+      "edit": {
+        "meaning": "你的（너의 的缩略）",
+        "lexicalMeaning": "你",
+        "root": {
+          "entryId": "64390",
+          "senseId": "1"
+        },
+        "explanation": "너：你；의：的。네 是 너의 的缩略，修饰后面的名词，表示“你的”；这里不是数词四。"
+      }
+    },
+    {
+      "lineId": "n37785-1-7-1",
+      "part": 0,
+      "text": "네",
+      "context": "네 동생이 크게 다쳤다며?",
+      "before": "四",
+      "edit": {
+        "meaning": "你的（너의 的缩略）",
+        "lexicalMeaning": "你",
+        "root": {
+          "entryId": "64390",
+          "senseId": "1"
+        },
+        "explanation": "너：你；의：的。네 是 너의 的缩略，修饰后面的名词，表示“你的”；这里不是数词四。"
+      }
+    },
+    {
+      "lineId": "n24031-2-7-2",
+      "part": 1,
+      "text": "다음",
+      "context": "응. 다음 교대가 아직 안 와서 못 가고 있어.",
+      "before": "又不是",
+      "edit": {
+        "meaning": "下一班（轮班顺序）",
+        "lexicalMeaning": "下一个",
+        "root": {
+          "entryId": "64531",
+          "senseId": "2"
+        }
+      }
+    },
+    {
+      "lineId": "n37834-1-8-1",
+      "part": 1,
+      "text": "사람이",
+      "context": "이 사람이 바로 우리 오빠예요.",
+      "before": "人们，大家",
+      "edit": {
+        "meaning": "这个人（사람：人）",
+        "lexicalMeaning": "人",
+        "root": {
+          "entryId": "58161",
+          "senseId": "1"
+        }
+      }
+    },
+    {
+      "lineId": "n73864-2-20-2",
+      "part": 3,
+      "text": "일만",
+      "context": "응. 이제 삼 일만 지나면 추석이야.",
+      "before": "一日",
+      "edit": {
+        "meaning": "天（삼 일：三天）",
+        "lexicalMeaning": "天、日（时间单位）",
+        "root": {
+          "entryId": "89863",
+          "senseId": "1"
+        }
+      }
+    },
+    {
+      "lineId": "n61612-2-7-1",
+      "part": 4,
+      "text": "걸.",
+      "context": "이 공은 꽤 가벼운 걸.",
+      "before": "某种事物、现象或事实。",
+      "edit": {
+        "meaning": "呢、啊（轻微惊讶或感叹）",
+        "lexicalMeaning": "呢、啊（轻微惊讶或感叹）",
+        "explanation": "가벼운 걸 在此表示“还挺轻的啊”。-ㄴ걸 是带有感叹、发现语气的句末形式，不指某个物品。"
+      }
+    },
+    {
+      "lineId": "n85911-2-8-1",
+      "part": 2,
+      "text": "할까?",
+      "context": "회의는 언제 할까?",
+      "before": "决定",
+      "edit": {
+        "meaning": "要举行、进行吗（会议）",
+        "lexicalMeaning": "做、进行",
+        "root": {
+          "entryId": "73277",
+          "senseId": "1"
+        }
+      }
+    },
+    {
+      "lineId": "n85911-2-8-2",
+      "part": 4,
+      "text": "피해서",
+      "context": "주말에는 사람들이 쉬니까 주말을 피해서 정하자.",
+      "before": "忌讳，避讳，避忌",
+      "edit": {
+        "meaning": "避开、不选这一天（安排日期）",
+        "lexicalMeaning": "避开不合适的日子",
+        "root": {
+          "entryId": "85911",
+          "senseId": "2"
+        }
+      }
+    },
+    {
+      "lineId": "n59483-2-6-2",
+      "part": 1,
+      "text": "있으면",
+      "context": "조금 있으면 저절로 꺼져.",
+      "before": "可能",
+      "edit": {
+        "meaning": "过一会儿（조금 있으면）",
+        "lexicalMeaning": "过（时间）",
+        "root": {
+          "entryId": "68796",
+          "senseId": "4"
+        }
+      }
+    },
+    {
+      "lineId": "n14316-1-6-2",
+      "part": 0,
+      "text": "그냥",
+      "context": "그냥 착하고 좋은 사람이야.",
+      "before": "随便",
+      "edit": {
+        "meaning": "只是、不过（没有特别的理由）",
+        "lexicalMeaning": "只是、不过"
+      }
+    },
+    {
+      "lineId": "n65977-1-3-2",
+      "part": 1,
+      "text": "그냥",
+      "context": "아냐, 그냥 지금 내가 기분이 안 좋아서 그래.",
+      "before": "随便",
+      "edit": {
+        "meaning": "只是、不过（没有特别的理由）",
+        "lexicalMeaning": "只是、不过"
+      }
+    },
+    {
+      "lineId": "n26723-1-7-2",
+      "part": 0,
+      "text": "그냥",
+      "context": "그냥 싼 월세 하나 구했어.",
+      "before": "随便",
+      "edit": {
+        "meaning": "只是、不过（没有特别的理由）",
+        "lexicalMeaning": "只是、不过"
+      }
+    },
+    {
+      "lineId": "n26144-1-7-2",
+      "part": 0,
+      "text": "그냥",
+      "context": "그냥 조그만 중소기업에 다니는 회사원이에요.",
+      "before": "随便",
+      "edit": {
+        "meaning": "只是、不过（没有特别的理由）",
+        "lexicalMeaning": "只是、不过"
+      }
+    },
+    {
+      "lineId": "n21994-1-3-2",
+      "part": 5,
+      "text": "돼서요.",
+      "context": "오늘은 왠지 공부가 잘 안 돼서요.",
+      "before": "成为，变为",
+      "edit": {
+        "meaning": "进展顺利（공부가 안 되다：学不进去）",
+        "lexicalMeaning": "顺利进行",
+        "root": {
+          "entryId": "89858",
+          "senseId": "13"
+        }
+      }
+    },
+    {
+      "lineId": "n39556-1-10-1",
+      "part": 1,
+      "text": "껍질을",
+      "context": "사과 껍질을 깎아 줄까?",
+      "before": "外衣",
+      "edit": {
+        "meaning": "果皮（껍질）",
+        "lexicalMeaning": "果皮、外皮",
+        "root": {
+          "entryId": "39556",
+          "senseId": "2"
+        }
+      }
+    },
+    {
+      "lineId": "n39556-1-10-2",
+      "part": 1,
+      "text": "껍질까지",
+      "context": "아니요. 껍질까지 먹는 게 더 좋아요.",
+      "before": "外衣",
+      "edit": {
+        "meaning": "果皮（껍질）",
+        "lexicalMeaning": "果皮、外皮",
+        "root": {
+          "entryId": "39556",
+          "senseId": "2"
+        }
+      }
+    },
+    {
+      "lineId": "n14153-1-7-1",
+      "part": 2,
+      "text": "어디로",
+      "context": "지수가 예식장을 어디로 잡았는지 알아?",
+      "before": "一个地方",
+      "edit": {
+        "meaning": "哪里（询问地点）",
+        "lexicalMeaning": "哪里、哪儿",
+        "root": {
+          "entryId": "60319",
+          "senseId": "1"
+        }
+      }
+    },
+    {
+      "lineId": "n67845-1-16-2",
+      "part": 1,
+      "text": "한",
+      "context": "와인 한 잔 정도는 괜찮지 않아?",
+      "before": "大概",
+      "edit": {
+        "meaning": "一（杯）",
+        "lexicalMeaning": "一",
+        "root": {
+          "entryId": "73278",
+          "senseId": "1"
+        }
+      }
+    },
+    {
+      "lineId": "n28954-1-7-2",
+      "part": 5,
+      "text": "십여",
+      "context": "아니요, 화장실은 여기에서 직선 거리로 십여 미터밖에 안 돼요.",
+      "before": "十",
+      "edit": {
+        "meaning": "十几、十余",
+        "lexicalMeaning": "十（-여 表示有余）",
+        "explanation": "십：十；-여：有余、大约超过这个数。십여 미터 指十几米，不是恰好十米。"
+      }
+    },
+    {
+      "lineId": "n28954-1-7-2",
+      "part": 7,
+      "text": "안",
+      "context": "아니요, 화장실은 여기에서 직선 거리로 십여 미터밖에 안 돼요.",
+      "before": "内，以内",
+      "edit": {
+        "meaning": "不（否定）",
+        "lexicalMeaning": "不",
+        "root": {
+          "entryId": "71372",
+          "senseId": "1"
+        }
+      }
+    },
+    {
+      "lineId": "n28954-1-7-2",
+      "part": 8,
+      "text": "돼요.",
+      "context": "아니요, 화장실은 여기에서 직선 거리로 십여 미터밖에 안 돼요.",
+      "before": "足够",
+      "edit": {
+        "meaning": "达到、有（距离）",
+        "lexicalMeaning": "达到一定数量",
+        "root": {
+          "entryId": "89858",
+          "senseId": "4"
+        },
+        "explanation": "되다：达到一定数量。십여 미터밖에 안 돼요 合起来表示“只有十几米”，밖에 与否定表达共同限定数量。"
+      }
+    },
+    {
+      "lineId": "n14817-2-8-2",
+      "part": 4,
+      "text": "되고",
+      "context": "어제부터 갑자기 동작이 안 되고 소리도 안 나요.",
+      "before": "用完，没有",
+      "edit": {
+        "meaning": "运转、正常工作",
+        "lexicalMeaning": "顺利进行、正常运行",
+        "root": {
+          "entryId": "89858",
+          "senseId": "13"
+        }
+      }
+    },
+    {
+      "lineId": "n58288-1-7-1",
+      "part": 3,
+      "text": "되는데요.",
+      "context": "시계가 작동이 안 되는데요.",
+      "before": "用完，没有",
+      "edit": {
+        "meaning": "运转、正常工作",
+        "lexicalMeaning": "顺利进行、正常运行",
+        "root": {
+          "entryId": "89858",
+          "senseId": "13"
+        }
+      }
+    },
+    {
+      "lineId": "n62345-3-8-2",
+      "field": "zh",
+      "context": "얼마 건지지도 못하고 이렇게 있습니다.",
+      "before": "还没卖出去多少，就只能这样待着。",
+      "after": "还没收回多少本钱，就这么待着。"
+    },
+    {
+      "lineId": "n67274-1-7-1",
+      "field": "zh",
+      "context": "어느새 슈퍼까지 다녀왔어요?",
+      "before": "你什么时候已经去过超市回来了？",
+      "after": "这么一会儿，你已经去过超市回来了呀？"
+    },
+    {
+      "lineId": "n32424-1-8-2",
+      "part": 3,
+      "text": "하고",
+      "context": "토요일이라 삼 교시까지만 하고 끝나요.",
+      "before": "因为，由于",
+      "edit": {
+        "meaning": "做、进行",
+        "lexicalMeaning": "做、进行",
+        "root": {
+          "entryId": "73277",
+          "senseId": "1"
+        }
+      }
+    },
+    {
+      "lineId": "n67413-1-2-1",
+      "part": 4,
+      "text": "하니?",
+      "context": "어쩌면 그렇게 요리를 잘 하니?",
+      "before": "因为，由于",
+      "edit": {
+        "meaning": "做、进行",
+        "lexicalMeaning": "做、进行",
+        "root": {
+          "entryId": "73277",
+          "senseId": "1"
+        }
+      }
+    },
+    {
+      "lineId": "n73643-4-7-2",
+      "part": 6,
+      "text": "했나",
+      "context": "응, 어제 노래 연습을 너무 많이 했나 봐.",
+      "before": "表示想法或推测。",
+      "edit": {
+        "meaning": "做、进行",
+        "lexicalMeaning": "做、进行",
+        "root": {
+          "entryId": "73277",
+          "senseId": "1"
+        }
+      }
+    },
+    {
+      "lineId": "n40591-1-7-2",
+      "part": 8,
+      "text": "한대.",
+      "context": "응, 여기는 고기를 다지는 일부터 모두 요리사가 직접 한대.",
+      "before": "承接他人的话或想法等的句子，并修饰后面的单词。",
+      "edit": {
+        "meaning": "做、进行",
+        "lexicalMeaning": "做、进行",
+        "root": {
+          "entryId": "73277",
+          "senseId": "1"
+        }
+      }
+    },
+    {
+      "lineId": "n15727-3-7-2",
+      "part": 3,
+      "text": "봐줘요.",
+      "context": "오늘부터 방학이니까 좀 봐줘요.",
+      "before": "办；给",
+      "edit": {
+        "meaning": "请通融一下、体谅一下",
+        "lexicalMeaning": "考虑、体谅（봐주다：通融）",
+        "root": {
+          "entryId": "61190",
+          "senseId": "21"
+        },
+        "explanation": "봐주다 在这里表示体谅、通融；对方以刚开始放假为由，请家人允许自己赖床一会儿。-어요 为礼貌句末。"
+      }
+    },
+    {
+      "lineId": "n49093-2-12-2",
+      "part": 4,
+      "text": "좋아서.",
+      "context": "거주 환경이 별로 안 좋아서.",
+      "before": "那样就好了",
+      "edit": {
+        "meaning": "好、舒适（居住环境）",
+        "lexicalMeaning": "好、令人满意",
+        "root": {
+          "entryId": "79033",
+          "senseId": "1"
+        }
+      }
+    },
+    {
+      "lineId": "n29733-1-13-2",
+      "part": 3,
+      "text": "말고는",
+      "context": "단 두 명 말고는 아무도 없어.",
+      "before": "不做",
+      "edit": {
+        "meaning": "除了……之外",
+        "lexicalMeaning": "排除前一项、选择后一项",
+        "root": {
+          "entryId": "69296",
+          "senseId": "3"
+        },
+        "explanation": "명사 + 말고는：除这个名词所指的对象之外。두 명 말고는 아무도 없어 表示除了两个人就没有别人。"
+      }
+    },
+    {
+      "lineId": "n32556-3-7-2",
+      "part": 6,
+      "text": "있었네.",
+      "context": "아니. 숙제가 있다는 것을 깜빡 잊고 있었네.",
+      "before": "正在做、持续进行（-고 있다）",
+      "edit": {
+        "meaning": "一直处于忘记的状态（잊고 있다）",
+        "lexicalMeaning": "某种状态持续（-고 있다）",
+        "root": {
+          "entryId": "62595",
+          "senseId": "1"
+        },
+        "explanation": "잊고 있다 表示忘着、一直未想起；-었- 表示过去，-네 表示刚发现的感叹。这里不是正在进行遗忘的动作。"
+      }
+    },
+    {
+      "lineId": "n71221-2-7-2",
+      "part": 2,
+      "text": "전에는",
+      "context": "저녁때가 되기 전에는 오셔야 돼요.",
+      "before": "上",
+      "edit": {
+        "meaning": "在……之前",
+        "lexicalMeaning": "之前（时间）",
+        "root": {
+          "entryId": "17301",
+          "senseId": "2"
+        }
+      }
+    },
+    {
+      "lineId": "n72088-1-7-1",
+      "part": 5,
+      "text": "보자!",
+      "context": "수업 끝나고 이따 저녁에 다시 보자!",
+      "before": "看，观看，观赏",
+      "edit": {
+        "meaning": "再见面吧",
+        "lexicalMeaning": "见、见面",
+        "root": {
+          "entryId": "61190",
+          "senseId": "30"
+        }
+      }
+    },
+    {
+      "lineId": "n33494-1-2-2",
+      "part": 5,
+      "text": "일로",
+      "context": "응. 다음 주 금, 토, 일로 다녀오려고.",
+      "before": "日",
+      "edit": {
+        "meaning": "周日（요일 的简称）",
+        "lexicalMeaning": "星期日、周日",
+        "root": {
+          "entryId": "72294",
+          "senseId": "1"
+        },
+        "explanation": "금, 토, 일 分别是周五、周六、周日的简称；这里不是日期中的某一天。"
+      }
+    },
+    {
+      "lineId": "n24489-1-3-1",
+      "part": 0,
+      "text": "실례지만",
+      "context": "실례지만 매점이 어디에 있나요?",
+      "before": "实例",
+      "edit": {
+        "meaning": "打扰一下、冒昧问一下",
+        "lexicalMeaning": "失礼",
+        "root": {
+          "entryId": "26872",
+          "senseId": "1"
+        },
+        "explanation": "실례：失礼。실례지만 用于打扰别人前的礼貌开场，相当于“打扰一下”；不是表示实例的同音词。"
+      }
+    },
+    {
+      "lineId": "n24811-1-11-1",
+      "part": 3,
+      "text": "100원",
+      "context": "버스 요금이 왜 100원 더 찍혔지?",
+      "before": "韩元，韩币",
+      "edit": {
+        "meaning": "一百韩元",
+        "lexicalMeaning": "韩元（원）",
+        "explanation": "100：一百；원：韩元。这里说公交车费比之前多扣了一百韩元。"
+      }
+    },
+    {
+      "lineId": "n24811-1-11-1",
+      "part": 5,
+      "text": "찍혔지?",
+      "context": "버스 요금이 왜 100원 더 찍혔지?",
+      "before": "被印刷，被印上",
+      "edit": {
+        "meaning": "显示、记录下来（扣费数额）",
+        "lexicalMeaning": "印上、显示记录",
+        "explanation": "찍히다 在这里指公交收费数额被记录、显示出来；整句问为什么显示多扣了一百韩元。"
+      }
+    },
+    {
+      "lineId": "n40591-1-7-2",
+      "part": 4,
+      "text": "일부터",
+      "context": "응, 여기는 고기를 다지는 일부터 모두 요리사가 직접 한대.",
+      "before": "一日",
+      "edit": {
+        "meaning": "从……工作、工序开始",
+        "lexicalMeaning": "事情、工作",
+        "root": {
+          "entryId": "91895",
+          "senseId": "1"
+        }
+      }
+    },
+    {
+      "lineId": "n14025-3-5-1",
+      "part": 2,
+      "text": "연출을",
+      "context": "이분은 결혼식 연출을 맡아 주실 분이에요.",
+      "before": "演出，表演",
+      "edit": {
+        "meaning": "现场布置、策划（婚礼）",
+        "lexicalMeaning": "对活动场景进行设计、组织"
+      }
+    },
+    {
+      "lineId": "n57186-2-7-2",
+      "part": 4,
+      "text": "반장이시거든.",
+      "context": "응. 엄마가 우리 동네 반장이시거든.",
+      "before": "班长",
+      "edit": {
+        "meaning": "居民小组长（韩国基层行政单位 반 的负责人）",
+        "lexicalMeaning": "居民小组长",
+        "root": {
+          "entryId": "57186",
+          "senseId": "2"
+        }
+      }
+    },
+    {
+      "lineId": "n57186-2-7-2",
+      "field": "zh",
+      "context": "응. 엄마가 우리 동네 반장이시거든.",
+      "before": "嗯，因为妈妈是我们社区的楼长啊。",
+      "after": "嗯，因为妈妈是我们社区的居民小组长啊。"
+    },
+    {
+      "lineId": "n15817-1-6-1",
+      "part": 0,
+      "text": "아들아,",
+      "context": "아들아, 이번 중간시험은 몇 점 맞았니?",
+      "before": "喂",
+      "edit": {
+        "meaning": "儿子啊（呼唤）",
+        "lexicalMeaning": "儿子",
+        "root": {
+          "entryId": "20240",
+          "senseId": "1"
+        },
+        "explanation": "아들：儿子；-아：用于呼唤关系亲近的人或晚辈。아들아 是“儿子啊”，不能拆成感叹词 아 加复数后缀 들。"
+      }
+    },
+    {
+      "lineId": "n81192-1-7-2",
+      "part": 1,
+      "text": "세상모르고",
+      "context": "방에서 세상모르고 쿨쿨 자고 있어요.",
+      "before": "根本，一点也；不知不觉",
+      "edit": {
+        "meaning": "浑然不觉地、很沉地（睡觉）",
+        "lexicalMeaning": "浑然不觉地、很沉地（睡觉）",
+        "explanation": "세상모르고 자다 是固定搭配，指睡得很沉、对外界浑然不觉。本句不是说这个人天真或不懂世故。"
+      }
+    },
+    {
+      "lineId": "n22164-2-7-2",
+      "part": 3,
+      "text": "두셨군요.",
+      "context": "부모님이 늦게 외아들을 두셨군요.",
+      "before": "有，认作",
+      "edit": {
+        "meaning": "有（子女）",
+        "lexicalMeaning": "有（家人、亲属等）",
+        "root": {
+          "entryId": "67470",
+          "senseId": "20"
+        }
+      }
+    },
+    {
+      "lineId": "n70003-1-8-2",
+      "part": 2,
+      "text": "정신이",
+      "context": "네, 월말이라서 정신이 하나도 없네요.",
+      "before": "精神，意识",
+      "edit": {
+        "meaning": "精神（정신이 하나도 없다：忙得晕头转向）",
+        "lexicalMeaning": "精神、心神",
+        "explanation": "정신이 하나도 없다 在这个忙碌的语境中表示忙得晕头转向、无暇顾及别的事，不是失去意识。"
+      }
+    },
+    {
+      "lineId": "n14291-1-8-2",
+      "part": 1,
+      "text": "야하지",
+      "context": "너무 야하지 않니?",
+      "before": "色情，妖艳，黄",
+      "edit": {
+        "meaning": "暴露、过于性感（衣着）",
+        "lexicalMeaning": "具有性诱惑感；本句指衣着暴露",
+        "root": {
+          "entryId": "14291",
+          "senseId": "1"
+        }
+      }
+    },
+    {
+      "lineId": "n34811-3-6-1",
+      "part": 1,
+      "text": "어쩌다",
+      "context": "무릎은 어쩌다 다친 거야?",
+      "before": "意外地",
+      "edit": {
+        "meaning": "怎么、因什么情况",
+        "lexicalMeaning": "怎么做、怎么弄的",
+        "root": {
+          "entryId": "29765",
+          "senseId": "1"
+        }
+      }
+    },
+    {
+      "lineId": "n34811-3-6-1",
+      "part": 3,
+      "text": "거야?",
+      "context": "무릎은 어쩌다 다친 거야?",
+      "before": "那个",
+      "edit": {
+        "meaning": "是……吗？（询问事情或情况）",
+        "lexicalMeaning": "某种事情、情况",
+        "root": {
+          "entryId": "62331",
+          "senseId": "1"
+        }
+      }
+    },
+    {
+      "lineId": "n56774-1-8-1",
+      "part": 4,
+      "text": "거야?",
+      "context": "민준아! 왜 반대쪽으로 가는 거야?",
+      "before": "表示说话人的确信、决定、决心等。",
+      "edit": {
+        "meaning": "是……吗？（询问事情或情况）",
+        "lexicalMeaning": "某种事情、情况",
+        "root": {
+          "entryId": "62331",
+          "senseId": "1"
+        }
+      }
+    },
+    {
+      "lineId": "n15727-3-7-1",
+      "part": 4,
+      "text": "거야?",
+      "context": "언제까지 침대에 묻혀 있을 거야?",
+      "before": "表示说话人的推测或信念等。",
+      "edit": {
+        "meaning": "是……吗？（询问事情或情况）",
+        "lexicalMeaning": "某种事情、情况",
+        "root": {
+          "entryId": "62331",
+          "senseId": "1"
+        }
+      }
+    },
+    {
+      "lineId": "n55731-1-5-2",
+      "part": 6,
+      "text": "거야?",
+      "context": "정말? 그럼 우리 영화는 못 보는 거야?",
+      "before": "表示说话人的推测或信念等。",
+      "edit": {
+        "meaning": "是……吗？（询问事情或情况）",
+        "lexicalMeaning": "某种事情、情况",
+        "root": {
+          "entryId": "62331",
+          "senseId": "1"
+        }
+      }
+    },
+    {
+      "lineId": "n71585-1-10-1",
+      "part": 4,
+      "text": "통에",
+      "context": "아줌마, 이 양배추 한 통에 얼마예요?",
+      "before": "桶",
+      "edit": {
+        "meaning": "颗、个（计数整棵卷心菜）",
+        "lexicalMeaning": "颗、个（计数白菜、西瓜等）",
+        "root": {
+          "entryId": "81468",
+          "senseId": "2"
+        }
+      }
+    },
+    {
+      "lineId": "n71585-1-10-2",
+      "part": 1,
+      "text": "통에",
+      "context": "한 통에 이천 원이에요.",
+      "before": "桶",
+      "edit": {
+        "meaning": "颗、个（计数整棵卷心菜）",
+        "lexicalMeaning": "颗、个（计数白菜、西瓜等）",
+        "root": {
+          "entryId": "81468",
+          "senseId": "2"
+        }
+      }
+    },
+    {
+      "lineId": "n62357-2-4-1",
+      "part": 0,
+      "text": "누가",
+      "context": "누가 산에 이렇게 쓰레기를 버렸을까?",
+      "before": "谁都，无论是谁",
+      "edit": {
+        "meaning": "谁（询问人）",
+        "lexicalMeaning": "谁",
+        "root": {
+          "entryId": "62078",
+          "senseId": "1"
+        }
+      }
+    },
+    {
+      "lineId": "n90605-2-9-2",
+      "part": 6,
+      "text": "들어요.",
+      "context": "중국어 실력을 쌓으려고 학원에서 회화 수업을 들어요.",
+      "before": "听，听从",
+      "edit": {
+        "meaning": "听课、修习课程",
+        "lexicalMeaning": "听（수업을 듣다：听课）",
+        "root": {
+          "entryId": "74104",
+          "senseId": "2"
+        },
+        "explanation": "수업을 듣다 合起来表示听课、上课、修习课程；这里不是听从命令。"
+      }
+    },
+    {
+      "lineId": "n90605-2-9-2",
+      "field": "zh",
+      "context": "중국어 실력을 쌓으려고 학원에서 회화 수업을 들어요.",
+      "before": "为了提升中文水平，我正在补习班上上口语课。",
+      "after": "为了提升中文水平，我正在补习班上口语课。"
+    },
+    {
+      "lineId": "n49497-1-7-2",
+      "part": 0,
+      "text": "그럼,",
+      "context": "그럼, 자기 전에 당연히 해야지.",
+      "before": "那么，既然那样",
+      "edit": {
+        "meaning": "当然、那是（肯定回应）",
+        "lexicalMeaning": "当然、那是",
+        "root": {
+          "entryId": "62277",
+          "senseId": "1"
+        }
+      }
+    },
+    {
+      "lineId": "n68235-1-8-2",
+      "part": 0,
+      "text": "그럼.",
+      "context": "그럼. 면허증도 있는걸.",
+      "before": "那么，既然那样",
+      "edit": {
+        "meaning": "当然、那是（肯定回应）",
+        "lexicalMeaning": "当然、那是",
+        "root": {
+          "entryId": "62277",
+          "senseId": "1"
+        }
+      }
+    },
+    {
+      "lineId": "n20233-1-31-2",
+      "part": 2,
+      "text": "해서",
+      "context": "공부를 안 해서 이번 시험은 못 봤어요.",
+      "before": "因为，由于",
+      "edit": {
+        "meaning": "做、进行（与前面的行为名词合用）",
+        "lexicalMeaning": "做、进行",
+        "root": {
+          "entryId": "73277",
+          "senseId": "1"
+        }
+      }
+    },
+    {
+      "lineId": "n72421-1-7-2",
+      "part": 2,
+      "text": "해서",
+      "context": "오랜만에 화장을 해서 그런가 봐.",
+      "before": "因为，由于",
+      "edit": {
+        "meaning": "做、进行（与前面的行为名词合用）",
+        "lexicalMeaning": "做、进行",
+        "root": {
+          "entryId": "73277",
+          "senseId": "1"
+        }
+      }
+    },
+    {
+      "lineId": "n14438-3-5-1",
+      "part": 2,
+      "text": "해서",
+      "context": "내가 말실수를 해서 지수가 화가 난 것 같아.",
+      "before": "因为，由于",
+      "edit": {
+        "meaning": "做、进行（与前面的行为名词合用）",
+        "lexicalMeaning": "做、进行",
+        "root": {
+          "entryId": "73277",
+          "senseId": "1"
+        }
+      }
+    },
+    {
+      "lineId": "n59192-1-7-1",
+      "part": 4,
+      "text": "해서요.",
+      "context": "강아지가 며칠째 배설을 못 해서요.",
+      "before": "因为，由于",
+      "edit": {
+        "meaning": "做、进行（与前面的行为名词合用）",
+        "lexicalMeaning": "做、进行",
+        "root": {
+          "entryId": "73277",
+          "senseId": "1"
+        }
+      }
+    },
+    {
+      "lineId": "n56106-1-7-2",
+      "part": 1,
+      "text": "해서",
+      "context": "마취를 해서 괜찮았어.",
+      "before": "因为，由于",
+      "edit": {
+        "meaning": "做、进行（与前面的行为名词合用）",
+        "lexicalMeaning": "做、进行",
+        "root": {
+          "entryId": "73277",
+          "senseId": "1"
+        }
+      }
+    },
+    {
+      "lineId": "n36974-1-8-2",
+      "part": 1,
+      "text": "해서",
+      "context": "구독을 해서 보면 더 편하지 않겠어요?",
+      "before": "因为，由于",
+      "edit": {
+        "meaning": "做、进行（与前面的行为名词合用）",
+        "lexicalMeaning": "做、进行",
+        "root": {
+          "entryId": "73277",
+          "senseId": "1"
+        }
+      }
+    },
+    {
+      "lineId": "n89773-2-9-2",
+      "part": 6,
+      "text": "해서",
+      "context": "너도? 어제 체육 시간에 운동을 심하게 해서 그런지 나도 여기저기가 아파.",
+      "before": "因为，由于",
+      "edit": {
+        "meaning": "做、进行（与前面的行为名词合用）",
+        "lexicalMeaning": "做、进行",
+        "root": {
+          "entryId": "73277",
+          "senseId": "1"
+        }
+      }
+    },
+    {
+      "lineId": "n62095-3-5-1",
+      "part": 3,
+      "text": "해서",
+      "context": "승규는 무슨 일을 해서 그렇게 많은 재산을 쌓았지?",
+      "before": "因为，由于",
+      "edit": {
+        "meaning": "做、从事（工作）",
+        "lexicalMeaning": "做、从事（职业活动）",
+        "root": {
+          "entryId": "73277",
+          "senseId": "6"
+        }
+      }
+    },
+    {
+      "lineId": "n23995-1-8-1",
+      "part": 2,
+      "text": "하면",
+      "context": "한국에서는 이사를 하면 이웃에 떡을 돌린다면서요?",
+      "before": "因为，由于",
+      "edit": {
+        "meaning": "做……的话（이사를 하다：搬家）",
+        "lexicalMeaning": "做、进行",
+        "root": {
+          "entryId": "73277",
+          "senseId": "1"
+        }
+      }
+    },
+    {
+      "lineId": "n14971-1-7-2",
+      "part": 6,
+      "text": "해서.",
+      "context": "이 파티에 아는 사람이 누가 왔나 해서.",
+      "before": "因为，由于",
+      "edit": {
+        "meaning": "因为在想、想确认",
+        "lexicalMeaning": "想、寻思",
+        "root": {
+          "entryId": "73277",
+          "senseId": "27"
+        },
+        "explanation": "-나 하다 表示心中疑问或揣测；누가 왔나 해서 在此说明张望是因为想看看有没有认识的人来。"
+      }
+    },
+    {
+      "lineId": "n64548-1-10-2",
+      "part": 5,
+      "text": "해서",
+      "context": "아니야. 나도 오랜만에 얘기 많이 해서 좋았어.",
+      "before": "因为，由于",
+      "edit": {
+        "meaning": "说、聊天（얘기하다）",
+        "lexicalMeaning": "说、讲",
+        "root": {
+          "entryId": "73277",
+          "senseId": "22"
+        }
+      }
+    },
+    {
+      "lineId": "n31764-1-8-1",
+      "part": 4,
+      "text": "됐나요?",
+      "context": "왜 갑자기 기계가 정지가 됐나요?",
+      "before": "用完，没有",
+      "edit": {
+        "meaning": "变成、进入（停止状态）",
+        "lexicalMeaning": "变成某种状态",
+        "root": {
+          "entryId": "89858",
+          "senseId": "16"
+        }
+      }
+    },
+    {
+      "lineId": "n55731-1-5-1",
+      "part": 6,
+      "text": "되었어.",
+      "context": "아, 보려던 영화 표가 이미 매진이 되었어.",
+      "before": "用完，没有",
+      "edit": {
+        "meaning": "变成（售罄状态）",
+        "lexicalMeaning": "变成某种状态",
+        "root": {
+          "entryId": "89858",
+          "senseId": "16"
+        }
+      }
+    },
+    {
+      "lineId": "n83247-1-9-1",
+      "part": 5,
+      "text": "될",
+      "context": "내가 즐겨 보던 프로그램이 폐지가 될 예정이래.",
+      "before": "用完，没有",
+      "edit": {
+        "meaning": "被取消、变成停播状态",
+        "lexicalMeaning": "变成某种状态",
+        "root": {
+          "entryId": "89858",
+          "senseId": "16"
+        }
+      }
+    },
+    {
+      "lineId": "n15013-1-5-1",
+      "part": 2,
+      "text": "말고",
+      "context": "밤에는 뒷골목 말고 큰길로 다녀.",
+      "before": "不做",
+      "edit": {
+        "meaning": "不要选……而要选……",
+        "lexicalMeaning": "排除前一项、选择后一项",
+        "root": {
+          "entryId": "69296",
+          "senseId": "3"
+        },
+        "explanation": "뒷골목 말고 큰길로 指不要走小巷而要走大路；말고 用来排除前面的选择。"
+      }
+    },
+    {
+      "lineId": "n88105-12-10-1",
+      "part": 5,
+      "text": "대",
+      "context": "김 변호사 사무실로 전화 좀 대 주겠어요?",
+      "before": "牵线搭桥",
+      "edit": {
+        "meaning": "接通、安排联系（电话）",
+        "lexicalMeaning": "联系、接通",
+        "root": {
+          "entryId": "88105",
+          "senseId": "12"
+        }
+      }
+    },
+    {
+      "lineId": "n15819-1-5-1",
+      "part": 1,
+      "text": "찾으시는",
+      "context": "뭐 찾으시는 거 있으세요? 도와드릴까요?",
+      "before": "拜访，寻访，探访",
+      "edit": {
+        "meaning": "寻找、想找",
+        "lexicalMeaning": "寻找",
+        "root": {
+          "entryId": "57320",
+          "senseId": "1"
+        }
+      }
+    }
+  ]
+}

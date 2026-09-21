@@ -162,6 +162,11 @@ export default function ListeningCheck({
           {correct
             ? "理解正确。"
             : `还不太对，回听后再试。${question.line.note}`}
+          {question.explanation && (
+            <span className="contrast-explanation">
+              辨析：{question.explanation}
+            </span>
+          )}
         </p>
       )}
       {result !== null && (

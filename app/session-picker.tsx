@@ -41,7 +41,7 @@ export default function SessionPicker({
     <details className="session-picker">
       <summary>按自己的节奏 · 一次一小组</summary>
       <p className="muted">
-        先安排待巩固和到期复习，空余位置最多加入 4
+        先安排待巩固和到期复习，再接着学最近未完成的关卡；空余位置最多加入 4
         关新课。复习多时，这组先不加新课。
       </p>
       <div className="listening-actions" role="group" aria-label="每组关数">
@@ -96,7 +96,7 @@ export default function SessionPicker({
       ) : (
         <>
           <p className="line-note">
-            本组：{preview.reviewIds.length} 关复习 + {preview.newIds.length}{" "}
+            本组：{preview.reviewIds.length} 关复习 + {preview.resumeIds.length} 关继续 + {preview.newIds.length}{" "}
             关新课。
             {preview.remainingReviews > 0
               ? `另有 ${preview.remainingReviews} 关待复习，可以分组完成。`

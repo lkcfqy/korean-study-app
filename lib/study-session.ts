@@ -3,6 +3,7 @@ import type { LessonMeta, LessonProgress } from "./course";
 export type StudySession = {
   ids: string[];
   reviewIds: string[];
+  resumeIds: string[];
   newIds: string[];
   dueCount: number;
   remainingReviews: number;
@@ -35,13 +36,26 @@ export function planSession(
     rows.filter((r) => r.completed_at !== null).map((r) => r.lesson_id),
   );
   const selected = new Set(reviewIds);
+  const resumeIds = rows
+    .filter((r) =>
+      known.has(r.lesson_id) &&
+      r.completed_at === null &&
+      !selected.has(r.lesson_id) &&
+      (r.cursor > 0 || r.read_mask !== 0 || r.draft.trim().length > 0),
+    )
+    .sort((a, b) => b.updated_at - a.updated_at || a.lesson_id.localeCompare(b.lesson_id))
+    .map((r) => r.lesson_id)
+    .filter((id, index, ids) => ids.indexOf(id) === index)
+    .slice(0, limit - reviewIds.length);
+  resumeIds.forEach((id) => selected.add(id));
   const newIds = lessons
     .filter((l) => !completed.has(l.id) && !selected.has(l.id))
-    .slice(0, Math.min(4, limit - reviewIds.length))
+    .slice(0, Math.min(4, limit - reviewIds.length - resumeIds.length))
     .map((l) => l.id);
   return {
-    ids: [...reviewIds, ...newIds],
+    ids: [...reviewIds, ...resumeIds, ...newIds],
     reviewIds,
+    resumeIds,
     newIds,
     dueCount: due.length,
     remainingReviews: Math.max(0, due.length - reviewIds.length),

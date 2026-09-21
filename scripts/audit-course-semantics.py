@@ -11,12 +11,9 @@ from pathlib import Path
 import time
 import urllib.request
 
-from mlx_lm import load
-from mlx_lm.generate import batch_generate
-from mlx_lm.sample_utils import make_sampler
-
 ROOT = Path(__file__).resolve().parents[1]
 MODEL = ROOT / '.sites-runtime/models/qwen3.5-9b'
+MLX_MODEL_NAME = 'mlx-community/Qwen3.5-9B-4bit'
 VERSION = 'whole-course-semantics-v5'
 INSTRUCTION = """你是韩中双语语义审校者。输入为完整韩语对话、中文译文、点击词块的中文词义及听力题。只找会使学习者理解错本句的实质语义错误。
 优先核对：同形异义词（比如数词被解释成无关名词）、本动词和助动词、疑问词和感叹词、数字、否定、人物关系、因果条件。
@@ -55,6 +52,29 @@ def parse(raw, lesson):
     return result
 
 
+def input_signature(encoded):
+    return hashlib.sha256((VERSION + INSTRUCTION + encoded).encode()).hexdigest()
+
+
+def is_current(row, encoded):
+    """Reuse only evidence bound to this exact input and review instruction.
+
+    Older MLX runs recorded the real model but used the Ollama default name
+    in their cache key. Recognize that specific historical key without
+    relabeling the model or treating changed inputs as reviewed.
+    """
+    if row.get('methodVersion') != VERSION:
+        return False
+    if row.get('inputSignature') == input_signature(encoded):
+        return True
+    model = row.get('model', '')
+    backend = 'mlx' if model == MLX_MODEL_NAME else 'ollama'
+    legacy_names = [model, 'qwen3.6:35b'] if backend == 'mlx' else [model]
+    return any(row.get('signature') == hashlib.sha256(
+        (VERSION + backend + name + INSTRUCTION + encoded).encode()
+    ).hexdigest() for name in legacy_names)
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--limit', type=int, default=0)
@@ -62,9 +82,16 @@ def main():
     parser.add_argument('--prefill-batch-size', type=int, default=4)
     parser.add_argument('--retry', action='store_true')
     parser.add_argument('--backend', choices=['mlx', 'ollama'], default='mlx')
-    parser.add_argument('--model', default='qwen3.6:35b')
+    parser.add_argument('--model', help='Ollama model name; MLX uses the bundled Qwen3.5-9B model')
+    parser.add_argument('--unreviewed-only', action='store_true',
+                        help='Reuse current input-bound reviews from any recorded model')
+    parser.add_argument('--new-first', action='store_true',
+                        help='Prioritize lessons with no earlier cross-review record')
     parser.add_argument('--workers', type=int, default=2)
     args = parser.parse_args()
+    if args.backend == 'mlx' and args.model not in (None, MLX_MODEL_NAME):
+        parser.error('MLX uses ' + MLX_MODEL_NAME + '; use --backend ollama for other model names')
+    args.model = args.model or (MLX_MODEL_NAME if args.backend == 'mlx' else 'qwen3.6:35b')
     output = ROOT / '.sites-runtime/corpus/whole-course-crosscheck.jsonl'
     failures = ROOT / '.sites-runtime/corpus/whole-course-crosscheck-failures.jsonl'
     previous = {}
@@ -77,8 +104,12 @@ def main():
         data = review_input(lesson)
         encoded = json.dumps(data, ensure_ascii=False, separators=(',', ':'))
         signature = hashlib.sha256((VERSION + args.backend + args.model + INSTRUCTION + encoded).encode()).hexdigest()
-        if previous.get(lesson['id'], {}).get('signature') != signature:
+        prior = previous.get(lesson['id'], {})
+        reuse = is_current(prior, encoded) and (args.unreviewed_only or prior.get('model') == args.model)
+        if not reuse:
             pending.append((lesson, encoded, signature))
+    if args.new_first:
+        pending.sort(key=lambda item: item[0]['id'] in previous)
     if args.limit:
         pending = pending[:args.limit]
     if not pending:
@@ -86,6 +117,9 @@ def main():
         return
     if args.backend == 'ollama':
         return review_ollama(pending, output, failures, args)
+    from mlx_lm import load
+    from mlx_lm.generate import batch_generate
+    from mlx_lm.sample_utils import make_sampler
     print('Loading cross-review model;', len(pending), 'lessons pending', flush=True)
     model, tokenizer = load(str(MODEL))
     started = time.monotonic()
@@ -103,10 +137,11 @@ def main():
                 completion_batch_size=args.batch_size, prefill_batch_size=args.prefill_batch_size,
                 prefill_step_size=512,
             )
-            for (lesson, _, signature), raw in zip(batch, result.texts):
+            for (lesson, encoded, signature), raw in zip(batch, result.texts):
                 try:
                     row = parse(raw, lesson)
-                    row.update(id=lesson['id'], signature=signature, model='mlx-community/Qwen3.5-9B-4bit',
+                    row.update(id=lesson['id'], signature=signature, model=args.model, backend=args.backend,
+                               inputSignature=input_signature(encoded),
                                methodVersion=VERSION, teacherCertification=False,
                                lines=len(lesson['lines']), parts=sum(len(l['parts']) for l in lesson['lines']),
                                wordOccurrences=sum(len(l['words']) for l in lesson['lines']),
@@ -141,7 +176,8 @@ def review_ollama(pending, output, failures, args):
             with urllib.request.urlopen(request,timeout=600) as response:result=json.load(response)
             raw=result['message']['content']
             row=parse(raw,lesson)
-            row.update(id=lesson['id'],signature=signature,model=args.model,methodVersion=VERSION,teacherCertification=False,
+            row.update(id=lesson['id'],signature=signature,model=args.model,backend=args.backend,
+                       inputSignature=input_signature(encoded),methodVersion=VERSION,teacherCertification=False,
                        lines=len(lesson['lines']),parts=sum(len(l['parts']) for l in lesson['lines']),
                        wordOccurrences=sum(len(l['words']) for l in lesson['lines']),questions=len(lesson['questions']),
                        outputTokens=result.get('eval_count'),seconds=round(result.get('total_duration',0)/1e9,2))

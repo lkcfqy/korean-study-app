@@ -37,6 +37,9 @@ context_decisions=read('content/context-senses.json')
 context_edits=read('content/context-editorial.json')
 question_positions=read('content/question-positions.json')
 question_overrides=read('content/question-overrides.json')
+question_explanations=read('content/question-explanations.json')
+assert set(question_explanations) <= set(question_overrides), 'Explanations need reviewed contrast options'
+assert all(isinstance(v,str) and v.strip() for v in question_explanations.values())
 contrast_lessons=read('content/contrast-lessons.json')
 assert set(contrast_lessons)=={l['id'] for l in course if all(l['lines'][i]['id'] in question_overrides for i in ([2,4] if len(l['lines'])>=6 else [0,len(l['lines'])-1]))}
 excluded = read('content/source-exclusions.json')
@@ -114,6 +117,7 @@ for lesson in course:
         if lesson['id'].startswith('c'):assert question_line in question_overrides
         if question_line in question_overrides:
             assert [text for i,text in enumerate(q['options']) if i!=q['answer']]==question_overrides[question_line]
+        assert q.get('explanation')==question_explanations.get(question_line)
     assert meta['answers'] == [q['answer'] for q in published['questions']]
     assert meta['answers']==question_positions[lesson['id']], 'Course reordering must preserve answers for already-open lessons'
     assert meta['revision'] == hashlib.sha256((ROOT / 'public/course' / (lesson['id'] + '.json')).read_bytes()).hexdigest()[:12]
@@ -201,6 +205,29 @@ assert '引用' not in part_at('n62508-1-8-2',3)['meaning']
 assert '外面' in part_at('n71354-2-3-1',3)['meaning']
 assert '位置' in part_at('n15631-3-6-2',2)['meaning']
 assert '马上' in part_at('n70378-15-8-2',2)['meaning']
+# Reviewed homographs must keep their dialogue meaning after regeneration.
+for line,j in [('n37062-2-3-1',3),('n62324-1-15-1',1),('n56351-3-6-1',2),
+               ('n50559-2-7-1',2),('n75001-1-5-1',3),('n75001-1-5-2',8),
+               ('n26750-1-8-1',3),('n71206-1-8-1',5)]:
+    part=part_at(line,j)
+    assert part['sources'][0]['entryId']=='27500',line
+    assert '去世' not in part['meaning'],line
+assert '去世' in part_at('n15907-1-10-1',1)['meaning']
+for identity in ['n63278-2-7','n24980-1-8','n37785-1-7']:
+    assert '你的' in part_at(identity+'-1',0)['meaning']
+assert part_at('n37785-1-7-2',3)['meaning']=='四'
+for line,j in [('n14817-2-8-2',4),('n58288-1-7-1',3)]:
+    assert part_at(line,j)['sources'][0]['senseId']=='13'
+for line,j in [('n25215-1-8-2',2),('n28104-1-6-2',3),('n25113-1-8-2',2)]:
+    assert part_at(line,j)['sources'][0]['senseId']=='15'
+assert part_at('n24489-1-3-1',0)['sources'][0]['entryId']=='26872'
+assert part_at('n15817-1-6-1',0)['readings'][0]['term']=='아들'
+assert not part_at('n61612-2-7-1',4)['sources']
+assert '感叹' in part_at('n61612-2-7-1',4)['meaning']
+assert part_at('n71585-1-10-1',4)['sources'][0]['entryId']=='81468'
+assert part_at('n40591-1-7-2',4)['readings'][0]['term']=='일'
+assert '工作' in part_at('n40591-1-7-2',4)['meaning']
+assert part_at('n15819-1-5-1',1)['sources'][0]['entryId']=='57320'
 # Every recorded decision must survive regeneration, including legitimate
 # auxiliary exceptions. This does not certify unreviewed semantic cases.
 for decision in read('docs/context-safety-review.json')['decisions']:

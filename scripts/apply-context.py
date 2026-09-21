@@ -11,6 +11,7 @@ from surface_readings import surface_reading
 NAMES=json.loads((ROOT/'content/context-names.json').read_text())
 READABLE_GLOSSES={('28818','1'):'韩国泡菜（辛奇）',('28026','1'):'旅行，旅游',('48655','1'):'硬币',('56548','1'):'听写',('57293','3'):'用餐、吃或喝（敬语）'}
 READABLE_GLOSSES.update({
+    ('71059','1'):'女式衬衫（质地柔软、轻薄的上衣）',
     ('17254','1'):'不能、没能（能力或条件限制）',
     ('74176','1'):'年幼、年龄小',
     ('61168','1'):'给、奉上（谦敬表达）',

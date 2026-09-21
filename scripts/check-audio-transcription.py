@@ -15,11 +15,15 @@ import time
 import wave
 import numpy as np
 from scipy.signal import resample_poly
-import mlx_whisper
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 CACHE = ROOT / '.sites-runtime/corpus'
 MODEL = pathlib.Path.home()/'.cache/huggingface/hub/models--mlx-community--whisper-large-v3-turbo/snapshots/a4aaeec0636e6fef84abdcbe3544cb2bf7e9f6fb'
+
+
+def transcribe(*args, **kwargs):
+    import mlx_whisper
+    return mlx_whisper.transcribe(*args, **kwargs)
 
 
 def normal(text):
@@ -98,7 +102,7 @@ def main():
             if not group:
                 if args.available_only:break
                 time.sleep(10);continue
-            result=mlx_whisper.transcribe(np.concatenate(arrays),path_or_hf_repo=str(MODEL),language='ko',temperature=0,
+            result=transcribe(np.concatenate(arrays),path_or_hf_repo=str(MODEL),language='ko',temperature=0,
                                         condition_on_previous_text=False,word_timestamps=True,verbose=None)
             words=[w for s in result['segments'] for w in s.get('words',[])]
             for text,(start,end) in zip(group,ends):
