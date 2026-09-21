@@ -1,0 +1,29 @@
+{
+  "baselineRef": "fc1e34abda927f6c7f8e4f337f805f6ff1a1b2ec",
+  "score": 93,
+  "explicitEditorialPositions": 97,
+  "explicitParts": 85,
+  "explicitChineseLines": 12,
+  "generatedPartsChanged": 85,
+  "generatedSourceSelectionsChanged": 75,
+  "generatedLessonsChanged": 90,
+  "crossModelValidRecordsAdded": 287,
+  "crossModelRecordCount": 1952,
+  "crossModelDistinctLessons": 1692,
+  "crossModelCurrentInputs": 1382,
+  "crossModelStaleInputs": 310,
+  "crossModelNeverReviewedLessons": 2314,
+  "modelFlaggedLessonsInBatch": 232,
+  "modelFlaggedLessonsDirectlyAdjudicated": 104,
+  "modelFlaggedLessonsNotYetAdjudicated": 128,
+  "newTriageDistinctLessons": 145,
+  "totalTriageDistinctLessons": 610,
+  "audioFilesChanged": 0,
+  "koreanUtterancesChanged": 0,
+  "limits": [
+    "Checkpoint of ongoing work; the local model batch may continue after this snapshot.",
+    "Model alerts are candidates, not confirmed errors. Only explicitly adjudicated rows were applied.",
+    "Neither AI reading nor automatic speech recognition is teacher or native listening certification.",
+    "No new learning-effect evidence; score remains 93/100."
+  ]
+}

@@ -140,6 +140,9 @@ def main():
     for lesson in course:
         if lesson['id'].startswith('c'):
             for line in lesson['lines']:
+                # Foundation translations use the same durable editorial layer.
+                if editorial.get(line['id'],{}).get('zh'):
+                    line['zh']=editorial[line['id']]['zh']
                 for part in line['parts']:
                     chunks=part['explanation'].split('；')
                     matches=[w for w in line['words'] if any(re.search(r'(?<![가-힣])'+re.escape(w['term'])+r'(?![가-힣])',chunk.split('：')[0]) for chunk in chunks) or part['text'].strip('.?!')==w['term']]
