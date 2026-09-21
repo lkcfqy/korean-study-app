@@ -6,6 +6,7 @@ import pathlib
 import re
 from contextual_senses import Lexicon,ROOT,CACHE,VERSION,TAGS,JAMO,load_selections
 from context_grammar import grammar_note,number_meaning
+from surface_readings import surface_reading
 
 NAMES=json.loads((ROOT/'content/context-names.json').read_text())
 READABLE_GLOSSES={('28818','1'):'韩国泡菜（辛奇）',('28026','1'):'旅行，旅游',('48655','1'):'硬币',('56548','1'):'听写',('57293','3'):'用餐、吃或喝（敬语）'}
@@ -16,6 +17,7 @@ def path(term):return '/audio/'+hashlib.sha256(term.encode()).hexdigest()[:20]+'
 
 def fallback_reading(part):
     """Names and grammar-only chunks can still be played on their own."""
+    part['surfaceReading']=surface_reading(part['text'])
     text=part['text'].strip('.,?!\"\'“”‘’…')
     if not part['readings'] and text:
         part['readings']=[{'term':text,'audio':path(text)}]

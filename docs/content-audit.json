@@ -5,7 +5,9 @@
   "uniqueCoreEntries": 6351,
   "annotatedSentences": 8156,
   "annotatedParts": 44985,
-  "annotationMethod": "Original 216 rows have authored notes. Added dialogue uses source-constrained contextual sense selection, authored grammar, dictionary supplements, and recorded morphology/editorial repairs. Every chunk has a structured audio mapping. Automatic selection is not independent teacher certification.",
+  "annotationMethod": "Original 216 rows have authored notes. Added dialogue uses source-constrained contextual sense selection, authored grammar, dictionary supplements, and recorded morphology/editorial repairs. Every clickable chunk has a complete surface-form audio mapping, with lexical readings kept separately. Automatic selection is not independent teacher certification.",
+  "surfacePronunciationParts": 44985,
+  "uniqueSurfacePronunciations": 16374,
   "contextSelectionDialogues": 3970,
   "contextSelectionItems": 43562,
   "explicitContextEdits": 678,
@@ -18,8 +20,8 @@
     54
   ],
   "voice": "ko-KR-SunHiNeural",
-  "audioFiles": 15117,
-  "requiredAudioReferences": 15058,
+  "audioFiles": 28777,
+  "requiredAudioReferences": 28742,
   "missingAudio": 0,
   "structuralValidation": "passed",
   "bilingualReview": {

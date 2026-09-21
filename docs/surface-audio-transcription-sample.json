@@ -1,0 +1,193 @@
+{
+  "scope": "32 newly generated full-form clips; selected known conjugation/particle examples plus deterministic sampling among ready new clips. Not a full-corpus pronunciation review.",
+  "recognizer": "mlx-whisper large-v3-turbo",
+  "expectedTextProvidedToRecognizer": false,
+  "humanListeningReview": false,
+  "clips": 32,
+  "records": [
+    {
+      "text": "가려면",
+      "recognized": "가려면",
+      "similarity": 1.0
+    },
+    {
+      "text": "갔어요",
+      "recognized": "갔어요.",
+      "similarity": 1.0
+    },
+    {
+      "text": "괜찮아졌어요",
+      "recognized": "괜찮아졌어요.",
+      "similarity": 1.0
+    },
+    {
+      "text": "고속버스로",
+      "recognized": "고속버스로",
+      "similarity": 1.0
+    },
+    {
+      "text": "먹으니",
+      "recognized": "먹으니",
+      "similarity": 1.0
+    },
+    {
+      "text": "바람직한",
+      "recognized": "바람직한",
+      "similarity": 1.0
+    },
+    {
+      "text": "들었을",
+      "recognized": "드러셀",
+      "similarity": 0.0,
+      "repeatedClipBlindRecheck": "들었세",
+      "releasedClipRecognized": "들었을",
+      "releasedClipSimilarity": 1.0,
+      "releaseAdjustment": "Continuation punctuation, unchanged Hangul form"
+    },
+    {
+      "text": "낮에는",
+      "recognized": "낮에는",
+      "similarity": 1.0
+    },
+    {
+      "text": "나에게",
+      "recognized": "나에게",
+      "similarity": 1.0
+    },
+    {
+      "text": "누구세요",
+      "recognized": "누구세요?",
+      "similarity": 1.0
+    },
+    {
+      "text": "다녀왔어요",
+      "recognized": "다녀왔어요.",
+      "similarity": 1.0
+    },
+    {
+      "text": "끝내라고",
+      "recognized": "끝내라고",
+      "similarity": 1.0
+    },
+    {
+      "text": "국가대표가",
+      "recognized": "국가대표가",
+      "similarity": 1.0
+    },
+    {
+      "text": "들었거든",
+      "recognized": "들었거든.",
+      "similarity": 1.0
+    },
+    {
+      "text": "가리니",
+      "recognized": "가리니",
+      "similarity": 1.0
+    },
+    {
+      "text": "괴로워요",
+      "recognized": "괴로워요",
+      "similarity": 1.0
+    },
+    {
+      "text": "놨거든",
+      "recognized": "맞거든.",
+      "similarity": 0.6667,
+      "repeatedClipBlindRecheck": "맞거든",
+      "releasedClipRecognized": "났거든",
+      "releasedClipSimilarity": 0.6667,
+      "releaseAdjustment": "Excerpt from the unchanged published sentence at the recorded alignment interval",
+      "sourceSentenceRecognized": "거실이랑 방마다 꽃을 가져다 놨거든.",
+      "sourceSentenceExpectedTextProvidedToRecognizer": false,
+      "limitation": "The isolated contraction remains ambiguous to ASR; its published sentence context is recognized exactly. No human listening claim."
+    },
+    {
+      "text": "놓쳤으니",
+      "recognized": "놓쳤으니",
+      "similarity": 1.0
+    },
+    {
+      "text": "가능하겠소",
+      "recognized": "가능하겠소?",
+      "similarity": 1.0
+    },
+    {
+      "text": "많습니다",
+      "recognized": "많습니다.",
+      "similarity": 1.0
+    },
+    {
+      "text": "내용이야",
+      "recognized": "내용이야.",
+      "similarity": 1.0
+    },
+    {
+      "text": "대량으로",
+      "recognized": "대량으로",
+      "similarity": 1.0
+    },
+    {
+      "text": "깜깜해졌네",
+      "recognized": "깜깜해졌네.",
+      "similarity": 1.0
+    },
+    {
+      "text": "그림에는",
+      "recognized": "그림에는",
+      "similarity": 1.0
+    },
+    {
+      "text": "군밤을",
+      "recognized": "군밤을",
+      "similarity": 1.0
+    },
+    {
+      "text": "몰랐대요",
+      "recognized": "몰랐대요.",
+      "similarity": 1.0
+    },
+    {
+      "text": "동안의",
+      "recognized": "동안에",
+      "similarity": 0.6667,
+      "repeatedClipBlindRecheck": "동안에",
+      "orthographicResolution": {
+        "description": "Possessive 의 permits pronunciation as 에, so 동안에 is an allowed phonetic transcription rather than proof of a dropped ending.",
+        "source": "https://www.korean.go.kr/front/onlineQna/onlineQnaView.do?mn_id=90&pageIndex=1&qna_seq=334603"
+      }
+    },
+    {
+      "text": "그거야말로",
+      "recognized": "그거야말로",
+      "similarity": 1.0
+    },
+    {
+      "text": "구멍이",
+      "recognized": "구멍이",
+      "similarity": 1.0
+    },
+    {
+      "text": "국경을",
+      "recognized": "국경을",
+      "similarity": 1.0
+    },
+    {
+      "text": "모르겠다는",
+      "recognized": "모르겠다는",
+      "similarity": 1.0
+    },
+    {
+      "text": "나갈까",
+      "recognized": "나갈까",
+      "similarity": 1.0
+    }
+  ],
+  "elapsedSeconds": 6.25,
+  "recheckMethod": "Repeat the same unmodified clip three times with silence, without an expected-text prompt; retain both original and repeat transcriptions.",
+  "releaseSummary": {
+    "literalMatches": 30,
+    "standardPronunciationVariant": 1,
+    "shortClipASRStillInconclusive": 1,
+    "fullCorpusASR": false
+  }
+}

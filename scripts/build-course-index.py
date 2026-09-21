@@ -5,12 +5,18 @@ import json
 import pathlib
 from course_keys import sentence_key as key
 from question_choices import QuestionChoices
+from surface_readings import attach_surface_readings
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 
 
 def main():
     course = load_course()
+    attach_surface_readings(course)
+    foundation_path=ROOT/'content/foundation.json'
+    foundation=json.loads(foundation_path.read_text())
+    attach_surface_readings(foundation)
+    foundation_path.write_text(json.dumps(foundation,ensure_ascii=False,indent=2)+'\n')
     positions_path=ROOT/'content/question-positions.json'
     positions=json.loads(positions_path.read_text()) if positions_path.exists() else {}
     choices=QuestionChoices(course,json.loads((ROOT/'content/question-overrides.json').read_text()))

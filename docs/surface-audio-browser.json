@@ -1,0 +1,19 @@
+{
+  "checkedOn": "2026-09-21",
+  "scope": "Local production build in the Codex in-app browser; viewport simulations, not physical phone testing or human pronunciation review.",
+  "checks": [
+    "Selecting 저는 exposes the full-form audio and the separate lemma 저.",
+    "Playing the full-form button enters the playing state and completes without an audio error.",
+    "Switching to 민지예요 updates the selected full form, removes stale lemma buttons and omits a duplicate lemma audio button.",
+    "The complete-form audio plays at the selected 0.8 playback rate.",
+    "Selecting 괜찮아졌어요? exposes full-form 괜찮아졌어요 plus separate 괜찮다 and 지다 lemma buttons.",
+    "The long full-form button enters the playing state at 320px width.",
+    "No captured browser console warnings or errors."
+  ],
+  "viewports": [
+    {"width": 390, "height": 844, "documentScrollWidth": 375, "form": "민지예요", "buttonClientWidth": 267, "buttonScrollWidth": 267},
+    {"width": 320, "height": 700, "documentScrollWidth": 305, "form": "민지예요", "buttonClientWidth": 197, "buttonScrollWidth": 197},
+    {"width": 320, "height": 700, "documentScrollWidth": 305, "form": "괜찮아졌어요", "buttonClientWidth": 195, "buttonScrollWidth": 195}
+  ],
+  "temporaryViewportReset": true
+}

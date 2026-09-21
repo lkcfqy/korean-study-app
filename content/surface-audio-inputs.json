@@ -1,0 +1,17 @@
+{
+  "들었을": {
+    "inputText": "들었을,",
+    "reason": "Use continuation punctuation for this non-final form. The unprompted ASR sample recognized the original clip ambiguously; the continuation clip preserves the written form and recognizes as 들었을."
+  },
+  "놨거든": {
+    "inputText": "놨거든",
+    "contextClip": {
+      "sourceText": "거실이랑 방마다 꽃을 가져다 놨거든.",
+      "sourceLineId": "n18669-1-8-2",
+      "sourceSha256": "75338f93ce427d150f4e41dbeff70f8d8344819df9671e719c2f9b4aa22bc502",
+      "startSeconds": 2.01,
+      "endSeconds": 2.8
+    },
+    "reason": "The isolated short contraction is ambiguous to ASR. Reuse the actual published sentence pronunciation; blind full-sentence ASR recognizes 놨거든 and aligns it at 2.04-2.50 seconds. Include a small boundary margin and trailing silence. Short-clip ASR remains inconclusive, so this is not human pronunciation certification."
+  }
+}

@@ -1,17 +1,17 @@
 {
-  "files": 15117,
+  "files": 28777,
   "voice": "ko-KR-SunHiNeural",
   "allDecodeToPCM": true,
   "noSilentFiles": true,
   "noSevereClipping": true,
-  "durationSeconds": 43363.54,
+  "durationSeconds": 69256.25,
   "rmsDbRange": [
     -31.91,
     -16.04
   ],
   "maxClippedSampleFraction": 0.0,
   "scope": "Decode and signal checks only; no semantic speech recognition and no human pronunciation review.",
-  "newlyDecoded": 792,
-  "byteIdenticalBaselineAssets": 14325,
-  "baselineRef": "ba4c81c8d0402bddb3a30f85c744f682081da5ff"
+  "newlyDecoded": 13660,
+  "byteIdenticalBaselineAssets": 15117,
+  "baselineRef": "706a57c33ecbd4a1d1e392599ffc1b1e0cc164e5"
 }

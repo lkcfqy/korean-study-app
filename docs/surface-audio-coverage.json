@@ -1,0 +1,17 @@
+{
+  "baselineRef": "706a57c33ecbd4a1d1e392599ffc1b1e0cc164e5",
+  "clickableParts": 44985,
+  "partsWithCompleteSurfaceReading": 44985,
+  "uniqueSurfaceForms": 16374,
+  "partsWhosePreviousReadingsOmittedTheFullForm": 29670,
+  "newSurfaceAudioFiles": 13660,
+  "reusedSurfaceAudioFiles": 2714,
+  "newAudioBytes": 155366832,
+  "contextDerivedSurfaceClips": 1,
+  "preservedPreviousAudioFiles": 15117,
+  "missingSurfaceAudio": 0,
+  "newAudioStagedByteExactly": true,
+  "voice": "ko-KR-SunHiNeural",
+  "method": "Synthesize the full written sentence-token form including particles and conjugated endings; remove surrounding quotation/sentence punctuation only. Keep lemma buttons separate.",
+  "limits": "Most clips are separately synthesized full forms; recorded contextClip exceptions derive from hash-locked published sentence audio. Use full-sentence playback for cross-word liaison and sentence intonation. Structural and file checks do not certify pronunciation or human listening coverage."
+}

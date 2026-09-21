@@ -1,6 +1,6 @@
 {
   "scope": "Uncompressed emitted JavaScript sizes; not a network or Core Web Vitals benchmark.",
-  "courseCatalogBytes": 285609,
+  "courseCatalogBytes": 285678,
   "studyPlanBytes": 158349,
   "fullCorpusStatisticsInBrowser": false,
   "productionPayloadChecks": "passed"
