@@ -106,6 +106,7 @@ export default function LearningApp({ signedIn, signInHref }: Props) {
   const selecting = useRef(false);
   const focusLesson = useRef(false);
   const lessonHeading = useRef<HTMLHeadingElement>(null);
+  const courseHeading = useRef<HTMLHeadingElement>(null);
   const [sync, setSync] = useState(
     signedIn ? "正在读取进度" : "登录后同步进度",
   );
@@ -276,9 +277,17 @@ export default function LearningApp({ signedIn, signInHref }: Props) {
     return () => window.removeEventListener("beforeunload", beforeLeave);
   }, []);
   useEffect(() => {
-    if (panel && !dialog.current?.open) dialog.current?.showModal();
-    if (!panel && dialog.current?.open) dialog.current?.close();
+    const isToolDialog = panel === "plan" || panel === "hangul";
+    if (isToolDialog && !dialog.current?.open) dialog.current?.showModal();
+    if (!isToolDialog && dialog.current?.open) dialog.current?.close();
   }, [panel]);
+  useEffect(() => {
+    if (panel === "lessons") {
+      stopAudio();
+      courseHeading.current?.focus({ preventScroll: true });
+      window.scrollTo(0, 0);
+    }
+  }, [panel, stopAudio]);
   useEffect(() => {
     if (!panel && focusLesson.current) {
       focusLesson.current = false;
@@ -549,10 +558,38 @@ export default function LearningApp({ signedIn, signInHref }: Props) {
   const PracticeCheck = hasContrastQuestions(lesson.id)
     ? ListeningCheck
     : RecallCheck;
+  const panelFeedback = (
+    <>
+      {error && (
+        <p className="error-state" role="alert">
+          {error}
+          {failedLesson && (
+            <button
+              className="text-link"
+              disabled={busy || contentBusy}
+              onClick={() =>
+                void chooseLesson(failedLesson.id, failedLesson.restart)
+              }
+            >
+              重新打开对话
+            </button>
+          )}
+        </p>
+      )}
+      {contentBusy && (
+        <p className="muted" role="status">
+          正在打开对话…
+        </p>
+      )}
+    </>
+  );
   return (
     <>
-      <a className="skip-link" href="#lesson-content">
-        跳到当前对话
+      <a
+        className="skip-link"
+        href={panel === "lessons" ? "#course-content" : "#lesson-content"}
+      >
+        {panel === "lessons" ? "跳到关卡列表" : "跳到当前对话"}
       </a>
       <header className="topbar">
         <div className="brand">
@@ -581,7 +618,7 @@ export default function LearningApp({ signedIn, signInHref }: Props) {
           </a>
         )}
       </header>
-      <main className="workspace">
+      <main className="workspace" hidden={panel === "lessons"}>
         <aside className="sidebar">
           <p className="eyebrow">YOUR KOREAN JOURNEY</p>
           <h2>从一句你好开始</h2>
@@ -1116,137 +1153,105 @@ export default function LearningApp({ signedIn, signInHref }: Props) {
           </p>
         </section>
       </main>
-      <dialog
-        ref={dialog}
-        className="sheet"
-        aria-labelledby="learning-tools-title"
-        onClose={() => setPanel(null)}
-        onClick={(e) => {
-          if (e.target === dialog.current) {
-            const r = dialog.current.getBoundingClientRect();
-            if (
-              e.clientX < r.left ||
-              e.clientX > r.right ||
-              e.clientY < r.top ||
-              e.clientY > r.bottom
-            )
-              setPanel(null);
-          }
-        }}
-      >
-        <div className="sheet-head">
-          <h2 id="learning-tools-title">
-            {panel === "lessons"
-              ? "你的对话旅程"
-              : panel === "plan"
-                ? "半年冲刺，逐步验证"
-                : "韩文，从拼成一个音节开始"}
-          </h2>
-          <button
-            className="button subtle"
-            aria-label="关闭"
-            onClick={() => setPanel(null)}
-          >
-            <X size={21} />
-          </button>
-        </div>
-        {panel && error && (
-          <p className="error-state" role="alert">
-            {error}
-            {failedLesson && (
-              <button
-                className="text-link"
-                disabled={busy || contentBusy}
-                onClick={() =>
-                  void chooseLesson(failedLesson.id, failedLesson.restart)
-                }
-              >
-                重新打开对话
-              </button>
-            )}
+      {panel === "lessons" && (
+        <main
+          className="course-page"
+          id="course-content"
+          aria-labelledby="course-page-title"
+        >
+          <header className="course-page-heading">
+            <h1 id="course-page-title" ref={courseHeading} tabIndex={-1}>
+              选择关卡
+            </h1>
+            <button
+              className="button"
+              onClick={() => {
+                focusLesson.current = true;
+                setPanel(null);
+              }}
+            >
+              <ChevronLeft size={18} /> 返回学习
+            </button>
+          </header>
+          <p className="course-page-intro muted">
+            {lessons.length.toLocaleString()}{" "}
+            关自由选择。按月份、日期或标题查找，勾号表示已经完成。
           </p>
-        )}
-        {panel && contentBusy && (
-          <p className="muted" role="status">
-            正在打开对话…
-          </p>
-        )}
-        {panel === "lessons" && (
-          <>
-            <p className="muted">
-              所有关卡自由选择。按月份、日期查看当天对话，勾号表示已经完成。
-            </p>
-            <label className="course-search">
-              搜索课程标题（韩语 / 中文）
-              <input
-                type="search"
-                value={search}
-                onChange={(e) => setSearch(e.target.value)}
-                placeholder="例如：咖啡、커피、c01"
-                autoComplete="off"
-              />
-            </label>
-            {search.trim() && (
-              <p className="muted" role="status">
-                找到 {searchResults.length} 关
-                {searchResults.length > 80
-                  ? "，显示前 80 关，请缩小搜索范围"
-                  : ""}
-                。搜索匹配标题和关卡编号。
-              </p>
-            )}
-            {!search.trim() && (
-              <>
-                <div
-                  className="month-tabs"
-                  role="group"
-                  aria-label="选择课程月份"
-                >
-                  {stages.map((name, i) => (
-                    <button
-                      key={name}
-                      className={
-                        "button " + (courseMonth === i ? "primary" : "")
-                      }
-                      aria-pressed={courseMonth === i}
-                      onClick={() => {
-                        setCourseMonth(i);
-                        setCourseDay(i * 30 + 1);
-                      }}
-                    >
-                      第 {i + 1} 月
-                    </button>
-                  ))}
-                </div>
-                <div
-                  className="course-day-grid"
-                  role="group"
-                  aria-label="选择课程日期"
-                >
-                  {Array.from(
-                    { length: 30 },
-                    (_, i) => courseMonth * 30 + i + 1,
-                  ).map((day) => (
-                    <button
-                      key={day}
-                      className={
-                        "button " + (courseDay === day ? "primary" : "")
-                      }
-                      aria-pressed={courseDay === day}
-                      onClick={() => setCourseDay(day)}
-                    >
-                      {day}
-                    </button>
-                  ))}
-                </div>
-              </>
-            )}
+          {panelFeedback}
+          <div className="course-browser">
+            <aside className="course-filters" aria-label="课程筛选">
+              <label className="course-search">
+                搜索课程标题（韩语 / 中文）
+                <input
+                  type="search"
+                  value={search}
+                  onChange={(e) => setSearch(e.target.value)}
+                  placeholder="例如：咖啡、커피、c01"
+                  autoComplete="off"
+                />
+              </label>
+              {search.trim() && (
+                <p className="muted" role="status">
+                  找到 {searchResults.length} 关
+                  {searchResults.length > 80
+                    ? "，显示前 80 关，请缩小搜索范围"
+                    : ""}
+                  。搜索匹配标题和关卡编号。
+                </p>
+              )}
+              {!search.trim() && (
+                <>
+                  <div
+                    className="month-tabs"
+                    role="group"
+                    aria-label="选择课程月份"
+                  >
+                    {stages.map((name, i) => (
+                      <button
+                        key={name}
+                        className={
+                          "button " + (courseMonth === i ? "primary" : "")
+                        }
+                        aria-pressed={courseMonth === i}
+                        onClick={() => {
+                          setCourseMonth(i);
+                          setCourseDay(i * 30 + 1);
+                        }}
+                      >
+                        第 {i + 1} 月
+                      </button>
+                    ))}
+                  </div>
+                  <div
+                    className="course-day-grid"
+                    role="group"
+                    aria-label="选择课程日期"
+                  >
+                    {Array.from(
+                      { length: 30 },
+                      (_, i) => courseMonth * 30 + i + 1,
+                    ).map((day) => (
+                      <button
+                        key={day}
+                        className={
+                          "button " + (courseDay === day ? "primary" : "")
+                        }
+                        aria-pressed={courseDay === day}
+                        onClick={() => setCourseDay(day)}
+                      >
+                        {day}
+                      </button>
+                    ))}
+                  </div>
+                </>
+              )}
+            </aside>
             <section className="course-section">
-              <h3>
+              <h2>
                 {search.trim()
                   ? "搜索结果"
                   : `第 ${courseDay} 天 · ${coursePlan.lessonIds.length ? stages[courseMonth] : "复习对话"}`}
-              </h3>
+              </h2>
               <div className="lesson-list">
                 {visibleLessonIds
                   .map((id) => lessonById.get(id)!)
@@ -1279,8 +1284,44 @@ export default function LearningApp({ signedIn, signInHref }: Props) {
                 </p>
               )}
             </section>
-          </>
-        )}
+          </div>
+        </main>
+      )}
+      <dialog
+        ref={dialog}
+        className="sheet"
+        aria-labelledby="learning-tools-title"
+        onClose={() => {
+          if (panel !== "lessons") setPanel(null);
+        }}
+        onClick={(e) => {
+          if (e.target === dialog.current) {
+            const r = dialog.current.getBoundingClientRect();
+            if (
+              e.clientX < r.left ||
+              e.clientX > r.right ||
+              e.clientY < r.top ||
+              e.clientY > r.bottom
+            )
+              setPanel(null);
+          }
+        }}
+      >
+        <div className="sheet-head">
+          <h2 id="learning-tools-title">
+            {panel === "plan"
+              ? "半年冲刺，逐步验证"
+              : "韩文，从拼成一个音节开始"}
+          </h2>
+          <button
+            className="button subtle"
+            aria-label="关闭"
+            onClick={() => setPanel(null)}
+          >
+            <X size={21} />
+          </button>
+        </div>
+        {panel && panel !== "lessons" && panelFeedback}
 
         {panel === "plan" && (
           <PlanBoundary>
