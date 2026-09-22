@@ -38,7 +38,7 @@ def fallback_reading(part):
         part['readings']=[{'term':text,'audio':path(text)}]
 
 
-def context_expression(lemma,tag,parts,index):
+def context_expression(lemma,tag,parts,index,*,sense):
     before=parts[max(0,index-2):index]
     previous=before[-1]['tokens'] if before else []
     previous_forms={t['form'].translate(JAMO) for t in previous}
@@ -59,7 +59,14 @@ def context_expression(lemma,tag,parts,index):
         return '可以、得到允许（-아/어도 되다）'
     if lemma=='보다' and tag=='VX':
         if previous_forms&{'나','ㄴ가','은가','는가','ᆫ가'}:return '看来、好像（根据情况推测）'
-        if previous_forms&{'어','아','여'}:return '试着做（-아/어 보다）'
+        if previous_forms&{'어','아','여'}:
+            # The same ending can express trying or having experienced an
+            # action. A POS guess must not overwrite the selected source sense
+            # or turn lexical watching (e.g. 즐겨 보는) into an auxiliary.
+            if sense['entryId']=='62171':
+                return {'1':'试着做（-아/어 보다）',
+                        '2':'做过、经历过（-아/어 보다）'}.get(sense['senseId'])
+            return None
     if lemma=='주다' and tag=='VX' and previous_forms&{'어','아','여'}:
         return '为别人做某事（-아/어 주다）'
     if lemma=='드리다' and tag=='VX':
@@ -192,7 +199,7 @@ def main():
                         target=root;e=lexicon.byid[target['entryId']];s=next(s for s in e['senses'] if s['id']==target['senseId'])
                         sense={'lemma':e['term'],'entryId':e['id'],'senseId':s['id'],'meaning':s['zh'],'definition':s['definition'],'pos':e['pos']}
                     lemma=sense['lemma'];entry=lexicon.byid[sense['entryId']]
-                    expression=context_expression(lemma,item['tag'],parts,j)
+                    expression=context_expression(lemma,item['tag'],parts,j,sense=sense)
                     # A model may confuse a lexical verb with a homonymous
                     # auxiliary. Morphology is a review trigger, not a verdict:
                     # genuine auxiliaries can be retained by an authored choice.

@@ -4908,6 +4908,1097 @@
         "lexicalMeaning": "自来水、自来水设施",
         "explanation": "수도：自来水、自来水设施；与后面的 요금（费用）一起组成 수도 요금（水费），不是把 수도 单独当作费用。"
       }
+    },
+    {
+      "lineId": "n26146-1-7-1",
+      "part": 3,
+      "text": "있는",
+      "context": "우리 집 앞에 있는 중국집은 중식을 잘해.",
+      "before": "有",
+      "edit": {
+        "meaning": "位于、在（餐馆的位置）",
+        "lexicalMeaning": "在某个位置",
+        "root": {
+          "entryId": "68797",
+          "senseId": "8"
+        },
+        "explanation": "집 앞에 있는 중국집 指位于家门前的中餐馆；있다 在这里说明所在位置。"
+      }
+    },
+    {
+      "lineId": "n16746-1-7-1",
+      "part": 2,
+      "text": "못",
+      "context": "내 가방 못 봤어?",
+      "before": "不能、没能（能力或条件限制）",
+      "edit": {
+        "meaning": "没、没能（看到）",
+        "lexicalMeaning": "不能、没能",
+        "root": {
+          "entryId": "17254",
+          "senseId": "1"
+        },
+        "explanation": "못 是否定副词；못 봤어? 在这里询问对方有没有见到自己的包，不是断言对方视力有问题或无法看东西。"
+      }
+    },
+    {
+      "lineId": "n88043-1-7-2",
+      "part": 1,
+      "text": "이제",
+      "context": "축하해. 이제 편히 쉴 수 있겠구나!",
+      "before": "今后",
+      "edit": {
+        "meaning": "现在起、接下来",
+        "lexicalMeaning": "从现在开始往后",
+        "root": {
+          "entryId": "61172",
+          "senseId": "2"
+        },
+        "explanation": "이제 的本义项是从现在起；前文已把事情做完，接下来可以安心休息。今后不必理解为很远的将来。"
+      }
+    },
+    {
+      "lineId": "n23410-1-9-2",
+      "part": 2,
+      "text": "들어간",
+      "context": "눈에 뭐가 들어간 것 같아서요.",
+      "before": "包含，插入，夹进",
+      "edit": {
+        "meaning": "进了、进入（眼睛里）",
+        "lexicalMeaning": "进入、进去",
+        "root": {
+          "entryId": "67877",
+          "senseId": "1"
+        },
+        "explanation": "눈에 뭐가 들어가다 表示有东西从外面进入眼睛；-ㄴ 修饰后面的 것，整句用 것 같아서요 表示推测原因。"
+      }
+    },
+    {
+      "lineId": "n15306-1-8-2",
+      "part": 5,
+      "text": "온다니",
+      "context": "남쪽 지방에 가뭄이 들었다던데 비가 온다니 다행이야.",
+      "before": "下，来",
+      "edit": {
+        "meaning": "听说要下雨（作为判断依据）",
+        "lexicalMeaning": "下（雨、雪等）",
+        "root": {
+          "entryId": "69514",
+          "senseId": "17"
+        },
+        "explanation": "비가 오다：下雨；-ㄴ다니 在这里把听到的消息作为后面判断的依据，即听说要下雨，真是太好了，并不要求先惊讶或反问。"
+      }
+    },
+    {
+      "lineId": "n16738-3-7-1",
+      "part": 3,
+      "text": "어쩌지?",
+      "context": "바나나가 많이 남았는데 어쩌지?",
+      "before": "“어찌하다(怎么会)”的缩略语。",
+      "edit": {
+        "meaning": "怎么办呢",
+        "lexicalMeaning": "如何做、怎么办（어찌하다 的缩略）",
+        "root": {
+          "entryId": "91975",
+          "senseId": "1"
+        },
+        "explanation": "어쩌다 在本句是 어찌하다 的缩略，不是表示偶然的副词；-지 表示说话人的自问，어쩌지 是怎么办呢。"
+      }
+    },
+    {
+      "lineId": "n24574-2-7-2",
+      "part": 2,
+      "text": "일찍이",
+      "context": "정말 좋았어요. 일찍이 느껴 보지 못한 감동이었어요.",
+      "before": "早已，早就",
+      "edit": {
+        "meaning": "曾经、以前（与否定合用：以往从未）",
+        "lexicalMeaning": "以前、此前",
+        "root": {
+          "entryId": "24574",
+          "senseId": "2"
+        },
+        "explanation": "일찍이 的本关义项韩文定义是以前、此前；与 느껴 보지 못한 合用表示以往从未感受过，不能只按早已理解为过去已经做过。"
+      }
+    },
+    {
+      "lineId": "n83247-1-9-1",
+      "field": "zh",
+      "context": "내가 즐겨 보던 프로그램이 폐지가 될 예정이래.",
+      "before": "我常看的那个节目好像要停播了。",
+      "after": "听说我常看的那个节目要停播了。"
+    },
+    {
+      "lineId": "n83247-1-9-1",
+      "part": 4,
+      "text": "폐지가",
+      "context": "내가 즐겨 보던 프로그램이 폐지가 될 예정이래.",
+      "before": "废止，废除，撤销，取消",
+      "edit": {
+        "meaning": "取消、停播（节目）",
+        "lexicalMeaning": "废止、撤销、取消",
+        "root": {
+          "entryId": "83247",
+          "senseId": "1"
+        },
+        "explanation": "폐지 用于制度或事物停止实行；本句对象是电视节目，中文用取消、停播。后面的 될 예정 表示计划或预定，-이래 转述听来的消息。"
+      }
+    },
+    {
+      "lineId": "n62596-2-5-1",
+      "part": 4,
+      "text": "알아서",
+      "context": "공부나 하지 그런 건 알아서 뭐하냐?",
+      "before": "管",
+      "edit": {
+        "meaning": "知道、了解（那些事情）",
+        "lexicalMeaning": "知道、明白",
+        "root": {
+          "entryId": "89445",
+          "senseId": "1"
+        },
+        "explanation": "그런 건 알아서 뭐하냐 是知道那些又有什么用的反问；알다 表示获得相关知识，不是参与管理的管。"
+      }
+    },
+    {
+      "lineId": "n62596-2-5-2",
+      "part": 1,
+      "text": "쏘지만",
+      "context": "그렇게 쏘지만 마시고 답을 해 주세요.",
+      "before": "伤人，顶",
+      "edit": {
+        "meaning": "光这样冲人说话（后接禁止）",
+        "lexicalMeaning": "用尖刻的话伤人、顶撞",
+        "root": {
+          "entryId": "62596",
+          "senseId": "2"
+        },
+        "explanation": "쏘다 指说话尖刻；쏘지만 在这里拆为 쏘- + -지 + 만，和后面的 말다 形成不要光这样说的表达，不是表示虽然的 -지만。"
+      }
+    },
+    {
+      "lineId": "n62596-2-5-2",
+      "part": 2,
+      "text": "마시고",
+      "context": "그렇게 쏘지만 마시고 답을 해 주세요.",
+      "before": "中断，停止",
+      "edit": {
+        "meaning": "不要（接 -지 表示禁止）",
+        "lexicalMeaning": "不要做（-지 말다）",
+        "root": {
+          "entryId": "72580",
+          "senseId": "1"
+        },
+        "explanation": "-지 말다 是禁止前面行为的辅助表达；-시- 尊敬对方，-고 连接后面的请求，要求对方不要光说尖刻的话而应给出回答。"
+      }
+    },
+    {
+      "lineId": "n62596-2-5-2",
+      "field": "zh",
+      "context": "그렇게 쏘지만 마시고 답을 해 주세요.",
+      "before": "别这样冲我说话，请回答一下。",
+      "after": "别光这样冲我说话，请回答一下。"
+    },
+    {
+      "lineId": "n62090-3-5-1",
+      "part": 6,
+      "text": "봤어?",
+      "context": "오늘 뉴스에서 미국에 허리케인 부는 거 봤어?",
+      "before": "受，获",
+      "edit": {
+        "meaning": "看到（新闻里的情况）",
+        "lexicalMeaning": "看、看到",
+        "root": {
+          "entryId": "61190",
+          "senseId": "1"
+        },
+        "explanation": "뉴스에서 ... 봤어? 询问是否在新闻中看到飓风来袭的情况，不是受到某种损害或得到某种利益。"
+      }
+    },
+    {
+      "lineId": "n62090-3-5-1",
+      "field": "zh",
+      "context": "오늘 뉴스에서 미국에 허리케인 부는 거 봤어?",
+      "before": "今天在新闻里看到美国有飓风来袭了吧？",
+      "after": "你今天在新闻里看到美国有飓风来袭了吗？"
+    },
+    {
+      "lineId": "n67837-1-11-2",
+      "part": 8,
+      "text": "안됐다.",
+      "context": "어머니가 승규 대학 보내려고 온갖 정성을 다했는데, 정말 안됐다.",
+      "before": "心疼，不忍",
+      "edit": {
+        "meaning": "可惜、令人心疼",
+        "lexicalMeaning": "心疼、怜惜",
+        "root": {
+          "entryId": "16005",
+          "senseId": "1"
+        },
+        "explanation": "안되다 在这里是表达同情、惋惜的形容词；前文说明母亲付出很多而孩子仍未考上大学，不是再次单纯陈述事情没办成。"
+      }
+    },
+    {
+      "lineId": "n13990-1-14-2",
+      "part": 2,
+      "text": "봤니?",
+      "context": "병원은 가 봤니?",
+      "before": "试着做（-아/어 보다）",
+      "edit": {
+        "root": {
+          "entryId": "62171",
+          "senseId": "2"
+        }
+      },
+      "expectedMeaning": "做过、经历过（-아/어 보다）",
+      "reviewReason": "询问对方是否已经去医院看过病，经历义保留。"
+    },
+    {
+      "lineId": "n14109-1-7-1",
+      "part": 4,
+      "text": "봤니?",
+      "context": "너 '파우스트'라는 책 읽어 봤니?",
+      "before": "试着做（-아/어 보다）",
+      "edit": {
+        "root": {
+          "entryId": "62171",
+          "senseId": "2"
+        }
+      },
+      "expectedMeaning": "做过、经历过（-아/어 보다）",
+      "reviewReason": "询问是否读过书，对方能说出内容，经历义保留。"
+    },
+    {
+      "lineId": "n17236-1-21-2",
+      "part": 5,
+      "text": "보도록",
+      "context": "병원에 가서 자세히 검사를 받아 보도록 해.",
+      "before": "试着做（-아/어 보다）",
+      "edit": {
+        "root": {
+          "entryId": "62171",
+          "senseId": "1"
+        }
+      },
+      "expectedMeaning": "试着做（-아/어 보다）",
+      "reviewReason": "建议去医院接受检查，使用尝试义；不是先做再说的 -고 보다。"
+    },
+    {
+      "lineId": "n18388-1-10-2",
+      "part": 5,
+      "text": "보자.",
+      "context": "사람이 있나 봐. 한번 가 보자.",
+      "before": "试着做（-아/어 보다）",
+      "edit": {
+        "root": {
+          "entryId": "62171",
+          "senseId": "1"
+        }
+      },
+      "expectedMeaning": "试着做（-아/어 보다）",
+      "reviewReason": "建议过去看看，한번 가 보자 是尝试，不是 -고 보다。"
+    },
+    {
+      "lineId": "n23659-1-7-1",
+      "part": 2,
+      "text": "보니",
+      "context": "건설업에 뛰어들어 보니 어떠세요?",
+      "before": "试着做（-아/어 보다）",
+      "edit": {
+        "root": {
+          "entryId": "62171",
+          "senseId": "2"
+        }
+      },
+      "expectedMeaning": "做过、经历过（-아/어 보다）",
+      "reviewReason": "已进入建筑业后谈实际感受，采用经历义，与词典 해 보니까 的经历例相同。"
+    },
+    {
+      "lineId": "n24574-2-7-2",
+      "part": 4,
+      "text": "보지",
+      "context": "정말 좋았어요. 일찍이 느껴 보지 못한 감동이었어요.",
+      "before": "试着做（-아/어 보다）",
+      "edit": {
+        "root": {
+          "entryId": "62171",
+          "senseId": "2"
+        }
+      },
+      "expectedMeaning": "做过、经历过（-아/어 보다）",
+      "reviewReason": "此前从未感受过这种感动，保留经历义，禁止模板改成试着做。"
+    },
+    {
+      "lineId": "n25392-1-8-2",
+      "part": 2,
+      "text": "보고",
+      "context": "비행기도 타 보고 좋아.",
+      "before": "试着做（-아/어 보다）",
+      "edit": {
+        "root": {
+          "entryId": "62171",
+          "senseId": "2"
+        }
+      },
+      "expectedMeaning": "做过、经历过（-아/어 보다）",
+      "reviewReason": "谈加入空军后得到坐飞机的经历，保留经历义。"
+    },
+    {
+      "lineId": "n28458-2-7-2",
+      "part": 3,
+      "text": "보니",
+      "context": "예전 것과 겨눠 보니 새것이 낫네.",
+      "before": "试着做（-아/어 보다）",
+      "edit": {
+        "root": {
+          "entryId": "62171",
+          "senseId": "2"
+        }
+      },
+      "expectedMeaning": "做过、经历过（-아/어 보다）",
+      "reviewReason": "实际比较过新旧钱包后谈感受，经历与 -니 共同引出所得判断。"
+    },
+    {
+      "lineId": "n36241-4-7-1",
+      "part": 5,
+      "text": "본",
+      "context": "아까 한 말은 그냥 해 본 말이었어.",
+      "before": "试着做（-아/어 보다）",
+      "edit": {
+        "root": {
+          "entryId": "62171",
+          "senseId": "1"
+        }
+      },
+      "expectedMeaning": "试着做（-아/어 보다）",
+      "reviewReason": "그냥 해 본 말 是随口说说，非强调过去有说话经历，采用尝试义。"
+    },
+    {
+      "lineId": "n38210-1-7-2",
+      "part": 2,
+      "text": "보니",
+      "context": "날짜를 꼽아 보니 얼마 남지 않았는걸.",
+      "before": "试着做（-아/어 보다）",
+      "edit": {
+        "root": {
+          "entryId": "62171",
+          "senseId": "2"
+        }
+      },
+      "expectedMeaning": "做过、经历过（-아/어 보다）",
+      "reviewReason": "实际数过日期后发现时间不多，采用 -어 보다 经历义，发现由 -니 和后文给出。"
+    },
+    {
+      "lineId": "n38311-2-9-1",
+      "part": 3,
+      "text": "보니",
+      "context": "병원 치료를 받아 보니 어때? 좀 나아지는 기색이 있어?",
+      "before": "试着做（-아/어 보다）",
+      "edit": {
+        "root": {
+          "entryId": "62171",
+          "senseId": "2"
+        }
+      },
+      "expectedMeaning": "做过、经历过（-아/어 보다）",
+      "reviewReason": "询问已经接受医院治疗后的感受，经历义与 -니 构成经验后判断。"
+    },
+    {
+      "lineId": "n41899-1-7-1",
+      "part": 3,
+      "text": "봤니?",
+      "context": "너 남해안에 가 봤니?",
+      "before": "试着做（-아/어 보다）",
+      "edit": {
+        "root": {
+          "entryId": "62171",
+          "senseId": "2"
+        }
+      },
+      "expectedMeaning": "做过、经历过（-아/어 보다）",
+      "reviewReason": "是否去过南海岸与从未见海相对照，保留经历义。"
+    },
+    {
+      "lineId": "n48362-2-8-1",
+      "part": 6,
+      "text": "보도록",
+      "context": "김 대리가 이번 사업 제안서를 써 보도록 하세요.",
+      "before": "试着做（-아/어 보다）",
+      "edit": {
+        "root": {
+          "entryId": "62171",
+          "senseId": "1"
+        }
+      },
+      "expectedMeaning": "试着做（-아/어 보다）",
+      "reviewReason": "要求让金代理试着撰写提案，是尝试义，不是 -고 보다。"
+    },
+    {
+      "lineId": "n60696-3-7-2",
+      "part": 3,
+      "text": "보면",
+      "context": "글쎄, 일단 가 보면 알겠지.",
+      "before": "试着做（-아/어 보다）",
+      "edit": {
+        "root": {
+          "entryId": "62171",
+          "senseId": "1"
+        }
+      },
+      "expectedMeaning": "试着做（-아/어 보다）",
+      "reviewReason": "先去看看就知道，尚未到法院，采用尝试行为加条件 -면。"
+    },
+    {
+      "lineId": "n62242-2-7-2",
+      "part": 2,
+      "text": "보니",
+      "context": "자식을 길러 보니 부모님 마음을 알겠어요.",
+      "before": "试着做（-아/어 보다）",
+      "edit": {
+        "root": {
+          "entryId": "62171",
+          "senseId": "2"
+        }
+      },
+      "expectedMeaning": "做过、经历过（-아/어 보다）",
+      "reviewReason": "亲自养育孩子后才理解父母，采用经历义。"
+    },
+    {
+      "lineId": "n62283-1-8-2",
+      "part": 8,
+      "text": "봤어.",
+      "context": "가족들이랑 새해 설계를 하면서 올해 할 일을 생각해 봤어.",
+      "before": "试着做（-아/어 보다）",
+      "edit": {
+        "root": {
+          "entryId": "62171",
+          "senseId": "1"
+        }
+      },
+      "expectedMeaning": "试着做（-아/어 보다）",
+      "reviewReason": "制定计划时思考一下今年做什么，是尝试性思考，不是泛述人生经历。"
+    },
+    {
+      "lineId": "n66571-1-9-2",
+      "part": 3,
+      "text": "봤지.",
+      "context": "생크림을 좀 얹어 봤지. 맛있겠지?",
+      "before": "试着做（-아/어 보다）",
+      "edit": {
+        "root": {
+          "entryId": "62171",
+          "senseId": "1"
+        }
+      },
+      "expectedMeaning": "试着做（-아/어 보다）",
+      "reviewReason": "往咖啡上试着加鲜奶油，尝试行为可以用过去时，不因此自动变成经历义。"
+    },
+    {
+      "lineId": "n67939-1-9-1",
+      "part": 3,
+      "text": "보니",
+      "context": "밖에 나갔다 와 보니 집이 이렇게 엉망이 되어 있었어요.",
+      "before": "试着做（-아/어 보다）",
+      "edit": {
+        "root": {
+          "entryId": "62171",
+          "senseId": "2"
+        }
+      },
+      "expectedMeaning": "做过、经历过（-아/어 보다）",
+      "reviewReason": "外出回来后发现家乱，采用经历义，后续 -니 引出发现。"
+    },
+    {
+      "lineId": "n79431-2-9-2",
+      "part": 9,
+      "text": "보지도",
+      "context": "아니, 이곳으로 이사 온 후로 아직 이웃집 사람을 만나 보지도 못했는걸.",
+      "before": "试着做（-아/어 보다）",
+      "edit": {
+        "root": {
+          "entryId": "62171",
+          "senseId": "2"
+        }
+      },
+      "expectedMeaning": "做过、经历过（-아/어 보다）",
+      "reviewReason": "搬来后还未见过邻居，保留经历义。"
+    },
+    {
+      "lineId": "n83177-1-10-2",
+      "part": 3,
+      "text": "봐서",
+      "context": "일을 처음 해 봐서 그런지 조금 어렵고 힘드네요.",
+      "before": "试着做（-아/어 보다）",
+      "edit": {
+        "root": {
+          "entryId": "62171",
+          "senseId": "2"
+        }
+      },
+      "expectedMeaning": "做过、经历过（-아/어 보다）",
+      "reviewReason": "第一次实际做这份工作后觉得困难，保留经历义。"
+    },
+    {
+      "lineId": "n87760-2-7-1",
+      "part": 4,
+      "text": "보니",
+      "context": "아파트 이십 층에 살아 보니 어때요?",
+      "before": "试着做（-아/어 보다）",
+      "edit": {
+        "root": {
+          "entryId": "62171",
+          "senseId": "2"
+        }
+      },
+      "expectedMeaning": "做过、经历过（-아/어 보다）",
+      "reviewReason": "询问住在二十层的亲身感受，采用经历义。"
+    },
+    {
+      "lineId": "n88250-1-9-1",
+      "part": 6,
+      "text": "봤니?",
+      "context": "요 앞에 새로 생긴 가게에 들어가 봤니?",
+      "before": "试着做（-아/어 보다）",
+      "edit": {
+        "root": {
+          "entryId": "62171",
+          "senseId": "2"
+        }
+      },
+      "expectedMeaning": "做过、经历过（-아/어 보다）",
+      "reviewReason": "询问是否进去过新店，对方只曾路过，保留经历义。"
+    },
+    {
+      "lineId": "n90954-4-6-2",
+      "part": 5,
+      "text": "본",
+      "context": "아니. 한두 마디 이야기를 나누어 본 게 전부야.",
+      "before": "试着做（-아/어 보다）",
+      "edit": {
+        "root": {
+          "entryId": "62171",
+          "senseId": "2"
+        }
+      },
+      "expectedMeaning": "做过、经历过（-아/어 보다）",
+      "reviewReason": "只聊过一两句话，强调有限交往经历，保留经历义。"
+    },
+    {
+      "lineId": "n14998-1-9-2",
+      "part": 6,
+      "text": "봐.",
+      "context": "못 봤는데. 가방이나 옷 주머니를 뒤져 봐.",
+      "before": "试着做（-아/어 보다）",
+      "edit": {
+        "root": {
+          "entryId": "62171",
+          "senseId": "1"
+        }
+      },
+      "expectedMeaning": "试着做（-아/어 보다）",
+      "reviewReason": "뒤져 봐 请翻找试试，보다 不是另一个见面动作。"
+    },
+    {
+      "lineId": "n15760-3-7-2",
+      "part": 3,
+      "text": "보면",
+      "context": "사람들의 옷차림으로 미루어 보면 여름인 것 같아.",
+      "before": "试着做（-아/어 보다）",
+      "edit": {
+        "root": {
+          "entryId": "62171",
+          "senseId": "1"
+        }
+      },
+      "expectedMeaning": "试着做（-아/어 보다）",
+      "reviewReason": "미루어 보면 试着依据衣着推断，미루다 已承担推断义，보다 是辅助尝试。"
+    },
+    {
+      "lineId": "n15808-2-7-2",
+      "part": 6,
+      "text": "볼게.",
+      "context": "바싹 엎드리고 여기서 기다려. 내가 나가 볼게.",
+      "before": "试着做（-아/어 보다）",
+      "edit": {
+        "root": {
+          "entryId": "62171",
+          "senseId": "1"
+        }
+      },
+      "expectedMeaning": "试着做（-아/어 보다）",
+      "reviewReason": "나가 볼게 表示出去看看，意向由 -ㄹ게 表达，不是 -을까 보다。"
+    },
+    {
+      "lineId": "n16219-2-6-2",
+      "part": 5,
+      "text": "보세요.",
+      "context": "삼계탕이 간판 메뉴이니 꼭 드셔 보세요.",
+      "before": "试着做（-아/어 보다）",
+      "edit": {
+        "root": {
+          "entryId": "62171",
+          "senseId": "1"
+        }
+      },
+      "expectedMeaning": "试着做（-아/어 보다）",
+      "reviewReason": "드셔 보세요 请尝试吃参鸡汤，尝味动作由 들다 承担。"
+    },
+    {
+      "lineId": "n16454-1-7-2",
+      "part": 4,
+      "text": "보는",
+      "context": "병원에 가서 상담을 받아 보는 게 어때요?",
+      "before": "试着做（-아/어 보다）",
+      "edit": {
+        "root": {
+          "entryId": "62171",
+          "senseId": "1"
+        }
+      },
+      "expectedMeaning": "试着做（-아/어 보다）",
+      "reviewReason": "建议去接受咨询试试，보다 不是本动词判断。"
+    },
+    {
+      "lineId": "n23034-1-8-1",
+      "part": 3,
+      "text": "보세요.",
+      "context": "새우튀김 한번 드셔 보세요.",
+      "before": "试着做（-아/어 보다）",
+      "edit": {
+        "root": {
+          "entryId": "62171",
+          "senseId": "1"
+        }
+      },
+      "expectedMeaning": "试着做（-아/어 보다）",
+      "reviewReason": "请尝试吃炸虾，是辅助尝试，不是本动词单独尝味。"
+    },
+    {
+      "lineId": "n25163-1-9-1",
+      "part": 5,
+      "text": "보십시오.",
+      "context": "잠시 일손을 멈추고 여기 와 보십시오.",
+      "before": "试着做（-아/어 보다）",
+      "edit": {
+        "root": {
+          "entryId": "62171",
+          "senseId": "1"
+        },
+        "meaning": "一下（使过来的要求较委婉）",
+        "explanation": "와 보십시오 在这里是请到这儿来一下；-어 보다 使行动要求较缓和，-십시오 是正式礼貌的指令语尾。"
+      },
+      "expectedMeaning": "一下（使过来的要求较委婉）",
+      "reviewReason": "와 보십시오 是较委婉地要求过来一下，按 -어 보다 解释，非另一个见面动作。"
+    },
+    {
+      "lineId": "n38309-1-8-2",
+      "part": 6,
+      "text": "볼게.",
+      "context": "글쎄, 내가 기상청 홈페이지에서 한번 확인해 볼게.",
+      "before": "试着做（-아/어 보다）",
+      "edit": {
+        "root": {
+          "entryId": "62171",
+          "senseId": "1"
+        }
+      },
+      "expectedMeaning": "试着做（-아/어 보다）",
+      "reviewReason": "확인해 볼게 尝试查看气象信息，意向由 -ㄹ게 表达。"
+    },
+    {
+      "lineId": "n49272-1-8-2",
+      "part": 7,
+      "text": "봐.",
+      "context": "안방 탁자 위에 있을 거야. 가서 찾아 봐.",
+      "before": "试着做（-아/어 보다）",
+      "edit": {
+        "root": {
+          "entryId": "62171",
+          "senseId": "1"
+        }
+      },
+      "expectedMeaning": "试着做（-아/어 보다）",
+      "reviewReason": "찾아 봐 请试着找钥匙，寻找已由 찾다 表达。"
+    },
+    {
+      "lineId": "n55084-1-9-2",
+      "part": 7,
+      "text": "봐서",
+      "context": "응. 태어난 뒤로 한 번도 못 가 봐서 오늘 신생아실로 면회 가려고.",
+      "before": "试着做（-아/어 보다）",
+      "edit": {
+        "root": {
+          "entryId": "62171",
+          "senseId": "2"
+        }
+      },
+      "expectedMeaning": "做过、经历过（-아/어 보다）",
+      "reviewReason": "一次都没去过新生儿病房，明确否定以往经历。"
+    },
+    {
+      "lineId": "n57533-1-7-1",
+      "part": 3,
+      "text": "보니까",
+      "context": "네 저금통, 들어 보니까 되게 묵직하다.",
+      "before": "试着做（-아/어 보다）",
+      "edit": {
+        "root": {
+          "entryId": "62171",
+          "senseId": "2"
+        }
+      },
+      "expectedMeaning": "做过、经历过（-아/어 보다）",
+      "reviewReason": "拿起存钱罐后亲自感到沉重，经历义加 -니까，推测辅助义不合结构。"
+    },
+    {
+      "lineId": "n57689-1-8-2",
+      "part": 2,
+      "text": "봐야",
+      "context": "밥솥을 열어 봐야 알 것 같아.",
+      "before": "试着做（-아/어 보다）",
+      "edit": {
+        "root": {
+          "entryId": "62171",
+          "senseId": "1"
+        }
+      },
+      "expectedMeaning": "试着做（-아/어 보다）",
+      "reviewReason": "打开电饭煲看看才知道，尝试动作加必要条件 -아야；不是 -나 보다。"
+    },
+    {
+      "lineId": "n58015-2-7-2",
+      "part": 3,
+      "text": "보려고",
+      "context": "다 익었나 확인해 보려고 그랬어.",
+      "before": "试着做（-아/어 보다）",
+      "edit": {
+        "root": {
+          "entryId": "62171",
+          "senseId": "1"
+        }
+      },
+      "expectedMeaning": "试着做（-아/어 보다）",
+      "reviewReason": "想尝试确认肉熟没熟，意图由后面的 -려고 表达，不是 -을까 보다。"
+    },
+    {
+      "lineId": "n58785-1-7-2",
+      "part": 3,
+      "text": "볼게요.",
+      "context": "네, 제가 나가 볼게요.",
+      "before": "试着做（-아/어 보다）",
+      "edit": {
+        "root": {
+          "entryId": "62171",
+          "senseId": "1"
+        }
+      },
+      "expectedMeaning": "试着做（-아/어 보다）",
+      "reviewReason": "나가 볼게요 出去看看，-ㄹ게요 表意向和承诺，보다 为 -어 보다。"
+    },
+    {
+      "lineId": "n58939-4-7-1",
+      "part": 5,
+      "text": "보겠습니다.",
+      "context": "교수님, 그럼 전 이만 가 보겠습니다.",
+      "before": "试着做（-아/어 보다）",
+      "edit": {
+        "root": {
+          "entryId": "62171",
+          "senseId": "1"
+        },
+        "meaning": "先……（委婉地告辞）",
+        "explanation": "가 보겠습니다 用于告辞，意思是那我先走了；-어 보다 使行动表达较委婉，-겠- 表达意向，-습니다 是正式礼貌句末。"
+      },
+      "expectedMeaning": "先……（委婉地告辞）",
+      "reviewReason": "가 보겠습니다 在告辞时委婉表达先走，-겠- 承担意向；不符合 -을까 보다 的意图结构。"
+    },
+    {
+      "lineId": "n59325-1-10-2",
+      "part": 4,
+      "text": "봐.",
+      "context": "그래? 거울 좀 줘 봐.",
+      "before": "试着做（-아/어 보다）",
+      "edit": {
+        "root": {
+          "entryId": "62171",
+          "senseId": "1"
+        }
+      },
+      "expectedMeaning": "试着做（-아/어 보다）",
+      "reviewReason": "줘 봐 委婉要求把镜子拿给自己，보다 不是本动词推断。"
+    },
+    {
+      "lineId": "n61519-1-11-1",
+      "part": 8,
+      "text": "보겠습니다.",
+      "context": "저 오늘 가족 모임이 있어서 조금 일찍 가 보겠습니다.",
+      "before": "试着做（-아/어 보다）",
+      "edit": {
+        "root": {
+          "entryId": "62171",
+          "senseId": "1"
+        },
+        "meaning": "先……（礼貌表达离开的意向）",
+        "explanation": "가 보겠습니다 在这里告知自己要提前离开；意向由 -겠- 表达，-어 보다 使行动表达较委婉，不是 -을까 보다 的打算结构。"
+      },
+      "expectedMeaning": "先……（礼貌表达离开的意向）",
+      "reviewReason": "가 보겠습니다 告知提前离开，-겠- 表意向；不使用 -을까 보다。"
+    },
+    {
+      "lineId": "n61519-1-11-2",
+      "part": 6,
+      "text": "봐.",
+      "context": "아. 오늘이 어머님 생신이라고 그랬지? 가 봐.",
+      "before": "试着做（-아/어 보다）",
+      "edit": {
+        "root": {
+          "entryId": "62171",
+          "senseId": "1"
+        },
+        "meaning": "去吧（较缓和的指示）",
+        "explanation": "가 봐 在这里同意对方离开，语气相当于去吧；-어 보다 使指示较缓和，不是说话人打算自己去。"
+      },
+      "expectedMeaning": "去吧（较缓和的指示）",
+      "reviewReason": "가 봐 表示让对方去吧，是 -어 보다 的缓和指示语用。"
+    },
+    {
+      "lineId": "n62675-1-9-2",
+      "part": 5,
+      "text": "보렴.",
+      "context": "옷장 두 번째 서랍을 열어 보렴.",
+      "before": "试着做（-아/어 보다）",
+      "edit": {
+        "root": {
+          "entryId": "62171",
+          "senseId": "1"
+        }
+      },
+      "expectedMeaning": "试着做（-아/어 보다）",
+      "reviewReason": "열어 보렴 请打开抽屉看看，采用尝试义。"
+    },
+    {
+      "lineId": "n63482-1-11-2",
+      "part": 3,
+      "text": "봐.",
+      "context": "일단 달리기부터 해 봐. 달리기는 열량 소모가 크거든.",
+      "before": "试着做（-아/어 보다）",
+      "edit": {
+        "root": {
+          "entryId": "62171",
+          "senseId": "1"
+        }
+      },
+      "expectedMeaning": "试着做（-아/어 보다）",
+      "reviewReason": "해 봐 明确建议试试跑步，是辅助动词尝试，不是视觉观看。"
+    },
+    {
+      "lineId": "n63922-1-5-2",
+      "part": 5,
+      "text": "봤어.",
+      "context": "어머니 생신이 며칠 남았는지 헤아려 봤어.",
+      "before": "试着做（-아/어 보다）",
+      "edit": {
+        "root": {
+          "entryId": "62171",
+          "senseId": "1"
+        }
+      },
+      "expectedMeaning": "试着做（-아/어 보다）",
+      "reviewReason": "헤아려 봤어 试着数算日期，计算由 헤아리다 承担，过去时不等于经历义。"
+    },
+    {
+      "lineId": "n66228-1-12-1",
+      "part": 4,
+      "text": "봐.",
+      "context": "이 김치 좀 먹어 봐.",
+      "before": "试着做（-아/어 보다）",
+      "edit": {
+        "root": {
+          "entryId": "62171",
+          "senseId": "1"
+        }
+      },
+      "expectedMeaning": "试着做（-아/어 보다）",
+      "reviewReason": "먹어 봐 请尝试吃泡菜，먹다 承担吃的动作。"
+    },
+    {
+      "lineId": "n66971-1-9-1",
+      "part": 2,
+      "text": "보는",
+      "context": "처음 가 보는 길인데 괜찮을까?",
+      "before": "试着做（-아/어 보다）",
+      "edit": {
+        "root": {
+          "entryId": "62171",
+          "senseId": "2"
+        }
+      },
+      "expectedMeaning": "做过、经历过（-아/어 보다）",
+      "reviewReason": "처음 가 보는 길 指第一次走这条路，采用经历义，不是阅读义。"
+    },
+    {
+      "lineId": "n68307-2-14-2",
+      "part": 4,
+      "text": "볼게.",
+      "context": "그래. 내가 한번 살펴 볼게.",
+      "before": "试着做（-아/어 보다）",
+      "edit": {
+        "root": {
+          "entryId": "62171",
+          "senseId": "1"
+        }
+      },
+      "expectedMeaning": "试着做（-아/어 보다）",
+      "reviewReason": "살펴 볼게 试着检查故障，检查由 살피다 承担。"
+    },
+    {
+      "lineId": "n70811-1-8-2",
+      "part": 1,
+      "text": "보시면",
+      "context": "드셔 보시면 실제로도 맛이 좋을 거예요.",
+      "before": "试着做（-아/어 보다）",
+      "edit": {
+        "root": {
+          "entryId": "62171",
+          "senseId": "1"
+        }
+      },
+      "expectedMeaning": "试着做（-아/어 보다）",
+      "reviewReason": "드셔 보시면 尝试吃后应会觉得好吃，采用尝试义加条件。"
+    },
+    {
+      "lineId": "n75792-2-7-2",
+      "part": 6,
+      "text": "보는",
+      "context": "우리 조상들이 명절에 했던 놀이를 조사해 보는 거야.",
+      "before": "试着做（-아/어 보다）",
+      "edit": {
+        "root": {
+          "entryId": "62171",
+          "senseId": "1"
+        }
+      },
+      "expectedMeaning": "试着做（-아/어 보다）",
+      "reviewReason": "조사해 보는 指试着调查作为作业，调查已由 조사하다 表达。"
+    },
+    {
+      "lineId": "n75832-1-8-2",
+      "part": 7,
+      "text": "볼게.",
+      "context": "나도 잘 모르겠는데. 주간 일기 예보를 확인해 볼게.",
+      "before": "试着做（-아/어 보다）",
+      "edit": {
+        "root": {
+          "entryId": "62171",
+          "senseId": "1"
+        }
+      },
+      "expectedMeaning": "试着做（-아/어 보다）",
+      "reviewReason": "확인해 볼게 试着查看周预报，意向由 -ㄹ게 表达。"
+    },
+    {
+      "lineId": "n76125-1-8-2",
+      "part": 4,
+      "text": "봐.",
+      "context": "그럼 한번 잔고를 확인해 봐.",
+      "before": "试着做（-아/어 보다）",
+      "edit": {
+        "root": {
+          "entryId": "62171",
+          "senseId": "1"
+        }
+      },
+      "expectedMeaning": "试着做（-아/어 보다）",
+      "reviewReason": "확인해 봐 建议查一下账户余额，采用尝试义。"
+    },
+    {
+      "lineId": "n76695-1-7-1",
+      "part": 3,
+      "text": "봐.",
+      "context": "이 귤 먹어 봐. 주황색으로 잘 익었네.",
+      "before": "试着做（-아/어 보다）",
+      "edit": {
+        "root": {
+          "entryId": "62171",
+          "senseId": "1"
+        }
+      },
+      "expectedMeaning": "试着做（-아/어 보다）",
+      "reviewReason": "먹어 봐 请尝试吃橘子，采用辅助尝试义。"
+    },
+    {
+      "lineId": "n77101-2-11-1",
+      "part": 6,
+      "text": "보렴.",
+      "context": "네가 주체가 돼서 이 모임을 이끌어 보렴.",
+      "before": "试着做（-아/어 보다）",
+      "edit": {
+        "root": {
+          "entryId": "62171",
+          "senseId": "1"
+        }
+      },
+      "expectedMeaning": "试着做（-아/어 보다）",
+      "reviewReason": "이끌어 보렴 请尝试主持聚会，采用辅助尝试义。"
+    },
+    {
+      "lineId": "n78292-1-7-1",
+      "part": 2,
+      "text": "보니",
+      "context": "이야기를 들어 보니 네가 승규에게 잘못한 것 같은데.",
+      "before": "试着做（-아/어 보다）",
+      "edit": {
+        "root": {
+          "entryId": "62171",
+          "senseId": "2"
+        }
+      },
+      "expectedMeaning": "做过、经历过（-아/어 보다）",
+      "reviewReason": "听过这件事后得出判断，采用亲历的经历义；推测由后面的 것 같은데 表达。"
+    },
+    {
+      "lineId": "n81570-1-7-1",
+      "part": 3,
+      "text": "보신",
+      "context": "어머니, 며느릿감을 만나 보신 소감이 어떠세요?",
+      "before": "试着做（-아/어 보다）",
+      "edit": {
+        "root": {
+          "entryId": "62171",
+          "senseId": "2"
+        }
+      },
+      "expectedMeaning": "做过、经历过（-아/어 보다）",
+      "reviewReason": "询问见过未来儿媳后的感受，见面已由 만나다 表达，보다 是经历辅助。"
+    },
+    {
+      "lineId": "n89071-1-8-2",
+      "part": 6,
+      "text": "보는구나.",
+      "context": "살다 보니 너에게 효도를 다 받아 보는구나.",
+      "before": "试着做（-아/어 보다）",
+      "edit": {
+        "root": {
+          "entryId": "62171",
+          "senseId": "2"
+        }
+      },
+      "expectedMeaning": "做过、经历过（-아/어 보다）",
+      "reviewReason": "表达如今也经历到享受孩子孝心，받다 承担接受，보다 不是本动词获得结果。"
+    },
+    {
+      "lineId": "n23659-1-7-1",
+      "field": "zh",
+      "context": "건설업에 뛰어들어 보니 어떠세요?",
+      "before": "试试进入建筑行业感觉怎么样？",
+      "after": "进入建筑行业后，感觉怎么样？"
+    },
+    {
+      "lineId": "n63922-1-5-2",
+      "field": "zh",
+      "context": "어머니 생신이 며칠 남았는지 헤아려 봤어.",
+      "before": "我在算妈妈生日还有几天。",
+      "after": "我算了算离妈妈生日还有几天。"
     }
   ]
 }
