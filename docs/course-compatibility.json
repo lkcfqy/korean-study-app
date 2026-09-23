@@ -1,5 +1,5 @@
 {
-  "baselineRef": "5b9449d5",
+  "baselineRef": "119b85f3",
   "lessons": 4006,
   "lineIdsAndOrderPreserved": 8156,
   "quizAnswerPositionsPreserved": true,
@@ -7,39 +7,14 @@
   "koreanTextCorrections": [],
   "chineseTextCorrections": [
     {
-      "id": "n34873-1-2-2",
-      "before": "好啊。我们一共有四个人，就分成四份吧。",
-      "after": "好啊。我们四个人，我来分成四份。"
+      "id": "n75801-3-7-2",
+      "before": "没消气啊。他本来就心胸比较狭窄嘛。",
+      "after": "还没消气。他这人心眼儿太小了。"
     },
     {
-      "id": "n41163-1-9-1",
-      "before": "承奎啊，得用锅了，快去洗一下碗吧。",
-      "after": "承奎，要用这口锅了，去把它洗一下吧。"
-    },
-    {
-      "id": "n29702-7-12-1",
-      "before": "你都不做作业，光知道出去玩吗？",
-      "after": "你作业也不做，就知道到处玩？"
-    },
-    {
-      "id": "n69518-14-6-1",
-      "before": "郑先生为什么一直抓身上？",
-      "after": "郑先生怎么一直挠身子？"
-    },
-    {
-      "id": "n69518-14-6-2",
-      "before": "因为长了疥疮。",
-      "after": "因为得了疥疮。"
-    },
-    {
-      "id": "n71343-3-8-1",
-      "before": "智秀爸爸去哪里了？",
-      "after": "智秀的爸爸去哪儿了？"
-    },
-    {
-      "id": "n71343-3-8-2",
-      "before": "看着好像和智秀一起去哪儿了。",
-      "after": "我看他好像跟智秀去了什么地方。"
+      "id": "n58111-1-2-1",
+      "before": "这里的盒子里原本有十块巧克力，可是已经吃掉了一半呢。",
+      "after": "这个盒子里原本有十块巧克力，竟然吃掉了一半。"
     }
   ],
   "scope": "Source compatibility; durable database behavior is tested separately in progress-tests.json."
