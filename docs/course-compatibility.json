@@ -1,21 +1,45 @@
 {
-  "baselineRef": "b7e16620",
+  "baselineRef": "0821a367",
   "lessons": 4006,
   "lineIdsAndOrderPreserved": 8156,
   "quizAnswerPositionsPreserved": true,
   "speakerAssignmentsPreserved": true,
-  "koreanTextCorrections": [
-    {
-      "id": "n93505-1-5-1",
-      "before": "열여덟, 열아홉, 스물, 스물 하나...",
-      "after": "열여덟, 열아홉, 스물, 스물하나..."
-    }
-  ],
+  "koreanTextCorrections": [],
   "chineseTextCorrections": [
     {
-      "id": "n66947-1-9-2",
-      "before": "我觉得好像有人在跟踪我们。",
-      "after": "因为我觉得好像有人跟着我们。"
+      "id": "n29610-1-19-2",
+      "before": "嗯，上个月搬来的，住三栋一五〇二号。",
+      "after": "嗯，我是上个月搬来的，住在三栋1502室。"
+    },
+    {
+      "id": "n17749-1-7-2",
+      "before": "其实我在韩国已经住了三年了。",
+      "after": "转眼我在韩国已经住了三年了。"
+    },
+    {
+      "id": "n20246-1-13-2",
+      "before": "最晚今天上午之内必须完成。",
+      "after": "再晚也必须在今天上午完成。"
+    },
+    {
+      "id": "n45747-1-10-2",
+      "before": "试着反复闭眼再睁开。",
+      "after": "试着把眼睛闭上再睁开，重复几次。"
+    },
+    {
+      "id": "n72392-2-9-2",
+      "before": "肯定是孩子们把东西弄乱了呗。",
+      "after": "还不是孩子们弄乱了呗。"
+    },
+    {
+      "id": "n75761-1-7-2",
+      "before": "嗯，说是就在那边那栋大楼里。",
+      "after": "嗯，听说就是那边那栋大楼。"
+    },
+    {
+      "id": "n83165-1-18-1",
+      "before": "听说你等男朋友从国外留学回来，等了七年啊？",
+      "after": "听说你等男朋友留学结束回来，等了七年？"
     }
   ],
   "scope": "Source compatibility; durable database behavior is tested separately in progress-tests.json."
