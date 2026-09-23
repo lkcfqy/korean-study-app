@@ -1,30 +1,41 @@
 {
-  "baselineRef": "c0dfac30",
+  "baselineRef": "0d1e864f",
   "lessons": 4006,
   "lineIdsAndOrderPreserved": 8156,
   "quizAnswerPositionsPreserved": true,
   "speakerAssignmentsPreserved": true,
-  "koreanTextCorrections": [],
+  "koreanTextCorrections": [
+    {
+      "id": "n67477-2-11-1",
+      "before": "우리 공연이 끝나면 다같이 밥 먹을까요?",
+      "after": "우리 공연이 끝나면 다 같이 밥 먹을까요?"
+    }
+  ],
   "chineseTextCorrections": [
     {
-      "id": "n71288-2-7-2",
-      "before": "上面有一个哥哥，下面还有个妹妹和一个弟弟。",
-      "after": "我有一个哥哥、一个妹妹和一个弟弟。"
+      "id": "n55441-1-8-1",
+      "before": "假期过得开心吗？",
+      "after": "传统节日过得开心吗？"
     },
     {
-      "id": "n66321-1-19-2",
-      "before": "其实他在跑步比赛中从来都是第一名。",
-      "after": "其实他在跑步比赛中总是拿第一名。"
+      "id": "n67477-2-11-1",
+      "before": "我们的演出结束后，我们一起吃饭吧？",
+      "after": "我们的演出结束后，大家一起吃饭好吗？"
     },
     {
-      "id": "n17183-1-15-1",
-      "before": "承奎的脸上长满了好多痘痘呢。",
-      "after": "我看承奎整张脸都长满痘痘了。"
+      "id": "n67477-2-11-2",
+      "before": "好啊。结束后大家都在演出场前面集合吧。",
+      "after": "好啊。演出结束后，大家在演出场馆前面集合吧。"
     },
     {
-      "id": "n17183-1-15-2",
-      "before": "是啊，他青春期都过了啊。",
-      "after": "是啊，明明青春期都过了。"
+      "id": "n62908-2-7-1",
+      "before": "你胸前挂的是什么呀？",
+      "after": "你胸前别着的是什么呀？"
+    },
+    {
+      "id": "n86940-21-5-2",
+      "before": "很抱歉，我们已经在最高速度行驶了。",
+      "after": "很抱歉，已经以最高速度行驶了。"
     }
   ],
   "scope": "Source compatibility; durable database behavior is tested separately in progress-tests.json."

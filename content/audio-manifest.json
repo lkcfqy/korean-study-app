@@ -143966,6 +143966,11 @@
       "path": "/audio/a480d7c725aacea43557.mp3",
       "voice": "ko-KR-SunHiNeural",
       "bytes": 25200
+    },
+    "우리 공연이 끝나면 다 같이 밥 먹을까요?": {
+      "path": "/audio/c042902f18f92730c5c1.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 22464
     }
   },
   "audioListeningReview": "not performed by a human; automated coverage in docs/audio-transcription-tests.json",
