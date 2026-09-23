@@ -15,7 +15,7 @@
   "scope": "Dictionary Chinese senses are source translations. Dialogue Chinese translations are not in the source.",
   "author": "National Institute of Korean Language (국립국어원)",
   "copyrightPolicy": "https://krdict.korean.go.kr/kor/kboardPolicy/copyRightTermsInfo",
-  "courseModifications": "Selection and ordering; Chinese sentence translation and AI editorial correction; morphological annotations; 180-day allocation; comprehension questions.",
+  "courseModifications": "Selection and ordering; Chinese sentence translation and AI and direct editorial correction; morphological annotations; 180-day allocation; comprehension questions.",
   "sourceAudioUsed": false,
   "courseTextLicense": "CC BY-SA 2.0 KR",
   "sentenceTranslationIsOfficial": false

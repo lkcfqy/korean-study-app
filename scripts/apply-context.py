@@ -106,6 +106,15 @@ def construction_sense(item,parts,index):
     These are authored rules, not an inference that a model was correct.
     """
     lemma=item['lemma'];tokens=parts[index]['tokens']
+    # 이 immediately before a noun phrase is the determiner "this"; before
+    # counters such as 주/층 it can be the Sino-Korean numeral "two". Previous
+    # selections sometimes linked both to the homographic pronoun "this one".
+    if lemma=='이' and parts[index]['text']=='이':
+        if item['tag']=='MM':return ('71687','1')
+        if item['tag']=='NR':return ('71127','1')
+    if item['tag']=='MM' and lemma=='저':return ('71215','1')
+    if item['tag']=='MM' and lemma=='그':return ('43883','1')
+    if item['tag']=='MAG' and lemma=='정말':return ('61174','1')
     previous=parts[index-1]['tokens'] if index else []
     forms={t['form'].translate(JAMO) for t in previous}
     following=parts[index+1]['tokens'] if index+1<len(parts) else []
@@ -145,6 +154,10 @@ def main():
     editorial=json.loads(editorial_path.read_text()) if editorial_path.exists() else {}
     lexicon=Lexicon();issues=[];coverage=[];unknown_names=set();required=set()
     for lesson in course:
+        if editorial.get(lesson['id'],{}).get('day'):
+            lesson['day']=editorial[lesson['id']]['day']
+        if editorial.get(lesson['id'],{}).get('title'):
+            lesson['title']=editorial[lesson['id']]['title']
         if lesson['id'].startswith('c'):
             for line in lesson['lines']:
                 # Foundation translations and notes share the durable editor layer.
@@ -191,14 +204,21 @@ def main():
                         chosen=next((ci for ci,candidate in enumerate(item['candidates']) if (candidate['entryId'],candidate['senseId'])==(source_id,source_sense)),chosen)
                     elif construction and not root and str(k) not in edit.get('choices',{}):
                         chosen=next((ci for ci,candidate in enumerate(item['candidates']) if (candidate['entryId'],candidate['senseId'])==construction),chosen)
-                    if chosen<0 and not root:
+                    if chosen<0 and not root and not edit.get('properName'):
                         issues.append({'id':lesson['id'],'line':i,'part':j,'item':k,'type':'no matching sense','ko':line['ko'],'lemma':item['lemma']})
                         continue
                     sense=item['candidates'][max(0,chosen)]
-                    if root:
+                    if edit.get('properName') and k==edit.get('rootItem',0):
+                        name_meaning=edit['properName']
+                        sense={'lemma':item['lemma'],'entryId':'course:proper-name:'+item['lemma'],'senseId':'1','meaning':name_meaning,'definition':'本句为韩国姓氏“李”。','pos':'고유 명사'}
+                        entry={'pronunciation':[],'origin':'course-authored proper name'}
+                    elif root:
                         target=root;e=lexicon.byid[target['entryId']];s=next(s for s in e['senses'] if s['id']==target['senseId'])
                         sense={'lemma':e['term'],'entryId':e['id'],'senseId':s['id'],'meaning':s['zh'],'definition':s['definition'],'pos':e['pos']}
-                    lemma=sense['lemma'];entry=lexicon.byid[sense['entryId']]
+                        entry=e
+                    else:
+                        entry=lexicon.byid[sense['entryId']]
+                    lemma=sense['lemma']
                     expression=context_expression(lemma,item['tag'],parts,j,sense=sense)
                     # A model may confuse a lexical verb with a homonymous
                     # auxiliary. Morphology is a review trigger, not a verdict:
@@ -247,12 +267,21 @@ def main():
                     glosses=[whole_number]
                     lexical.append('整体数词：'+whole_number)
                 meaning=edit.get('meaning','；'.join(dict.fromkeys(glosses)) or '；'.join(grammar))
-                explanation=edit.get('explanation','；'.join(lexical+grammar))
+                # Lexicon glosses often end in a full stop. Remove only the
+                # separator-edge punctuation before joining them to grammar
+                # notes, so learners do not see sequences like “。；”.
+                explanation_chunks=[piece.rstrip('。；') for piece in lexical+grammar if piece]
+                auto_explanation='；'.join(explanation_chunks)
+                if auto_explanation and not auto_explanation.endswith(('。','！','？','!','?')):
+                    auto_explanation+='。'
+                explanation=edit.get('explanation',auto_explanation)
                 if not meaning or not explanation:
                     issues.append({'id':lesson['id'],'line':i,'part':j,'type':'empty annotation','ko':line['ko'],'text':part['text']})
                 new_part={'text':part['text'],'meaning':meaning,'explanation':explanation,'readings':list({r['term']:r for r in readings}.values()),'sources':sources}
                 fallback_reading(new_part)
                 new_parts.append(new_part)
+            for word in line_words.values():
+                word.update(line_edits.get('wordEdits',{}).get(word['term'],{}))
             line['parts']=new_parts;line['words']=list(line_words.values())
             line['note']='点不懂的词，看本句词义、助词和语尾；听词语后，再听整句。'
             if line_edits.get('zh'):line['zh']=line_edits['zh']

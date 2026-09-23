@@ -3037,7 +3037,8 @@
         "n62363-1-21",
         "n71218-1-2",
         "n60092-1-7",
-        "n31504-1-11"
+        "n31504-1-11",
+        "n71356-1-7"
       ],
       "reviewLessonIds": [
         "n89861-1-24",
@@ -3154,10 +3155,10 @@
       "reviewRows": 102,
       "topic": "当天情境对话与表达",
       "title": "听懂、点词与回应",
-      "newWords": 47,
-      "newSentences": 42,
-      "cumulativeWords": 850,
-      "cumulativeSentences": 736,
+      "newWords": 48,
+      "newSentences": 44,
+      "cumulativeWords": 851,
+      "cumulativeSentences": 738,
       "minutes": 240,
       "tasks": [
         {
@@ -3188,7 +3189,6 @@
       "lessonId": "n70865-1-9",
       "lessonIds": [
         "n70865-1-9",
-        "n71356-1-7",
         "n76695-1-7",
         "n69523-5-5",
         "n72465-1-7",
@@ -3238,6 +3238,7 @@
         "n71218-1-2",
         "n60092-1-7",
         "n31504-1-11",
+        "n71356-1-7",
         "n26846-2-10",
         "n17866-1-3",
         "n59325-1-10",
@@ -3288,7 +3289,8 @@
             "n62363-1-21",
             "n71218-1-2",
             "n60092-1-7",
-            "n31504-1-11"
+            "n31504-1-11",
+            "n71356-1-7"
           ]
         },
         {
@@ -3322,12 +3324,12 @@
           ]
         }
       ],
-      "reviewRows": 92,
+      "reviewRows": 94,
       "topic": "当天情境对话与表达",
       "title": "听懂、点词与回应",
       "newWords": 48,
-      "newSentences": 56,
-      "cumulativeWords": 898,
+      "newSentences": 54,
+      "cumulativeWords": 899,
       "cumulativeSentences": 792,
       "minutes": 240,
       "tasks": [
@@ -3625,7 +3627,7 @@
       "title": "复习与检验",
       "newWords": 0,
       "newSentences": 0,
-      "cumulativeWords": 898,
+      "cumulativeWords": 899,
       "cumulativeSentences": 792,
       "minutes": 240,
       "tasks": [
@@ -3757,7 +3759,7 @@
       "title": "听懂、点词与回应",
       "newWords": 52,
       "newSentences": 62,
-      "cumulativeWords": 950,
+      "cumulativeWords": 951,
       "cumulativeSentences": 854,
       "minutes": 240,
       "tasks": [
@@ -3907,7 +3909,7 @@
       "title": "听懂、点词与回应",
       "newWords": 52,
       "newSentences": 58,
-      "cumulativeWords": 1002,
+      "cumulativeWords": 1003,
       "cumulativeSentences": 912,
       "minutes": 240,
       "tasks": [
@@ -4110,7 +4112,7 @@
       "title": "听懂、点词与回应",
       "newWords": 52,
       "newSentences": 54,
-      "cumulativeWords": 1054,
+      "cumulativeWords": 1055,
       "cumulativeSentences": 966,
       "minutes": 240,
       "tasks": [
@@ -4313,7 +4315,7 @@
       "title": "听懂、点词与回应",
       "newWords": 53,
       "newSentences": 54,
-      "cumulativeWords": 1107,
+      "cumulativeWords": 1108,
       "cumulativeSentences": 1020,
       "minutes": 240,
       "tasks": [
@@ -4477,7 +4479,8 @@
         "n62363-1-21",
         "n71218-1-2",
         "n60092-1-7",
-        "n31504-1-11"
+        "n31504-1-11",
+        "n71356-1-7"
       ],
       "reviewGroups": [
         {
@@ -4620,16 +4623,17 @@
             "n62363-1-21",
             "n71218-1-2",
             "n60092-1-7",
-            "n31504-1-11"
+            "n31504-1-11",
+            "n71356-1-7"
           ]
         }
       ],
-      "reviewRows": 270,
+      "reviewRows": 272,
       "topic": "回忆、听写与表达",
       "title": "复习与检验",
       "newWords": 0,
       "newSentences": 0,
-      "cumulativeWords": 1107,
+      "cumulativeWords": 1108,
       "cumulativeSentences": 1020,
       "minutes": 240,
       "tasks": [
@@ -4694,7 +4698,6 @@
       ],
       "reviewLessonIds": [
         "n70865-1-9",
-        "n71356-1-7",
         "n76695-1-7",
         "n69523-5-5",
         "n72465-1-7",
@@ -4732,7 +4735,6 @@
           "title": "一周后再遇见",
           "lessonIds": [
             "n70865-1-9",
-            "n71356-1-7",
             "n76695-1-7",
             "n69523-5-5",
             "n72465-1-7",
@@ -4772,12 +4774,12 @@
           ]
         }
       ],
-      "reviewRows": 70,
+      "reviewRows": 68,
       "topic": "当天情境对话与表达",
       "title": "听懂、点词与回应",
       "newWords": 52,
       "newSentences": 66,
-      "cumulativeWords": 1159,
+      "cumulativeWords": 1160,
       "cumulativeSentences": 1086,
       "minutes": 240,
       "tasks": [
@@ -4933,7 +4935,7 @@
       "title": "听懂、点词与回应",
       "newWords": 51,
       "newSentences": 66,
-      "cumulativeWords": 1210,
+      "cumulativeWords": 1211,
       "cumulativeSentences": 1152,
       "minutes": 240,
       "tasks": [
@@ -5168,7 +5170,7 @@
       "title": "听懂、点词与回应",
       "newWords": 52,
       "newSentences": 66,
-      "cumulativeWords": 1262,
+      "cumulativeWords": 1263,
       "cumulativeSentences": 1218,
       "minutes": 240,
       "tasks": [
@@ -5399,7 +5401,7 @@
       "title": "听懂、点词与回应",
       "newWords": 52,
       "newSentences": 62,
-      "cumulativeWords": 1314,
+      "cumulativeWords": 1315,
       "cumulativeSentences": 1280,
       "minutes": 240,
       "tasks": [
@@ -5759,7 +5761,7 @@
       "title": "复习与检验",
       "newWords": 0,
       "newSentences": 0,
-      "cumulativeWords": 1314,
+      "cumulativeWords": 1315,
       "cumulativeSentences": 1280,
       "minutes": 240,
       "tasks": [
@@ -5907,7 +5909,7 @@
       "title": "听懂、点词与回应",
       "newWords": 54,
       "newSentences": 58,
-      "cumulativeWords": 1368,
+      "cumulativeWords": 1369,
       "cumulativeSentences": 1338,
       "minutes": 240,
       "tasks": [
@@ -6071,7 +6073,7 @@
       "title": "听懂、点词与回应",
       "newWords": 52,
       "newSentences": 66,
-      "cumulativeWords": 1420,
+      "cumulativeWords": 1421,
       "cumulativeSentences": 1404,
       "minutes": 240,
       "tasks": [
@@ -6312,7 +6314,7 @@
       "title": "听懂、点词与回应",
       "newWords": 53,
       "newSentences": 58,
-      "cumulativeWords": 1473,
+      "cumulativeWords": 1474,
       "cumulativeSentences": 1462,
       "minutes": 240,
       "tasks": [
@@ -6548,7 +6550,7 @@
       "title": "听懂、点词与回应",
       "newWords": 54,
       "newSentences": 56,
-      "cumulativeWords": 1527,
+      "cumulativeWords": 1528,
       "cumulativeSentences": 1518,
       "minutes": 240,
       "tasks": [
@@ -6898,7 +6900,7 @@
       "title": "复习与检验",
       "newWords": 0,
       "newSentences": 0,
-      "cumulativeWords": 1527,
+      "cumulativeWords": 1528,
       "cumulativeSentences": 1518,
       "minutes": 240,
       "tasks": [
@@ -7080,7 +7082,7 @@
       "title": "听懂、点词与回应",
       "newWords": 52,
       "newSentences": 62,
-      "cumulativeWords": 1579,
+      "cumulativeWords": 1580,
       "cumulativeSentences": 1580,
       "minutes": 240,
       "tasks": [
@@ -7264,7 +7266,7 @@
       "title": "听懂、点词与回应",
       "newWords": 52,
       "newSentences": 66,
-      "cumulativeWords": 1631,
+      "cumulativeWords": 1632,
       "cumulativeSentences": 1646,
       "minutes": 240,
       "tasks": [
@@ -7517,7 +7519,7 @@
       "title": "听懂、点词与回应",
       "newWords": 52,
       "newSentences": 66,
-      "cumulativeWords": 1683,
+      "cumulativeWords": 1684,
       "cumulativeSentences": 1712,
       "minutes": 240,
       "tasks": [
@@ -7779,7 +7781,7 @@
       "title": "听懂、点词与回应",
       "newWords": 54,
       "newSentences": 60,
-      "cumulativeWords": 1737,
+      "cumulativeWords": 1738,
       "cumulativeSentences": 1772,
       "minutes": 240,
       "tasks": [
@@ -8137,7 +8139,7 @@
       "title": "复习与检验",
       "newWords": 0,
       "newSentences": 0,
-      "cumulativeWords": 1737,
+      "cumulativeWords": 1738,
       "cumulativeSentences": 1772,
       "minutes": 240,
       "tasks": [
@@ -8320,7 +8322,7 @@
       "title": "听懂、点词与回应",
       "newWords": 51,
       "newSentences": 68,
-      "cumulativeWords": 1788,
+      "cumulativeWords": 1789,
       "cumulativeSentences": 1840,
       "minutes": 240,
       "tasks": [
@@ -8515,7 +8517,7 @@
       "title": "听懂、点词与回应",
       "newWords": 54,
       "newSentences": 60,
-      "cumulativeWords": 1842,
+      "cumulativeWords": 1843,
       "cumulativeSentences": 1900,
       "minutes": 240,
       "tasks": [
@@ -8766,7 +8768,7 @@
       "title": "听懂、点词与回应",
       "newWords": 53,
       "newSentences": 66,
-      "cumulativeWords": 1895,
+      "cumulativeWords": 1896,
       "cumulativeSentences": 1966,
       "minutes": 240,
       "tasks": [
@@ -9038,7 +9040,7 @@
       "title": "听懂、点词与回应",
       "newWords": 54,
       "newSentences": 60,
-      "cumulativeWords": 1949,
+      "cumulativeWords": 1950,
       "cumulativeSentences": 2026,
       "minutes": 240,
       "tasks": [
@@ -9404,7 +9406,7 @@
       "title": "复习与检验",
       "newWords": 0,
       "newSentences": 0,
-      "cumulativeWords": 1949,
+      "cumulativeWords": 1950,
       "cumulativeSentences": 2026,
       "minutes": 240,
       "tasks": [
@@ -9596,7 +9598,7 @@
       "title": "听懂、点词与回应",
       "newWords": 54,
       "newSentences": 62,
-      "cumulativeWords": 2003,
+      "cumulativeWords": 2004,
       "cumulativeSentences": 2088,
       "minutes": 240,
       "tasks": [
@@ -9789,7 +9791,7 @@
       "title": "听懂、点词与回应",
       "newWords": 52,
       "newSentences": 60,
-      "cumulativeWords": 2055,
+      "cumulativeWords": 2056,
       "cumulativeSentences": 2148,
       "minutes": 240,
       "tasks": [
@@ -9930,7 +9932,8 @@
         "n62363-1-21",
         "n71218-1-2",
         "n60092-1-7",
-        "n31504-1-11"
+        "n31504-1-11",
+        "n71356-1-7"
       ],
       "reviewGroups": [
         {
@@ -10028,21 +10031,22 @@
             "n62363-1-21",
             "n71218-1-2",
             "n60092-1-7",
-            "n31504-1-11"
+            "n31504-1-11",
+            "n71356-1-7"
           ]
         }
       ],
-      "reviewRows": 170,
+      "reviewRows": 172,
       "topic": "当天情境对话与表达",
       "title": "听懂、点词与回应",
       "newWords": 53,
       "newSentences": 52,
-      "cumulativeWords": 2108,
+      "cumulativeWords": 2109,
       "cumulativeSentences": 2200,
       "minutes": 240,
       "tasks": [
         {
-          "minutes": 85,
+          "minutes": 90,
           "title": "间隔复习与拼读",
           "instruction": "打开下方近期、一周前和一个月前的对话，先回忆大意，再核对中文。第一周先用 20 分钟拼读韩文字母。复习量较大时优先处理忘记的内容，再学新课。"
         },
@@ -10052,12 +10056,12 @@
           "instruction": "按下方列表逐关学习。听一句、看整句中文，点不懂的词语看本句注释；确认谁在说、说给谁听。"
         },
         {
-          "minutes": 28,
+          "minutes": 25,
           "title": "正常语速跟读",
           "instruction": "模仿完整句子，再隐藏中文复述。0.8 倍速只用于辨音，最后回到正常速度。"
         },
         {
-          "minutes": 37,
+          "minutes": 35,
           "title": "主动表达",
           "instruction": "围绕同一情境自编 8–12 轮对话；将现在时改成过去时、肯定改成否定；写 80–120 韩文字的生活记录。"
         }
@@ -10149,7 +10153,6 @@
         "n62808-1-10",
         "n29758-1-7",
         "n70865-1-9",
-        "n71356-1-7",
         "n76695-1-7",
         "n69523-5-5",
         "n72465-1-7",
@@ -10248,7 +10251,6 @@
           "title": "一个月后再遇见",
           "lessonIds": [
             "n70865-1-9",
-            "n71356-1-7",
             "n76695-1-7",
             "n69523-5-5",
             "n72465-1-7",
@@ -10278,12 +10280,12 @@
           ]
         }
       ],
-      "reviewRows": 168,
+      "reviewRows": 166,
       "topic": "当天情境对话与表达",
       "title": "听懂、点词与回应",
       "newWords": 54,
       "newSentences": 44,
-      "cumulativeWords": 2162,
+      "cumulativeWords": 2163,
       "cumulativeSentences": 2244,
       "minutes": 240,
       "tasks": [
@@ -10613,7 +10615,7 @@
       "title": "复习与检验",
       "newWords": 0,
       "newSentences": 0,
-      "cumulativeWords": 2162,
+      "cumulativeWords": 2163,
       "cumulativeSentences": 2244,
       "minutes": 240,
       "tasks": [
@@ -10813,7 +10815,7 @@
       "title": "听懂、点词与回应",
       "newWords": 31,
       "newSentences": 86,
-      "cumulativeWords": 2193,
+      "cumulativeWords": 2194,
       "cumulativeSentences": 2330,
       "minutes": 240,
       "tasks": [
@@ -11042,7 +11044,7 @@
       "title": "听懂、点词与回应",
       "newWords": 34,
       "newSentences": 76,
-      "cumulativeWords": 2227,
+      "cumulativeWords": 2228,
       "cumulativeSentences": 2406,
       "minutes": 240,
       "tasks": [
@@ -11322,7 +11324,7 @@
       "title": "听懂、点词与回应",
       "newWords": 36,
       "newSentences": 72,
-      "cumulativeWords": 2263,
+      "cumulativeWords": 2264,
       "cumulativeSentences": 2478,
       "minutes": 240,
       "tasks": [
@@ -11599,7 +11601,7 @@
       "title": "听懂、点词与回应",
       "newWords": 38,
       "newSentences": 70,
-      "cumulativeWords": 2301,
+      "cumulativeWords": 2302,
       "cumulativeSentences": 2548,
       "minutes": 240,
       "tasks": [
@@ -12001,7 +12003,7 @@
       "title": "复习与检验",
       "newWords": 0,
       "newSentences": 0,
-      "cumulativeWords": 2301,
+      "cumulativeWords": 2302,
       "cumulativeSentences": 2548,
       "minutes": 240,
       "tasks": [
@@ -12189,7 +12191,7 @@
       "title": "听懂、点词与回应",
       "newWords": 40,
       "newSentences": 66,
-      "cumulativeWords": 2341,
+      "cumulativeWords": 2342,
       "cumulativeSentences": 2614,
       "minutes": 240,
       "tasks": [
@@ -12402,7 +12404,7 @@
       "title": "听懂、点词与回应",
       "newWords": 40,
       "newSentences": 68,
-      "cumulativeWords": 2381,
+      "cumulativeWords": 2382,
       "cumulativeSentences": 2682,
       "minutes": 240,
       "tasks": [
@@ -12710,7 +12712,7 @@
       "title": "听懂、点词与回应",
       "newWords": 39,
       "newSentences": 71,
-      "cumulativeWords": 2420,
+      "cumulativeWords": 2421,
       "cumulativeSentences": 2753,
       "minutes": 240,
       "tasks": [
@@ -13008,7 +13010,7 @@
       "title": "听懂、点词与回应",
       "newWords": 40,
       "newSentences": 64,
-      "cumulativeWords": 2460,
+      "cumulativeWords": 2461,
       "cumulativeSentences": 2817,
       "minutes": 240,
       "tasks": [
@@ -13396,7 +13398,7 @@
       "title": "复习与检验",
       "newWords": 0,
       "newSentences": 0,
-      "cumulativeWords": 2460,
+      "cumulativeWords": 2461,
       "cumulativeSentences": 2817,
       "minutes": 240,
       "tasks": [
@@ -13602,7 +13604,7 @@
       "title": "听懂、点词与回应",
       "newWords": 40,
       "newSentences": 66,
-      "cumulativeWords": 2500,
+      "cumulativeWords": 2501,
       "cumulativeSentences": 2883,
       "minutes": 240,
       "tasks": [
@@ -13811,7 +13813,7 @@
       "title": "听懂、点词与回应",
       "newWords": 43,
       "newSentences": 60,
-      "cumulativeWords": 2543,
+      "cumulativeWords": 2544,
       "cumulativeSentences": 2943,
       "minutes": 240,
       "tasks": [
@@ -14077,7 +14079,7 @@
       "title": "听懂、点词与回应",
       "newWords": 43,
       "newSentences": 60,
-      "cumulativeWords": 2586,
+      "cumulativeWords": 2587,
       "cumulativeSentences": 3003,
       "minutes": 240,
       "tasks": [
@@ -14348,7 +14350,7 @@
       "title": "听懂、点词与回应",
       "newWords": 43,
       "newSentences": 62,
-      "cumulativeWords": 2629,
+      "cumulativeWords": 2630,
       "cumulativeSentences": 3065,
       "minutes": 240,
       "tasks": [
@@ -14714,7 +14716,7 @@
       "title": "复习与检验",
       "newWords": 0,
       "newSentences": 0,
-      "cumulativeWords": 2629,
+      "cumulativeWords": 2630,
       "cumulativeSentences": 3065,
       "minutes": 240,
       "tasks": [
@@ -14916,7 +14918,7 @@
       "reviewRows": 126,
       "topic": "当天情境对话与表达",
       "title": "听懂、点词与回应",
-      "newWords": 42,
+      "newWords": 41,
       "newSentences": 66,
       "cumulativeWords": 2671,
       "cumulativeSentences": 3131,
@@ -41890,7 +41892,7 @@
       "startDay": 1,
       "endDay": 30,
       "title": "拼读、基础句式与生活表达",
-      "words": 898,
+      "words": 899,
       "sentences": 792,
       "focus": [
         "字母与问候",
@@ -41911,7 +41913,7 @@
       "startDay": 31,
       "endDay": 60,
       "title": "熟悉日常对话，稳固 TOPIK I 基础",
-      "words": 2162,
+      "words": 2163,
       "sentences": 2244,
       "focus": [
         "餐饮、敬语与请求",
