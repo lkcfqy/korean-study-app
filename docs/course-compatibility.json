@@ -1,5 +1,5 @@
 {
-  "baselineRef": "2495b68f",
+  "baselineRef": "051772a6",
   "lessons": 4006,
   "lineIdsAndOrderPreserved": 8156,
   "quizAnswerPositionsPreserved": true,
@@ -7,39 +7,34 @@
   "koreanTextCorrections": [],
   "chineseTextCorrections": [
     {
-      "id": "n66247-4-8-2",
-      "before": "不用了。百货商场的商品价格太贵了。",
-      "after": "不用了。百货商场的东西很贵嘛。"
+      "id": "n82142-5-7-1",
+      "before": "你听清楚智秀刚才说的话了吗？",
+      "after": "你听清楚智秀说的话了吗？"
     },
     {
-      "id": "n17161-1-10-2",
-      "before": "不用了，我已经有固定的舞伴了。",
-      "after": "不了，我另有舞伴。"
+      "id": "n82142-5-7-2",
+      "before": "没有，我只是随便听听而已，并没认真听。",
+      "after": "没有，只是顺耳听了一下，没认真听。"
     },
     {
-      "id": "n70633-1-14-2",
-      "before": "我的生日是农历六月初十。",
-      "after": "嗯，我的生日是农历六月初十。"
+      "id": "n66030-1-12-2",
+      "before": "吃了那么多饭，结果肠胃不适了。我就说让你少吃点嘛。",
+      "after": "你吃了那么多，结果吃坏肚子了吧。我不是早叫你少吃点吗？"
     },
     {
-      "id": "n17863-1-3-1",
-      "before": "这里原本有的铅笔，你没看见吗？",
-      "after": "原先放在这里的那支铅笔，你没看见吗？"
+      "id": "n83174-1-11-2",
+      "before": "呃，就打算听从父母的决定吧。",
+      "after": "还没定，打算听父母的安排。"
     },
     {
-      "id": "n17863-1-3-2",
-      "before": "啊，我刚才用了，然后放在你那边的书桌上了。",
-      "after": "啊，我刚才用了，放在那边你的书桌上了。"
+      "id": "n56361-2-9-1",
+      "before": "您是哪里不舒服才来的呢？",
+      "after": "请问您哪里不舒服？"
     },
     {
-      "id": "n30159-2-3-1",
-      "before": "妈妈，我没有需要帮忙的地方吗？",
-      "after": "妈妈，有什么我能帮忙的吗？"
-    },
-    {
-      "id": "n30159-2-3-2",
-      "before": "把炸粉裹在虾身上吧。",
-      "after": "给虾裹上一层炸粉吧。"
+      "id": "n56361-2-9-2",
+      "before": "我的膝盖外侧很疼，所以才来的。",
+      "after": "我的膝盖外侧疼，所以来就诊了。"
     }
   ],
   "scope": "Source compatibility; durable database behavior is tested separately in progress-tests.json."

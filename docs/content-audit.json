@@ -10,14 +10,14 @@
   "uniqueSurfacePronunciations": 16372,
   "contextSelectionDialogues": 3970,
   "contextSelectionItems": 43554,
-  "explicitContextEdits": 2433,
+  "explicitContextEdits": 2447,
   "breakdownSemanticRegressions": "passed: derived lemmas, noun-modifying endings, necessity, names vs homonyms, live vs buy, bloom vs country name, honorific eat, sweet vs close, grain-buying idiom, missing terms, numerals and source typo",
   "studyPlanDays": 180,
   "studyPlanHours": 720,
   "includesExternalMaterialsInCounts": false,
   "newWordsPerLearningDay": [
     19,
-    54
+    55
   ],
   "voice": "ko-KR-SunHiNeural",
   "audioFiles": 28789,
