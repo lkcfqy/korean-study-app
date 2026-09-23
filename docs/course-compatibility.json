@@ -1,5 +1,5 @@
 {
-  "baselineRef": "a0a6a4be",
+  "baselineRef": "200017c0",
   "lessons": 4006,
   "lineIdsAndOrderPreserved": 8156,
   "quizAnswerPositionsPreserved": true,
@@ -7,14 +7,29 @@
   "koreanTextCorrections": [],
   "chineseTextCorrections": [
     {
-      "id": "n26911-3-9-1",
-      "before": "我已经到这栋公寓门口了，是几栋几号呢？",
-      "after": "我已经到公寓楼前了，请问是几栋几号房？"
+      "id": "n14752-1-10-1",
+      "before": "你们没看到这里原本有的棕色皮夹吗？",
+      "after": "请问有没有看到原来放在这里的棕色皮夹？"
     },
     {
-      "id": "n26911-3-9-2",
-      "before": "是10栋102号。",
-      "after": "是10栋102室。"
+      "id": "n71505-1-17-1",
+      "before": "这里后面看舞台不太清楚呢。",
+      "after": "从这里的后排看不太清舞台呢。"
+    },
+    {
+      "id": "n18381-3-7-2",
+      "before": "是吗？我一开始选了四，后来改成二，原来答对了。",
+      "after": "是吗？我一开始填了4号，后来改成2号，原来答对了。"
+    },
+    {
+      "id": "n56330-2-8-1",
+      "before": "你打算把我们一直放在外面到什么时候？",
+      "after": "你要让我们在外面一直站到什么时候？"
+    },
+    {
+      "id": "n60236-1-8-2",
+      "before": "是啊，真的好久不见了。你也是过得好吧？",
+      "after": "是啊，真的好久不见了。你也过得好吗？"
     }
   ],
   "scope": "Source compatibility; durable database behavior is tested separately in progress-tests.json."
