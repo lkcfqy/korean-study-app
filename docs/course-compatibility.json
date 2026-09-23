@@ -1,5 +1,5 @@
 {
-  "baselineRef": "ad1cf49a",
+  "baselineRef": "770f69b5",
   "lessons": 4006,
   "lineIdsAndOrderPreserved": 8156,
   "quizAnswerPositionsPreserved": true,
@@ -7,14 +7,19 @@
   "koreanTextCorrections": [],
   "chineseTextCorrections": [
     {
-      "id": "n89184-3-7-2",
-      "before": "拍照的时候手在发抖吗？",
-      "after": "拍照的时候是不是手抖了？"
+      "id": "n60205-1-7-1",
+      "before": "我们干脆吃点简餐吧？",
+      "after": "我们就简单吃点韩式小吃吧？"
     },
     {
-      "id": "n18661-2-7-2",
-      "before": "我的腰一直很疼。",
-      "after": "腰这一带老是疼。"
+      "id": "n60205-1-7-2",
+      "before": "好啊！那我们要吃炒年糕和拉面吗？",
+      "after": "好啊！那我们吃炒年糕和拉面怎么样？"
+    },
+    {
+      "id": "n73232-1-7-1",
+      "before": "买什么礼物送给女朋友的生日比较好呢？",
+      "after": "女朋友生日送什么礼物好呢？"
     }
   ],
   "scope": "Source compatibility; durable database behavior is tested separately in progress-tests.json."
