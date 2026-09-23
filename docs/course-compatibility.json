@@ -1,5 +1,5 @@
 {
-  "baselineRef": "fbeba3fd",
+  "baselineRef": "026d43bb",
   "lessons": 4006,
   "lineIdsAndOrderPreserved": 8156,
   "quizAnswerPositionsPreserved": true,
@@ -7,19 +7,29 @@
   "koreanTextCorrections": [],
   "chineseTextCorrections": [
     {
-      "id": "n58114-1-3-1",
-      "before": "一共要来几个人？",
-      "after": "到底会来几个人呢？"
+      "id": "n44878-4-3-1",
+      "before": "这是我的儿子啊。",
+      "after": "这是我家那小子。"
     },
     {
-      "id": "n89906-14-19-2",
-      "before": "嗯，他说几天前已经向公司提交了辞呈。",
-      "after": "嗯，听说他几天前向公司递交了辞呈。"
+      "id": "n75797-1-8-1",
+      "before": "上课的时候请保持安静。",
+      "after": "上课时要安静哦。"
     },
     {
-      "id": "n14014-1-7-1",
-      "before": "之后应该怎么联系您呢？",
-      "after": "下次我该通过什么方式联系您呢？"
+      "id": "n29739-1-2-1",
+      "before": "那个，该不会是承奎的钱包吧？",
+      "after": "你看那边，那个该不会是承奎的钱包吧？"
+    },
+    {
+      "id": "n71254-1-3-2",
+      "before": "还没，还没全部弄完。请再稍等一会儿。",
+      "after": "没有，还没全部整理完。请再等一会儿。"
+    },
+    {
+      "id": "n62819-1-7-1",
+      "before": "我头晕啊。",
+      "after": "我头晕。"
     }
   ],
   "scope": "Source compatibility; durable database behavior is tested separately in progress-tests.json."
