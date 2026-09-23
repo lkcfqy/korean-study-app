@@ -1,5 +1,5 @@
 {
-  "baselineRef": "051772a6",
+  "baselineRef": "4e9b7336",
   "lessons": 4006,
   "lineIdsAndOrderPreserved": 8156,
   "quizAnswerPositionsPreserved": true,
@@ -7,34 +7,24 @@
   "koreanTextCorrections": [],
   "chineseTextCorrections": [
     {
-      "id": "n82142-5-7-1",
-      "before": "你听清楚智秀刚才说的话了吗？",
-      "after": "你听清楚智秀说的话了吗？"
+      "id": "n62105-9-5-1",
+      "before": "智秀每天早上都会跟公交车司机叔叔打招呼。",
+      "after": "智秀每天早上也总会向公交车司机叔叔问好。"
     },
     {
-      "id": "n82142-5-7-2",
-      "before": "没有，我只是随便听听而已，并没认真听。",
-      "after": "没有，只是顺耳听了一下，没认真听。"
+      "id": "n62105-9-5-2",
+      "before": "真是个非常热情有礼貌的孩子啊。",
+      "after": "真是个特别懂礼貌的孩子。"
     },
     {
-      "id": "n66030-1-12-2",
-      "before": "吃了那么多饭，结果肠胃不适了。我就说让你少吃点嘛。",
-      "after": "你吃了那么多，结果吃坏肚子了吧。我不是早叫你少吃点吗？"
+      "id": "n62652-1-23-2",
+      "before": "刚才跑步时摔倒了，所以擦伤了。",
+      "after": "刚才跑步时摔倒，腿上受伤了。"
     },
     {
-      "id": "n83174-1-11-2",
-      "before": "呃，就打算听从父母的决定吧。",
-      "after": "还没定，打算听父母的安排。"
-    },
-    {
-      "id": "n56361-2-9-1",
-      "before": "您是哪里不舒服才来的呢？",
-      "after": "请问您哪里不舒服？"
-    },
-    {
-      "id": "n56361-2-9-2",
-      "before": "我的膝盖外侧很疼，所以才来的。",
-      "after": "我的膝盖外侧疼，所以来就诊了。"
+      "id": "n60239-1-7-2",
+      "before": "字的大小是不是有点太小了？",
+      "after": "字是不是写得太小了？"
     }
   ],
   "scope": "Source compatibility; durable database behavior is tested separately in progress-tests.json."
