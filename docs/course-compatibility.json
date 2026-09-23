@@ -1,5 +1,5 @@
 {
-  "baselineRef": "4e9b7336",
+  "baselineRef": "a0a6a4be",
   "lessons": 4006,
   "lineIdsAndOrderPreserved": 8156,
   "quizAnswerPositionsPreserved": true,
@@ -7,24 +7,14 @@
   "koreanTextCorrections": [],
   "chineseTextCorrections": [
     {
-      "id": "n62105-9-5-1",
-      "before": "智秀每天早上都会跟公交车司机叔叔打招呼。",
-      "after": "智秀每天早上也总会向公交车司机叔叔问好。"
+      "id": "n26911-3-9-1",
+      "before": "我已经到这栋公寓门口了，是几栋几号呢？",
+      "after": "我已经到公寓楼前了，请问是几栋几号房？"
     },
     {
-      "id": "n62105-9-5-2",
-      "before": "真是个非常热情有礼貌的孩子啊。",
-      "after": "真是个特别懂礼貌的孩子。"
-    },
-    {
-      "id": "n62652-1-23-2",
-      "before": "刚才跑步时摔倒了，所以擦伤了。",
-      "after": "刚才跑步时摔倒，腿上受伤了。"
-    },
-    {
-      "id": "n60239-1-7-2",
-      "before": "字的大小是不是有点太小了？",
-      "after": "字是不是写得太小了？"
+      "id": "n26911-3-9-2",
+      "before": "是10栋102号。",
+      "after": "是10栋102室。"
     }
   ],
   "scope": "Source compatibility; durable database behavior is tested separately in progress-tests.json."
