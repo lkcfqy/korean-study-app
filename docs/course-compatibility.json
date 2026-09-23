@@ -1,5 +1,5 @@
 {
-  "baselineRef": "3f7591fc",
+  "baselineRef": "88be0eb3",
   "lessons": 4006,
   "lineIdsAndOrderPreserved": 8156,
   "quizAnswerPositionsPreserved": true,
@@ -7,24 +7,49 @@
   "koreanTextCorrections": [],
   "chineseTextCorrections": [
     {
-      "id": "n26799-2-3-2",
-      "before": "没有，刚才和朋友分开后，现在是一个人。",
-      "after": "没有，刚才和朋友分开了，现在就我一个人。"
+      "id": "n74137-2-10-2",
+      "before": "嗯，因为爷爷喜欢收集画作呢。",
+      "after": "嗯，因为爷爷收藏画作嘛。"
     },
     {
-      "id": "n29687-1-17-2",
-      "before": "我喜欢画人物肖像的画。",
-      "after": "我喜欢描绘人物的画作。"
+      "id": "n22537-2-7-2",
+      "before": "是啊，夏天本来就是阳光灿烂的季节嘛。",
+      "after": "嗯，夏天本来就是太阳的季节嘛。"
     },
     {
-      "id": "n59531-3-10-2",
-      "before": "这是我的驾驶执照。",
-      "after": "这是我的驾照。"
+      "id": "n22784-1-7-1",
+      "before": "哥，给我一个零食吧。",
+      "after": "哥，给我一块饼干吧。"
     },
     {
-      "id": "n68006-1-7-2",
-      "before": "母亲一定因为担心儿子而心神不宁吧。",
-      "after": "妈妈担心儿子，心里肯定不踏实吧。"
+      "id": "n22784-1-7-2",
+      "before": "一个太少了，我给你三个吧。",
+      "after": "一块太少了，我给你三块吧。"
+    },
+    {
+      "id": "n66591-9-7-2",
+      "before": "那是因为遇到了好父母啦，没什么特别的。",
+      "after": "还不是因为父母条件好嘛。"
+    },
+    {
+      "id": "n73223-1-7-2",
+      "before": "我只生了三个儿子。",
+      "after": "我只有三个儿子。"
+    },
+    {
+      "id": "n30216-1-24-2",
+      "before": "不好。我只能喝一瓶啤酒左右。",
+      "after": "不太行，我只能喝一瓶啤酒左右。"
+    },
+    {
+      "id": "n31849-1-13-1",
+      "before": "我们一起去公园骑自行车吧？",
+      "after": "我们一起在公园骑自行车吧？"
+    },
+    {
+      "id": "n32791-1-15-1",
+      "before": "我们家孩子今年上了小学。",
+      "after": "我家孩子今年上小学了。"
     }
   ],
   "scope": "Source compatibility; durable database behavior is tested separately in progress-tests.json."
