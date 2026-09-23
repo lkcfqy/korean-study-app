@@ -143926,9 +143926,19 @@
       "path": "/audio/170d9e905dbc1eadb86f.mp3",
       "voice": "ko-KR-SunHiNeural",
       "bytes": 11232
+    },
+    "아니, 지나치다가 한두 번 봤어.": {
+      "path": "/audio/1481e6609b4bc8a969d2.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 21168
+    },
+    "지나치다가": {
+      "path": "/audio/ceca7fa4f4aab776c23b.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 12384
     }
   },
   "audioListeningReview": "not performed by a human; automated coverage in docs/audio-transcription-tests.json",
-  "requiredTexts": 28744,
+  "requiredTexts": 28745,
   "failedTexts": []
 }
