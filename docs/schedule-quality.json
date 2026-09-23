@@ -10,19 +10,19 @@
   "months": [
     {
       "month": 1,
-      "lessons": 384,
+      "lessons": 381,
       "sourceHeadwordLevels": {
         "foundation": 6,
-        "초급": 378
+        "초급": 375
       },
       "medianWordsPerTurn": 4.0
     },
     {
       "month": 2,
-      "lessons": 714,
+      "lessons": 717,
       "sourceHeadwordLevels": {
         "foundation": 6,
-        "초급": 708
+        "초급": 711
       },
       "medianWordsPerTurn": 5.0
     },
@@ -188,7 +188,7 @@
       "day": 21,
       "lessons": 22,
       "rows": 48,
-      "newWords": 47
+      "newWords": 48
     },
     {
       "day": 22,
@@ -200,7 +200,7 @@
       "day": 23,
       "lessons": 22,
       "rows": 44,
-      "newWords": 47
+      "newWords": 48
     },
     {
       "day": 24,
@@ -216,9 +216,9 @@
     },
     {
       "day": 26,
-      "lessons": 26,
-      "rows": 56,
-      "newWords": 47
+      "lessons": 25,
+      "rows": 54,
+      "newWords": 45
     },
     {
       "day": 27,
@@ -230,13 +230,13 @@
       "day": 28,
       "lessons": 21,
       "rows": 42,
-      "newWords": 47
+      "newWords": 46
     },
     {
       "day": 29,
-      "lessons": 28,
-      "rows": 56,
-      "newWords": 47
+      "lessons": 26,
+      "rows": 52,
+      "newWords": 46
     },
     {
       "day": 30,
@@ -246,27 +246,27 @@
     },
     {
       "day": 31,
-      "lessons": 29,
-      "rows": 62,
+      "lessons": 30,
+      "rows": 64,
       "newWords": 52
     },
     {
       "day": 32,
-      "lessons": 29,
-      "rows": 58,
-      "newWords": 52
+      "lessons": 28,
+      "rows": 56,
+      "newWords": 54
     },
     {
       "day": 33,
-      "lessons": 27,
-      "rows": 54,
-      "newWords": 53
+      "lessons": 29,
+      "rows": 58,
+      "newWords": 54
     },
     {
       "day": 34,
-      "lessons": 27,
-      "rows": 54,
-      "newWords": 53
+      "lessons": 28,
+      "rows": 56,
+      "newWords": 54
     },
     {
       "day": 35,
@@ -278,25 +278,25 @@
       "day": 36,
       "lessons": 31,
       "rows": 66,
-      "newWords": 51
+      "newWords": 52
     },
     {
       "day": 37,
-      "lessons": 33,
-      "rows": 66,
+      "lessons": 32,
+      "rows": 64,
       "newWords": 51
     },
     {
       "day": 38,
-      "lessons": 33,
-      "rows": 66,
+      "lessons": 32,
+      "rows": 64,
       "newWords": 52
     },
     {
       "day": 39,
       "lessons": 31,
       "rows": 62,
-      "newWords": 52
+      "newWords": 53
     },
     {
       "day": 40,
@@ -306,9 +306,9 @@
     },
     {
       "day": 41,
-      "lessons": 27,
-      "rows": 58,
-      "newWords": 54
+      "lessons": 29,
+      "rows": 62,
+      "newWords": 53
     },
     {
       "day": 42,
@@ -350,7 +350,7 @@
       "day": 48,
       "lessons": 33,
       "rows": 66,
-      "newWords": 53
+      "newWords": 52
     },
     {
       "day": 49,
@@ -566,7 +566,7 @@
       "day": 84,
       "lessons": 33,
       "rows": 66,
-      "newWords": 40
+      "newWords": 39
     },
     {
       "day": 85,
@@ -684,8 +684,8 @@
     },
     {
       "day": 104,
-      "lessons": 35,
-      "rows": 70,
+      "lessons": 34,
+      "rows": 68,
       "newWords": 40
     },
     {
@@ -696,27 +696,27 @@
     },
     {
       "day": 106,
-      "lessons": 32,
-      "rows": 68,
+      "lessons": 33,
+      "rows": 70,
       "newWords": 41
     },
     {
       "day": 107,
       "lessons": 28,
       "rows": 56,
-      "newWords": 41
+      "newWords": 42
     },
     {
       "day": 108,
-      "lessons": 28,
-      "rows": 56,
+      "lessons": 29,
+      "rows": 58,
       "newWords": 42
     },
     {
       "day": 109,
       "lessons": 29,
       "rows": 58,
-      "newWords": 43
+      "newWords": 42
     },
     {
       "day": 110,
@@ -732,9 +732,9 @@
     },
     {
       "day": 112,
-      "lessons": 27,
-      "rows": 54,
-      "newWords": 44
+      "lessons": 26,
+      "rows": 52,
+      "newWords": 43
     },
     {
       "day": 113,
@@ -788,7 +788,7 @@
       "day": 121,
       "lessons": 39,
       "rows": 82,
-      "newWords": 42
+      "newWords": 41
     },
     {
       "day": 122,
@@ -800,7 +800,7 @@
       "day": 123,
       "lessons": 40,
       "rows": 80,
-      "newWords": 40
+      "newWords": 41
     },
     {
       "day": 124,
@@ -1088,7 +1088,7 @@
       "day": 171,
       "lessons": 22,
       "rows": 48,
-      "newWords": 48
+      "newWords": 49
     },
     {
       "day": 172,
