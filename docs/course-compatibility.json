@@ -1,5 +1,5 @@
 {
-  "baselineRef": "6c617010",
+  "baselineRef": "3f7591fc",
   "lessons": 4006,
   "lineIdsAndOrderPreserved": 8156,
   "quizAnswerPositionsPreserved": true,
@@ -7,29 +7,24 @@
   "koreanTextCorrections": [],
   "chineseTextCorrections": [
     {
-      "id": "n44484-1-15-2",
-      "before": "因为刚做了运动，所以很热。",
-      "after": "刚运动过，觉得热，所以才流这么多汗。"
+      "id": "n26799-2-3-2",
+      "before": "没有，刚才和朋友分开后，现在是一个人。",
+      "after": "没有，刚才和朋友分开了，现在就我一个人。"
     },
     {
-      "id": "n71216-1-2-1",
-      "before": "你怎么不说话了？",
-      "after": "您怎么不说话了？"
+      "id": "n29687-1-17-2",
+      "before": "我喜欢画人物肖像的画。",
+      "after": "我喜欢描绘人物的画作。"
     },
     {
-      "id": "n58167-5-7-2",
-      "before": "从早上开始就一个顾客都没有呢。",
-      "after": "从早上到现在，一个顾客都没进店呢。"
+      "id": "n59531-3-10-2",
+      "before": "这是我的驾驶执照。",
+      "after": "这是我的驾照。"
     },
     {
-      "id": "n83150-1-8-2",
-      "before": "我们在学校门口的咖啡店见吧。",
-      "after": "我们在学校前面的咖啡店见吧。"
-    },
-    {
-      "id": "n16445-1-6-2",
-      "before": "因为一直待在家里一个人，所以好无聊。",
-      "after": "因为一直一个人待在家里，所以觉得很无聊。"
+      "id": "n68006-1-7-2",
+      "before": "母亲一定因为担心儿子而心神不宁吧。",
+      "after": "妈妈担心儿子，心里肯定不踏实吧。"
     }
   ],
   "scope": "Source compatibility; durable database behavior is tested separately in progress-tests.json."
