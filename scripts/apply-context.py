@@ -173,6 +173,8 @@ def main():
                     matches=[w for w in line['words'] if any(re.search(r'(?<![가-힣])'+re.escape(w['term'])+r'(?![가-힣])',chunk.split('：')[0]) for chunk in chunks) or part['text'].strip('.?!')==w['term']]
                     part['readings']=[{'term':w['term'],'audio':w['audio']} for w in matches]
                     fallback_reading(part)
+                for word in line.get('words',[]):
+                    word.update(editorial.get(line['id'],{}).get('wordEdits',{}).get(word['term'],{}))
             continue
         prepared=lexicon.prepare(lesson);record=selections.get(lesson['id'])
         if not record or record['signature']!=prepared['signature']:

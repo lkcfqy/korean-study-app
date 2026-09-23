@@ -143936,6 +143936,16 @@
       "path": "/audio/ceca7fa4f4aab776c23b.mp3",
       "voice": "ko-KR-SunHiNeural",
       "bytes": 12384
+    },
+    "어머니가 지금 부엌에서 요리를 하고 계시거든.": {
+      "path": "/audio/5a06274ac6e53e3faa95.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 23328
+    },
+    "지금 없는데요. 십 분 후에 다시 전화 주세요.": {
+      "path": "/audio/8811cca54d0545c86094.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 30384
     }
   },
   "audioListeningReview": "not performed by a human; automated coverage in docs/audio-transcription-tests.json",

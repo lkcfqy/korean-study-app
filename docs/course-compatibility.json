@@ -1,35 +1,61 @@
 {
-  "baselineRef": "026d43bb",
+  "baselineRef": "9e871d53",
   "lessons": 4006,
   "lineIdsAndOrderPreserved": 8156,
   "quizAnswerPositionsPreserved": true,
   "speakerAssignmentsPreserved": true,
-  "koreanTextCorrections": [],
+  "koreanTextCorrections": [
+    {
+      "id": "n30199-1-10-2",
+      "before": "어머니가 지금 부엌에서 요리를 하고  계시거든.",
+      "after": "어머니가 지금 부엌에서 요리를 하고 계시거든."
+    },
+    {
+      "id": "n62885-1-9-2",
+      "before": "지금 없는데요. 십분 후에 다시 전화 주세요.",
+      "after": "지금 없는데요. 십 분 후에 다시 전화 주세요."
+    }
+  ],
   "chineseTextCorrections": [
     {
-      "id": "n44878-4-3-1",
-      "before": "这是我的儿子啊。",
-      "after": "这是我家那小子。"
+      "id": "n56257-1-3-1",
+      "before": "对不起，车太堵了，所以迟到了。",
+      "after": "对不起，路上堵车，我来晚了。"
     },
     {
-      "id": "n75797-1-8-1",
-      "before": "上课的时候请保持安静。",
-      "after": "上课时要安静哦。"
+      "id": "n20195-1-28-1",
+      "before": "你刚听的歌怎么样？",
+      "after": "刚才听的那首歌怎么样？"
     },
     {
-      "id": "n29739-1-2-1",
-      "before": "那个，该不会是承奎的钱包吧？",
-      "after": "你看那边，那个该不会是承奎的钱包吧？"
+      "id": "c06-4",
+      "before": "那我们一起去吗？",
+      "after": "那我们一起去，好吗？"
     },
     {
-      "id": "n71254-1-3-2",
-      "before": "还没，还没全部弄完。请再稍等一会儿。",
-      "after": "没有，还没全部整理完。请再等一会儿。"
+      "id": "n30199-1-10-1",
+      "before": "哪里有这么好闻的味道啊？",
+      "after": "哪儿飘来这么香的味道？"
     },
     {
-      "id": "n62819-1-7-1",
-      "before": "我头晕啊。",
-      "after": "我头晕。"
+      "id": "n62256-1-11-2",
+      "before": "她说长大后想成为歌手。",
+      "after": "听说智秀的梦想是长大后当歌手。"
+    },
+    {
+      "id": "n58166-1-9-1",
+      "before": "孩子刚才动了动手指哦。",
+      "after": "孩子刚才动了一下手指。"
+    },
+    {
+      "id": "n67865-1-6-1",
+      "before": "你一般哪天会来这儿？",
+      "after": "你通常星期几来这里？"
+    },
+    {
+      "id": "n67865-1-6-2",
+      "before": "我是在周二和周四来的。",
+      "after": "我周二和周四来。"
     }
   ],
   "scope": "Source compatibility; durable database behavior is tested separately in progress-tests.json."

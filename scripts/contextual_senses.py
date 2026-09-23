@@ -58,12 +58,20 @@ class Lexicon:
 
     def parts(self,lesson,line):
         edit=self.editorial.get(line['id'],{})
-        analysis=self.morphology[edit.get('sourceKo',line['ko'])]
-        line={**line,'ko':edit.get('ko',line['ko'])}
+        source_ko=edit.get('sourceKo',line['ko'])
+        target_ko=edit.get('ko',line['ko'])
+        analysis=self.morphology[source_ko]
+        analysis_tokens=analysis['tokens']
+        if source_ko!=target_ko and ''.join(source_ko.split())==''.join(target_ko.split()):
+            source_positions=[i for i,char in enumerate(source_ko) if not char.isspace()]
+            target_positions=[i for i,char in enumerate(target_ko) if not char.isspace()]
+            position_map=dict(zip(source_positions,target_positions))
+            analysis_tokens=[{**token,'start':position_map.get(token['start'],token['start'])} for token in analysis_tokens]
+        line={**line,'ko':target_ko}
         result=[]
         for span in re.finditer(r'\S+',line['ko']):
             tokens=[]
-            for original in analysis['tokens']:
+            for original in analysis_tokens:
                 if not span.start()<=original['start']<span.end():continue
                 t=dict(original)
                 if line['ko']=='그러게! 산에 단풍이 예쁘게 들었어.' and t['start']==16 and t['tag']=='VV':
