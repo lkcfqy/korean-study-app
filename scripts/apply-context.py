@@ -158,6 +158,8 @@ def main():
             lesson['day']=editorial[lesson['id']]['day']
         if editorial.get(lesson['id'],{}).get('title'):
             lesson['title']=editorial[lesson['id']]['title']
+        if editorial.get(lesson['id'],{}).get('scene'):
+            lesson['scene']=editorial[lesson['id']]['scene']
         if lesson['id'].startswith('c'):
             for line in lesson['lines']:
                 # Foundation translations and notes share the durable editor layer.

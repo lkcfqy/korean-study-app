@@ -1,5 +1,5 @@
 {
-  "baselineRef": "88be0eb3",
+  "baselineRef": "fbeba3fd",
   "lessons": 4006,
   "lineIdsAndOrderPreserved": 8156,
   "quizAnswerPositionsPreserved": true,
@@ -7,49 +7,19 @@
   "koreanTextCorrections": [],
   "chineseTextCorrections": [
     {
-      "id": "n74137-2-10-2",
-      "before": "嗯，因为爷爷喜欢收集画作呢。",
-      "after": "嗯，因为爷爷收藏画作嘛。"
+      "id": "n58114-1-3-1",
+      "before": "一共要来几个人？",
+      "after": "到底会来几个人呢？"
     },
     {
-      "id": "n22537-2-7-2",
-      "before": "是啊，夏天本来就是阳光灿烂的季节嘛。",
-      "after": "嗯，夏天本来就是太阳的季节嘛。"
+      "id": "n89906-14-19-2",
+      "before": "嗯，他说几天前已经向公司提交了辞呈。",
+      "after": "嗯，听说他几天前向公司递交了辞呈。"
     },
     {
-      "id": "n22784-1-7-1",
-      "before": "哥，给我一个零食吧。",
-      "after": "哥，给我一块饼干吧。"
-    },
-    {
-      "id": "n22784-1-7-2",
-      "before": "一个太少了，我给你三个吧。",
-      "after": "一块太少了，我给你三块吧。"
-    },
-    {
-      "id": "n66591-9-7-2",
-      "before": "那是因为遇到了好父母啦，没什么特别的。",
-      "after": "还不是因为父母条件好嘛。"
-    },
-    {
-      "id": "n73223-1-7-2",
-      "before": "我只生了三个儿子。",
-      "after": "我只有三个儿子。"
-    },
-    {
-      "id": "n30216-1-24-2",
-      "before": "不好。我只能喝一瓶啤酒左右。",
-      "after": "不太行，我只能喝一瓶啤酒左右。"
-    },
-    {
-      "id": "n31849-1-13-1",
-      "before": "我们一起去公园骑自行车吧？",
-      "after": "我们一起在公园骑自行车吧？"
-    },
-    {
-      "id": "n32791-1-15-1",
-      "before": "我们家孩子今年上了小学。",
-      "after": "我家孩子今年上小学了。"
+      "id": "n14014-1-7-1",
+      "before": "之后应该怎么联系您呢？",
+      "after": "下次我该通过什么方式联系您呢？"
     }
   ],
   "scope": "Source compatibility; durable database behavior is tested separately in progress-tests.json."
