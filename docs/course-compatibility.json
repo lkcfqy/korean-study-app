@@ -1,51 +1,45 @@
 {
-  "baselineRef": "1febcfc6",
+  "baselineRef": "2495b68f",
   "lessons": 4006,
   "lineIdsAndOrderPreserved": 8156,
   "quizAnswerPositionsPreserved": true,
   "speakerAssignmentsPreserved": true,
-  "koreanTextCorrections": [
-    {
-      "id": "n71111-3-5-1",
-      "before": "나는 학교 다닐 때 만날 일 등만 했어.",
-      "after": "나는 학교 다닐 때 만날 일등만 했어."
-    }
-  ],
+  "koreanTextCorrections": [],
   "chineseTextCorrections": [
     {
-      "id": "n71281-7-7-1",
-      "before": "我可把智秀骂了个够本呢！",
-      "after": "我把智秀骂了个痛快！"
+      "id": "n66247-4-8-2",
+      "before": "不用了。百货商场的商品价格太贵了。",
+      "after": "不用了。百货商场的东西很贵嘛。"
     },
     {
-      "id": "n62264-1-19-1",
-      "before": "请再等我十分钟吧。",
-      "after": "再等我十分钟吧。"
+      "id": "n17161-1-10-2",
+      "before": "不用了，我已经有固定的舞伴了。",
+      "after": "不了，我另有舞伴。"
     },
     {
-      "id": "n62264-1-19-2",
-      "before": "我会在约定的地点，你快点过来。",
-      "after": "我会在约好的地点等你，快点来。"
+      "id": "n70633-1-14-2",
+      "before": "我的生日是农历六月初十。",
+      "after": "嗯，我的生日是农历六月初十。"
     },
     {
-      "id": "n71111-3-5-2",
-      "before": "嗯，你当时真那么厉害？",
-      "after": "嗯，你当时真的总拿第一？"
+      "id": "n17863-1-3-1",
+      "before": "这里原本有的铅笔，你没看见吗？",
+      "after": "原先放在这里的那支铅笔，你没看见吗？"
     },
     {
-      "id": "n64376-5-8-1",
-      "before": "您不是经常去博物馆吗？",
-      "after": "听说您经常去博物馆？"
+      "id": "n17863-1-3-2",
+      "before": "啊，我刚才用了，然后放在你那边的书桌上了。",
+      "after": "啊，我刚才用了，放在那边你的书桌上了。"
     },
     {
-      "id": "n62270-1-9-2",
-      "before": "煮点拉面，用汤把饭拌了吃吧。",
-      "after": "煮点拉面，再把米饭泡进汤里吃吧。"
+      "id": "n30159-2-3-1",
+      "before": "妈妈，我没有需要帮忙的地方吗？",
+      "after": "妈妈，有什么我能帮忙的吗？"
     },
     {
-      "id": "n90911-2-8-1",
-      "before": "听说那家又生了个孩子，是男孩吗？还是女孩？",
-      "after": "听说那家生了第二个孩子，是儿子还是女儿？"
+      "id": "n30159-2-3-2",
+      "before": "把炸粉裹在虾身上吧。",
+      "after": "给虾裹上一层炸粉吧。"
     }
   ],
   "scope": "Source compatibility; durable database behavior is tested separately in progress-tests.json."
