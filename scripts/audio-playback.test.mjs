@@ -27,6 +27,13 @@ test('a newer word cancels an older pending play and ignores its late events',as
  old.resolve();await a;stale();assert.equal(f.states.at(-1).phase,'loading');assert.deepEqual(f.finished,[['old',false]]);
  current.resolve();await b;current.onended();assert.deepEqual(f.finished,[['old',false],['new',true]]);
 });
+test('active path follows a word-to-sentence switch so the sentence control can start immediately',async()=>{
+ const f=fixture();const word=f.controller.play('/word.mp3',1);const first=f.players[0];
+ first.resolve();await word;assert.equal(f.controller.activePath,'/word.mp3');
+ const sentence=f.controller.play('/sentence.mp3',1);const second=f.players[1];
+ assert.equal(first.pauses,1);assert.equal(f.controller.activePath,'/sentence.mp3');
+ second.resolve();await sentence;f.controller.stop();assert.equal(f.controller.activePath,null);
+});
 test('media error and rejected play promise cannot report completion twice',async()=>{
  const f=fixture();const result=f.controller.play('/missing.mp3',1,value=>f.finished.push(value));const p=f.players[0];
  p.onerror();p.reject();await result;assert.deepEqual(f.finished,[false]);assert.deepEqual(f.states.at(-1),{phase:'error',reason:'load'});

@@ -3,13 +3,14 @@ type Player = Pick<HTMLAudioElement,'play'|'pause'|'playbackRate'|'preservesPitc
 
 /** One active sound, one completion callback, and a bounded buffering wait. */
 export class AudioPlayback {
- private active:{player:Player;finish:(completed:boolean,reason?:PlaybackState['reason'])=>void}|null=null;
+ private active:{path:string;player:Player;finish:(completed:boolean,reason?:PlaybackState['reason'])=>void}|null=null;
  private notify:(state:PlaybackState)=>void;
  private factory:(path:string)=>Player;
  private timeoutMs:number;
  constructor(notify:(state:PlaybackState)=>void,factory:(path:string)=>Player=path=>new Audio(path),timeoutMs=20000){
   this.notify=notify;this.factory=factory;this.timeoutMs=timeoutMs;
  }
+ get activePath(){return this.active?.path??null;}
  stop(){
   if(this.active)this.active.finish(false);
   else this.notify({phase:'idle'});
@@ -35,7 +36,7 @@ export class AudioPlayback {
    if(deadline===undefined)deadline=setTimeout(()=>finish(false,'timeout'),this.timeoutMs);
   };
   const playing=()=>{if(!settled){clearDeadline();this.notify({phase:'playing'});}};
-  this.active={player,finish};
+  this.active={path,player,finish};
   player.playbackRate=rate;player.preservesPitch=true;
   player.onended=()=>finish(true);
   player.onerror=()=>finish(false,'load');

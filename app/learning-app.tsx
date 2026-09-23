@@ -113,6 +113,7 @@ export default function LearningApp({ signedIn, signInHref }: Props) {
   const [audioError, setAudioError] = useState("");
   const [playing, setPlaying] = useState(false);
   const [audioLoading, setAudioLoading] = useState(false);
+  const [activeAudioPath, setActiveAudioPath] = useState<string | null>(null);
   const [rate, setRate] = useState(1);
   const audio = useRef<AudioPlayback | null>(null);
   const [done, setDone] = useState(false);
@@ -129,6 +130,8 @@ export default function LearningApp({ signedIn, signInHref }: Props) {
     lessons.findIndex((l) => l.id === lessonId),
   );
   const line = lesson.lines[Math.min(cursor, lesson.lines.length - 1)];
+  const sentenceAudioActive =
+    (playing || audioLoading) && activeAudioPath === line.audio;
   const record = progress.rows.find((r) => r.lesson_id === lessonId);
   const isQuiz = cursor >= lesson.lines.length && !done;
   const practice = progress.rows.filter((r) => r.review_step < 0);
@@ -336,6 +339,7 @@ export default function LearningApp({ signedIn, signInHref }: Props) {
   ) => {
     if (!audio.current)
       audio.current = new AudioPlayback((state) => {
+        setActiveAudioPath(audio.current?.activePath ?? null);
         setPlaying(state.phase === "playing");
         setAudioLoading(state.phase === "loading");
         setAudioError(
@@ -928,27 +932,31 @@ export default function LearningApp({ signedIn, signInHref }: Props) {
                     <button
                       className="button"
                       onClick={() =>
-                        playing || audioLoading
+                        sentenceAudioActive
                           ? stopAudio()
                           : void play(line.audio)
                       }
                       aria-label={
-                        audioLoading
+                        sentenceAudioActive && audioLoading
                           ? "取消音频加载"
-                          : playing
+                          : sentenceAudioActive
                             ? "暂停语音"
                             : "播放 SunHi 原音"
                       }
                     >
-                      {audioLoading ? (
+                      {sentenceAudioActive && audioLoading ? (
                         <LoaderCircle size={18} className="spin" />
-                      ) : playing ? (
+                      ) : sentenceAudioActive ? (
                         <Pause size={18} />
                       ) : (
                         <Volume2 size={18} />
                       )}
                       <span>
-                        {audioLoading ? "加载中…" : playing ? "暂停" : "听原音"}
+                        {sentenceAudioActive && audioLoading
+                          ? "加载中…"
+                          : sentenceAudioActive
+                            ? "暂停"
+                            : "听原音"}
                       </span>
                     </button>
                     <button
