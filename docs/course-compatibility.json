@@ -1,5 +1,5 @@
 {
-  "baselineRef": "cf122207",
+  "baselineRef": "6c617010",
   "lessons": 4006,
   "lineIdsAndOrderPreserved": 8156,
   "quizAnswerPositionsPreserved": true,
@@ -7,39 +7,29 @@
   "koreanTextCorrections": [],
   "chineseTextCorrections": [
     {
-      "id": "n88353-11-8-2",
-      "before": "我主要在市区玩。",
-      "after": "我平时主要在市区活动。"
+      "id": "n44484-1-15-2",
+      "before": "因为刚做了运动，所以很热。",
+      "after": "刚运动过，觉得热，所以才流这么多汗。"
     },
     {
-      "id": "n66246-5-8-1",
-      "before": "金科长说要突然辞职了？",
-      "after": "听说金科长突然要辞职？"
+      "id": "n71216-1-2-1",
+      "before": "你怎么不说话了？",
+      "after": "您怎么不说话了？"
     },
     {
-      "id": "n66246-5-8-2",
-      "before": "嗯，好像是因为健康问题要辞职的。",
-      "after": "嗯，好像是因为健康问题要辞职。"
+      "id": "n58167-5-7-2",
+      "before": "从早上开始就一个顾客都没有呢。",
+      "after": "从早上到现在，一个顾客都没进店呢。"
     },
     {
-      "id": "n20269-1-13-1",
-      "before": "孩子长得真快啊。",
-      "after": "孩子长高了不少。"
+      "id": "n83150-1-8-2",
+      "before": "我们在学校门口的咖啡店见吧。",
+      "after": "我们在学校前面的咖啡店见吧。"
     },
     {
-      "id": "n66237-4-3-2",
-      "before": "大白天的喝什么酒啊？",
-      "after": "大白天的，我怎么会喝酒？"
-    },
-    {
-      "id": "n66234-8-4-2",
-      "before": "放在走廊一头的那个地方吧。",
-      "after": "放在走廊的一头吧。"
-    },
-    {
-      "id": "n69464-1-16-2",
-      "before": "因为刚才喊得太厉害，所以嗓子疼了。",
-      "after": "我喊得太多了，嗓子疼，所以声音才这样。"
+      "id": "n16445-1-6-2",
+      "before": "因为一直待在家里一个人，所以好无聊。",
+      "after": "因为一直一个人待在家里，所以觉得很无聊。"
     }
   ],
   "scope": "Source compatibility; durable database behavior is tested separately in progress-tests.json."
