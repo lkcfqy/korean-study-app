@@ -1,5 +1,5 @@
 {
-  "baselineRef": "cce2c66f",
+  "baselineRef": "89d5effe",
   "lessons": 4006,
   "lineIdsAndOrderPreserved": 8156,
   "quizAnswerPositionsPreserved": true,
@@ -7,24 +7,19 @@
   "koreanTextCorrections": [],
   "chineseTextCorrections": [
     {
-      "id": "n67806-1-10-1",
-      "before": "原来糖果本来只有九颗吗？",
-      "after": "原本就只有九颗糖吗？"
+      "id": "n41234-1-13-2",
+      "before": "我这一周被禁止外出，所以没法去外面。",
+      "after": "这周我被禁止外出，出不了门。"
     },
     {
-      "id": "n67806-1-10-2",
-      "before": "明明是十颗的，那颗去哪儿了啊？",
-      "after": "明明有十颗，一颗去哪儿了？"
+      "id": "n74103-14-7-2",
+      "before": "沿着那根柱子绕过去就能看到。",
+      "after": "绕过那根柱子，文具店就在那儿。"
     },
     {
-      "id": "n27368-1-16-2",
-      "before": "那我大概早上七点左右打电话叫你起床吧？",
-      "after": "那我早上七点左右打电话叫你起床，好吗？"
-    },
-    {
-      "id": "n60322-2-10-2",
-      "before": "嗯。已经送到修理厂了，今天应该就能取回来。",
-      "after": "嗯，车送去修理厂了，我今天就去取回来。"
+      "id": "n91699-1-7-1",
+      "before": "夏天也快要结束了。",
+      "after": "夏天也快过去了。"
     }
   ],
   "scope": "Source compatibility; durable database behavior is tested separately in progress-tests.json."
