@@ -1,5 +1,5 @@
 {
-  "baselineRef": "eb7919a5",
+  "baselineRef": "6d36b39d",
   "lessons": 4006,
   "lineIdsAndOrderPreserved": 8156,
   "quizAnswerPositionsPreserved": true,
@@ -7,39 +7,34 @@
   "koreanTextCorrections": [],
   "chineseTextCorrections": [
     {
-      "id": "n61169-1-3-2",
-      "before": "对。所以蔬菜的价格也会大幅上涨呢。",
-      "after": "对。听说因此蔬菜价格会涨很多。"
+      "id": "n62979-1-17-2",
+      "before": "昨天踢足球的时候摔倒了，才弄成的。",
+      "after": "昨天踢足球时摔倒弄伤的。"
     },
     {
-      "id": "n14284-2-7-1",
-      "before": "第三张专辑的销量怎么样？",
-      "after": "第三张专辑卖得好吗？"
+      "id": "n67701-1-13-2",
+      "before": "是啊，天气真的热得要命。",
+      "after": "是啊，天气真的又闷又热。"
     },
     {
-      "id": "n14284-2-7-2",
-      "before": "嗯，看起来比预期的还要好。",
-      "after": "嗯，似乎比预想中卖得好。"
+      "id": "n74105-1-9-1",
+      "before": "妈妈，我出去见朋友，一会儿回来。",
+      "after": "妈妈，我出去见个朋友就回来。"
     },
     {
-      "id": "n37070-1-11-1",
-      "before": "最近怎么心情这么不好啊？",
-      "after": "最近怎么脸色这么不好？"
+      "id": "n65049-3-6-1",
+      "before": "还没开始收拾搬家物品，可麻烦了。",
+      "after": "搬家的东西还没打包，麻烦大了。"
     },
     {
-      "id": "n67316-1-3-2",
-      "before": "谢谢。就连我看了都觉得非常惊讶。",
-      "after": "谢谢。我自己看了都觉得很惊讶。"
+      "id": "n62050-2-7-2",
+      "before": "说真的，智秀在谈恋爱这方面可真是个高手啊。",
+      "after": "总之，智秀在谈恋爱这方面真是个老手。"
     },
     {
-      "id": "n61076-8-6-1",
-      "before": "我们光明正大地打一架吧。",
-      "after": "和我光明正大地打一架吧。"
-    },
-    {
-      "id": "n61076-8-6-2",
-      "before": "好啊，那就来场痛快对决吧！",
-      "after": "好啊，那就公平地较量一场吧！"
+      "id": "n71538-1-8-2",
+      "before": "真的吗？不会只是谣言吧？我可不信。",
+      "after": "真的吗？该不会只是谣言吧？我实在难以相信。"
     }
   ],
   "scope": "Source compatibility; durable database behavior is tested separately in progress-tests.json."
