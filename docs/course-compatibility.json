@@ -1,25 +1,51 @@
 {
-  "baselineRef": "89d5effe",
+  "baselineRef": "1febcfc6",
   "lessons": 4006,
   "lineIdsAndOrderPreserved": 8156,
   "quizAnswerPositionsPreserved": true,
   "speakerAssignmentsPreserved": true,
-  "koreanTextCorrections": [],
+  "koreanTextCorrections": [
+    {
+      "id": "n71111-3-5-1",
+      "before": "나는 학교 다닐 때 만날 일 등만 했어.",
+      "after": "나는 학교 다닐 때 만날 일등만 했어."
+    }
+  ],
   "chineseTextCorrections": [
     {
-      "id": "n41234-1-13-2",
-      "before": "我这一周被禁止外出，所以没法去外面。",
-      "after": "这周我被禁止外出，出不了门。"
+      "id": "n71281-7-7-1",
+      "before": "我可把智秀骂了个够本呢！",
+      "after": "我把智秀骂了个痛快！"
     },
     {
-      "id": "n74103-14-7-2",
-      "before": "沿着那根柱子绕过去就能看到。",
-      "after": "绕过那根柱子，文具店就在那儿。"
+      "id": "n62264-1-19-1",
+      "before": "请再等我十分钟吧。",
+      "after": "再等我十分钟吧。"
     },
     {
-      "id": "n91699-1-7-1",
-      "before": "夏天也快要结束了。",
-      "after": "夏天也快过去了。"
+      "id": "n62264-1-19-2",
+      "before": "我会在约定的地点，你快点过来。",
+      "after": "我会在约好的地点等你，快点来。"
+    },
+    {
+      "id": "n71111-3-5-2",
+      "before": "嗯，你当时真那么厉害？",
+      "after": "嗯，你当时真的总拿第一？"
+    },
+    {
+      "id": "n64376-5-8-1",
+      "before": "您不是经常去博物馆吗？",
+      "after": "听说您经常去博物馆？"
+    },
+    {
+      "id": "n62270-1-9-2",
+      "before": "煮点拉面，用汤把饭拌了吃吧。",
+      "after": "煮点拉面，再把米饭泡进汤里吃吧。"
+    },
+    {
+      "id": "n90911-2-8-1",
+      "before": "听说那家又生了个孩子，是男孩吗？还是女孩？",
+      "after": "听说那家生了第二个孩子，是儿子还是女儿？"
     }
   ],
   "scope": "Source compatibility; durable database behavior is tested separately in progress-tests.json."

@@ -143951,9 +143951,14 @@
       "path": "/audio/8e8ab2dd0fda9062a140.mp3",
       "voice": "ko-KR-SunHiNeural",
       "bytes": 11232
+    },
+    "나는 학교 다닐 때 만날 일등만 했어.": {
+      "path": "/audio/0e854f5650715fa143b1.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 22896
     }
   },
   "audioListeningReview": "not performed by a human; automated coverage in docs/audio-transcription-tests.json",
-  "requiredTexts": 28745,
+  "requiredTexts": 28746,
   "failedTexts": []
 }
