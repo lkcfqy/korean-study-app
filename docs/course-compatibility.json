@@ -1,5 +1,5 @@
 {
-  "baselineRef": "34a5cf95",
+  "baselineRef": "cce2c66f",
   "lessons": 4006,
   "lineIdsAndOrderPreserved": 8156,
   "quizAnswerPositionsPreserved": true,
@@ -7,24 +7,24 @@
   "koreanTextCorrections": [],
   "chineseTextCorrections": [
     {
-      "id": "n17207-2-3-1",
-      "before": "约会地点你没忘吧？",
-      "after": "约好的见面地点你没忘吧？"
+      "id": "n67806-1-10-1",
+      "before": "原来糖果本来只有九颗吗？",
+      "after": "原本就只有九颗糖吗？"
     },
     {
-      "id": "n17207-2-3-2",
-      "before": "是的，我会在三点前直接去那里。",
-      "after": "记得，我会在三点前直接去那里。"
+      "id": "n67806-1-10-2",
+      "before": "明明是十颗的，那颗去哪儿了啊？",
+      "after": "明明有十颗，一颗去哪儿了？"
     },
     {
-      "id": "n63606-1-9-2",
-      "before": "我们队很可惜地输了，最终只获得了亚军。",
-      "after": "我们队惜败，最后只拿了亚军。"
+      "id": "n27368-1-16-2",
+      "before": "那我大概早上七点左右打电话叫你起床吧？",
+      "after": "那我早上七点左右打电话叫你起床，好吗？"
     },
     {
-      "id": "n70748-1-8-2",
-      "before": "我晚出生十分钟，所以我是小的。",
-      "after": "我晚出生了十分钟，所以我是年纪小的那个。"
+      "id": "n60322-2-10-2",
+      "before": "嗯。已经送到修理厂了，今天应该就能取回来。",
+      "after": "嗯，车送去修理厂了，我今天就去取回来。"
     }
   ],
   "scope": "Source compatibility; durable database behavior is tested separately in progress-tests.json."
