@@ -29,7 +29,8 @@ assert not manifest['failedTexts']
 assert manifest['voice']==baseline['voice']=='ko-KR-SunHiNeural'
 assert all(entries[text]==entry for text,entry in baseline['entries'].items()),'Existing audio must not be overwritten'
 for text,recipe in surface_inputs.items():
-    assert text not in baseline['entries'],'Surface repairs must preserve previous audio URLs and bytes'
+    # Earlier surface repairs may already be part of the selected baseline.
+    # The equality check above protects their URL and metadata byte-for-byte.
     assert entries[text]['inputText']==recipe['inputText']
     assert entries[text].get('contextClip')==recipe.get('contextClip')
 

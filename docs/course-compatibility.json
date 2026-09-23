@@ -1,40 +1,21 @@
 {
-  "baselineRef": "6d36b39d",
+  "baselineRef": "b7e16620",
   "lessons": 4006,
   "lineIdsAndOrderPreserved": 8156,
   "quizAnswerPositionsPreserved": true,
   "speakerAssignmentsPreserved": true,
-  "koreanTextCorrections": [],
+  "koreanTextCorrections": [
+    {
+      "id": "n93505-1-5-1",
+      "before": "열여덟, 열아홉, 스물, 스물 하나...",
+      "after": "열여덟, 열아홉, 스물, 스물하나..."
+    }
+  ],
   "chineseTextCorrections": [
     {
-      "id": "n62979-1-17-2",
-      "before": "昨天踢足球的时候摔倒了，才弄成的。",
-      "after": "昨天踢足球时摔倒弄伤的。"
-    },
-    {
-      "id": "n67701-1-13-2",
-      "before": "是啊，天气真的热得要命。",
-      "after": "是啊，天气真的又闷又热。"
-    },
-    {
-      "id": "n74105-1-9-1",
-      "before": "妈妈，我出去见朋友，一会儿回来。",
-      "after": "妈妈，我出去见个朋友就回来。"
-    },
-    {
-      "id": "n65049-3-6-1",
-      "before": "还没开始收拾搬家物品，可麻烦了。",
-      "after": "搬家的东西还没打包，麻烦大了。"
-    },
-    {
-      "id": "n62050-2-7-2",
-      "before": "说真的，智秀在谈恋爱这方面可真是个高手啊。",
-      "after": "总之，智秀在谈恋爱这方面真是个老手。"
-    },
-    {
-      "id": "n71538-1-8-2",
-      "before": "真的吗？不会只是谣言吧？我可不信。",
-      "after": "真的吗？该不会只是谣言吧？我实在难以相信。"
+      "id": "n66947-1-9-2",
+      "before": "我觉得好像有人在跟踪我们。",
+      "after": "因为我觉得好像有人跟着我们。"
     }
   ],
   "scope": "Source compatibility; durable database behavior is tested separately in progress-tests.json."

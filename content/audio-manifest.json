@@ -143956,6 +143956,16 @@
       "path": "/audio/0e854f5650715fa143b1.mp3",
       "voice": "ko-KR-SunHiNeural",
       "bytes": 22896
+    },
+    "스물하나": {
+      "path": "/audio/4f137d3cfcf2d87a6aed.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
+    },
+    "열여덟, 열아홉, 스물, 스물하나...": {
+      "path": "/audio/a480d7c725aacea43557.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 25200
     }
   },
   "audioListeningReview": "not performed by a human; automated coverage in docs/audio-transcription-tests.json",
