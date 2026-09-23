@@ -1,10 +1,21 @@
 {
-  "baselineRef": "72cea8ea",
+  "baselineRef": "ad1cf49a",
   "lessons": 4006,
   "lineIdsAndOrderPreserved": 8156,
   "quizAnswerPositionsPreserved": true,
   "speakerAssignmentsPreserved": true,
   "koreanTextCorrections": [],
-  "chineseTextCorrections": [],
+  "chineseTextCorrections": [
+    {
+      "id": "n89184-3-7-2",
+      "before": "拍照的时候手在发抖吗？",
+      "after": "拍照的时候是不是手抖了？"
+    },
+    {
+      "id": "n18661-2-7-2",
+      "before": "我的腰一直很疼。",
+      "after": "腰这一带老是疼。"
+    }
+  ],
   "scope": "Source compatibility; durable database behavior is tested separately in progress-tests.json."
 }
