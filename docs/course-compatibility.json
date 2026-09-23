@@ -1,26 +1,10 @@
 {
-  "baselineRef": "1b98cf61",
+  "baselineRef": "72cea8ea",
   "lessons": 4006,
   "lineIdsAndOrderPreserved": 8156,
   "quizAnswerPositionsPreserved": true,
   "speakerAssignmentsPreserved": true,
   "koreanTextCorrections": [],
-  "chineseTextCorrections": [
-    {
-      "id": "n72407-1-8-2",
-      "before": "我住在学校门口的寄宿屋。",
-      "after": "我住在学校前面的寄宿处。"
-    },
-    {
-      "id": "n25365-1-7-1",
-      "before": "我们要去打羽毛球吗？",
-      "after": "我们要不要去打羽毛球？"
-    },
-    {
-      "id": "n58276-2-3-1",
-      "before": "这双鞋的鞋跟太高了。",
-      "after": "这双皮鞋的鞋跟太高了。"
-    }
-  ],
+  "chineseTextCorrections": [],
   "scope": "Source compatibility; durable database behavior is tested separately in progress-tests.json."
 }
