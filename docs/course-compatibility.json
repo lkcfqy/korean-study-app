@@ -1,5 +1,5 @@
 {
-  "baselineRef": "af276a39",
+  "baselineRef": "bdb1f43d",
   "lessons": 4006,
   "lineIdsAndOrderPreserved": 8156,
   "quizAnswerPositionsPreserved": true,
@@ -7,24 +7,19 @@
   "koreanTextCorrections": [],
   "chineseTextCorrections": [
     {
-      "id": "n29750-3-6-2",
-      "before": "现在是非旺季，价格不高哦。",
-      "after": "最近是淡季，机票不贵。"
+      "id": "n66268-6-9-2",
+      "before": "好啊。我们也带便当一起去吧。",
+      "after": "好啊，我们也准备便当带去吧。"
     },
     {
-      "id": "n69579-4-6-1",
-      "before": "那位画家的画作真的很有个性。",
-      "after": "画家的画作真有个性。"
+      "id": "n62255-4-10-1",
+      "before": "请告诉我去地铁站的路线吧。",
+      "after": "请告诉我去地铁站怎么走。"
     },
     {
-      "id": "n69579-4-6-2",
-      "before": "是的，他的独特风格在画作中展现得淋漓尽致。",
-      "after": "是的，他的个性在画中鲜明地体现了出来。"
-    },
-    {
-      "id": "n70811-1-8-1",
-      "before": "听起来味道真不错呢！",
-      "after": "听这声音就觉得很好吃呢！"
+      "id": "n66248-2-8-2",
+      "before": "剩下的明天再试着卖掉吧。",
+      "after": "剩下的明天再卖吧。"
     }
   ],
   "scope": "Source compatibility; durable database behavior is tested separately in progress-tests.json."
