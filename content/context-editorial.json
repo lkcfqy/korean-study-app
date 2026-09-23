@@ -6374,6 +6374,16 @@
             "senseId": "20"
           }
         }
+      },
+      "2": {
+        "choices": {
+          "0": {
+            "entryId": "62210",
+            "senseId": "1"
+          }
+        },
+        "meaning": "长出（胡子）",
+        "lexicalMeaning": "长出"
       }
     }
   },
@@ -7635,6 +7645,16 @@
         },
         "rootItem": 0,
         "lexicalMeaning": "做不了、没能做（本句所说的动作未能实现）"
+      },
+      "6": {
+        "choices": {
+          "0": {
+            "entryId": "27260",
+            "senseId": "2"
+          }
+        },
+        "meaning": "一句话也……",
+        "lexicalMeaning": "话、言语"
       }
     }
   },
@@ -8400,6 +8420,10 @@
             "senseId": "1"
           }
         }
+      },
+      "1": {
+        "meaning": "第一（第一产业）",
+        "lexicalMeaning": "第一（第一产业）"
       }
     }
   },
@@ -8448,7 +8472,8 @@
           }
         }
       }
-    }
+    },
+    "zh": "丢的那张牌是什么样子的？"
   },
   "n82623-4-7-1": {
     "parts": {
@@ -9295,6 +9320,16 @@
         },
         "lexicalMeaning": "是，好的（礼貌的肯定应答）",
         "meaning": "是，好的（礼貌的肯定应答）"
+      },
+      "1": {
+        "choices": {
+          "0": {
+            "entryId": "44506",
+            "senseId": "1"
+          }
+        },
+        "meaning": "我（自称，礼貌）",
+        "lexicalMeaning": "我（自称，礼貌）"
       }
     }
   },
@@ -9476,7 +9511,8 @@
         "lexicalMeaning": "一、一个（修饰后面的量词或名词）",
         "meaning": "一、一个（修饰后面的量词或名词）"
       }
-    }
+    },
+    "zh": "暑热的高峰已经过去了呢。"
   },
   "n61987-1-8-1": {
     "parts": {
@@ -16612,6 +16648,16 @@
           "entryId": "62171",
           "senseId": "1"
         }
+      },
+      "5": {
+        "choices": {
+          "0": {
+            "entryId": "62835",
+            "senseId": "4"
+          }
+        },
+        "meaning": "前面所说的状态（-ㄴ 것 같다）",
+        "lexicalMeaning": "前面所说的行为、状态或事情"
       }
     }
   },
@@ -17181,6 +17227,16 @@
             "senseId": "1"
           }
         }
+      },
+      "1": {
+        "choices": {
+          "0": {
+            "entryId": "26833",
+            "senseId": "3"
+          }
+        },
+        "meaning": "信号差、接收不清",
+        "lexicalMeaning": "差得远（감이 멀다：信号差）"
       }
     }
   },
@@ -17313,6 +17369,686 @@
       "5": {
         "meaning": "替人做（-아/어 주다）",
         "explanation": "주다 与前面的 대신해 合用，表示“替人做”；-지＋는 用于否定前的对比或强调。"
+      }
+    }
+  },
+  "n92526-1-9-1": {
+    "zh": "寄给我的快递还没到吗？",
+    "parts": {
+      "1": {
+        "choices": {
+          "0": {
+            "entryId": "88648",
+            "senseId": "8"
+          }
+        },
+        "meaning": "寄给我、以我为收件人",
+        "lexicalMeaning": "寄给某人的、以某人为收件人的（-의 앞으로）"
+      }
+    }
+  },
+  "n67288-1-11-1": {
+    "zh": "你怎么老是惹人不高兴？"
+  },
+  "n84092-1-7-2": {
+    "zh": "是的。他每周日早上都会照例出门。"
+  },
+  "n70875-1-11-1": {
+    "zh": "我觉得，有一个交情深厚的朋友，就不用羡慕有十个亲戚的人了。"
+  },
+  "n15644-1-9-2": {
+    "zh": "他刚才说有点事，就偷偷溜出教室了。"
+  },
+  "n38216-3-4-1": {
+    "zh": "你在看什么照片，看了这么久？"
+  },
+  "n58694-1-8-1": {
+    "zh": "今天相亲见的那个男人怎么样？"
+  },
+  "n17394-1-6-1": {
+    "zh": "智秀最爱唱的是哪首歌？"
+  },
+  "n60073-2-6-2": {
+    "zh": "那就真够冤枉、够憋屈的了。"
+  },
+  "n87078-2-7-2": {
+    "zh": "我们先学习握弓的姿势。",
+    "parts": {
+      "2": {
+        "choices": {
+          "0": {
+            "entryId": "70378",
+            "senseId": "1"
+          }
+        },
+        "meaning": "握住（弓）",
+        "lexicalMeaning": "用手握住"
+      }
+    }
+  },
+  "n50949-1-7-1": {
+    "parts": {
+      "4": {
+        "choices": {
+          "0": {
+            "entryId": "14630",
+            "senseId": "1"
+          }
+        },
+        "meaning": "吹干",
+        "lexicalMeaning": "弄干、吹干（头发）"
+      }
+    }
+  },
+  "n77276-1-10-2": {
+    "parts": {
+      "3": {
+        "choices": {
+          "0": {
+            "entryId": "49419",
+            "senseId": "1"
+          }
+        },
+        "meaning": "买吧",
+        "lexicalMeaning": "买、购买"
+      }
+    }
+  },
+  "n84205-2-7-1": {
+    "parts": {
+      "3": {
+        "choices": {
+          "0": {
+            "entryId": "66883",
+            "senseId": "1"
+          }
+        },
+        "meaning": "肉、脂肪",
+        "lexicalMeaning": "肉、脂肪（살이 찌다：长胖）"
+      },
+      "5": {
+        "choices": {
+          "0": {
+            "entryId": "62835",
+            "senseId": "4"
+          }
+        },
+        "meaning": "前面所说的状态（-ㄴ 것 같다）",
+        "lexicalMeaning": "前面所说的行为、状态或事情"
+      }
+    }
+  },
+  "n72135-1-12-1": {
+    "parts": {
+      "2": {
+        "choices": {
+          "0": {
+            "entryId": "81920",
+            "senseId": "1"
+          }
+        },
+        "meaning": "相当、颇为",
+        "lexicalMeaning": "相当、颇为"
+      }
+    }
+  },
+  "n15398-1-10-2": {
+    "parts": {
+      "2": {
+        "choices": {
+          "0": {
+            "entryId": "15617",
+            "senseId": "1"
+          }
+        },
+        "meaning": "人数",
+        "lexicalMeaning": "数量、人数"
+      }
+    }
+  },
+  "n15906-2-9-1": {
+    "parts": {
+      "1": {
+        "choices": {
+          "0": {
+            "entryId": "58176",
+            "senseId": "1"
+          }
+        },
+        "meaning": "全、都",
+        "lexicalMeaning": "全、都"
+      }
+    }
+  },
+  "n15906-2-9-2": {
+    "parts": {
+      "6": {
+        "choices": {
+          "0": {
+            "entryId": "58176",
+            "senseId": "1"
+          }
+        },
+        "meaning": "完全",
+        "lexicalMeaning": "全、完全"
+      },
+      "7": {
+        "choices": {
+          "0": {
+            "entryId": "71372",
+            "senseId": "1"
+          }
+        },
+        "meaning": "不",
+        "lexicalMeaning": "不"
+      }
+    }
+  },
+  "n87352-1-9-2": {
+    "parts": {
+      "1": {
+        "choices": {
+          "0": {
+            "entryId": "37227",
+            "senseId": "2"
+          }
+        },
+        "meaning": "充满（确信）",
+        "lexicalMeaning": "充满、饱含（확신에 차다：充满信心）"
+      }
+    }
+  },
+  "n25039-1-8-1": {
+    "parts": {
+      "6": {
+        "choices": {
+          "0": {
+            "entryId": "67470",
+            "senseId": "9"
+          }
+        },
+        "meaning": "放在重点上、注重",
+        "lexicalMeaning": "放在重点上（중점을 두다：注重）"
+      }
+    }
+  },
+  "n71908-1-9-1": {
+    "parts": {
+      "6": {
+        "choices": {
+          "0": {
+            "entryId": "74103",
+            "senseId": "8"
+          }
+        },
+        "meaning": "回去",
+        "lexicalMeaning": "返回、回去"
+      },
+      "7": {
+        "choices": {
+          "0": {
+            "entryId": "62835",
+            "senseId": "4"
+          }
+        },
+        "meaning": "这件事（것 + 이）",
+        "lexicalMeaning": "前面所说的行为、状态或事情"
+      }
+    }
+  },
+  "n28582-1-7-2": {
+    "parts": {
+      "0": {
+        "choices": {
+          "0": {
+            "entryId": "66305",
+            "senseId": "1"
+          }
+        },
+        "meaning": "种地",
+        "lexicalMeaning": "农事、种地"
+      }
+    }
+  },
+  "n40387-1-9-2": {
+    "parts": {
+      "0": {
+        "choices": {
+          "0": {
+            "entryId": "79033",
+            "senseId": "1"
+          }
+        },
+        "meaning": "好的",
+        "lexicalMeaning": "好、令人满意"
+      }
+    }
+  },
+  "n57512-3-7-1": {
+    "parts": {
+      "2": {
+        "choices": {
+          "0": {
+            "entryId": "62078",
+            "senseId": "1"
+          }
+        },
+        "meaning": "和谁",
+        "lexicalMeaning": "谁"
+      }
+    }
+  },
+  "n62772-1-16-1": {
+    "parts": {
+      "1": {
+        "choices": {
+          "0": {
+            "entryId": "73278",
+            "senseId": "1"
+          }
+        },
+        "meaning": "一",
+        "lexicalMeaning": "一"
+      }
+    }
+  },
+  "n46803-1-7-2": {
+    "parts": {
+      "1": {
+        "choices": {
+          "0": {
+            "entryId": "58272",
+            "senseId": "1"
+          }
+        },
+        "meaning": "给家里人吃",
+        "lexicalMeaning": "吃"
+      }
+    }
+  },
+  "n28558-1-8-2": {
+    "parts": {
+      "3": {
+        "choices": {
+          "0": {
+            "entryId": "60319",
+            "senseId": "1"
+          }
+        },
+        "meaning": "无论哪里",
+        "lexicalMeaning": "哪里（-든：无论）"
+      }
+    }
+  },
+  "n62742-3-7-2": {
+    "parts": {
+      "4": {
+        "choices": {
+          "0": {
+            "entryId": "62076",
+            "senseId": "8"
+          }
+        },
+        "meaning": "好像、似乎",
+        "lexicalMeaning": "好像、可能"
+      }
+    }
+  },
+  "n23869-1-9-1": {
+    "parts": {
+      "6": {
+        "choices": {
+          "0": {
+            "entryId": "68797",
+            "senseId": "1"
+          }
+        },
+        "meaning": "有",
+        "lexicalMeaning": "有、存在"
+      }
+    }
+  },
+  "n23869-1-9-2": {
+    "parts": {
+      "5": {
+        "choices": {
+          "0": {
+            "entryId": "73277",
+            "senseId": "1"
+          }
+        },
+        "meaning": "做过的",
+        "lexicalMeaning": "做、进行"
+      }
+    }
+  },
+  "n83085-1-6-1": {
+    "parts": {
+      "6": {
+        "choices": {
+          "0": {
+            "entryId": "89858",
+            "senseId": "16"
+          }
+        },
+        "meaning": "会给别人添麻烦",
+        "lexicalMeaning": "造成某种状态（폐가 되다：给人添麻烦）"
+      }
+    }
+  },
+  "n14083-1-10-1": {
+    "parts": {
+      "1": {
+        "choices": {
+          "0": {
+            "entryId": "17301",
+            "senseId": "2"
+          }
+        },
+        "meaning": "从以前、从前",
+        "lexicalMeaning": "以前、之前"
+      }
+    }
+  },
+  "n63256-1-9-1": {
+    "parts": {
+      "5": {
+        "choices": {
+          "0": {
+            "entryId": "61190",
+            "senseId": "19"
+          }
+        },
+        "meaning": "排便（敬语询问）",
+        "lexicalMeaning": "排便（대변을 보다）"
+      }
+    }
+  },
+  "n69343-1-10-1": {
+    "parts": {
+      "1": {
+        "choices": {
+          "0": {
+            "entryId": "17869",
+            "senseId": "1"
+          }
+        },
+        "meaning": "这样的",
+        "lexicalMeaning": "这样的"
+      }
+    }
+  },
+  "n25384-1-11-2": {
+    "parts": {
+      "3": {
+        "choices": {
+          "0": {
+            "entryId": "89858",
+            "senseId": "12"
+          }
+        },
+        "meaning": "得到供应、实现",
+        "lexicalMeaning": "形成、实现（공급이 되다：得到供应）"
+      }
+    }
+  },
+  "n71473-1-7-1": {
+    "parts": {
+      "4": {
+        "choices": {
+          "0": {
+            "entryId": "27500",
+            "senseId": "1"
+          }
+        },
+        "meaning": "去的话",
+        "lexicalMeaning": "去、前往"
+      }
+    }
+  },
+  "n14094-1-7-1": {
+    "parts": {
+      "3": {
+        "choices": {
+          "0": {
+            "entryId": "70828",
+            "senseId": "1"
+          }
+        },
+        "meaning": "专业",
+        "lexicalMeaning": "专业、主修"
+      }
+    }
+  },
+  "n82239-4-6-2": {
+    "parts": {
+      "2": {
+        "choices": {
+          "0": {
+            "entryId": "71365",
+            "senseId": "1"
+          }
+        },
+        "meaning": "只是踢了一下",
+        "lexicalMeaning": "踢"
+      }
+    }
+  },
+  "n84998-2-7-1": {
+    "parts": {
+      "6": {
+        "choices": {
+          "0": {
+            "entryId": "65528",
+            "senseId": "13"
+          }
+        },
+        "meaning": "搭话",
+        "lexicalMeaning": "主动搭话（말을 걸다）"
+      }
+    }
+  },
+  "n73914-2-7-2": {
+    "parts": {
+      "5": {
+        "choices": {
+          "0": {
+            "entryId": "71285",
+            "senseId": "6"
+          }
+        },
+        "meaning": "在意、费心",
+        "lexicalMeaning": "在意、费心（신경을 쓰다）"
+      }
+    }
+  },
+  "n79657-1-9-1": {
+    "parts": {
+      "9": {
+        "choices": {
+          "0": {
+            "entryId": "62210",
+            "senseId": "16"
+          }
+        },
+        "meaning": "发出（声音）",
+        "lexicalMeaning": "发出声音"
+      }
+    }
+  },
+  "n28460-1-12-1": {
+    "parts": {
+      "5": {
+        "choices": {
+          "0": {
+            "entryId": "62210",
+            "senseId": "16"
+          }
+        },
+        "meaning": "散发（气味）",
+        "lexicalMeaning": "散发气味"
+      }
+    }
+  },
+  "n85872-1-13-1": {
+    "parts": {
+      "2": {
+        "choices": {
+          "0": {
+            "entryId": "27260",
+            "senseId": "2"
+          }
+        },
+        "meaning": "话（말을 듣다：听话）",
+        "lexicalMeaning": "话、言语"
+      }
+    }
+  },
+  "n62410-4-6-2": {
+    "parts": {
+      "1": {
+        "choices": {
+          "0": {
+            "entryId": "27260",
+            "senseId": "2"
+          }
+        },
+        "meaning": "医生的话",
+        "lexicalMeaning": "话、言语"
+      }
+    }
+  },
+  "n57558-1-8-1": {
+    "parts": {
+      "2": {
+        "choices": {
+          "0": {
+            "entryId": "66580",
+            "senseId": "1"
+          }
+        },
+        "meaning": "再、进一步（더 이상）",
+        "lexicalMeaning": "再、进一步（더 이상）"
+      }
+    }
+  },
+  "n62662-1-12-2": {
+    "parts": {
+      "2": {
+        "choices": {
+          "0": {
+            "entryId": "60281",
+            "senseId": "2"
+          }
+        },
+        "meaning": "上涨了",
+        "lexicalMeaning": "上涨、增多（河水）"
+      }
+    }
+  },
+  "n24080-1-7-2": {
+    "parts": {
+      "2": {
+        "choices": {
+          "0": {
+            "entryId": "62478",
+            "senseId": "1"
+          }
+        },
+        "meaning": "吃错、误食",
+        "lexicalMeaning": "错误地（잘못 먹다：吃错、误食）"
+      }
+    }
+  },
+  "n24944-1-8-2": {
+    "parts": {
+      "2": {
+        "meaning": "出现、有（洞）",
+        "lexicalMeaning": "出现（洞或伤口等）"
+      }
+    }
+  },
+  "n24543-1-14-1": {
+    "parts": {
+      "1": {
+        "meaning": "你的",
+        "explanation": "네 是 너의（你的）的缩略形式；这里修饰后面的 글。"
+      }
+    }
+  },
+  "n23193-2-8-1": {
+    "parts": {
+      "1": {
+        "meaning": "心思、心神",
+        "lexicalMeaning": "心思、心神（신경 쓰다：用心、费心）"
+      }
+    }
+  },
+  "n27858-1-11-2": {
+    "parts": {
+      "5": {
+        "meaning": "功夫、精力",
+        "lexicalMeaning": "付出的努力、功夫（공을 들이다：下功夫）"
+      }
+    }
+  },
+  "n57452-1-7-2": {
+    "parts": {
+      "3": {
+        "meaning": "开车前往",
+        "lexicalMeaning": "开车前往（这里指把卡车开去）"
+      }
+    }
+  },
+  "n87741-1-7-2": {
+    "parts": {
+      "2": {
+        "meaning": "快速浏览",
+        "lexicalMeaning": "从头到尾快速浏览"
+      }
+    }
+  },
+  "n62343-1-8-1": {
+    "parts": {
+      "0": {
+        "meaning": "捉人者",
+        "lexicalMeaning": "游戏里负责抓人的人"
+      }
+    }
+  },
+  "n72473-1-9-1": {
+    "parts": {
+      "3": {
+        "meaning": "句子",
+        "lexicalMeaning": "句子"
+      }
+    }
+  },
+  "n14649-1-9-1": {
+    "parts": {
+      "0": {
+        "meaning": "一时忘记了",
+        "lexicalMeaning": "忘记、疏忽（깜박하다）"
+      }
+    }
+  },
+  "n24885-1-10-1": {
+    "parts": {
+      "2": {
+        "meaning": "窗户",
+        "lexicalMeaning": "窗户"
+      }
+    }
+  },
+  "n78118-1-8-2": {
+    "parts": {
+      "2": {
+        "meaning": "闲聊的话",
+        "lexicalMeaning": "闲话、聊天（수다를 떨다：闲聊）"
+      },
+      "3": {
+        "meaning": "闲聊",
+        "lexicalMeaning": "闲聊（수다를 떨다）"
       }
     }
   }

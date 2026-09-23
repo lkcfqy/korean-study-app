@@ -143921,9 +143921,14 @@
       "path": "/audio/7b403e1db1aaddf3cb44.mp3",
       "voice": "ko-KR-SunHiNeural",
       "bytes": 11952
+    },
+    "붇다": {
+      "path": "/audio/170d9e905dbc1eadb86f.mp3",
+      "voice": "ko-KR-SunHiNeural",
+      "bytes": 11232
     }
   },
   "audioListeningReview": "not performed by a human; automated coverage in docs/audio-transcription-tests.json",
-  "requiredTexts": 28743,
+  "requiredTexts": 28744,
   "failedTexts": []
 }
