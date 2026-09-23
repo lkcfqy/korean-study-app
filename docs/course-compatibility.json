@@ -1,5 +1,5 @@
 {
-  "baselineRef": "770f69b5",
+  "baselineRef": "af276a39",
   "lessons": 4006,
   "lineIdsAndOrderPreserved": 8156,
   "quizAnswerPositionsPreserved": true,
@@ -7,19 +7,24 @@
   "koreanTextCorrections": [],
   "chineseTextCorrections": [
     {
-      "id": "n60205-1-7-1",
-      "before": "我们干脆吃点简餐吧？",
-      "after": "我们就简单吃点韩式小吃吧？"
+      "id": "n29750-3-6-2",
+      "before": "现在是非旺季，价格不高哦。",
+      "after": "最近是淡季，机票不贵。"
     },
     {
-      "id": "n60205-1-7-2",
-      "before": "好啊！那我们要吃炒年糕和拉面吗？",
-      "after": "好啊！那我们吃炒年糕和拉面怎么样？"
+      "id": "n69579-4-6-1",
+      "before": "那位画家的画作真的很有个性。",
+      "after": "画家的画作真有个性。"
     },
     {
-      "id": "n73232-1-7-1",
-      "before": "买什么礼物送给女朋友的生日比较好呢？",
-      "after": "女朋友生日送什么礼物好呢？"
+      "id": "n69579-4-6-2",
+      "before": "是的，他的独特风格在画作中展现得淋漓尽致。",
+      "after": "是的，他的个性在画中鲜明地体现了出来。"
+    },
+    {
+      "id": "n70811-1-8-1",
+      "before": "听起来味道真不错呢！",
+      "after": "听这声音就觉得很好吃呢！"
     }
   ],
   "scope": "Source compatibility; durable database behavior is tested separately in progress-tests.json."
