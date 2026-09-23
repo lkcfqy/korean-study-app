@@ -1,41 +1,30 @@
 {
-  "baselineRef": "b5013b27",
+  "baselineRef": "4b50d06a",
   "lessons": 4006,
   "lineIdsAndOrderPreserved": 8156,
   "quizAnswerPositionsPreserved": true,
   "speakerAssignmentsPreserved": true,
-  "koreanTextCorrections": [
-    {
-      "id": "n26846-2-10-2",
-      "before": "아니, 지나치다 한두 번 봤어.",
-      "after": "아니, 지나치다가 한두 번 봤어."
-    }
-  ],
+  "koreanTextCorrections": [],
   "chineseTextCorrections": [
     {
-      "id": "n70717-1-2-1",
-      "before": "礼物喜欢吗？",
-      "after": "喜欢这个礼物吗？"
+      "id": "n62517-1-15-1",
+      "before": "从家里到学校是怎么来的？",
+      "after": "你从家到学校怎么来？"
     },
     {
-      "id": "n62296-1-7-2",
-      "before": "我正在洗澡。",
-      "after": "我那会儿正在洗澡。"
+      "id": "n44487-1-24-1",
+      "before": "您的家人都是谁呢？",
+      "after": "您家里有哪些人？"
     },
     {
-      "id": "n26802-2-7-1",
-      "before": "我马上就到站了，您请坐这儿吧。",
-      "after": "我马上就下车了，您坐这儿吧。"
+      "id": "n65570-1-8-2",
+      "before": "因为是不用穿的衣服，所以打算扔掉。",
+      "after": "这些衣服不穿了，所以打算扔掉。"
     },
     {
-      "id": "n89595-2-17-1",
-      "before": "截止日期是什么时候呢？",
-      "after": "截止到什么时候？"
-    },
-    {
-      "id": "n89595-2-17-2",
-      "before": "从开始日期起算，共十天。",
-      "after": "从开始日期起，期限是十天。"
+      "id": "n62271-1-11-1",
+      "before": "从昨天开始我就一直肚子疼。",
+      "after": "从昨天起肚子就老是疼。"
     }
   ],
   "scope": "Source compatibility; durable database behavior is tested separately in progress-tests.json."
