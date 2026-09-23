@@ -1,61 +1,55 @@
 {
-  "baselineRef": "9e871d53",
+  "baselineRef": "d5b62865",
   "lessons": 4006,
   "lineIdsAndOrderPreserved": 8156,
   "quizAnswerPositionsPreserved": true,
   "speakerAssignmentsPreserved": true,
-  "koreanTextCorrections": [
-    {
-      "id": "n30199-1-10-2",
-      "before": "어머니가 지금 부엌에서 요리를 하고  계시거든.",
-      "after": "어머니가 지금 부엌에서 요리를 하고 계시거든."
-    },
-    {
-      "id": "n62885-1-9-2",
-      "before": "지금 없는데요. 십분 후에 다시 전화 주세요.",
-      "after": "지금 없는데요. 십 분 후에 다시 전화 주세요."
-    }
-  ],
+  "koreanTextCorrections": [],
   "chineseTextCorrections": [
     {
-      "id": "n56257-1-3-1",
-      "before": "对不起，车太堵了，所以迟到了。",
-      "after": "对不起，路上堵车，我来晚了。"
+      "id": "n59725-2-7-1",
+      "before": "我们是姐妹五个。",
+      "after": "我们家有五个孩子，全是女儿。"
     },
     {
-      "id": "n20195-1-28-1",
-      "before": "你刚听的歌怎么样？",
-      "after": "刚才听的那首歌怎么样？"
+      "id": "n59725-2-7-2",
+      "before": "哇，你爸妈真是有好多女儿啊。",
+      "after": "哇，你爸妈可真是“女儿富翁”啊。"
     },
     {
-      "id": "c06-4",
-      "before": "那我们一起去吗？",
-      "after": "那我们一起去，好吗？"
+      "id": "n16595-1-8-1",
+      "before": "买什么礼物送给妈妈的生日比较好呢？",
+      "after": "妈妈生日送什么礼物好呢？"
     },
     {
-      "id": "n30199-1-10-1",
-      "before": "哪里有这么好闻的味道啊？",
-      "after": "哪儿飘来这么香的味道？"
+      "id": "n16595-1-8-2",
+      "before": "我觉得化妆品应该会很合适。",
+      "after": "我觉得化妆品挺合适的。"
     },
     {
-      "id": "n62256-1-11-2",
-      "before": "她说长大后想成为歌手。",
-      "after": "听说智秀的梦想是长大后当歌手。"
+      "id": "n26148-1-9-1",
+      "before": "爸爸，您出门路上注意安全。",
+      "after": "爸爸，您路上小心。"
     },
     {
-      "id": "n58166-1-9-1",
-      "before": "孩子刚才动了动手指哦。",
-      "after": "孩子刚才动了一下手指。"
+      "id": "n57277-1-10-1",
+      "before": "我们的孩子很喜欢画画。",
+      "after": "我家孩子很喜欢画画。"
     },
     {
-      "id": "n67865-1-6-1",
-      "before": "你一般哪天会来这儿？",
-      "after": "你通常星期几来这里？"
+      "id": "n57277-1-10-2",
+      "before": "说不定将来能成为画家呢。",
+      "after": "将来可能会成为画家呢。"
     },
     {
-      "id": "n67865-1-6-2",
-      "before": "我是在周二和周四来的。",
-      "after": "我周二和周四来。"
+      "id": "n66231-4-2-2",
+      "before": "嗯，我正好也丢了，正在找呢。",
+      "after": "嗯，正好钱包不见了，我一直在找呢。"
+    },
+    {
+      "id": "n67078-1-8-2",
+      "before": "我和朋友们喝了一阵酒，大概十二点左右回家的。",
+      "after": "和朋友小酌了一下，大约十二点回来的。"
     }
   ],
   "scope": "Source compatibility; durable database behavior is tested separately in progress-tests.json."
